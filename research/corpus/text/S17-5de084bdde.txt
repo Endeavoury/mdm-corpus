@@ -1,0 +1,433 @@
+                                                                                Forum Standaardisatie
+
+                                                                                Wilhelmina van Pruisenweg 52
+                                                                                2595 AN Den Haag
+
+                                                                                Postbus 96810
+                                                                                2509 JE Den Haag
+
+                                                                                www.forumstandaardisatie.nl
+
+
+
+
+FORUM STANDAARDISATIE
+
+Betreft:               Intake-advies voor Geo-standaarden
+Datum:                 22 mei 2014                        Versie         1.0
+Bijlagen:
+                                                                                Bijlagen: -
+
+
+
+
+Advies
+Conclusie:
+Het Forum Standaardisatie wordt geadviseerd om de aangemelde nieuwe
+versies van de Geo-standaarden op te nemen in de procedure voor opname
+op de lijst van ‘pas toe of leg uit’.
+
+Twee standaarden zijn als nieuwe versie aangemeld, namelijk:
+    Nederlands profiel op ISO 19115 voor Geografie, versie 1.3
+      (aanmeldformulier: ‘metadata standaard voor geografie’)
+    Nederlands metadata profiel op ISO 19119 voor services, 1.2
+      (aanmeldformulier: ‘metadata voor services’)
+
+Daarnaast is een aanvraag gedaan voor ‘uitstekend beheer’, ook voor de
+overige set van standaarden. Getoetst zal worden of uitstekend beheer
+voor Geonovum van toepassing is.
+
+Aangezien het gaat om kleine wijzigingen en hiervoor al een uitvoerige
+consultatie is uitgevoerd, wordt in overweging gegeven om voor een
+lichtere toetsing te kiezen en de focus te leggen op het toetsen van
+uitstekend beheer. Het advies is om aan te sluiten bij de beheerstructuur
+van Geonovum en individueel enkele stakeholder en betrokken te
+interviewen en geen separate expertbijeenkomst te organiseren.
+
+Korte toelichting:
+De standaarden voldoen aan de criteria voor inbehandelname en leden van
+het GI-beraad, het beraad voor de Geo-Informatie, ondersteunen de
+aanmelding.
+
+De standaard heeft een duidelijke usecase binnen de (semi-)publieke
+sector en er is sprake van een interoperabiliteitsprobleem, wanneer de
+standaarden niet worden gebruikt:
+
+                                                                               Pagina 1 van8
+   Het Nationaal georegister haalt elke nacht data op bij de                 Datum
+    brondatahouders. Toepassing van de Geo-standaarden is hiertoe voor        22-5-2014
+
+    de aangesloten partijen een voorwaarde. Hiernaast passen alle
+    aangesloten partijen (zie sponsors) de geo-standaarden toe voor de
+    ondersteuning van de eigen processen.
+   Private partijen kunnen ook publiceren op het register en doen dit ook,
+    om dan met de dataset aan de slag te gaan. Hiervoor moeten ze ook
+    gebruik maken van de geo-standaarden
+
+
+
+
+Toelichting
+
+1. Aanmelding, intakegesprek en toetsingsprocedure
+
+Op 14 april is door Marcel Reuvers van Geonovum Geo-standaarden
+aangemeld voor de lijst voor ‘pas toe of leg uit’, waarna op 28 april 2014
+aanvullende informatie is aangeleverd.
+
+Toelichting
+Geo-standaarden is een set van standaarden. De volgende standaarden
+zijn aangemeld:
+ Nederlands profiel op ISO 19115 voor Geografie, versie 1.3
+    (aanmeldformulier: ‘metadata standaard voor geografie’)
+ Nederlands metadata profiel op ISO 19119 voor services, 1.2
+    (aanmeldformulier: ‘metadata voor services’)
+
+Op 12 mei 2014 heeft een intakegesprek plaatsgevonden met Marcel
+Reuvers van Geonovum. In dit gesprek is de aanmelding besproken. Hierbij
+is gekeken of alle basisinformatie aanwezig is en of de standaard voldoet
+aan de criteria voor inbehandelname. Daarnaast is vooruitgeblikt op de
+procedure.
+
+
+2. Korte beschrijving standaard
+
+Waar gaat de standaard over?
+De Geo-standaarden zijn voor een belangrijk deel profielen op
+internationale Geo-standaarden. Deze Geo-standaarden worden toegepast
+en semantisch ingevuld voor de Nederlandse situatie en kunnen worden
+gebruikt voor het uitwisselen van informatie over objecten die gekoppeld
+zijn aan een locatie op -of onder- het aardoppervlak. Naast standaarden
+voor de uitwisseling van Geo-informatie worden ook standaarden
+voorgesteld voor het beschrijven (metadata) van geografische datasets en
+standaarden die in de technische uitwisseling (via webservices) kunnen
+voorzien.
+
+Het toepassingsgebied is de uitwisseling van geografische informatie
+tussen organisaties, waarbij de ruimtelijke dimensie van significant belang
+is.
+
+Het organisatorisch werkingsgebied bestaat uit overheden en instellingen
+uit de (semi-)publieke sector.
+                                                                              Pagina 2 van8
+                                                                                Datum
+De standaard Nederlands profiel op ISO 19115 voor Geografie (uit 2011) is 22-5-2014
+de beschrijving van verplichte metadata-elementen voor het zoeken en
+optionele metadata-elementen voor het beheer van geografische datasets
+en dataset series, inclusief invulinstructies voor toepassing van de
+standaard.
+
+Waarom is de standaard aangemeld voor pas toe of leg uit?
+Versie 1.2 van de standaard is al opgenomen op de ‘pas toe of leg uit’-lijst.
+Nederlands profiel, aangepast op:
+ INSPIRE Metadata Implementing Rules: Technical Guidelines based on
+   EN ISO 19115 and EN ISO 19119, v 1.2
+ Wijzigingsvoorstellen uit het werkveld.
+
+Standaard Nederlands metadata profiel op ISO 19119 voor services (uit
+2011) bestaat uit de relevante context, beschrijving van verplichte en
+optionele metadata elementen voor services inclusief invulinstructies voor
+toepassing van de standaard.
+
+Waarom is de standaard aangemeld voor pas toe of leg uit?
+Versie 1.1 van de standaard is al opgenomen op de ‘pas toe of leg uit’-lijst.
+Nederlands profiel, aangepast op:
+ INSPIRE Metadata Implementing Rules: Technical Guidelines based on
+   EN ISO 19115 and EN ISO 19119, v 1.2 en EN ISO 19115 and EN ISO
+   19119, v 1.2
+ Wijzigingsvoorstellen uit het werkveld.
+
+Wie beheert de standaard?
+De Geo-standaarden worden als complete set beheerd door Geonovum.
+
+Hieronder vallen ook nog de volgende vier(?) standaarden:
+   ISO 19136:2007 Geographic information - Geography Markup
+    Language (GML)
+ NEN 3610:2011 (nl) Basismodel Geo-informatie - Termen, definities,
+    relaties en algemene regels voor de uitwisseling van informatie over
+    aan de aarde gerelateerde ruimtelijke objecten
+ Nederlands profiel op ISO 19142 Geographic information - Web Feature
+    Service, versie 1.01
+ Nederlands profiel op ISO 19128 Geographic information - Web Map
+    Server Interface, versie 1.0
+(zie ook: 8. Functionele use case)
+
+Voor deze de gehele set van standaarden vraagt Geonovum de status
+uitstekend beheer aan.
+
+3. Criteria voor inbehandelname
+
+Om een standaard in behandeling te nemen moet de standaard vallen
+binnen de scope van de lijsten. Hiervoor gelden drie criteria:
+
+1. Is de standaard toepasbaar voor elektronische gegevensuitwisseling
+tussen (semi-)overheidsorganisaties en bedrijven, tussen (semi-)
+overheidsorganisaties en burgers of tussen (semi-)overheidsorganisaties
+onderling?
+                                                                                Pagina 3 van8
+                                                                              Datum
+Ja, deze Geo-standaarden worden toegepast en semantisch ingevuld voor         22-5-2014
+
+de Nederlandse situatie en kunnen worden gebruikt voor het uitwisselen
+van informatie over objecten die gekoppeld zijn aan een locatie op -of
+onder- het aardoppervlak. Naast standaarden voor het uitwisselen van
+Geo-informatie worden ook standaarden voorgesteld voor het beschrijven
+(metadata) van geografische datasets en standaarden die in de technische
+uitwisseling (via webservices) kunnen voorzien.
+
+2. Is het beoogde functioneel toepassingsgebied en het organisatorisch
+werkingsgebied van de standaard, voldoende breed om substantieel bij te
+dragen aan de interoperabiliteit van de (semi-)overheid?
+
+Ja. Deze blijven ongewijzigd
+
+Functioneel toepassingsgebied:
+Uitwisseling van geografische informatie tussen organisaties, waarbij de
+ruimtelijke dimensie van significant belang is.
+
+Organisatorisch werkingsgebied:
+Overheden en instellingen uit de (semi-) publieke sector.
+
+3. Is het zinvol de standaard op te nemen, gezien het feit dat deze niet al
+wettelijk verplicht is voor het beoogde functioneel toepassingsgebied en
+organisatorisch werkingsgebied?
+
+Ja. De standaard is niet wettelijk verplicht.
+
+Conclusie
+De standaard voldoet aan de criteria voor inbehandelname.
+
+
+4. Toetsing kansrijkheid procedure
+
+Het Forum Standaardisatie wil voorkomen dat er standaarden in procedure
+worden genomen, waarvan bij voorbaat al bekend is dat deze in de
+expertronde of consultatieronde zullen stranden op één van de inhoudelijke
+criteria. Daarom heeft de procedurebegeleider de beantwoording van de
+criteriavragen nagelopen, waar mogelijk zelf aangevuld en vervolgens
+besproken met de indiener.
+
+1. Open standaardisatieproces
+De ontwikkeling en het beheer van de standaard moeten op een open,
+onafhankelijke, toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze
+zijn ingericht.
+
+Ja. Enkele bijzonderheden:
+ Alle documenten zijn vrij beschikbaar (open en zonder kosten). De
+    kosten voor de NEN 3610 standaard zijn door Geonovum met NEN
+    afgekocht.
+ Documentatie over het ontwikkel- en beheerproces zijn beschikbaar
+    voor de profielen (metadata standaarden, WMS en WFS). Voor het NEN
+    3610 document geldt dat Geonovum namens NEN een publieke
+
+                                                                              Pagina 4 van8
+    consultatie mag doen. Voor GML geldt dat Geonovum hier het proces      Datum
+    moeten volgen van OGC (Open Geospatial Consortium).                    22-5-2014
+
+   Elk nieuwe (versie van) een geo-standaard is voorzien van de Creative
+    Commoms licentie Naamsvermelding-GeenAfgeleideWerken 3.0
+    Nederland.
+   De inspraak van eenieder is in voldoende mate geborgd. Dit is in een
+    procedure vastgelegd. Zie voor alle beheeraspecten:
+    http://www.geonovum.nl/sites/default/files/beheer_basis_geo-
+    standaarden_1.1.pdf
+   Elke nieuwe versie wordt voorafgegaan door een publieke consultatie,
+    OGC en NEN organiseren ook een publieke consultatie. Deze publiceren
+    zij ook via hun website.
+   Geonovum is een onafhankelijke overheidsstichting. Het werk aan deze
+    standaarden wordt betaald door bijdragen vanuit overheidspartijen. Zie
+    onder het kopje activiteiten de financiers voor het basisprogramma
+    waar deze standaarden in ontwikkeld en beheerd worden:
+    http://www.geonovum.nl/over-geonovum/waar-wij-voor-staan
+   Versiebeheer is goed geregeld. Geonovum maakt onderscheid naar X, Y
+    en Z wijzigingen die de complexiteit en impact van de verandering
+    aangeven. Deze aanmelding betreft een Y wijziging.
+
+2. Toegevoegde waarde
+De interoperabiliteitswinst en andere voordelen van adoptie van de
+standaard wegen overheidsbreed en maatschappelijk op tegen de kosten,
+de risico’s en nadelen. Voor elk van de te onderscheiden stakeholders
+(overheid, bedrijven en burgers) afzonderlijk zouden de baten voor de
+informatie-voorziening en de bedrijfsvoering op moeten wegen tegen de
+kosten. Verder moeten de risico’s aan overheidsbrede adoptie van de
+standaard (beveiliging, privacy) acceptabel zijn.
+
+Gevolg van het groeiende aanbod van geografische datasets is dat het voor
+gebruikers van geografische datasets steeds moeilijker wordt de juiste
+informatie te vinden. Met metadata wordt de geografische dataset op zo’n
+manier beschreven dat een zoekopdracht zich ook kan richten op vragen
+als ‘wie, wat, waar, wanneer, waarom en hoe’. De metadata bevat details
+over de eigenaar van de geografische data, kwaliteit, thema, etc., en hoe
+de informatie kan worden benaderd en gebruikt.
+Metadata zorgt ervoor dat geo-informatie snel door mens en machine kan
+worden gevonden. Binnen Nederland is de Europese kernset uitgebreid met
+de specifieke behoeften van de gebruikers in Nederland en is de aansluiting
+op www.overheid.nl verzorgd.
+
+Om deze standaarden Europees en nationaal toepasbaar te maken, wordt
+vaak een profiel ontwikkeld. Dit profiel kan bestaan uit een extensie
+(aanvulling) en/of een restrictie (beperking) op de standaard. Het
+metadata profiel op ISO 19115 voor geografie heeft een mapping tabel
+naar de nationale metadata standaard. Hierdoor is bij toepassing van de
+Nederlandse metadata standaarden voor geo-informatie zowel de mondiale
+en Europese geo-aansluiting, alswel de nationale e-overheid aansluiting
+afgedekt. Voor implementatieondersteuning zijn hulpmiddelen ingericht:
+Wiki, Validator, Nationaal Georegister, en Conformiteitstoetsing.
+
+3. Draagvlak
+
+                                                                              Pagina 5 van8
+Aanbieders en gebruikers moeten voldoende ervaring hebben met de                Datum
+implementatie en het gebruik van de standaard.                                  22-5-2014
+
+
+
+Ja, dit is het geval. Beide aangemelde gewijzigde standaarden zijn al sinds
+2011 vrijgegeven en zijn gebaseerd op internationale standaarden.
+Veel GIS-leveranciers ondersteunen de nieuwe versies van de standaard.
+Bovendien is er een groot internationaal speelveld van leveranciers.
+
+De metadata wordt nationaal gepubliceerd voor de dataproviders die dit
+willen. Op dit moment zijn dit zo’n 100 organisaties. Op 22 mei zaten er
+7215 datasets volgens de metadatastandaard voor geografie en 354
+services volgens de metadata standaard voor services in het nationaal
+georegister (www.nationaalgeoregister.nl).
+
+4. Opname bevordert adoptie
+De opname op de lijst moet een geschikt middel zijn om de adoptie van de
+standaard te bevorderen.
+
+De standaard is aangemeld voor de ‘pas toe of leg uit’-lijst. De vorige
+versie van de standaarden zijn al opgenomen op deze lijst. De standaarden
+kennen een hoge implementatiegraad (zie punt 3.).
+
+Doel van de standaarden is er voor te zorgen dat de geo-informatie-
+huishouding in verschillende domeinen op elkaar aansluit en dat informatie
+tussen domeinen uitgewisseld kan worden.
+
+Conclusie
+Er zijn op voorhand geen struikelblokken te verwachten.
+Het niet opnemen zou adoptie tegengaan, omdat je dan niet voldoet aan
+wensen en regelgeving Europa.
+
+
+6. Samenhang
+
+Forumstandaardisatie wil weten of de aangemelde standaard samenhangt
+met standaarden die reeds op de ‘pas toe of leg uit’ -lijst en gangbare lijst
+zijn opgenomen, of standaarden die voor toetsing in aanmerking komen.
+Uit de intake moet duidelijk worden of dit gevolgen heeft voor de toetsing
+en eventuele opname van de aangemelde standaard.
+
+   1. Bestaat er samenhang tussen de aangemelde standaard en de
+      standaarden die reeds op de ‘pas toe of leg uit’ -lijst zijn
+      opgenomen en wat betekent dit voor de toetsing en eventuele
+      opname van de standaard?
+
+       Er bestaat samenhang tussen Geo-standaarden, SIKB0101, OWMS,
+       Aquo en StUF. De standaard conflicteert niet met deze standaarden.
+
+       StUF heeft betrekking op de uitwisseling van basisgegevens,
+       waaronder adressen. Met de beheerder van de StUF standaarden
+       zijn afspraken gemaakt om overlap te voorkomen en raakvlakken te
+       identificeren. Hiervoor hebben KING en Geonovum ook een
+       samenwerkingsovereenkomst getekend.
+
+                                                                                Pagina 6 van8
+       Met OWMS. Hier wordt aan gemapt door de metadata standaard           Datum
+       voor geografie (zie: Mapping Kernset 1.3 - OWMS 4.0)                 22-5-2014
+
+
+
+    2. Bestaat er samenhang tussen de aangemelde standaard en de
+       standaarden die reeds op de gangbare lijst zijn opgenomen en wat
+       betekent dit voor de toetsing en eventuele opname van de
+       standaard?
+
+
+    3. Bestaat er samenhang tussen de aangemelde standaard en
+       standaarden die in aanmerking komen voor opname op één van de
+       lijsten en wat betekent dit voor de toetsing van de standaard(en)?
+       (Denk bijvoorbeeld ook aan een gezamenlijke toetsing met (een
+       deel van) deze aanvullende standaarden)
+
+       Onbekend
+
+
+
+7. Sponsorschap
+
+De aanmelding van standaarden voor de lijsten van Forum en College dient
+ondersteund of gesponsord te worden door overheids- en/of (semi)publieke
+organisaties die de standaard reeds in gebruik hebben (of voornemens zijn
+dit te doen) en die de beoogde opname op de lijsten ondersteunen. Dit
+draagt bij aan het draagvlak voor de standaard, geeft zich op de
+functionele use case voor de overheid en helpt bovendien om tijdens de
+toetsing de juiste experts te benaderen.
+
+    1. Welke overheden en/of (semi) publieke organisaties ondersteunen
+       de aanmelding van de standaard?
+
+Leden van het GI-beraad, het beraad voor de Geo-informatie,
+ondersteunen de aanmelding. De volgende lijst zijn de partijen die het
+meeste metadata hebben geleverd en ondersteunen de aanmelding van de
+standaard:
+
+   Rijkswaterstaat(4509)
+   Rijkswaterstaat CIV-IGA Mobiel Meten Team Rivieren(4469)
+   Rijkswaterstaat Centrale Informatievoorziening (CIV)(435)
+   Provincie Utrecht(345)
+   Rijkswaterstaat Data en ICT Dienst (DID)(280)
+   Provincie Gelderland(189)
+   Beheer PDOK(156)
+   TNO Geologische Dienst Nederland(133)
+   Nationaal Lucht- en Ruimtevaartlaboratorium NLR(101)
+   provincie Fryslân(100)
+   Rijkswaterstaat Waterdienst (RWS WD)(94)
+   Rijkswaterstaat Dienst Verkeer en Scheepvaart (RWS DVS)(86)
+   Interprovinciaal Overleg(62)
+   Koninklijk Nederlands Meteorologisch Instituut (KNMI)(59)
+   Provincie Zuid-Holland Directie Leefomgeving en Bestuur(57)
+
+    2. Hebben deze organisaties de standaard geïmplementeerd?
+                                                                            Pagina 7 van8
+       (zie ook punt 8 voor een uitwerking)                                  Datum
+                                                                             22-5-2014
+
+Deze partijen hebben de standaard geïmplementeerd. Dit is
+randvoorwaardelijk om te kunnen publiceren op het Nationaal Georegister.
+
+
+8. Functionele use case
+
+Voor de standaard dient een duidelijke use case beschikbaar te zijn op
+basis waarvan overheden en/of instellingen uit de (semi) publieke kunnen
+bepalen of de aangemelde standaard voor hen relevant is en wie eventueel
+moet deelnemen aan de experttoetsing van de standaard.
+
+Het Nationaal georegister haalt elke nacht data op bij de brondatahouders.
+Hiernaast passen alle aangesloten partijen (zie sponsors) de geo-
+standaarden toe voor de ondersteuning van de eigen processen.Zie ook de
+jaarlijkse monitor metadata NGR, datasets overige organisaties, datasets
+RWS en services.
+
+Private partijen kunnen ook publiceren op het register en doen dit ook, om
+dan met de dataset aan de slag te gaan. Hiervoor moeten ze ook gebruik
+maken van de geo-standaarden.
+
+Zowel overheidsorganisaties als private partijen die geodata beheren
+kunnen zijn dataset bekend maken in het Nationaal georegister door de
+metadata te publiceren. Hierdoor wordt die data beter vindbaar voor
+andere gebruikers..
+
+De grootste leveranciers Autodesk, Esri, Bentley (marktaandeel totaal 90
+%) hebben de geo-standaarden in hun oplossingen ingevoerd, en daarmee
+ook bij hun klanten. Geo-standaarden zijn namelijk nodig voor het met
+deze applicaties ophalen van metadata over beschikbare data met
+bijhorende url.
+
+
+
+
+                                                                             Pagina 8 van8
+

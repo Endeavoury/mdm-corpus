@@ -1,0 +1,69 @@
+﻿research_question,claim_id,source_ids,extract_ids,paper_section,tex_file,tex_line,claim_type
+OV6,RC01,L05;L20,EX-L05;EX-L20,Inleiding,research/paper/sections/01-method-and-concepts.tex,2,meerdere bronnen
+OV6,RC02,L12;L24,EX-L12;EX-L24,Inleiding,research/paper/sections/01-method-and-concepts.tex,4,meerdere bronnen
+OV6,RC03,M01;M02,EX-M01;EX-M02,Onderzoeksmethode,research/paper/sections/01-method-and-concepts.tex,23,meerdere bronnen
+OV1,RC04,B01;L18;L20,EX-B01;EX-L18;EX-L20,Definitie van Master Data,research/paper/sections/01-method-and-concepts.tex,39,meerdere bronnen
+OV1,RC05,L19;P01,EX-L19;EX-P01,Definitie van Master Data,research/paper/sections/01-method-and-concepts.tex,43,meerdere bronnen
+OV1,RC06,L12;L18;L19;L20;L24,EX-L12;EX-L18;EX-L19;EX-L20;EX-L24,Ontwikkeling en theoretische perspectieven,research/paper/sections/01-method-and-concepts.tex,48,meerdere bronnen
+OV1,RC07,L07;L08;L15;L21,EX-L07;EX-L08;EX-L15;EX-L21,Ontwikkeling en theoretische perspectieven,research/paper/sections/01-method-and-concepts.tex,50,eigen synthese
+OV1,RC08,L12;L20;S47,EX-L12;EX-L20;EX-S47,Masterdata versus gerelateerde dataconcepten,research/paper/sections/01-method-and-concepts.tex,53,eigen synthese
+OV2,RC09,L05;L20;P01,EX-L05;EX-L20;EX-P01,MDM-capabilities en lifecycle,research/paper/sections/02-capabilities-and-governance.tex,2,eigen synthese
+OV2,RC10,L20;P01;P02,EX-L20;EX-P01;EX-P02,MDM-capabilities en lifecycle,research/paper/sections/02-capabilities-and-governance.tex,23,eigen synthese
+OV2,RC11,L20;P01,EX-L20;EX-P01,Bestaande MDM-architectuurpatronen,research/paper/sections/02-capabilities-and-governance.tex,38,meerdere bronnen
+OV2,RC12,L24;P01;P02,EX-L24;EX-P01;EX-P02,Bestaande MDM-architectuurpatronen,research/paper/sections/02-capabilities-and-governance.tex,53,eigen synthese
+OV3,RC13,L21;L29;L30,EX-L21;EX-L29;EX-L30,Identity en Entity Resolution,research/paper/sections/02-capabilities-and-governance.tex,56,meerdere bronnen
+OV3,RC14,L08;S38;S39,EX-L08;EX-S38;EX-S39,Identity en Entity Resolution,research/paper/sections/02-capabilities-and-governance.tex,58,eigen synthese
+OV3,RC15,L08;L22;P01,EX-L08;EX-L22;EX-P01,Identity en Entity Resolution,research/paper/sections/02-capabilities-and-governance.tex,60,eigen synthese
+OV3,RC16,L22,EX-L22,Identity en Entity Resolution,research/paper/sections/02-capabilities-and-governance.tex,62,één bron
+OV3,RC17,L15;L19,EX-L15;EX-L19,Data Quality,research/paper/sections/02-capabilities-and-governance.tex,65,meerdere bronnen
+OV3,RC18,L19;S12,EX-L19;EX-S12,Data Quality,research/paper/sections/02-capabilities-and-governance.tex,67,eigen synthese
+OV3,RC19,S02;S03;S12;S32;S34,EX-S02;EX-S03;EX-S12;EX-S32;EX-S34,Data Quality,research/paper/sections/02-capabilities-and-governance.tex,69,normatief
+OV3,RC20,L07;L20;L27,EX-L07;EX-L20;EX-L27,Governance en Stewardship,research/paper/sections/02-capabilities-and-governance.tex,76,meerdere bronnen
+OV3,RC21,L07;L20;L23;S51,EX-L07;EX-L20;EX-L23;EX-S51,Governance en Stewardship,research/paper/sections/02-capabilities-and-governance.tex,87,eigen synthese
+OV3,RC22,L07;S23,EX-L07;EX-S23,Governance en Stewardship,research/paper/sections/02-capabilities-and-governance.tex,89,meerdere bronnen
+OV4,RC23,S07;S08;S09;S10,EX-S07;EX-S08;EX-S09;EX-S10,Metadata en Data Elements,research/paper/sections/03-semantics-and-standards.tex,2,normatief
+OV4,RC24,S08;S11;S14,EX-S08;EX-S11;EX-S14,Metadata en Data Elements,research/paper/sections/03-semantics-and-standards.tex,4,eigen synthese
+OV4,RC25,S08;S09;S47,EX-S08;EX-S09;EX-S47,Metadata en Data Elements,research/paper/sections/03-semantics-and-standards.tex,6,eigen synthese
+OV4,RC26,S11;S13;S31,EX-S11;EX-S13;EX-S31,Semantiek en Begrippen,research/paper/sections/03-semantics-and-standards.tex,9,normatief
+OV4,RC27,S13;S14;S31,EX-S13;EX-S14;EX-S31,Semantiek en Begrippen,research/paper/sections/03-semantics-and-standards.tex,11,normatief
+OV4,RC28,B01;L20,EX-B01;EX-L20,Semantiek en Begrippen,research/paper/sections/03-semantics-and-standards.tex,13,meerdere bronnen
+OV4,RC29,B01;S31,EX-B01;EX-S31,Semantiek en Begrippen,research/paper/sections/03-semantics-and-standards.tex,16,eigen synthese
+OV4,RC30,S43,EX-S43,Semantiek en Begrippen,research/paper/sections/03-semantics-and-standards.tex,18,normatief
+OV4,RC31,L08,EX-L08,Ontologie en Conceptual Modelling,research/paper/sections/03-semantics-and-standards.tex,21,één bron
+OV4,RC32,L10;S40;S41,EX-L10;EX-S40;EX-S41,Ontologie en Conceptual Modelling,research/paper/sections/03-semantics-and-standards.tex,23,eigen synthese
+OV4,RC33,S08;S13;S31,EX-S08;EX-S13;EX-S31,Ontologie en Conceptual Modelling,research/paper/sections/03-semantics-and-standards.tex,25,normatief
+OV4,RC34,S28;S29;S30;S35;S36,EX-S28;EX-S29;EX-S30;EX-S35;EX-S36,Ontologie en Conceptual Modelling,research/paper/sections/03-semantics-and-standards.tex,28,normatief
+OV4,RC35,L18,EX-L18,Ontologie en Conceptual Modelling,research/paper/sections/03-semantics-and-standards.tex,30,één bron
+OV4,RC36,L13;S32,EX-L13;EX-S32,Ontologie en Conceptual Modelling,research/paper/sections/03-semantics-and-standards.tex,32,eigen synthese
+OV3,RC37,S33,EX-S33,"Provenance, Lineage en Temporaliteit",research/paper/sections/03-semantics-and-standards.tex,35,normatief
+OV3,RC38,S25;S33,EX-S25;EX-S33,"Provenance, Lineage en Temporaliteit",research/paper/sections/03-semantics-and-standards.tex,37,eigen synthese
+OV3,RC39,L14,EX-L14,"Provenance, Lineage en Temporaliteit",research/paper/sections/03-semantics-and-standards.tex,39,één bron
+OV3,RC40,P01;S37;S52,EX-P01;EX-S37;EX-S52,"Provenance, Lineage en Temporaliteit",research/paper/sections/03-semantics-and-standards.tex,41,eigen synthese
+OV4,RC41,L11;S13;S30;S42,EX-L11;EX-S13;EX-S30;EX-S42,Het standaardenlandschap,research/paper/sections/03-semantics-and-standards.tex,45,eigen synthese
+OV4,RC42,S01;S02;S03;S07;S08;S09;S10;S11;S12;S13;S14;S15;S16;S17;S18;S19;S20;S21;S22;S23;S24;S25;S26;S27;S28;S29;S30;S31;S32;S33;S34;S35;S36;S37;S38;S39;S40;S41;S42;S43;S44;S45;S47;S49;S51;S52,EX-S01;EX-S02;EX-S03;EX-S07;EX-S08;EX-S09;EX-S10;EX-S11;EX-S12;EX-S13;EX-S14;EX-S15;EX-S16;EX-S17;EX-S18;EX-S19;EX-S20;EX-S21;EX-S22;EX-S23;EX-S24;EX-S25;EX-S26;EX-S27;EX-S28;EX-S29;EX-S30;EX-S31;EX-S32;EX-S33;EX-S34;EX-S35;EX-S36;EX-S37;EX-S38;EX-S39;EX-S40;EX-S41;EX-S42;EX-S43;EX-S44;EX-S45;EX-S47;EX-S49;EX-S51;EX-S52,Het standaardenlandschap,research/paper/sections/03-semantics-and-standards.tex,66,eigen synthese
+OV4,RC43,S16;S31;S33;S34;S45;S47,EX-S16;EX-S31;EX-S33;EX-S34;EX-S45;EX-S47,Het standaardenlandschap,research/paper/sections/03-semantics-and-standards.tex,69,normatief
+OV4,RC44,S14;S19;S31,EX-S14;EX-S19;EX-S31,Het standaardenlandschap,research/paper/sections/03-semantics-and-standards.tex,71,eigen synthese
+OV5,RC45,S25;S26,EX-S25;EX-S26,Nederlandse overheidscontext,research/paper/sections/04-context-and-developments.tex,3,normatief
+OV5,RC46,S49,EX-S49,Nederlandse overheidscontext,research/paper/sections/04-context-and-developments.tex,7,normatief
+OV5,RC47,S13;S14;S15;S16;S17,EX-S13;EX-S14;EX-S15;EX-S16;EX-S17,Nederlandse overheidscontext,research/paper/sections/04-context-and-developments.tex,10,normatief
+OV5,RC48,F01;F02;F03,EX-F01;EX-F02;EX-F03,Nederlandse overheidscontext,research/paper/sections/04-context-and-developments.tex,15,normatief
+OV5,RC49,S27,EX-S27,Nederlandse overheidscontext,research/paper/sections/04-context-and-developments.tex,20,eigen synthese
+OV5,RC50,S42;S43;S44,EX-S42;EX-S43;EX-S44,Nederlandse overheidscontext,research/paper/sections/04-context-and-developments.tex,22,normatief
+OV5,RC51,L11,EX-L11,Nederlandse overheidscontext,research/paper/sections/04-context-and-developments.tex,24,één bron
+OV5,RC52,L12,EX-L12,Masterdata en Data Products,research/paper/sections/04-context-and-developments.tex,27,eigen synthese
+OV5,RC53,L20,EX-L20,Masterdata en Data Products,research/paper/sections/04-context-and-developments.tex,29,één bron
+OV5,RC54,S08;S47;S51,EX-S08;EX-S47;EX-S51,Masterdata en Data Products,research/paper/sections/04-context-and-developments.tex,31,eigen synthese
+OV5,RC55,L23,EX-L23,Masterdata en federatieve data-architecturen,research/paper/sections/04-context-and-developments.tex,34,één bron
+OV5,RC56,L20;L23;L24,EX-L20;EX-L23;EX-L24,Masterdata en federatieve data-architecturen,research/paper/sections/04-context-and-developments.tex,36,eigen synthese
+OV5,RC57,S18;S19;S20;S21;S22,EX-S18;EX-S19;EX-S20;EX-S21;EX-S22,"API-first, events en data contracts",research/paper/sections/04-context-and-developments.tex,41,normatief
+OV5,RC58,S19;S47;S51,EX-S19;EX-S47;EX-S51,"API-first, events en data contracts",research/paper/sections/04-context-and-developments.tex,43,eigen synthese
+OV5,RC59,L29;L31,EX-L29;EX-L31,Masterdata en AI,research/paper/sections/04-context-and-developments.tex,48,meerdere bronnen
+OV5,RC60,L13;L16;S33,EX-L13;EX-L16;EX-S33,Masterdata en AI,research/paper/sections/04-context-and-developments.tex,50,meerdere bronnen
+OV5,RC61,L16;S25;S33,EX-L16;EX-S25;EX-S33,Masterdata en AI,research/paper/sections/04-context-and-developments.tex,52,eigen synthese
+OV6,RC62,L07;L12;L19;L20;S08;S47,EX-L07;EX-L12;EX-L19;EX-L20;EX-S08;EX-S47,Synthese: een conceptueel overzicht van de literatuur,research/paper/sections/05-synthesis-and-discussion.tex,2,eigen synthese
+OV6,RC63,L12;L22;L24;S32;S47,EX-L12;EX-L22;EX-L24;EX-S32;EX-S47,Synthese: een conceptueel overzicht van de literatuur,research/paper/sections/05-synthesis-and-discussion.tex,17,eigen synthese
+OV6,RC64,L05;L07;L20;P01,EX-L05;EX-L07;EX-L20;EX-P01,Synthese: een conceptueel overzicht van de literatuur,research/paper/sections/05-synthesis-and-discussion.tex,20,eigen synthese
+OV6,RC65,L13;L19;L20;L23,EX-L13;EX-L19;EX-L20;EX-L23,Synthese: een conceptueel overzicht van de literatuur,research/paper/sections/05-synthesis-and-discussion.tex,22,eigen synthese
+OV6,RC66,L05;L13;L14;L16;L18;L20;L21;L23;L24;L31;P01;S08;S13;S25;S33,EX-L05;EX-L13;EX-L14;EX-L16;EX-L18;EX-L20;EX-L21;EX-L23;EX-L24;EX-L31;EX-P01;EX-S08;EX-S13;EX-S25;EX-S33,Research Gaps en open vragen,research/paper/sections/05-synthesis-and-discussion.tex,40,eigen synthese
+OV6,RC67,L13;L16;L18;L20,EX-L13;EX-L16;EX-L18;EX-L20,Discussie,research/paper/sections/05-synthesis-and-discussion.tex,46,eigen synthese
+OV6,RC68,L07;S08;S14,EX-L07;EX-S08;EX-S14,Discussie,research/paper/sections/05-synthesis-and-discussion.tex,48,eigen synthese

@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella-regular.otf}[BoldFont=texgyrepagella-bold.otf,ItalicFont=texgyrepagella-italic.otf,BoldItalicFont=texgyrepagella-bolditalic.otf]
+\usepackage[dutch]{babel}
+\usepackage{microtype,amsmath,amssymb,booktabs,longtable,array,tabularx,ragged2e}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[backend=bibtex,style=authoryear,sorting=nyt,maxcitenames=2,maxbibnames=30,doi=true,url=true,isbn=false]{biblatex}
+\addbibresource{references.bib}
+\usepackage{xurl}
+\usepackage[hidelinks,unicode]{hyperref}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\setlength{\emergencystretch}{4em}
+\renewcommand{\arraystretch}{1.16}
+\newcommand{\claim}[1]{\textsuperscript{\hyperref[app:claims]{\scriptsize #1}}}
+\title{Master Data Management: concepten, capabilities en standaarden\\\large Een kritische literatuur- en standaardsynthese met aandacht voor de Nederlandse overheid}
+\author{Onderzoeksmanuscript}
+\date{9 september 2026\\\small Beschrijvende overzichtsstudie op basis van een afgebakend corpus}
+\begin{document}
+\maketitle
+\begin{abstract}
+Master Data Management (MDM) wordt besproken als technische integratievoorziening, organisatorische discipline en onderdeel van bredere data-architecturen. Deze paper onderzoekt hoe de belangrijkste concepten, capabilities, architectuurpatronen, governancebenaderingen en standaarden zich tot elkaar verhouden. De studie combineert een verkennende literatuurreview, analyse van officiële standaarddocumenten en conceptuele synthese. De initiële verwervingssnapshot omvat 96 bronvermeldingen en 178 bruikbare bestanden; deze aantallen zijn geen aantallen onafhankelijke studies. Relevante passages zijn doelgericht geselecteerd en beoordeeld. De studie claimt geen uitputtende systematische review, onafhankelijke dubbele screening of clausuledekkende normanalyse. De synthese onderscheidt entiteit, record, selectie van voorkeurswaarden, metadata, referentiedata en dataproduct, en ordent capabilities naar hun functie in de datalifecycle. Vroege MDM-bronnen behandelen reeds bedrijfssemantiek, context en masterdata als product. Daarom is een algemene tegenstelling tussen traditioneel MDM en semantisch of productgericht datamanagement niet houdbaar binnen dit corpus. De standaardenanalyse laat verschillende verantwoordelijkheden zien voor terminologie, modellering, registratie, kwaliteit, herkomst, catalogisering en uitwisseling. Hun gezamenlijke toepassing vraagt expliciete mappings en toepasselijkheidsbesluiten, maar rechtvaardigt niet vanzelf een nieuwe architectuur. Voor de Nederlandse overheid worden gezag, scope en standaardstatus afzonderlijk behandeld. Kennishiaten betreffen onder meer de vergelijkbaarheid van capability-taxonomieën, de voorwaarden waaronder semantische formalisering meerwaarde heeft en de verhouding tussen federatie en beheerlast. AI is één afnemer binnen dit landschap; prestatieverbetering en het voorkomen van onjuiste antwoorden worden niet als bewezen effecten gepresenteerd. Het bestaande prototype speelt geen rol in selectie, analyse of conclusies.
+\end{abstract}
+\noindent\textbf{Trefwoorden:} masterdata; Master Data Management; data governance; metadata; semantische interoperabiliteit; standaarden; literatuursynthese.
+\newpage
+\tableofcontents
+\newpage
+\input{sections/01-method-and-concepts}
+\input{sections/02-capabilities-and-governance}
+\input{sections/03-semantics-and-standards}
+\input{sections/04-context-and-developments}
+\input{sections/05-synthesis-and-discussion}
+\appendix
+\section{Brongebonden traceability}\label{app:claims}
+De codes in de hoofdtekst verwijzen naar de onderstaande analytische claims. Het machineleesbare register bevat daarnaast bronpassages, grenzen en tegenargumenten. Een geregistreerde claim is geen onafhankelijk gevalideerd resultaat. De vindplaatsen verwijzen naar passages en lokale tekstextracties; voor letterlijke citaten blijft het brondocument leidend.
+\input{sections/claims-table}
+\section{Geselecteerde standaarddocumenten en bewijsgrenzen}
+\input{sections/standards-table}
+\section{Reproduceerbaarheid en onderzoeksbestanden}
+De nieuwe paper staat onder \texttt{research/paper/}. Het bronnenregister, de literatuurmatrix, standaardenmatrix, conceptanalyse, het claims-register en het hiatenregister staan onder \texttt{research/evidence/}. Het bestand \texttt{source-extracts.csv} koppelt passages aan bestandshashes; \texttt{paper-selection.csv} onderscheidt aangehaalde bronnen van niet in deze paper gebruikte kandidaten. \texttt{paper-traceability.csv} verbindt onderzoeksvragen, claims, bronnen en papersecties. De dekkingstoets in \texttt{research/analysis/coverage-assessment.md} motiveert de begrensde reikwijdte van deze versie.
+
+De oude ontwerpgerichte paper in de projectroot is geen bron voor de inhoudelijke synthese. Alleen haar onderliggende, afzonderlijk controleerbare bronregistratie is als startpunt hergebruikt. De huidige publicatie is een eerste volledige manuscriptversie, geen afgeronde corpusuitbreiding. De bibliografie onderscheidt de geraadpleegde boekfragmenten en auteursversies van volledige commerciële edities. Normcatalogi ondersteunen slechts de vermelde scope- en editie-informatie.
+\printbibliography[title={Referenties}]
+\end{document}

@@ -1,0 +1,453 @@
+             daQ, an Ontology for Dataset Quality Information
+
+                 Jeremy Debattista                         Christoph Lange                            Sören Auer
+                 University of Bonn /                     University of Bonn /                   University of Bonn /
+              Fraunhofer IAIS, Germany                 Fraunhofer IAIS, Germany               Fraunhofer IAIS, Germany
+              name.surname@iais-                         math.semantic.web                    auer@cs.uni-bonn.de
+               extern.fraunhofer.de                        @gmail.com
+
+
+ABSTRACT                                                                dataset’s quality. This statement is incorrect as the five star scheme
+Data quality is commonly defined as fitness for use. The problem        serves as a guide in order to lead data to reach increasing levels of
+of identifying the quality of data is faced by many data consumers.     interlinkage, openness and standardisation. Therefore, although it
+To make the task of finding good quality datasets more efficient, we    is favourable to have a five star linked open dataset, dataset quality
+introduce the Dataset Quality Ontology (daQ). The daQ is a light-       issues might still be unclear to data publishers. Various works pro-
+weight, extensible vocabulary for attaching the results of quality      mote quality measurements on linked open data [5, 8, 13]. Zaveri
+benchmarking of a linked open dataset to that dataset. We dis-          et al. [15] goes a step further by providing a systematic literature
+cuss the design considerations, give examples for extending daQ         review.
+by custom quality metrics, and present use cases such as browsing          To put the reader into the context of this work, we introduce a
+datasets by quality. We also discuss how tools can use the daQ to       use case:
+enable consumers find the right dataset for use.
+                                                                              Bob is a medical doctor and a computer enthusiast.
+                                                                              During his free time he is currently working on a mo-
+Categories and Subject Descriptors                                            bile application that would help colleagues to find out
+The Web of Data [Vocabularies, taxonomies and schemas for the                 possible medicines to treat patients. Currently he is
+web of data]                                                                  experimenting with a popular data management plat-
+                                                                              form, hoping to find a suitable medical dataset for
+General Terms                                                                 reuse. Fascinated by the views, especially the faceted
+                                                                              filtering techniques available on this platform, Bob is
+Documentation, Measurement, Quality, Ontology                                 particularly interested in reputable medical datasets.
+                                                                              As he downloaded some datasets and viewed them in a
+1.    INTRODUCTION                                                            visualisation tool, he found out that most of the data is
+   The Linked (Open) Data principles of using HTTP URIs to rep-               either irrelevant for his work or contains many incor-
+resent things have facilitated the publication of interlinked data on         rect and inconsistent facts.
+the Web, and their sharing between different sources. The com-
+monly used Resource Description Framework (RDF) provides both              Data quality is commonly defined as fitness for use [14]. The
+publishers and consumers of Linked Data with a standardised way         problem of identifying the quality of data is faced by many data
+of representing data. A substantial amount of facts has already         consumers. A simple approach would be to rate the “fitness” of a
+been published as RDF Linked Open Data.1 These facts have been          dataset under consideration by computing a set of defined quality
+extracted from heterogeneous sources, which also include semi-          metrics. On big datasets, this computation is time consuming, even
+structured data, unstructured data, documents in markup languages       more so when multiple datasets are to be filtered or compared to
+such as XML, and relational databases. The use of such a variety of     each other by quality. Apart from this, the identification of the
+sources could lead to problems such as inconsistencies and incom-       quality of a dataset cannot be reused; other data consumers would
+plete information. A common open data user’s perception2 is that        have to do this process all over again.
+the five star scheme for open data3 would automatically approve a          To make the task of finding good quality datasets more efficient,
+1
+                                                                        we introduce the Dataset Quality Ontology (daQ). The daQ is a
+  http://lod-cloud.net                                                  light-weight ontology that allows datasets to be “stamped” with its
+2
+  This is following a discussion with some Open Data enthusiasts        quality measures. In contrast to related vocabularies that represent
+at the University of Malta.
+3                                                                       quality requirements (cf. Section 5), our ontology allows for ex-
+  http://5stardata.info
+                                                                        pressing concrete, tangible values that represent the quality of the
+                                                                        data. Having this metadata available in the datasets enables data
+                                                                        publishers and consumers to automatically perform tedious tasks
+                                                                        such as filtering and comparing dataset quality. With the Dataset
+                                                                        Quality Ontology we aim to add another star to the LOD five star
+                                                                        scheme, for data that is not just linked and open, but of a high qual-
+                                                                        ity.
+
+                                                                        1.1    Terminology
+Copyright is held by the author/owner(s).
+LDOW2014, April 8, 2014, Seoul, Korea.                                    To prepare the reader for the discussions carried out within the
+following sections, we define some terminology, paraphrasing def-          2.1     Cataloguing and Archiving of Datasets
+initions by Zaveri et al. [15]:                                               Software such as CKAN4 , which is best known for driving the
+                                                                           datahub.io platform5 , makes datasets accessible to consumers by
+     • A Quality Dimension is a characteristic of a dataset relevant       providing a variety of publishing and management tools and search
+       to the consumer (e.g. Availability of a dataset).                   facilities. A data publisher should be able to upload to such plat-
+                                                                           forms, whilst on the other hand the platform should be able to au-
+     • A Quality Metric is a procedure for measuring a data quality
+                                                                           tomatically compute metadata regarding the dataset’s quality. With
+       dimension, which is abstract, by observing a concrete quality
+                                                                           the knowledge from this metadata, the publisher can improve the
+       indicator. This assessment procedure returns a score, which
+                                                                           quality of the dataset. On the other hand, having quality metadata
+       we also call the value of the metric. There are usually multi-
+                                                                           available for candidate datasets, consumers would be given the op-
+       ple metrics per dimension; e.g., availability can be indicated
+                                                                           portunity to discover certain quality aspects of a potential dataset.
+       by the accessibility of a SPARQL endpoint, or of an RDF
+       dump. The value of a metric can be numeric (e.g., for the           2.2     Dataset Retrieval
+       metric “human-readable labelling of classes, properties and
+                                                                              Tools for data consumers, such as CKAN, usually provide fea-
+       entities”, the percentage of entities having an rdfs:label or
+                                                                           tures such as faceted browsing and sorting, in order to allow
+       rdfs:comment) or boolean (e.g. whether or not a SPARQL
+                                                                           prospective dataset users (such as Bob, introduced in the previous
+       endpoint is accessible).
+                                                                           section) to search within the large dataset archive. Using faceted
+                                                                           browsing, datasets could be filtered according to tags or values of
+     • A Quality Category is a group of quality dimensions in
+                                                                           metadata properties. The datasets could also be ranked or sorted
+       which a common type of information is used as quality in-
+                                                                           according to values of properties such as relevance, size or the
+       dicator (e.g. Accessibility, which comprises not only avail-
+                                                                           date of last modification. Figure 1 shows a mockup of a modi-
+       ability but also dimensions such as security or performance).
+                                                                           fied datahub.io user interface to illustrate how quality attributes and
+       Grouping the dimensions into categories helps to arrange a
+                                                                           metrics could be used in a faceted search with ranking.
+       clearer breakdown of all quality aspects, given their large
+                                                                              With many datasets available, filtering or ranking by quality can
+       number. Zaveri et al. have identified 23 quality dimensions
+                                                                           become a challenge. Talking about “quality” as a whole might
+       (with almost 100 metrics) and grouped them into 6 cate-
+                                                                           not make sense, as different aspects of quality matter for differ-
+       gories [15].
+                                                                           ent applications. It does, however, make sense to restrict quality-
+Whenever it is necessary to subsume all of these three concepts, we        based filtering or ranking to those quality categories and/or dimen-
+will use the term Quality Protocols.                                       sions that are relevant in the given situation, or to assign custom
+                                                                           weights to different dimensions, and compute the overall quality
+1.2     Structure of this Paper                                            as a weighted sum. The daQ vocabulary provides flexible filter-
+   The remainder of this paper is structured as follows: in Section 2      ing and ranking possibilities in that it facilitates access to dataset
+we discuss use cases for the daQ vocabulary. Then, in Section 3            quality metrics in these different dimensions and thus facilitates the
+and 4 we discuss the vocabulary design and give examples of how            (re)computation of custom aggregated metrics derived from base
+this vocabulary can be extended and used. Finally, in Section 5 we         metrics. To keep quality metrics information easily accessible, we
+give an overview of similar ontology approaches before giving our          strongly recommend that each dataset contains the relevant daQ
+final remarks in Section 6.                                                metadata graph in the dataset itself.
+                                                                              Alexander et al. [1] provide the readers with a motivational use
+                                                                           case with regard to how the voID ontology (cf. Section 5) can help
+2.     USE CASES                                                           with effective data selection. The authors describe that a consumer
+   Linked Open Data quality has different stakeholders in a myr-           can find the appropriate dataset by basing a criteria for content
+iad of domains, however the stakeholders can be cast under either          (what is the dataset mainly about), interlinking (to which other
+publishers or consumers.                                                   dataset is the one in question interlinked), and vocabularies (what
+   Publishers are mainly interested in publishing data that others         vocabularies are used in the dataset). The daQ vocabulary could
+can reuse. The five star scheme, which we propose to extend by a           give an extra edge to “appropriateness” by providing the consumer
+sixth star for quality, defines a set of widely accepted criteria that     with added quality criteria on the candidate datasets.
+serve as a baseline for assessing data reusability. The reusability
+criteria defined by the five star scheme and by quality metrics are        3.     VOCABULARY DESIGN
+largely measurable in an objective way. Thanks to such objective              The Dataset Quality Ontology (daQ) is a vocabulary for attach-
+criteria, one can assess the reusability of any given dataset without      ing the results of quality benchmarking of a linked open dataset to
+the major effort of, for example, running a custom survey to find          that dataset. The idea behind daQ is to provide a core vocabulary,
+out whether its intended target audience finds it reusable. (Such a        which can be easily extended with additional metrics for measuring
+survey may, of course, still help to get an even better understanding      the quality of a dataset. The benefit of having an extensible schema
+of quality issues.)                                                        is that quality metrics can be added to the vocabulary without major
+   Without an objective rating that is easy to determine, data con-        changes, as the representation of new metrics would follow those
+sumers – both machine and human – may find it challenging to as-           previously defined.
+sess the quality of a dataset, i.e. its fitness for use. Machine agents,      daQ uses the namespace prefix daq, which expands to http:
+e.g. for discovering, cataloguing and archiving datasets, may lack         //purl.org/eis/vocab/daq.
+the computational power required to assess some of their quality di-          The basic and most fundamental concept of daQ is the Quality
+mensions, e.g. logical consistency. Tools for human end users, such        Graph (Figure 2 – Box A), which is a subclass of rdfg:Graph. daQ
+as semantic web search engines [12] or Web of Data browsers [4,
+                                                                           4
+10, 11], do not currently focus on quality when presenting a list of           http://www.ckan.org
+                                                                           5
+search results or an individual dataset.                                       http://www.datahub.io
+        Figure 1: datahub.io Mockup having Quality Attributes available in the Faceted Browsing and Ranking
+
+
+
+
+A                                                    computedOn
+      rdfg:Graph                  QualityGraph                          rdfs:Resource
+
+
+
+
+                   hasDimension                           hasMetric                                    value
+    Category                         Dimension                                   Metric
+
+                                                                  dateComputed              requires
+
+
+
+B                                                               xsd:dateTime               rdfs:Resource
+
+
+
+
+                     Classes                                                                Properties
+    rdfg:Graph     Concept in an existing ontology
+                                                                                               Subclass of
+     Dataset       Concept in proposed ontology
+                                                                            requires           Abstract Property
+                   Abstract concept in proposed ontology.                                      (Not for direct use)
+     Category                                                               hasDimension
+                   Not for direct use.                                                         Property in proposed ontology
+                   Undefined object: Concept or Literal
+
+
+
+
+                                          Figure 2: The Dataset Quality Ontology (daQ)
+instances are stored as RDF Named Graph [7] in the dataset whose                value’s daq:hasValue range is inherited by the actual metric’s
+quality has been assessed. Named graphs are favoured due to                     attribute. A metric might also require additional information
+                                                                                (e.g. a gold standard dataset to compare with). Therefore,
+     • the capability of separating the aggregated metadata with re-            a concrete metric representation can also define such prop-
+       gard to computed quality metrics of a dataset from the dataset           erties using subproperties of the daq:requires abstract prop-
+       itself;                                                                  erty. Each metric can record the date when it was actually
+     • their use in the Semantic Web Publishing vocabulary [6] to               computed using the daq:dateComputed.
+       allow named graphs to be digitally signed, thus ensuring
+       trust in the computed metrics and defined named graph              4.    USING THE ONTOLOGY
+       instance. Therefore, in principle each daq:QualityGraph               We start this section by first showing how the daQ vocabulary
+       can have the following triple :myQualityGraph                      can be extended, and then proceed by giving general recommen-
+       swp:assertedBy :myWarrant .                                        dations on how to publish daQ metadata records with datasets. We
+                                                                          then continue by showing how a typical daQ instance is represented
+   The daQ ontology distinguishes between three layers of abstrac-
+                                                                          and we give some SPARQL examples to demonstrate how a data
+tion, based on the survey work by Zaveri et al. [15]. As shown
+                                                                          consumer (including tools such as the filtering UI presented in Sec-
+in Figure 2 Box B, a quality graph comprises of a number of dif-
+                                                                          tion 2.2) can query the daQ vocabulary and a graph instance. We
+ferent Categories (C), which in turn possess a number of quality
+                                                                          conclude this section by describing an application which will use
+Dimensions (D). A quality dimension groups one or more com-
+                                                                          the proposed vocabulary to filter and rank datasets.
+puted quality Metrics (M ). To formalise this, let G represent the
+named Quality Graph (daq:QualityGraph), C = {c1 , c2 , . . . , cx }       4.1    Extending daQ
+is the set of all possible quality categories (daq:Category), D =
+                                                                             The classes of the core daQ vocabulary can be extended by more
+{d1 , d2 , . . . , dy } is the set of all possible quality dimensions
+                                                                          specific and custom quality metrics. In order to use the daQ one
+(daq:Dimension) and M = {m1 , m2 , . . . , mz } is the set of all
+                                                                          should define the quality metrics which characterise the ”fitness for
+possible quality metrics (daq:Metric); where x, z, y ∈ N, then:
+                                                                          use“ [14] in a particular domain. However, we are currently in the
+     D EFINITION 1.                                                       process in defining the quality dimensions and metrics described
+                                                                          in [15], as the standard set of quality protocols for Linked Open
+                               G ⊆ C,                                     Data in daQ.7 Extending the daQ vocabulary means adding new
+                              C ⊂ D,                                      quality protocols that inheriting the abstract concepts (Category-
+                                                                          Dimension-Metric). In Figure 4 we show an illustrative example
+                              D ⊂ M;
+                                                                          of extending the daQ ontology (TBox) with a more specific quality
+   Figure 3 shows this formalisation in a pictorial manner using          attribute, i.e. the RDF Availability Metric as defined in [15], and
+Venn diagrams.                                                            an illustrative instance (ABox) of how it would be represented in a
+   Quality metrics can, in principle, be calculated on a collection of    dataset.
+statements - datasets or graphs. This vocabulary allows a data pub-          The Accessibility concept is defined as an rdfs:subClassOf
+lisher to create multiple graphs of quality metrics for different data.   the abstract daq:Category. This category has five dimensions,
+For example, if one dataset consists of a number of graphs, qual-         one of which is the Availability dimension. This is defined
+ity metrics can be defined for each graph separately. The property        as a rdfs:subClassOf daq:Dimension. Similarly, RDFAvailabil-
+daq:computedOn with domain daq:QualityGraph allows a data                 ityMetric is defined as a rdfs:subClassOf daq:Metric. The
+publisher to define a quality graph for different rdfs:Resources.         daq:hasValue property is also extended with a sub-property called
+The resource should be the URI of a dataset (including instances          daq:hasDoubleValue which types its range as xsd:double. The spe-
+of void:Dataset6 ) or an RDF named graph.                                 cific properties hasAvailabilityDimension and hasRDFAccessibili-
+                                                                          tyMetric (sub-properties of daq:hasDimension and daq:hasMetric
+3.1      Abstract Classes and Properties                                  respectively) are also defined (Figure 4). The advantage of extend-
+   This ontology framework (Figure 2) has three abstract class-           ing the abstract ontology concepts in Figure 2 Box B is that the
+es/concepts (daq:Category, daq:Dimension, daq:Metric) and                 domain and range of daq:hasDimension and daq:hasMetric are re-
+four abstract properties (daq:hasDimension, daq:hasMetric,                stricted to the appropriate quality protocols.
+daq:hasValue, daq:requires) which should not be used directly in a           Extensions by custom quality metrics do not need to be made in
+quality instance. Instead these should be inherited as parent classes     the daQ namespace itself; in fact, in accordance with LOD best
+and properties for more specific quality protocols. The abstract          practices, we recommend extenders to make them in their own
+concepts (and their related properties) are described as follows, as-     namespaces. Extending the daQ vocabulary with additional met-
+suming the definitions given in Section 1.1:                              rics assumes that their exact semantics (such as how they are to
+                                                                          be computed) is understood by some software implementation, be-
+daq:Category represents the highest level of quality assessment.          cause daQ is intended to remain light-weight and thus not capable
+     A category groups a number of dimensions.                            of expressing such semantics by its own means. Therefore, a user
+                                                                          extending the daQ would not normally need to specify the techni-
+daq:Dimension – In each dimension there is a number of metrics.           cal requirements of the quality metric, although pointers to such
+                                                                          requirements descriptions can be given via specialisations of the
+daq:Metric – The smallest unit of measuring a quality dimension
+                                                                          daq:requires abstract property.
+     is a metric. Each metric has a value, representing a score
+     for the assessment of a quality attribute. Since this value is       4.2    Publishing daQ Metadata Records
+     multi-typed (for example one metric might return true/false
+                                                                          7
+     whilst another might require a floating point number), the            The metrics defined so far can be found under the namespace URI
+                                                                          given above, or in the source files at https://github.com/
+6
+    http://www.w3.org/TR/void/#dataset                                    diachron/quality/blob/master/vocab/.
+                          G
+
+
+               C1                              Cx
+
+
+          D1              D2                        Dx
+M1   M2              M3                                  Mx
+
+
+
+
+     Figure 3: Venn Diagram depicting Definition 1
+
+
+
+
+Figure 4: Extending the daQ Ontology – TBox and ABox
+                                                                       query that retrieves and ranks all datasets by the Entity Trust [15]
+   Dataset publishers should offer a daQ description as an RDF         metric. This query is useful for consumers who would require a
+Named Graph in their published dataset. Since such a daQ meta-         visible ranking of the datasets.
+data record requires metrics to be computed, it is understandable
+                                                                       select ?catInst, ?dimInst where {
+that it is not easy to author manually. Therefore, as suggested in       ?qualGraph a daq:QualityGraph .
+Section 2, publishing platforms should offer such on-demand com-         graph <http://purl.org/eis/vocab/daq> {
+putation to dataset publishers. Another possible tool would be a           ?category rdfs:subClassOf daq:Category .
+                                                                           ?property rdfs:subPropertyOf daq:hasDimension .
+pluggable platform which calculates quality metrics on datasets.         }
+Since the daQ vocabulary can be easily extended by custom quality        graph ?qualGraph {
+metrics, as shown in the previous section, such a pluggable en-            ?catInst a ?category ;
+                                                                                    ?property ?dimInst .
+vironment would allow users to import such custom metrics. One           }
+must keep in mind that the computation of metrics on large datasets    }
+might be computationally expensive; thus, platforms computing
+dataset quality must be scalable.                                      Listing 2: A SPARQL query retrieving all Category and
+                                                                       Dimension instances from a daq:QualityGraph
+4.3     Representing Quality Metadata Instances
+   Listing 1 shows an instance of the daq:QualityGraph in a            select ?metricInst where {
+dataset. ex:qualitygraph1 is a named daq:QualityGraph. The               ?qualGraph a daq:QualityGraph .
+triples show that quality metrics were computed on the whole             graph <http://purl.org/eis/vocab/daq> {
+dataset. Consumers’ queryies of the dataset for daq:QualityGraph           ?metric rdfs:subClassOf daq:Metric .
+                                                                         }
+instances will resolve to the named graph. In this named                 graph ?qualGraph {
+graph, instances for the daq:Accessibility, daq:Availability,              ?metricInst a ?metric ;
+daq:EndPointAvailabilityMetric and daq:RDFAvailabilityMetric                           daq:doubleValue ?val .
+                                                                           filter(?val < 0.5)
+are shown. A metric instance specifies the metric value and the          }
+date when it was last computed.                                        }
+
+# ... prefixes
+                                                                       Listing 3: A SPARQL query retrieving all Metrics which have
+# ... dataset triples                                                  their value (double) < 0.5
+ex:qualityGraph1 a daq:QualityGraph ;
+  daq:computedOn <> .                                                  select ?dataset where {
+                                                                         ?qualGraph a daq:QualityGraph ;
+ex:qualityGraph1 {                                                                  daq:computedOn ?dataset
+
+    # ... quality triples                                                  graph ?qualGraph {
+    ex:accessibilityCategory a daq:Accessibility ;                           ?metricInst a daq:EntityTrustMetric ;
+      daq:hasAvailabilityDimension ex:availabilityDimension                              daq:doubleValue ?val .
+            .                                                                order by desc(?val) .
+                                                                           }
+    ex:availabilityDimension a daq:Availability ;                      }
+      daq:hasEndPointAvailabilityMetric ex:endPointMetric ;
+      daq:hasRDFAvailabilityMetric ex:rdfAvailMetric .
+                                                                       Listing 4: A SPARQL query retrieving and rank all Datasets
+    ex:endPointMetric a daq:EndPointAvailabilityMetric ;               by the Entity Trust metric value
+      daq:dateComputed "2014-01-23T14:53:00"^^xsd:dateTime
+           ;
+      daq:doubleValue "1.0"^^xsd:double .                              4.5     The DIACHRON Project
+    ex:rdfAvailMetric a daq:RDFAvailabilityMetric ;                       The DIACHRON project (“Managing the Evolution and Preser-
+      daq:dateComputed "2014-01-23T14:53:01"^^xsd:dateTime             vation of the Data Web”8 ) combines several of the use cases men-
+           ;
+      daq:doubleValue "1.0"^^xsd:double .
+                                                                       tioned so far. DIACHRON’S central cataloguing and archiving hub
+                                                                       is intended to host datasets throughout several stages of their life-
+    # ... more quality triples                                         cycle [3], mainly evolution, archiving, provenance, annotation, ci-
+}                                                                      tation and data quality. As a part of the DIACHRON project, we
+                                                                       are implementing scalable and efficient tools to assess the quality
+         Listing 1: A Dataset Quality Graph N3 instance                of datasets. A web-based visualisation tool, to be implemented as
+                                                                       a CKAN plugin, will
+4.4     Retrieving Metadata using SPARQL                                    • allow data publishers to perform quality assessment on
+        Queries                                                               datasets, which will provide them with quality score meta-
+   Listings 2 and 3 show typical SPARQL queries, which could be               data and also assist them with fixing quality problems;
+performed by data consumers. The first query retrieves all cate-
+gory and dimension instances from the quality graph. This query             • allow data consumers to filter and rank datasets by multiple
+could be useful, for example, for those consumers who require to              quality dimensions.
+visualise all categories and dimensions available in a faceted man-
+                                                                       The daQ vocabulary is the core ontology underlying these services.
+ner. The second query retrieves all metric instances whose value
+                                                                       It will help these services to do their jobs, i.e. adding quality meta-
+(in this case a double-precision floating point number) is less than
+                                                                       data to datasets, which in turn is displayed on the web frontend.
+0.5. This might be useful for identifying those metrics w.r.t. which
+                                                                       8
+the dataset needs serious improvement. Listing 4 shows a SPARQL            http://diachron-fp7.eu
+5.    RELATED WORK                                                        of quality metrics are also being implemented, with the aim of pro-
+   To the best of our knowledge, the Data Quality Management              viding information about the quality of big LOD datasets. This
+(DQM) vocabulary [9] is the only one comparable to our approach.          would allow us to create meaningful daQ Named Graph instances
+Fürber et al. propose an OWL vocabulary that primarily represents         at a large scale, i.e. creating quality metadata on real datasets. The
+data requirements, i.e. what quality requirements or rules should be      DIACHRON platform will support the daQ by ranking and filter-
+defined for the data. Such rules can be defined by the user herself,      ing datasets according to the quality metadata, like we sketched in
+and the authors present SPARQL queries that “execute” these re-           the mockup explained in Section 2.2. Having tools and platforms
+quirements definitions to compute metrics values. Unlike our daQ          supporting the daQ will finally allow us to test and evaluate the
+model, the DQM defines a number of classes that can be used to            vocabulary thoroughly, to see whether the daQ itself is of a high
+represent a data quality rule. Similarly, properties for defining rules   quality, i.e. fit for use.
+and other generic properties such as the rule creator are specified.
+The daQ model allows for integrating such DQM rule definitions            7.    ACKNOWLEDGMENTS
+using the daq:requires abstract property, but we consider the defi-         This work is supported by the European Commission under
+nition of rules out of daQ’s own scope. As discussed in Section 2,        the Seventh Framework Program FP7 grant 601043 (http://
+the intention of the Dataset Quality vocabulary is to enable data         diachron-fp7.eu).
+publishers to easily describe dataset quality so that, in turn, con-
+sumers can easily find out which datasets are fit for their intended      8.    REFERENCES
+use. Rather than having quality rules defined using the daQ itself,
+                                                                           [1] K. Alexander, R. Cyganiak, M. Hausenblas, and J. Zhao.
+the semantics of the custom metric concepts should be understood
+                                                                               Describing Linked Datasets – On the Design and Usage of
+by the application implementing them. Therefore, rather than hav-
+                                                                               voiD, the ‘Vocabulary of Interlinked Datasets’. In WWW
+ing a fixed set of classes/rules which one can extend, the daQ vo-
+                                                                               2009 Workshop: Linked Data on the Web (LDOW2009),
+cabulary gives the freedom to the user to define and implement any
+                                                                               Madrid, Spain, 2009.
+metrics required for a certain application domain.
+                                                                           [2] J. Attard, S. Scerri, I. Rivera, and S. Handschuh.
+   Our design approach is inspired by the digital.me Context Ontol-
+ogy (DCON9 ) [2]. Attard et al. present a structured three-level rep-          Ontology-based situation recognition for context-aware
+resentation of context elements (Aspect-Element-Attributes). The               systems. In Proceedings of the 9th International Conference
+DCON ontology instances are stored as Named Graphs in a user’s                 on Semantic Systems, I-SEMANTICS ’13, pages 113–120,
+                                                                               New York, NY, USA, 2013. ACM.
+Personal Information Model. The three levels are abstract concepts,
+which can be extended to represent different context aspects in a          [3] S. Auer, L. Bühmann, C. Dirschl, O. Erling, M. Hausenblas,
+concrete ubiquitous computing situation.                                       R. Isele, J. Lehmann, M. Martin, P. N. Mendes, B. van
+   The voID10 and dcat11 ontologies recommended by the W3C                     Nuffelen, C. Stadler, S. Tramp, and H. Williams. Managing
+provide metadata vocabulary for describing datasets. The “Vocabu-              the life-cycle of linked data with the LOD2 stack. In
+lary of Interlinked Datasets” (voID) ontology allows the high-level            Proceedings of International Semantic Web Conference
+description of a dataset and its links [1]. On the other hand, the             (ISWC 2012), 2012. 22
+Data Catalog Vocabulary (dcat) describes datasets in data catalogs,        [4] T. Berners-Lee, Y. Chen, L. Chilton, D. Connolly,
+which increase discovery, allow easy interoperability between data             R. Dhanaraj, J. Hollenbach, A. Lerer, and D. Sheets.
+catalogs and enable digital preservation. With the daQ ontology, we            Tabulator: Exploring and analyzing linked data on the
+aim to extend what these two ontologies have managed for datasets              semantic web. In Proceedings of the The 3rd International
+in general to the specific aspect of quality: enabling the discovery           Semantic Web User Interaction Workshop (SWUI06), Nov.
+of a good quality (fit to use) datasets by providing the facility to           2006.
+“stamp” a dataset with quality metadata.                                   [5] C. Bizer. Quality-Driven Information Filtering in the Context
+                                                                               of Web-Based Information Systems. PhD thesis, FU Berlin,
+                                                                               Mar. 2007.
+6.    CONCLUDING REMARKS                                                   [6] J. J. Carroll, C. Bizer, P. J. Hayes, and P. Stickler. Semantic
+   In this paper we presented the Dataset Quality Ontology (daQ),              web publishing using named graphs. In J. Golbeck, P. A.
+an extensible vocabulary to provide quality benchmarking meta-                 Bonatti, W. Nejdl, D. Olmedilla, and M. Winslett, editors,
+data of a linked open dataset to the dataset itself. In Section 2 we           ISWC Workshop on Trust, Security, and Reputation on the
+presented a number of use cases that motivated our idea, including             Semantic Web, volume 127 of CEUR Workshop Proceedings.
+cataloguing, archiving and filtering datasets, and that helped in de-          CEUR-WS.org, 2004.
+veloping the daQ ontology (Section 3). The ontology is still in its        [7] J. J. Carroll, P. Hayes, C. Bizer, and P. Stickler. Named
+initial phases, thus further modelling will be required in the coming          graphs, provenance and trust. In A. Ellis and T. Hagino,
+months to make sure that the core vocabulary covers all concepts               editors, Proceedings of the 14th WWW conference, pages
+required for the intended use cases. This will be possible by (i)              613–622. ACM Press, 2005.
+exchanging ideas with interested LOD quality researchers, and (ii)         [8] A. Flemming. Quality Characteristics of Linked Data
+making sure that the vocabulary meets the standards required to be             Publishing Datasources. http://sourceforge.net/
+easily adapted by both data producers and consumers.                           apps/mediawiki/trdf/index.php?title=
+   We are currently in the process of giving more precise definitions          Quality_Criteria_for_Linked_Data_sources,
+of the quality dimensions and metrics collected in [15]. A number              2010. [Online; accessed 13-February-2014].
+ 9
+   http://www.semanticdesktop.org/ontologies/                              [9] C. Fürber and M. Hepp. Towards a vocabulary for data
+ dcon/                                                                         quality management in semantic web architectures. In
+10                                                                             Proceedings of the 1st International Workshop on Linked
+   http://www.w3.org/TR/void/
+11                                                                             Web Data Management, LWDM ’11, pages 1–8, New York,
+   http://www.w3.org/TR/2014/
+ REC-vocab-dcat-20140116/                                                      NY, USA, 2011. ACM.
+[10] A. Harth. Visinav: A system for visual search and navigation
+     on web data. Web Semantics: Science, Services and Agents
+     on the World Wide Web, 8(4):348–354, 2010. Semantic Web
+     Challenge 2009 User Interaction in Semantic Web research.
+[11] P. Heim, J. Ziegler, and S. Lohmann. gFacet: A browser for
+     the web of data. In Proceedings of the International
+     Workshop on Interacting with Multimedia Content in the
+     Social Semantic Web (IMC-SSW 2008), volume 417 of
+     CEUR Workshop Proceedings, pages 49–58, Aachen, 2008.
+[12] A. Hogan, A. Harth, J. Umbrich, S. Kinsella, A. Polleres, and
+     S. Decker. Searching and browsing linked data with SWSE:
+     The semantic web search engine. Web Semantics: Science,
+     Services and Agents on the World Wide Web, 9(4):365 – 401,
+     2011. {JWS} special issue on Semantic Search.
+[13] A. Hogan, J. Umbrich, A. Harth, R. Cyganiak, A. Polleres,
+     and S. Decker. An empirical survey of linked data
+     conformance. J. Web Sem., 14:14–44, 2012.
+[14] J. M. Juran. Juran’s Quality Control Handbook.
+     Mcgraw-Hill (Tx), 4th edition, 1974.
+[15] A. Zaveri, A. Rula, A. Maurino, R. Pietrobon, J. Lehmann,
+     and S. Auer. Quality assessment methodologies for linked
+     open data (under review). Semantic Web Journal, 2012. This
+     article is still under review.
+

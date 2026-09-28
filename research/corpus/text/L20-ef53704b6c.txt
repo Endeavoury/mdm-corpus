@@ -1,0 +1,685 @@
+Association for Information Systems
+AIS Electronic Library (AISeL)
+AMCIS 2011 Proceedings - All Submissions
+
+
+
+8-7-2011
+
+Strategic Business Requirements for Master Data
+Management Systems
+Boris Otto
+University of St. Gallen, boris.otto@tu-dortmund.de
+
+Martin H. Ofner
+University of St. Gallen, martin.ofner@unisg.ch
+
+
+
+
+Follow this and additional works at: http://aisel.aisnet.org/amcis2011_submissions
+
+Recommended Citation
+Otto, Boris and Ofner, Martin H., "Strategic Business Requirements for Master Data Management Systems" (2011). AMCIS 2011
+Proceedings - All Submissions. 108.
+http://aisel.aisnet.org/amcis2011_submissions/108
+
+
+This material is brought to you by AIS Electronic Library (AISeL). It has been accepted for inclusion in AMCIS 2011 Proceedings - All Submissions by
+an authorized administrator of AIS Electronic Library (AISeL). For more information, please contact elibrary@aisnet.org.
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+                         Strategic Business Requirements for
+                          Master Data Management Systems
+
+                       Boris Otto                                                         Martin Ofner
+                 University of St. Gallen                                             University of St. Gallen
+                  Boris.Otto@unisg.ch                                                 Martin.Ofner@unisg.ch
+
+ABSTRACT
+Master Data Management (MDM) is of increasing importance because it is seen as a promising approach in companies to
+respond to a number of strategic business requirements, such as complying with an increasing number of regulations,
+supporting internal and external business process integration, and establishing a “360-degree-view on the customer”. As a
+result, software vendors such as IBM, Oracle, SAP, and TIBCO are offering MDM application systems. However, the user
+community feels a significant mismatch between their own strategic requirements and the functionality currently offered by
+the software products. As the Information Systems (IS) research community has remained silent so far regarding this research
+problem, the research presented in this paper makes intensive use of knowledge from the practitioners’ community in order to
+design a framework for strategic business requirements to be met by MDM systems. As an outcome of a design-oriented
+research process, the framework is an artifact which advances the scientific body of knowledge while at the same time
+providing benefit for practitioners. The framework includes seven design principles which are translated into 23
+requirements. The requirements form a baseline for internal and external communication in companies and for the design of
+concrete MDM systems.
+Keywords
+Master data management, Business requirements framework, Design research, Researcher-practitioner collaboration.
+INTRODUCTION
+Motivation and Problem Statement
+MDM is a topic of increasing prominence both in the practitioners’ and in the research community. Reasons for that are an
+increasing number of regulatory and legal provisions companies need to comply with, the need to have a single source of
+truth for company-wide reporting (McCann 2010; Yen 2004), and the demand for having a 360°-view on the customer (Leser
+and Naumann 2007; Pula, Stone and Foss 2003).
+As a response to that, software vendors have started to offer MDM application systems (in the following referred to as
+“MDM systems”). Examples are IBM’s InfoSphere Master data Management Server (IBM 2011), Oracle Master Data
+Management (Oracle 2010), SAP NetWeaver Master Data Management (SAP 2011), and TIBCO’s Collaborative
+Information Manager (TIBCO 2008). Despite differences with regard to their architectures and to their development history,
+they offer similar functionality at their core. Basic functionality comprises import, conversion, and export of master data, data
+storage and distribution, data quality management (such as duplicate checks), search algorithms, and general workflow
+support for data management activities such as data creation, data update, etc. However, compared to Enterprise Resource
+Planning (ERP) systems, dedicated MDM systems as the ones mentioned above represent a relatively new class of
+application systems. As a consequence, the user community is characterized by uncertainty and lack of expertise with regard
+to the functionality MDM software offers. Exemplary questions discussed at Gartner’s 2008 MDM are (Friedman 2009):
+ “What is the proper sequence of activities in support of MDM? Must we have solid data integration and data quality
+  practices and architectures in place before dealing with MDM?”
+ “Most of our current data integration requirements are batch-oriented in nature, as we work to physically consolidate silos
+  of master data. What types of packaged data integration tools will be most relevant for our purposes?”
+ “Has market consolidation already reached the point where the advantages of single-vendor stacks for MDM outweigh the
+  advantages of a best-of-breed strategy?”
+On the other side, user companies have a clear understanding of their business requirements and their expectations regarding
+MDM software. And they feel misunderstood when talking to MDM software vendors  or, as a leading information
+
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                 1
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+technology (IT) architect at Novartis Pharma put it in a joint workshop with the authors of this paper on February 28th, 2009,
+in Basel, Switzerland:
+“We are flooded by invitations from MDM software vendors to sit together and let them present their solutions, which are
+always supposed to be the solution to all our problems. When we meet, it’s always the same: They present something we
+aren’t looking for. Then we tell them our understanding of the world and what our real requirements are  what in return they
+do not want or cannot share. And in the end, everybody goes his own way, highly frustrated because they couldn’t sell their
+product, we didn’t get an answer to our problems, and both of us spent time in vain.”
+Apparently, there is a mismatch between the expectations in the practitioners’ community regarding the functionality of
+MDM systems and the offering by software vendors, despite the existence of recommendations from consultancies on MDM
+system functionality, such as Gartner’s magic quadrants (Radcliffe 2010; White 2010). And the issue has not been taken up
+so far by the Information Systems (IS) research community, which remains silent when it comes to investigating on current
+and future functionality of MDM systems. Only few contributions are available. Berson and Dubov (2007, p. 350-363), for
+example, provide an overview of selected MDM systems. And Kokemüller (2009) provides a market survey directed at the
+German-speaking community. Neither the practitioners’ nor the scientific community, however, are addressing the issue of
+strategic business requirements for MDM systems. A general direction is missing which guides the further development of
+MDM systems, their use in companies, and the collaboration between users and vendors.
+Research Question and Contribution
+The paper addresses a current gap in the IS community as it aims at finding answers to two research questions:
+ What are strategic business requirements to be met by MDM systems?
+ How can these requirements be framed to support communication between user companies and software vendors?
+Since the topic is of relevance and interest both to the practitioners’ and the scientific community, the work presented in this
+paper follows a design-oriented research approach. Design Science Research (DSR) aims at delivering research artifacts
+which advance the scientific body of knowledge and  at the same time  benefit practitioners (Hevner, March, Park and
+Ram 2004; March and Smith 1995). The research presented in this paper delivers a framework for strategic business
+requirements for MDM systems. Being an abstraction of an information system that can be used to develop concrete
+instantiations, the framework represents the artifact class of “models” according to March and Smith (1995).
+The paper makes a contribution both to the scientific and the practitioners’ community. Through explication of the research
+process and the documentation of the framework itself the paper advances the scientific body of knowledge, as it forms the
+baseline for future research (for example, on the validation of the research process, or on the extension and adaptation of the
+framework as a response to changing requirements). At the same time, practitioners benefit from the framework because they
+can use it as a “blueprint” in the development of their individual, strategic planning, and as a reference in their
+communication with peers and vendors.
+THEORETICAL BACKGROUND
+Master Data Management (MDM)
+Master data specifies the essential business entities a company’s business activities are based on. Such entities are, for
+example, business partners (customers, suppliers), products, or employees (Smith and McKeen 2008). Basically, master data
+can be differentiated by three concepts: master data class, master data attribute, and master data object (Loshin 2008). A
+master data object represents a concrete business object (an automobile manufactured in a certain plant at a certain point in
+time, for example), and it specifies selected characteristics of this business object (color, features, or price, for example) by
+means of attributes. Attributes selected for representation of a specific class of business objects (customers or products, for
+example) constitute a master data class (which usually is specified by a data model). From the perspective of data modeling, a
+master data object is an instance of a master data class, which is created by assigning data values (a sequence of numbers, for
+example) to a master data attribute ( a phone number of a customer, for example).
+MDM comprises all activities for creating, modifying or deleting a master data class, a master data attribute, or a master data
+object (Smith et al. 2008), i.e. the modeling, provision, quality management, maintenance, and archiving of master data. All
+these activities aim at providing master data of good quality (i.e. master data that is complete, accurate, timely, and well-
+structured) for being used in business processes (Karel 2006; Loshin 2008).
+Both researchers and practitioners agree that MDM is about establishing a business function rather than implementing a
+technology. Hence, MDM has implications on a strategic, organizational and information systems level of a company (Otto
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                 2
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+and Reichert 2010). Strategic and organizational questions are closely related to Data Governance (Loshin 2008; Sarsfield
+2009) and establishment of roles for planning, designing and overseeing MDM activities. Typical roles are, for example, data
+owner and data steward for master data (Khatri and Brown 2010; Power 2008; Swanton 2005; Weber, Otto and Österle
+2009). However, software functionality remains the “necessary condition” for successful MDM, as master data  like data in
+general  is maintained in software systems.
+MDM Systems
+Studies on MDM systems mainly focus on three aspects, namely usage scenarios, architecture types, and the vendor market
+for MDM systems. Regarding (1) usage scenarios, a typical distinction is made between analytical and operational MDM
+(Dreibelbis, Hechler, Milman, Oberhofer, van Run and Wolfson 2008; Loshin 2008). Analytical MDM refers to the use of
+MDM systems to establish a “single version of the truth” or a “golden record” by extracting master data from source systems
+(i.e. from local ERP systems), transforming them, and finally loading them into a system which can then be used for
+analytical purposes. In contrast, operational MDM refers to master data being distributed from a central system to local
+systems which use the data to support business processes (or “operations” in general). Identification of usage scenarios is
+deemed necessary in order to be able to determine an appropriate MDM system architecture.
+Researchers and practitioners alike distinguish four different (2) architecture types for MDM systems (Dreibelbis et al. 2008;
+Kokemüller 2009; Loser, Legner and Gizanis 2004; Loshin 2008; Otto and Schmidt 2010).
+ A central system architecture consists of a dedicated MDM system, which consolidates master data from local systems and
+  distributes authorized versions of the data back to these systems.
+ A leading system architecture works similar to the central system architecture, but has no dedicated MDM system. Instead,
+  other application systems (often ERP systems) store and provide authorized versions of certain master data classes (e.g.
+  customer data, product data).
+ A repository consists of a central system which – in contrast to the central system architecture – does not manage
+  authorized versions of master data, but instead manages references and mappings from data in one local system to data in
+  another.
+ A peer-to-peer architecture assumes neither a central system nor central coordination of the data flows between different
+  systems. Instead, it uses standards for definition, description, and exchange of master data. All connections between the
+  different systems are established via a one-to-one relationship.
+Both practitioners and researchers provide (3) overviews of the vendor market for MDM systems. Gartner, for example, has
+come up with a “magic quadrant” for MDM systems for customer data (Radcliffe 2010) and product data (White 2010).
+Berson and Lubov (2007) provide vendor profiles. And Kokemüller compares different solutions against a number of
+evaluation criteria (Kokemüller 2009).
+With regard to MDM system functionality, both researchers and practitioners have remained rather silent so far. Dreibelbis et
+al. (2008) give an general functional overview from an Service-oriented Architecture (SOA) perspective, DAMA (2009, pp.
+173-192) identifies MDM activities which can be assumed requirements for MDM functionality, and Otto and Hüner (2009)
+in a working report describe their work toward a functional reference model for master data quality management. No
+contribution can be found addressing strategic business requirements for MDM systems in particular.
+RESEARCH PROCESS
+The research process (see Figure 1) in this paper follows the Design Science Research Methodology (DSRM) as proposed by
+Peffers et al. (2008). The result of the research process is a design artifact, namely the framework for strategic business
+requirements for MDM systems. The research process consists of four phases. The Analysis phase includes the DSRM
+activities “Identify Problem & Motivate” and “Define Objectives of a Solution”. The DSRM activities “Design and
+Development” and “Demonstration” were aggregated in the Design & Demonstration phase. The last two phases, Evaluation
+and Communication, are kept as proposed by DSRM.
+The Analysis phase included two steps:
+ In first step, expert interviews (cf. Meuser and Nagel 1994) with three managers working in the field of MDM at Novartis
+  Pharma were used to identify the problem (see also quote in the “Introduction” section).
+ The second step, namely the definition of the objectives of the framework, was inspired by the “Future Search Conference”
+  technique (cf. Weisbord 1992). The technique supports collaboration of large heterogeneous groups aiming at innovating
+  around a given problem or at formulating a shared vision of the future in a given context. The technique normally requires
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                 3
+Otto et al.                                                                                                         Strategic MDM Requirements
+
+
+
+  setting up a “conference”, in which people from diverse settings work together in a series of tightly scheduled meetings (2
+  to 4 days). The research presented in this paper focused on three particular steps of the technique and identified (1) changes
+  in the past, (2) predicted changes in the future (up to five years from present), and (3) desired developments. In the process
+  of applying the technique, the group of professionals from Novartis Pharma and the authors of this paper identified
+  shortcomings in the past regarding MDM systems and developed “innovation profiles” (see Appendix A for two examples)
+  which guided the design of the framework.
+
+
+
+                                         ANALYSIS
+                              ■ Expert interviews (02/28/09) to identify and describe problem
+                              ■ “Future Search” activities (05/07 to 05/14/09) to define objectives of a solution
+
+
+
+                                                               DESIGN & DEMONSTRATION
+                                     ■ “Future Search” activities to identify design principles
+                                     ■ Reference modeling for framework design
+                                     ■ Focus groups (06/24, 09/29, and 12/02/09) to demonstrate
+                                       objectives and design principles
+
+                                                                                       EVALUATION
+                                                             ■ “Offline” expert evaluation (via email, 11/30 to
+                                                              12/18/09)
+                                                             ■ Focus group evaluation (05/27/10)
+
+                                             COMMUNICATION
+                                                                 ■ Presentation to practitioners community
+                                                                   (05/27/10)
+                          Q1/09      Q2/09      Q3/09      Q4/09       Q1/10      Q2/10      Q3/10       Q4/10
+
+                                                        Figure 1: Research Process
+The Design & Demonstration phase consisted of three steps:
+ In a first step, design principles were developed using the adaption of the Future Search Conference technique described
+  above.
+ In a second step reference modeling was applied to design the framework for strategic business requirements for MDM
+  systems. A reference model is defined as the result of a design process performed by a modeler who specifies (at a certain
+  point in time) general elements of a system so that it serves as a reference point in the design of an information system. A
+  reference model represents a class of use cases and can be used for the development of company-specific models (Schütte
+  1998, pp. 69-74). Fettke and Loos (2004) denote reference models as a “technique of practical utility”, which corresponds
+  very well with the research gap and the practitioners’ demand mentioned above. Reference modeling represents the central
+  design approach used in the Design & Demonstration phase.
+ In a third step, focus groups were used to demonstrate preliminary versions of the framework and receive feedback on it
+  from the practitioners’ community. Focus groups are a multilateral form of expert interviews which allow identification
+  and assessment of the level of consensus within a peer group (cf. Morgan and Krueger 1993).
+The Evaluation phase included two steps:
+ In a first step, an offline, e-mail based expert survey among more than 80 experts from the MDM domain was conducted to
+  evaluate the framework, mainly from a deployment perspective (to determine the framework’s usefulness) and from an
+  engineering perspective (to determine the degree to which the framework meets the requirements mentioned above) (cf.
+  Frank 2007). The participants of the expert survey were selected from the “CC CDQ Community”, an online community
+  on MDM which the researchers run in the social network XING. XING addresses business professionals mainly from the
+  German-speaking parts of Europe. All online community members who represented user companies were addressed by the
+  survey. All of them hold managing roles related to MDM in large companies.
+ A second evaluation step was carried out in another focus group. Input to the focus group on 05/27/10 was a version of the
+  framework which already included the evaluation feedback from the offline survey mentioned above.
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                            4
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+The Diffusion phases consist of two steps:
+ In a first step, the results of the framework design were communicated to the practitioners’ community in mid-2010. This
+  communication is available as a working report (Österle, Otto and Ofner 2010).
+ The second step addresses the communication of results to the scientific community through the present paper.
+Overall, the research process combines two expert interview workshops with representatives from Novartis Pharma, three
+focus groups for validating objectives and overall design, an offline expert survey over a period of 18 days among 80
+professionals, and two focus groups for artifact evaluation. The intensive collaboration with representatives from the
+practitioners’ community was deemed necessary given the practical relevance of the topic and the ambition of the research to
+work toward a reference model. To demonstrate their accordance with its message and content, 27 MDM professionals from
+twenty organizations co-signed the report (see Appendix B).
+The following section of the paper uses “vignettes” to explicate on decisions made during the design process. Following
+Hevner et al. (2004), the research process was not a unidirectional sequence of design activities, but rather comprised
+iterations of design, demonstration, and evaluation steps.
+FRAMEWORK DESCRIPTION
+Framework Overview
+The meta-model of the framework for strategic business requirements for MDM systems consists of four components. Two
+components relate to the business context and two to the framework itself (see Figure 2). The business context is formed by
+the shortcomings of existing MDM systems on the one hand and strategic MDM use cases on the other. Representing the
+business rationale, strategic MDM use cases are the starting point for companies to evaluate the use of MDM systems.
+Shortcomings of current solutions prevent companies from meeting the requirements which can be derived from the strategic
+use cases.
+
+
+                                    Business Context
+
+
+                                           Shortcomings of               Strategic MDM Use
+                                           Current Solutions                   Cases
+
+
+
+
+                                                          Design Principles
+
+
+
+
+                                                             Long-Term
+                                                              Business
+                                                            Requirements
+                                    Framework
+
+                                                 Figure 2: Framework Meta-model
+The framework itself consists of design principles derived from the innovation profiles. The design principles do not show
+the level of detail required for a software realization project. Instead, they represent the strategic vision of what user
+companies would expect from an MDM system. The design principles were then translated into a set of 23 requirements,
+which are supposed to be taken up by software vendors. The need for connecting design principles to business requirements
+was articulated by an MDM expert participating in the design and evaluation activities. The comment received via e-mail
+reads:
+“[In the current framework version] I am missing a link [between requirements] and use cases. How do the latter relate to the
+requirements? Can’t they be linked […]?”
+
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                 5
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+As both shortcomings and MDM use cases are not part of the framework itself, they are described in Appendices C and D.
+The design principles and strategic business requirements are described in greater detail in the following section.
+Design Principles for Future MDM Systems
+During the design process seven design principles were identified (see Table 1). They describe fundamental ideas about the
+practice of good MDM and are assumed to be the basis of any design strategy.
+ID    Design Principle     Description
+P1    Master Data as a     There is an analogy between quality issues in product manufacturing and quality issues in
+      Product              information manufacturing. While product manufacturing can be viewed as a processing system
+                           that acts on raw materials to produce physical products, information manufacturing can be viewed
+                           as a processing system acting on raw data to produce information products (Wang 1998).
+                           Organizations need to understand their customers’ (both internal and external) needs with regard to
+                           master data. They must appoint a manager to oversee the production of high-quality master data,
+                           and they must recognize that master data is not just a by-product but a high-quality product
+                           characterized by clear product specifications. The production of master data consumes scarce
+                           resources. In this sense, master data needs a price tag just like any other product.
+P2    Market for           Sourcing strategies become more and more important for the MDM domain. Internal and external
+      Master Data          data providers such as GS1 and D&B need to be identified, evaluated, and selected for the
+                           manufacturing of high-quality master data products (cf. Otto and Ofner 2010).
+P3    Subsidiarity         Subsidiarity is an organizing principle which says that matters should be handled by the smallest,
+                           lowest or least centralized competent authority available. Applied to the MDM domain,
+                           subsidiarity means that some rules and standards must strictly be adhered to (with regard to
+                           compliance issues, for example), while other rules or standards are just recommendations
+                           individuals acting on a local level may follow. Only in case the responsible unit is not able to
+                           handle the matter on its own, or if company-wide interests are touched, responsibility for such
+                           master data must be assigned to an upper or central level, respectively (cf. Loshin 2008).
+P4    Context              Depending on the lifecycle of master data, the set of mandatory properties forming the nucleus may
+      Awareness            vary (i.e. different material data lifecycle phases require a different set of mandatory data
+                           properties) (cf. White 2008). Moreover, validity of certain properties depends on the business
+                           context. For example, the nucleus for product master data contains several properties with a
+                           different validity context at the same time, e.g. the current price (for ordering), the planned price (if
+                           not yet released), price rebates (to inform the sales force upfront), and the old price (required for
+                           potential reimbursements). In other words, certain properties are context-depending.
+P5    “The Nucleus”        The “nucleus” describes the common denominator of mandatory properties of a master data class
+                           (e.g. material). This set of properties is unique and binding throughout the entire company (van den
+                           Hoven 2003). There might be cases in which the nucleus consists of a unique identifier only (e.g.
+                           for reporting purposes). There might be other cases in which the nucleus is formed by a broader set
+                           of properties.
+P6    Process Quality      Master data quality needs to be ensured throughout the entire data lifecycle (create, read, update,
+                           archive, and delete). The sources of master data products (“upstream visibility”), the consumers of
+                           master data products (“downstream visibility”) (White and Radcliffe 2008), and the manufacturing
+                           process of the master data product itself needs to be made explicit. Clear master data ownership
+                           needs to be defined and managed (White 2008).
+P7    Deep Integration     MDM technology requires sufficient interoperability to seamlessly integrate in existing
+                           transactional or legacy systems. A high level of interoperability maximizes flexibility and
+                           reusability of the technology. From today’s point of view, best integration of MDM technology in
+                           any company or group of companies is achieved by using a company-wide data repository to
+                           supply high-quality master data to any business function or IT system in the company.
+                                        Table 1: Design Principles for Future MDM Systems
+
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                  6
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+Strategic Business Requirements
+In the Design & Demonstration phase of the project, the design principles were translated into requirements to be met by
+MDM systems (see Table 2). The requirements are supposed to be connecting points for software vendors in order to be able
+to respond to the needs of user companies. In total, 23 requirements were identified.
+ID            Requirement                                                   Supported Design       Shortcomings addressed
+                                                                              Principle(s)
+R1            Support of Master Data Product Descriptions                           P1             Business Semantics
+                                                                                                   Management
+
+R2            Sourcing of Master Data Products                                      P2             Master Data Service Approach,
+                                                                                                   Predefined Content
+
+R3            Integration of External Master Data Sources                           P2             Master Data Service Approach,
+                                                                                                   Predefined Content
+R4            Quality Management of Master Data Products and                        P6             Integrated MDM and DQM
+              Services
+R5            Audit Management of Master Data Products and Services                 P6             Regulatory Compliance
+
+R6            Management of Access Rights According to Data                         P3             Regulatory Compliance
+              Governance Roles
+R7            Escalation Management                                                 P3             Distinction between Global and
+                                                                                                   Local
+
+R8            Support of Usage Monitoring of Master Data Products                   P6             Downstream Visibility
+
+R9            Maintenance of Context-Aware Master Data                              P4             Master Data Service Approach
+
+R10           Gauging of Master Data Product Consumption                            P6             Downstream Visibility
+
+R11           Requirements Engineering for Master Data Products                     P1             Business Semantics
+
+R12           Design and Maintenance of Global/Local Master Data                    P6             Distinction between Global and
+              Management Processes                                                                 Local
+
+R13           Internal Customer Support                                             P1             Master Data Service Approach
+
+R14           Management of Business Rules for Data Standards                       P6             Business Rules Management
+R15           Support of an End-to-End Master Data Product Lifecycle                P4             Downstream Visibility
+
+R16           Support of Master Data Provenance Tracing                             P6             Downstream Visibility
+
+R17           Management of Data Standards                                          P5             Business Rule Management
+
+R18           Enforcement of Data Standards                                         P5             Regulatory Compliance
+
+R19           Schema Matching and Mapping Using Heuristics                          P5             “On-the-fly“ Matching and
+                                                                                                   Mapping
+
+R20           Delivery of Predefined Content                                        P5             Predefined Content
+
+R21           Design, Maintenance, and Integration of Global/Local                  P5             Distinction between Global and
+              Master Data Models                                                                   Local
+
+R22           Subscription to Master Data Products or Properties                    P7             Downstream Visibility
+
+R23           Support of Interoperability Standards.                                P7             Stovepipe Approach
+                                     Table 2: Strategic Business Requirements for MDM Systems
+
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                  7
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+Feedback in the Design Process
+27 experts from twenty companies participated in the design and evaluation activities by providing their feedback on
+preliminary versions of the framework. The feedback was  as one can imagine  highly heterogeneous, ranging from simple
+supportive/disagreeing statements to orthographic and minor comments to major change requests.
+An example of a minor change request is the following feedback received via e-mail with regard to R2:
+“Data, especially master data, not only need data values but data classification and data transfer rules too, in order to be a
+valid ‘source’.”
+An example of a major contribution is the following feedback received via e-mail with regard to R19:
+“Matching and Mapping might be different, matching more content related, e.g. duplication check, mapping is schema
+related. […] Would suggest to make two points. Matching and Mapping. […] Shortcoming for matching is that tools ‘can do’
+but do not ‘have’, meaning they are shipped with no content/no sophisticated predefined rules for matching. I’d expect
+instead of an empty rule set an elaborate set of predefined rules incl. referencing external validation services. These rules can
+be activated/deactivated/adjusted as required but do not need to be defined from scratch.”
+The framework (without the explication of the research process) is available as a working report (Österle et al. 2010) and was
+distributed within the practitioners’ community. In doing so, the research process follows recommendations for DSR to make
+research results available both to researchers and to practitioners (Hevner et al. 2004; Peffers et al. 2008).
+FRAMEWORK EVALUATION
+The framework for strategic business requirements for MDM systems is a reference model. Therefore, artifact evaluation
+should follow guidelines for evaluation of reference models. Frank (2007) proposes a multidimensional evaluation approach,
+which the paper at hand follows. He distinguishes four relevant dimensions, namely the (1) economic dimension, (2) the
+deployment dimension, (3) the engineering dimension, and (4) the epistemological dimension. Table 3 summarizes the
+evaluation of the framework.
+Dimension                Detailed Criteria                 Assessment
+Economic                 Cost caused by the reference      No statement can be made so far regarding the business benefits
+                         model, for training, model        related to the framework’s use. However, all focus groups evaluated
+                         acquisition, integration,         the potential of the framework positive and expected improvement
+                         adaptation, maintenance etc.;     regarding internal and external communication.
+                         business benefits resulting
+                         from the reference model;
+                         improved communication
+                         and knowledge
+                         management.
+Deployment               Appropriateness,                  Both the offline survey and the focus group on 05/27/2010, which
+                         comprehensibility, “attitude”     included more than 50 participants (among which were Dataflux,
+                         (e.g. regarding the “not-         IBM, Oracle, SAP, TIBCO, and Trillium as representatives from the
+                         invented-here syndrome”).         software vendor community), confirmed the appropriateness and
+                                                           usefulness of the approach. Asked by the moderator (one of the
+                                                           authors of this paper) whether the initiative should be continued or
+                                                           not, the focus group unanimously voted for continuation.
+Engineering              Clarity of definitions,           At present, the written formulation of the framework is still relatively
+                         explanations, formalization       informal in style. This is a result of the intensive input from
+                         of language, technical            practitioners, who in general prefer content to formalism. As a
+                         soundness etc.                    consequence, design principles are not free of overlapping and the
+                                                           requirements are “unbalanced” to a certain extent.
+                                                           Apart from that, the representatives from the software vendors
+                                                           participating in the focus group on 05/27/2010 articulated a demand
+                                                           for more specific requirements, as they considered the present
+                                                           version of the framework not ready to be handed to development.
+                                                           They recommended “scenarios” for proof-of-concepts.
+
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                  8
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+Dimension                Detailed Criteria                 Assessment
+Epistemological          Theoretical foundation,           The scientific body of knowledge regarding MDM is still in its
+                         critical distance, scientific     infancy. As a result, the paper makes intensive use of knowledge
+                         progress.                         from the practitioners’ community. The research process follows
+                                                           accepted guidelines and combines a variety of research methods.
+                                                  Table 3: Framework Evaluation
+CONCLUSIONS
+The paper reports on the design of an IS research artifact, namely a framework for strategic business requirements to be met
+by MDM systems. The framework is a response to an acute need in the practitioners’ community and addresses a topic which
+has not been investigated in depth by IS research so far. Due to the lack of scientific knowledge, the research presented in the
+paper makes intensive use of expertise from practitioners who were involved in the research process by means of expert
+interviews, an offline survey, and a series of focus groups.
+Practitioners benefit from the framework because it facilitates internal and external communication and forms a reference for
+strategic application systems planning for MDM. The paper adds to the scientific body of knowledge since it presents an
+abstraction of an information system in a quite neglected area of IS research, and since it explicates the research process. This
+explication allows for future research to validate the framework and to extend and adapt it in order to be able to reflect
+changing business requirements and technologies.
+ACKNOWLEDGEMENTS
+This research is a result of the Competence Center Corporate Data Quality (CC CDQ) at the Institute of Information
+Management at the University of St. Gallen, Switzerland. The CC CDQ is part of the research program Business Engineering
+at the University of St. Gallen (BE HSG).
+REFERENCES
+1.   Berson, A. and Dubov, L. Master Data Management and Customer Data Integration for a Global Enterprise McGraw-
+     Hill, New York, 2007.
+2.   DAMA The DAMA Guide to the Data Management Body of Knowledge Technics Publications, Bradley Beach, New
+     Jersey, 2009.
+3.   Dreibelbis, A., Hechler, E., Milman, I., Oberhofer, M., van Run, P., and Wolfson, D. Enterprise Master Data
+     Management: An SOA Approach to Managing Core Information Pearson Education, Boston, Massachusetts, 2008.
+4.   Fettke, P. and Loos, P. "Referenzmodellierungsforschung", Wirtschaftsinformatik (46:5) 2004, pp 331-340.
+5.   Frank, U. "Evaluation of Reference Models", in: Reference Modeling for Business Systems Analysis, P. Fettke and P.
+     Loos (eds.), Idea Group, Hershey, Pennsylvania et al., 2007, pp. 118-139.
+6.   Friedman, T. "Q&A: Common Questions on Data Integration and Data Quality From Gartner's MDM Summit", Gartner,
+     Inc., Stamford.
+7.   Hevner, A.R., March, S.T., Park, J., and Ram, S. "Design Science in Information System Research", MIS Quarterly
+     (28:1) 2004, pp 75-105.
+8.   IBM "InfoSphere Master Data Management Server", IBM Corporation, Armonk, USA, 2011.
+9.   Karel, R. "Introducing Master Data Management", Forester Research, Cambridge, Massachusetts.
+10. Khatri, V. and Brown, C.V. "Designing Data Governance", Communications of the ACM (53:1) 2010, pp 148-152.
+11. Kokemüller, J. Stammdatenmanagementsysteme 2009 Fraunhofer-Verlag, Stuttgart, Germany, 2009.
+12. Leser, U. and Naumann, F. Informationsintegration: Architekturen und Methoden zur Integration verteilter und
+    heterogener Datenquellen dpunkt, Heidelberg, Germany, 2007.
+13. Loser, C., Legner, C., and Gizanis, D. "Master Data Management for Collaborative Service Processes", International
+    Conference on Service Systems and Service Management, Research Center for Contemporary Management, Tsinghua
+    University, forthcoming, 2004.
+14. Loshin, D. Master Data Management Morgan Kaufmann, Burlington, Massachusetts, 2008.
+
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                 9
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+15. March, S.T. and Smith, G.F. "Design and natural science research on information technology", Decision Support Systems
+    (15) 1995, pp 251-266.
+16. McCann, D. "If you build it..." CFO (26:3) 2010, pp 29-31.
+17. Meuser, M. and Nagel, U. "Expertenwissen und Experteninterview", in: Expertenwissen. Die institutionelle Kompetenz
+    zur Konstruktion von Wirklichkeit, R. Hitzler, A. Honer and C. Maeder (eds.), Westdeutscher Verlag, Opladen, 1994, pp.
+    180-192.
+18. Morgan, D.L. and Krueger, R.A. "When to use Focus Groups and why?" in: Successful Focus Groups, D.L. Morgan
+    (ed.), Sage, Newbury Park, California, 1993, pp. 3-19.
+19. Oracle "Master Data Management: An Oracle White Paper", Oracle Corporation, Redwood Shores, CA.
+20. Österle, H., Otto, B., and Ofner, M. "MDM 2015: Shaping the Future of Master Data Management", University of St.
+    Gallen, Institute of Information Management, St. Gallen, Switzerland.
+21. Otto, B. and Hüner, K. "Functional Reference Architecture for Corporate Master Data Management", BE HSG / CC
+    CDQ / 21, Institute of Information Management, University of St. Gallen, St. Gallen, Switzerland.
+22. Otto, B. and Ofner, M. "Towards a Process Reference Model for Information Supply Chain Management", in: 18th
+    European Conference on Information Systems (ECIS 2010), Pretoria, 2010.
+23. Otto, B. and Reichert, A. "Organizing Master Data Management: Findings from an Expert Survey", in: Proceedings of
+    the 25th ACM Symposium on Applied Computing (SAC 2010), B.R. Bryant, H.M. Haddad and R.L. Wainwright (eds.),
+    Sierre (Switzerland), 2010, pp. 106-110.
+24. Otto, B. and Schmidt, A. "Enterprise Master Data Architecture: Design Decisions and Options", in: Proceedings of the
+    15th International Conference on Information Quality (ICIQ-2010), Little Rock, USA, 2010.
+25. Peffers, K., Tuunanen, T., Rothenberger, M.A., and Chatterjee, S. "A Design Science Research Methodology for
+    Information Systems Research", Journal of Management Information Systems (24:3) 2008, pp 45-77.
+26. Power, D. "The Politics of Master Data Management & Data Governance", DM Review:March) 2008, pp 24-38.
+27. Pula, E.N., Stone, M., and Foss, B. "Customer data management in practice: An insurance case study", Journal of
+    Database Marketing (10:4) 2003, pp 327-341.
+28. Radcliffe, J. "Magic Quadrant for Master Data Management of Customer Data", G00206031, Gartner, Inc., Stamford,
+    USA.
+29. SAP "Components & Tools of SAP NetWeaver: SAP NetWeaver Master Data Management", SAP AG, Walldorf, 2011.
+30. Sarsfield The Data Governance Imperative: A Business Strategy for Corporate Data IT Governance Publishing,
+    Cambridgeshire (UK), 2009.
+31. Schütte, R. Grundsätze ordnungsmässiger Referenzmodellierung:                          Konstruktion      konfigurations-   und
+    anpassungsorientierter Modelle Gabler, Wiesbaden, Germany, 1998.
+32. Smith, H.A. and McKeen, J.D. "Developments in Practice XXX: Master Data Management: Salvation or Snake Oil?"
+    Communications of the AIS (23:4) 2008, pp 63-72.
+33. Swanton, B. "Master Data Management Organizations: A Balance of Control and Responsibility", AMR Research,
+    Boston.
+34. TIBCO "Managing Master Data with TIBCO Collaborative Information Manager: A Technical Overview", TIBCO
+    Software Inc., Palo Alto, CA.
+35. van den Hoven, J. "Data Architecture: Principles for Data", Information Systems Management (20:3) 2003, pp 93-96.
+36. Wang, R. "A Product Perspective on Total Data Quality Management", Communications of the ACM (41:2) 1998, pp 58-
+    65.
+37. Weber, K., Otto, B., and Österle, H. "One Size Does Not Fit All – A Contingency Approach to Data Governance", ACM
+    Journal of Data and Information Quality (1:1) 2009.
+38. Weisbord, M. Discovering Common Ground: How Future Search Conferences Bring People Together to Achieve
+    Breakthrough Innovation, Empowerment, Shared Vision, and Collaborative Action Berrett-Koehler, San Francisco,
+    1992.
+39. White, A. "Governance of Master Data Starts With the Master Data Life Cycle", Gartner, Inc., Stamford, CT, USA.
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                10
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+40. White, A. "Magic Quadrant for Master Data Management of Product Data", G00205921, Gartner, Inc., Stamford, CT,
+    USA.
+41. White, A. and Radcliffe, J. "Mastering Master Data Management", G00157050, Gartner, Inc., Stamford, CT, USA.
+42. Yen, B.K. "Pulling It All Together", Financial Executive (20:6) 2004, pp 60-62.
+
+
+
+APPENDIX
+Appendix A: Innovation Profile Examples
+Table 4 shows two innovation profiles out of ten in total which were developed in the first phase of the research and which
+guided the design activities.
+ID                  2                                                         3
+Short title         Master Data as a Service                                  Data Communities
+Description          A model of Master Data deployment whereby a              Data Communities leverage the strength of a
+                      (internal or external) provider licenses Master           growing community of the best data operations in
+                      Data to customers for use as a service on                 the world.
+                      demand.                                                  Participants benefit from multiple efforts each of
+                                                                                the member institution has put into their global
+                                                                                business entity database.
+Related MDM          Centralized Master Data can improve global               High-quality and up-to-date data leads to reduced
+business              quality of information.                                   settlement risk, improved regulatory compliance.
+potential            Standardized metadata is hashed out for Master
+                      Data Sets that are shared. For instance, a zip code
+                      is a zip code is a zip code - no matter where in
+                      the world you live.
+Barriers and         Costly for ensuring 24x7 uptime in a global              Concerns regarding potential loss of control over
+risks                 environment                                               “own” data must be overcome. Fit of externally
+                     The question of "Who owns the Master Data"                provided data to requirements of data consumers
+                      comes in to play                                          must be ensured.
+
+                     Security issues
+                     Requires your business to have metadata already
+                      defined for the master data sets
+Basic                Web services stack                                       Distributed data architectures, for example
+technologies         Service-oriented architectures                            Linked Data.
+used
+                                               Table 4: Innovation Profile Examples
+Appendix B: Co-Signers of the Framework Working Report
+The working report which describes the framework in a format appropriate for the practitioners’ community was co-signed
+by 27 MDM professionals from the following companies: Bayer CropScience AG, Beiersdorf AG, Clariant Business
+Services GmbH, Corning Cable Systems GmbH & Co. KG, Deutsche Telekom AG, DB Netz AG, eCl@ss e.V., Fraunhofer
+IAO, Geberit International AG, Henkel AG & Co. KG, Nestlé SA, Novartis Pharma AG, Philips Lighting B.V., Robert
+Bosch GmbH, Roche Diagnostics GmbH, RWE Service GmbH, Sick AG, Siemens Enterprise Communications GmbH & Co.
+KG, Syngenta Crop Protection AG, TNT Express GmbH, ZF Friedrichshafen AG.
+Appendix C: Strategic MDM Use Cases
+The analysis phase resulted also in a number of strategic MDM use cases which pose requirements for MDM systems. In the
+first version of the framework document (before November 2009), the following use cases had been identified: Risk
+management and compliance, integrated customer management, business process integration and harmonization, reporting,
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                11
+Otto et al.                                                                                              Strategic MDM Requirements
+
+
+
+IT consolidation. Later on, in the process of the offline expert survey, the following use cases were added as a result of the
+feedback analysis: demand planning, cross-project management, vendor management, product lifecycle management.
+Appendix D: Shortcomings of Current MDM Systems
+The user companies identified the following shortcomings: No downstream visibility of data, poor business semantics
+management, MDM and data quality management (DQM) treated as two separate “islands”, “stovepipe” approach for MDM
+architectures, no consistent master data service approach, no predefined content, no “on-the-fly” mapping and matching, poor
+support of centralized management of decentralized/federated datasets, no integrated business rules management, poor
+support of distinction between “global” and “local” data, poor support of compliance issues, insufficient transition
+management (from one MDM architecture to another).
+
+
+
+
+Proceedings of the Seventeenth Americas Conference on Information Systems, Detroit, Michigan August 4th-7th 2011                12
+

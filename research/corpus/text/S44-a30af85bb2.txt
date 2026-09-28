@@ -1,0 +1,1263 @@
+eIDAS SAML Attribute Profile
+eIDAS Technical Sub-group, 21 May 2019
+
+Document identifier:
+     eidas/Profiles/SAML/Attributes
+
+
+Editors:
+        Adam Cooper, Cabinet Office UK
+        Herbert Leitold, A-SIT
+        Guruprasad Chandramouli, Cabinet Office UK
+
+Abstract:
+       This specification defines the SAML attributes to be used for the assertion of natural
+       and legal person identity between eIDAS nodes.
+
+
+
+
+eIDAS/Profiles/Saml/Attributes               v1.2                                  21/05/2019
+                                          Page 1 of 23
+Table of Contents
+
+
+Table of Contents.................................................................................................. 2
+1 Introduction ....................................................................................................... 3
+1.1 Definitions .................................................................................................................................................... 3
+1.2 Key Words .................................................................................................................................................... 3
+2 Attributes .......................................................................................................... 4
+2.1 SAML Attribute Naming.......................................................................................................................... 4
+2.2 Attributes for Natural Persons ............................................................................................................ 5
+   2.2.1 Mapping eIDAS minimum data set for Natural Persons to ISA Core Vocabulary ...... 5
+   2.2.2 Attribute Schema ...................................................................................................................................... 5
+   2.2.3 Unique Identifier (mandatory) ........................................................................................................... 8
+   2.2.4 Current Family Name(s) (mandatory) ........................................................................................... 9
+   2.2.5 Current First Name(s) (mandatory) ................................................................................................ 9
+   2.2.6 Date of Birth (mandatory) ................................................................................................................... 9
+   2.2.7 First name(s) and family name(s) at birth ................................................................................ 10
+   2.2.8 Place of Birth ........................................................................................................................................... 10
+   2.2.9 Current Address ...................................................................................................................................... 10
+   2.2.10 Gender ..................................................................................................................................................... 11
+2.3 Attributes for Legal Persons .............................................................................................................. 12
+   2.3.1 Mapping eIDAS minimum data set for Legal Persons to Core ISA Vocabulary ........ 12
+   2.3.2 Attribute Schema ................................................................................................................................... 13
+   2.3.3 Unique Identifier (mandatory) ........................................................................................................ 15
+   2.3.4 Legal Name (mandatory) .................................................................................................................. 16
+   2.3.5 Legal Address........................................................................................................................................... 16
+   2.3.6 VAT Registration Number ................................................................................................................. 17
+   2.3.7 Tax Reference Number ........................................................................................................................ 17
+   2.3.8 Directive 2012/17/EU Identifier .................................................................................................... 18
+   2.3.9 Legal Entity Identifier.......................................................................................................................... 18
+   2.3.10 Economic Operator Registration and Identification .......................................................... 19
+   2.3.11 System for Exchange of Excise Data Identifier ...................................................................... 19
+   2.3.12 Standard Industrial Classification .............................................................................................. 20
+2.4 Transliteration ........................................................................................................................................ 20
+2.5 Unique Identifier Usage ....................................................................................................................... 21
+   2.5.1 Unique Identifier Stability ................................................................................................................. 21
+2.6 Displaying raw attribute data values ............................................................................................. 21
+2.7 Sector Specific Attributes ................................................................................................................... 22
+2.8 Natural and legal person representative ..................................................................................... 22
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                                                 v1.2                                                                 21/05/2019
+                                                                            Page 2 of 23
+1 Introduction
+The eIDAS interoperability framework including its national entities (eIDAS-Connector and
+eIDAS-Service) need to exchange messages including personal and technical attributes to
+support cross-border identification and authentication processes. For the exchange of
+messages, the use of the SAML 2.0 specifications has been agreed in the eIDAS technical
+subgroup and is laid down in the eIDAS Interoperability Architecture.
+
+Since the eIDAS interoperability architecture should use widely used standards, the following
+SAML- based profiles are taken into utmost account in this paper:
+        Kantara Initiative eGovernment Implementation Profile of SAML V2.0 [SAMLeGov2.0]
+        STORK 2.0 D4.4 First version of Technical Specifications for the cross border
+        Interface [STORK]
+
+1.1 Definitions
+Terms used throughout this document are defined in [eIDAS Interoperability Architecture]. In
+addition, when referring to SAML technology, an eIDAS-Service can be seen as SAML
+identity provider and an eIDAS-Connector as a SAML service provider.
+
+1.2 Key Words
+The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”,
+“SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be
+interpreted as described in [RFC2119]. The key word "CONDITIONAL" is to be interpreted as
+follows:
+
+CONDITIONAL: The usage of an item is dependent on the usage of other items. It is
+therefore further qualified under which conditions the item is REQUIRED or
+RECOMMENDED.
+
+
+
+
+eIDAS/Profiles/Saml/Attributes               v1.2                                 21/05/2019
+                                          Page 3 of 23
+2 Attributes
+The complete list of attributes included in the eIDAS minimum data sets are defined in the
+Annex of the interoperability framework implementing act.
+
+All attributes for the eIDAS minimum data sets can be derived from the ISA Core Vocabulary.
+In the case of natural persons refer to the Core Person Vocabulary at
+https://joinup.ec.europa.eu/asset/core_person/asset_release/core-person-vocabulary, in the
+case of legal persons also refer to definitions for Core Business Vocabulary at
+https://joinup.ec.europa.eu/asset/core_business/asset_release/core-business-vocabulary.
+
+The following sections describe the mandatory and optional elements for both natural and
+legal persons as required by the eIDAS interoperability framework in the context of the Core
+Vocabulary.
+
+2.1 SAML Attribute Naming
+The NameFormat XML attribute in <Attribute> elements MUST be
+urn:oasis:names:tc:SAML:2.0:attrname-format:uri.
+
+The XML attribute Name value MUST be one of the descriptors defined in sections 2.2
+Attributes for Natural Persons, and 2.3 Attributes for Legal Persons.
+
+The optional XML attribute FriendlyName value, if present, MUST be one of the friendly
+descriptors associated with the Name descriptor.
+
+Examples are included in this document for illustrative purposes (see sections 2.2 and 2.3), it
+is expected that these schema and examples will be refined before publication of the
+reference architecture.
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                v1.2                                  21/05/2019
+                                           Page 4 of 23
+2.2 Attributes for Natural Persons
+2.2.1 Mapping eIDAS minimum data set for Natural Persons to ISA Core Vocabulary
+
+The ISA Core Vocabulary describes a highly structured way of encoding person data that is
+not ideal for message creation or processing with SAML. The approach taken in this profile is
+to adopt the base type specified by ISA Core Vocabulary rather than the complex data types
+required for full compatibility with the standard.
+
+The following Mandatory attributes are required by the Regulation.
+
+  Attribute       eIDAS MDS               ISA Core Vocab             Notes
+  (Friendly) Name Attribute               Equivalent
+
+  FamilyName          Current Family      cbc:FamilyName             Encoded as xsd:string
+                      Name
+
+  FirstName           Current First       cvb:GivenName              Encoded as xsd:string
+                      Names
+
+  DateOfBirth         Date of Birth       cvb:BirthDate              Encoded as xsd:date
+
+  PersonIdentifier    Unique Identifier   cva:Cvidentifier           Encoded as xsd:string
+
+
+The following Optional attributes MAY be supplied by a MS if available and acceptable to
+national law.
+
+  Attribute          eIDAS MDS            ISA Core Vocab             Notes
+  (Friendly)         Attribute            Equivalent
+  Name
+
+  BirthName          First Names at       cvb:BirthName              Encoded as xsd:string
+                     Birth
+
+  BirthName          Family Name at       cvb:BirthName              See above re birth
+                     Birth                                           names
+
+  PlaceOfBirth       Place of Birth       cva:BirthPlaceCvlocation   Encoded as xsd:string
+
+  CurrentAddress     Current Address      cva:Cvaddress              Encoded as multiple
+                                                                     xsd:string elements
+  Gender             Gender               cvb:GenderCode             Encoded as xsd:string
+                                                                     with a restriction of
+                                                                     selection: Male,
+                                                                     Female, Unspecified
+
+
+2.2.2 Attribute Schema
+The following attribute schema is based on the definition of Core Person defining the
+minimum set of classes and properties for description of a natural person according to the
+ISA Core Vocabulary (https://joinup.ec.europa.eu/asset/core_person/asset_release/core-
+person-vocabulary).
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+      xmlns="http://eidas.europa.eu/attributes/naturalperson"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+
+
+
+eIDAS/Profiles/Saml/Attributes                 v1.2                               21/05/2019
+                                            Page 5 of 23
+       targetNamespace="http://eidas.europa.eu/attributes/naturalperso
+n"
+       elementFormDefault="qualified"
+       attributeFormDefault="unqualified"
+       version="1">
+
+    <xsd:attribute name="LatinScript" type="xsd:boolean"
+default="true"/>
+
+       <!--
+            Mandatory attribute types for a natural person.
+      -->
+      <xsd:simpleType name="PersonIdentifierType">
+        <xsd:annotation>
+            <xsd:documentation>
+                  Unique identifier for the natural person as defined
+by the eIDAS Regulation.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+
+       <xsd:complexType name="CurrentFamilyNameType">
+         <xsd:annotation>
+             <xsd:documentation>
+                   Current family name of the natural person.
+             </xsd:documentation>
+         </xsd:annotation>
+         <xsd:simpleContent>
+             <xsd:extension base="xsd:string">
+                 <xsd:attribute ref="LatinScript"/>
+             </xsd:extension>
+         </xsd:simpleContent>
+     </xsd:complexType>
+
+       <xsd:complexType name="CurrentGivenNameType">
+         <xsd:annotation>
+             <xsd:documentation>
+                   Current given names of the natural person.
+             </xsd:documentation>
+         </xsd:annotation>
+         <xsd:simpleContent>
+             <xsd:extension base="xsd:string">
+                 <xsd:attribute ref="LatinScript"/>
+             </xsd:extension>
+         </xsd:simpleContent>
+     </xsd:complexType>
+
+      <xsd:simpleType name="DateOfBirthType">
+        <xsd:annotation>
+            <xsd:documentation>
+                  Date of Birth for the Natural Person (Based on
+xsd:date i.e. YYYY-MM-DD format).
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:date"/>
+    </xsd:simpleType>
+
+       <!--
+               Optional attribute types for a natural person.
+       -->
+
+
+eIDAS/Profiles/Saml/Attributes       v1.2                       21/05/2019
+                                  Page 6 of 23
+    <xsd:complexType name="CurrentAddressStructuredType">
+        <xsd:annotation>
+            <xsd:documentation>
+                Current address of the natural person.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="PoBox" type="xsd:string" minOccurs="0"
+maxOccurs="1"/>
+            <xsd:element name="LocatorDesignator" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="LocatorName" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="CvaddressArea" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="Thoroughfare" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="PostName" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="AdminunitFirstline" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="AdminunitSecondline" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="PostCode" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="CurrentAddressType">
+        <xsd:annotation>
+            <xsd:documentation>
+                Current address of the natural person as a base64
+encoded string.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+
+       <xsd:simpleType name="GenderType">
+         <xsd:annotation>
+             <xsd:documentation>
+                   Gender of the natural person.
+             </xsd:documentation>
+         </xsd:annotation>
+             <xsd:restriction base="xsd:string">
+                          <xsd:enumeration value="Male"/>
+                          <xsd:enumeration value="Female"/>
+                          <xsd:enumeration value="Unspecified"/>
+         </xsd:restriction>
+     </xsd:simpleType>
+
+      <xsd:complexType name="BirthNameType">
+        <xsd:annotation>
+            <xsd:documentation>
+                  First name(s) and family name(s) of the natural
+person at birth.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute ref="LatinScript"/>
+
+
+eIDAS/Profiles/Saml/Attributes      v1.2                      21/05/2019
+                                 Page 7 of 23
+             </xsd:extension>
+         </xsd:simpleContent>
+     </xsd:complexType>
+
+       <xsd:complexType name="PlaceOfBirthType">
+         <xsd:annotation>
+             <xsd:documentation>
+                   Place of birth for a natural person.
+             </xsd:documentation>
+         </xsd:annotation>
+         <xsd:simpleContent>
+             <xsd:extension base="xsd:string">
+            </xsd:extension>
+          </xsd:simpleContent>
+     </xsd:complexType>
+
+</xsd:schema>
+
+Fig. 2.2.2 – Schema for natural persons
+
+
+2.2.3 Unique Identifier (mandatory)
+
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/naturalperson/PersonIdentifier
+
+SAML Attribute FriendlyName:              PersonIdentifier
+
+ <saml:Attribute
+          FriendlyName="PersonIdentifier"
+          Name="http://eidas.europa.eu/attributes/naturalperson/PersonId
+ entifier"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:PersonIdentifierType">
+                 ES/AT/02635542Y
+          </saml:AttributeValue>
+Fig. 2.2.3 – example PersonIdentifier attribute value
+
+The unique identifier consists of:
+   1. The first part is the Nationality Code of the identifier
+               This is one of the ISO 3166-1 alpha-2 codes, followed by a slash (“/“))
+   2. The second part is the Nationality Code of the destination country or international
+       organization 1
+               This is one of the ISO 3166-1 alpha-2 codes, followed by a slash (“/“)
+   3. The third part a combination of readable characters
+               This uniquely identifies the identity asserted in the country of origin but does
+               not necessarily reveal any discernible correspondence with the subject's
+               actual identifier (for example, username, fiscal number etc)
+
+Example: ES/AT/02635542Y (Spanish eIDNumber for an Austrian SP)
+
+See section 2.5 Unique Identifier Usage for information regarding the rules for creation and
+characteristics of these identifiers.
+
+
+
+
+1„e.g. ‚EU‘ for European Institutions; ‚EU‘ has been exceptionally reserved by ISO
+3166”
+
+eIDAS/Profiles/Saml/Attributes                v1.2                                  21/05/2019
+                                           Page 8 of 23
+2.2.4 Current Family Name(s) (mandatory)
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/naturalperson/CurrentFamilyName
+
+SAML Attribute FriendlyName:            FamilyName
+
+ <saml:Attribute
+          FriendlyName="FamilyName"
+          Name="
+ http://eidas.europa.eu/attributes/naturalperson/CurrentFamilyName"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:CurrentFamilyNameType">
+                 Chalk
+          </saml:AttributeValue>
+Fig. 2.2.4 – example CurrentFamilyName attribute value
+
+2.2.5 Current First Name(s) (mandatory)
+
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/naturalperson/CurrentGivenName
+
+SAML Attribute FriendlyName:            FirstName
+
+ <saml:Attribute
+          FriendlyName="FirstName"
+          Name="
+ http://eidas.europa.eu/attributes/naturalperson/CurrentGivenName"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:CurrentGivenNameType">
+                 Sarah
+          </saml:AttributeValue>
+Fig. 2.2.5 – example CurrentGivenName attribute value
+
+2.2.6 Date of Birth (mandatory)
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/naturalperson/DateOfBirth
+
+SAML Attribute FriendlyName:            DateOfBirth
+
+ <saml:Attribute
+          FriendlyName="DateOfBirth"
+          Name="
+ http://eidas.europa.eu/attributes/naturalperson/DateOfBirth"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:DateOfBirthType">
+                 1970-05-28
+          </saml:AttributeValue>
+Fig. 2.2.6 – example DateOfBirth attribute value
+
+Date of Birth includes a date using the following format: YYYY + “-“ + MM + “-“ + DD (as
+defined for xsd:date)
+        YYYY indicates a four-digit year, 0000 through 9999.
+        MM indicates a two-digit month of the year, 01 through 12.
+        DD indicates a two-digit day of that month, 01 through 31.
+
+
+
+
+eIDAS/Profiles/Saml/Attributes               v1.2                                 21/05/2019
+                                          Page 9 of 23
+2.2.7 First name(s) and family name(s) at birth
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/naturalperson/BirthName
+
+SAML Attribute FriendlyName:              BirthName
+
+ <saml:Attribute
+          FriendlyName="BirthName"
+          Name="
+ http://eidas.europa.eu/attributes/naturalperson/BirthName"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:BirthNameType">
+                 Sarah Jane Booth
+          </saml:AttributeValue>
+Fig. 2.2.7 – example BirthName attribute value
+
+First name(s) and family name(s) at birth are described as a single text value in line with the
+Core Person Vocabulary.
+
+2.2.8 Place of Birth
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/naturalperson/PlaceOfBirth
+
+SAML Attribute FriendlyName:              PlaceOfBirth
+
+ <saml:Attribute
+          FriendlyName="PlaceOfBirth"
+          Name="
+ http://eidas.europa.eu/attributes/naturalperson/PlaceOfBirth"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:PlaceOfBirthType">
+                 Peterborough
+          </saml:AttributeValue>
+Fig. 2.2.8 – example PlaceOfBirth attribute value
+
+
+2.2.9 Current Address
+
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/naturalperson/CurrentAddress
+
+SAML Attribute FriendlyName:              CurrentAddress
+
+ <saml:Attribute
+          FriendlyName="CurrentAddress"
+          Name="
+ http://eidas.europa.eu/attributes/naturalperson/CurrentAddress"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:CurrentAddressType">
+ PGVpZGFzOkxvY2F0b3JEZXNpZ25hdG9yPjIyPC9laWRhczpMb2NhdG9yRGVzaWduYXRv
+ cj48ZWlkYXM6VGhvcm91Z2hmYXJlPkFyY2FjaWEgQXZlbnVlPC9laWRhczpUaG9yb3Vn
+Fig. 2.2.9 – example CurrentAddress attribute value (address data base64 encoded)
+
+This attribute describes the current address for the natural person as registered with the MS
+authority.
+
+
+
+eIDAS/Profiles/Saml/Attributes                 v1.2                                  21/05/2019
+                                           Page 10 of 23
+Address data is structured by nature and is defined in the attribute schema as a structured
+XML sequence of xsd:string elements. Where appropriate this structure address data follows
+the Core ISA Vocabulary type CvAddressType although this has been simplified to a
+sequence of xsd:string elements.
+
+To enable this data to be passed in a single attribute value this data MUST first be base64
+encoded as described in section 2.2.3 Responding Attributes, of the eIDAS Message Format
+specification.
+
+For reference the un-encoded address data can be seen in the following XML snippet.
+
+<eidas:LocatorDesignator>22</eidas:LocatorDesignator>
+<eidas:Thoroughfare>Arcacia Avenue</eidas:Thoroughfare>
+<eidas:PostName>London</eidas:PostName>
+<eidas:PostCode>SW1A 1AA</eidas:Postcode>
+
+
+
+Fig. 2.3.5 – Address data before encoding to base64
+
+
+2.2.10 Gender
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/naturalperson/Gender
+
+SAML Attribute FriendlyName:            Gender
+
+<saml:Attribute
+      FriendlyName="Gender"
+      Name="
+http://eidas.europa.eu/attributes/naturalperson/Gender"
+      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+      <saml:AttributeValue xsi:type="eidas:GenderType">
+             Female
+      </saml:AttributeValue>
+Fig. 2.2.10 – example Gender attribute value
+
+Values for Gender attributes MUST be one of the following:
+        Male
+        Female
+        Unspecified
+
+
+
+
+eIDAS/Profiles/Saml/Attributes               v1.2                                21/05/2019
+                                         Page 11 of 23
+2.3 Attributes for Legal Persons
+2.3.1 Mapping eIDAS minimum data set for Legal Persons to Core ISA Vocabulary
+
+The ISA Core Vocabulary describes a highly structured way of encoding person data that is
+not ideal for message creation or processing with SAML. The approach taken in this profile is
+to adopt the base type specified by ISA Core Vocabulary rather than the complex data types
+required for full compatibility with the standard.
+
+The following Mandatory attributes are required by the Regulation.
+
+  Attribute (Friendly)    eIDAS MDS             ISA Core Vocab           Notes
+  Name                    Attribute             Equivalent
+
+  LegalName               Current Legal         cvb:LegalName            Encoded as xsd:string
+                          Name
+
+  LegalPersonIdentifier   Uniquenes             cva:Cvidentifier         Encoded as xsd:string
+                          Identifier
+
+
+The following Optional attributes MAY be supplied by a MS if available and acceptable to
+national law.
+
+  Attribute (Friendly)    eIDAS MDS             ISA Core Vocab            Notes
+  Name                    Attribute             Equivalent
+
+  LegalAddress            Current Address       cva:Cvaddress             Encoded as multiple
+                                                                          xsd:string elements
+  VATRegistration         VAT Registration cva:CvbusinessCode             Encoded as
+                          Number                                          xsd:string
+
+  TaxReference            Tax Reference         cva:CvbusinessCode        Encoded as
+                          Number                                          xsd:string
+  BusinessCodes           Directive             cva:CvbusinessCode        Encoded as
+                          2012/17/EU                                      xsd:string
+                          Identifier
+
+  LEI                     Legal Entity          cva:CvbusinessCode        Encoded as
+                          Identifier (LEI)                                xsd:string
+  EORI                    Economic              cva:CvbusinessCode        Encoded as
+                          Operator                                        xsd:string
+                          Registration and
+                          Identification
+                          (EORI)
+  SEED                    System for            cva:CvbusinessCode        Encoded as
+                          Exchange of                                     xsd:string
+                          Excise Data
+                          (SEED)
+  SIC                     Standard              cva:CvbusinessCode        Encoded as
+                          Industrial                                      xsd:string
+                          Classification
+                          (SIC)
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                   v1.2                             21/05/2019
+                                             Page 12 of 23
+2.3.2 Attribute Schema
+The following attribute schema is based, where applicable, on the definition of Core Business
+the minimum set of classes and properties for description of a legal entity according to the
+ISA Core Vocabulary (https://joinup.ec.europa.eu/asset/core_business/asset_release/core-
+business-vocabulary).
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+      xmlns="http://eidas.europa.eu/attributes/legalperson"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      targetNamespace="http://eidas.europa.eu/attributes/legalperson"
+      elementFormDefault="qualified"
+      attributeFormDefault="unqualified"
+      version="1">
+
+      <xsd:attribute name="LatinScript" type="xsd:boolean"
+default="true"/>
+
+        <!--
+            Mandatory attribute types for a legal person.
+      -->
+      <xsd:simpleType name="LegalPersonIdentifierType">
+        <xsd:annotation>
+            <xsd:documentation>
+                  Unique identifier for the legal person as defined
+by the eIDAS Regulation.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+
+      <xsd:complexType name="LegalNameType">
+        <xsd:annotation>
+            <xsd:documentation>
+                  Current legal name for the legal person or
+organisation.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute ref="LatinScript"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+        <!--
+            Optional attribute types for a legal person.
+      -->
+    <xsd:complexType name="LegalPersonAddressStructuredType">
+        <xsd:annotation>
+            <xsd:documentation>
+                The address the legal person has registered with the
+MS authority or operating address if not registered. For a company
+this should be the registered address within the MS issuing the eID.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="PoBox" type="xsd:string" minOccurs="0"
+maxOccurs="1"/>
+
+
+eIDAS/Profiles/Saml/Attributes               v1.2                                 21/05/2019
+                                         Page 13 of 23
+            <xsd:element name="LocatorDesignator" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="LocatorName" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="CvaddressArea" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="Thoroughfare" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="PostName" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="AdminunitFirstline" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="AdminunitSecondline" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="PostCode" type="xsd:string"
+minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="LegalPersonAddressType">
+        <xsd:annotation>
+            <xsd:documentation>
+                The address the legal person has registered with the
+MS authority or operating address if not registered. For a company
+this should be the registered address within the MS issuing the eID
+as a base64 encoded string.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+
+     <xsd:simpleType name="VATRegistrationNumberType">
+         <xsd:annotation>
+             <xsd:documentation>VAT - VAT registration number
+             </xsd:documentation>
+         </xsd:annotation>
+         <xsd:restriction base="xsd:string"/>
+     </xsd:simpleType>
+
+     <xsd:simpleType name="TaxReferenceType">
+         <xsd:annotation>
+             <xsd:documentation>TAX-Ref - tax reference number
+             </xsd:documentation>
+         </xsd:annotation>
+         <xsd:restriction base="xsd:string"/>
+     </xsd:simpleType>
+
+    <xsd:simpleType name="D-2012-17-EUIdentifierType">
+        <xsd:annotation>
+            <xsd:documentation>D-2012/17/EU - the identifier used
+under Directive 2012/17/EU
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+
+     <xsd:simpleType name="LEIType">
+         <xsd:annotation>
+             <xsd:documentation>LEI - Legal Entity Identifier
+             </xsd:documentation>
+         </xsd:annotation>
+
+
+eIDAS/Profiles/Saml/Attributes       v1.2                       21/05/2019
+                                 Page 14 of 23
+           <xsd:restriction base="xsd:string"/>
+       </xsd:simpleType>
+
+    <xsd:simpleType name="EORIType">
+        <xsd:annotation>
+            <xsd:documentation>EORI - Economic Operator Registration
+and Identification
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+
+       <xsd:simpleType name="SEEDType">
+           <xsd:annotation>
+               <xsd:documentation>SEED - System for Exchange of Excise
+Data
+               </xsd:documentation>
+           </xsd:annotation>
+           <xsd:restriction base="xsd:string"/>
+       </xsd:simpleType>
+
+    <xsd:simpleType name="SICType">
+        <xsd:annotation>
+            <xsd:documentation>SIC - Standard Industrial
+Classification
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+
+</xsd:schema>
+
+Fig. 2.3.2 – Schema for legal persons
+
+
+2.3.3 Unique Identifier (mandatory)
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/legalperson/LegalPersonIdentifier
+
+SAML Attribute FriendlyName:               LegalPersonIdentifier
+
+<saml:Attribute
+      FriendlyName="LegalPersonIdentifier"
+      Name="
+http://eidas.europa.eu/attributes/legalperson/LegalPersonIdentifier"
+      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+      <saml:AttributeValue xsi:type="eidas:
+LegalPersonIdentifierType">
+             ES/AT/02735442Z
+      </saml:AttributeValue>
+</saml:Attribute>
+Fig. 2.3.3 – example LegalPersonIdentifier attribute value
+
+Attribute describing a unique identifier for the legal person identity.
+
+See section 2.5 Unique Identifier Usage for information regarding the rules for creation and
+characteristics of these identifiers.
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                  v1.2                               21/05/2019
+                                            Page 15 of 23
+2.3.4 Legal Name (mandatory)
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/legalperson/LegalName
+
+SAML Attribute FriendlyName:             LegalName
+
+<saml:Attribute
+      FriendlyName="LegalName"
+      Name="
+http://eidas.europa.eu/attributes/legalperson/LegalName"
+      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+      <saml:AttributeValue xsi:type="eidas: LegalNameType">
+             Acme Corporation
+      </saml:AttributeValue>
+</saml:Attribute>
+
+
+
+Fig. 2.3.4 – example LegalName attribute value
+
+Attribute describing the legal name for the legal person authenticating.
+
+
+2.3.5 Legal Address
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/legalperson/LegalPersonAddress
+
+SAML Attribute FriendlyName:             LegalAddress
+
+ <saml:Attribute
+          FriendlyName="LegalAddress"
+          Name="
+ http://eidas.europa.eu/attributes/legalperson/LegalPersonAddress"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:
+ LegalPersonAddressType">PGVpZGFzOkxvY2F0b3JEZXNpZ25hdG9yPjEyNTwvZWlk
+ YXM6TG9jYXRvckRlc2lnbmF0b3I+DQo8ZWlkYXM6VGhvcm91Z2hmYXJlPktpbmdzd2F5
+Fig. 2.3.5 – example LegalPersonAddress attribute value (address data base64 encoded)
+
+This attribute describes the address the legal person has registered with the MS authority or
+operating address if not registered. For a company this should be the registered address
+within the MS issuing the eID.
+
+Address data is structured by nature and is defined in the attribute schema as a structured
+XML sequence of xsd:string elements. Where appropriate this structure address data follows
+the Core ISA Vocabulary type CvAddressType although this has been simplified to a
+sequence of xsd:string elements.
+
+To enable this data to be passed in a single attribute value this data MUST first be base64
+encoded as described in section 2.2.3 Responding Attributes, of the eIDAS Message Format
+specification.
+
+For reference the un-encoded address data can be seen in the following XML snippet.
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                v1.2                                 21/05/2019
+                                          Page 16 of 23
+<eidas:LocatorDesignator>125</eidas:LocatorDesignator>
+<eidas:Thoroughfare>Kingsway</eidas:Thoroughfare>
+<eidas:PostName>London</eidas:PostName>
+<eidas:PostCode>WC2B 6NH</eidas:Postcode>
+
+
+
+Fig. 2.3.5 – Address data before encoding to base64
+
+
+2.3.6 VAT Registration Number
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/legalperson/VATRegistrationNumber
+
+SAML Attribute FriendlyName:             VATRegistration
+
+<saml:Attribute
+      FriendlyName="VATRegistration"
+      Name="
+http://eidas.europa.eu/attributes/legalperson/VATRegistrationNumber"
+      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+      <saml:AttributeValue xsi:type="eidas:
+VATRegistrationNumberType">GB 730 7577 27</saml:AttributeValue>
+</saml:Attribute>
+
+
+
+
+Fig. 2.3.6.1 – example VATRegistrationNumber attribute value.
+
+Attribute describing the VAT registration number for the organisation.
+
+
+2.3.7 Tax Reference Number
+SAML Attribute Name:
+      http://eidas.europa.eu/attributes/legalperson/TaxReference
+
+SAML Attribute FriendlyName:             TaxReference
+
+<saml:Attribute
+      FriendlyName="TaxReference"
+      Name="
+http://eidas.europa.eu/attributes/legalperson/TaxReference"
+      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+      <saml:AttributeValue xsi:type="eidas:TaxReferenceType">
+             ABZ1230789
+      </saml:AttributeValue>
+</saml:Attribute>
+
+
+
+Fig. 2.3.7.1 – example TaxReference attribute value.
+
+Attribute describing the Tax Reference number related to the legal person.
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                v1.2                           21/05/2019
+                                          Page 17 of 23
+2.3.8 Directive 2012/17/EU Identifier
+SAML Attribute Name:                       http://eidas.europa.eu/attributes/legalperson/D-2012-
+17-EUIdentifier
+
+SAML Attribute FriendlyName:               D-2012-17-EUIdentifier
+
+ <saml:Attribute
+       FriendlyName="D-2012-17-EUIdentifier"
+       Name=" http://eidas.europa.eu/attributes/legalperson/D-2012-
+ 17-EUIdentifier"
+       NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+       <saml:AttributeValue xsi:type="eidas:D-2012-17-
+ EUIdentifierType">
+             GB 755 267 1243
+       </saml:AttributeValue>
+ </saml:Attribute>
+
+Fig. 2.3.8.1 – example D-2012-17-EUIdentifier attribute value.
+
+Attribute describing the identifier referred to in Article 3(1) of Directive 2009/101/EC of the
+European Parliament and of the Council.
+
+Further information regarding this identifier can be found in Directive 2009/101/EC of the
+European Parliament and of the Council of 16 September 2009 on coordination of safeguards
+which, for the protection of the interests of members and third parties, are required by
+Member States of companies within the meaning of the second paragraph of Article 48 of the
+Treaty, with a view to making such safeguards equivalent (OJ L 258, 1.10.2009, p. 11).
+
+
+2.3.9 Legal Entity Identifier
+SAML Attribute Name:                       http://eidas.europa.eu/attributes/legalperson/LEI
+
+SAML Attribute FriendlyName:               LEI
+
+ <saml:Attribute
+       FriendlyName="LEI"
+       Name=" http://eidas.europa.eu/attributes/legalperson/LEI"
+       NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+       <saml:AttributeValue xsi:type="eidas:LEIType">
+             ES123567983568437254K
+       </saml:AttributeValue>
+ </saml:Attribute>
+
+
+
+
+Fig. 2.3.9.1 – example LEI attribute value
+
+Attribute describing the Legal Entity Identifier (LEI) referred to in Commission Implementing
+Regulation (EU) No 1247/2012 of 19 December 2012 laying down implementing technical
+standards with regard to the format and frequency of trade reports to trade repositories
+according to Regulation (EU) No 648/2012 of the European Parliament and of the Council on
+OTC derivatives, central counterparties and trade repositories (OJ L 352, 21.12.2012, p. 20).
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                   v1.2                                  21/05/2019
+                                             Page 18 of 23
+2.3.10 Economic Operator Registration and Identification
+SAML Attribute Name:                     http://eidas.europa.eu/attributes/legalperson/EORI
+
+SAML Attribute FriendlyName:             EORI
+
+<saml:Attribute
+      FriendlyName="EORI"
+      Name=" http://eidas.europa.eu/attributes/legalperson/EORI"
+      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+      <saml:AttributeValue xsi:type="eidas:EORIType">
+            GB123456789000
+      </saml:AttributeValue>
+</saml:Attribute>
+
+
+
+
+Fig. 2.3.10.1 – example EORI attribute value
+
+Attribute describing the Economic Operator Registration and Identification (EORI) for the legal
+person as referred to in Commission Implementing Regulation (EU) No 1352/2013.
+
+Further information regarding Economic Operator Registration and Identification (EORI) can
+be found in Commission Implementing Regulation (EU) No 1352/2013 of 4 December 2013
+establishing the forms provided for in Regulation (EU) No 608/2013 of the European
+Parliament and of the Council concerning customs enforcement of intellectual property rights
+(OJ L 341, 18.12.2013, p. 10).
+
+
+2.3.11 System for Exchange of Excise Data Identifier
+SAML Attribute Name:                     http://eidas.europa.eu/attributes/legalperson/SEED
+
+SAML Attribute FriendlyName:             SEED
+
+<saml:Attribute
+      FriendlyName="SEED"
+      Name=" http://eidas.europa.eu/attributes/legalperson/SEED"
+      NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+      <saml:AttributeValue xsi:type="eidas:SEEDType">
+            GB 00000987ABC
+      </saml:AttributeValue>
+</saml:Attribute>
+
+
+
+
+Fig. 2.3.11.1 – example SEED attribute value
+
+Attribute describing the System for Exchange of Excise Data (SEED) Excise Number for the
+legal person.
+
+Further information regarding the SEED identifier can be found in Council Directive
+92/12/EEC of 25 February 1992 on the general arrangements for products subject to excise
+duty and on the holding, movement and monitoring of such products (OJ L 076, 23/03/1992 p.
+1 – 13).
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                v1.2                                 21/05/2019
+                                          Page 19 of 23
+2.3.12 Standard Industrial Classification
+SAML Attribute Name:                        http://eidas.europa.eu/attributes/legalperson/SIC
+
+SAML Attribute FriendlyName:                SIC
+
+ <saml:Attribute
+       FriendlyName="SIC"
+       Name=" http://eidas.europa.eu/attributes/legalperson/SIC"
+       NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+       <saml:AttributeValue xsi:type="eidas:SICType">
+             3730
+       </saml:AttributeValue>
+ </saml:Attribute>
+
+
+
+
+Fig. 2.3.12.1 – example attribute element based on SIC
+
+Attribute describing the Standard Industrial Classification (SIC) code for the legal person.
+
+
+
+2.4 Transliteration
+Transliteration allows the consumer of identity assertions to determine which attribute values
+are recorded in Latin and non-Latin script.
+
+Transliteration is optional for all attribute values. Transliterated attribute values should only be
+provided where transliteration is ambiguous.
+
+If transliteration is unambiguous, (e.g. it follows ISO 9 for transliterating Cyrillic to Latin), then
+the transliterated value MAY be generated by the consumer of the identity assertion on
+receipt of the assertion. In this case there is no requirement for a transliterated attribute value
+to be provided in the attribute assertion from the sending Node.
+
+If transliteration is ambiguous then the transliterated attribute value MUST be provided by an
+authoritative source (if there is one) and cannot be generated by the Node.
+
+Nodes are not responsible for creating these transliterated attribute values, as they MUST be
+provided by an authoritative source for the attribute value in question.
+
+For attribute values where transliteration is applicable (as defined by the profile) a modifying
+attribute LatinScript=”false” MUST be applied to the <AttributeValue>. This
+LatinScript attribute is optional and set to “true” by default.
+
+To facilitate transliteration two <AttributeValue> statements MUST be included in the
+<Attribute> statement;
+    1. a Latin script variant of the attribute value
+    2. a non-Latin script variant which MUST be clearly identified using the LatinScript
+          attribute set to “false”.
+
+If a transliterated attribute value is included the LatinScript attribute MUST be set to
+false indicating a non-latin variant of the attribute value. Nodes MUST take account of the
+LatinScript attribute where present and act accordingly.
+
+In the following example a FamilyName attribute value is provided in the original Greek and
+transliterated versions.
+
+
+
+eIDAS/Profiles/Saml/Attributes                   v1.2                                     21/05/2019
+                                             Page 20 of 23
+ <saml:Attribute
+          FriendlyName="FamilyName"
+          Name="
+ http://eidas.europa.eu/attributes/naturalperson/CurrentFamilyName"
+          NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="eidas:CurrentFamilyNameType">
+                 Onasis
+          </saml:AttributeValue>
+Fig. 2.4.1 – example attribute element based on FamilyName including Latin and non-Latin
+attribute value.
+
+
+
+2.5 Unique Identifier Usage
+It is the responsibility of the operating or commissioning Member State to determine how a
+Unique Identifier is created.
+
+As a baseline requirement the Unique Identifier should not include elements that directly
+identify the Principal. This follows the requirement for a persistent name identifier in SAML-
+CORE-2.0, which states that persistent identifiers “MUST be constructed using pseudo-
+random values that have no discernible correspondence with the subject's actual identifier (for
+example, username).”
+
+Hashing of Unique Identifiers is permitted although this is not mandated for eIDAS.
+
+The Unique Identifier MUST NOT contain any whitespace.
+
+The Unique Identifier MUST NOT exceed a total of 256 characters.
+
+2.5.1 Unique Identifier Stability
+The Unique Identifier shall remain unchanged for the lifetime of the account (as created by
+the underlying scheme or generated by the sending Node). A Unique Identifier shall never be
+reused, e.g. a new Unique Identifier shall not match a Unique Identifier that has been deleted.
+
+Any service that consumes assertions of identity must assume that the Unique Identifier
+presented for a particular person may change over time e.g. where the user’s digital identity is
+replaced or repaired. This should be handled by a consuming service using the same
+matching process as used when an identity is first encountered utilising the Minimum Data
+Set to identify the Principal within the service.
+
+
+2.6 Displaying raw attribute data values
+Member States may wish to implement a user experience that includes the disclosure of
+attribute data to be asserted e.g. for the purpose of consent. In some cases complex attribute
+data, such as Current Address (see 2.2.9), will be base64 encoded when transmitted as part
+of a SAML Assertion.
+
+Relying parties wishing to display these structured values should so with reference to the
+attribute specifications. For examples see, 2.2.9 Current Address and the example encoded
+and decoded attribute value.
+
+Guidance and example code related to the display of base64 encoded attribute values may
+be included in subsequent guidance but is not included in this specification.
+
+
+
+
+eIDAS/Profiles/Saml/Attributes                v1.2                                  21/05/2019
+                                          Page 21 of 23
+2.7 Sector Specific Attributes
+This specification is concerned with the minimum data set attributes as described in the legal
+text of the eIDAS Regulation. Where additional sector specific attributes are required Member
+States and domain experts are invited to develop additional attribute schema describing the
+type and usage of these attributes for inclusion in Member State eIDAS Node metadata.
+
+General principles for the development of domain specific attribute schema:
+   1. Observe the principle of data minimisation where possible
+   2. Avoid complex data structures
+   3. Clearly define requirements for transliteration
+   4. Cross-check with existing eIDAS attribute schema to avoid duplication of attribute
+       types
+   5. Prior to publication of a new attribute schema the CEF eIDAS Technical Subgroup
+       should be consulted for opinion its role as the technical authority for eIDAS
+       architecture.
+
+
+2.8 Natural and legal person representative
+The eIDAS Regulation allows for representation of persons as described in Article 3 (1),
+which explicitly states this as “a natural person representing a legal person”. In practice this
+representation is not limited to this scenario but may also include other representation such
+as a natural person representing another natural person. This has been elaborated on in the
+eIDAS Cooperation Network where the European Commission presented “… the idea of
+covering all scenarios of representation.“ The Cooperation Network discussed whether the
+scope and limitations of representation, like limited powers of representation or restriction to
+certain actions, should already be covered. The conclusion was that such limitations should
+not yet be included in the attributes and that “… the scope and limitation should be covered
+by separate documents or processes”. The European Commission “… confirmed there was a
+legal basis stemming from the implementing decision.“ (quotes taken from the minutes of the
+3rd eIDAS Cooperation Network meeting June 20th, 2016) and the technical subgroup was
+asked to amend the specification to cover all scenarios of a natural persons or a legal
+persons representing another natural person or a legal person.
+
+In order to express representation in the MDS it is necessary to include an additional person
+data set that indicates a representative.
+
+The representative attributes MUST NOT be explicitly requested in the eIDAS Authentication
+request. The eIDAS service MAY return one representative attribute set in case of
+representation.
+
+The representative attribute MUST be present in addition to the attribute set of the
+represented person, i.e. in representation cases always 2 sets of MDS attribute are
+transmitted; The requested attributes of the represented natural person (section 2.2) or the
+represented legal person (section 2,3) AND the attributes of the representative prefixed with
+“Representative”.
+
+The representative attributes follow the specifications for natural persons as defined in
+sections 2.2 Attributes for Natural Persons, and 2.3 Attributes for Legal Persons, except for
+adding a Prefix “Representative” to the attribute’s FriendlyName element and by amending
+the SAML attribute name by “representative”. The name prefixes are thus
+http://eidas.europa.eu/attributes/naturalperson/representative/ or
+http://eidas.europa.eu/attributes/legalperson/representative/.
+
+Application note: Member States or Relying Parties might not support representation in their
+services, e.g. if the concept of electronic representation does not exist. The MS specific part
+of the eIDAS Connector should reject responses containing representative attributes in such
+cases to prevent Relying Parties falsely assuming that the represented person is acting on
+her own behalf.
+
+
+
+eIDAS/Profiles/Saml/Attributes                 v1.2                                  21/05/2019
+                                           Page 22 of 23
+The following example illustrates a RepresentativeFamilyName attribute and a
+RepresentativePersonIdentifier attribute, which contains the FamilyName and the
+PersonalIdentifier of a natural person representative. All other attributes of the eIDAS
+Attribute Profile may be modified in a similar way.
+
+<saml:Attribute
+      FriendlyName="RepresentativePersonIdentifier"
+      Name=
+http://eidas.europa.eu/attributes/naturalperson/representative/Pers
+onIdentifier
+      NameFormat=
+"urn:oasis:names:tc:SAML:2.0:attrnameformat:uri">
+
+      <saml:AttributeValue xsi:type="eidas:PersonIdentifierType">
+            ES/AT/02635542Y
+      </saml:AttributeValue>
+</saml:Attribute>
+
+<saml:Attribute
+      FriendlyName="RepresentativeFamilyName"
+      Name="
+http://eidas.europa.eu/attributes/naturalperson/representative/Curr
+entFamilyName"
+      NameFormat=
+"urn:oasis:names:tc:SAML:2.0:attrnameformat:uri">
+
+      <saml:AttributeValue xsi:type="eidas:CurrentFamilyNameType">
+            Chalk
+      </saml:AttributeValue>
+</saml:Attribute>
+
+
+
+
+eIDAS/Profiles/Saml/Attributes              v1.2                              21/05/2019
+                                        Page 23 of 23
+

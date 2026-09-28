@@ -1,0 +1,41 @@
+﻿source_id,url,status,http_status,error,follow_up
+S02,https://www.iso.org/standard/62392.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S03,https://www.iso.org/standard/78501.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S04,https://www.iso.org/standard/62393.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S06,https://www.iso.org/standard/62395.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S07,https://www.iso.org/standard/78915.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S08,https://www.iso.org/standard/78925.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S09,https://www.iso.org/standard/81725.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S10,https://www.iso.org/standard/78916.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S11,https://www.iso.org/standard/79077.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S12,https://www.iso.org/standard/35736.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S20,https://gitdocumentatie.logius.nl/publicatie/dk/restapi/,access_response,200,Redirect/challenge page; not source content,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S42,https://eur-lex.europa.eu/eli/reg/2024/903,incomplete_response,202,Empty body or HTTP 202; not acquired document,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S43,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017DC0134,incomplete_response,202,Empty body or HTTP 202; not acquired document,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L02,https://doi.org/10.2753/MIS0742-1222240302,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L03,https://doi.org/10.1057/ejis.2014.36,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L03,https://www.tandfonline.com/doi/pdf/10.1057/ejis.2014.36,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L06,https://doi.org/10.1108/17410391111122862,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L07,https://doi.org/10.1016/j.ijinfomgt.2019.07.008,access_response,200,Redirect/challenge page; not source content,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L09,https://doi.org/10.3233/AO-150157,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L09,https://journals.sagepub.com/doi/10.3233/AO-150157,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L10,https://doi.org/10.1145/503124.503150,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L13,https://doi.org/10.1145/3447772,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L17,https://doi.org/10.1108/02635571311303550,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L19,https://journals.sagepub.com/doi/10.15388/23-INFOR534,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+B08,https://www.oreilly.com/library/view/data-mesh/9781492092384/titlepage01.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L25,https://www.sciencedirect.com/science/article/pii/S0164121225002535,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L27,https://doi.org/10.1109/ACCESS.2025.3627855,incomplete_response,202,Empty body or HTTP 202; not acquired document,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L28,https://www.mdpi.com/2076-3417/16/11/5289,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L28,https://www.mdpi.com/2076-3417/16/11/5289/pdf,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S52,https://www.iso.org/iso-8601-date-and-time-format.html,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S14,https://www.brsolutions.com/wp-content/uploads/2016/10/How-to-Define-Business-Terms-Primer.pdf,failed,,HTTP Error 404: Not Found,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S38,https://www.giac.org/practical/gsec/Richard_Siedzik_GSEC.pdf,failed,,HTTP Error 404: Not Found,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S38,http://www.ifi.unizh.ch/mml/mduerst/papers/PDF/IUC11-UTF-8.pdf,failed,,<urlopen error [Errno -2] Name or service not known>,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S39,http://www.dfki.uni-kl.de/dfkidok/publications/TM/07/01/tm-07-01.pdf,failed,,HTTP Error 404: Not Found,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S39,http://www.aifb.uni-karlsruhe.de/WBS/hha/papers/SemanticWikipedia.pdf,failed,,<urlopen error [Errno -2] Name or service not known>,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+S46,http://datasealofapproval.org/media/filer_public/2013/09/27/guidelines_2014-2015.pdf,failed,,<urlopen error timed out>,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L07,https://www.sciencedirect.com/science/article/pii/S0268401219300787,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L08,https://research.utwente.nl/files/6042428/thesis_Guizzardi.pdf,failed,,HTTP Error 403: Forbidden,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L11,http://datasealofapproval.org/media/filer_public/2013/09/27/guidelines_2014-2015.pdf,failed,,<urlopen error timed out>,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim
+L26,https://pure.iiasa.ac.at/20795/1.haslightboxThumbnailVersion/mapping-the-evolution-of-data-governance-scientific-research.pdf,non_document_asset,200,Linked thumbnail image; not a source document,Legitieme alternatieve bron of reguliere toegang onderzoeken; geen inhoudelijke afwezigheidsclaim

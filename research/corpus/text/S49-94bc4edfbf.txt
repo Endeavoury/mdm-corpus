@@ -1,0 +1,95 @@
+Catalogus Basisregistratie Adressen en Gebouwen - 2018 - definitieve versie 1.0 (1 juli 2018), inclusief een overzicht met voorgestelde wijzigingen voor de 1.1-versie | Geobasisregistraties
+
+Ga direct naar inhoud Naar de homepage van Geobasisregistraties
+
+Geobasisregistraties
+DocumentenVul in wat u zoekt
+
+Catalogus Basisregistratie Adressen en Gebouwen - 2018 - definitieve versie 1.0 (1 juli 2018), inclusief een overzicht met voorgestelde wijzigingen voor de 1.1-versie
+
+In 2016, 2017 en 2018 is er door Geonovum, Kadaster en BZK gewerkt aan de Catalogus BAG 2018. De Catalogus is tot stand gekomen in dialoog met het Agendaoverleg, BAG BAO, het ministerie van BZK, VNG en VNG-Realisatie. Bovendien is de input benut die tijdens verschillende bijeenkomsten in 2016 en 2017 geleverd is door de stakeholders van de BAG. De gewijzigde Wet bag (vastgesteld en gepubliceerd), het gewijzigde Besluit bag (vastgesteld en gepubliceerd), de Ministeriële Regeling bag, inclusief de bijlage Catalogus bag en de bijlage Koppelvlakbeschrijving, en de Ministeriële Regeling Periodieke controle bag vormen de normatieve kern van de BAG in 2018. De Catalogus BAG is bijlage I van de ministeriële Regeling bag, de Koppelvlakbeschrijving BAG - LV BAG vormt bijlage II van de ministeriële Regeling bag. De Regeling bag is op 29 juni in de Staatscourant gepubliceerd.
+
+Download: Catalogus Basisregistratie Adressen en Gebouwen - 2018
+Publicatie01-07-2018PDF-document2.8 MB183 pagina's
+
+Versie 1.0
+Deze versie van de Catalogus is de officiele 1.0-versie van kracht vanaf 1 juli 2018 en is vastgesteld door de minister van BZK. Deze versie is als bijlage bij de Regeling bag in de Staatscourant gepubliceerd.
+
+Voorgestelde wijzigingen voor versie 1.1
+Hier vindt u een overzicht van voorgestelde wijzigingen voor de 1.1-versie van de Catalogus (nader te bepalen):
+
+Wijziging 1: GML (pagina 16 Catalogus BAG 2018, versie 1.0)
+
+Op pagina 16 van de BAG catalogus zijn de volgende zinsneden opgenomen:
+
+Voor de uitwisseling wordt gebruik gemaakt van Geography Markup Language (GML) versie 3.1.1. In de BAG zijn de geometrieën conform het Simple Features profile versie 1.0 toegestaan.
+
+Deze zinsneden zijn ten onrechte opgevoerd en dienen te worden geschrapt. Reden hiervoor is dat met het normatief vastleggen van uitwisseling met enkel GML 3.1.1 het niet mogelijk is om met de vigerende versie van GML (3.2.2) welke op de PTOLU-lijst staat uit te wisselen, alsook dat andere formaten zoals GeoJSON en Geopackage worden uitgesloten.
+
+Wijziging 2: Gebruiksdoel (pagina 108 Catalogus BAG 2018, versie 1.0)
+
+Het attribuut Gebruiksdoel van het Verblijfsobject betreft vergund gebruik en dit staat op gespannen voet met het vergunningsvrij wijzigen van het gebruik. Hierdoor is consistent beheer van dit attribuut door bronhouders niet mogelijk. Een inconsistente registratie van gebruiksdoelen in de BAG leidt tot problemen binnen afnemerprocessen, zeker in het geval van woonfuncties. Denk aan het energielabel, inschrijvingen in de BRP, de makelaardij die bij de verkoop van ‘woningen’ in de war raakt, etc.
+
+Voorbeeld
+
+Een voormalig kantoorpand wordt, na een bestemmingsplanwijziging, vergunningsvrij verbouwd tot woningen. Kantoren die één op één verbouwd worden tot woningen behouden het gebruiksdoel kantoorfunctie. Verblijfsobjecten die tijdens de verbouwing ontstaan, als gevolg van het splitsen of samenvoegen van voormalige kantoren, krijgen echter het (geconstateerde) gebruiksdoel woonfunctie. Hierdoor ontstaat de situatie dat de ene helft van de woningen wel en de andere helft niet met het gebruiksdoel woonfunctie wordt geregistreerd in de BAG.
+
+Overwegingen
+
+In de oorspronkelijke Catalogus BAG 2009 kwam de zogenaamde ‘geformaliseerde gebruikswijziging’ voor. Met dit brondocument, opgesteld door medewerkers belast met vergunningsverleningstaken, kon een zonder vergunning gewijzigd gebruiksdoel worden vastgesteld als vergunningsvrije aanpassing, passend binnen de Wabo en het Bouwbesluit. De ‘geformaliseerde gebruikswijziging’ is in aanloop naar 1 juli 2018 geschrapt uit de Catalogus BAG 2018, echter zonder met bovenstaande rekening te houden.
+
+De huidige definitie van het gebruiksdoel, zoals opgenomen in de Catalogus BAG 2018, luidt als volgt.
+
+Pagina 108 Catalogus BAG 2018:
+
+“Een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld.”
+
+De toelichting op de definitie, pagina 108:
+
+“Het gebruiksdoel zal initieel worden afgeleid uit de bouwkundige gebruiksfunctie conform de categorisering van het Bouwbesluit 2012 zoals deze in de bouwvergunning als zodanig is aangemerkt. Het gebruiksdoel dient niet te worden verward met de planologische bestemming en het feitelijk gebruik.”
+
+De toelichting uit de Catalogus sluit het feitelijk gebruik uit. Het Besluit bag, als hogere regelgeving, biedt echter de ruimte om wijzigingen in de feitelijke situatie op basis van een ambtelijke verklaring op te nemen in de BAG (artikel 7, onder m, tweede lid). Om deze reden ziet BZK toch de mogelijkheid om vergunningsvrije gebruikswijzigingen door bronhouders te laten registeren.
+
+BAG-beheerders zijn massaal voorstander van het registreren van vergunningsvrije gebruikswijzigingen, zo blijkt uit bijvoorbeeld de intervisie-bijeenkomsten van Kadaster en discussies op het GGB-forum.
+
+Advies
+
+Het advies is om in de BAG Praktijkhandleiding en een speciaal servicebericht van Kadaster de volgende uitgangspunten, die met onmiddellijke ingang zouden gelden, over te brengen aan de bronhouders. Het tekstvoorstel voor de volgende update van de Catalogus (versie 1.1) luidt:
+
+ 
+Een vergunde gebruikswijziging wordt geregistreerd in de BAG o.b.v. een omgevingsvergunning;
+
+Een bestemmingsplanwijziging wordt niet geregistreerd in de BAG;
+
+Een vergunningsvrije gebruikswijziging, voor zover die past binnen de regels van het bestemmingsplan, wordt geregistreerd in de BAG o.b.v. een ambtelijke verklaring (bijv. een bevindingenbrief van de afdeling Vergunningverlening);
+
+Een niet-vergunde gebruikswijziging, die niet past binnen de regels van vergunningsvrije bouw en het bestemmingsplan, wordt niet geregistreerd in de BAG.
+
+Het advies is de Catalogus op bovenstaande aan te passen in versie 1.1.
+
+Het advies is inmiddels opgenomen in de BAG Praktijkhandleiding.
+Beeld: Ministerie IenM
+
+Service
+
+Contact
+
+RSS
+
+Vacatures
+
+Sitemap
+
+Help
+Over deze site
+
+Copyright
+
+Privacy
+
+Cookies
+
+Toegankelijkheid
+
+Kwetsbaarheid melden
+Terug naar boven

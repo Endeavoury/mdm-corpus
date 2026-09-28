@@ -1,0 +1,66 @@
+\section{Design Principles}
+\label{sec:principles}
+De principes hieronder zijn ontwerpkennis in voorstelvorm. MOET en ZOU drukken sterkte binnen het voorgestelde profiel uit. De rationale verbindt bronkennis met het ontwerpprobleem; het testonderdeel specificeert toekomstige beoordeling van het prototype. Het bestaan van ondersteunende bronnen maakt de principes niet empirisch gevalideerd.
+
+\subsection*{DP1 --- Expliciete typen en gemotiveerde mappings}
+\textbf{DP1.} Een Semantic Master Data Product MOET termen, begrippen, definities, ontologische klassen, modelelementen, data-elementen, entiteiten, records en producten als onderscheiden rollen typeren en hun verbindingen expliciet maken. Afzonderlijke fysieke resources zijn niet in alle gevallen vereist.
+
+\textbf{Rationale.} ISO 704, SKOS, MIM en ISO/IEC 11179 beschrijven verschillende eenheden. \citep{S11,S31,S13,S08} Een gedeeld label of technisch veld geeft geen volledige onderbouwing van equivalentie. ISO 8000-110 motiveert bovendien aandacht voor semantic encoding en dataspecificatie, zonder hier een specifieke technologie af te dwingen. \citep{S03} De ontwerpkeuze is daarom een getypeerde verbinding in plaats van stilzwijgende samenvoeging.
+
+\textbf{Gerelateerde standaarden en eisen.} ISO 704, NL-SBB/SKOS, MIM, ISO/IEC 11179, ISO 8000-110 en OWL; R01, R04, R05 en R11. \textbf{Te testen in prototype.} M01, M04, M05 en M11 moeten typeverwarring, ontbrekende data-elementkoppelingen en onterechte equivalenties detecteren. De prototypeanalyse zal toetsen of mappings een versie en besluitgrond hebben.
+
+\subsection*{DP2 --- Gezag en bewijs op het niveau van de uitspraak}
+\textbf{DP2.} Een Semantic Master Data Product MOET gezagsclaims en provenance verbinden met de uitspraak en haar context, en MOET technische afzenderidentiteit, wettelijke authenticiteit en feitelijke juistheid onderscheiden.
+
+\textbf{Rationale.} De stelseleisen betreffen institutionele verantwoordelijkheden; PROV-O representeert herkomst; FSC organiseert technische vertrouwensrelaties. \citep{S25,S33,S21} Deze scopes zijn complementair. Het ontwerp voorkomt dat een geauthenticeerde transmissie automatisch de inhoud juridisch kwalificeert. Toepasselijkheid van Europese verplichtingen vraagt eveneens een afzonderlijk oordeel. \citep{S42,S43}
+
+\textbf{Gerelateerde standaarden en eisen.} NL-SBB, PROV-O, ISO 8000-120, FSC, stelseleisen, EIF en Interoperable Europe Act; R02, R07, R08 en R21. \textbf{Te testen in prototype.} M02/M07 toetsen herleidbaarheid, M08 onterechte gezagsclaims en M21 correcte toepasselijkheidsbesluiten. Een correct opgeloste identifier telt niet als vervanging van een ontbrekende rechtsgrond.
+
+\subsection*{DP3 --- Identiteit en versie onafhankelijk van labels}
+\textbf{DP3.} Een Semantic Master Data Product MOET identifier-scope en referentsoort vastleggen en MOET versieerbare beschrijvingen onderscheiden van de geïdentificeerde entiteit.
+
+\textbf{Rationale.} URI/IRI-syntax en publicatierichtlijnen lossen andere problemen op dan ontologische identiteit. \citep{S38,S39,L08} Labels en representaties kunnen wijzigen zonder dat dezelfde soort identiteitsbeslissing aan de orde is. Het ontwerp registreert daarom zowel blijvende verwijzing als gewijzigde beschrijving.
+
+\textbf{Gerelateerde standaarden en eisen.} RDF, URI/IRI, Cool URIs, DCAT 3 en ontologische analyse; R03 en R10. \textbf{Te testen in prototype.} M03 toetst uniciteit, scope en resolutie. M10 zal nagaan of een oude release reproduceerbaar blijft en of modelwijzigingen naar de juiste afhankelijke resources worden doorgeleid.
+
+\subsection*{DP4 --- Historisch interpreteerbare uitspraken}
+\textbf{DP4.} Een Semantic Master Data Product MOET geldigheid en registratiekennis afzonderlijk modelleren en ZOU bewaarde bewijsobjecten aan het toepasselijke bewaarmetadata-profiel verbinden.
+
+\textbf{Rationale.} De temporele literatuur onderscheidt valid en transaction time; OWL-Time representeert tijdconstructies en PROV-O afleidingscontext. \citep{L14,S37,S33} MDTO kan relevant zijn voor duurzaam te bewaren informatieobjecten, maar is geen universeel historieprofiel voor masterdata. \citep{S24}
+
+\textbf{Gerelateerde standaarden en eisen.} OWL-Time, PROV-O, ISO 8000-120, MDTO en TOOI waar toepasselijk; R06, R07 en R20. \textbf{Te testen in prototype.} M06 toetst retrospectieve correcties en bekend-op-vragen; M07 bronversies; M20 het vooraf afgebakende bewaarprofiel. Ontbrekende bronhistorie wordt als beperking gerapporteerd, niet door schijnprecisie vervangen.
+
+\subsection*{DP5 --- Gescheiden inferentie, validatie en kwaliteitsbeoordeling}
+\textbf{DP5.} Een Semantic Master Data Product MOET logische gevolgtrekking, toetsing van beschikbare gegevens en beoordeling van feitelijke kwaliteit als afzonderlijke processen en uitkomsten publiceren.
+
+\textbf{Rationale.} RDFS/OWL, SHACL en kwaliteitsmodellen hanteren verschillende criteria. \citep{S29,S30,S32,S12,L15} DQV maakt metingen beschrijfbaar, maar levert geen casusgebonden grens voor voldoende kwaliteit. \citep{S34} Een geslaagd schema is dus geen toereikende kwaliteitsclaim.
+
+\textbf{Gerelateerde standaarden en eisen.} ISO 8000, ISO/IEC 25012, NORA, RDF/RDFS, OWL, SHACL en DQV; R05, R09 en R16. \textbf{Te testen in prototype.} M05/M09 controleren decodeerbaarheid en meetcontext. M16 vergelijkt constraintdetectie met een onafhankelijk foutencorpus en houdt externe feitelijke beoordeling afzonderlijk.
+
+\subsection*{DP6 --- Productcontract met bereikbare betekenis}
+\textbf{DP6.} Een Semantic Master Data Product MOET een versiegebonden contract publiceren dat doel, eigenaar, datasets, diensten, kwaliteit, gebruikscondities en semantische afhankelijkheden machinevindbaar verbindt.
+
+\textbf{Rationale.} Dataproductliteratuur motiveert gebruikersoriëntatie; DCAT-profielen ondersteunen catalogisering; FAIR motiveert machinegericht hergebruik. \citep{L12,S47,S45,S16,L11} De combinatie vereist een eigen contractuitbreiding, waarvan de volledigheid niet uit het bestaan van een catalogusrecord volgt.
+
+\textbf{Gerelateerde standaarden en eisen.} DCAT 3, DCAT-AP(-NL), FAIR, OpenAPI, REST API Design Rules, Digikoppeling, JSON-LD en relevante FDS-afspraken; R13, R14, R17 en R18. \textbf{Te testen in prototype.} M13/M14 toetsen contract en distributie, M18 de toepasselijkheid van FDS-afspraken en M17 of consumenten de juiste betekenis en broncontext vinden. Beschikbaarheid wordt onderscheiden van correct gebruik.
+
+\subsection*{DP7 --- Beheerde verandering en terugmelding}
+\textbf{DP7.} Een Semantic Master Data Product MOET semantische en technische wijzigingen, statusovergangen en terugmeldingen verbinden met verantwoordelijke besluiten en herstelbare versiecontext.
+
+\textbf{Rationale.} Registratiebeheer, BOMOS en governance\-onderzoek ondersteunen expliciete verantwoordelijkheden. \citep{S10,S23,L07,L17} Het NL GOV CloudEvents-profiel biedt een notificatievorm, maar bepaalt niet zelfstandig de betekenis van iedere domeinwijziging of het herstelbeleid. \citep{S22}
+
+\textbf{Gerelateerde standaarden en eisen.} ISO/IEC 11179-6, BOMOS, NL GOV CloudEvents, stelseleisen, kwaliteitsbaseline, FDS en conditioneel MDTO; R10, R12, R15, R19 en R20. \textbf{Te testen in prototype.} M10/M12 toetsen afhankelijkheden en bevoegdheden; M15 duplicaten, volgorde en herstel; M19 terugmeldsporen; M20 bewaarcontext. Een gepubliceerd event wordt niet als bewijs van succesvolle verwerking bij iedere afnemer beschouwd.
+
+\subsection*{DP8 --- Ontologische verdieping naar aantoonbare behoefte}
+\textbf{DP8.} Een Semantic Master Data Product ZOU ontologische analyse toepassen wanneer identiteit, rollen, fasen of afhankelijkheden tot relevante interpretatieverschillen leiden, en MOET de gemaakte keuze en extra inspanning verantwoorden.
+
+\textbf{Rationale.} UFO/OntoUML en OntoClean bieden conceptuele analysemiddelen, maar het dossier toont geen universele meerwaarde voor overheidsregistraties. \citep{L08,L09,L10,S40,S41} De architectuur laat daarom zowel beperkte als uitgebreidere ontologische uitwerking toe.
+
+\textbf{Gerelateerde standaarden en eisen.} MIM, OWL en SKOS als aangrenzende representaties; UFO/OntoUML en OntoClean als methodische opties, niet als Nederlandse overheidsstandaarden; R11 en R22. \textbf{Te testen in prototype.} M11/M22 vergelijken gedetecteerde mapping- en categoriefouten, fout-positieven en analistentijd met een MIM-gebaseerde analyse zonder aanvullende foundational ontology.
+
+\subsection*{DP9 --- Expliciete epistemische status voor machineconsumenten}
+\textbf{DP9.} Een Semantic Master Data Product MOET uitspraaksoort, registratiehandeling, productiemethode, onzekerheidsbeschrijving, gezagsgrond en bewijsstatus afzonderlijk machineleesbaar maken en MOET onbekend of betwist bewijs zichtbaar houden.
+
+\textbf{Rationale.} PROV-O, stelselgezag en FAIR bieden afzonderlijke bouwstenen. \citep{S33,S25,L11} De samengestelde classificatie is een eigen voorstel. Retrievalonderzoek toont geen rechtvaardiging om AI-uitkomsten automatisch als gezaghebbende feiten te publiceren. \citep{L16}
+
+\textbf{Gerelateerde standaarden en eisen.} PROV-O, ISO 8000-120 en FAIR, met expliciete aansluiting op gezagsbesluiten; R08, R17 en R23. \textbf{Te testen in prototype.} M23 toetst of deskundigen en consumenten de categorieën correct onderscheiden. M17/M08 toetsen brongebonden antwoorden en onterechte opwaardering. De evaluatie moet vaststellen of de annotaties interpretatiefouten verminderen; hun aanwezigheid alleen volstaat niet.

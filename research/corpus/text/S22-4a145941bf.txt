@@ -1,0 +1,759 @@
+Expertadvies NL GOV profile for CloudEvents
+
+ Aan:                      Forum Standaardisatie
+
+ Van:                      InnoValor Advies
+
+ Datum:                    19 juni 2025
+
+ Versie:                   1.0
+
+ Bijlagen:                 -
+
+
+
+1 Advies
+De experts die betrokken waren bij het expertonderzoek adviseren om NL GOV profile for
+CloudEvents op te nemen op de ‘Pas toe of leg uit’-lijst van het Forum Standaardisatie.
+
+Het voorgestelde functioneel toepassingsgebied voor NL GOV profile for CloudEvents is:
+
+        NL GOV profile for CloudEvents moet worden toegepast op het notificeren
+        over gebeurtenissen op wijzigingen in alle registers.
+
+De experts geven aan dat de termen ‘registers’ en ‘(basis)registratie(s)’ in de praktijk vaak
+door elkaar heen gebruikt worden, en voor het functioneel toepassingsgebied van deze
+standaard als synoniemen van elkaar gezien kunnen worden.
+
+Aanvullend hebben de experts het vertrouwen uitgesproken in het open standaardisatieproces
+van Logius om het predicaat ‘Uitstekend beheer’ toe te kennen aan Logius voor NL GOV
+profile for CloudEvents.
+
+NL GOV profile for CloudEvents is een set afspraken over hoe de Nederlandse overheid
+gebruik kan maken van de internationale standaard CloudEvents. NL GOV profile for
+CloudEvents wordt een ‘notificatiestandaard’ genoemd. De standaard kan breder worden
+toegepast, maar het expertadvies en het functioneel toepassingsgebied beperken zich tot het
+gebruik van de standaard voor notificeren. De experts zijn van mening dat de standaard de
+potentie heeft om veel processen binnen de Nederlandse overheid te verbeteren. Afnemers
+zijn door de gestandaardiseerde notificaties snel op de hoogte van relevante gebeurtenissen
+en kunnen daarop gebeurtenis gedreven actie ondernemen. NL GOV profile for CloudEvents
+maakt het voor organisaties mogelijk om beter digitaal samen te werken en efficiënter,
+tijdiger informatie uit te wisselen. Afhankelijk van de implementatie kan het ook bijdragen
+aan dataminimalisatie en data bij de bron.
+
+Daarnaast verwachten de experts dat de standaard relatief makkelijk implementeerbaar is.
+
+Tijdens de expertbijeenkomst is er extra aandacht besteed aan de volgende punten:
+
+-   Aandacht voor de businesscase voor het in gebruik nemen van NL GOV profile for
+    CloudEvents.
+-   Aandacht voor het draagvlak van NL GOV profile for CloudEvents binnen organisaties in de
+    (semi-)publieke sector.
+-   Aandacht voor hoe NL GOV profile for CloudEvents zich verhoudt tot Standaard
+    Uitwisseling Formaat (StUF).
+
+Hiernaast zijn tijdens de expertbijeenkomst enkele aandachtspunten benoemd voor
+succesvolle adoptie van NL GOV profile for CloudEvents binnen de overheid. Voor de experts
+vormen deze geen belemmering om de standaard op te nemen op de ‘Pas toe of leg uit’-lijst.
+
+In de rest van dit document wordt dit advies nader onderbouwd. Hoofdstuk 2 geeft een korte
+uitleg van het nut en de werking van de standaard. Hoofdstuk 3 beschrijft het proces
+waarmee dit advies tot stand kwam, alsmede de vervolgstappen. Hoofdstuk 4 geeft de
+samenstelling van de expertgroep weer. Hoofdstuk 5 documenteert hoe de experts de
+standaard beoordelen tegen de criteria voor opname op de lijst.
+
+Ten slotte geeft hoofdstuk 6 aanvullende adviezen van de experts aan het Forum
+Standaardisatie en het Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) om de
+adoptie van de standaard te stimuleren.
+
+
+2 Korte beschrijving van de standaard
+2.1 Over de standaard
+NL GOV profile for CloudEvents is een set afspraken over hoe de Nederlandse overheid
+gebruik kan maken van de internationale standaard CloudEvents. NL GOV profile for
+CloudEvents wordt een ‘notificatiestandaard’ genoemd. De standaard kan breder worden
+toegepast, maar het expertadvies en het functioneel toepassingsgebied beperken zich tot het
+gebruik van de standaard voor notificeren.
+
+In tegenstelling tot wat de naam doet vermoeden, gaat het niet om een standaard voor Cloud
+technologie. NL GOV profile for CloudEvents beschrijft hoe informatie over een
+plaatsgevonden gebeurtenis gestandaardiseerd uitgewisseld kan worden met gebruik van
+verschillende gegevensformaten, transportprotocollen en voorzieningen.
+
+Als overheidsorganisaties de standaard toepassen, kunnen ze computersystemen maken
+waarmee ze elkaar snel en gestandaardiseerd kunnen notificeren over gebeurtenissen. Zo
+
+
+                                             2 van 16
+weet bijvoorbeeld een overheidsorganisatie direct dat er een bedrijf is opgericht of een
+persoon waarmee zij een relatie heeft is verhuisd.
+
+NL GOV profile for CloudEvents bevat onder andere aanvullende afspraken over het gebruik
+van bepaalde attributen. Zo wordt het mogelijk voor de Nederlandse overheid om gebruik te
+maken van internationale standaardisatie met afspraken die binnen de Nederlandse context
+nodig of wenselijk zijn.
+
+De internationale standaard CloudEvents is ontwikkeld door de Serverless Working Group van
+de Cloud Native Computing Foundation. NL GOV profile for CloudEvents is in beheer bij
+Logius.
+
+2.2 Waarom is deze standaard belangrijk?
+Overheidsorganisaties hebben een groeiende behoefte aan actuele informatie vanuit
+databronnen. Gegevens veranderen vaak en snel, bijvoorbeeld bij verhuizingen of overlijden.
+Door NL GOV profile for CloudEvents toe te passen kunnen overheidsorganisaties elkaar
+gemakkelijker snel en gestandaardiseerd notificeren over plaatsgevonden gebeurtenissen.
+
+Afnemers zijn door de notificaties snel op de hoogte van relevante gebeurtenissen en kunnen
+daarop gebeurtenis gedreven actie ondernemen. NL GOV profile for CloudEvents maakt het
+voor organisaties mogelijk om beter digitaal samen te werken en efficiënter, tijdiger en
+informatie uit te wisselen.
+
+Meer over notificeren en de meerwaarde van deze standaard is beschreven in de NORA.
+
+
+3 Betrokkenen en proces
+Op 23 augustus 2024 heeft Logius NL GOV profile for CloudEvents aangemeld voor plaatsing
+op de ‘Pas toe of leg uit’-lijst.
+
+Op 8 oktober 2024 heeft een intakegesprek plaatsgevonden met Logius (indiener), InnoValor
+Advies (procesbegeleider) en Bureau Forum Standaardisatie. In dit gesprek is verkend of NL
+GOV profile for CloudEvents voldoet aan de criteria om in procedure te worden genomen.
+Daarnaast is vooruitgeblikt op de procedure. De uitkomsten van dit gesprek, eigen onderzoek
+en inzichten van het Forum Standaardisatie zijn vastgelegd in het intakeadvies. Op basis van
+dit intakeadvies heeft het Forum Standaardisatie op 4 december besloten de aanmelding in
+procedure te nemen.
+
+Vervolgens heeft de procesbegeleider in overleg met de indiener en Bureau Forum
+Standaardisatie een expertgroep samengesteld en een voorzitter aangesteld om de standaard
+in een expertsessie nader te bespreken.
+
+De leden van de expertgroep hebben een concept expertadvies gekregen dat is samengesteld
+met informatie uit de aanmelding en het intakeonderzoek. Voorafgaand aan de expertsessie
+hebben de leden dit concept expertadvies doorgenomen en aandachtspunten geïdentificeerd.
+
+                                           3 van 16
+De leden van de expertgroep zijn op 15 april 2025 bijeengekomen om hun bevindingen in het
+algemeen en de geïdentificeerde aandachtspunten in het bijzonder te bespreken. Tijdens deze
+bijeenkomst zijn ook het functioneel toepassingsgebied en het organisatorisch
+werkingsgebied vastgesteld. Dit expertadvies geeft de uitkomst van de expertsessie weer.
+
+Het Bureau Forum Standaardisatie publiceert dit expertadvies ter openbare consultatie op
+internetconsultatie.nl. Gedurende de consultatieperiode kan iedereen op het expertadvies
+reageren. Na afsluiting van de openbare consultatie ontvangen de leden van de expertgroep
+en de indiener een terugkoppeling over de reactie(s). Indien nodig kan dit aanleiding geven
+tot een aanvullend expertonderzoek.
+
+Het Forum Standaardisatie formuleert op basis van het expertadvies, de reactie(s) uit de
+openbare consultatie en inzichten van de leden van het Forum Standaardisatie zelf een advies
+aan het Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO). Het OBDO besluit om het
+advies wel of niet over te nemen.
+
+
+4 Samenstelling van de expertgroep
+Forum Standaardisatie streeft naar een samenstelling van de expertgroep met een
+evenwichtige publiek-private vertegenwoordiging van (toekomstige) gebruikers, leveranciers,
+wetenschappers en andere belanghebbenden. De expertgroep heeft een onafhankelijk
+voorzitter die de expertbijeenkomst leidt.
+
+Aan de expertsessie hebben de volgende personen deelgenomen:
+
+   -   Stas Mironov - Logius (indiener)
+   -   Karl de Boer - Enable U
+   -   Cathy Dingemanse - Rijksdienst voor Identiteitsgegevens (RvIG)
+   -   Ton Donker – Enexis
+   -   Pieter van Everdingen - Politie Nederland
+   -   Ad Gerrits - Vereniging Nederlandse Gemeenten (VNG)
+   -   Dion van der Hak - Provincie Zuid-Holland
+   -   Jorrit Jorritsma - ICTU
+   -   Erwin Straver - Kamer van Koophandel (KVK)
+
+Als onafhankelijk voorzitter is opgetreden Ruud Kosman, Managing Partner bij InnoValor
+Advies.
+
+Koen de Jong en Niels Top, adviseurs bij InnoValor Advies, hebben de procedure in opdracht
+van het Bureau Forum Standaardisatie begeleid.
+
+Anneke Spijker en Joram Verspaget van het Bureau Forum Standaardisatie waren als
+toehoorder bij de expertbijeenkomst aanwezig.
+
+
+
+
+                                             4 van 16
+5 Toetsing op inhoudelijke criteria
+Het Forum Standaardisatie hanteert vier hoofdcriteria om te bepalen of een standaard in
+aanmerking komt voor verplichten aan de overheid (‘Pas toe of leg uit’-verplichting) via
+plaatsing op de 'Pas toe of leg uit'-lijst van Forum Standaardisatie:
+
+   1. Heeft de standaard toegevoegde waarde?
+   2. Zijn de standaard en het standaardisatieproces voldoende open?
+   3. Heeft de standaard voldoende draagvlak?
+   4. Bevordert opname van de standaard op de ‘Pas toe of leg uit’-lijst / op de lijst
+        aanbevolen standaarden de adoptievan de standaard ?
+
+Ieder van deze hoofdcriteria heeft deelcriteria die beschreven staan op de website van het
+Forum Standaardisatie. Dit hoofdstuk beschrijft per criterium het resultaat van de toetsing.
+
+5.1 Toegevoegde waarde
+Met dit criterium wordt bepaald of het toepassingsgebied van de standaard duidelijk is, of
+deze zich goed verhoudt tot andere standaarden die al dan niet op de lijst staan, of de
+standaard een duidelijke meerwaarde heeft en of deze opweegt tegen eventuele risico’s en
+nadelen.
+
+5.1.1      Waardering van het criterium criteria ‘Toegevoegde waarde’
+
+De experts komen tot de conclusie dat NL GOV profile for CloudEvents voldoet aan het
+criterium ‘Toegevoegde waarde’. Deze conclusie wordt in de volgende paragrafen toegelicht.
+
+5.1.2      Is het toepassings- en werkingsgebied van de aanmelding goed
+           gedefinieerd?
+
+5.1.2.1 Is het functioneel toepassingsgebied goed gedefinieerd?
+
+Ja. Het voorgestelde functioneel toepassingsgebied voor NL GOV profile for CloudEvents is:
+
+         NL GOV profile for CloudEvents moet worden toegepast op het notificeren
+         over gebeurtenissen op wijzigingen in alle registers.
+
+De experts geven aan dat de termen ‘registers’ en ‘(basis)registratie(s)’ in de praktijk vaak
+door elkaar heen gebruikt worden, en voor het functioneel toepassingsgebied van deze
+standaard als synoniemen van elkaar gezien kunnen worden.
+
+De experts oordelen dat dit functioneel toepassingsgebied voldoende duidelijk is en het
+verplichte gebruik van de standaard eenduidig beschrijft.
+
+
+
+
+                                            5 van 16
+5.1.2.2 Is het organisatorisch werkingsgebied goed gedefinieerd?
+
+Ja. Het voorgestelde organisatorisch werkingsgebied voor NL GOV profile for CloudEvents is:
+
+        Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en
+        instellingen uit de (semi-)publieke sector.
+
+Dit is het gangbare organisatorisch werkingsgebied voor standaarden op de ‘Pas toe of leg
+uit’-lijst van het Forum Standaardisatie.
+
+Het geformuleerde organisatorisch werkingsgebied van de standaard is voldoende breed om
+substantieel bij te dragen aan de interoperabiliteit van de (semi-)overheid. De functionele
+toepassing van de standaard overstijgt het organisatorisch werkingsgebied van een enkele
+organisatie of sector.
+
+5.1.2.3 Is de standaard generiek toepasbaar (en niet alleen bedoeld voor
+         gegevensuitwisseling met één of een beperkt aantal specifieke
+         organisaties)?
+
+Ja. NL GOV profile for CloudEvents kan over de grenzen van organisaties en sectoren gebruikt
+worden en is niet alleen bedoeld voor gegevensuitwisseling binnen één organisatie of sector.
+
+5.1.3    Verhoudt de standaard zich goed tot andere standaarden?
+
+5.1.3.1 Kan de standaard naast of in combinatie met reeds opgenomen standaarden
+         worden toegepast?
+
+Ja. NL GOV profile for CloudEvents kan opgenomen worden in combinatie met reeds
+opgenomen standaarden.
+
+Het NL GOV profile for CloudEvents beperkt zich tot gestandaardiseerd beschrijven van
+events. Voor zaken zoals authenticatie en autorisatie, beveiliging en tracing moeten door
+gebruikers afdoende maatregelen worden genomen waarbij gebruik gemaakt kan worden van
+bestaande standaarden. Voor autorisatie kan bijvoorbeeld gebruik gemaakt worden van de NL
+GOV Assurance profile for OAuth 2.0 standaard en voor uitwisselen van events via een
+webhook koppeling kunnen bijvoorbeeld API-standaarden gebruikt worden.
+
+Standaard Uitwisseling Formaat (StUF) staat momenteel op de ‘Pas toe of leg uit’-lijst. StUF is
+een set basisafspraken voor het uitwisselen van gegevens tussen applicaties in het
+gemeentelijke veld. NL GOV profile for CloudEvents heeft een ander werkingsgebied dan
+StUF. StUF is gericht op gegevensoverdracht in brede zin (objectstructuur), NL GOV profile
+for CloudEvents specifiek op gegevens over gebeurtenissen (metadata). De experts geven
+aan dat de twee elkaar zodoende niet overlappen en naast elkaar kunnen bestaan.
+
+
+
+
+                                            6 van 16
+5.1.3.2 Biedt de aangemelde standaard meerwaarde boven reeds opgenomen
+          standaarden met een overlappend functioneel toepassings- en
+          organisatorisch werkingsgebied?
+
+Niet van toepassing. De experts stellen vast dat er geen standaarden op de lijst staan met
+een overlappend functioneel toepassingsgebied.
+
+5.1.3.3 Biedt de aangemelde standaard meerwaarde boven bestaande
+          concurrerende standaarden die in aanmerking zouden kunnen komen voor
+          opname?
+
+Niet van toepassing. De experts hebben geen kennis van een concurrerende open standaard
+die in aanmerking zou kunnen komen voor opname op de ‘Pas toe of leg uit’-lijst / lijst
+aanbevolen standaarden.
+
+5.1.3.4 Is de standaard een internationale standaard of sluit de standaard aan bij
+          relevante internationale standaarden?
+
+Ja. De standaard is een specificatie op de internationale standaard CloudEvents. NL GOV
+profile for CloudEvents is een Nederlandse standaard die de internationale CloudEvents
+standaard specifiek maakt voor de context van de Nederlandse overheid.
+
+5.1.4     Wegen de voordelen van de standaard op tegen de nadelen?
+
+5.1.4.1 Zijn de kosten van implementatie acceptabel en zijn deze kosten bekend en
+          inzichtelijk?
+
+Ja. De standaard bouwt voort op bestaande standaarden. De standaard is ook te gebruiken
+met een veelheid aan formaten, protocollen en technologiecomponenten. De experts oordelen
+dat de standaard relatief makkelijk is te implementeren en met beperkte kosten is toe te
+passen.
+
+NL GOV profile for Cloudevents kent geen licentiekosten. NL GOV profile for CloudEvents is
+beschikbaar gesteld onder een Creative Commons License. De bovenliggende internationale
+CloudEvents is beschikbaar gesteld onder het Apache License 2.0.
+
+5.1.4.2 Is er een (kwalitatieve) businesscase van de standaard aanwezig?
+
+Ja. Ondanks dat er een beperkt aantal voorbeelden is van operationele toepassingen binnen
+de Nederlandse overheid, beoordelen de experts dat het implementeren van NL GOV profile
+for CloudEvents kwalitatieve voordelen zal hebben.
+
+Als voorbeeld kan er naar de Nederlandse gemeenten gekeken worden. Sinds enkele jaren is
+er een gemeentelijke standaard voor het notificeren van zaakgerichte informatie. Deze is
+onderdeel van API’s voor Zaakgericht Werken. Via deze standaard kunnen gemeentelijke
+systemen geautomatiseerd notificaties ontvangen over (relevante) wijzigingen in zaak-
+gerelateerde gegevens. Binnen het gemeentedomein wordt dit als positief ervaren.
+
+                                          7 van 16
+Andere overheidsorganisaties maken regelmatig gebruik van dezelfde gegevens. Gemeenten
+lopen er daarbij tegenaan dat andere organisaties deze gemeentelijke standaard niet
+ondersteunen. Dit wordt als een beperking gezien. De implementatie van NL GOV profile for
+CloudEvents zorgt ervoor dat notificaties met alle soorten overheidsorganisaties
+gestandaardiseerd kan plaatsvinden. Dit bevordert de samenwerking, vermindert maatwerk
+en leidt tot minder kosten.
+
+Een van de experts geeft aan dat tijdens een hackathon, georganiseerd door de VNG, is
+aangetoond dat het de huidige gemeentelijke standaard eenvoudig was aan te passen om
+compliant te zijn met NL GOV profile for CloudEvents. Op basis hiervan wordt ingeschat de
+implementatiekosten beperkt zijn.
+
+5.1.4.3 Is de meerwaarde van de standaard goed inzichtelijk te maken?
+
+Ja. In het document “Waarom notificeren” van Logius wordt de meerwaarde van notificeren
+binnen een organisatie uiteengezet. Deze zijn als volgt:
+
+   -   Dienstverlening: Signalen komen snel terecht op de juiste plaats. Dit biedt kansen om
+       snel te reageren en klanten beter van dienst te zijn.
+   -   Effectiviteit: Organisaties krijgen de beschikking over actuele gegevens en de context
+       en kunnen op basis daarvan betere beslissingen nemen.
+   -   Inzicht: Op basis van actuele informatie zijn real time analyses en voorspellingen
+       mogelijk waarmee organisaties vroegtijdig maatregelen kunnen nemen.
+   -   Verwachting: We leven in een samenleving waarin snel reageren de norm is. We
+       verwachten dit gedrag daarom ook in toenemende mate van de overheid.
+
+Een van de experts ziet het gebruik van het NL GOV profile for CloudEvents als kans voor
+dataminimalisatie, door bijvoorbeeld kleine notificaties te gebruiken met de mogelijkheid tot
+verdere bevraging door andere dienstverleners. Andere experts geven aan dat dit afhankelijk
+is van hoe de standaard wordt toegepast.
+
+5.1.4.4 Zijn de beveiligingsrisico’s aan overheidsbrede adoptie van de standaard
+         acceptabel?
+
+Niet van toepassing: beveiliging, autorisatie en authenticatie vallen buiten scope van de
+CloudEvents standaard en het NL GOV profile. Afhankelijk van de gekozen implementatie kan
+bijvoorbeeld een standaard als OAuth toegepast worden voor authenticatie. De beveiliging is
+afhankelijk van aanvullende beveiligingsmaatregelen.
+
+5.1.4.5 Zijn de privacyrisico’s aan overheidsbrede adoptie van de standaard
+         acceptabel?
+
+Ja, de standaard is bedoeld voor het uitwisselen van informatie over plaatsgevonden
+gebeurtenissen, zoals veranderingen in registers. Er is geen publicatie van gegevens die niet
+al op andere wijze gedeeld worden.
+
+
+                                           8 van 16
+5.2 Open standaardisatieproces
+Met dit criterium wordt bepaald of het beheer en de (door)ontwikkeling van de standaard op
+een open, toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze zijn ingericht.
+
+5.2.1    Waardering van het criterium criteria ‘open standaardisatieproces’
+
+De experts komen tot de conclusie dat NL GOV profile for CloudEvents voldoet aan het
+criterium open standaardisatieproces. Ook spreken de experts het vertrouwen uit in het open
+standaardisatieproces van Logius van NL GOV profile for CloudEvents om het predicaat
+‘Uitstekend beheer’ aan Logius toe te kunnen kennen voor deze standaard. Deze conclusie
+wordt in de volgende paragrafen toegelicht.
+
+5.2.2    Is de documentatie voor eenieder drempelvrij beschikbaar?
+
+5.2.2.1 Is het specificatiedocument zonder belemmeringen beschikbaar?
+
+Ja. Het specificatiedocument wordt kosteloos beschikbaar gesteld door de beheerder Logius.
+
+5.2.2.2 Is de documentatie over het ontwikkel- en beheerproces beschikbaar
+         zonder dat er sprake is van belemmeringen?
+
+Ja. Documentatie over de ontwikkeling is publiek beschikbaar. NL GOV profile for CloudEvents
+wordt beheerd volgens het API standaarden beheermodel van Logius. NL GOV profile for
+CloudEvents kan weliswaar toegepast worden bij gebruik van API’s maar is geen API
+gebonden standaard. De opname in het beheermodel slaat op de manier waarop deze
+beheerd wordt, niet over de inhoud van de standaard.
+
+Documentatie over het beheerproces kan gevonden worden via het beheermodel en
+documentatie van het technisch overleg.
+
+De internationale standaard CloudEvents waarop NL GOV profile for CloudEvents is gebaseerd
+is een open standaard en wordt beheerd door de Cloud Native Computing Foundation (CNCF).
+Het Governance model en beschrijving van het beheermodel is beschreven op de GitHub van
+CloudEvents.
+
+5.2.3    Is het intellectuele eigendomsrecht voor eenieder beschikbaar, zodat
+         de standaard vrij implementeerbaar en te gebruiken is?
+
+5.2.3.1 Stelt de standaardisatieorganisatie het intellectueel eigendomsrecht op de
+         standaard onherroepelijk royalty-free voor eenieder beschikbaar?
+
+Ja. Logius heeft NL GOV profile for CloudEvents beschikbaar gesteld volgens de Creative
+Commons Attribution 4.0 International Public License.
+
+De internationale CloudEvents standaard is een open standaard en wordt beheerd door de
+CNFC. Code en documentatie is beschikbaar via de GitHub van CloudEvents en wordt
+gepubliceerd onder een Apache 2.0 licentie.
+                                           9 van 16
+5.2.3.2 Garandeert de standaardisatieorganisatie dat partijen die bijdragen aan de
+        ontwikkeling van de standaard hun intellectueel eigendomsrecht voor
+        (onderdelen van) de standaard onherroepelijk royalty-free voor eenieder
+        beschikbaar stellen?
+
+Ja. Zie Creative Commons license van NL GOV profile for CloudEvents. De documentatie
+omvat alle (openbare) kennis die voor de standaarden beschikbaar is.
+
+5.2.4   Is de inspraak van eenieder in voldoende mate geborgd?
+
+5.2.4.1 Is het besluitvormingsproces toegankelijk voor alle belanghebbenden?
+
+Ja. Het besluitvormingsproces is ingericht volgens het Beheer en Ontwikkelmodel Open
+Standaarden (BOMOS). NL GOV profile for CloudEvents is opgenomen in het beheermodel
+voor API gerelateerde Standaarden.
+
+Belanghebbenden kunnen bijdragen aan het besluitvormingsproces door issues in te dienen
+via Github en/of deel te nemen aan het Technisch Overleg CloudEvents. Hiervoor kunnen zij
+contact opnemen met Logius.
+
+5.2.4.2 Vindt besluitvorming plaats op een wijze die zoveel mogelijk recht doet aan
+        de verschillende belangen?
+
+Ja. Governance en overleggen zijn ingericht volgens BOMOS. Binnen het Technisch Overleg
+CloudEvents wordt een brede groep van belanghebbenden uitgenodigd om diens belangen te
+vertegenwoordigen. Momenteel hebben deze overleggen ongeveer acht deelnemers, waarvan
+drie deelnemers uit Logius zelf. Het verzamelen van belanghebbenden gebeurt nu uit het
+eigen netwerk van Logius. Via Logius’ beheermodel is de betrokkenheid van stakeholders
+gegarandeerd. Denk daarbij ook aan alle leden die middels het MIDO de wijzigingen
+goedkeuren.
+
+Belanghebbende organisaties kunnen aansluiten bij het Technisch Overleg door zelf contact
+op te nemen met Logius. Het blijkt in de praktijk dat nog niet alle belanghebbenden binnen
+de scope van het organisatorisch toepassingsgebied goed vertegenwoordigd zijn. Logius
+tracht dit te verbeteren. Ook kunnen belanghebbenden via Github issues indienen en Logius
+benaderen via mail.
+
+5.2.4.3 Kan een belanghebbende formeel bezwaar aantekenen tegen de gevolgde
+        procedure?
+
+Ja. Belanghebbenden kunnen bezwaar aantekenen door contact op te nemen met Logius.
+Logius stelt contactgegevens beschikbaar via de publieke documentatie van het
+besluitvormingsproces en de documentatie van het Technisch Overleg CloudEvents.
+
+
+
+
+                                         10 van 16
+5.2.4.4 Organiseert de standaardisatieorganisatie regelmatig overleggen met
+         belanghebbenden over doorontwikkeling en beheer van de standaard?
+
+Ja. Logius organiseert vier keer per jaar een Technisch Overleg CloudEvents en sluit aan bij
+de tactisch/strategische overleggen van de Generieke Digitale Infrastructuur (GDI) om
+wijzigingsvoorstellen te bespreken. Logius heeft een vaste mailinglist voor deze
+bijeenkomsten. Belanghebbenden kunnen Logius zelf aanschrijven als zij betrokken willen
+worden bij deze bijeenkomsten.
+
+5.2.4.5 Organiseert de standaardisatieorganisatie een openbare consultatie voordat
+         (een nieuwe versie van) de standaard wordt vastgesteld?
+
+Ja. Logius houdt voor elke inhoudelijke wijziging een publieke consultatie volgens het
+beheermodel. Voor minor versies wordt geen publieke consultatie gehouden.
+
+5.2.5    Is de standaardisatieorganisatie onafhankelijk en duurzaam?
+
+5.2.5.1 Is de ontwikkeling en het beheer van de standaard belegd bij een
+         onafhankelijke non-profit standaardisatieorganisatie?
+
+Ja. Het beheer is belegd bij Logius, een agentschap van het Ministerie van Binnenlandse
+Zaken en Koninkrijksrelaties.
+
+NL GOV profile for CloudEvents is gebaseerd op de internationale standaard CloudEvents.
+Deze wordt ontwikkeld door de Serverless Working Group van de Cloud Native Computing
+Foundation (CNCF). De CNCF maakt deel uit van de non-profit Linux Foundation.
+
+5.2.5.2 Is de financiering van de ontwikkeling en het onderhoud van de standaard
+         voor ten minste drie jaar gegarandeerd?
+
+Ja. Het beheer van de standaard is meerjarig gedekt. Logius voert het beheer van de
+standaard uit in opdracht van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
+(BZK). Het ministerie financiert de opdracht.
+
+5.2.6    Is het (versie) beheer van de standaard goed geregeld?
+
+5.2.6.1 Heeft de standaardisatieorganisatie gepubliceerd beleid met betrekking tot
+         (versie)beheer van de standaard?
+
+Ja. Logius heeft een gepubliceerd beheermodel met betrekking tot versiebeheer van
+standaarden. Deze wordt gebruikt voor het beheer van NL GOV profile for CloudEvents.
+
+5.2.6.2 Is de beheerdocumentatie goed vindbaar en verkrijgbaar?
+
+Ja. Beheerdocumentatie is vindbaar en verkrijgbaar op de pagina van het beheermodel.
+
+
+
+
+                                          11 van 16
+5.2.6.3 Is het belang van de Nederlandse overheid voldoende geborgd bij de
+         ontwikkeling en het beheer van de standaard?
+
+Ja. NL GOV profile for CloudEvents is een profiel specifiek ontworpen voor Nederlandse
+overheden. Logius is als overheidsorganisatie betrokken bij het beheer van de standaard.
+
+5.2.6.4 Is de vertegenwoordiging van belanghebbenden bij het beheer van de
+         standaard een goede representatie van het werkingsgebied en functioneel
+         toepassingsgebied van de standaard?
+
+Ja. Logius betrekt actief stakeholders van registers bij het Technisch Overleg zoals Kadaster,
+KvK, RvIG en TNO. Bovendien zijn ook verschillende leveranciers aanwezig, waaronder
+PinkRoccade en Enable-U. De gemeenten zijn vertegenwoordigd door VNG. Daarnaast wordt
+er via Logius’ beheermodel de betrokkenheid van stakeholders gegarandeerd. Denk daarbij
+ook aan alle leden die middels het MIDO de wijzigingen goedkeuren.
+
+Ondanks dat belanghebbenden kunnen deelnemen aan het Technisch Overleg, blijkt in de
+praktijk dat lang niet alle belanghebbenden binnen de scope van het organisatorisch
+toepassingsgebied goed vertegenwoordigd zijn. Logius tracht dit te verbeteren door
+belanghebbenden zelf te benaderen. Ook kunnen belanghebbenden Logius benaderen via
+mail.
+
+5.2.6.5 Is het standaardisatieproces van de standaardisatieorganisatie zodanig
+         goed geregeld dat het Forum zich kan onthouden van aanvullende toetsing
+         bij de aanmelding van een nieuwe versie van de standaard?
+
+Ja. De experts concluderen dat Logius het standaardisatieproces goed geregeld heeft en
+adviseren het predicaat ‘Uitstekend beheer’ aan Logius toe te kennen voor NL GOV profile for
+CloudEvents.
+
+NL GOV profile for CloudEvents is opgenomen in het beheermodel voor API gerelateerde
+Standaarden. Het besluitvormingsproces is ingericht volgens BOMOS. BOMOS voorziet in
+inspraak via werkgroepen, open ontwikkeling en consultatie van standaarden en de
+mogelijkheid tot het indienen van wijzigingsvoorstellen en formeel bezwaar maken. Het
+belang van de overheid is geborgd via de governance van het MIDO. In de governance is
+vertegenwoordiging door ministeries, uitvoeringsorganisaties, provinciën, waterschappen en
+gemeenten geregeld.
+
+5.2.7    Is er adoptieondersteuning voor de standaard?
+
+5.2.7.1 Is er een toegankelijk aanspreekpunt of organisatie waar meer informatie
+         over de standaard is te vinden en op te vragen is?
+
+Ja. Vragen stellen kan via de contactpagina van Logius, of via contactgegevens in de publieke
+documentatie. Als Logius een vraag niet kan beantwoorden, wordt deze voorgelegd aan het
+Technisch Overleg.
+
+                                          12 van 16
+5.2.7.2 Wordt er ondersteuning gegeven in de adoptie en de implementatie van de
+         standaard?
+
+Logius heeft een handreiking voor de standaard online beschikbaar. Vragen over de
+standaard kunnen door Logius zelf worden beantwoord of voorgelegd worden aan het
+Technisch Overleg.
+
+De experts zijn van mening dat meer ondersteuning in adoptie en implementatie wenselijk is.
+Logius geeft aan momenteel niet de capaciteit te hebben om ondersteuning te bieden in de
+adoptie en implementatie zelf. De experts hebben hierover verder uitgeweid in het
+aanvullende advies (hoofdstuk 6).
+
+5.3 Draagvlak
+Met dit criterium wordt bepaald of de opname van de standaard op de ‘Pas toe of leg uit’-lijst
+of lijst aanbevolen standaarden op voldoende breed draagvlak kan rekenen binnen de
+overheid. Een voorwaarde hiervoor is ook dat er voldoende marktondersteuning voor de
+standaard bestaat en dat het marktaanbod evenwichtig is (dus geen
+leveranciersafhankelijkheid in de hand werkt).
+
+5.3.1    Waardering van het criterium criteria ‘draagvlak’
+
+De experts komen tot de conclusie dat NL GOV profile for CloudEvents voldoet aan het
+criterium ‘Draagvlak’. Deze conclusie wordt in de volgende paragrafen toegelicht.
+
+5.3.2    Bestaat er voldoende marktondersteuning voor de standaard?
+
+5.3.2.1 Bieden meerdere leveranciers ondersteuning voor de standaard?
+
+Ja. Marktondersteuning voor NL GOV profile for CloudEvents wordt onder andere geboden door
+leveranciers zoals PinkRoccade en Enable U. Internationale platformen als Amazon
+EventBridge, Azure EventGrid en Google Cloud ondersteunen de bovenliggende CloudEvents
+standaard in hun producten. Daarnaast bestaan er software development kits (SDKs) voor
+het gebruik van CloudEvents op basis van meerdere protocollen en programmeertalen.
+
+5.3.2.2 Kan een gebruiker de conformiteit van de implementatie van de standaard
+         (laten) toetsen?
+
+Nee, er is geen testapplicatie die gebruikt kan worden om een implementatie van het NL GOV
+profile for CloudEvents te testen. Voor de internationale CloudEvents standaard zijn wel
+testscripts beschikbaar.
+
+5.3.2.3 Draagt de standaard voldoende bij aan interoperabiliteit zonder dat
+         aanvullende standaardisatieafspraken (zoals lokale profielen) noodzakelijk
+         zijn om de standaard te implementeren of te gebruiken?
+
+Ja. De experts beoordelen dat de standaard bijdraagt aan interoperabiliteit binnen de
+Nederlandse overheid.
+                                          13 van 16
+Om de volle meerwaarde van de standaard te kunnen benutten, moeten er wel
+domeinspecifieke afspraken gemaakt worden. Dit laat de formulering van de standaard toe.
+NL GOV profile for CloudEvents bevat handleidingen voor de implementatie van deze
+aanvullende afspraken.
+
+5.3.2.4 Zijn er profielen of voorbeeldimplementaties van de standaard aanwezig en
+         zijn deze vrij te gebruiken?
+
+Ja. Logius heeft online een handreiking beschikbaar waarin voorbeelden worden gegeven. Dit
+zijn echter geen volledige voorbeeldimplementaties.
+
+5.3.3    Kan de standaard rekenen op voldoende draagvlak?
+
+5.3.3.1 Staan de belangrijkste stakeholders vanuit de overheid voor deze standaard
+         achter de adoptie van de standaard?
+
+Ja. De standaard is aangemeld op initiatief van de stakeholders in het Technisch Overleg,
+waaronder afgevaardigden van Kadaster, Belastingdienst, Waarderingskamer, KVK, VNG en
+TNO. De vertegenwoordigers vanuit de (semi-)publieke sector in de expertsessie staan achter
+de adoptie van de standaard.
+
+Daarnaast is NL GOV profile for CloudEvents binnen de GDI als een benodigde standaard voor
+notificeren benoemd. Dit staat beschreven in de Architectuur Digitale Overheid 2030 die door
+het OBDO is vastgesteld.
+
+5.3.3.2 Staan de overheidsorganisaties die worden geraakt door een verplichting
+         van de standaard achter het verplichte gebruik van de standaard?
+
+Ja. De experts zien in hun kringen dat veel organisaties de voordelen zien die NL GOV profile
+for CloudEvents kan bieden. Daarnaast beschouwen de experts de implementatie van NL GOV
+profile for CloudEvents als laagdrempelig.
+
+5.3.3.3 Wordt de aangemelde versie van de standaard binnen het organisatorische
+         werkingsgebied door meerdere Nederlandse overheidsorganisaties
+         gebruikt?
+
+Ja. In de energiesector kennen ze al een domeinspecifieke specificatie op NL GOV profile for
+CloudEvents. Daarnaast wordt er voor de Basis Registratie Ondergrond (BRO) en intern bij
+TNO al gebruik gemaakt van de standaard.
+
+Logius heeft met meerdere (semi-)overheidsorganisaties gesproken over het gebruik van NL
+GOV profile for CloudEvents en in meerdere pilots de standaard al toegepast. Meerdere
+partijen houden zich bezig met het implementeren van gebeurtenis gedreven notificeren,
+maar tot nu toe zijn er weinig operationele implementaties van de standaard. Logius geeft
+aan dat veel partijen positief zijn over het toekomstig gebruik van de standaard. Dit wordt
+door de experts onderschreven.
+
+
+                                             14 van 16
+5.3.3.4 Wordt een vorige versie van de standaard binnen het organisatorische
+         werkingsgebied door meerdere Nederlandse overheidsorganisaties
+         gebruikt?
+
+Niet van toepassing, er is geen formele eerdere versie van de standaard.
+
+5.3.3.5 Is de aangemelde versie backwards compatible met eerdere versies van de
+         standaard?
+
+Niet van toepassing, er is geen formele eerdere versie van de standaard.
+
+5.3.3.6 Zijn er voldoende positieve signalen over toekomstige gebruik van de
+         standaard door (semi-)overheidsorganisaties, het bedrijfsleven en burgers?
+
+Ja. In de energiesector kennen ze al een domeinspecifieke specificatie op NL GOV profile for
+CloudEvents.
+
+Logius heeft met meerdere (semi-)overheidsorganisaties gesproken over het gebruik van NL
+GOV profile for CloudEvents en in samenwerking met andere organisaties de standaard al
+toegepast bij beproevingen binnen projecten en hackathons. Zo is er een bijvoorbeeld een
+pilot gedaan met Digilevering.
+
+Meerdere partijen houden zich bezig met het implementeren van gebeurtenis gedreven
+notificeren, maar tot nu toe zijn er weinig operationele implementaties van de standaard.
+Logius geeft aan dat veel partijen positief zijn over het toekomstig gebruik van de standaard.
+Dit wordt door de experts onderschreven. RvIG geeft aan voornemens te zijn de standaard te
+gebruiken voor de Basisregistratie Personen (BRP) API notificaties. Realisatie van deze
+notificatie API voor gemeenten is gepland in 2025.
+
+De standaard zal geen directe impact hebben op burgers maar helpt mee om richting burgers
+vaker relevante notificaties te sturen, bijvoorbeeld via MijnServices vanuit gemeenten.
+
+5.4 Opname op de lijst bevordert adoptie
+De experts komen tot de conclusie dat NL GOV profile for CloudEvents voldoet aan het
+criterium ‘Opname op de lijst bevordert adoptie’.
+
+De experts verwachten dat opname van NL GOV profile for CloudEvents op de ‘Pas toe of leg
+uit’-lijst de interoperabiliteit van overheidsinformatie bevordert. Logius zal de adoptie
+stimuleren door NL GOV profile for CloudEvents in de eigen voorzieningen te gebruiken.
+Daarnaast zal Logius door middel van kennisdeling en implementatieondersteuning de adoptie
+stimuleren.
+
+De standaard is voor het Federatief Data Stelsel (FDS) de beoogde standaard voor notificaties
+met betrekking tot registers. Gezien het grote aantal organisaties en bedrijfsprocessen dat
+gebruik maakt van de registers binnen het Federatief Data Stelsel zal dit bijdragen aan de
+adoptie van de standaard.
+
+                                           15 van 16
+Gemeenten gebruiken al een bestaande gemeentelijke notificatiestandaard voor zaakgericht
+werken. De VNG kan deze relatief eenvoudig compliant maken met het NL GOV Profile for
+CloudEvents. Zij ziet de voordelen hiervan opwegen tegen de nadelen, omdat gebruik van
+notificaties ook op andere terreinen en domeinen mogelijk wordt.
+
+Logius zal zelf als ambassadeur bijdragen aan de implementatie van de het NL GOV profile for
+CloudEvents door middel van:
+
+   -   Zelf kartrekker te zijn bij de implementatie van de standaard
+   -   Het organiseren van het Technisch Overleg
+   -   Het aanbieden/onderhouden van handreikingen van de standaard
+   -   Voorzien in kennisdeling en deelname aan de werkgroep Notificeren van FDS
+
+
+6 Adviezen bij opname van de standaard
+De experts geven het Forum Standaardisatie de volgende adviezen bij de opname van NL
+GOV profile for CloudEvents op de ‘Pas toe of leg uit’-lijst:
+
+   •   De experts roepen Logius op om actief aan deel te nemen aan de Serverless Working
+       Group van de CloudEvents standaard en de belangen van de Nederlandse overheid te
+       vertegenwoordigen. NL GOV profile for CloudEvents is opgesteld op basis van de
+       internationale standaard CloudEvents. De overheid is op dit moment echter niet
+       betrokken bij de governance van de CloudEvents standaard.
+   •   De experts adviseren Logius om koepelorganisaties te identificeren en aan te schrijven
+       en deze te verzoeken om een rol te nemen in het opstellen, publiceren en verspreiden
+       van domeinspecifieke afspraken. De meerwaarde van de standaard wordt pas
+       volwaardig benut als er domein- of sectorspecifieke afspraken gemaakt worden voor
+       CloudEvents.
+   •   De experts roepen Logius op te onderzoeken of er een centraal overzicht
+       (gebeurtenissenregister) gecreëerd kan worden voor NL GOV profile for CloudEvents.
+       Hierin kunnen domeinspecifieke afspraken gepubliceerd worden en een overzicht
+       gemaakt worden van beschikbare events. Op deze manier hebben partijen die de
+       standaard willen implementeren een centraal overzicht van de verschillende types
+       gebeurtenissen per aanbieder.
+   •   De experts adviseren Logius om invulling te geven aan een profiel voor abonneren op
+       gebeurtenissen (event subscriptions).
+   •   De experts roepen Logius op om het Technisch Overleg meer onder de aandacht te
+       brengen van de beoogde doelgroep.
+   •   De experts roepen het Technisch Overleg CloudEvents op om te onderzoeken hoe meer
+       capaciteit voor adoptieondersteuning geboden kan worden. Hiervoor kan worden
+       gekeken naar het opstellen van een werkgroep.
+
+
+
+
+                                            16 van 16
+

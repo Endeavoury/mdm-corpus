@@ -1,0 +1,1657 @@
+                 Introduction to the Dewey Decimal Classification
+
+About the Introduction
+
+1.1   This Introduction explains the basic principles and structure of the Dewey Decimal
+      Classification (DDC) system.
+
+1.2   The Introduction is intended to be used in conjunction with the Glossary and the Manual.
+      The Glossary defines terms used in the Introduction and elsewhere in the Classification.
+      The Manual offers advice on classifying in difficult areas and explains how to choose
+      between related numbers.
+
+Classification: What It Is and What It Does
+
+2.1   Classification provides a system for organizing knowledge. Classification may be used to
+      organize knowledge represented in any form, e.g., books, documents, electronic
+      resources.
+
+2.2   Notation is the system of symbols used to represent the classes in a classification system.
+      In the Dewey Decimal Classification, the notation is expressed in Arabic numerals. The
+      notation gives both the unique meaning of the class and its relation to other classes. The
+      notation provides a universal language to identify the class and related classes, regardless
+      of the fact that different words or languages may be used to describe the class.
+
+History, Current Use, and Development of the Dewey Decimal Classification
+
+3.1   The Dewey Decimal Classification—conceived by Melvil Dewey in 1873 and first
+      published in 1876—is a general knowledge organization tool that is continuously revised
+      to keep pace with knowledge. The system is further extended through number building,
+      interoperable translations, association with categorized content, and mappings to other
+      subject schemes.
+
+3.2   The DDC is published by OCLC, Inc. The DDC is accessed through WebDewey, a
+      frequently updated subscription service maintained by OCLC. OCLC owns all copyright
+      rights in the Dewey Decimal Classification and licenses the system for a variety of uses.
+
+3.3   The DDC is the most widely used classification system in the world. Libraries in more
+      than 138 countries use the DDC to organize and provide access to their collections, and
+      DDC numbers are featured in the national bibliographies of more than sixty countries.
+      Libraries of every type apply Dewey numbers on a daily basis and share these numbers
+      through a variety of means (including WorldCat). Dewey is also used in a variety of
+      applications on the web in support of categorization, browsing, and retrieval.
+
+                                               1
+3.4   The DDC has been translated into over thirty languages. Since 1988, authorized
+      translations of the full and abridged editions of the DDC have been published or are
+      under way in Arabic, French, German, Greek, Hebrew, Icelandic, Indonesian, Italian,
+      Norwegian, Russian, Spanish, Swedish, Turkish, and Vietnamese. The DDC Summaries,
+      the top three levels of the Dewey Decimal Classification system, have been translated
+      into Afrikaans, Arabic, Chinese, Czech, French, German, Hebrew, Italian, Norwegian,
+      Portuguese, Russian, Spanish, Swedish, and Vietnamese.
+
+3.5   One of Dewey’s great strengths is that the system is developed and maintained in a
+      national bibliographic agency, the Library of Congress. The Dewey editorial office is
+      located in the Dewey Section of the Library of Congress, where classification specialists
+      annually assign over 60,000 DDC numbers to records for works cataloged by the Library.
+      Having the editorial office within the Dewey Section enables the editors to detect trends
+      in the literature that must be incorporated into the Classification. The editors prepare
+      proposed schedule revisions and expansions and forward the proposals to the Decimal
+      Classification Editorial Policy Committee (EPC) for review and recommended action.
+
+3.6   EPC is a ten-member international board whose main function is to advise the editors and
+      OCLC on matters relating to changes, innovations, and the general development of the
+      Classification. EPC represents the interests of DDC users; its members come from
+      national, public, special, and academic libraries, and from library schools.
+
+Overview of the Dewey Decimal Classification
+
+CONCEPTUAL FRAMEWORK
+
+4.1   The DDC is built on sound principles that make it ideal as a general knowledge
+      organization tool: meaningful notation in universally recognized Arabic numerals, well-
+      defined categories, well-developed hierarchies, and a rich network of relationships among
+      topics. In the DDC, basic classes are organized by disciplines or fields of study. At the
+      broadest level, the DDC is divided into ten main classes, which together cover the entire
+      world of knowledge. Each main class is further divided into ten divisions, and each
+      division into ten sections (not all the numbers for the divisions and sections have been
+      used).
+
+4.2   The main structure of the DDC is presented in the DDC Summaries. The first summary
+      contains the ten main classes. The second summary contains the hundred divisions. The
+      third summary contains the thousand sections. The headings associated with the numbers
+      in the summaries have been edited for browsing purposes, and do not necessarily match
+      the complete headings found in the schedules.
+
+
+
+
+                                              2
+4.3    The ten main classes are:
+
+          000     Computer science, information & general works
+          100     Philosophy & psychology
+          200     Religion
+          300     Social sciences
+          400     Language
+          500     Science
+          600     Technology
+          700     Arts & recreation
+          800     Literature
+          900     History & geography
+
+4.4    Class 000 is the most general class and is used for works not limited to any one specific
+       discipline, e.g., encyclopedias, newspapers, general periodicals. This class is also used for
+       certain specialized disciplines that deal with knowledge and information, e.g., computer
+       science, library and information science, journalism. Each of the other main classes
+       (100-900) comprises a major discipline or group of related disciplines.
+
+4.5    Class 100 covers philosophy, parapsychology and occultism, and psychology.
+
+4.6    Class 200 is devoted to religion.
+
+4.7    Class 300 covers the social sciences. Class 300 includes sociology, anthropology,
+       statistics, political science, economics, law, public administration, social problems and
+       services, education, commerce, communications, transportation, and customs.
+
+4.8    Class 400 comprises language, linguistics, and specific languages. Literature, which is
+       arranged by language, is found in 800.
+
+4.9    Class 500 is devoted to the natural sciences and mathematics.
+
+4.10   Class 600 is technology.
+
+4.11   Class 700 covers the arts: art in general, fine and decorative arts, music, and the
+       performing arts. Recreation, including sports and games, is also classed in 700.
+
+4.12   Class 800 covers literature, and includes rhetoric, prose, poetry, drama, etc. Folk
+       literature is classed with customs in 300.
+
+4.13   Class 900 is devoted primarily to history and geography. A history of a specific subject is
+       classed with the subject.
+
+
+                                                 3
+4.14   Since the parts of the DDC are arranged by discipline, not subject, a subject may appear
+       in more than one class. For example, “clothing” has aspects that fall under several
+       disciplines. The psychological influence of clothing belongs in 155.95 as part of the
+       discipline of psychology; customs associated with clothing belong in 391 as part of the
+       discipline of customs; and clothing in the sense of fashion design belongs in 746.92 as
+       part of the discipline of the arts.
+
+NOTATION
+
+4.15   Arabic numerals are used to represent each class in the DDC. The first digit in each three-
+       digit number represents the main class. For example, 500 represents science. The second
+       digit in each three-digit number indicates the division. For example, 500 is used for
+       general works on the sciences, 510 for mathematics, 520 for astronomy, 530 for physics.
+       The third digit in each three-digit number indicates the section. Thus, 530 is used for
+       general works on physics, 531 for classical mechanics, 532 for fluid mechanics, 533 for
+       gas mechanics. The DDC uses the convention that no number should have fewer than
+       three digits; zeros are used to fill out numbers.
+
+4.16   A decimal point, or dot, follows the third digit in a class number, after which division by
+       ten continues to the specific degree of classification needed. The dot is not a decimal
+       point in the mathematical sense, but a psychological pause to break the monotony of
+       numerical digits and to ease the transcription and copying of the class number. A number
+       should never end in a 0 anywhere to the right of the decimal point.
+
+PRINCIPLE OF HIERARCHY
+
+4.17   Hierarchy in the DDC is expressed through structure and notation.
+
+4.18   Structural hierarchy means that all topics (aside from the ten main classes) are part of all
+       the broader topics above them. The corollary is also true: whatever is true of the whole is
+       true of the parts. This important concept is called hierarchical force. Certain notes
+       regarding the nature of a class hold true for all the subordinate classes, including logically
+       subordinate topics classed at coordinate numbers. (For a discussion of notes with
+       hierarchical force, see paragraphs 7.10-7.17 and 7.20-7.22.)
+
+       Because of the principle of hierarchical force, hierarchical notes are usually given only
+       once—at the highest level of application. For example, the scope note at 700 applies to
+       730, to 736, and to 736.4. The words “Description, critical appraisal . . .” found in the
+       scope note at 700 also govern the critical appraisal of carving in 736 Carving and
+       carvings, and of wood carving in 736.4 Wood. In order to understand the structural
+       hierarchy, the classifier must investigate the schedules and tables up and down the
+       hierarchy.
+
+
+                                                 4
+4.19   Notational hierarchy is expressed by length of notation. Numbers at any given level are
+       usually subordinate to a class whose notation is one digit shorter; coordinate with a class
+       whose notation has the same number of significant digits; and superordinate to a class
+       with numbers one or more digits longer. The underlined digits in the following example
+       demonstrate this notational hierarchy:
+
+             600   Technology (Applied sciences)
+             630      Agriculture and related technologies
+             636        Animal husbandry
+             636.7         Dogs
+             636.8         Cats
+
+       “Dogs” and “Cats” are more specific than (i.e., are subordinate to) “Animal husbandry”;
+       they are equally specific as (i.e., are coordinate with) each other; and “Animal
+       husbandry” is less specific than (i.e., is superordinate to) “Dogs” and “Cats.”
+
+4.20   Sometimes, other devices must be used to express hierarchy when it is not possible or
+       desirable to do so through the notation. A see reference leads the classifier to
+       subdivisions of a subject located outside the notational hierarchy. A centered entry (so
+       called because in printed editions its numbers, heading, and notes appear in the center of
+       the page) constitutes a major departure from notational hierarchy. A centered entry is
+       used to indicate and relate structurally a span of numbers that together form a single
+       concept for which there is no specific hierarchical notation available. In print, centered
+       entries are always flagged typographically by the symbol > in the number column.
+
+Classifying with the DDC
+
+5.1    Classifying a work with the DDC requires determining the subject, the disciplinary focus,
+       and, if applicable, the approach or form. (For a discussion of approach or form, see
+       paragraph 8.3.)
+
+DETERMINING THE SUBJECT OF A WORK
+
+5.2    Classifying a work properly depends first upon determining the subject of the work in
+       hand. A key element in determining the subject is the author’s intent.
+
+       (A)      The title is often a clue to the subject, but should never be the sole source of
+                analysis. For example, Opera could be the title of a work on the familiar dramatic
+                musical art form or on the web browser Opera. Likewise, a title with specific
+                terms that are subdivisions of a field may in fact use such terms symbolically to
+                represent the broader topic. For example, titles containing terms like
+                chromosomes, DNA, double helix, genes, and genomes may use these terms
+                symbolically to represent the whole subject of biochemical genetics.
+                                                 5
+      (B)    The table of contents may list the main topics discussed. Chapter headings
+             may substitute for the absence of a table of contents. Chapter subheadings often
+             prove useful.
+
+      (C)    The preface or introduction usually states the author’s purpose. If a foreword
+             is provided, it often indicates the subject of the work and suggests the place of the
+             work in the development of thought on the subject. The book jacket or
+             accompanying material may include a summary of the subject content.
+
+      (D)    A scan of the text itself may provide further guidance or confirm preliminary
+             subject analysis.
+
+      (E)    Bibliographical references and index entries are sources of subject information.
+
+      (F)    Cataloging copy from centralized cataloging services is often helpful by providing
+             subject headings, classification numbers, and notes. Such copy appears in online
+             services, and on the verso of the title page of many books as part of
+             Cataloging-in-Publication (CIP) data. Data from these sources should be verified
+             with the book in hand, since the cataloging record is based on prepublication
+             information.
+
+      (G)    Occasionally, consultation of outside sources such as reviews, reference works,
+             and subject experts may be required to determine the subject of the work.
+
+DETERMINING THE DISCIPLINE OF A WORK
+
+5.3   After determining the subject, the classifier must then select the proper discipline, or field
+      of study, of the work.
+
+5.4   The guiding principle of the DDC is that a work is classed in the discipline for which it is
+      intended, rather than the discipline from which the work derives. This enables works that
+      are used together to be found together. For example, a general work by a zoologist on
+      agricultural pest control should be classed in agriculture, not zoology, along with other
+      works on agricultural pest control.
+
+5.5   Once the subject has been determined, and information on the discipline has been found,
+      the classifier will turn to the schedules. The summaries are a good means of mental
+      navigation. The headings and notes in the schedules themselves and the Manual provide
+      much guidance. The Relative Index may help by suggesting the disciplines in which a
+      subject is normally treated. (For a discussion of the summaries, see paragraph 7.1; for a
+
+
+
+                                                6
+      discussion of the Manual, see paragraphs 10.1-10.6; for a discussion of the Relative
+      Index, see paragraphs 11.1-11.15.)
+
+5.6   If the Relative Index is used, the classifier must still rely on the structure of the
+      Classification and various aids throughout to arrive at the proper place to classify a work.
+      Even the most promising Relative Index citations must be verified in the schedules; the
+      schedules are the only place where all the information about coverage and use of the
+      numbers may be found.
+
+MORE THAN ONE SUBJECT IN THE SAME DISCIPLINE
+
+5.7   A work may include multiple subjects treated separately or in relation to one another
+      from the viewpoint of a single discipline. Use the following guidelines in determining the
+      best placement for the work:
+
+      (A)    Class a work dealing with interrelated subjects with the subject that is being acted
+             upon. This is called the rule of application, and takes precedence over any other
+             rule. For instance, class an analytical work dealing with Shakespeare’s influence
+             on Keats with Keats. Similarly, class a work on the influence of the Great
+             Depression on 20th century American art with American art.
+
+      (B)    Class a work on two subjects with the subject receiving fuller treatment.
+
+      (C)    If two subjects receive equal treatment, and are not used to introduce or explain
+             one another, class the work with the subject whose number comes first in the
+             DDC schedules. This is called the first-of-two rule. For example, a history dealing
+             equally with the United States and Japan, in which the United States is discussed
+             first and is given first in the title, is classed with the history of Japan because 952
+             Japan precedes 973 United States.
+
+             Sometimes, specific instructions are given to use numbers that do not come first
+             in the schedules. For example, at 598, the note “class comprehensive works on
+             warm-blooded vertebrates in 599” tells the classifier to ignore the first-of-two rule
+             and class a work on birds (598) and mammals (599) in 599, which is the
+             comprehensive number for warm-blooded vertebrates.
+
+             Also disregard the first-of-two rule when the two topics are the two major
+             subdivisions of a subject. For example, collection systems (628.142) and
+             distribution systems (628.144) taken together constitute 628.14 Collection and
+             distribution systems. Works covering both of these topics are classed in 628.14
+             (not 628.142). Similarly, volcanoes (551.21) and earthquakes (551.22) are the two
+             major subdivisions of 551.2 Volcanoes, earthquakes, thermal waters and gases.
+             Works covering volcanoes and earthquakes are classed in 551.2 (not 551.21).
+
+                                                7
+             (For a discussion of the first-of-two rule versus preference order, see paragraph
+             9.6; for a discussion of comprehensive numbers, see paragraphs 7.16 and
+             7.20-7.21.)
+
+      (D)    Class a work on three or more subjects that are all subdivisions of a broader
+             subject in the first higher number that includes them all (unless one subject is
+             treated more fully than the others). This is called the rule of three. For example, a
+             history of Portugal (946.9), Sweden (948.5), and Greece (949.5) is classed with
+             the history of Europe (940).
+
+      (E)    Subdivisions beginning with zero should be avoided if there is a choice between 0
+             and 1-9 at the same point in the hierarchy of the notation. Similarly, subdivisions
+             beginning with 00 should be avoided when there is a choice between 00 and 0.
+             This is called the rule of zero. For example, a biography of an American
+             Methodist missionary in China belongs in 266 Missions. The content of the work
+             can be expressed in three different numbers:
+
+                 266.0092           biography of a missionary
+                 266.02373051       foreign missions of the United States in China
+                 266.76092          biography of a United Methodist Church missionary
+
+             The last number is used since it has no zero at the fourth position.
+
+MORE THAN ONE DISCIPLINE
+
+5.8   Treating a subject from the point of view of more than one discipline is different from
+      treating several subjects in one discipline. Use the following guidelines in determining
+      the best placement for the work:
+
+      (A)    Use the interdisciplinary number provided in the schedules or Relative Index if
+             one is given. An important consideration in using such an interdisciplinary
+             number is that the work must contain significant material on the discipline in
+             which the interdisciplinary number is found. For example, 305.231 (a sociology
+             number) is provided for interdisciplinary works on child development. However,
+             if a work that is interdisciplinary with respect to child development gives little
+             emphasis to social development and a great deal of emphasis to the psychological
+             and physical development of the child (155.4 and 612.65, respectively), class it in
+             155.4 (the first number in the schedules of the next two obvious choices). In short,
+             interdisciplinary numbers are not absolute; they are to be used only when
+             applicable. (For a discussion of interdisciplinary numbers, see paragraphs 7.16,
+             7.20-7.21, and 11.8-11.9.)
+
+
+                                               8
+       (B)      Class works not given an interdisciplinary number in the discipline given the
+                fullest treatment in the work. For example, a work dealing with both the scientific
+                and the engineering principles of electrodynamics is classed in 537.6 if the
+                engineering aspects are introduced primarily for illustrative purposes, but in
+                621.31 if the basic scientific theories are only preliminary to the author’s
+                exposition of engineering principles and practices.
+
+       (C)      When classifying interdisciplinary works, do not overlook the possibilities of
+                main class 000 Computer science, information & general works, e.g., 080 for a
+                collection of interviews of famous people from various disciplines.
+
+       Any other situation is treated in the same fashion as those found in the instructions at
+       More Than One Subject in the Same Discipline (paragraph 5.7).
+
+TABLE OF LAST RESORT
+
+5.9    When several numbers have been found for the work in hand, and each seems as good as
+       the next, the following table of last resort (in order of preference) may be used as a
+       guideline in the absence of any other rule:
+
+             Table of last resort
+
+             (1) Kinds of things
+             (2) Parts of things
+             (3) Materials from which things, kinds, or parts are made
+             (4) Properties of things, kinds, parts, or materials
+             (5) Processes within things, kinds, parts, or materials
+             (6) Operations upon things, kinds, parts, or materials
+             (7) Instrumentalities for performing such operations
+
+       For example, surveillance by border patrols could be classed in either 363.285 Border
+       patrols, or 363.232 Patrol and surveillance. Choose 363.285 since border patrols are a
+       kind of police service, while patrol and surveillance are processes performed by police
+       services.
+
+5.10   Do not apply this table or any other guideline if it appears to disregard the author’s
+       intention and emphasis.
+
+How DDC 23 Is Arranged
+
+6.1    DDC 23 is composed of the following major parts:
+
+       (A)      Introduction: A description of the DDC and how to use it
+
+                                                 9
+      (B)    Glossary: Short definitions of terms used in the DDC
+
+      (C)    Manual: A guide to the use of the DDC that is made up primarily of extended
+             discussions of problem areas in the application of the DDC. Manual notes are
+             indicated by a book icon adjacent to the schedule or table number
+
+      (D)    Tables: Six numbered tables of notation that can be added to class numbers to
+             provide greater specificity
+
+      (E)    DDC Summaries: The top three levels of the DDC
+
+      (F)    Schedules: The organization of knowledge from 000-999
+
+      (G)    Relative Index: An alphabetical list of subjects with the disciplines in which they
+             are treated subarranged alphabetically under each entry
+
+Key Features of the Schedules and Tables
+
+SUMMARIES
+
+7.1   Summaries provide an overview of the structure of classes. Three types of summaries
+      appear in the DDC:
+
+      (A)    DDC Summaries, the summaries of the top three levels of the DDC. (For a
+             discussion of DDC Summaries, see paragraphs 4.2-4.13.)
+
+      (B)    In print, two-level summaries are provided for each main class and division of the
+             schedules and main numbers of Table 2 with subdivisions that extend beyond
+             forty pages. See the summaries at the beginning of T2—4 Europe and 370
+             Education for examples of two-level summaries.
+
+      (C)    Single-level summaries in the print schedules and tables provide an overview of
+             classes whose subdivisions cover between four and forty pages. For example, 382
+             International commerce (Foreign trade) has the following summary:
+
+
+
+
+                                              10
+                               SUMMARY
+               382.01-.09       Standard subdivisions
+                  .1          General topics of international commerce
+                  .3          Commercial policy
+                  .4          Specific products and services
+                  .5          Import trade
+                  .6          Export trade
+                  .7          Tariff policy
+                  .9          Trade agreements
+
+ENTRIES
+
+7.2   Entries in the schedules and tables are composed of a DDC number in the number
+      column, a heading describing the class that the number represents, and often one or more
+      notes. In print, DDC numbers are listed in groups of three digits for ease of reading and
+      copying. All entries (numbers, headings, and notes) should be read in the context of the
+      hierarchy. (For a discussion of the principle of hierarchy, see paragraphs 4.17-4.20.)
+
+7.3   In print, the first three digits of schedule numbers (main classes, divisions, sections)
+      appear only once in the number column, when first used. They are repeated at the top of
+      each page where their subdivisions continue. Subordinate numbers appear in the number
+      column, beginning with a decimal point, with the initial three digits understood.
+
+7.4   Table numbers are never used alone. There are six numbered tables in DDC 23:
+
+          T1      Standard Subdivisions
+
+          T2      Geographic Areas, Historical Periods, Biography
+
+          T3      Subdivisions for the Arts, for Individual Literatures, for Specific
+                  Literary Forms
+
+               T3A     Subdivisions for Works by or about Individual Authors
+
+               T3B     Subdivisions for Works by or about More than One Author
+
+               T3C     Additional Notation for Arts and Literature
+
+          T4      Subdivisions of Individual Languages and Language Families
+
+          T5      Ethnic and National Groups
+
+          T6      Languages
+
+                                               11
+        Except for notation from Table 1 (which may be added to any number unless there is an
+        instruction in the schedules or tables to the contrary), table notation may be added only as
+        instructed in the schedules and tables. (For a detailed discussion of the use of the six
+        tables, see paragraphs 8.3-8.20.)
+
+7.5     Some numbers in the schedules and tables are enclosed in parentheses or square brackets.
+        Numbers and notes in parentheses provide options to standard practice. Numbers in
+        square brackets represent topics that have been relocated or discontinued, or are
+        unassigned. Square brackets are also used for standard subdivision concepts that are
+        represented in another location. Bracketed numbers should never be used. (For a
+        discussion of options, see paragraphs 12.1-12.8; for a discussion of relocations and
+        discontinuations, see paragraphs 7.24-7.25; for a discussion of bracketed standard
+        subdivisions, see paragraph 7.28.)
+
+7.6     Standard subdivisions are also bracketed under a hook number, that is, a number that
+        has no meaning in itself, but is used to introduce specific examples of a topic. Hook
+        numbers have headings that begin with “Miscellaneous,” “Other,” or “Specific”; and do
+        not contain add notes, including notes, or class-here notes. For example:
+
+           652.302                    Specific levels of skill
+
+           652[.30201-652.30209]      Standard subdivisions
+
+                                      Do not use; class in 652.3001-652.3009
+
+NOTES
+
+7.7     Notes are important because they supply information that is not obvious in the notational
+        hierarchy or in the heading with regard to order, structure, subordination, and other
+        matters. Notes may appear in the record for a number or a span of numbers. Notes may
+        also appear at the beginning of a table. Individual entries in the Manual are also
+        considered notes.
+
+7.8     Notes in the schedules and tables generally appear in the following order in print:
+        definition, number-built, standard-subdivisions-are added, variant-name, scope,
+        including, class-here, arrange, add (including subdivisions-are-added), preference, class-
+        elsewhere, see-reference, see-also reference, see-Manual and option notes. In
+        WebDewey, the following notes are listed in the history box in reverse chronological
+        order: revision, former-heading, relocation, discontinuation, continuation, authorization,
+        and deprecation notes.
+
+7.9     The notes below do the following: (A) describe what is found in the class and its
+
+
+                                                 12
+       subdivisions; (B) identify topics in standing room, i.e., topics with insufficient literature
+       to have their own number; (C) describe what is found in other classes; and (D) explain
+       changes in the schedules and tables. Other notes are described in the sections on number
+       building (paragraphs 8.1-8.24), citation and preference order (paragraphs 9.1-9.6), the
+       Manual (paragraphs 10.1-10.6), and options (paragraphs 12.1-12.8).
+
+       Notes in categories (A) and (C) have hierarchical force (i.e., are applicable to all the
+       subdivisions of a particular number). Those in category (B) do not have hierarchical
+       force.
+
+       (A) Notes That Describe What Is Found in a Class
+
+7.10   Definition notes indicate the meaning of a term in the heading. For example:
+
+          364         Criminology
+
+                      Crime and its alleviation
+
+7.11   Scope notes indicate whether the meaning of the number is narrower or broader than
+       is apparent from the heading. For example:
+
+          700         The arts
+
+                      Description, critical appraisal, techniques, procedures, apparatus,
+                      equipment, materials of the fine, decorative, literary, performing,
+                      recreational arts
+
+7.12   Number-built notes identify and explain the source of built numbers included in the
+       schedules and tables. Built numbers are occasionally included in the print schedules or
+       tables to provide additional information or to indicate exceptions to regular add
+       instructions. For example:
+
+          353.13263       Foreign service
+
+                          Number built according to instructions under 352-354
+
+                          Class here consular and diplomatic services
+
+7.13   Former-heading notes are given only when the heading associated with a class number
+       used in previous versions of the DDC has been altered to such a degree that the new
+       heading bears little or no resemblance to the previous heading, even though the meaning
+       of the number has remained substantially the same. For example:
+
+
+                                                  13
+          523.48      *Neptune
+
+                      Former heading: Trans-Neptunian planets
+
+7.14   Variant-name notes are used for synonyms or near synonyms. For example:
+
+          332.32      Savings and loan associations
+
+                      Variant names: building and loan associations, building societies, home
+                      loan associations, mortgage institutions
+
+7.15   Class-here notes list major topics in a class. These topics may be broader or narrower
+       than the heading, overlap it, or define another way of looking at essentially the same
+       material. Topics in class-here notes are considered to approximate the whole of the class.
+       For example:
+
+          371.192     Parent-school relations
+
+                      Class here parent participation in schools; comprehensive works on
+                      teacher-parent relations
+
+       Standard subdivisions may be added for any topic in a class-here note. (For a detailed
+       discussion of the use of standard subdivisions for concepts that approximate the whole of
+       a class, see paragraphs 8.3-8.12 and the beginning of Table 1.)
+
+7.16   Class-here notes are also used to indicate where interdisciplinary and comprehensive
+       works are classed. Interdisciplinary works treat a subject from the perspective of more
+       than one discipline. For example:
+
+          391         Costume and personal appearance
+
+                      Class here interdisciplinary works on costume, clothing (apparel,
+                      garments), fashion; casual wear (sportswear)
+
+       Comprehensive works treat a subject from various points of view within a single
+       discipline. Comprehensive works may be stated or implied in a class-here note. For
+       example:
+
+          641.815     Breads and bread-like foods
+
+                      Class here yeast breads, comprehensive works on baked goods
+                                                                               (stated)
+
+
+                                                14
+          T2—4115        Highland
+
+                         Class here *Scottish Highlands                          (implied)
+
+7.17   Entries in the taxonomic schedules in 579-590 may have two class-here notes. The first
+       class-here note contains scientific taxonomic names. The second one contains common
+       names. For example:
+
+          588.2      Bryopsida
+
+                     Class here Bryales
+
+                     Class here true mosses, comprehensive works on mosses
+
+       (B) Including Notes (Notes That Identify Topics in Standing Room)
+
+7.18   Including notes identify topics that have “standing room” in the number where the note is
+       found. Standing room numbers provide a location for topics with relatively few works
+       written about them, but whose literature may grow in the future, at which time they may
+       be assigned their own number. For example:
+
+          362.16     Extended care medical facilities
+
+                     Including convalescent homes, sanatoriums for people suffering from
+                     chronic diseases
+
+       Standard subdivisions cannot be added for topics in standing room, nor are other
+       number-building techniques allowed.
+
+7.19   Entries in the taxonomic schedules in 579-590 may have two including notes. The first
+       including note contains the scientific taxonomic names. The second one contains
+       common names. For example:
+
+          593.55     Hydrozoa
+
+                     Including Chondrophora, Hydroida, Milleporina, Pteromedusae,
+                     Siphonophora, Stylasterina, Trachylina
+
+                     Including hydras, Portuguese man-of-war
+
+
+
+
+                                              15
+       (C) Notes That Describe What Is Found in Other Classes
+
+7.20   Class-elsewhere notes lead the classifier to interrelated topics, or distinguish among
+       numbers in the same notational hierarchy. They are used to show preference order, to
+       lead to the comprehensive or interdisciplinary number, to override the first-of-two rule, or
+       to lead to broader or narrower topics in the same hierarchical array that might otherwise
+       be overlooked. They may point to a specific number, or to a concept scattered throughout
+       the schedules. All notes that begin with the word “class” are class-elsewhere notes,
+       except when they begin with “class here.” For example:
+
+          641.7       Specific cooking processes and techniques
+
+                      Class specific processes applied to specific materials in 641.6; class
+                      specific processes applied to specific kinds of dishes, preparing beverages
+                      in 641.8
+
+          370.15      Educational psychology
+
+                      Class interdisciplinary works on psychology in 150. Class psychology of a
+                      specific topic in education with the topic, plus notation 019 from Table 1,
+                      e.g., psychology of special education 371.9019
+
+          155.4       Child psychology
+
+                      Class interdisciplinary works on child development in 305.231
+
+7.21   See references lead from a stated or implied comprehensive number for a concept to the
+       component (subordinate) parts of that concept in a different notational hierarchy. See
+       references also lead from the interdisciplinary number for a concept to treatment of the
+       concept in other disciplines. A see reference may point to a specific number, or to a
+       concept scattered throughout the schedules. Each see reference begins with the word
+       “For.” For example:
+
+          577.7       Marine ecology
+
+                      Class here saltwater ecology
+
+                      For salt lake ecology, see 577.639
+                      For saltwater wetland and seashore ecology, see 577.69
+
+
+
+
+                                                16
+          305.4       Women
+
+                      Class here interdisciplinary works on women, on females
+
+                      For a specific aspect of women not provided for here, see the aspect, e.g.,
+                      women’s suffrage 324.623
+
+       Throughout Table 2, see references lead from the implied comprehensive number for a
+       jurisdiction, region, or feature to its subordinate parts in other classes. For example:
+
+          T2—4115         Highland
+
+                          Class here *Scottish Highlands
+
+                          *For a specific part of this jurisdiction, region, or feature, see the part
+                          and follow instructions under T2—4-T2—9
+
+7.22   See-also references lead the classifier to related topics. They are reminders that minor
+       differences in wording and context can imply differences in classification. For example:
+
+          597.56      *Salmon
+
+                      See also 597.7 for Australian salmon
+
+       (D) Notes That Explain Changes or Irregularities in the Schedules and Tables
+
+7.23   In WebDewey, revision notes warn users that there have been changes in the subdivisions
+       of a class since the previous edition and indicate the degree of revision: new schedule,
+       complete revision, or extensive revision. These notes appear in the history box; notes for
+       changes before 2017 may vary in wording and format, or be missing entirely. (For an
+       example of a new schedule note, see 777 Cinematography and videography. For an
+       example of an extensive revision note, see 583-584 Angiosperms.)
+
+7.24   In WebDewey, the shifting of a topic from one number to another number in the same
+       hierarchy is indicated in discontinuation notes and continuation notes. These notes appear
+       in the history box; notes for changes before 2017 may vary in wording and format, or be
+       missing entirely.
+
+       Discontinuation notes indicate that one or more topics have been moved to a
+       superordinate number (a more general number) or have been dropped entirely. Notes at
+       both ends of the discontinuation identify the old and new locations for those topics
+       moved to the superordinate number. The discontinued topics need not be mentioned in
+       the heading, including note, or class-here note at the new location. For example:
+
+                                                 17
+           344.054        Matters concerning public morals and customs
+
+                          Law of premarital and extramarital relations as social problem
+                          discontinued from 344.0548
+                          2017-08-02, Edition 23
+
+           372[.455]      [Unassigned]
+
+                          Speed reading discontinued because without meaning in context
+                          2011-04, Edition 23
+
+           623.746        Heavier-than-air aircraft
+
+                          Rocket planes discontinued from 623.746045
+                          2016-06, Edition 23
+
+       Continuation notes indicate that one or more topics have shifted to a subordinate number
+       (a more specific number). Notes at both ends of the continuation identify the old and new
+       locations. The continued topics need not be mentioned in the heading, including note, or
+       class-here note at the new location. For example:
+
+           005.8       *Computer security
+
+                       Digital rights management, electronic signatures continued to 005.82
+                       2016-11-16, Edition 23
+
+           005.82      *Countermeasures to threats
+
+                       Including digital rights management, electronic signatures
+
+                       Digital rights management, electronic signatures continued from 005.8
+                       2016-11-16, Edition 23
+
+7.25   In WebDewey, the shifting of a topic from one number (the old location) to another
+       number (the new location), where the new number is in neither the upward nor the
+       downward notational hierarchy of the old number (that is, the new number is neither a
+       superordinate nor a subordinate number of the old number) is indicated in relocation
+       notes. These notes appear in the history box; notes for changes before 2017 may vary in
+       wording and format, or be missing entirely.
+
+
+
+
+                                                18
+       Notes at both ends of the relocation identify the old and new locations. The relocated
+       topics need not be mentioned in the heading, including note, or class-here note at the new
+       location. For example:
+
+           T2—[755811]       [Unassigned]
+
+                             Clifton Forge relocated to T2—755816
+                             2008, Edition 22
+
+           T2—755816         Alleghany County
+
+                             Clifton Forge formerly located in T2—755811
+                             2008, Edition 22
+
+           302.231           Digital media
+
+                             Electronic publications relocated to 302.232
+                             2014-01-07, Edition 23
+
+           302.232           Print media
+
+                             Electronic publications formerly located in 302.231
+                             2014-01-07, Edition 23
+
+7.26   In WebDewey, the approval of a number (possibly reused) in the schedules or tables to
+       provide further subdivisions of an existing number is indicated in authorization notes.
+       These notes appear in the history box and only exist from 2017 onward.
+
+       A newly authorized number typically results when one or more topics are continued from
+       a superordinate number, but may also involve the relocation of one or more topics. A note
+       at the authorized number indicates when the authorization occurred; the date can be used
+       to identify notes for topics that were continued or relocated into the number.
+
+           796.817        Kickboxing
+
+                          Kickboxing continued from 796.81
+                          2017-07-07, Edition 23
+
+                          796.817 authorized
+                          2017-07-07, Edition 23
+
+
+
+
+                                               19
+7.27   In WebDewey, the invalidation of a number previously authorized for use is indicated in
+       deprecation notes. These notes appear in the history box and only exist from 2017
+       onward.
+
+       Numbers that have been deprecated appear in square brackets with the caption
+       “Unassigned.” A note at the deprecated number indicates when the deprecation occurred;
+       the date can be used to identify notes for topics that were discontinued or relocated out of
+       the number.
+
+           363[.42]       [Unassigned]
+
+                          Gambling as a social problem relocated to 362.27
+                          2017-08-02, Edition 23
+                          363.42 deprecated
+                          2017-08-02, Edition 23
+7.28   Do-not-use notes instruct the classifier not to use all or part of the regular standard
+       subdivision notation, but instead to use a special provision or standard subdivision
+       notation at a broader number. When the whole standard subdivision is removed from use,
+       the note appears under a bracketed standard subdivision; when only part of the standard
+       subdivision is displaced, the part displaced is specified. For example:
+
+           374[.809]      History, geographic treatment, biography
+
+                          Do not use; class in 374.9
+
+           320.409        History and biography
+
+                          Do not use for geographic treatment; class in 320.41-320.49
+
+       Do-not-use notes are also used to instruct the classifier not to use all or part of an add
+       table provision, but instead to use a special provision.
+
+
+
+
+                                                 20
+   343.014            *Discipline and conduct
+
+                      Including desertion, mutiny
+
+                      Subdivisions are added for either or both topics in heading
+
+                      For discipline and conduct of a specific service other than the army
+                      in general, see the service in 343.015-343.019, e.g., discipline and
+                      conduct of mercenary troops 343.015354, naval discipline and
+                      conduct 343.01913
+
+                      *Add as instructed under 342-347
+
+   343[.0140269]      Courts and procedure
+
+                      Do not use; class in 343.0143
+
+Do-not-use notes involve (1) a base number and (2) notation that could be added to the
+base number if the do-not-use note were not present (hereafter “bracketed added
+notation”). As shown above, the bracketed added notation can be either a standard
+subdivision or notation from an add table.
+
+A do-not-use note does not have hierarchical force for numbers in the downward
+hierarchy of the base number. Unless it has its own do-not-use note, notation that cannot
+be added to one base number can be added to base numbers in its downward hierarchy.
+Consider, for example:
+
+   069[.50288]        Maintenance and repair
+
+                      Do not use; class in 069.53
+
+The displacement of maintenance and repair from 069.50288 to 069.53 Maintenance,
+conservation, preservation, restoration, display, arrangement, storage, transportation does
+not mean that maintenance and repair is displaced for all numbers subordinate to 069.5.
+Numbers for maintenance and repair of 069.55 Study collections, 069.56 Lending and
+rental collections, and 069.57 Collections of secondary materials would be built
+following standard practice by adding T1—0288 to these respective base numbers.
+
+For a standard subdivision to be displaced throughout a hierarchy, either the do-not-use
+note must be repeated or other instructions must be given to effect the displacement. For
+example:
+
+
+                                        21
+         220[.03]        Dictionaries, encyclopedias, concordances
+
+                         Do not use for dictionaries and encyclopedias; class in 220.3
+                         Do not use for concordances; class in 220.4-220.5
+
+      The do-not-use note at 220.03 does not have hierarchical force throughout the 220s.
+      However, standard subdivision T1—03 Dictionaries, encyclopedias, concordances is
+      displaced throughout almost all of the 220s because of similar entries at 221.03 and
+      225.03 and because nearly all entries under 222-224 and 226-229 add as instructed under
+      221-229, where notation is added following the patterns under 220.
+
+      A do-not-use note does have hierarchical force, however, with respect to numbers in the
+      downward hierarchy of the bracketed added notation. When a do-not-use note indicates
+      that a specific standard subdivision or add table notation cannot be added to a base
+      number, standard subdivisions or add table notation in the downward hierarchy of the
+      bracketed added notation are also blocked from being added to that base number. For
+      example:
+
+
+         155[.40862]         People by social and economic levels
+
+                             Do not use; class in 155.456
+
+      Do-not-notes are not needed at 155.408621, 155.408622, and 155.4086222, etc., to
+      displace these standard subdivisions to 155.456. That displacement is governed by the
+      application of hierarchical force of the do-not-use note at 155.40862 to all standard
+      subdivisions subordinate to T1—0862.
+
+Number Building
+
+8.1   The classifier will often find that to arrive at a precise number for a work it is necessary
+      to build or synthesize a number that is not specifically listed in the schedules. Such built
+      numbers allow for greater depth of content analysis. They are used only when
+      instructions in the schedules make them possible (except for standard subdivisions, which
+      are discussed in paragraphs 8.3-8.12). Number building begins with a base number
+      (always stated in the instruction note) to which another number is added. A built number,
+      once created, can subsequently function as the base number for a longer built number.
+
+8.2   There are four sources of notation for building numbers: (A) Table 1 Standard
+      Subdivisions; (B) Tables 2-6; (C) other parts of the schedules; and (D) add tables in the
+      schedules.
+
+
+
+                                               22
+SOURCES OF NOTATION
+
+      (A) Adding Standard Subdivisions from Table 1
+
+8.3   A standard subdivision represents a recurring physical form (such as a dictionary,
+      periodical, or index) or approach (such as history or research) and thus is applicable to
+      any subject or discipline that covers or approximates the whole of the meaning of the
+      number. Here are a few examples with the standard subdivision concept underlined (in
+      some cases an extra 0 precedes the standard subdivision according to instructions found
+      in the schedules):
+
+         150.1           Philosophy and theory of psychology
+         230.003         Dictionary of Christianity
+         340.02573       Directory of lawyers in the U.S.
+         405             Periodical on language
+         507.8           Use of apparatus and equipment in the study and teaching of science,
+                         e.g., science fair projects
+         624.0285        Computer applications in civil engineering
+         796.912092      Biography of a figure skater
+         808.0071        Teaching of rhetoric
+
+      Further instructions on using Table 1 are found at the beginning of Table 1. See also
+      Manual notes on selected standard subdivisions.
+
+8.4   Standard subdivisions are not usually listed in the schedules except where needed to fill
+      out three-digit numbers, e.g., 605 Serial publications, and in a few other instances.
+      Standard subdivisions may be listed in the schedules when the subdivisions have
+      extended or narrowed meanings. For example:
+
+         535.220287         Testing and measurement               (extended meaning)
+
+                            Class here photometry
+
+         390.088            [Customs of] Religious groups         (narrowed meaning)
+
+                            Do not use for occupational groups; class in 390.4
+
+      Standard subdivisions may also be listed to introduce an expansion featuring special
+      notation (the subdivisions in the expansion are not standard subdivisions). Such standard
+      subdivisions are accompanied by a special note. For example:
+
+
+
+
+                                              23
+         370.1           Philosophy and theory, education for specific objectives, educational
+                         psychology
+
+                         Notation 01 from Table 1 as modified below
+
+      Sometimes, standard subdivisions are listed because references to other classes or the
+      Manual are required. For example:
+
+         507.2           Research
+
+                         Class research covering science in general in 001.4
+
+                         See Manual at 500 vs. 001
+
+         507.21          Research methods
+
+                         Class scientific method as a general research technique in 001.42
+
+8.5   When standard subdivision notation from Table 1 is listed in Tables 2-6 and in the
+      schedules, all of the notation’s notes and subdivisions as given in Table 1 are applicable
+      unless other instructions are given. Other Table 1 notation that is not listed in the
+      schedules may also be used. For example, the fact that 610.7 is listed, but not 610.8 or the
+      subdivisions of 610.7, does not exclude the use of 610.8 or 610.71.
+
+8.6   Notation from Table 1 Standard Subdivisions may be added to any number in the
+      schedules unless there is a specific instruction to the contrary. The classifier should never
+      use more than one zero in applying a standard subdivision unless instructed to do so. If
+      more than one zero is needed, the number of zeros is always indicated in the schedules.
+      When using standard subdivisions with numbers built by adding from Tables 2-6 or other
+      parts of the schedules, be sure to check the table or schedule used for the segment
+      preceding the standard subdivision for special instructions on the number of zeros.
+
+8.7   The most important caveat with respect to standard subdivisions is that they are added
+      only for works that cover or approximate the whole of the subject of the number. For
+      example, a work on mockingbirds of California should be classed in 598.844, the number
+      for birds of the Mimidae family (not 598.84409794, the number for birds of the Mimidae
+      family in California). The classifier should not attempt to specify California because
+      mockingbirds are in the including note under 598.844 and therefore do not approximate
+      the whole of 598.844 Mimidae. Likewise, class a work on the De Havilland 98 Mosquito
+      (a specific British World War II fighter-bomber) in the number for fighter-bombers
+      623.7463 (not 623.7463094109044, the number for British fighter-bombers in World
+      War II).
+
+
+                                               24
+8.8    Standard-subdivisions-are-added notes indicate which topics in a multiterm heading may
+       have standard subdivisions added for them because the designated topics are considered
+       to approximate the whole of the subject. For example:
+
+       639.2          Commercial fishing, whaling, sealing
+
+                          Standard subdivisions are added for commercial fishing, whaling,
+                          sealing together; for commercial fishing alone
+
+       Standard-subdivisions-are-added notes do not have hierarchical force beyond the
+       standard subdivisions associated with the number itself. For example, the note under
+       639.2 governs the application of standard subdivisions to 639.2 itself, but not to 639.21-
+       639.29.
+
+8.9    Do not add multiple standard subdivisions to the same number except when specifically
+       instructed to do so, and in the following instances. Standard subdivisions may be added to
+       subdivisions of T1—04 Special topics that are specifically listed in the schedules. For
+       example, standard subdivisions may be added to 155.9042 Stress, a subdivision of
+       155.904 Special topics in environmental psychology.
+
+       Standard subdivisions may also be added to special notation in the regular standard
+       subdivision sequence. For example, under 370.1, there is an expansion for educational
+       objectives at 370.11 Education for specific objectives. Standard subdivisions may be
+       added to 370.11 and its subdivisions, since 370.11 and its subdivisions are special
+       notation.
+
+       Standard subdivision concepts may be displaced to a special provision in the regular
+       sequence of standard subdivisions or elsewhere; in either case, standard subdivisions may
+       be added to the special provision. For example, 370.19 Psychological principles has been
+       completely displaced to 370.15 Educational psychology, where the regular meaning of
+       370.15 (scientific principles) has been discontinued to 370.1. Notation 03 from Table 1,
+       the standard subdivision for encyclopedias, may be added to 370.15 Educational
+       psychology to represent an encyclopedia of educational psychology 370.1503.
+
+       The full range of standard subdivisions may also be added to standard subdivision
+       concepts displaced to notation outside the regular sequence of standard subdivisions, e.g.,
+       the management of penal institutions in Great Britain 365.941068 (geographic treatment
+       of penal institutions has been displaced from 365.09 to 365.9).
+
+8.10   In many places in the schedules, there are numbers outside the regular sequence of
+       standard subdivisions that look like standard subdivisions but are not standard
+       subdivisions. If additional subdivisions are intended to be used at the special provision,
+
+
+                                                25
+       an add note is provided. For example, at 027.009, a regular standard subdivision,
+       geographic treatment is displaced to 027.01-027.09:
+
+          027.009             History and biography
+
+                              Add to base number 027.0 notation 1-9 from Table 2, e.g., libraries
+                              in France 027.044
+
+          027.01-027.09       *Geographic treatment
+
+                              Add to base number 027.0 notation 1-9 from Table 2, e.g., libraries
+                              in France 027.044
+
+       The special provision for geographic treatment at 027.01-027.09 is not a standard
+       subdivision. If appropriate, standard subdivisions may be added to the resulting notation,
+       e.g., libraries in France in the late 20th century 027.04409045.
+
+8.11   Standard subdivisions should not be used where redundant, i.e., where the subdivision
+       means the same as the base number, or where application of the standard subdivision
+       would needlessly segregate material by aspects not emphasized by the author. For
+       example, do not add notation 024694, which represents the subject for carpenters, to
+       topics in 694, the number for carpentry, since works on a subject are written primarily for
+       its practitioners. Likewise, do not add the subdivision of notation 0905 for the latest
+       historical period to general works on a subject to represent the state-of-the-art because
+       most users will expect to find such works in the main number. Special care should be
+       taken in adding standard subdivisions to built numbers, since the standard subdivision
+       applies to the whole number and not just to part of the number.
+
+8.12   The table of preference at the beginning of Table 1 yields to two other rules, the rule of
+       application and the rule of zero. By the rule of application, teaching financial
+       management in hospital administration is classed in 362.110681, not 362.11071, even
+       though notation 07 is above notation 068 in the table of preference. The rule of zero
+       overrides the table of preference when standard subdivisions are displaced to notation
+       outside the regular sequence of standard subdivisions (notation at nonzero positions or
+       notation with fewer zeros), e.g., management of prisons in Great Britain 365.941068, not
+       365.068 as would be the case if prisons in Great Britain were classed in 365.0941. (For a
+       discussion of the rule of application and rule of zero, see paragraph 5.7; for a discussion
+       of displaced standard subdivisions, see paragraphs 7.28 and 8.9.)
+
+       (B) Adding from Tables 2-6
+
+8.13   The classifier may be instructed to add notation from Tables 2-6 to a base number from
+       the schedules or to a number from a table. A summary of the use of each table follows.
+
+                                                26
+       Further instructions on using Tables 2-6 are found at the beginning of each table (for
+       example, T2—0). See also the Manual notes for Tables 2-6.
+
+8.14   Table 2 Geographic Areas, Historical Periods, Biography. The major use of Table 2 is
+       with notation 09 from Table 1, where it can be added to every number in the schedule
+       unless there are specific instructions to the contrary. For example, reading instruction in
+       the primary schools of Australia is 372.40994 (372.4 reading instruction in primary
+       schools + 09 History, geographic treatment, biography from Table 1 + 94 Australia from
+       Table 2). Notation from Table 2 is also added through the use of other standard
+       subdivisions from Table 1 (e.g., standard subdivisions 025, 074).
+
+8.15   Area notation is sometimes added directly to schedule numbers, but only when specified
+       in a note. For example:
+
+          373.3-373.9         Secondary education in specific continents, countries, localities
+
+                              Add to base number 373 notation 3-9 from Table 2, e.g., secondary
+                              schools of Australia 373.94
+
+8.16   Table 3 Subdivisions for the Arts, for Individual Literatures, for Specific Literary Forms.
+       These subdivisions are used in class 800 as instructed, usually following numbers for
+       specific languages in 810-890. Table 3C subdivisions are also added as instructed to
+       numbers in Table 3B, 398.2-398.3, 659.1, 700.4, 741.5, 791.4, 794.8, and 808-809.
+
+8.17   Table 4 Subdivisions of Individual Languages and Language Families. These
+       subdivisions are used as instructed in class 400, following numbers for designated
+       specific languages or language families in 420-490.
+
+8.18   Table 5 Ethnic and National Groups. Notation from Table 5 is added through the use of
+       standard subdivision 089 from Table 1, e.g., Ceramic arts of Chinese artists throughout
+       the world is 738.089951 (738 Ceramic arts + 089 Ethnic and national groups from Table
+       1 + 951 Chinese from Table 5).
+
+8.19   Table 5 notation may also be added directly to schedule numbers, but only when
+       specified in a note. For example:
+
+          781.621-781.629 Folk music of specific ethnic and national groups
+
+                              Add to base number 781.62 notation 1-9 from Table 5, e.g.,
+                              Spanish folk music 781.6261; then add further . . .
+
+8.20   Table 6 Languages. The major uses of Table 6 notation are to provide the basis for
+       building a specific language number in 490 (to which notation from Table 4 is sometimes
+
+                                                27
+       added) and to provide the basis for building a specific literature number in 890 (to which
+       notation from Table 3 is sometimes added). Table 6 notation is also used in Table 2 under
+       —175 Regions where specific languages predominate, and at various points in the
+       schedules.
+
+       (C) Adding from Other Parts of the Schedules
+
+8.21   There are many instructions to make a direct addition to a number from another part of
+       the schedules. For example:
+
+          809.935        Literature emphasizing subjects
+
+                         Add to base number 809.935 notation 001-999, e.g., religious works as
+                         literature 809.9352, biography and autobiography as literature
+                         809.93592
+
+       In this example, the 2 in 809.9352 comes from 200 Religion, the 92 in 809.93592 from
+       920 Biography, genealogy, insignia.
+
+8.22   In many cases, part of a number may be added to another number upon instruction. For
+       example:
+
+          372.011        Primary education for specific objectives
+
+                         Add to base number 372.011 the numbers following 370.11 in
+                         370.111-370.119, e.g., character education 372.0114
+
+       In this example, 4 comes from 370.114 Moral, ethical, character education. Sometimes
+       numbers are taken from more than one place in the schedules; in such cases the procedure
+       for the second addition is the same as for the first.
+
+       (D) Adding from Tables Found in the Schedules
+
+8.23   Add tables in the schedules provide numbers to be added to designated schedule numbers
+       (identified by a symbol [*or † or ‡] and accompanying instruction); these tables must be
+       used only as instructed. For example:
+
+          616.973        *Contact allergies
+
+                         Class here allergic contact dermatitis, allergies of skin
+
+       The asterisk in the entry above leads to the following instruction: “*Add as instructed
+       under 616.1-616.9.” The add table at 616.1-616.9 is used only for diseases tagged with an
+
+                                               28
+       asterisk or for diseases in class-here notes under headings tagged with an asterisk.
+       Notation from the add table, such as 061 Drug therapy, may be used for 616.973 Contact
+       allergies (tagged with an asterisk) and for allergic contact dermatitis and allergies of skin
+       (in the class-here note).
+
+8.24   Subdivisions-are-added notes indicate which terms in a multiterm heading may have
+       subdivisions applied to them. For example:
+
+          616.51          *Dermatitis, photosensitivity disorders, urticaria
+
+                          Subdivisions are added for dermatitis, photosensitivity disorders,
+                          urticaria together; for dermatitis alone
+
+Citation and Preference Order
+
+9.1    Citation and preference order must be considered when multiple aspects or characteristics
+       of a subject (such as age, area, gender, historical periods, national origin) are provided for
+       in the Classification, and a single work treats more than one of them.
+
+CITATION ORDER
+
+9.2    Citation order allows the classifier to build or synthesize a number using two or more
+       characteristics (facets) as specified in instruction notes. Success in building a DDC
+       number requires determining which characteristics apply to a specific work, and then
+       determining from the instructions in the schedule the sequence in which the facets will be
+       ordered.
+
+9.3    Citation order is always carefully detailed in number-building instructions. For example:
+
+          909.041-.049        [History with respect to] Specific ethnic and national groups
+
+                              Add to base number 909.04 notation 1-9 from Table 5 for the
+                              group only, e.g., world history of Jews 909.04924; then add 0* and
+                              to the result add the numbers following 909 in 909.1-909.8, e.g.,
+                              world history of Jews in 18th century 909.0492407
+
+       For a work on the world history of the Jews in the 18th century, this note stipulates the
+       following citation order for the individual facets of the full subject: world history +
+       specific ethnic or national group + historical period. The historical period is introduced
+       by the facet indicator 0.
+
+
+
+
+                                                 29
+PREFERENCE ORDER
+
+9.4   If there is no provision to show more than one of the aspects or characteristics, it is a
+      matter of preference (because a choice must be made among several characteristics).
+      Preference notes supply either an instruction or table establishing the order in which to
+      make the choice. An example of a preference instruction is found at 305.9:
+
+         305.9       People by occupation and miscellaneous social statuses; people with
+                     disabilities and illnesses, gifted people
+
+                     Unless other instructions are given, class a subject with aspects in two or
+                     more subdivisions of 305.9 in the number coming last, e.g., unemployed
+                     librarians 305.9092 (not 305.90694)
+
+      In this case, the base subject is a group of persons; the two characteristics are
+      employment status and occupational status. The occupation of librarian (305.9092) falls
+      after unemployed status (305.90694) in the DDC hierarchy; following the instructions in
+      the preference note, the characteristic that must be chosen is librarian (305.9092). (For an
+      example of a preference instruction using a class-elsewhere note, see paragraph 7.20.)
+
+9.5   An example of a table indicating preference order is found at 305:
+
+         305         Groups of people
+
+                     Unless other instructions are given, observe the following table of
+                     preference, e.g., African American male youths 305.235108996073 (not
+                     305.3889607300835 or 305.896073008351):
+
+                     People with disabilities and illnesses, gifted people         305.908
+                     Age groups                                                    305.2
+                     People by gender or sex                                       305.3-305.4
+                     People by social and economic levels                          305.5
+                     Religious groups                                              305.6
+                     Ethnic and national groups                                    305.8
+                     Language groups                                               305.7
+                     People by occupation and miscellaneous social statuses        305.9
+                        (except 305.908)
+
+9.6   Classifiers often must distinguish between preference order instructions and the first-of-
+      two rule in the same schedule. If the work treats two subjects, apply the first-of-two rule.
+      If the work treats two aspects of the same subject, apply the preference order instructions.
+      When the preference order instruction is to class with the last, the first-of-two rule and
+      the preference order instructions may lead the classifier in opposite directions. For
+
+                                               30
+       example, a bibliography of newspapers and pamphlets giving equal treatment to each
+       would be classed according to the first-of-two rule in 011.33 (bibliography of pamphlets)
+       rather than 011.35 (bibliographies of newspapers). A bibliography of microform
+       newspapers (i.e., newspapers in microform form) would be classed according to the
+       preference note at 011.1-011.8: “Unless other instructions are given, class a subject with
+       aspects in two or more subdivisions of 011.1-011.8 in the number coming last . . .”; thus,
+       the bibliography of microform newspapers would be classed in 011.36 (bibliographies of
+       microforms) rather than 011.35 (bibliographies of newspapers). (For a discussion of the
+       first-of-two rule, see paragraph 5.7.)
+
+The Manual
+
+10.1   The Manual gives advice on classifying in difficult areas and provides guidance on
+       choosing between related numbers.
+
+10.2   See-Manual references in the schedules and tables refer the classifier to the Manual for
+       additional information about a certain number, range of numbers, or choice among
+       numbers. In some cases, the see-Manual reference refers only to a portion of a longer
+       Manual note, or topic narrower than the numbers in the heading, e.g., “See Manual at
+       930-990: Historic preservation.” The see-Manual reference is repeated in the entries for
+       each of the numbers or number spans covered in the Manual note. For example, “See
+       Manual at 004.21 vs. 004.22, 621.392” is listed in the entries for 004.21, 004.22, and
+       621.392.
+
+10.3   Brief Manual-like notes are sometimes given directly in the schedule or table entry. For
+       example:
+
+          631.583        Controlled-environment agriculture
+
+                         Most works on use of artificial light in agriculture will be classed in
+                         635.0483 and 635.9826
+
+ARRANGEMENT AND FORMAT OF THE MANUAL
+
+10.4   The Manual is arranged by table and schedule numbers, with the broadest span coming
+       before entries for narrower spans or individual numbers. Manual notes are entered under
+       the preferred or “if-in-doubt” number. If there is no if-in-doubt number, prefer the
+       interdisciplinary number.
+
+10.5   The Manual note heading summarizes the contents of the note. The terms in the Manual
+       note headings need not match the terms associated with the same number(s) in the tables
+       and schedules if the note is narrower than the number, or the note refers to more than one
+       number. For example:
+                                               31
+          510                                        Mathematics
+
+          510, T1—0151 vs. 003, T1—011               Systems
+
+10.6   If the Manual note is very long, or part of the note focuses on a topic narrower than the
+       heading, subheadings may be provided. For example:
+
+          T1—068 vs. 353-354       Public administration and management in specific fields
+
+                                   Exceptions                       (subheading)
+
+The Relative Index
+
+11.1   The Relative Index is so named because it relates subjects to disciplines. In the schedules,
+       subjects are distributed among disciplines; in the Relative Index, subjects are arranged
+       alphabetically, with terms identifying the disciplines in which they are treated
+       subarranged alphabetically under them. For example:
+
+          Hospitals                                362.11
+          Hospitals—accounting                     657.8322
+          Hospitals—American Revolution            973.376
+          Hospitals—animal husbandry               636.08321
+          Hospitals—architecture                   725.51
+          Hospitals—armed forces                   355.72
+          Hospitals—Civil War (United States)      973.776
+          Hospitals—construction                   690.551
+          Hospitals—energy economics               333.7964
+          Hospitals—institutional housekeeping     647.9651
+          Hospitals—landscape architecture         712.7
+          Hospitals—law                            344.03211
+          Hospitals—liability law                  346.031
+          Hospitals—management                     362.11068
+          Hospitals—management—law                 344.03211068
+          Hospitals—meal service                   642.56
+          Hospitals—pastoral theology              206.1
+          Hospitals—pastoral theology—Christianity 259.411
+          Hospitals—social theology                201.76211
+          Hospitals—social theology—Christianity 261.83211
+          Hospitals—social welfare                 362.11
+          Hospitals—World War I                    940.476
+          Hospitals—World War II                   940.5476
+
+
+                                                32
+       In some cases the term implies rather than states the discipline. In the example above, the
+       discipline of architecture is listed, but the discipline of military science is implied by
+       “armed forces.”
+
+11.2   The Relative Index is primarily an index to the DDC as a system. It includes most terms
+       found in the schedules and tables, and terms with literary warrant for concepts
+       represented by the schedules and tables. The Relative Index is not exhaustive. If the term
+       sought is not found, the classifier should try a broader term, or consult the schedules and
+       tables directly. The schedules and tables should always be consulted before a number
+       found in the Relative Index is applied.
+
+ARRANGEMENT AND FORMAT OF THE RELATIVE INDEX
+
+11.3   Index entries are arranged alphabetically word by word, e.g., Birth order precedes
+       Birthday. Entries with the same word or phrase but with different marks of punctuation
+       are arranged in the following order:
+
+          Term
+          Term. Subheading
+          Term (Parenthetical qualifier)
+          Term, inverted term qualifier
+          Term as part of phrase
+
+       Initialisms and acronyms are entered without punctuation and are filed as if spelled as
+       one word. Hyphens are ignored and treated as a space. Terms listed below the main
+       headings are alphabetized even though they may be a mixture of disciplines, topical
+       subheadings, and, to a limited extent, words that form phrases or inverted phrases when
+       combined with the main heading.
+
+11.4   In print, class numbers are listed in groups of three digits for ease of reading and copying.
+       The spaces are not part of the numbers and do not represent convenient places to abridge
+       the number.
+
+11.5   See-also references are used for synonyms and for references to broader terms (but only
+       when three or more new numbers will be found at the synonym or broader term), and for
+       references to related terms (which may provide only one or two new numbers).
+
+11.6   See-Manual references lead the classifier to relevant discussions in the Manual.
+
+11.7   Numbers drawn from Tables 1-6 are prefixed by T1 through T6. (For a complete listing
+       of table names and abbreviations, see paragraph 7.4.)
+
+
+
+                                                33
+INTERDISCIPLINARY NUMBERS
+
+11.8   The first class number displayed in an index entry is the number for interdisciplinary
+       works. If the term also appears in a table, the table number is listed separately, along with
+       other aspects of the term. The discipline of the interdisciplinary number may be repeated
+       as a subentry if the discipline is not clear. For example:
+
+           Adult education                                           T1—0715
+           Adult education                                           374
+           Adult education—federal aid                               379.1215
+           Adult education—law                                       344.074
+           Adult education—public administrative support             353.84
+           Adult education—public support                            379.114
+           Adult education—public support—law                        344.07685
+           Adult education—special education                         371.90475
+           Adult education—university extension                      378.175
+
+11.9   Interdisciplinary numbers are not provided for all topics in the Relative Index. They are
+       omitted when the index entry is ambiguous, does not have a disciplinary focus, or lacks
+       literary warrant. In such cases, there is no entry given for the term without subheadings.
+       For example:
+
+           National planning—civic art               711.2
+           National planning—economics               338.9
+
+       (For more information on interdisciplinary numbers, see paragraphs 5.8, 7.16, 7.20-7.21.)
+
+TERMS INCLUDED IN THE RELATIVE INDEX
+
+11.10 The Relative Index contains most terms found in the headings and notes of the schedules
+      and tables, and synonyms and terms with literary warrant for concepts represented by the
+      schedules and tables. The Relative Index also contains terms for the broad concepts
+      covered in Manual notes.
+
+       Inverted phrases are avoided, except for personal and geographic names (see paragraphs
+       11.12-11.13). Qualifiers are used for homonyms, ambiguous terms, and most initialisms
+       and abbreviations. The most common use of the term may not be qualified. Disciplinary
+       qualifiers are avoided.
+
+11.11 The following types of names from Table 2 Geographic Areas are included in the
+      Relative Index: (A) names of countries; (B) names of the states and provinces of most
+      countries; (C) names of the counties of the United States; (D) names of capital cities and
+      other important municipalities; and (E) names of certain important geographic features.
+
+                                                34
+11.12 Also included in the Relative Index are the personal names of the following groups of
+      persons: heads of state used to identify historical periods, e.g., Louis XIV; founders or
+      revealers of religions, e.g., Muḥammad; initiators of schools of thought when used to
+      identify the school, e.g., Smith, Adam.
+
+11.13 Place names and other proper names are generally given in the form specified by
+      Resource Description and Access (RDA), based on the names established in the Library
+      of Congress authority files. If the RDA form is not the common English name, an entry is
+      also included under the familiar form of the name.
+
+       Plants and animals are indexed under their scientific and common names.
+
+11.14 The choice of singular form versus plural form follows ISO 999:1996, Guidelines for the
+      content, organization and presentation of indexes. Count nouns are generally in the
+      plural; noncount nouns and abstract concepts are generally in the singular. Parts of the
+      body are in the plural only when more than one occurs in a fully formed organism (e.g.,
+      ears, hands, nose). Plants and animals follow scientific convention in the choice of
+      singular form versus plural form, with the decision based on whether the taxonomic class
+      has more than one member (e.g., Horses, Lion, Lipizzaner horse). Where usage varies
+      across disciplines, the index entry reflects the form preferred in the discipline where
+      interdisciplinary works are classified.
+
+TERMS NOT INCLUDED IN THE RELATIVE INDEX
+
+11.15 Terms usually not included in the print Relative Index are:
+
+       (A)     Phrases beginning with the adjectival form of countries, languages, nationalities,
+               religions, e.g., English poetry, French cooking, Italian architecture, Hindu prayer
+               books.
+
+       (B)     Phrases that contain general concepts represented by standard subdivisions such
+               as education, statistics, laboratories, and management; e.g., Art education,
+               Educational statistics, Medical laboratories, Bank management.
+
+       When there is strong literary warrant for such a phrase heading as a sought term, it may
+       be included in the Relative Index, e.g., English literature. When the phrase heading is a
+       proper name or provides the only form of access to the topic, it may also be included,
+       e.g., English Channel, French horns, Amharic literature.
+
+
+
+
+                                                35
+Options
+
+12.1   Some devices are required to enable the DDC to serve needs beyond those represented in
+       the standard English-language edition. At a number of places in the schedules and tables,
+       options are provided to give emphasis to an aspect in a library’s collection not given
+       preferred treatment in the standard notation. In some cases, options are also suggested to
+       provide shorter notation for the aspect.
+
+12.2   Options are provided throughout the Classification to emphasize jurisdiction, ethnic or
+       national group, language, topic, or other characteristic.
+
+12.3   Options described in notes appear in parentheses and begin with “Option:”. Options that
+       apply to the full entry appear at the end of the entry; options to a specific instruction in
+       the entry follow the appropriate note. For example, the following option appears at the
+       end of the entry for 420-490:
+
+          (Option B: To give local emphasis and a shorter number to a specific language, place
+          it first by use of a letter or other symbol, e.g., Arabic language 4A0 [preceding 420],
+          for which the base number is 4A. Option A is described under 410)
+
+12.4   Some optional numbers are enumerated in the schedules and tables and appear in
+       parentheses in the number column. A special optional arrangement (222)-(224) for books
+       of the Bible as arranged in Tanakh appears as a subsection of the Manual note for 221.
+
+12.5   Arrange notes are also options. They represent suggestions only; the material need not be
+       arranged as specified. An example of an arrange note is found at 796.48 Olympic games:
+       “(Option: Arrange specific games chronologically).”
+
+12.6   Some national libraries and central cataloging authorities assign a few optional numbers,
+       e.g., Library and Archives Canada uses C810 for Canadian literature in English and C840
+       for Canadian literature in French.
+
+12.7   If organization by Indigenous people is preferred over organization by subject, a local-
+       option notation could be formulated by appending Dewey notation for the subject to an
+       alphabetic code representing an Indigenous people. Given the close relationship between
+       peoples and languages, possible sources for the alphabetic code are the ISO 639
+       Language Codes (parts 1-3 can be searched at https://iso639-
+       3.sil.org/code_tables/639/read). For example, under such an option, Yupik education
+       could be represented as YPK370.
+
+12.8   Most of the time, the responsibility for implementing an option rests with the local
+       library. Libraries should weigh the value of using an option against the loss in
+       interoperability of numbers. The library will not be able to use numbers assigned by other
+                                                36
+       libraries, and other libraries will not be able to use the optional numbers assigned by the
+       library. In addition, unless the option is widely used in a region, users may be confused
+       by the alternate notation.
+
+Close and Broad Classification
+
+13.1   The Dewey Decimal Classification provides the basic option of close versus broad
+       classification. Close classification means that the content of a work is specified by
+       notation to the fullest extent possible. Broad classification means that the work is placed
+       in a broad class by use of notation that has been logically abridged. For example, a work
+       on French cooking is classed closely at 641.5944 (641.59 Cooking by place + 44 France
+       from Table 2), or broadly at 641.5 (Cooking).
+
+13.2   A library should base its decision on close versus broad classification on the size of its
+       collection and the needs of its users. For example, a work on the sociology of sibling
+       relationships in Canadian society would be most usefully classed in 306.8750971
+       (306.875 Sibling relationships + 09 Geographic treatment from Table 1 + 71 Canada
+       from Table 2) in a research library or large public library. A small school library might
+       prefer to class the same work in the broader number (306.875) without including the
+       geographic facet in the notation. An engineering library might prefer close classification
+       for works in engineering, but broad classification for disciplines outside science and
+       technology.
+
+13.3   The classifier should never reduce the notation to less than the most specific three-digit
+       number (no matter how small the library’s collection). A number also must never be
+       reduced so that it ends in a 0 anywhere to the right of the decimal point.
+
+13.4   One aid to logical abridgment of DDC numbers is the segmentation device provided by
+       the Decimal Classification Division of the Library of Congress and some other
+       centralized cataloging services.
+
+13.5   Segmentation allows for broad classification of the Dewey Decimal Classification and is
+       intended for use with general collections of 20,000 titles or less. Segmentation marks
+       (indicated by a forward slash in WebDewey) represent the end of the abridged number,
+       providing a logical truncation of the notation and structural hierarchy of the full
+       classification. Some optional numbers have a forward slash before the first number,
+       indicating that they are not used in abridged classification. The class number given before
+       the segmentation mark is used as the complete number for those wishing to use abridged
+       DDC. For example:
+
+              004.1/1         Supercomputers
+
+
+
+                                                37
+More Information
+
+14.1   Classifiers desiring a more in-depth introduction to the Dewey Decimal Classification
+       may consult A Handbook of History, Theory and Practice of the Dewey Decimal
+       Classification, by M.P. Satija and Alex Kyrios (London : Facet Publishing, 2023), or
+       Dewey Decimal Classification: Principles and Application, 3d ed., by Lois Mai Chan and
+       Joan S. Mitchell (Dublin, Ohio: OCLC, 2003).
+
+14.2   More information about the use and application of the DDC, plus training materials, can
+       be found on the Dewey website (http://www.oclc.org/dewey) and on the Dewey Services
+       board (https://community.oclc.org/t5/dewey-services/bg-p/dewey-services) in the OCLC
+       Community Center.
+
+                                                                             Last updated 13 July 2026
+
+
+
+
+                                              38
+

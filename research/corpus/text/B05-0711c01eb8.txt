@@ -1,0 +1,1764 @@
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    Data Quality: Concepts, Methodologies and Techniques | Springer Nature Link
+
+    
+
+    
+
+    
+
+    
+
+            
+
+        
+
+    
+
+    
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        Skip to main content
+
+        
+
+        
+
+        
+
+                
+Advertisement
+
+            
+
+        
+
+        
+
+        
+
+    
+
+        
+
+            
+
+                    
+
+                    
+
+            
+
+        
+
+                
+
+        Log in
+
+            
+
+    
+
+    
+
+            
+
+                
+
+                   
+
+                            
+                        Menu
+
+                
+
+                
+
+                    
+
+                            Find a journal
+
+                    
+
+                            Publish with us
+
+                    
+
+                            Track your research
+
+                    
+
+                
+
+                    
+
+                            
+
+                                    
+                                Search
+
+                        
+
+                    
+
+                        
+
+                            
+
+                                    
+
+                                Saved research
+
+                        
+
+                            
+
+ 
+
+   
+
+  Cart
+
+ 
+
+                        
+
+                
+
+        
+
+        
+
+    
+
+    
+
+        
+
+    
+
+        
+
+        
+
+                
+
+                        Home
+
+                                
+
+                    
+
+                    
+
+                        Book
+
+                
+
+        
+
+    
+
+    
+
+        
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        
+
+            Data Quality
+
+        
+
+Concepts, Methodologies and Techniques
+
+        
+
+Book
+
+© 2006
+
+        
+
+        
+
+        
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                    Save book
+
+                                
+
+                                    
+                                        View saved research
+
+                                    
+
+                                
+
+                        
+
+                
+
+    
+
+    
+
+    
+
+            
+
+                
+
+                
+
+                    Accessibility Information
+
+            
+
+    
+
+        
+
+            
+
+                
+
+                    
+Overview
+
+    
+
+            Authors:
+
+                
+
+                        
+
+                            Carlo Batini
+                            0, 
+
+                    
+
+                        
+
+                            Monica Scannapieca
+                            1
+
+                    
+
+                
+
+        
+
+        
+
+                
+
+                    
+                        Carlo Batini
+
+                    
+
+                            
+
+                                
+
+                                    
+                                        Dipartimento di Informatica Sistemistica e Comunicazione Piazza dell’Ateneo Nuovo, Università di Milano Bicocca, Milano, Italy
+
+                                    
+
+                            
+
+                    
+
+                        
+
+                            
+View author publications
+
+                                
+
+                                    Search author on:
+
+                                    PubMed
+                                         
+                                    Google Scholar
+
+                                
+
+                        
+
+                
+
+                
+
+                    
+                        Monica Scannapieca
+
+                    
+
+                            
+
+                                
+
+                                    
+                                        Dipartimento di Informatica e Sistemistica “A. Ruberti”, Università di Roma “La Sapienza”, Roma, Italy
+
+                                    
+
+                            
+
+                    
+
+                        
+
+                            
+View author publications
+
+                                
+
+                                    Search author on:
+
+                                    PubMed
+                                         
+                                    Google Scholar
+
+                                
+
+                        
+
+                
+
+        
+
+    
+
+    
+
+            
+
+                    
+Details and analyzes different quality dimension definitions and parameters
+
+                    
+Combines approaches from data modeling, data mining, knowledge representation, probability theory, statistical data analysis, and machine learning
+
+                    
+Combines solid formal foundations with concrete practical solutions and approaches
+
+                    
+Ideally suited for self-study or specialized courses
+
+                    
+Includes supplementary material: sn.pub/extras
+
+            
+
+            
+
+    
+
+                    
+
+        
+
+            
+
+                
+
+                    
+
+                
+
+                    
+
+                        Part of the book series:
+                        Data-Centric Systems and Applications (DCSA)
+
+                    
+
+            
+
+        
+
+    
+
+                    
+
+                        
+
+            
+
+                    
+
+                        
+                    32k Accesses
+
+            
+
+                
+
+                    
+
+                        
+                    164 Citations
+
+            
+
+                
+
+                        
+
+                            
+                        10 
+
+                                    Altmetric
+
+                    
+
+            
+
+            
+
+    
+
+                
+
+            
+
+                    
+
+                            
+
+                                
+
+                                
+
+                                    This is a preview of subscription content, log in via an institution
+
+                                
+
+                                 to check access.
+
+                        
+
+                
+
+            
+
+                
+
+Access this book
+
+                        
+
+                            
+                                Log in via an institution
+
+                                    
+
+                            
+
+                    
+
+                
+
+                    
+
+ 
+
+  
+
+   
+
+    
+
+     
+
+      
+
+       
+
+         
+
+        Softcover Book
+         EUR 108.99 
+
+         Price includes VAT (Netherlands) 
+
+      
+
+     
+
+      
+
+Compact, lightweight edition
+
+Free shipping worldwide - view details
+
+      Buy Softcover Book
+
+        
+
+     
+
+    
+
+     
+
+      
+
+       
+
+         
+
+        Hardcover Book
+         EUR 108.99 
+
+         Price includes VAT (Netherlands) 
+
+      
+
+     
+
+      
+
+Durable hardcover edition
+
+Free shipping worldwide - view details
+
+      Buy Hardcover Book
+
+        
+
+     
+
+   
+
+  
+
+   
+Tax calculation will be finalised at checkout
+
+  
+
+   
+
+     Licence this eBook for your library  
+
+      
+
+   
+
+     Learn about institutional subscriptions  
+
+      
+
+   
+
+ 
+
+ 
+
+                
+
+                
+Other ways to access
+
+                    
+
+Licence this eBook for your library
+
+                                
+
+                            
+
+                    
+
+Institutional subscriptions
+
+                            
+
+                    
+
+                
+
+            
+
+        
+
+                
+About this book
+
+                    
+Poor data quality can seriously hinder or damage the efficiency and effectiveness of organizations and businesses. The growing awareness of such repercussions has led to major public initiatives like the "Data Quality Act" in the USA and the "European 2003/98" directive of the European Parliament.
+
+Batini and Scannapieco present a comprehensive and systematic introduction to the wide set of issues related to data quality. They start with a detailed description of different data quality dimensions, like accuracy, completeness, and consistency, and their importance in different types of data, like federated data, web data, or time-dependent data, and in different data categories classified according to frequency of change, like stable, long-term, and frequently changing data. The book's extensive description of techniques and methodologies from core data quality research as well as from related fields like data mining, probability theory, statistical data analysis, and machine learning gives an excellent overview of the current state of the art. The presentation is completed by a short description and critical comparison of tools and practical methodologies, which will help readers to resolve their own quality problems.
+
+This book is an ideal combination of the soundness of theoretical foundations and the applicability of practical approaches. It is ideally suited for everyone – researchers, students, or professionals – interested in a comprehensive overview of data quality issues. In addition, it will serve as the basis for an introductory course or for self-study on this topic.
+
+            
+
+    
+
+            
+
+            
+
+                
+Similar content being viewed by others
+
+                    
+
+                            
+
+                                    
+
+                                
+
+                                    
+
+                                        Data Quality in the Age of AI
+
+                                    
+
+                                        Chapter
+
+                                         © 2026
+
+                                
+
+                        
+
+                        
+
+                            
+
+                                    
+
+                                
+
+                                    
+
+                                        A Matter of Trust: Data Quality and Information Integrity
+
+                                    
+
+                                        Chapter
+
+                                         © 2019
+
+                                
+
+                        
+
+                        
+
+                            
+
+                                    
+
+                                
+
+                                    
+
+                                        When Data Betrays You: From the Early Web to the Age of AI
+
+                                    
+
+                                        Chapter
+
+                                         © 2026
+
+                                
+
+                        
+
+                
+
+        
+
+        
+
+            
+
+        
+Explore related subjects
+        Discover the latest articles, books and news in related subjects.
+
+        
+
+                Computer and Information Systems Applications
+
+        
+
+                Data Structures and Information Theory
+
+        
+
+                Database Management
+
+        
+
+                IT in Business
+
+        
+
+                Information Storage and Retrieval
+
+        
+
+                Data Quality Assessment in Information Systems
+
+        
+
+    
+
+            
+
+            
+
+    
+
+        
+
+                Search within this book
+
+                    
+
+                        
+
+                        
+                        Search
+
+                    
+
+                    
+
+                
+
+        
+
+            
+
+                
+Table of contents (9 chapters)
+
+                    
+
+                        
+
+                
+
+    
+
+        
+
+                
+Front Matter
+
+            
+Pages I-XIX
+
+        
+
+    
+
+        Download chapter PDF
+
+                
+
+        
+
+        
+
+    
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Introduction to Data Quality
+
+                        
+
+            
+
+Pages 1-18
+
+        
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Data Quality Dimensions
+
+                        
+
+            
+
+Pages 19-49
+
+        
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Models for Data Quality
+
+                        
+
+            
+
+Pages 51-68
+
+        
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Activities and Techniques for Data Quality: Generalities
+
+                        
+
+            
+
+Pages 69-95
+
+        
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Object Identification
+
+                        
+
+            
+
+Pages 97-132
+
+        
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Data Quality Issues in Data Integration Systems
+
+                        
+
+            
+
+Pages 133-160
+
+        
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Methodologies for Data Quality Measurement and Improvement
+
+                        
+
+            
+
+Pages 161-200
+
+        
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Tools for Data Quality
+
+                        
+
+            
+
+Pages 201-219
+
+        
+
+    
+
+                
+
+    
+
+        
+
+                            
+
+                                Open Problems
+
+                        
+
+            
+
+Pages 221-235
+
+        
+
+    
+
+    
+
+                
+
+    
+
+        
+
+                
+Back Matter
+
+            
+Pages 237-262
+
+        
+
+    
+
+        Download chapter PDF
+
+                
+
+        
+
+        
+
+    
+
+    
+
+                        
+
+    
+
+        
+            Back to top
+
+                
+
+        
+
+                    
+
+            
+
+            
+
+    
+
+    
+
+            
+
+        
+
+            
+Authors and Affiliations
+
+                
+
+                        
+
+                                
+
+                                        Dipartimento di Informatica Sistemistica e Comunicazione Piazza dell’Ateneo Nuovo, Università di Milano Bicocca, Milano, Italy
+
+                                
+
+                                    
+                                        Carlo Batini
+
+                                
+
+                        
+
+                        
+
+                                
+
+                                        Dipartimento di Informatica e Sistemistica “A. Ruberti”, Università di Roma “La Sapienza”, Roma, Italy
+
+                                
+
+                                    
+                                        Monica Scannapieca
+
+                                
+
+                        
+
+                
+
+        
+
+            
+
+        
+
+                
+About the authors
+
+                    
+Carlo Batini is full professor of Computer Engineering at University of Milano Bicocca. He has been associate professor since 1983 and full professor since 1986. His research interests include cooperative information systems, information systems and data base modeling and design, usability of information systems, data and information quality. From 1995 to 2003 he was a member of the board of directors of the Authority for Information Technology in public administration, where he headed several large scale projects for the modernization of public administration.
+
+Monica Scannapieco is a research associate at the Computer Engineering Department of the University of Roma La Sapienza. Her research interests are data quality issues, including data quality dimensions, measurement and improvement techniques, dynamics of data quality, record matching. 
+
+            
+
+    
+
+            
+
+        
+Accessibility Information
+
+            Accessibility information for this book is coming soon. We're working to make it available as quickly as possible. Thank you for your patience.
+
+    
+
+            
+
+        
+Bibliographic Information
+
+            
+
+                
+
+Book Title: Data Quality
+
+Book Subtitle: Concepts, Methodologies and Techniques
+
+Authors: Carlo Batini, Monica Scannapieca
+
+                    
+
+Series Title: 
+
+                                Data-Centric Systems and Applications
+
+                    
+
+DOI: https://doi.org/10.1007/3-540-33173-5
+
+Publisher: Springer Berlin, Heidelberg
+
+                        
+
+eBook Packages: 
+
+                                    Computer Science, Computer Science (R0)
+
+                        
+
+                    
+
+Copyright Information: Springer-Verlag Berlin Heidelberg 2006
+
+                    
+
+                    
+
+Hardcover ISBN: 978-3-540-33172-8Published: 06 September 2006
+
+Softcover ISBN: 978-3-642-06970-3Published: 13 November 2010
+
+                    
+
+eBook ISBN: 978-3-540-33173-5Published: 27 September 2006
+
+                        
+
+Series ISSN: 
+                             2197-9723 
+
+                    
+
+Series E-ISSN: 
+                             2197-974X 
+
+                    
+
+Edition Number: 1
+
+                    
+
+Number of Pages: XIX, 262
+
+                    
+
+Topics: 
+
+                            
+                                    Data Structures and Information Theory, 
+                                    Database Management, 
+                                    Information Storage and Retrieval, 
+                                    IT in Business, 
+                                    Information Systems Applications (incl. Internet)
+
+                    
+
+                
+
+        
+
+            
+
+        
+
+            
+Keywords
+
+                
+
+                        
+
+                                
+
+                                        Data Accuracy
+
+                                
+
+                    
+
+                                
+
+                                        Data Availability
+
+                                
+
+                    
+
+                                
+
+                                        Data Completeness
+
+                                
+
+                    
+
+                                
+
+                                        Data Consistency
+
+                                
+
+                    
+
+                                
+
+                                        Data Integration
+
+                                
+
+                    
+
+                                
+
+                                        Data Quality
+
+                                
+
+                    
+
+                                
+
+                                        Distributed Data Management
+
+                                
+
+                    
+
+                                
+
+                                        data mining
+
+                                
+
+                    
+
+                                
+
+                                        learning
+
+                                
+
+                    
+
+                                
+
+                                        organization
+
+                                
+
+                    
+
+        
+
+            
+
+        
+Publish with us
+
+            
+
+                Policies and ethics
+
+                    
+
+            
+
+    
+
+            
+
+            
+
+        
+            Back to top
+
+                
+
+        
+
+        
+
+        
+
+            
+
+                    
+
+                            
+
+                    
+
+                
+
+                    
+
+                        
+Access this book
+
+                            
+                                Log in via an institution
+
+                                    
+
+                            
+
+                        
+
+                    
+
+                        
+
+ 
+
+  
+
+   
+
+    
+
+     
+
+      
+
+       
+
+         
+
+        Softcover Book
+         EUR 108.99 
+
+         Price includes VAT (Netherlands) 
+
+      
+
+     
+
+      
+
+Compact, lightweight edition
+
+Free shipping worldwide - view details
+
+      Buy Softcover Book
+
+        
+
+     
+
+    
+
+     
+
+      
+
+       
+
+         
+
+        Hardcover Book
+         EUR 108.99 
+
+         Price includes VAT (Netherlands) 
+
+      
+
+     
+
+      
+
+Durable hardcover edition
+
+Free shipping worldwide - view details
+
+      Buy Hardcover Book
+
+        
+
+     
+
+   
+
+  
+
+   
+Tax calculation will be finalised at checkout
+
+  
+
+   
+
+     Licence this eBook for your library  
+
+      
+
+   
+
+     Learn about institutional subscriptions  
+
+      
+
+   
+
+ 
+
+ 
+
+                    
+
+                    
+Other ways to access
+
+                        
+
+Licence this eBook for your library
+
+                                
+
+                            
+
+                        
+
+Institutional subscriptions
+
+                                
+
+                        
+
+                    
+
+                
+
+                    
+
+                        
+
+                        
+
+                        
+
+                    
+
+            
+
+    
+
+        
+
+    
+
+    
+
+            
+Search
+
+                
+
+                        Search by keyword or author
+
+                            
+
+                                
+
+                                
+                                Search
+
+                        
+
+                
+
+        
+
+    
+
+Navigation
+
+            
+
+                   
+                        Find a journal
+
+                
+
+                
+
+                   
+                        Publish with us
+
+                
+
+                
+
+                   
+                        Track your research
+
+                
+
+        
+
+    
+
+		
+Footer Navigation
+
+			
+
+	
+
+		
+
+			
+Discover content
+
+				
+
+Journals A-Z
+
+					
+Books A-Z
+
+					
+Subjects A-Z
+
+			
+
+		
+
+			
+Publish with us
+
+				
+
+Journal finder
+
+					
+Publish your research
+
+					
+Language editing
+
+					
+Open access publishing
+
+			
+
+		
+
+			
+Products and services
+
+				
+
+Our products
+
+					
+Librarians
+
+					
+Societies
+
+					
+Partners and advertisers
+
+			
+
+		
+
+			
+Our brands
+
+				
+
+Springer
+
+					
+Nature Portfolio
+
+					
+BMC
+
+					
+Palgrave Macmillan
+
+					
+Apress
+
+					
+Discover
+
+			
+
+		
+
+			
+
+	
+
+Data Quality
+
+			
+
+					
+
+						Your privacy choices/Manage cookies
+
+				
+
+				
+
+					
+						Your US state privacy rights
+
+					
+
+			
+
+					
+						Accessibility statement
+
+					
+
+			
+
+					
+						Terms and conditions
+
+					
+
+			
+
+					
+						Privacy policy
+
+					
+
+			
+
+					
+						Help and support
+
+					
+
+			
+
+					
+						Legal notice
+
+					
+
+			
+
+					
+						Cancel contracts here
+
+					
+
+			
+
+	
+
+		
+
+			
+
+					
+
+						
+
+							
+							188.91.186.3
+
+						
+Not affiliated
+
+				
+
+			
+
+					
+
+			
+
+© 2026 Springer Nature
+
+	
+
+    
+
+    
+
+    
+

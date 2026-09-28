@@ -1,0 +1,29 @@
+\subsection{Kandidaatmappings in plaats van veronderstelde equivalentie}
+De volgende tabel specificeert ontwerpkeuzen op grensvlakken. Het zijn nog te beoordelen mappings; hun opname betekent geen bewezen conformiteit. R11 verlangt bron- en doelversie, context, rechtvaardiging en betekenisverlies.
+\begin{longtable}{@{}P{.24\linewidth}P{.32\linewidth}P{.36\linewidth}@{}}
+\caption{Kandidaatverbindingen en expliciete resterende beslissingen.}\\
+\toprule Grensvlak & Kandidaatregel & Verlies/alternatief en toets \\ \midrule\endfirsthead
+\toprule Grensvlak & Kandidaatregel & Verlies/alternatief en toets \\ \midrule\endhead
+NL-SBB--SKOS \citep{S14,S31} & Publiceer begripsrollen met labels en begripsrelaties; behoud de grondslag als apart beheerde verwijzing. & Niet alle NL-SBB-inhoud past zelfstandig in SKOS. Behoud onbekende of niet-geformaliseerde context. \\
+Concept--klasse \citep{S31,S30} & Kies een expliciete formalisatierelatie of gedocumenteerde meervoudige typering. & SKOS-overeenkomst draagt geen onbeperkte objectidentiteit over; toets competentievragen bij beide patronen. \\
+MIM--11179 \citep{S13,S08} & Verbind attribuutsoort via een mapping aan data-elementconcept en representatiedomein. & Cardinaliteit, eenheid, doelcontext en niveau kunnen verschillen; geen blind één-op-één hernoemen. \\
+UFO/OntoUML--MIM/OWL \citep{L09,S13,S30} & Gebruik ontologische analyse als motivering van modelkeuzen, niet als verplichte transformatiepijplijn. & Ontologische aannames vragen review; meer detectie en tijdsbeslag vergelijken met alleen MIM. \\
+Record--PROV-O \citep{S33} & Beschrijf bron-/recordversies als provenance-entiteiten en afleidingen als activiteiten. & Statementcontext vereist een gekozen patroon; geen directe overname van authenticiteit uit een agentverwijzing. \\
+SHACL--DQV \citep{S32,S34} & Koppel een validatorrun aan een kwaliteitsmeting met expliciete metriek en populatie. & Een validation report is niet hetzelfde als een volledige kwaliteitsmeting; extern feitelijk bewijs blijft apart. \\
+Tijd--OWL-Time \citep{L14,S37} & Verbind afzonderlijk getypeerde geldigheids- en registratie-intervallen aan tijdconstructies. & OWL-Time levert geen kant-en-klaar bekend-op-protocol; intervalbeleid blijft een eigen contractregel. \\
+DCAT--DPROD--SMDP \citep{S47,S51} & Onderzoek hergebruik van product, eigenaar, doel en dataset-/dienstverbindingen voordat eigen velden worden toegevoegd. & De geselecteerde DPROD-versie is beta; het aanvullende contextbindingsprofiel moet onafhankelijk worden gerechtvaardigd. \\
+API/event--context \citep{S19,S22} & Bind payload of notificatie aan bronobject, release en opvraagbare context. & Enveloptijd is geen bronregistratietijd; transportconformiteit bewijst geen interpretatiebehoud. \\
+\bottomrule\end{longtable}
+
+\subsection{Status, toepasselijkheid en bronkritiek}
+De controle van Nederlandse lijstpagina’s levert de onderstaande afgebakende statusuitspraken op. Zij zijn geen algemene wettelijke kwalificatie van iedere toepassing.
+\begin{longtable}{@{}P{.25\linewidth}P{.25\linewidth}P{.42\linewidth}@{}}
+\toprule Instrument & Geselecteerde lijststatus & Scope en beperking \\ \midrule
+NL-SBB 1.0 \citep{S14} & Pas toe of leg uit, vanaf 1 januari 2026. & Beschrijven van begrippen in begrippenlijst, taxonomie of thesaurus; beoordeel functioneel en organisatorisch bereik. \\
+MIM 1.2 \citep{S13} & Aanbevolen. & Conceptuele en logische informatiemodellen; geen algemene OntoUML-plicht. \\
+DCAT-AP-NL 3.0 \citep{S16} & In behandeling op gecontroleerde lijstpagina. & Vastgesteld specificatiedocument is niet hetzelfde als afgeronde lijstprocedure. \\
+OpenAPI \citep{S19} & Lijstversie 3.0; procedure voor 3.1 vermeld. & Technische paperreferentie 3.1.1; de twee versies hebben verschillende bewijsrollen. \\
+NL GOV CloudEvents \citep{S22} & Lijstveld 1.1; specificatielinklabel noemt 1.0. & De geselecteerde Logius-publicatie 1.1 is afzonderlijk vastgezet; pagina-inconsistentie blijft in de audit vermeld. \\
+\bottomrule\end{longtable}
+
+Een officiële bron kan tevens verwachtingen of wervende interpretaties bevatten. Zo is de redenering dat een begripsverwijzing rechtmatig handelen waarborgt geen effect of juridisch oordeel dat deze paper uit de NL-SBB-lijstbeschrijving overneemt. De broncontrole gebruikt die pagina voor status en scope, en verlangt afzonderlijk bewijs voor zulke gevolgclaims. ISO/NEN-catalogi blijven beperkt tot editie en toepassingsgebied; er wordt geen ongelezen clausule geverifieerd verklaard.

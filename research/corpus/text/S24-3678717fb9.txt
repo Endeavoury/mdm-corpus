@@ -1,0 +1,602 @@
+
+
+  
+
+    MDTO | Nationaal Archief
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      
+
+    
+      Overslaan en naar de inhoud gaan
+
+    
+
+    
+
+  
+
+    
+
+      
+
+  
+
+    
+
+  
+
+    
+
+      
+
+        Menu
+
+          
+
+              
+
+    
+
+  
+
+Winkelwagen
+
+        
+
+  
+
+    
+
+        
+          Winkelwagen 
+
+      
+
+  
+
+    
+
+            
+
+Gebruikersmenu
+
+        
+
+        
+
+                          Inloggen
+
+      
+
+  
+
+            
+
+Informatie over het Nationaal Archief
+
+        
+
+              
+
+                  Over het NA
+
+                
+
+                  Contact
+
+        
+
+  
+
+  
+
+      
+
+  
+
+  
+
+        
+
+      
+
+        
+          Zoeken
+
+      
+
+  
+
+    
+
+  
+
+                                        
+Zoeken in OnderzoekenZoeken in BelevenZoeken in ArchiverenZoeken in Over het NA
+
+            
+
+                                
+
+  
+
+  
+
+            
+
+                      
+
+                
+
+    
+
+  
+Hoofdnavigatie
+
+        
+
+              
+
+                  Home
+
+                
+
+                  Onderzoeken
+
+                
+
+                  Beleven
+
+                
+
+                  Archiveren
+
+        
+
+  
+
+  
+
+            
+
+      
+
+  
+
+      
+
+      
+
+          
+
+    
+
+  
+
+        
+
+Kruimelpad
+
+      
+
+        
+
+                                       Home
+
+    
+
+  
+
+  
+
+  
+
+      
+
+  
+
+      
+
+          
+
+    
+
+  
+
+        
+
+    
+
+  
+
+    
+
+      
+
+        
+
+          
+
+            
+
+                
+
+    
+
+  
+
+      
+
+  
+
+      
+MDTO
+
+              
+
+                    
+
+              
+
+MDTO (Metagegevens voor duurzaam toegankelijke overheidsinformatie) is een norm voor het vastleggen en uitwisselen van eenduidige metagegevens om de duurzame toegankelijkheid van overheidsinformatie mogelijk te maken.
+
+        
+
+  
+
+  
+
+    
+
+      
+
+              
+
+                    
+
+              
+
+  
+
+              
+
+                  
+
+  
+
+        
+
+  
+
+        
+
+            
+
+          
+
+                    
+
+              
+
+MDTO bestaat uit een normerend deel en een niet-normerend deel. Beide delen zijn te vinden op GitHub.
+Normerende onderdelen van MDTO
+MDTO bestaat uit een aantal modules die samen het normerende deel vormen:
+Metagegevensschema: Beschrijving van de structuur, de relaties en betekenis van de metagegevens, en de waarden die zijn toegestaan.
+Begrippenlijsten: Specificatie van de begrippenlijsten die binnen het metagegevensschema gebruikt worden om de mogelijke waarden van bepaalde metagegevens aan te geven.
+XML-schema: Beschrijving van de XML-syntax waarin de metagegevens conform het metagegevensschema uitgewisseld worden. In de vorm van een XML Schema Definition (XSD), als tekst en als HTML, met daarbij een toelichting en voorbeelden.
+Specificatie Submission Information Package: Een Submission Information Package (SIP) is een verzameling informatieobjecten met bijbehorende representaties en metagegevens. Een SIP is bedoeld om informatieobjecten uit te wisselen tussen informatiesystemen.
+Definitie van MDTO-conform: Uitleg wanneer een informatiesysteem aan MDTO voldoet.
+Niet-normerende onderdelen van MDTO
+Daarnaast zijn er een aantal ondersteunende niet-normerende modules die gelden als een hanreiking:
+Aanleverproces Submission Information Package: Beschrijving van het proces om een SIP uit te wisselen tussen twee informatiesystemen.
+RDF-ontologie: Beschrijving van het metagegevensschema in RDF.
+Mapping van TMLO/TMR naar MDTO: Beschrijving hoe bestaande TMLO- en TMR-metagegevens vertaald worden naar MDTO-metagegevens.
+Ten slotte zijn er, ter informatie, een aantal niet-normerende bijlages:
+Stappenplan: Een stapsgewijze aanpak voor het toepassen van  Metagegevens Duurzaam Toegankelijke Overheidsinformatie (MDTO) in de informatiesystemen van een organisatie.
+Overzicht belangrijke wijzingen: Een overzicht van de belangrijke wijzigingen van MDTO ten opzichte van TMLO en TMR.
+Antwoorden op veelgestelde vragen: Een overzicht van vragen en antwoorden die met betrekking tot MDTO gesteld zijn. Zoals hoe MDTO tot stand is gekomen en de onderbouwing van gemaakte keuzes. Deze bijlage wordt uitgebreid als nieuwe vragen daar aanleiding tot geven.
+
+            
+
+        
+
+      
+
+  
+
+      
+
+              
+
+  
+
+          
+
+        Stel een vraag
+
+                
+
+              
+
+Heeft u een vraag over deze pagina? Of heeft u niet gevonden wat u zoekt? Dan horen wij dat graag van u.
+
+              
+
+          
+
+Contactformulier
+
+          
+
+                                
+
+          
+
+Gebruik de zoekfunctie om antwoord op uw vraag te vinden.
+
+          
+
+            
+
+        
+
+    
+
+  
+
+  
+
+                
+
+    
+
+  
+
+      
+
+  
+
+    
+
+  
+
+    
+Deze vertaling is automatisch gegenereerd en kan fouten bevatten. Pagina's die persoonlijke informatie bevatten worden vanwege de privacy niet automatisch vertaald en zijn alleen beschikbaar in het Engels. Lees hier meer over onze vertaalde website.
+
+  
+
+  
+
+    
+
+    
+
+  
+
+  
+
+            
+
+            
+
+        
+
+    
+
+    
+
+        
+
+          
+
+      
+
+  
+
+          
+
+        
+
+            
+
+    
+
+  
+
+Footer menu
+
+      
+
+              
+
+                  
+Onderzoeken
+
+                    
+
+                  Zoekhulpen
+
+                
+
+                  Archieven
+
+                
+
+                  Foto's
+
+                
+
+                  Nieuwsbrief Onderzoeken en Beleven
+
+                
+
+                  Open data
+
+        
+
+              
+
+                  
+Beleven
+
+                    
+
+                  Agenda
+
+                
+
+                  Tentoonstelling
+
+                
+
+                  Onderwijs
+
+        
+
+              
+
+                  
+Archiveren
+
+                    
+
+                  Kennisbank
+
+                
+
+                  Overbrengen
+
+                
+
+                  Nieuwsbrief Archiveren
+
+                
+
+                  Expertisecentrum
+
+        
+
+              
+
+                  
+Meer
+
+                    
+
+                  Over het Nationaal Archief
+
+                
+
+                  Nieuwsoverzicht
+
+                
+
+                  Toegankelijkheidsverklaring
+
+                
+
+                  Kwetsbaarheid melden
+
+                
+
+                  Taalgebruik
+
+                
+
+                  Archief van de website
+
+        
+
+              
+
+  
+
+  
+
+  
+
+        
+
+    
+
+        
+
+            
+
+    
+
+  
+
+Algemene links
+
+      
+
+              
+
+                  Algemene voorwaarden
+
+                
+
+                  Privacy
+
+                
+
+                  070 - 3315400
+
+                
+
+                  Neem contact op
+
+        
+
+  
+
+  
+
+Nationaal Archief op sociale media
+
+      
+
+              
+
+                  LinkedIn
+
+                
+
+                  Rss
+
+        
+
+  
+
+  
+
+        
+
+    
+
+  
+
+  
+
+    
+
+              
+Feedback
+
+    
+
+  
+

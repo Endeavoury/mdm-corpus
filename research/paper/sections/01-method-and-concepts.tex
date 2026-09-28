@@ -1,0 +1,65 @@
+\section{Inleiding}
+Master Data Management betreft in de onderzochte literatuur zowel het beheren van gegevens over belangrijke bedrijfsentiteiten als het organiseren van de verantwoordelijkheden die dat beheer mogelijk maken. De functionele MDM-studie van Otto en Ofner behandelt modellering, beschikbaarstelling, kwaliteit, onderhoud en archivering als samenhangende activiteiten. Een functioneel referentiemodel voor masterdatakwaliteit positioneert systeemondersteuning bovendien binnen een organisatorisch kwaliteitsvraagstuk. Daarmee is MDM geen synoniem voor een database of softwarepakket. \parencite{L20,L05}\claim{RC01}
+
+De terminologie wordt complexer wanneer MDM in verband wordt gebracht met knowledge graphs, data products, Data Mesh en federatieve datastelsels. De literatuur onderscheidt deze benaderingen naar doel en organisatievorm, maar gebruikt ook overlappende begrippen. Blohm et al. bespreken expliciet de onderlinge samenhang van data products, data mesh en data fabric; Gieß en Hutterer vergelijken bredere datamanagementbenaderingen. Zulke vergelijkingen vormen antecedenten voor deze studie, geen bewijs dat al hun conclusies naar ieder MDM-domein kunnen worden overgedragen. \parencite{L12,L24}\claim{RC02}
+
+Het onderzoeksdoel is de beschikbare kennis te structureren zonder een gewenste oplossing voorop te stellen. De bijdrage ligt in het onderscheiden van analyse-eenheden, het vergelijken van bronafhankelijke terminologie en het verbinden van capabilities met hun normatieve en organisatorische context. Het Stelsel van Basisregistraties biedt een toepassingsperspectief op gezag en gedeeld gegevensgebruik, maar deze paper is geen implementatiecasus of effectstudie.
+
+\subsection{Onderzoeksvraag en deelvragen}
+De hoofdvraag luidt: \emph{Wat is de huidige stand van wetenschappelijke, normatieve en professionele kennis over Master Data Management binnen het onderzochte corpus, en hoe hangen de belangrijkste concepten, capabilities, standaarden, architecturen en governancebenaderingen samen?}
+
+De toevoeging ``binnen het onderzochte corpus'' begrenst de aanspraak op actualiteit en volledigheid. Zes deelvragen bundelen de 22 vraagthema's uit de onderzoeksopdracht:
+\begin{enumerate}
+\item OV1: hoe worden masterdata en verwante dataconcepten gedefinieerd, en welke historische en theoretische perspectieven zijn herkenbaar?
+\item OV2: welke businessproblemen, capabilities, lifecycleactiviteiten en architectuurpatronen worden beschreven?
+\item OV3: hoe worden identiteit, kwaliteit, governance, temporaliteit en herkomst behandeld?
+\item OV4: welke rollen spelen metadata, semantiek, ontologie en standaarden, en waar ontstaan overlap, mappings of interpretatieverschillen?
+\item OV5: hoe verhouden Nederlandse overheidskaders en ontwikkelingen rond dataproducten, federatie en AI zich tot MDM?
+\item OV6: welke synthese is gerechtvaardigd, welke controverses blijven bestaan en welke vragen vereisen aanvullend onderzoek?
+\end{enumerate}
+
+\section{Onderzoeksmethode}
+\subsection{Reviewstrategie en corpus}
+De studie is een verkennende state-of-the-art review met standards landscape analysis en conceptuele synthese, voorbereid vanuit een scoping-reviewprotocol. PRISMA-ScR ondersteunt het expliciteren van doel, selectie en rapportage van scoping reviews; PRISMA-S richt zich op transparante rapportage van zoekactiviteiten. Deze paper gebruikt die aandachtspunten, maar claimt geen volledige naleving van alle rapportage-items of een retrospectief gereconstrueerde systematische review. \parencite{M01,M02}\claim{RC03}
+
+De verwerving van 8 september 2026 bouwde voort op 70 bestaande vermeldingen: 51 standaard-/kadervermeldingen en 19 literatuurvermeldingen. Gerichte zoekacties voegden 26 kandidaten toe. De lokale verzameling bevat 90 PDF's en 88 webdocumenten, afkomstig van 218 geregistreerde downloadroutes. Er zijn 171 verschillende bestandshashes. Deze administratieve aantallen beschrijven beschikbaar materiaal: een standaard kan meerdere bijlagen hebben en één publicatie kan meerdere bron-ID's dragen. FAIR (S46/L11) en OntoClean (S50/L10) leveren bijvoorbeeld geen onafhankelijk dubbel bewijs. Tijdens de paperfase zijn drie afzonderlijke officiële statusbronnen toegevoegd en zijn Europese brondocumenten gericht aangevuld. Deze aanvullingen vallen buiten de genoemde verwervingssnapshot. Veertig routes leverden geen bruikbaar brondocument op; andere routes konden voor dezelfde bron wel slagen.
+
+Zoekacties richtten zich op MDM-reviews, boeken, entity resolution, governance, Data Mesh, ontology engineering en officiële standaardpublicaties. Het zoeklog bevat de werkelijk gebruikte queries en geselecteerde vindplaatsen. Er is geen volledige databasebrede export of gedocumenteerde beoordeling van alle gerangschikte zoekresultaten. De eerdere bronselectie had een ontwerpgerichte aanleiding; de huidige studie behandelt die selectie als mogelijk vertekenend startbestand, niet als onafhankelijke afspiegeling van het vakgebied.
+
+\subsection{Selectie, extractie en analyse}
+Bronnen zijn inhoudelijk gebruikt wanneer zij een deelvraag ondersteunen en relevante tekst of een duidelijk begrensd officieel abstract beschikbaar is. Hoofdpublicatie, auteursversie, boekfragment, catalogus en gelinkte bijlage zijn onderscheiden. Bij downloads die via een standaardpagina zijn gevonden, is niet aangenomen dat de inhoud zelf tot die standaard behoort. Niet-gebruikte kandidaten blijven zichtbaar in het selectieregister.
+
+De analyse-eenheid is een passage over een definitie, functie, relatie, patroon of toepassingsvoorwaarde. De extractie registreert bron-ID, bestand, hash, locatie, inhoudelijke parafrase en interpretatiegrens. De bronnen zijn doelgericht op de vraagthema's gelezen; de paper claimt geen integrale lezing van alle 178 bestanden. Boeken achter toegangsbeperkingen worden alleen aangehaald voor het geraadpleegde fragment of de officiële scopebeschrijving. Voor ISO en NEN ontbreekt grotendeels volledige normtoegang. Dat beperkt de analyse tot geregistreerde onderwerpen en niet tot uitputtende clausuleconformiteit.
+
+De synthese vergelijkt eerst de bedoelde eenheden, vervolgens het abstractieniveau en daarna de normatieve of descriptieve functie. Bronafhankelijke definities blijven naast elkaar staan wanneer equivalentie niet kan worden onderbouwd. Een tweede analysegang zoekt tegenargumenten voor een veronderstelde tegenstelling tussen klassiek MDM en semantisch of productgericht datamanagement. Het claims-register scheidt normatieve uitspraken, claims met één of meerdere bronnen en eigen synthese. ``Meerdere bronnen'' betekent geen automatische consensus.
+
+Er is geen onafhankelijke dubbele screening of interbeoordelaarsbetrouwbaarheid vastgesteld. De analyse en redactionele ondersteuning zijn door een AI-assistent uitgevoerd; een menselijke vakinhoudelijke review is nog nodig. De toegevoegde extracties en traceability maken de keuzes controleerbaar, maar vervangen die review niet. Geen prototype, gebruikersproef of AI-benchmark maakt deel uit van de methode.
+
+\section{Definitie van Master Data}
+Loshin verbindt masterdata met representaties van veelgebruikte bedrijfsconcepten en met een organisatiebrede, consistente blik op die informatie. Otto en Ofner onderscheiden masterdataklasse, attribuut en object, terwijl Wang et al. herhaald gebruik van kernentiteiten over bedrijfsprocessen en systemen benadrukken. Deze accenten wijzen op samenhang, maar leveren geen universele lijst van intrinsieke data-eigenschappen. \parencite{B01,L20,L18}\claim{RC04}
+
+Voor deze synthese betekent \emph{masterdata}: gegevens over domeinentiteiten die binnen een vastgestelde organisatorische context herhaald worden gebruikt en waarvoor afgestemd beheer relevant is. Dit is een analytische werkdefinitie. Zij schrijft geen centrale opslag, unieke recordrepresentatie of bepaald update-interval voor. Een entiteit is hier de bedoelde referent; een record is een geregistreerde beschrijving daarvan. Meerdere records kunnen dezelfde referent beschrijven zonder inhoudelijk identiek te zijn.
+
+Het onderscheid is van belang bij termen als \emph{master record} en \emph{golden record}. Een master record kan in een bron een aangewezen beheerrecord betekenen; golden record duidt veelal op een geïntegreerde selectie van gegevens uit bronnen. Gualo et al. gebruiken het laatste begrip in hun behandeling van masterdatarepositories. De toepasselijke selectie- en kwaliteitsregels blijven echter nodig om te bepalen wat zo'n record vertegenwoordigt. Het woord ``golden'' levert op zichzelf geen onafhankelijk bewijs van juistheid of bevoegd gezag. \parencite{L19,P01}\claim{RC05}
+
+\section{Ontwikkeling en theoretische perspectieven}
+Loshin beschrijft de ontwikkeling van MDM vanuit verspreide applicaties en uiteenlopende representaties van bedrijfsconcepten. Deze historische lezing is een professionele reconstructie, geen door deze paper uitgevoerde geschiedschrijving. Een precieze oorsprongsdatum van MDM wordt daarom niet vastgesteld. \parencite[§1.2]{B01}
+
+De geselecteerde publicaties ondersteunen wel een reeks gedateerde ankerpunten. SMDM demonstreerde in 2009 semantische toegang tot masterdata. In 2011 beschreven Otto en Ofner strategische requirements, inclusief masterdata als product en business semantics management. Gualo et al. publiceerden in 2023 een kwaliteitsmodel voor masterdatarepositories. Recente syntheses verbreden vervolgens de vergelijking met data products en federatieve organisatievormen. Deze ankerpunten tonen continuïteit en variatie; zij bewijzen geen universele opeenvolging van volwassenheidsfasen. \parencite{L18,L20,L19,L12,L24}\claim{RC06}
+
+Vier theoretische perspectieven zijn analytisch te onderscheiden. Het informatiekwaliteits-perspectief onderzoekt geschiktheid voor gebruik; het governanceperspectief onderzoekt bevoegdheden en besluitvorming; het integratieperspectief behandelt identificatie en afstemming tussen representaties; het ontologische perspectief onderzoekt aannames over objecten, categorieën en identiteit. Deze indeling is een synthese van de geselecteerde literatuur, geen bestaande uniforme MDM-theorie. Zij verklaart waarom een technisch succescriterium, zoals minder duplicaten, niet alle governance- of betekenisvragen beantwoordt. \parencite{L15,L07,L21,L08}\claim{RC07}
+
+\section{Masterdata versus gerelateerde dataconcepten}
+Datacategorieën moeten op hun classificatiegrond worden vergeleken. ``Operationeel'' en ``analytisch'' beschrijven in MDM-literatuur gebruiksscenario's; ``masterdata'' beschrijft een beheerd gegevensdomein. Een dataset is een publiceerbare verzameling, terwijl een dataproduct ook doel en consumptie adresseert. Daarom zijn deze labels niet allemaal wederzijds uitsluitende soorten data. \parencite{L20,S47,L12}\claim{RC08}
+
+\begin{longtable}{@{}P{.19\linewidth}P{.37\linewidth}P{.36\linewidth}@{}}
+\toprule Begrip & Analytische afbakening & Te vermijden gelijkstelling \\\midrule
+Transactionele data & Beschrijven gebeurtenissen of handelingen; masterdata kunnen ernaar worden verwezen. & ``Transactional MDM'' is niet automatisch beheer van alle bedrijfsgebeurtenissen. \\
+Referentiedata & Waardenstelsels voor toegestane of gedeelde classificaties; brongebruik kan ruimer zijn. & Niet ieder waardenstelsel is een entiteitenregister. \\
+Metadata & Beschrijven gegevens, representatie of beheercontext. & Metadata zijn geen synoniem voor alleen technische schemas. \\
+Operationele/\allowbreak analytische data & Gebruik in uitvoering respectievelijk analyse. & Masterdata kunnen beide soorten gebruik ondersteunen. \\
+Dataset & Afgebakende gegevensverzameling in cataloguscontext. & Geen organisatieverantwoordelijkheid door het label alleen. \\
+Dataproduct & Beheerd aanbod gericht op een terugkerende informatiebehoefte. & Kan master-, referentie- of andere data bevatten. \\
+\bottomrule
+\end{longtable}
+De tabel is een werkordening op basis van de onderscheiden gebruikscontexten. De referentiedatabespreking in Gualo et al. omvat bijvoorbeeld zowel toegestane waarden als procedures om geldige waarden te bepalen. Die ruime formulering mag niet ongemotiveerd tot algemene definitie worden verheven. \parencite{L19,S08,S47,L12}

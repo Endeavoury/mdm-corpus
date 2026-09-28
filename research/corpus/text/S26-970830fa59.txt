@@ -1,0 +1,214 @@
+Baseline kwaliteitszorg Stelsel van
+Basisregistraties
+
+
+
+
+                                      1
+Inhoud
+Inleiding ............................................................................................................................ 3
+1      Relevante eisen ........................................................................................................... 4
+2      Afspraken ten aanzien van kwaliteit in het Stelsel ............................................................ 5
+    2.1. Terminologie ............................................................................................................. 5
+    2.2. Rolverdeling ten aanzien van kwaliteit .......................................................................... 5
+    2.3. Terugmelden (ref eis 2 en 9) ....................................................................................... 5
+    2.5. Organisatie van kwaliteitsborging ................................................................................ 5
+    2.6. Toezicht ................................................................................................................... 6
+    2.7. Potentiele stelselafspraken ten aanzien van kwaliteit ...................................................... 6
+
+
+
+
+                                                                                                                                      2
+Inleiding
+
+In het rapport Grip op Gegevens (2019) beveelt de Algemene Rekenkamer aan dat voor een brede
+beschikbaarheid van kwalitatief hoogwaardige basisgegevens het van belang is dat de kwaliteit
+van het stelsel van basisregistraties in samenhang wordt verbeterd. De kenbaarheid en
+afstemming van kwaliteitseisen op stelselniveau zijn daarbij van groot belang, aangezien gegevens
+uit de basisregistraties vaak in samenhang worden gebruikt voor verschillende (overheids)taken.
+Aan de hand van stelselbrede afspraken kan gestuurd worden op kwaliteit door meer samenhang,
+eenduidigheid en uniformiteit aan te brengen in het kwaliteitsmanagement voor het stelsel van
+basisregistraties.
+
+In de uitvoeringsagenda van het programma Stelsel van Basisregistraties zijn diverse activiteiten
+omschreven die bijdragen aan de kwaliteitsverbetering op stelselniveau. Bijvoorbeeld de jaarlijkse
+kwaliteitsmonitor van de koppelingen in het stelsel door het CBS.
+Aanvullend daarop is deze baseline. Doel van dit document is een handzaam overzicht van de
+afspraken, spelregels en het instrumentarium dat in het stelsel van basisregistraties wordt
+gehanteerd om de kwaliteit van de data in het stelsel te borgen. Zeker naar de toekomst toe zal
+dit steeds relevanter worden, omdat delen van de gegevens zal toenemen om maatschappelijke
+vraagstukken van een passende oplossing te voorzien. Met behulp van de baseline hebben we
+eenvoudig overzicht over de reeds gemaakte afspraken in het stelsel. Deze baseline kan echter
+gezien worden als een groeidocument die gedurende tijd steeds kan worden aangevuld met
+afspraken die bijdragen aan de kwaliteit op stelselniveau. Door deze afspraken helder te
+omschrijven in een baseline ontstaat er eenduidigheid over de gemaakte afspraken rondom
+kwaliteit en kan dit document dienen als leidraad en houvast om de kwaliteit in het stelsel te
+waarborgen.
+
+Diverse documenten hebben gediend als inspiratie voor de onderstaande categorieën, waaronder
+de eisen gesteld aan de basisregistraties, de Stelselarchitectuur van het heden uit 2015 en de
+opgehaalde input uit bijeenkomsten met de klankbordgroep kwaliteit en stelseloverleggen.
+
+
+
+
+                                                                                                 3
+1         Relevante eisen
+
+In dit eerste hoofdstuk wordt een beschrijving gegeven van de relevante eisen rondom kwaliteit
+aan basisregistraties. In 2003 zijn in de kamerbrief ‘Actieprogramma Elektronische Overheid’
+(2003, nr. 26 387, nr. 18) twaalf eisen geformuleerd waaraan basisregistraties moeten voldoen. In
+ieder geval twee van deze eisen hebben direct te maken met de kwaliteit van de data in een
+basisregistratie. Voor de volledigheid van dit document zijn deze twee eisen hieronder opgenomen.
+Het betreft eis 2 (de afnemers hebben een terugmeldplicht) en eis 9 (er is een stingent regime van
+kwaliteitsborging). De eisen zijn een kapstok waar aanvullende afspraken rondom kwaliteit in het
+stelsel aan zijn opgehangen. Dit is de reden dat deze als startpunt op zijn genomen in deze
+baseline. De omschrijvingen van deze eisen zijn letterlijk overgenomen uit de omschrijving uit de
+eerdergenoemde kamerbrief.
+
+Eis 2 De afnemers hebben een terugmeldplicht
+Ook een authentieke registratie is geen absoluut foutloze registratie, evenmin als de afzonderlijke
+gegevensregistraties die nu door beoogde afnemers zelf werden bijgehouden. Aan gegevens in een
+authentieke registratie worden vanwege het overheidsbrede belang echter wel hogere eisen
+gesteld, o.m. ten aanzien van de procedures voor signalering en correctie van onjuiste gegevens.
+
+Het brede gebruik van de authentieke registraties draagt in zich reeds waarborgen dat de kwaliteit
+van de gegevens beter is dan iedere afzonderlijke registratie voor zich kan realiseren. Door het
+brede gebruik zullen meer signalen van juistheden naar boven komen, waardoor een
+zelfreinigende werking ontstaat. Om dit mechanisme te waarborgen zijn afnemers verplicht tot
+deze zogenaamde terugmelding. Als afnemers twijfelen aan de juistheid van de gegevens in de
+authentieke registratie dan hebben zij de plicht dit te melden aan de houder. De houder heeft
+vervolgens de ook plicht de melding serieus te onderzoeken en zo nodig correcties door te
+voeren. 1
+
+Eis 9 Er is een stringent regime van kwaliteitsborging
+De officiële status [enige bron] vereist dat de lat zeer hoog wordt gelegd waar het gaat om
+juistheid, actualiteit, en volledigheid van gegevens in een authentieke registratie. Hierdoor dient
+gegarandeerd te zijn dat de kwaliteit van de gegevens in de authentieke registratie beter is dan
+iedere registratie op eigen houtje ooit kan realiseren. Het gaat dan ten eerste om de verplichte
+melding van twijfelgevallen door de afnemers aan de houder van de authentieke registratie
+(terugmeldplicht) en het aldus creëren van [zelfreinigende databases]. Ten tweede is het van
+belang dat de kwaliteit van de gegevens in de authentieke registraties voor alle afnemers
+transparant is. Hierbij gaat het om de inzichtelijkheid van alle kwaliteitsborgingsprocedures en
+verder is ook het gerealiseerde kwaliteitsniveau van belang: hierdoor wordt vermeden dat er
+spookverhalen ontstaan over de kwaliteit van de gegevens. 2
+
+
+
+
+1
+    Bron: Kamerbrief Actieprogramma Elektronische Overheid (2003, kamerstuk 26378, nr. 18).
+2
+    Bron: Kamerbrief Actieprogramma Elektronische Overheid (2003, kamerstuk 26378, nr. 18).
+
+
+                                                                                                      4
+2       Afspraken ten aanzien van kwaliteit in het Stelsel
+In dit hoofdstuk worden de reeds gemaakte afspraken rondom kwaliteit beschreven. Deze
+afspraken zijn destijds vastgelegd in de ‘Architectuur van Heden’ uit 2015.
+
+2.1. Terminologie
+In de eerste plaats worden in de voornoemde architectuur de volgende definities gehanteerd:
+
+
+Kwaliteit (van een registratie): onder kwaliteit van registraties wordt verstaan de mate van
+juistheid, actualiteit, en volledigheid van gegevens die zijn opgenomen in een registratie.
+
+Kwaliteitsborging: onder kwaliteitsborging wordt verstaan het geheel van maatregelen waarmee
+de kwaliteit van gegevens in een registratie wordt bevorderd.
+
+Kwaliteitsmanagement: het nemen van maatregelen die ervoor zorgen dat de kwaliteit van
+registraties aan de gestelde eisen voldoen.
+
+2.2. Rolverdeling ten aanzien van kwaliteit
+In de stelselarchitectuur van het heden wordt gesproken over rol- en taakverdeling. Ten aanzien
+van de kwaliteit is hierin afgesproken dat de bronhouder de kwaliteit van de gegevens borgt en
+daartoe op eigen initiatief onderzoek doet of naar aanleiding van terugmeldingen van afnemers.
+
+Daarnaast is de rolomschrijving van de toezichthouder als volgt gedefinieerd:
+“De toezichthouder is er verantwoordelijk voor dat wordt toegezien of de basisregistraties conform
+eisen, afspraken en wetgeving opereert. Momenteel is het toezicht voor de meeste
+basisregistraties ingevuld met periodieke audits door onafhankelijke partijen in opdracht van de
+opdrachtgever en/of verstrekker en/of bronhouders.”
+
+2.3. Terugmelden (ref eis 2 en 9)
+Ten aanzien van de hiervoor genoemde eisen wordt in de referentiearchitectuur het volgende
+genoemd:
+
+Een basisregistratie biedt één of meer mogelijkheden aan afnemers om terug te melden. Dit stelt
+de afnemers in staat om te voldoen aan hun terugmeldplicht en draagt bij aan het borgen van de
+kwaliteit van de basisregistratie.
+
+2.4. Transparantie (ref. eis 9)
+Ten aanzien van eis 9 (streng regime van kwaliteitsborging) is in de architectuur het volgende
+opgenomen:
+
+Kwaliteitsborging dient transparant te zijn over de volgende zaken:
+- wat de gerealiseerde kwaliteit is van een basisregistratie, uitgedrukt met behulp van duidelijke
+indicatoren en afgezet tegen vastgestelde normen;
+
+- hoe de basisregistratie de gerealiseerde kwaliteit heeft bepaald;
+
+- welke maatregelen een basisregistratie treft om de kwaliteit te garanderen en verbeteren.
+
+2.5. Organisatie van kwaliteitsborging
+In de stelselarchitectuur van het heden wordt onderscheid gemaakt tussen interne en externe
+kwaliteitstoetsing, waarbij interne kwaliteitstoetsing als volgt omschreven wordt:
+“Om het vertrouwen van afnemers te verkrijgen en behouden, is het noodzakelijk dat er ten
+aanzien van de authentieke registratie een expliciete, interne regeling voor kwaliteitstoetsing
+bestaat. Deze interne regeling dient uiteraard ook regelmatig te worden toegepast.”
+
+Ten aanzien van externe kwaliteitstoetsing is in de architectuur het volgende opgenomen:
+“(…) neemt niet weg dat wenselijk is regelmatig externe toetsing van de kwaliteit van de
+authentieke registratie te laten plaatsvinden. Een dergelijke externe toetsing zal meestal
+
+                                                                                                     5
+plaatsvinden in de vorm van een audit. Verantwoordelijk voor het laten uitvoeren van een audit is
+in principe de houder van een registratie. Daarnaast kan bij de inrichting van de
+gebruikersorganisatie ten aanzien van het beheer, ook aan de beheersorganisatie het recht worden
+verleend om (al dan niet op regelmatige basis) audits op kwaliteit van de authentieke registratie te
+laten uitvoeren.”
+
+Deze omschrijvingen zijn overigens weer gebaseerd op de handreiking ‘Kwaliteitsborging,
+Stroomlijning Basisgegevens’ uit 2002.
+
+2.6. Toezicht
+Zoals onder rolverdeling reeds vermeld is de toezichthouder verantwoordelijk voor dat wordt
+toegezien of de basisregistratie conform eisen, afspraken en wetgeving opereert. Daarnaast is over
+toezicht ook het volgende in de stelselarchitectuur opgenomen:
+
+Over het algemeen is de registratiehouder verantwoordelijk voor het toezicht op de naleving van
+de bepalingen die in de wet voor de basisregistratie zijn opgenomen. Een deel van deze
+verantwoordelijkheid kan ook bij de bronhouders en/of verstrekker belegd zijn of bij een externe
+partij zoals een ministerie.
+
+2.7. Potentiele stelselafspraken ten aanzien van kwaliteit
+Bovenstaande afspraken zijn zoals gezegd reeds vastgelegd in eerdere vastgestelde documenten
+door de destijds betrokken partijen in het stelsel van basisregistraties. Dit neemt echter niet weg
+dat er aanvullende afspraken gemaakt zouden kunnen worden die juist voor kwaliteitsborging op
+stelselniveau van belang zijn. Een van deze afspraken zou bijvoorbeeld betrekking kunnen hebben
+op het verder ontwikkelen van de baseline. Maar bijvoorbeeld ook het faciliteren van een
+gezamenlijke jaarcyclus is geopperd. Op stelselniveau kunnen afspraken worden gemaakt om in
+gezamenlijkheid te bepalen welke stelsel kwaliteitsissues er prioriteit moeten krijgen in het daarop
+volgende jaar. Deze issues krijgen dan extra aandacht om te zorgen dat de kwaliteit van het
+gehele stelsel wordt verbeterd.
+
+
+
+
+                                                                                                   6
+   Bijlage 1: verwijzingen
+
+- 12 eisen basisregistraties beschreven in de Kamerbrief Actieprogramma Elektronische Overheid:
+Kamerstuk 26387, nr. 18 | Overheid.nl > Officiële bekendmakingen (officielebekendmakingen.nl)
+
+
+- Stelselarchitectuur van het Heden
+stelselarchitectuur heden 2015-03 v20150624 (noraonline.nl)
+
+
+
+
+                                                                                                  7
+

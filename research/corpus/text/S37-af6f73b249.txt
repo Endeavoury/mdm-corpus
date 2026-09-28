@@ -1,0 +1,1470 @@
+                                                                       Volume 109, Number 2, March-April 2004
+                      Journal of Research of the National Institute of Standards and Technology
+
+                                                              J. Res. Natl. Inst. Stand. Technol. 109, 185-217 (2004)]
+
+
+
+
+              The Remarkable Metrological History of
+                     Radiocarbon Dating [II]
+
+
+
+Volume 109                                                                                  Number 2                                                                      March-April 2004
+
+
+Lloyd A. Currie                                                        This article traces the metrological history                         cipated metrological advances in their own
+                                                                       of radiocarbon, from the initial break-                              chosen fields, and unanticipated anthro-
+National Institute of Standards                                        through devised by Libby, to minor (evolu-                           pogenic or natural chemical events in the
+and Technology,                                                        tionary) and major (revolutionary)                                   environment, can spawn new areas of
+                                                                       advances that have brought 14C measure-                              research having exciting theoretical and
+Gaithersburg, MD 20899-8370                                            ment from a crude, bulk [8 g carbon] dating                          practical implications.
+U.S.A.                                                                 tool, to a refined probe for dating tiny
+                                                                       amounts of precious artifacts, and for
+                                                                       “molecular dating” at the 10 µg to 100 µg                            Key words: accelerator mass spectro-
+lloyd.currie@nist.gov                                                  level. The metrological advances led to                              metry; apportionment of fossil and biomass
+                                                                       opportunities and surprises, such as the                                             14
+                                                                                                                                            carbon; “bomb” C as a global tracer; dual
+                                                                       non-monotonic dendrochronological cali-                              isotopic authentication; metrological
+                                                                       bration curve and the “bomb effect,” that                            history; molecular dating; radiocarbon
+                                                                       gave rise to new multidisciplinary areas of                          dating; the Turin Shroud; SRM 1649a.
+                                                                       application, ranging from archaeology and
+                                                                       anthropology to cosmic ray physics to
+                                                                       oceanography to apportionment of anthro-
+                                                                       pogenic pollutants to the reconstruction of
+                                                                       environmental history.                                               Accepted: February 11, 2004
+                                                                                                               14
+                                                                           Beyond the specific topic of natural C,
+                                                                       it is hoped that this account may serve as a
+                                                                       metaphor for young scientists, illustrating
+                                                                       that just when a scientific discipline may
+                                                                       appear to be approaching maturity, unanti-                           Available online: http://www.nist.gov/jres
+
+
+
+
+Contents
+1.   Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .186              6.1 The Invention . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .199
+2.   The Birth of Radiocarbon Dating . . . . . . . . . . . . . . . . . . . . .186                             6.2 The Shroud of Turin . . . . . . . . . . . . . . . . . . . . . . . . . . .200
+                                                                                                                                             14
+     2.1 Standards and Validation . . . . . . . . . . . . . . . . . . . . . . .189                       7.   Emergence of µ-Molar C Metrology . . . . . . . . . . . . . . . . .204
+3.   Natural Variations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 190                 7.1 Long-Range Transport of Fossil
+4.   The Bomb . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .192                        and Biomass Aerosol . . . . . . . . . . . . . . . . . . . . . . . .205
+     4.1 Excess 14C as a Global Geochemical Tracer . . . . . . . .193                                         7.2 Isotopic Speciation in Ancient Bones
+     4.2 The Second (Geochemical) Decay Curve                                                                         and Contemporary Particles . . . . . . . . . . . . . . . . . . .210
+             of 14C: Isotopic-Temporal Authentication . . . . . . . .193                                           7.2.1 Urban Dust (SRM 1649a); a Unique
+5.   Anthropogenic Variations; “Trees Pollute” . . . . . . . . . . . . . .195                                                    Isotopic-Molecular Reference Material . . . .211
+     5.1 Fossil-Biomass Carbon Source Apportionment . . . . . .196                                       8.   Epilogue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .214
+6.   Accelerator Mass Spectrometry . . . . . . . . . . . . . . . . . . . . . .199                        9.   References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .215
+
+
+
+
+                                                                                                   185
+                                          Volume 109, Number 2, March-April 2004
+              Journal of Research of the National Institute of Standards and Technology
+
+
+1.   Introduction                                                  (111 pages of text) captured the essence of the path to
+                                                                   discovery: from the initial stimulus, to both conceptual
+   This article is about metrology, the science of                 and quantitative scientific hypotheses, to experimental
+measurement. More specifically, it examines the                    validation, and finally, to the demonstration of highly
+metrological revolutions, or at least evolutionary mile-           significant applications. The significance of Libby’s
+stones that have marked the history of radiocarbon                 discovery, from the perspective of the Nobel
+dating, since its inception some 50 years ago, to the              Committee, is indicated in Fig. 1, which includes also a
+present. The series of largely or even totally unantici-           portrait of Libby in the year his monograph was pub-
+pated developments in the metrology of natural 14C is              lished [3].1 The statement of the Nobel Committee
+detailed in the several sections of this article, together         represents an unusual degree of foresight, in light of
+with examples of the consequent emergence of new                   unsuspected scientific and metrological revolutions
+and fundamental applications in a broad range of                   that would take place in ensuing years.
+disciplines in the physical, social, and biological                   Like many of the major advances in science,
+sciences.                                                          Radiocarbon Dating was born of Scientific Curiosity.
+   The possibility of radiocarbon dating would not have            As noted by Libby in his Nobel Lecture, “it had its
+existed, had not 14C had the “wrong” half-life—a fact              origin in a study of the possible effects that cosmic rays
+that delayed its discovery [1]. Following the discovery            might have on the earth and on the earth’s atmosphere”
+of this 5730 year (half-life) radionuclide in laboratory           [4]. Through intensive study of the cosmic ray and
+experiments by Ruben and Kamen, it became clear to                 nuclear physics literature, Libby made an important
+W. F. Libby that 14C should exist in nature, and that it           series of deductions, leading to a quantitative predic-
+could serve as a quantitative means for dating artifacts           tion of the natural 14C concentration in the living bio-
+and events marking the history of civilization. The                sphere. As reviewed in chapter I of Libby’s monograph,
+search for natural radiocarbon was itself a metro-                 and in the Nobel Lecture, the deductive steps included:
+logical challenge, for the level in the living biosphere           (1) Serge Korff’s discovery that cosmic rays generate
+[ca. 230 Bq/kg] lay far beyond the then current state of           on average about 2 secondary neutrons per cm2 of the
+the measurement art. The following section of this                 earth’s surface per second; (2) the inference that the
+article reviews the underlying concepts and ingenious              large majority of the neutrons undergo thermalization
+experimental approaches devised by Libby and his                   and reaction with atmospheric nitrogen to form 14C via
+students that led to the establishment and validation of           the nuclear reaction 14N(n,p)14C; (3) the proposition that
+the “absolute” radiocarbon technique.                              the 14C atoms quickly oxidize to 14CO2, and that this
+   That was but the beginning, however. Subsequent                 mixes with the total exchangeable reservoir of carbon
+metrological and scientific advances have included: a              in a period short compared to the ca. 8000 year mean
+major improvement in 14C decay counting precision                  life of 14C. Based on the observed production rate of
+leading to the discovery of natural 14C variations; the            neutrons from cosmic rays (ca. 2 cm–2 s–1), their near
+global tracer experiment following the “pulse” of                  quantitative transformation to 14C, and an estimate of
+excess 14C from atmospheric nuclear testing; the grow-             the global carbon exchangeable reservoir (8.5 g/cm2),
+ing importance of quantifying sources of biomass and               Libby estimated that the steady state radioactivity con-
+fossil carbonaceous contaminants in the environment;               centration of exchangeable 14C would be approximate-
+the revolutionary change from decay counting to atom               ly [(2 × 60)/8.5] or about 14 disintegrations per minute
+counting (AMS: accelerator mass spectrometry) plus                 (dpm) per gram carbon (ca. 230 mBq g–1). Once living
+its famous application to artifact dating; and the                 matter is cut off from this steady state, exponential
+demand for and possibility of 14C speciation (molecular            nuclear decay will dominate, and “absolute dating” will
+dating) of carbonaceous substances in reference                    follow using the observed half-life of 14C (5568 years).2
+materials, historical artifacts, and in the natural
+environment.
+                                                                   1
+                                                                     Figure 1 shows Libby as the author first met him, shortly after the
+2.   The Birth of Radiocarbon Dating                               latter entered the University of Chicago as a graduate student in
+                                                                   chemistry.
+                                                                   2
+   The year before last marked the 50th anniversary of               Production rate and reservoir parameters are taken from the Nobel
+                                                                   lecture [4]; these values differ somewhat from those used by Libby
+the first edition of Willard F. Libby’s monograph,
+                                                                   in [5] and in the first edition of his book [2]. The half-life (5568 a) is
+Radiocarbon Dating—published in 1952 [2]. Eight                    the “Libby half-life” which by convention is used to calculate “radio-
+years later Libby was awarded the Nobel Prize in                   carbon ages;” the current accepted value for the physical half-life is
+Chemistry. In a very special sense that small volume               (5730 ± 40) a [5a].
+
+                                                             186
+                                                    Volume 109, Number 2, March-April 2004
+                 Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+           Fig. 1. Portrait of W. F. Libby, about the time of publication of the first edition of his monograph, Radiocarbon Dating
+           (1952), and statement of the Nobel Committee (1960) [3].
+
+Two critical assumptions are needed for absolute 14C                            thermal diffusion enrichment technique [6] was not: it
+dating: constancy of both the cosmic ray intensity and                          demanded very large samples and thousands of (1946)
+size of the exchangeable reservoir on average for many                          US dollars “to measure the age of a single mummy”
+thousands of years. A graphical summary of the above                            [4]. Development of an acceptable technique was
+points is given in Fig. 2.                                                      formidable, as outlined in Table 1. A substantial in-
+   Libby first postulated the existence of natural 14C in                       crease in signal was achieved by converting the sample
+1946, at a level of 0.2 to 2 Bq/mol carbon (1 dpm/g to                          to solid carbon, which coated the inner wall of a
+10 dpm/g) [5]. His first experimental task was to                               specially designed “screen wall counter;” but the back-
+demonstrate this presence of “natural” 14C in living                            ground/signal ratio (16:1) still eliminated the possibili-
+matter. The problem was that, even at 10 dpm/g, the 14C                         ty of meaningful measurements. At this point, Libby
+would be unmeasurable! The plan was to search for                               had an inspiration, from the analysis of the nature of the
+natural 14C in bio-methane, but the background of his                           background radiation [4]. He concluded that it was
+well-shielded 1.9 L Geiger counter (342 counts per                              primarily due to secondary, ionizing cosmic radiation
+minute) exceeded the expected signal by a factor of                             having great penetrating power—negative mu mesons
+400. Libby and coworkers did succeed in demonstrat-                             (µ–). By surrounding the sample counter with cosmic
+ing the presence of 14C in living matter, however. For an                       ray guard counters operating in an anti-coincidence
+account of their creative approach to the problem, see                          mode, most of the µ– counts could be eliminated, result-
+their one page article in Science, “Radiocarbon from                            ing in a further background reduction by a factor of
+Cosmic Radiation” [6].3                                                         twenty, to approximately 5 counts per minute (cpm).
+   Having detected 14C in the living biosphere, Libby                           The final background to signal ratio of 0.8 for living
+and his colleagues had to develop a measurement                                 carbon, made possible the measurement of natural
+technique that was both quantitative and practical. The                         (biospheric) 14C with a precision under 2 % (Poisson
+                                                                                relative standard deviation) with a total (sample, back-
+                                                                                ground) counting time of just 2 d ([2], Chap. V). Fig. 3
+3
+  To fully appreciate the nature of the experimental impediments and            shows the low-level counting apparatus devised by
+flashes of insight along the path to discovery, students are encour-
+                                                                                Libby, with which the seminal 14C dating measurements
+aged to study the original scientific literature, as given here, rather
+than restricting attention to subsequent summaries in textbooks.
+
+
+
+
+                                                                          187
+                                             Volume 109, Number 2, March-April 2004
+             Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                                                                                                             14
+                    Fig. 2. Graphical representation of the production, distribution, and decay of natural    C
+                    (courtesy of D. J. Donahue).(Parameter values are approximate.)
+
+
+                                                                     Table 1. Libby’s Measurement Challenge
+were made. The 14C screen wall counter is visible
+through the open, 8 inch thick cantilevered steel doors              •   Cosmic ray neutron intensity: 2 n cm–2 s–1
+having a wedge-like closure. The steel “tomb” reduces                •   Exchangeable carbon reservoir: 8.5 g cm–2
+the background by about a factor of five. The bundle                 •   Estimated 14C activity: 14 dpm g–1 (0.23 Bq g–1)
+                                                                     •   Sample size (detector efficiency): 8 g carbon (5.5 %)
+of anticoincidence cosmic ray guard counters, seen
+                                                                     •   Estimated modern carbon rate 6.2 cpm (min–1)
+surrounding the central counter in the figure, eliminates            •   Background rate: 500 cpm (unshielded), 100 cpm (20 cm Fe)
+some 95 % of the residual background from the
+                                                                     Assumptions:
+penetrating µ– radiation, through electronic cancella-                 Constant production rate
+tion.                                                                  Fixed exchangeable C reservoir (uniform distribution)
+
+
+                                                               188
+                                                   Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+                                                                              step was to measure the 14C concentrations in selected
+                                                                              historical artifacts of known age, and compare them to
+                                                                              the “absolute” 14C age. The latter was accomplished by
+                                                                              comparing the artifact 14C concentration (dpm/g C) to
+                                                                              that of the living biosphere. The absolute age derives
+                                                                              from the inversion of first order nuclear decay relation,
+                                                                              using 15.3 dpm/g and 5568 a as the parameters of the
+                                                                              “absolute” natural 14C decay curve.
+                                                                                 The famous result, utilizing known age tree rings and
+                                                                              independently-dated Egyptian artifacts, is shown in
+                                                                              Chapter I of Libby’s 1952 monograph and Fig. 4 in this
+                                                                              article. Although the relative measurement uncertain-
+                                                                              ties are moderately large (ca. 1 % to 5 %), the data
+                                                                              provide a striking validation for the radiocarbon dating
+                                                                              method over a period of nearly 5000 years. Note that
+                                                                              the curve shown is not fit to the data! Rather, it repre-
+                                                                              sents the absolute, two-parameter nuclear decay func-
+                                                                              tion. (See [8] for detailed information on the validation
+Fig. 3. Low-level anticoincidence counting apparatus devised by               samples selected.)
+Libby for the original 14C measurements that led to the establishment            This initial absolute dating function served to estab-
+of the radiocarbon dating technique (Ref. [2], and Radiocarbon                lish the method, but it indicated the need for a univer-
+Dating (jacket cover) R. Berger and H. Suess, eds., Univ. California
+Press, Berkeley (1979).)                                                      sal radiocarbon dating standard, since the reference
+                                                                              value for the intercept (here 15.3 dpm/g) would vary
+   Perhaps the most valuable metrological lesson from
+Libby’s early work was the extreme importance of
+formulating a realistic theoretical estimate for the
+sought-after “signal.” Without that as a guideline for
+designing a measurement process with adequate detec-
+tion or quantification capabilities, there is essentially
+no possibility that natural radiocarbon could have
+been found by chance with the then current radiation
+instrumentation.
+2.1    Standards and Validation
+   Once the measurement of natural 14C became
+feasible, the immediate task tackled by Libby and his
+colleagues was to test the validity of the radiocarbon
+dating model. The first step consisted of determining the
+zero point of the natural radiocarbon decay curve— i.e.,
+the radioactivity concentration (dpm 14C per gram C) in
+living matter, and to test for significant geographic varia-
+tion. This was a major component of the PhD thesis of
+E. C. Anderson [7]; the result (Ro) was (15.3 ± 0.5) dpm/g
+[255 Bq/kg] with no significant deviation from the
+hypothesis of a uniform global distribution.4 The next
+
+4                                                        14
+  The neutron intensity in the atmosphere, and hence the C produc-
+tion profile, has major variations vertically (because of cosmic ray
+                                                                              Fig. 4. Radiocarbon dating validation curve (1952): the “curve of
+absorption with atmospheric depth) and latitudinally (because of
+                                                                 14           knowns” that first demonstrated that absolute radiocarbon dating
+geomagnetic shielding)—See Figs. 2 and 3 in Ref. [2]. Because C
+                                                                              “worked.” The validation points represent tree rings and historical
+has such a long mean life (≈8000 a), however, it was expected that
+                                                                              artifacts of known age. The exponential function is not fit to the data,
+any residual gradients in the global exchange reservoir would be
+                                                                              but derived from the independently measured half-life and the 14C
+undetectable, given the 3 % to 5 % uncertainties of Libby’s original
+                                                                              content of living matter ([2], Fig. 1).
+measurements (Ref. [2], Chap. I).
+
+                                                                        189
+                                                 Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+among laboratories, if they each made their own                                This “failure” resulted from basic advances in 14C
+standards. The problem was tackled by the internation-                      metrology. New approaches to low-level counting
+al radiocarbon community in the late 1950s, in cooper-                      yielded measurement imprecision that ultimately
+ation with the U.S. National Bureau of Standards. A                         approached 0.2 % (rsd);6 and construction of the
+large quantity of contemporary oxalic acid di-hydrate                       “radiocarbon dating calibration curve” from meticu-
+was prepared as NBS Standard Reference Material                             lously counted annual tree ring segments showed that
+(SRM) 4990B. Its 14C concentration was ca. 5 % above                        assumptions of constancy within different geochemical
+what was believed to be the natural level, so the                           compartments of the exchangeable carbon reservoir,
+standard for radiocarbon dating was defined as 0.95                         and over time, were invalid. (This is a classic example
+times the 14C concentration of this material, adjusted to                   demonstrating that one cannot prove the “null hypo-
+a 13C reference value of –19 per mil (PDB). This value                      thesis;” the validation curve that established the
+is defined as “modern carbon” referenced to AD 1950.                        radiocarbon dating method demonstrated consistency
+Radiocarbon measurements are compared to this                               (validity) only within the errors (uncertainties) of the
+modern carbon value, and expressed as “fraction of                          validation measurements.) The failure of the absolute
+modern” (fM); and “radiocarbon ages” are calculated                         dating model was, in fact, a notable success. The revo-
+from fM using the exponential decay relation and the                        lutionary discovery of natural radiocarbon variations
+“Libby half-life” 5568 a. The ages are expressed in                         literally arose out of the “noise” of absolute radiocar-
+years before present (BP) where “present” is defined as                     bon dating, and it transformed the study of natural 14C
+AD 1950. A published estimate for the 14C concentra-                        into a multidisciplinary science, giving rise to totally
+tion of “modern carbon” is given as (13.53 ± 0.07)                          new scientific disciplines of 14C solar and geophysics.
+dpm/g [9]. In July 1983, a replacement SRM 4990C                               At his opening address at the 12th Nobel Symposium
+was substituted for the nearly exhausted SRM 4990B.                         on Radiocarbon Variations and Absolute Chronology
+It was prepared from oxalic acid derived from the                           [12] in Uppsala, Nobelist Kai Siegbahn emphasized
+fermentation of French beet molasses from harvests of                       that “This subject is [now] interesting to specialists
+1977. A copy of the Certificate Analysis of SRM                             in many different fields, as can be seen from the list
+4990C, together with pertinent references, may be                           of participants, showing archaeologists, chemists,
+obtained from the website: http://nist.gov/srm [10].5                       dendrochronologists, geophysicists, varved-clay geolo-
+   Libby’s successful development of the science of                         gists, and physicists” (Ref. [12], pp. 19f). An early
+radiocarbon dating led to the rapid establishment of                        version of the dendrochronological 14C calibration
+more than a hundred dating laboratories world-wide,                         curve, presented by Michael and Ralph at the
+the initiation of a journal supplement that later became                    Symposium, is given in Fig. 5 (Ref. [12], p. 110).7 The
+the journal Radiocarbon, and the establishment of a                         Bristlecone pine, as shown in the figure, has made a
+continuing series of triennial RADIOCARBON confer-                          seminal contribution to the science of dendrochronolo-
+ences, the first of which took place in Andover,                            gy, and through that, to the study of natural 14C varia-
+Massachusetts in 1954.                                                      tions. It is considered by some to be the world’s “oldest
+                                                                            living thing,” with a single tree containing annual rings
+3.    Natural Variations                                                    going back 4000 years or more. It is clear from Fig. 5
+
+   Already, by the time the Nobel Prize was awarded,                        6                                         14
+                                                                              The deciding factor for high precision C measurement was the
+Radiocarbon Dating appeared to be approaching matu-
+                                                                            successful development of CO2 gas proportional counting, after
+rity, with a rich future in application as opposed to new                   several failed attempts. Compared to Libby’s solid sample (graphite)
+fundamental discovery. This all changed, however,                           technique, the CO2 method resulted in smaller sample sizes and
+when some of the fundamental assumptions proved to                          efficiency enhancement by nearly a factor of twenty.
+                                                                            7
+be invalid—what might be considered as the “failure of                        The relatively imprecise dendro-calibration curve in Fig. 5 extends
+                                                                            to ca. 5000 BC. Meanwhile, the radiocarbon dating calibration func-
+Radiocarbon Dating.”
+                                                                            tion has undergone considerable refinement: it now comprises an
+                                                                            extensive database, and it has become an essential element of all
+5                                 14
+  Several secondary standards for C dating are available through            radiocarbon dating. The 1986 Calibration Issue of the journal
+the International Atomic Energy Agency. These materials, designated         Radiocarbon [13] has a compilation going back to ca. 8000 BC.
+IAEA C1 – C8, consist of wood, cellulose, sucrose, and carbonate;           More recent attempts at extending the record much further back in
+                                                                                                 14
+they cover a range of 0.00 pMC to 150.6 pMC, and have been sub-             time have utilized C comparisons with other dating methods,
+ject to an international comparison [11]. Note that pMC (percent            notably U/Th disequilibrium dating. By this means, calibration data
+modern carbon) refers to fM expressed as a percentage.                      have been given for periods beyond 20 000 BC [14].
+
+
+
+
+                                                                      190
+                                               Volume 109, Number 2, March-April 2004
+              Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                     Fig. 5. Radiocarbon Variations, discovered by comparison of high precision radiocarbon “dates”
+                     with high (annual) accuracy tree ring dates. The plot, which covers the period from about
+                     5000 BC to the present, represents an early version of the radiocarbon dating calibration curve
+                     ([12], p.110). The photo shows the Bristlecone pine, the major source of dendrodates extending
+                     back many millennia (Photo is courtesy of D. J. Donahue).
+
+
+that the dendrochronological age shows a significant                       The Nobel Symposium serves as a rich resource for
+departure from the absolute 14C (nuclear) age, begin-                   information about the natural 14C variations. An excel-
+ning about three thousand years ago, and continuing                     lent exposition of the three prime causative factors is
+through the end of this series of measurements (ca.                     given by Hans Suess (Ref. [12], pp. 595-605). These
+5000 BC). These newly discovered deviations from the                    are: “(1) changes in the 14C production rate due to
+absolute dating model, of course, posed new scientific                  changes in the intensity of the [earth’s] geomagnetic
+questions: what are the causes of the deviations, and                   field; (2) ... modulation of the cosmic-ray flux by solar
+can we use them to better understand Nature? In fact,                   activity; (3) changes in the geochemical radiocarbon
+the dendro-calibration curve serves dual purposes. For                  reservoirs and rates of carbon transfer between them.”
+more classic “dating” disciplines, such as archaeology,                 The major departure (ca. 10 %) seen in Fig. 5 is consid-
+anthropology, and geology (event dating), it gives an                   ered to be due to the geomagnetic field, corresponding
+empirical correction function for the simple radio-                     to a factor of two change in its intensity over the past
+carbon ages (BP) derived from the first order decay                     8000 years [15]. This has given major impetus to the
+relation. For solar and geophysics and related disci-                   science of archaeomagnetism. The other two factors
+plines, it gives the potential for the quantitative investi-            are considered responsible for the partly periodic
+gation of the causes of the variations.                                 fine structure exhibited in the curve, with varying
+
+
+                                                                  191
+                                                  Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+Fig. 6. Radiocarbon Variations and Climate: the influence of solar activity (sunspot record) (top) on 14C concentrations (cosmic ray production
+rates) and climate (Maunder Minimum temperature record) (bottom) [15, 16].
+
+
+
+amplitudes of about 1 % to 2 %. (See Figs. 1, 2 in the                     the figure suggests a strong link to global climate,
+Suess article, respectively, for plots of the first order                  represented here by the “little ice age.”
+(geomagnetic) and second order (fine structure) devia-
+tions from the ideal exponential decay function (“radio-                   4.    The Bomb
+carbon age”).)
+   A fascinating link exists between dendrochronology                         Atmospheric nuclear testing had an unintended but
+and radiocarbon age, related to climate. That is, tree                     profound impact on 14C geoscience. It approximately
+rings by their width time series, like ice cores by their                  doubled the 14C concentration in atmospheric CO2, and
+18
+  O time series, give insight into ancient climate [16].                   consequently in living matter, by the mid-1960s. This
+This, in turn, may be linked to the aforementioned 14C                     came about because neutrons released from nuclear
+variations from changing solar activity and/or varia-                      fission (or fusion) react with atmospheric nitrogen by
+tions in geochemical reservoirs. Fig. 6 represents a                       exactly the same reaction, 14N(n,p)14C, as the secondary
+famous example of the inter-relationships among solar                      neutrons from cosmic rays. The “bomb pulse” of excess
+                                                                           14
+activity (sunspots), natural radiocarbon variations, and                     C was recorded in all parts of the living biosphere,
+climate (Ref. [15], Fig. 5a; Ref. [16], p. 615). The upper                 from vintage wine [17] to contemporary tree rings [18].
+part of the figure shows the correlation between the                       It was characterized by a sharp injection of 14C in the
+sunspot record (circles, and ca. 11 year cycles) and the                   early 1960s, followed by relatively slow geochemical
+14
+  C variations. The period of low solar activity, and                      decay after the limited (atmospheric) nuclear test ban
+correspondingly increased 14C activity, peaking at about                   treaty. Totally new and unanticipated opportunities to
+1500 AD and 1700 AD is striking. The lower part of                         perform global tracer experiments resulted from this
+
+
+
+
+                                                                     192
+                                              Volume 109, Number 2, March-April 2004
+              Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                                                                 14
+                        Fig. 7. Input function of excess (“bomb”) C: a global tracer for carbon cycle dynamics
+                        in the atmosphere, biosphere, and oceans [19].
+
+
+sudden, widespread injection of anthropogenic 14C into                brings regarding the effects of the oceans on pollutant
+the biogeochemical system.                                            and heat transport and climate [22].8
+
+4.1   Excess 14C as a Global Geochemical Tracer                       4.2    The Second (Geochemical) Decay Curve of
+                                                                             14
+                                                                               C: Isotopic-Temporal Authentication
+   An extensive world-wide program of monitoring the
+excess atmospheric 14CO2 began with the onset of                         Geochemical relaxation of the excess atmospheric
+                                                                      14
+nuclear testing and continues today. Results of precise                 C after about 1970 has resulted in a second (short-
+measurements of the input function for excess 14CO2                   lived) “decay curve” for 14C (tail of the input function,
+are shown in Fig. 7 (Ref.[19]; Ref. [20], Chap. 31,                   Fig. 7). This has made possible a new kind of radio-
+(I. Levin, et al.)). Use of this known pulse of excess 14C            carbon dating, where modern artifacts and forgeries,
+as a tracer has allowed scientists to study exchange and              food products, forensic biology samples, and industrial
+transport processes in the atmosphere, the biosphere,                 bio-feedstocks can be dated with near annual resolution
+and the oceans on a scale that would otherwise have                   [24]. As a result of the new submilligram measurement
+been nearly impossible. Simple visual examination of                  capability (Sec. 6), short-term radiocarbon dating is
+Fig. 7 shows, for example, that the excess atmospheric                beginning to achieve commercial importance, as
+14
+  C injected in the northern hemisphere gave an attenu-               exemplified by its application to the dual isotopic
+ated signal in the southern hemisphere, and that there                (13C, 14C) fingerprinting and time stamping of industrial
+was a lag time of approximately 2 years.                              materials.
+   Nowhere has the bomb pulse been more important                        A case in point is the Cooperative Research and
+than in furthering our understanding of the dynamics                  Development project between the NIST Chemical
+of the ocean. A comprehensive program (GEOSECS:                       Science and Technology Laboratory and the DuPont
+Geochemical Ocean Section Study) to follow the plume                  Central Research and Development Laboratory [25].
+of excess 14C as it diffused in the Atlantic and Pacific
+oceans was initiated in the 1970s. A small example of                 8
+                                                                        The advent of accelerator mass spectrometry, as discussed in
+the findings is given in Fig. 8, where we find a nearly               Sec. 6 of this article, has given a major boost to our knowledge of
+uniform distribution below the mixed layer, indicating                ocean circulation. Information gained through the GEOSECS
+rapid vertical transport in the North Atlantic, in contrast           program has been greatly amplified in the World Ocean Circulation
+                                                                      Experiment (WOCE), where requisite sample sizes were reduced
+to model predictions [19, 21]. The scientific impact of               from 200 L of sea water each, to less than 1 L; and the 14C ocean
+this massive tracer study of ocean circulation is strik-              circulation database grew by more than 10 000 dates during the
+ing, considering, for example, the new knowledge it                   1990s [23].
+
+
+
+
+                                                                193
+                                          Volume 109, Number 2, March-April 2004
+             Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                                     14
+                       Fig. 8. Excess C and ocean circulation (GEOSECS). Model (left) and experimental
+                                                         14
+                       (right) vertical transects of bomb C in the North Atlantic [19].
+
+
+
+The goal of the project was to demonstrate the capabil-           fossil feedstock (petroleum) based. The ability to estab-
+ity to authenticate and date renewable (biosourced)               lish a unique isotopic fingerprint for the DuPont
+feedstocks, chemical intermediates, and finished                  biotechnology materials was critical for the identifica-
+industrial products using high accuracy dual isotopic             tion of the product as a unique composition of matter,
+(13C-14C) “fingerprinting,” traceable to NIST. The                and to track it in commerce. The work represents a
+specific project, as outlined in Fig. 9, was directed             frontier of high accuracy, dual isotope metrology, with
+                                                                  13
+toward the unambiguous identification of the copoly-                C data ur < 0.01 %) serving to discriminate among
+mer polypropylene terephthalate (3GT)) produced from              different photosynthetic cycles, and 14C data (ur < 0.5 %)
+the biosourced monomer 1,3-propanediol (3G), which                serving both for quantitative fossil-biomass apportion-
+was derived from corn as feedstock. (Terephthalic acid            ment and for dating the year of growth of the biomass
+(TPA) served as the complementary monomer.)                       feedstock.
+Isotopic discrimination was essential because it is not              A graphical summary of the results of the project is
+possible chemically to distinguish the biosourced 3G              presented in Fig. 10, which shows the dual isotopic
+and 3GT from existing industrial materials that are               signatures of the copolymer (3GT) and bio-sourced
+
+
+
+
+                                                            194
+                                            Volume 109, Number 2, March-April 2004
+             Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                         Fig. 9. Polypropylene Terephthalate: biomass and fossil feedstocks. The 1,3, propane-
+                         diol monomer is derived from a renewable (biomass) feedstock via laboratory biotech-
+                         nology: conversion of glucose or cornstarch using a single microorganism. The copoly-
+                         mer has potential large volume demand, and is useful as a fiber, film, particle, and a
+                         molded article [25].
+
+monomer (3G); as well as values for isotopic reference               corn-glucose (bottom right) demonstrates the dual
+materials (S1: SRM 4990B [oxalic acid]; S2: IAEA C6                  isotopic discrimination capability of the technique. In
+[ANU sucrose]; S3: SRM 1649a [urban dust])., and                     fact, using the short term “decay” curve of 14C (Fig. 11),
+pre-existing materials (3G′, 3G″). The dashed line                   it was possible to date the two batches to the nearest
+joining the copolymer end members (3G, TPA) demon-                   year of growth, 1994 (A) and 1996 (B), respectively.
+strates isotopic-stoichiometric mass balance. Rec-                   (Standard uncertainty bars shown.)
+tangular regions in red define the “scope of claims”
+(authentication regions) for the new isotopic composi-               5.    Anthropogenic Variations; “Trees
+tions. The blue “x” in the figure represents data for an                   Pollute”
+independent batch of the monomer—sent to NIST
+“blind” to test the validity of the authentication region               The achievement of high precision, low background
+for bio-sourced 3G. The results show both that the                   counting, discussed in Sec. 3, led also to the first
+test was successful and that the separate production                 isotopic evidence of global pollution with fossil CO2 —
+batches of the 3G monomer had unique isotopic signa-                 named the “Suess Effect,” after its discoverer. A
+tures. The approximately ten-fold expansion of the                   dramatic monotonic drop in the 14C/12C ratio in tree
+isotopic data for two independent batches (A, B) of                  rings beginning in the late 19th century, reflecting the
+
+
+                                                               195
+                                                   Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                                         14   13
+Fig. 10. Unique Isotopic Signatures: the C- C plane [25]. The main panel shows dual isotopic signatures f:or (1) NIST (S1, S3) and IAEA (S2)
+traceability standards, and (2) glucose from biomass (a), the new bio-sourced monomer 3G (b) (from cornstarch), the resulting copolymer 3GT
+(d), and pre-existing products 3G′, 3G″ (c, e). Expanded views of the authentication regions (red rectangles) for the copolymer (left) and monomer
+(center) are given in the bottom panels, plus ≈10-fold expansion (right) of the isotopic data for independent batches (A, B) of a biomass feedstock
+(glucose from corn). The blue “x” represents a blind (3G) validation sample.
+
+
+                                                                             5.1    Fossil-Biomass Carbon Source Apportionment
+use of coal during the Industrial Revolution, showed a
+2.5 % fossil carbon dilution effect by the 1950s (Ref.                          Research on more specific local or even regional
+[12], p. 289), after which it was eclipsed by the vast                       carbonaceous pollution began slowly, because of the
+injection of “bomb” carbon. Thus began still another                         massive samples required. Heroic sampling efforts in
+field of 14C science: the investigation of anthropogenic                     the late 1950s demonstrated the principle by measure-
+variations, particularly as related to environmental                         ments of particulate carbon pollution in U.S. urban
+pollution.                                                                   atmospheres [26, 27]. After a lapse of two decades,
+
+
+
+                                                                       196
+                                               Volume 109, Number 2, March-April 2004
+              Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                        Fig. 11. Short term 14C “decay” curve, representing geochemical relaxation of excess
+                        atmospheric 14C from nuclear testing [Levin et al., in (Ref. [19]; Ref. [20], Chap. 31).
+                        Information critical for the discussion in Sec. 7.2.1 is indicated by the arrow—namely, the
+                        sampling date and corresponding biomass 14C enrichment for SRM 1649a (urban dust).
+
+
+research in this area was renewed by the author, stimu-                  tremendous impact on visibility from particulate pollu-
+lated by a 1975 article in Science reporting that the                    tion from rush hour traffic. Results of the two month
+culprit for a severe case of urban pollution in tidewater                study of particulate carbon proved that daytime pollu-
+Virginia might be hydrocarbon emissions from trees                       tion (up to ≈ 65 %) was dominated by motor vehicle
+[28]. The evidence was chemical and controvertible:                      emissions (fossil carbon), and nighttime pollution
+plausible, but circumstantial evidence suggested that                    (up to ≈ 95 %), by residential woodburning (biomass
+the air pollution was due to hydrocarbon emissions                       carbon), with the mutagenicity (potency) of the motor
+from trees rather from automobile exhaust or evapora-                    vehicle particles more severe by a factor of three [30].
+tion from nearby industrial and military storage tanks.                  Particulate carbon aerosols are now widely recognized
+The article concluded that “the relatively unsophisti-                   as an extreme health hazard in a number of U.S. cities;
+cated monitoring of [organic] pollutant concentra-                       and except for periods dominated by wildfires, major
+tions ... will rarely be of value in identifying [pollutant]             studies including 14C measurements have produced
+sources ...” Recognizing immediately that 14C could                      incontrovertible evidence that the urban episodes are
+function as an undisputed discriminator, we decided to                   dominated by fossil carbon, largely from motor vehicle
+design miniature low level counters, capable of meas-                    exhaust [31].
+uring just 10 mg carbon samples, more than two orders                       Quantitative apportionment of natural and anthro-
+of magnitude smaller than those used in the two earlier                  pogenic sources of particulate carbon, methane, carbon
+studies. Apart from forest fires, we found that the trees                monoxide, and volatile organic ozone precursors in
+were not the prime culprits, except for the case where                   the atmosphere, meanwhile, has seen a significant
+humans were using the trees for fuel! A review of                        expansion thanks to the sensitivity enhancement
+research in this area in the ensuing 20 years is given in                of accelerator mass spectrometry (AMS) [32, 33].
+Ref. [29].                                                               Most recently, with the emergence of micromolar 14C
+   One illustration of 14C aerosol science is given in                   AMS, and GC/AMS, the ability to “date” individual
+Fig. 12. It is drawn from perhaps the most extensive                     chemical fractions in small samples is having important
+study to date of urban particulate pollution using 14C.                  impacts on both artifact age accuracy, and our under-
+The multi-year, multidisciplinary study of the origins of                standing of perturbations of the human and natural
+mutagenic aerosols in the atmospheres of several                         environments by fossil and biomass carbonaceous
+U.S. cities, focussed on Albuquerque, New Mexico                         species. (See Section 7).
+during the winter of 1984-1985. The photos show the
+
+
+
+
+                                                                   197
+                             Volume 109, Number 2, March-April 2004
+Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+       Fig. 12. Anthropogenic 14C variations: fossil-biomass carbon apportionment of particu-
+       late air pollution in Albuquerque, New Mexico. (Photos showing visibility reduction in
+       early morning (top) and mid-afternoon (bottom) are courtesy of R .K. Stevens [30].). 14C
+       measurements quantified atmospheric soot from motor vehicles and residential wood-
+       burning, and helped apportion concomitant data on particulate mutagenicity.
+
+
+
+
+                                                198
+                                                 Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+6.    Accelerator Mass Spectrometry                                      energy (megavolt) nuclear accelerators were used as
+                                                                         atomic ion mass spectrometers [34-36]. Two measure-
+6.1   The Invention                                                      ment ideas held the key: (1) Negative carbon ions are
+                                                                         produced by a sputter ion source, using graphite as the
+   The second revolution in 14C measurement science                      target. (2) Following low energy mass selection, atom-
+was the discovery of a means to count 14C atoms, as                      ic and molecular negative ions are injected into an
+opposed to 14C decays (beta particles). The potential                    accelerator tube with a megavolt potential. The major
+impact on sensitivity was early recognized: inverting                    isobar is eliminated because nitrogen does not form a
+the first order nuclear decay relation, one finds that the                stable negative ion. Passage of the high energy ions
+ratio of the number of 14C atoms to the number of 14C                    through a stripper gas or foil destroys all molecular ions
+decays for any given sample is simply (τ /t), where τ is                 through the “coulomb explosion,” leaving only atomic
+the mean life (8270 a for 14C), and t is the counting time               carbon ions in the +3 or +4 charge state. 14C/12C ratio
+used for measurement of the disintegrations. Allowing                    measurements down to ca. 10–15 are thus made possible.
+for the difference in relative detection efficiency                      Typical sample sizes are 0.5 mg to 1 mg; modern
+between AMS and low-level counting, and setting t to 2 d,                carbon yields 10 000 counts in just a few minutes;
+gives a sensitivity enhancement of roughly 104, in favor                 and instrument backgrounds are negligible (≤0.2 %
+of AMS. This implies a dating capability of sub-                         modern, equivalent to a 14C age of ≥50 000 years BP).
+milligram amounts of modern carbon.                                         A diagram of the accelerator at one of the leading
+   The prize of radiocarbon dating at the milligram                      facilities is given in Fig. 13 [37]. The dramatic impact
+level was so great that major efforts were made                          of high energy (atomic ion) mass spectrometry is
+to refine mass spectrometric techniques to render the                    shown in Fig. 14, where it is clear that natural 14C is
+1.2 × 10–12 14C/12C ratio of modern carbon measurable;                   quite unmeasurable by low energy (conventional) mass
+but, like Libby’s initial attempt to count natural radio-                spectrometry due to molecular ions exceeding the
+carbon (without enrichment), natural 14C proved                          14
+                                                                           C signal by more than eight orders of magnitude
+unmeasurable by conventional mass spectrometry.                          (Ref. [20], Chap. 16]! Excellent reviews of the history,
+Impediments from molecular ions and the extremely                        principles, and applications of AMS are given in
+close isobar (14N: ∆m/m = 1.2 × 10–5) were over-                         Ref. [20] by H. Gove (Chap. 15) and R. Beukens
+whelming. Success came in 1977, however, when high                       (Chap. 16).
+
+
+
+
+Fig. 13. AMS: tandem accelerator at ETH, Zürich. Negative carbon ions, produced with a Cs+ sputter ion source, undergo low energy mass
+resolution and then are injected into the 4.5 MV accelerator tube. Molecular ions are destroyed by the stripper gas, and emerging 18 MeV C+3
+beams of 12C, 13C, and 14C are mass analyzed and measured in current (stable C ions) and event (14C ions) detectors [37].
+
+
+
+
+                                                                   199
+                                             Volume 109, Number 2, March-April 2004
+              Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                              Fig. 14. Conventional (top) vs accelerator (high energy) (bottom) mass
+                                             14 12
+                              spectrometry: C/ C sensitivity is enhanced by more than eight orders
+                                                                                                  –
+                              of magnitude through destruction of molecular ions (and unstable N )
+                              (Ref. [20], Chap. 16).
+
+As noted in the reviews by Gove and Beukens, the                     widely accepted statements (1) concerning scientific
+AMS revolution has extended well beyond 14C, spawn-                  investigations of the Shroud, and (2) following publi-
+ing a totally new research area in long-lived isotopic               cation of the Nature article announcing radiocarbon
+and ultra trace stable cosmo- and geo-chemistry and                  dating results (Fig. 15; Ref. [38]).
+physics through its capability to measure 3H, 14C, 26Al,
+36                                                                   1: “The Shroud of Turin is the single, most studied
+  Cl, 41Ca, and 129I, and most recently, selected actinides.
+                                                                     artifact in human history.”
+   Within one year of the publications announcing suc-
+cessful 14C AMS, another continuing series of interna-                                  14
+                                                                     2: “The Nature ( C) article has had more impact on
+tional conferences was born. The first international
+                                                                     Shroud research than any other paper ever written on
+AMS conference took place in 1978 in Rochester, New
+                                                                     the subject.”
+York. These conferences have continued on a triennial
+basis, with each proceedings occupying a special AMS                    The article, which was prepared by three of the most
+conference issue of the journal, Nuclear Instruments                 prestigious AMS laboratories, is available to the gener-
+and Methods in Physics Research.                                     al public on the web (www.shroud.com/nature.htm).
+                                                                     Together with public television [39], it is helping to
+6.2   The Shroud of Turin                                            create a broad awareness and understanding of the
+                                                                     nature and importance of the AMS measurement capa-
+   The radiocarbon dating of the Turin Shroud is                     bility. Secondly, because of controversy surrounding
+arguably the best known dating application of acceler-               the meaning of the radiocarbon result, measurement
+ator mass spectrometry, at least to the lay public. It               aspects of artifact dating have been given intense
+could not, or at least it would not have taken place with-           scrutiny. Such scrutiny is quite positive, for it gives the
+out AMS, because most decay (beta) counting tech-                    possibility of added insight into unsuspected phenome-
+niques would have consumed a significant fraction of                 na and sources of measurement uncertainty.
+this artifact. Although still a destructive analytical tech-            The Turin Shroud is believed by many to be the
+nique, AMS required only “a postage stamp” amount of                 burial cloth of Christ. The documented record, how-
+the linen cloth (Ref. [20], Chap. 15). This particular               ever, goes back only to the Middle Ages, to Lirey,
+exercise is having a metrological impact well beyond                 France (ca. 1353 AD) with the first firm date being
+the radiocarbon date, per se. This is shown, in part, by             1357 AD when it was displayed in a Lirey church.
+
+
+                                                               200
+                                                  Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+Fig. 15. The Turin Shroud. Shown in the montage are: (15a, upper left), the cover of the issue of Nature (16 February 1989) reporting the results
+of the 14C measurements by AMS laboratories in Tucson, Zürich, and Oxford; and three singular features of the artifact: (15b, lower left),
+the ≈50 mg dating sample received by the Tucson laboratory, showing the distinctive weave (3:1 herringbone twill), with dimensions about
+1 cm × 0.5 cm; (15c, upper right), the characteristic negative image, considered by some as a remarkable piece of mediaeval art; and (15d, lower
+right), a microphotograph by Max Frei showing individual fibers supporting pollen grains of presumed unique origin [38, 39].
+
+
+
+
+                                                                      201
+                                                    Volume 109, Number 2, March-April 2004
+                 Journal of Research of the National Institute of Standards and Technology
+
+
+Radiocarbon dating was seen immediately as a defini-                            Three highly competent laboratories were selected: the
+tive method to decide whether the “Lirey Shroud”                                University of Arizona, Oxford University, and the
+could have come from flax grown in the 1st century                              Swiss Federal Institute of Technology [ETH] in
+AD. The Shroud image, considered by some to be the                              Zürich. Samples of the Shroud, plus three control
+skilled work of a mediaeval artist, shows a full length                         samples of known age, were distributed blind to the
+image of a crucified man; but as a negative image [Fig.                         three laboratories. Control of this operation (distribu-
+15c].9 Prior to the AMS measurements, the Shroud was                            tion of samples, collection of results) was the responsi-
+subject to intensive examination by photography, spec-                          bility of Michael Tite of the British Museum. The
+troscopy, art and textile analysis, and palynology [38-                         accuracy and precision of the interlaboratory data for
+40]. The unique herringbone twill [Fig. 15b] is consid-                         the control samples were outstanding, leaving no doubt
+ered consistent with a 1st Century date; and pollen                             as to the quality of the AMS measurement technique
+grains found on the cloth [Fig. 15d] are stated by Max                          (Fig. 16). Sample-1 (Shroud) results, however, were
+Frei to have originated from a plant found only in the                          just marginally consistent among the three laboratories,
+region of Jerusalem. Radiocarbon dating of the cloth,                           prompting the authors of Ref. [38] to state that “it is
+however, yielded a result of 1262 to 1384 AD (95 %                              unlikely that the errors quoted by the laboratories for
+confidence interval) [38].                                                      sample-1 fully reflect the overall scatter.” Consistent
+   Apart from sampling,10 the AMS measurements were                             with the discussion in Sec. 2, the 14C age measurements
+performed taking the strictest quality control measures.                        are reported in “14C years BP.” Transformation of these
+                                                                                ages to calendar ages must take into account the natu-
+                                                                                ral 14C variations, using the dendrochronological
+9
+  Figure 15c and 15d images are from the documentary prepared by                calibration curve [13]. The transformation is shown in
+the British Broadcasting Corporation which is hereby acknowledged               Fig. 17, which demonstrates also an interesting aspect
+[39]; Fig. 15b is courtesy of D. J. Donahue.                                    of the non-monotonic calibration function: namely,
+10
+  The critical, non-AMS issue relates to sample validity. The origi-
+                                                                                exclusion of the period between 1312 AD and 1353 AD
+nally agreed upon sampling protocol was to have involved seven                  from the 95 % confidence interval. In addition, an
+laboratories, two measurement techniques (decay and atom [AMS]                  interesting link exists between this figure and
+counting), and multiple samples representing different regions of the           Fig. 6 (Maunder Minimum), in that the same solar-
+cloth. Shortly before the event, however, the scheme was changed to             activity-induced 14C variations are represented. A com-
+restrict the number of laboratories (all AMS) and the number of
+samples to three, all taken from the same location. The sampling
+                                                                                parison of the two figures shows that the radio-
+location, near a corner of the Shroud, and near an area damaged by              carbon date (691 BP), near the end of a significant
+the fire of 1532 AD, is considered an unfortunate choice, because               calibration curve protrusion (Fig. 17), corresponds to
+of the possibility of exogenous carbon from the fire, repairs, and              the end of the 13th century warm period having high
+organic contamination from handling through the ages [40, 41].                  solar activity (Fig. 6).
+   Organic contamination cannot be dismissed. Recent observations
+indicate the presence of a bacterially-induced “bioplastic” coating on
+                                                                                   Consistency of the AMS results with the existing
+Shroud fibers, as has sometimes been found on mummy wrapping                    (Lirey) documentation seems compelling, but a wave
+fabric (leading to erroneous dates). According to [42] (Gove, et al.),          of questioning has followed—not of the AMS method,
+such bioplastic contamination would not have been removed by the                but of possible artifacts that could have affected the
+conventional pre-treatment methods applied to the Shroud samples.               linen and invalidated the 14C result (Ref. [40], Chap. 1,
+Qualitatively, such contamination would lead to a more recent date;
+quantitatively, if the contamination were all from the 16th Century, it
+                                                                                Refs. [41], [42]). A sampling of the creative hypotheses
+would need to represent roughly 70 % of the carbon present, to shift            put forward is given in Table 2. The first, for example,
+a first century date to the observed result. (For recent, late 20th             is based on the premise that nuclear reactions involving
+Century contamination, roughly 40 % contamination carbon would                  the substantial amount of deuterium contained in a
+be required.) In a 2002 review article posted to the shroud website,            human body could produce neutrons, which might then
+www.shroud.com/pdfs/rogers2.pdf, [38], Rogers and Arnoldi
+question the bioplastic hypothesis, on the basis of detailed chemical
+                                                                                produce excess 14C through the (n,p) reaction, making
+analysis of fibers from the “Raes sample” which was taken from a                the age too young. The proposed deuteron reactions,
+region adjacent to that of the 14C samples. Quantitatively, these               however, are either qualitatively or quantitatively
+authors suggest that the coating would contribute only a few percent            inaccurate—barring an unnatural burst of high energy
+to the sample carbon; qualitatively, they believe that it is a poly-            photons (photofission). The third proposal raises the
+saccharide gum (probably Gum Arabic) that would be removed by
+     14
+the C pretreatment chemistry. Nevertheless, Rogers and Arnoldi
+                                                                                question of non-contemporaneous organic matter—
+                                 14
+question the validity of the C sample, partly because of the                    whether from incompletely removed carbon contami-
+presence of cotton and other chemical differences between the                   nation from “oil, wax, tears, and smoke” that the cloth
+adjacent (Raes) sample and the main shroud material.                            had been exposed to, or from bacterial attack and
+
+
+                                                                          202
+                                 Volume 109, Number 2, March-April 2004
+Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+Fig. 16. AMS 14C dating results (“blind”) for the Turin Shroud (sample-1) and three control samples of known
+age (samples-2,3,4), from the three AMS laboratories: Z (Zürich), O (Oxford), and A (Arizona). Dates are
+expressed as “Radiocarbon Years” before present (BP); uncertainties represent 95 % confidence intervals [38].
+
+
+
+
+                    Fig. 17. Transformation of the Radiocarbon Age (BP) to the Calendar
+                    Age (AD) of the Shroud. The 14C age (95 % CI) of (691 ± 31)
+                    BP corresponds to a two-valued calendar age as a result of the non-
+                    monotonic radiocarbon dating calibration curve. As indicated in the
+                    figure, the projected calendar age ranges are: (1262–1312) AD and
+                    (1353–1384) AD [38].
+
+
+                                                    203
+                                                  Volume 109, Number 2, March-April 2004
+                 Journal of Research of the National Institute of Standards and Technology
+
+Table 2. Creative Hypotheses
+                                                                        soot and pollen, we have the possibility of controlling
+•
+            14
+     Excess C from deuterium                                            the sample preparation blank to less than 0.2 µg by
+        spontaneous fission; cold fusion                                applying a "thermal discriminator" at a critical stage of
+     14
+                                                                        the process. Microgram level 14C soot studies have
+•     C isotopic fractionation/ exchange (fire of 1532 AD)              already been successful in Greenland snow; and pollen
+        biased sampling; “age” depends on location
+                                                                        studies hold great promise for ice core dating, and per-
+• Bioplastic coating; non-contemporaneous with linen                    haps even for dating the pollen found by Max Frei on
+     pretreatment chemistry                                             the Turin Shroud.12 An important measurement issue
+                                                                        for ice core pollen relates to the amount needed for a
+                                                                        given dating precision. To give a rough estimate:
+deposit over the ages. Apart from the effects of such                   assuming 50 ng carbon per pollen grain, a pollen
+factors on the Shroud, the issue of organic reactions and               age of 2000 years, and 5 % Poisson imprecision
+non-contemporaneous contamination of ancient materi-                    (σ≈400 years); one would need to collect about 100
+als can be a very serious and complex matter, deserving                 pollen grains. This might be accomplished in a few
+quantitative investigation of the possible impacts on                   hours, using the "hand picking" microscope technique
+measurement accuracy.10 Research questions of this                      of Long et al. [48].
+sort, including the classic problem of dating ancient
+bone, form one of the key stimuli for the development                                                14
+                                                                        Table 3. Molecular Dating ( C AMS at the microgram level)
+of “molecular dating”—the topic of the following sec-
+tion.
+                                                                        •    Dilution AMS quantifies 0.9 µg modern carbon (1999)
+                                                                             – soot/ pollen blank controllable to ~0.2 µg (σ ≈ 60 ng)
+7.        Emergence of µ-Molar 14C Metrology                                 – challenge: dating pure pollen grains from the Shroud
+                                                                        •    Fossil and biomass aerosol sources characterized in remote
+   Radiocarbon metrology is at the very moment in the                           atmosphere/ cryosphere (2.9 µg biomass soot quantified)
+midst of still another revolution, involving the dating
+                                                                        •    Individual amino acids dated in mammoth bones (LC/AMS)
+(or isotopic speciation) of pure chemical fractions:
+"molecular dating." For trace species, such as poly-                    •    Individual polycyclic aromatic hydrocarbons dated in atmo-
+                                                                                 spheric particles and marine sediment (GC/AMS)
+cyclic aromatic hydrocarbons (PAHs), or remote, low
+concentration samples, such as the soot or pollen in the
+free troposphere or in ice cores, the sensitivity of AMS                11
+                                                                           There is a profound difference between background-limited decay
+is challenged to its ultimate. In order to understand the               counting and blank-limited AMS, that may not be widely appreciat-
+nature of the challenge it is interesting to consider the               ed. Although the ultimate limitation in each case is “B” variability,
+limiting factors. In a recent study it was shown that                   when B represents the instrumental background it tends to be reason-
+10 % Poisson "error" (standard uncertainty) can be                      ably well controlled, and under the best of circumstances, Poissonian
+achieved with 0.9 µg modern carbon, whereas machine                     [45]. An extra degree of caution is needed, however, when the limit-
+                                                                        ing “B” is an isotopic-chemical blank. At best, it might be assumed
+background is equivalent to 0.2 µg or less [43]. Sample                 normal; then replicate-based detection tests and confidence intervals
+processing blanks, however, may range from 1 µg to                      can be constructed using Student’s-t. If the blank does not represent
+15 µg or more, and they may consist of both biomass                     a homogeneous or stationary state (as a reagent blank, well-mixed
+carbon and fossil carbon [44]. Thus, the ultimate limit-                environmental or biological compartment, etc.), such tests and inter-
+ing factor for very small sample AMS is the overall                     vals can be totally misleading. Non-stationary blanks may exhibit
+                                                                        (geochemically meaningful) structure, or they may be erratic, reflect-
+isotopic-chemical blank. Environmental studies of 14C                   ing a transient source of contamination [46].
+in individual chemical compounds can be successful at                   12
+                                                                           Molecular dating" of the pure cellulose fraction of the Shroud, or
+the 1 µg to 10 µg level, but only with stringent control                of the associated pollen, could furnish an interesting consistency test
+of the variability of the blank. This is in sharp contrast              for the published radiocarbon date. It would be especially interest-
+with small sample, low-level counting where the                         ing to put a "time stamp" on pollen whose point of origin has already
+                                                                        been ascribed to a location 10 km to 20 km east and west of
+Poisson modern carbon limit (ca. 3 mg) and back-                        Jerusalem [47]. Such measurements are made feasible by the reduc-
+ground limit (ca. 5 mg equivalent) far exceed the typ-                  tion of requisite sample sizes by a factor of ten or more, from what
+ical sample preparation blank (ca. 40 µg) [29].11                       AMS 14C dating required sixteen years ago. The question of non-
+   Some illustrations of pure compound "dating" by                      contemporaneous fiber from 16th Century repairs, for example,
+NIST and collaborators are given in Table 3. The first                  could be addressed by new 14C measurements on just 100 µg of
+                                                                        fibers (≈50, 1 cm linen fibers) from the main part of the Shroud. The
+item refers to the aforementioned 1 µg capability, using                expected standard uncertainty would be equivalent to approximately
+"dilution AMS." For thermally stable species such as                    120 radiocarbon years ([43], Eq. 1).
+
+
+                                                                  204
+                                                 Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+7.1   Long-Range Transport of Fossil and Biomass                           evidence of prior years’ fire seasons in snowpits, firn,
+      Aerosol                                                              and ultimately ice cores. This is illustrated in the upper
+                                                                           right portion of Fig. 18, which shows depth profile
+   Ongoing multidisciplinary, multi-institutional research                 sampling in a snowpit at Summit, overlaying an energy
+on soot particles in remote and paleo-atmospheres,                         dispersive spectrum and SEM image of a char particle
+which is absolutely dependent on the small sample                          found near the 1994 fire horizon in a 1996 snowpit
+dating capability, is indicated in Fig. 18. The upper                      [29]. An organic tracer of conifer combustion, methyl
+portion of the figure relates to climate oriented research                 dehydroabietate, was found also at the same depth [53].
+on the sources and transport of fossil and biomass                            Atmospheric science entered a new phase at Summit
+aerosol to the remote Arctic [49]; the lower portion                       during the “Winter-Over” project (1997-1998) [54].
+relates to atmospheric and paleoatmospheric research at                    For the first time, direct sampling of air and surface
+Alpine high altitude stations and ice cores [50,51]. In the                snow took place over the polar winter, extending from
+remainder of this section we present some of the high-                     June 1997 to April 1998. A special achievement of
+lights and measurement challenges of the first project,                    micro-molar 14C “dating” was the first seasonal data for
+on the long-range transport of carbonaceous particles to                   carbonaceous particles, deposited with the surface
+Summit, Greenland.                                                         snow.14 The seasonal record for biomass carbon
+   Cooperative research on this project, between NIST                      particles, shown in Fig. 21, was striking [55]. The large
+and the Climate Change Research Center at the                              spring peaks, in particular, consisted primarily of
+University of New Hampshire (UNH), began in 1994.                          biomass carbon: 0.76 (u = 0.03) modern carbon mass
+It was catalyzed by the discovery of an unusually heavy                    fraction (fM) for sample-1 (WO1), and 0.94 (0.01) mass
+loading of soot on one of the air filters used for 7Be                     fraction for sample-8 (WO8). Beyond the fossil-
+sampling at Summit, Greenland by Jack Dibb of UNH                          biomass apportionment, however, lay questions about
+[52]. The Summit soot had been ascribed to the combi-                      the nature and origin of the carbonaceous aerosol.
+nation of intense boreal wildfire activity in the lower                    Especially intriguing are contrasts between the samples
+Hudson’s Bay region of Canada and exceptional atmos-                       showing summer [sample-4 (WO4)] and spring
+pheric transport to central Greenland. Measurement of                      [sample-8 (WO8)] biomass-C maxima in Fig. 21. To
+14
+  C in the filter sample yielded definitive evidence for                   explore these, a “multi-spectroscopic” approach was
+biomass burning as the source of the soot. On one day                      taken, through which insights and supporting evidence
+only (5 August 1994), the biomass carbon increased by                      were derived from a variety of analytical techniques.
+nearly an order of magnitude, with scarcely any change                     Results for one of the microanalytical techniques
+in the fossil carbon concentration on the filter.                          employed, laser microprobe mass spectrometry
+Supporting data for the origin of the biomass burning                      (LAMMS), are shown in Fig. 22.15 The figure uses a
+carbon came from backtrajectory analysis, AVHRR                            principal component projection to summarize multi-
+(infrared) satellite imagery of the source region, and                     variate (multi-mass) contrasts between the summer and
+TOMS (ultraviolet) satellite imagery that was able to                      spring biomass peaks. It shows that the three summer
+chart the course of the soot particles from the source                     (WO4) sub-samples tend to favor Cn– cluster ions
+wildfires to Summit. The several parts of this remark-                     (n-even), typical of condensed carbon structure (and
+able event are assembled in Figs. 19, 20 [29,49,52].13                     graphite), whereas the three spring (WO8) sub-samples
+   Since snow and ice can serve as natural archives for                    exhibit a more complex, oxygenated structure such as
+atmospheric events, one may expect to find chemical                        occurs with biopolymers.
+
+
+
+                                                                           14                    14
+                                                                              The micro-molar C capability was essential for this work
+                                                                           because of the extremely small concentrations of particulate carbon
+13
+   The observed (Fig. 20) vs inferred (Fig. 19) paths of the smoke         in the surface snow, especially during the winter (<10 µg C/ kg snow).
+                                                                           15
+plume present an interesting contrast. The TOMS satellite image               Microanalytical methods, such as LAMMS, are crucial for gaining
+shows the smoke approaching the southern tip of Greenland on 3, 4          chemical insight on individual particles, or when only very small
+August 1994 and departing toward Iceland on 6 August. The back-            snow (or ice) samples of remote aerosols are available, or needed for
+trajectory model employed in Ref. [52] places the approach at a            high resolution studies. In contrast to the ng capability of the most
+somewhat higher latitude, and of course provides no departure              sensitive bulk analysis techniques, LAMMS, can provide useful
+information.                                                               chemical data on as little as 20 pg of carbon species [57].
+
+
+
+
+                                                                     205
+                                                 Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+Fig. 18. Submicromolar 14C apportionment of anthropogenic and natural carbonaceous aerosols at remote sites in Europe and Greenland provides
+knowledge of their impacts on present and paleoclimate [49-51].
+
+
+
+
+                                                                   206
+207
+
+
+                                                                                                                                                                                                                                                                              Volume 109, Number 2, March-April 2004
+
+
+
+
+                                                                                                                                                                                                      Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+      Fig. 19. Massive (6 d, 3000 km) transport of soot from boreal wildfires in Canada to Summit, Greenland. Left inset [1]: AVHRR satellite image of wildfire region [29]; Center [2]:
+      6 d backtrajectories [52]; Right inset [3]: seven-fold,1 d increase in biomass-C (upper, red curve) at Summit [S] on 5 Aug 1994; fossil-C (lower, black curve), was little changed [49, 29]).
+208
+
+
+                                                                                                                                                                                                                                                      Volume 109, Number 2, March-April 2004
+
+
+
+
+                                                                                                                                                                              Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                                                                                                                                                              14
+      Fig. 20. Direct, time lapse observation of the track of the August 1994 smoke parcel by TOMS (differential UV) satellite imagery [49]. Consistent with the C (biomass
+      carbon) data, the cloud of smoke, indicated by the light turquoise circles, is present over central Greenland for 1 day only, 5 August 1994.
+                                             Volume 109, Number 2, March-April 2004
+            Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+            Fig. 21. First evidence of a seasonal pattern in biomass carbon aerosol in surface snow in central Greenland
+            [55, 56]. Fundamental differences were found between the biomass carbon peaks in summer (sample-4 [WO4]),
+            and spring (sample-8 [WO8]) via “multi-spectroscopic” macro- and micro-chemical analysis.
+
+
+Findings from other techniques:
+•   Thermal-optical analysis. Distinctive seasonal                   •     Electron probe microanalysis. For WO4, up to
+    volatilization/decomposition patterns were seen as                     90 % C (mass fraction) was observed in individ-
+    samples were heated in a stream on helium. The                         ual, µm size particles, with C > O for the most
+    summer sample (WO4) had a predominant high                             abundant (core) particles; for WO8, maximum C
+    temperature peak at ≈560 °C and little evidence of                     particles had a C:O ratio consistent with cellulosic
+    charring (4 %), whereas the spring sample (WO8)                        biopolymer, and C < O for the core particles.
+    had a predominant peak at ≈410 °C and major
+    charring (19 %). Thermal analysis of a powdered                     The weight of multi-spectroscopic evidence thus
+    wood (oak) reference material showed a thermal                   indicates that the summer (WO4) and spring (WO8)
+    peak at the approximately same temperature as                    biomass particles do not represent the same type of
+    WO8, with 21 % charring, implying the presence                   biomass. Rather, the WO4 particles appear to include a
+    of a major cellulosic component in this sample.                  soot component from high temperature combustion
+•   Ion chromatography. Fire tracers (NH4+, K+)                      (motor vehicles, wildfires). The WO8 particles, whose
+    accompanied WO4; soil tracers (Ca++, Mg++)                       carbon derives almost entirely from biomass, appear to
+    accompanied WO8                                                  have a major biopolymer component, such as cellulose
+•   Backtrajectories. For WO4, strong transport was                  and other bio-materials associated with soil and vegeta-
+    indicated from regions of annual wildfires in the                tive carbon. These findings are consistent with work by
+    Canadian Northwest; for WO8, strong transport                    Puxbaum and colleagues, who have found by direct
+    was indicated from the agricultural regions of the               chemical analysis, significant amounts of cellulose,
+    upper Midwest—both representing transport                        bacteria, and fungal spores in atmospheric particles [58,
+    distances of some 8 Mm.                                          59].
+
+
+                                                               209
+                                             Volume 109, Number 2, March-April 2004
+             Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                Fig. 22. PCA biplot of laser microprobe mass spectral data; compositional contrast between particles
+                from the summer biomass peak (WO4, red: Cn– cluster ions favored) and the spring biomass peak
+                (WO8, green: oxygenates favored) [55].
+
+
+
+
+7.2   Isotopic Speciation in Ancient Bones and                       and the collagen hydrolysates [XAD-HYD]), age
+      Contemporary Particles                                         concordance among the individual amino acids
+                                                                     and with the archaeological evidence indicated relia-
+   The dating of ancient bones has been notably                      bility. Had contamination from bio-intrusive material
+unreliable because of diagenesis and isotopic contami-               having a different chemical (amino acid) pattern
+nation that occur with millennia of environmental                    occurred, amino acid age heterogeneity would have
+exposure. Molecular dating of individual amino acids                 been expected [60]. This work could not have been
+in such bones has proven to be one of the most effec-                accomplished without the ability to date 80 µg carbon
+tive means to overcome this problem. Figure 23 shows                 fractions.
+dramatically how the apparent radiocarbon age of                        An historical footnote related to this work involves
+the Dent Mammoth changed from ca. 8000 BP to                         the question of the ancestors of the North American
+ca. 11 000 BP, as the dated chemical fraction was                    Clovis culture. Since the Clovis sites give the earliest
+refined from the crude collagen fraction to the individ-             unequivocal data on the “peopling” of the Americas,
+ual amino acids. The known radiocarbon age is given as               it has been of enormous interest to find a geochrono-
+≈11,000 BP, based on association with Clovis culture                 logical link to an earlier culture. The most popular
+artifacts, and biostratigraphy [60]. (Note that the                  belief that the Clovis progenitors had arrived over
+“calibrated” or corrected calendar age, derived from                 the “Bering Land Bridge” from Siberia has recently
+the radiocarbon calibration curve [13], is roughly                   been put into doubt, however, with new 14C evidence
+1500 years older than the radiocarbon age for this time              that one of the most likely pre-Clovis sites in northeast-
+period.) The commonly dated organic fractions from                   ern Siberia is 4000 years younger than previously
+bones (weak acid insoluble collagen [COLL] and                       believed. Dating at ≈13 000 calendar years ago, it is
+gelatin [GEL]) gave ages that were at odds with the                  doubtful that migration could have transpired quickly
+archaeological evidence—suggesting recent humate                     enough to give rise to the Clovis culture (13 600 to
+contamination. When the diagenesis-resistant molecu-                 12 600 calendar years BP) in the North American
+lar components were isolated (individual amino acids                 Southwest [61].
+
+
+                                                               210
+                                                 Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+                                                                            (aliphatic extract) to 38 % (total carbon). Thus, the
+                                                                            aliphatic fraction derives essentially (≈98 %) from
+                                                                            fossil fuel emissions, and, on average, fossil sources
+                                                                            account for some 60 % of the carbon in these particles.
+                                                                               Note that the Certificate of Analysis [63] provides
+                                                                            14
+                                                                              C data expressed in the proper reference units as
+                                                                            fraction of modern carbon (fM). To emphasize the more
+                                                                            meaningful fossil-biomass carbon source dichotomy,
+                                                                            however, we have chosen to present the information
+                                                                            here in terms of the fraction of biomass carbon.
+                                                                            Conversion is based on the “post-bomb” enrichment of
+                                                                            14
+                                                                              C in the living biosphere, as shown in Fig. 11.
+                                                                            Sampling for SRM 1649a took place in 1976-1977;
+                                                                            the enrichment factor for biomass carbon at that time,
+                                                                            indicated by the red arrow in the figure, was 1.35.
+                                                                               One of the most important outcomes of the SRM
+Fig. 23. “Molecular Dating” of individual amino acids in ancient            1649a intercomparison exercise was the set of data
+bone. Radiocarbon ages of commonly dated (collagen, gelatin)                obtained for “elemental carbon” (EC). EC (sometimes
+fractions were 2000 to 3000 years too young as a result of environ-
+mental degradation; pure molecular fractions (amino acids) were
+                                                                            known as “black carbon”) is routinely monitored in
+self-consistent and in agreement with the Clovis culture age [60].          urban and rural aerosols, and it is of major concern
+                                                                            because of its presumed impacts on health, visibility,
+                                                                            and climate (radiation absorption). SRM 1649a
+                                                                            potentially can serve as a key laboratory quality
+                                                                            assurance reference material for EC measurement.
+7.2.1    Urban Dust (SRM 1649a): a Unique                                   Results of the largest intercomparison to date of EC in
+         Isotopic-Molecular Reference Material                              a uniform reference material, however, indicate a
+                                                                            severe measurement problem: relative values for the
+   SRM 1649a is NIST’s most highly characterized                            reported data span a range of 7.5, showing very signif-
+natural matrix Standard Reference Material, and it is                       icant method dependence. Three clusters of results
+the only one for which there are certificate values for                     for the mass fraction of EC (relative to total-C), reported
+14
+  C in individual chemical fractions and pure molecular                     as information values on the Certificate of Analysis,
+species. The “carbon” portion of the Certificate of                         are 0.075, 0.28, and 0.46. (For the 14C data in Fig. 24,
+Analysis was developed through an extensive inter-                          cluster-1 EC has been labeled “soot” and cluster-3 EC,
+national interlaboratory comparison, involving eighteen                     “char.” 14C was not determined in cluster-2 EC.)
+teams of analytical experts from eleven institutions                        The fundamental problem is that EC is not a pure
+[62]. The particle-based SRM, which has been charac-                        substance, so a unique “true value” for EC may not
+terized for nearly 200 chemical species and properties,                     exist, in principle.16 Some interesting insights into the
+serves as an essential quality assurance material for a                     meaning of certain of the EC results follow, however,
+remarkably broad range of disciplines, from the moni-                       from the 14C EC speciation data.
+toring of pesticides, PCBs, and particulate mutagenic
+activity to basic organic geochemistry to isotopic
+apportionment of carbonaceous particles. A dramatic                         16
+                                                                              Although a “true” (Certified) EC value may be beyond reach, com-
+illustration of the 14C isotopic heterogeneity in this                      patibility of results from laboratories using the same method suggests
+reference material is given in Fig. 24. The biomass                         the possibility of method-specific (“operational”) EC Reference
+carbon mass fractions are seen to range from about 2 %                      Values for this SRM.
+
+
+
+
+                                                                      211
+                                                 Volume 109, Number 2, March-April 2004
+                Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+Fig. 24. NIST Standard Reference Material 1649a (“urban dust”). Photograph of the bulk reference material and derived “filter samples” for QA
+                                     14
+of atmospheric elemental carbon (EC). C data listed indicate the mass fraction (%) of biomass-C in the several chemical fractions [29, 62].
+
+
+
+Isotopic consistency. Measurement of 14C in multiple                         Regarding the second test, the 14C data in Fig. 24
+chemical fractions offers the possibility of two very                     demonstrate that isotopic-mass balance cannot be
+interesting and important consistency tests: (1) assess-                  achieved with the current isotopic-chemical data. Since
+ment of isotopic-chemical consistency among chemi-                        the biomass carbon fraction on average (38 % mass
+cally-related fractions, and (2) assessment of overall                    fraction) exceeds that of all other measured fractions,
+isotopic-mass balance. The first test is illustrated by                   there must be a significant missing biomass carbon
+comparison of the 14C content of the EC fraction with                     component. This matter is addressed in [62], where it is
+that of the PAH fraction (on average). To the extent that                 suggested that unmeasured biopolymers may account
+both components originate from the same source,                           for more than 45 % of the residual (non-extractable,
+acetylenic free radicals that generate polyaromatic                       non-EC) carbon mass. Cellulose is one excellent candi-
+structures in the flaming stage of combustion, one                        date [58].
+would expect similar 14C composition. Such is the case
+for 14C in cluster-1 EC (labeled “soot” in Fig. 24), but                  GC/AMS. Finally, the “molecular dating” of individual
+not for cluster-3 EC (labeled “char”). The lack of                        PAH in SRM 1649a epitomizes one of the latest
+isotopic consistency for cluster-3 EC is the stimulus for                 advances in micromolar 14C measurement science: the
+the different label, since this manifestation of EC                       capability to link chromatographic isolation of pure
+necessarily reflects a different mix of fossil-biomass                    chemical compounds to AMS determination of 14C/12C.
+sources than the flaming stage EC, which derives                          Results of applying off-line GC/AMS to six PAHs
+primarily from fossil fuel carbon.                                        recovered from the aromatic fraction of SRM 1649a are
+
+
+
+                                                                    212
+                                             Volume 109, Number 2, March-April 2004
+             Journal of Research of the National Institute of Standards and Technology
+
+
+
+
+                 Fig. 25. Gas chromatography/accelerator mass spectrometry (GC/AMS): AMS following automated
+                 prep-scale capillary GC yields “dates” (equivalent biomass carbon mass fractions) for micromolar
+                 amounts of individual polycyclic aromatic hydrocarbons [63-65]. (Results shown for NIST SRM 1649a;
+                 “I.S.” denotes an internal standard; abscissa indicates retention time (min).)
+
+shown in Fig. 25. The critical first step was the sequen-            basic flaw in the conventional wisdom that the heavier
+tial isolation of tens of micrograms of the six PAHs in              PAHs, in particular, are more likely to be produced
+separate traps by automated preparative scale capillary              strictly from fossil fuel combustion sources.
+gas chromatography [66]. The individually trapped                       On-line GC/AMS is nearly upon us. The linkage of
+PAHs were then oxidized and converted to AMS tar-                    gas (or liquid) chromatographic separation, and direct
+gets. These results represent the first such data ever               injection of microgram amounts of pure compounds
+available for an atmospheric particulate SRM, and                    into the ion source of an accelerator mass spectrometer,
+although such compounds are only trace constituents of               is under active investigation in several AMS laborato-
+atmospheric particles (≈10 µg/g), they are of great con-             ries; and it promises a new dimension in the practice of
+sequence due to their mutagenic and carcinogenic prop-               radiocarbon dating at the molecular level that may have
+erties. In this case, as shown in Fig. 25, radiocarbon               an impact on archaeology and isotopic biogeo-
+dating of the individual PAHs revealed these congeners               chemistry comparable to that of GC/MS on analytical,
+to be isotopically heterogeneous, and demonstrated a                 physical, organic, and biochemistry [67].
+                                                               213
+                                          Volume 109, Number 2, March-April 2004
+             Journal of Research of the National Institute of Standards and Technology
+
+
+8.   Epilogue                                                     courtesy of Douglas J. Donahue, University of Arizona.
+                                                                  Fig. 6a (top), reprinted with permission from Fig. 5a in:
+   Libby’s discovery, and the remarkable developments             Eddy, J.: “The Maunder Minimum,” Science 192
+that followed, arose from a scientific question (freely           (1976) 1189-1202; copyright 1976 American
+translated): “What will become of the cosmic ray                  Association for the Advancement of Science. Fig. 6b
+neutrons?” It is noteworthy that an “academic son” of             (bottom), from the “climate” figure (p. 615, last seg-
+this Nobel Laureate also posed a scientific question to           ment only, labeled “Past 1000 years”) in: Mathews, S.:
+himself. F. Sherwood Rowland’s question also led to an            “What’s happening to our climate,” National
+unexpected discovery having major practical import for            Geographic 150 (1976) 176-615; copyright 1976 the
+mankind: the possible destruction of the stratospheric            National Geographic Society. Fig. 7 and Fig. 8, from:
+ozone layer. Rowland’s query, also culminating in a               Toggweiler, J.R., Dixon, K. and Bryan, K.:
+Nobel Prize (1995), was “I began to wonder what                   “Simulations of Radiocarbon in a Coarse-Resolution
+was going to happen to this man-made compound                     World Ocean Model, 2. Distributions of bomb-pro-
+[trichlorofluoromethane] newly introduced into the                duced 14C,” J Geophys Res 94 [C6] (1989) 8243-8264
+atmosphere” [68].                                                 (figures 1 and 17, respectively); copyright 1989
+   May this historical journey into scientific discovery,         American Geophysical Union. Figures 9 and 10 are
+as an outgrowth of seemingly simple scientific curiosi-           adapted from Currie, L.A., et al., “Authentication and
+ty, and the consequent unanticipated scientific-metro-            Dating of Biomass Components of Industrial Materials:
+logical revolutions, encourage students to examine the            Links to Sustainable Technology,” Nuclear Instruments
+original historical literature documenting such discov-           and Methods in Physics Research B172 pp 281-287,
+eries, and to realize that profound unforeseen devel-             copyright (2000), with permission from Elsevier
+opments may be in store for a presumably “mature”                 Science. Fig. 12: photos are courtesy of Robert K.
+scientific discipline.                                            Stevens. Fig. 13, from Fig. 1 in: Wölfli, W.: “Advances
+                                                                  in accelerator mass spectrometry,” Nuclear Instruments
+                                                                  and Methods in Physics Research B29 [numbers 1, 2]
+Acknowledgment
+                                                                  pp 1-13, copyright (1987), with permission from
+   This article represents an adaptation and extension of         Elsevier Science. Fig. 14, from Fig. 16.2 in: Taylor,
+a recent publication in the Czechoslovak Journal of               R.E., Long, A., and Kra, R., Eds.: Radiocarbon after
+Physics: “The Remarkable Metrological History of 14C              Four Decades: an Interdisciplinary Perspective; copy-
+Dating: from ancient Egyptian artifacts to particles of           right Springer-Verlag, New York, 1992. Fig. 15c inset
+soot and grains of pollen” [Czech. J. Phys. 53, (Suppl.           (negative image) and 15d (microphotograph), from:
+A) A137-A160 (2003)]. Permission of the Institute of              British Broadcasting Corporation Documentary,
+Physics, Academy of Sciences of the Czech Republic is             “Shreds of Evidence” (Timewatch Series), copyright
+gratefully acknowledged. Thanks go also to Cynthia                1988. Fig. 15b, courtesy of Douglas J. Donahue,
+Zeissler and Ed Mai for assistance in final preparation           University of Arizona. Figures 15a (reprint cover), 16,
+of the figures for publication.                                   and 17, from Damon, P., et al.: “Radiocarbon dating of
+   Figures are adapted, with permission, from the                 the Shroud of Turin,” Nature 337 (1989) 611-615;
+following sources. Fig. 1: photo by Fabian Bachrach               copyright Macmillan Magazines Ltd, 1989. Fig. 18,
+(AEC-54-5123-DOE) from page 1 of: de Messières, N.:               from: (a) Currie, L.A., et al.: “The pursuit of isotopic
+“Libby and the interdisciplinary aspect of radiocarbon            and molecular fire tracers in the polar atmosphere and
+dating.” Radiocarbon 43 (2001) 1-5; copyright 2001                cryosphere,” Radiocarbon 40 (1998) 381-390, 416f;
+Arizona Board of Regents on behalf of the University              copyright 1998 Arizona Board of Regents on behalf of
+of Arizona. Fig. 3, from Radiocarbon Dating [jacket               the University of Arizona; and (b) Mark Twickler,
+cover] (Eds. R. Berger and H. Suess) Univ. California             Univ. New Hampshire. Fig. 19 (center, backtrajecto-
+Press, Berkeley, 1979]. Fig. 4, from Fig. 1 of: Libby,            ries), from Dibb, J.E., et al., “Biomass burning signa-
+Willard F., Radiocarbon Dating, Univ. Chicago Press,              tures in the atmosphere and snow at Summit,
+Chicago, copyright 1952 (1st edition). Cover and Fig. 5           Greenland: an event on 5 August 1994,” Atmospheric
+(plot), from Fig. 1 (p. 110) in: Olsson, I.U., Ed.                Environment 30 pp 553-561 copyright (1996),
+Radiocarbon Variations and Absolute Chronology (12th              with permission from Elsevier Science. Figures 19,
+Nobel Symposium), Almqvist & Wiksell, Stockholm,                  20 adapted from Currie, L.A., et al., “The pursuit of
+1970; copyright, the Nobel Foundation. Fig. 5 (photo),            isotopic and molecular fire tracers in the polar atmos-
+
+
+
+                                                            214
+                                                    Volume 109, Number 2, March-April 2004
+                 Journal of Research of the National Institute of Standards and Technology
+
+                                                                                [12] I. U., Olsson, ed., Radiocarbon Variations and Absolute
+phere and cryosphere,” Radiocarbon 40 (1998) 381-                                    Chronology (12th Nobel Symposium), Almqvist & Wiksell,
+390, 416f; copyright 1998 Arizona Board of Regents on                                Stockholm (1970).
+behalf of the University of Arizona. Fig. 23, from                              [13] M. Stuiver and R. Kra, eds., Calibration Issue, Radiocarbon 28,
+Fig. 1 in: Stafford, T.W., Jr., Hare, P.E., Currie, L.A.,                            2B (1986); Stuiver, M., Long, A., Kra, R., eds., Calibration
+Jull, A.J.T., and Donahue, D.: “Accuracy of North                                    1993, Radiocarbon 35 (1), 191-199 (1993).
+                                                                                                                                       14
+                                                                                [14] M. Geyh and C. Schlüchter, Calibration of the C time scale
+American Human Skeleton Ages”, Quarternary                                           beyond 22,000 BP, Radiocarbon 40, 475-482 (1998).
+Research, 34, pp 111-120, copyright (1990), with                                [15] J. Eddy, The Maunder Minimum, Science 192, 1189-1202
+permission from Elsevier Science. Fig. 24, adapted                                   (1976). (See Fig. 3).
+from Fig. 4 in Currie, L.A., “Evolution and                                     [16] S. Mathews, What’s happening to our climate, National
+Multidisciplinary Frontiers of 14C Aerosol Science,”                                 Geographic 150, 176-615 (1976). (See especially pp. 586,
+                                                                                     614 f).
+Radiocarbon 42 (2000) 115-126, copyright 2000                                   [17] J. Lopes, R. Pinto, M. Almendra, and J. Machado, Variation of
+Arizona Board of Regents on behalf of the University                                 14
+                                                                                       C activity in Portuguese wines from 1940 to 1974, Proc. Int.
+of Arizona. Fig. 25, from Fig. 2 in: Currie, L.A.,                                   Conf. on Low-Radioactivity Measurements and Applications:
+Klouda, G.A., Benner, Jr., B.A., Garrity, K., and                                    The High Tatras, Czechoslovakia, 6-10 October 1975, P.
+                                                                                                          ∨
+
+Eglinton, T.I., “Isotopic and Molecular Fractionation in                             Povinec and S. Usacev, eds., Comenius Univ., Bratislava (1977)
+                                                                                     pp. 265-268.
+Combustion; Three Routes to Molecular Marker                                                       14
+                                                                                [18] W. F. Cain, C in Modern American Trees, in Radiocarbon
+Validation, including Direct Molecular ‘Dating’                                      Dating, R. Berger and H. Suess, eds., Univ. California Press,
+(GC/AMS),” Atm. Environ. 33 (1999) 2789-2806; pub-                                   Berkeley (1979) pp. 495-510.
+lished by Elsevier Science Ltd.                                                 [19] J. R. Toggweiler, K. Dixon, and K. Bryan, Simulations of
+                                                                                     Radiocarbon in a Coarse-Resolution World Ocean Model, 2.
+                                                                                                                        14
+                                                                                     Distributions of bomb-produced C, J. Geophys. Res. (C6) 94,
+9.    References                                                                     8243-8264 (1989). [See also: I. Levin and V. Hesshaimer,
+                                                                                     Radiocarbon—a unique tracer of global carbon cycle
+ [1] W. F. Libby, Nuclear dating: an historical perspective, Nuclear                 dynamics, Radiocarbon 42, 69-80 (2000).]
+      and Chemical Dating Techniques: Interpreting the                          [20] R. E. Taylor, A. Long, and R. Kra, eds., Radiocarbon After Four
+      Environmental Record, L. A. Currie, ed., American Chemical                     Decades: An Interdisciplinary Perspective, Springer-Verlag,
+      Society Symposium Series No. 176 (1982) Chap. 1.                               New York (1992).
+ [2] Willard F. Libby, Radiocarbon Dating, Univ. Chicago Press,                 [21] M. Stuiver and G. Östlund, GEOSECS Atlantic Radiocarbon,
+      Chicago (1952).                                                                Radiocarbon 22, 1-24 (1980).
+ [3] N. de Messières, Libby and the interdisciplinary aspect of                 [22] J. Sarmiento, and N. Gruber, Sinks for anthropogenic
+      radiocarbon dating. Radiocarbon 43, 1-5 (2001).                                carbon, Physics Today 55, 30-36 (8) (2002). [See also: R.
+ [4] W. F. Libby, Radiocarbon dating (Nobel Lecture), Science 133,                   Nydal, Radiocarbon in the Ocean, Radiocarbon 42, 81-98
+      621-629 (1961).                                                                (2000).]
+ [5] W. F. Libby, Atmospheric Helium-3 and Radiocarbon from                     [23] A. P. McNichol, R. J. Schneider, K. F. von Reden, A. R.
+      cosmic radiation, Phys. Rev. 69, 671-672 (1946).                               Gagnon, K. L. Elder, NOSAMS, R. M. Key and P. D. Quay, Ten
+ [5a] H. Godwin, Half-life of radiocarbon, Nature 195, 984 (1962).                   years after: The WOCE AMS radiocarbon program, Nucl.
+ [6] E. C. Anderson, W. F. Libby, S. Weinhouse, A. F. Reid,                          Instrum. Meth. Phys. Res. B172, 479-484 (2000).
+      A. D. Kirshenbaum, and A. V. Grosse, Radiocarbon from                     [24] E. M. Wild, K. A. Arlamovsky, R. Golser, W. Kutschera, A.
+      cosmic radiation, Science 105, 576 (1947). (See also C.                        Priller, S. Puchegger, W. Rom, P. Steier, and W. Vycudilik, C
+                                                                                                                                                  14
+      MacKay, M. Pandow, and R. Wolfgang, On the chemistry of                        dating with the bomb peak: an application to forensic
+      natural radiocarbon, J. Geophys. Res. 68, 3929-3931 (1963),                    medicine, Nucl. Instrum. Meth. Phys. Res. B172, 944-950
+      for an account of 14CO as the precursor of cosmogenic 14CO2.)                  (2000).
+ [7] E. C. Anderson and W. F. Libby, World-wide distribution of                 [25] L. Currie, D. Klinedinst, R. Burch, N. Feltham, and R. Dorsch,
+      natural radiocarbon, Phys. Rev. 81, 64-69 (1951).                              Authentication and Dating of Biomass Components of
+ [8] J. R. Arnold and W. F. Libby, Age determination by radio-                       Industrial Materials: Links to Sustainable Technology, Nucl.
+      carbon content: checks with samples of known age, Science                      Instrum. Meth. Phys. Res. B172, 281-287 (2000).
+      110, 678-680 (1949).                                                      [26] G. Clayton, J. Arnold, and F. Patty, Determination of Sources of
+ [9] I. Karlén, I. Olsson, P. Kallberg, and S. Killici, Absolute deter-              Particulate Atmospheric Carbon, Science 122, 751-753(1955).
+      mination of the activity of two 14C dating standards, Ark.                [27] J. P. Lodge, G. S. Bien, and H. E. Suess, The Carbon-14 Content
+      Geofys. 4, 465 (1964). (See also Ref. [12], p. 17, The use of                  of Urban Airborne Particulate Matter, Int. J. Air Pollut. 2, 309
+      oxalic acid as a [radiocarbon dating] standard.)                               (1960).
+[10] NIST Standard Reference Materials website: http://nist.gov/srm.            [28] T. H. Maugh, Air pollution: where do hydrocarbons come
+[11] K. Rozanski, W. Stichler, R. Gonfiantini, E.M. Scott, R.                        from? Science 189, 277 (1975).
+      Beukens, B. Kromer, and J. van der Plicht, The IAEA inter-                [29] L. A. Currie, Evolution and Multidisciplinary Frontiers of C
+                                                                                                                                                  14
+      comparison exercise 1990, Radiocarbon 34, 506-519 (1992).                      Aerosol Science, Radiocarbon 42, 115-126 (2000).
+
+
+
+
+                                                                          215
+                                                    Volume 109, Number 2, March-April 2004
+                 Journal of Research of the National Institute of Standards and Technology
+
+[30] R. K. Stevens, C. W. Lewis, T. G. Dzubay, R. E. Baumgardner,                    metrology, Nucl. Instrum. Meth. Phys. Res. B172, 440-448
+     R. B. Zweidinger, V. R. Highsmith, L. T. Cupitt, J. Lewtas,                     (2000).
+     L. D. Claxton, L. A. Currie, G. A. Klouda, and B. Zak,                     [44] D. B. Klinedinst, and L. A. Currie, Radiocarbon blank correc-
+     Mutagenic Atmospheric Aerosol Sources Apportioned by                            tion: Methodologies and limitations in a major urban study of
+     Receptor Modeling, ASTM Monograph STP 1052, Monitoring                          carbonaceous aerosols, Nucl. Instrum. Meth. Phys. Res. B172,
+     Methods for Toxics in the Atmosphere, W. L. Zielinski, Jr. and                  545-550 (2000).
+     W. D. Dorko, eds., Amer. Soc. Testing Mtls., Philadephia                   [45] L. A. Currie, E. M. Eijgenhuijsen, and G. A. Klouda, On the
+     (1990) pp. 187-196.                                                             validity of the Poisson Hypothesis for low-level counting;
+[31] D. B. Klinedinst, and L. A. Currie, Direct Quantification of                    investigation of the distributional characteristics of background
+     PM2.5 Fossil and Biomass Carbon within the Northern Front                       radiation with the NIST Individual Pulse Counting System,
+     Range Air Quality Study’s Domain, Environ. Sci. Technol. 33,                    Radiocarbon 40, 113-127 (1998).
+     4146-4154 (1999).                                                          [46] L. A. Currie, Some case studies of skewed (and other ab-
+[32] G. A. Klouda, C. W. Lewis, D. C. Stiles, J. L. Marolf,                          normal) data distributions arising in low-level environmental
+     W. D. Ellenson, and W. A. Lonneman, Biogenic contributions                      research, Fresenius J. Anal. Chem. 370, 705-718 (2001).
+     to atmospheric volatile organic compounds in Azusa,                        [47] A. Danin, and U. Baruch, Floristic indicators for the origin of
+     California, J. Geophys. Res. 107 (D8) 10.1029/2001JD000758                      the Shroud of Turin, Proc. 3rd Intern. Conf. on the Shroud of
+     (2002).                                                                         Turin. Turin, June 1998. (www.shroud.com/pdfs/daninx.pdf).
+                                                                                                                                             14
+[33] T. Kuc and M. Zimnoch, Changes of the CO2 sources and sinks                [48] A. Long, O. Davis, and J. de Lanois, Separation and C dating
+     in a polluted urban area (Southern Poland) over the last decade,                of pure pollen from lake sediments: nanofossil AMS dating,”
+     derived from the carbon isotope composition, Radiocarbon 40,                    Radiocarbon 34, 557-560 (1992).
+     417-423 (1998).                                                            [49] L. A. Currie, J. E. Dibb, G. A. Klouda, B. A. Benner, Jr., J. M.
+[34] R. A. Muller, Radioisotope dating with a cyclotron, Science                     Conny, S. R. Biegalski, D. B. Klinedinst, D. R. Cahoon, and
+     196, 489-494 (1977).                                                            N. C. Hsu, The pursuit of isotopic and molecular fire tracers in
+[35] D. Nelson, R. Korteling, and W. Stott, Carbon-14: Direct                        the polar atmosphere and cryosphere, Radiocarbon 40, 381-
+     detection at natural concentrations, Science 198, 507-508                       390, 416f (1998). [See also: N.C. Hsu, J. R. Herman, P .K.
+     (1977).                                                                         Bhartia, C. J. Seftor, O. Torres, A. M. Thompson, J. F. Gleason,
+[36] C. L. Bennett, R. P. Beukens, M. R. Clover, H. E. Gove, R. B.                   T .F. Eck, and B. N. Holben, Detection of biomass burning
+     Liebert, A. E. Litherland, K. H. Purser, and W. E. Sondheim,                    smoke from TOMS measurements, Geophys. Res. Lett. 23,
+     Radiocarbon dating using electrostatic accelerators: negative                   745-748 (1996).
+     ions provide the key, Science 198, 508-510 (1977).                         [50] R. Weissenbök, L. A. Currie, C. Grollert, W. Kutschera, A.
+[37] W. Wölfli, Advances in accelerator mass spectrometry, Nucl.                     Priller, H. Puxbaum, W. Rom, P. Steier, and J. Marolf,
+     Instrum. Meth. Phys. Res. B29, 1-13 (1987).                                     Accelerator Mass Spectrometry Analysis of Non-soluble
+[38] P. Damon, D. J. Donahue, B. H. Gore, A. L. Hatheway, A. J. T.                   Carbon in Aerosol Particles from High Alpine Snow (Mt.
+     Jull, T. W. Linick, P. J. Sercel, L. J. Toolin, C. R. Bronk, E. T.              Sonnblick, Austria), Radiocarbon 42, 285-294 (2000).
+     Hall, R. E. M. Hedges, R. Housley, I. A. Law, C. Perry, G.                 [51] CARBOSOL: Present and retrospective state of organic vs
+     Bonani, S. Trumbore, W. Wölfli, J. C. Ambers, S. G. E.                          inorganic aerosol over Europe: implications for climate,
+     Bowman, M. N. Leese, and M. S. Tite, Radiocarbon dating of                      European Union; M. Legrand, coordinator, (2001-).
+     the Shroud of Turin, Nature 337, 611-615 (1989). (See also the             [52] J. E. Dibb, R. W. Talbot, S. I. Whitlow, M. C. Shipham, J.
+     website: www.shroud.com/papers.htm for this article                             Winterle, J. McConnell, and R. Bales, Biomass burning signa-
+     (.../nature.htm) and others contained in a large on-line collec-                tures in the atmosphere and snow at Summit, Greenland: an
+     tion of scientific articles treating various aspects of Shroud                  event on 5 August 1994, Atmospheric Environment 30, 553-
+     research.)                                                                      561 (1996).
+[39] British Broadcasting Corporation: Documentary, Shreds of                   [53] J. F. Slater, L. A. Currie, J. E. Dibb, and B. A. Benner, Jr.,
+     Evidence, Timewatch series (1988).                                              Distinguishing the relative contribution of fossil-fuel
+[40] H. Gove, Relic, Icon, or Hoax? Carbon Dating the Turin                          and biomass combustion aerosols deposited at Summit,
+     Shroud, Institute of Physics Publishing, Bristol and                            Greenland, through isotopic and molecular characterization of
+     Philadelphia (1996).                                                            insoluble carbon, Atmospheric Environment 36, 4463-4477
+[41] I. Wilson, An appraisal of the mistakes made regarding the                      (2002).
+     Shroud samples taken in 1988, Proc. 3rd Intern. Conf. on the               [54] J. E. Dibb, convenor, American Geophysical Union Special
+     Shroud of Turin. Turin, June 1998. (www.shroud.com/wilson.htm).                 Session: Relationships Between the Composition of the
+[42] Articles examining non-contemporaneous organic contamina-                       Atmosphere and Snow, AGU Fall Meeting (San Francisco,
+     tion of textiles: 1) H. Gove, S. Mattingly, A. David, and                       December 1998).
+     L. Garza-Valdes, A problematic source of organic contamina-                [55] L. A. Currie, J. D. Kessler, R. A. Fletcher, and J. E. Dibb,
+     tion of linen, Nucl. Instrum. Meth. Phys. Res. B123, 504-507                    Long-range transport of biomass aerosol to Greenland: multi-
+     (1997) ; 2) A. Jull, D. Donahue, and P. Damon, Factors that                     spectroscopic investigation of particles deposited in the snow, J
+     affect the apparent radiocarbon age of textiles, Archaeological                 Radioanal. Nucl. Chem. 263 (2005) in press.
+     Chemistry, M. Orna, ed., ACS symposium series 625,                         [56] J. D. Kessler, L. A. Currie, E. S. Windsor, and D. E. Newbury,
+     American Chemical Society, Washington DC (1996) Chap. 19,                       Seasonal record of total particulate matter embedded in
+     pp. 248-253.                                                                    Greenland surface snow, Microsc. Microanal. 7, 478-479
+[43] L. A. Currie, J. D. Kessler, J. V. Marolf, A. P. McNichol, D. R.                (2001).
+     Stuart, J. C. Donoghue, D. J. Donahue, G .S. Burr, and D.                  [57] R. Fletcher, R. Dobbins, and H.-C. Chang, Mass Spectrometry
+                                                                   14
+     Biddulph, Low-level (submicromole) environmental C                              of particles Formed in a Deuterated Ethene Diffusion Flame,
+                                                                                     Anal. Chem. 70, No. 13, 2745-2749 (1998).
+
+
+                                                                          216
+                                                      Volume 109, Number 2, March-April 2004
+                 Journal of Research of the National Institute of Standards and Technology
+
+[58] H. Puxbaum, and M. Tenze-Kunit, Size distribution and
+     seasonal variation of atmospheric cellulose, Atmospheric
+                                                                                  (2001), an invited NIST Sigma Xi lecture (1998), and a
+     Environ. 37, 3693-3699 (2003).                                               plenary lecture at the Fourteenth Radiochemical
+[59] H. Bauer, A. Kasper-Giebl, M. Löflund, H. Giebl, R.                          Conference (2002). At the Conference in 2002,
+     Hintzenberger, F. Zibuschka, and H. Puxbaum, The contribu-                   Dr. Currie was presented the I.M. Marci medal, the
+     tion of bacteria and fungal spores to the organic carbon content             highest award of the Czech Spectroscopic Society of the
+     of cloud water, precipitation and aerosols, Atmospheric
+     Research 64, 109-119 (2002).
+                                                                                  Czech Academy of Sciences. The National Institute
+[60] T. W. Stafford, Jr., P. E. Hare, L. A. Currie, A. J. T. Jull, and D.         of Standards and Technology is an agency of the
+     Donahue, Accuracy of North American Human Skeleton Ages,                     Technology Administration, U.S. Department of
+     Quarternary Res. 34, 111-120 (1990).                                         Commerce.
+[61] T. Goebel, M. R. Waters, and M. Dikova, The archaeology of
+     Ushki Lake, Kamchatka, and the Pleistocene peopling of the
+     Americas, Science 301, 501-505 (2003).
+[62] L. A. Currie, B. A. Benner, Jr., H. Cachier, R. Cary, J. C. Chow,
+     E. R. M. Druffel, T. I. Eglinton, O. Gustafsson, P. C. Hartmann,
+     J. I. Hedges, J. D. Kessler, T. W. Kirchstetter, D. B. Klinedinst,
+     G. A. Klouda, J. V. Marolf, C. A. Masiello, T. Novakov, A.
+     Pearson, K. M. Prentice, H. Puxbaum, J. G. Quinn, C. M.
+     Reddy, H. Schmid, J. F. Slater, J. Watson, and S. A. Wise, A
+     Critical Evaluation of Interlaboratory Data on Total, Elemental,
+     and Isotopic Carbon in the Carbonaceous Particle Reference
+     Material, NIST SRM 1649a, J. Res. Natl. Inst. Stand. Technol.
+     107, 279-298 (2002).
+[63] NIST SRM 1649a (Urban Dust) Certificate of Analysis, Jan.
+     2001 (http://nist.gov/srm).
+[64] C. M. Reddy, A. Pearson, L. Xu, A. P. McNichol, B. A. Benner,
+     Jr., S. A. Wise, G. A. Klouda, L. A. Currie, and T. I. Eglinton,
+     Radiocarbon as a tool to apportion the sources of polycyclic
+     aromatic hydrocarbons and black carbon in environmental sam-
+     ples, Environ. Sci. Technol. 36, 1774-1782 (2002).
+[65] L. A. Currie, G. A. Klouda, B. A. Benner, Jr., K. Garrity, and
+     T. I. Eglinton, Isotopic and Molecular Fractionation in
+     Combustion; Three Routes to Molecular Marker Validation,
+     including Direct Molecular “Dating” (GC/AMS), Atm.
+     Environ. 33, 2789-2806 (1999).
+[66] T. I. Eglinton, L. I. Aluwihare, J. E. Bauer, E. R. M. Druffel,
+     and A. P. McNichol, Gas chromatographic isolation of individ-
+     ual compounds from complex matrices for radiocarbon dating,
+     Anal. Chem. 68, 904-912 (1996).
+[67] B. Hughey, P. L. Skipper, R. E. Klinkowstein, R. E. Sheffer,
+     J. S. Wishnok, and S. R. Tannenbaum, Low-energy biomedical
+                               14        3
+     GC-AMS system for C and H detection, Nucl. Instrum.
+     Meth. Phys. Res. B172, 40-46 (2000).
+[68] F. S. Rowland, Atmospheric Chemistry; Causes and Effects,
+     Marine Technol. Soc. J. 25, 12-18 (1991).
+
+
+
+
+About the author: Dr. L.A. Currie is an NIST Fellow
+Emeritus in the Chemical Science and Technology
+Laboratory. The ideas behind this article were first
+conceived about 15 years ago in connection with
+lectures at NIH and the University of Maryland, and
+as an outgrowth of the author’s research on environ-
+mental radiocarbon while leader of the Atmospheric
+Chemistry Group at NIST. The concept and scope of the
+article were crystallized in connection with luncheon
+talks at the Measurement Science Conference (1995)
+and the Radiochemical Measurement Conference
+
+
+                                                                            217
+

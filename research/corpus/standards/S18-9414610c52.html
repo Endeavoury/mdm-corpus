@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>
+</noscript><link rel="canonical" href="https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate icon" href="/themes/custom/bfs/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="/themes/custom/bfs/favicon.svg" type="image/svg+xml" />
+
+    <title>REST-API Design Rules | Forum Standaardisatie</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_MzQ3cYWfpCOq-nIFBcXSmBvWtATUzhr2uPDyYGThMBs.css?delta=0&amp;language=nl&amp;theme=bfs&amp;include=eJxFi1sKgDAMBC8UmiNJSqMGow1N6uP2gij-LDMDm0fHSWsmBT5DZVuwtG6k6VUYRYPbELVqiDl-AEaNpkY2-3f5S-qb9aziMxfwy4NXzOQMu_Dh-Gxaa-nKNyKqM2E" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_yytRz3wobQQ2d6i_y2wuahW6nhHxJjW7j7Impc1WQe8.css?delta=1&amp;language=nl&amp;theme=bfs&amp;include=eJxFi1sKgDAMBC8UmiNJSqMGow1N6uP2gij-LDMDm0fHSWsmBT5DZVuwtG6k6VUYRYPbELVqiDl-AEaNpkY2-3f5S-qb9aziMxfwy4NXzOQMu_Dh-Gxaa-nKNyKqM2E" />
+
+    
+  </head>
+  <body class="path-node page-node-type-standaarden">
+    <div class="black-background-menu"></div>
+    <nav id="skipnav" aria-labelledby="skipnav-label" class="skipnav list-group">
+      <label id="skipnav-label" class="sr-only">Skip links</label>
+      <a href="#main-content" class="sr-only sr-only-focusable list-group-item list-group-item-info">Overslaan en naar de inhoud gaan</a>
+      <a href="#navbar-main" class="sr-only sr-only-focusable list-group-item list-group-item-info">Overslaan en naar de hoofdnavigatie gaan</a>
+    </nav>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <header class="content-header clearfix">
+    <div class="layout-container">
+        
+        <div id="header" class="header">
+    <div class="logo">
+        <img src="/themes/custom/bfs/logo.svg" width="44" height="77" alt="Logo Rijksoverheid" class="logo-image">
+    </div>
+    <div class="wordmark">
+                    </div>
+</div>
+
+        <nav class="navbar-nav navbar-full navbar-branded" id="navbar-main">
+            <div class="container navbar-toggleable-md">
+                <div class="row">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <button
+                                class="nav-link ro-icon-menu open-menu"
+                                type="button"
+                                data-toggler="collapse"
+                                data-target="#navbarResponsive"
+                                aria-controls="navbarResponsive"
+                                aria-expanded="false"
+                            >
+                                Menu
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div id="navbarResponsive" class="big-menu">
+                        <div class="container">
+                            <div class="row">
+                                    
+<div id="block-hoofdnavigatie" class="main-navigation col-md-3 col-sm-6 col-xs-12">
+        
+      
+      <h2 class="visually-hidden" id="block-hoofdnavigatie-menu">Hoofdnavigatie</h2>
+    
+          
+              <ul class="nav navbar-nav">
+                    <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/introductie" class="nav-link dropdown-toggle" data-target="#" data-toggle="dropdown" aria-expanded="false" data-drupal-link-system-path="node/387">Introductie</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/wat-zijn-standaarden" data-drupal-link-system-path="node/20">Wat zijn standaarden?</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/wat-zijn-de-verplichtingskaders" data-drupal-link-system-path="node/1195">Wat zijn de verplichtingskaders?</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/thema/wat-moet-ik-doen" data-drupal-link-system-path="node/33">Wat moet ik doen?</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/publicaties" data-drupal-link-system-path="node/235">Publicaties</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/open-standaarden" class="nav-link dropdown-toggle" data-target="#" data-toggle="dropdown" aria-expanded="false" data-drupal-link-system-path="node/3">Lijst open standaarden</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/open-standaarden/verplicht" data-drupal-link-system-path="node/22">&#039;Pas toe of leg uit&#039;-standaarden</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/open-standaarden/aanbevolen" data-drupal-link-system-path="node/41">Aanbevolen standaarden</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/beslisboom/beslisboom-open-standaarden" data-drupal-link-system-path="node/741">Beslisboom &#039;Pas toe of leg uit&#039;-lijst</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/open-standaarden/toetsen-en-aanmelden" data-drupal-link-system-path="node/23">Standaarden aanmelden</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/onderwerpen" class="nav-link dropdown-toggle" data-target="#" data-toggle="dropdown" aria-expanded="false" data-drupal-link-system-path="node/19">Onderwerpen</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/bestuur-en-recht" data-drupal-link-system-path="node/1159">Bestuur en recht</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/onderwerpen/bouwen-en-wonen" data-drupal-link-system-path="node/1114">Bouwen en wonen</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/thema/internationaal" data-drupal-link-system-path="node/34">Internationale standaardisatie</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/onderwerpen/openbaar-en-toegankelijk" data-drupal-link-system-path="node/1574">Openbaar en toegankelijk</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/schoon-water-en-beschermde-bodem" data-drupal-link-system-path="node/1160">Schoon water en beschermde bodem</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/onderwerpen/uitwisselingsfundament" data-drupal-link-system-path="node/1119">Uitwisselingsfundament</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/onderwerpen/veilig-internet" data-drupal-link-system-path="node/31">Veilig internet</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/metingen" class="nav-link dropdown-toggle" data-target="#" data-toggle="dropdown" aria-expanded="false" data-drupal-link-system-path="node/54">Metingen</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/metingen/monitor" data-drupal-link-system-path="node/29">Monitor Open Standaarden</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/metingen/informatieveiligheidstandaarden" data-drupal-link-system-path="node/26">Informatieveiligheidstandaarden</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/metingen/zelf-meten" data-drupal-link-system-path="node/28">Zelf meten</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/over-ons" class="nav-link dropdown-toggle" data-target="#" data-toggle="dropdown" aria-expanded="false" data-drupal-link-system-path="node/18">Over ons</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/forum-standaardisatie/forumleden" data-drupal-link-system-path="node/38">Forumleden</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/contact-en-netwerk/BFS-medewerkers" data-drupal-link-system-path="node/43">Medewerkers</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                          <a href="/vergaderingen-en-stukken" data-drupal-link-system-path="node/13">Vergaderingen en stukken</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/contactgegevens" title="Onze contactgegevens" data-drupal-link-system-path="node/49">Contactgegevens</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </div>
+
+
+                            </div>
+                        </div>
+                        <a href="#" class="close-menu fa fa-times">
+                            <span class="close-text">Sluit</span>
+                        </a>
+                    </div>
+
+                    <div class="search-block">
+                        <form action="/zoeken" method="get" id="search-search" accept-charset="UTF-8" novalidate="novalidate">
+                            <div class="form-item form-item-query">
+                                <label for="edit-main-search" class="sr-only">Voer uw zoekterm in</label>
+                                                                <input type="text" id="edit-main-search" name="search_api_fulltext" value="" size="30" maxlength="128" class="form-text" placeholder="Voer uw zoekterm in">
+                            </div>
+                            <div class="form-actions form-wrapper">
+                                <button type="submit" id="submit-search" class="search-button form-submit">Zoeken</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="herobanner-wrapper">
+                    <div class="views-element-container herobanner" id="block-views-block-herobanner-block-1-2">
+      
+        
+          <div>
+<div class="herobanner-view js-view-dom-id-1a6f44471c36101463dec62de6c6cd10e158735653c49762c826dd99ee42cea8">
+  
+  
+  
+          
+  
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+
+
+        </div>
+    </div>
+    </header>
+
+<div class="layout-container">
+    
+
+            <nav class="breadcrumb-region" aria-labelledby="breadcrumb-label">
+            <label id="breadcrumb-label" class="sr-only">Kruimelpad</label>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                                <div id="block-kruimelpad">
+      
+        
+            <ul class="breadcrumb">
+      <li class="breadcrumb-item">
+                        <a href="/">Forum Standaardisatie</a>
+                  </li>
+      <li class="breadcrumb-item">
+                        <a href="/open-standaarden">Lijst open standaarden</a>
+                  </li>
+      <li class="breadcrumb-item">
+              <span class="breadcrump-last">REST-API Design Rules</span>
+          </li>
+  </ul>
+
+
+          </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+    
+    <main id="main-content" class="page-content clearfix">
+                
+        
+        
+                      <div data-drupal-messages-fallback class="hidden"></div>
+    <div id="block-alertbar">
+      
+        
+          <div class="alert alert-info container">
+    <p><span><strong>09-12-2025:</strong> De oorspronkelijke naam van NLGov REST API Design Rules was REST API Design Rules. De naam REST API Design Rules voor de registratie blijft behouden voor duurzame toegankelijkheid tot de </span>informatie<span> van de registratie.</span></p>
+</div>
+
+          </div>
+<div class="container">
+    <div id="block-bfs-page-title" class="page-titel">
+    
+        
+            
+  <h1>
+<span>REST-API Design Rules</span>
+</h1>
+
+
+        </div>
+</div>
+    <div id="block-descriptionblock">
+      
+        
+          
+                    <div  class="field field--name-field-standaard-omschrijving content-item">  <div class="paragraph paragraph--type--column-100- paragraph--view-mode--default">
+          
+<div  class="container">
+    
+<div  class="row">
+    
+<div  class="col-md-12 col-xs-12">
+    
+                    <div  class="field field--name-field-content-100 content-item-list">
+                                    <div  class="field field--name-field-content-100 content-item">  <div class="paragraph paragraph--type--wysiwyg-element paragraph--view-mode--default">
+          
+                    <div  class="field field--name-field-body content-item"><p><span>NLGov REST API Design Rules is een lijst afspraken die ontwikkelaars volgen tijdens het bouwen van een REST-API voor de publieke sector. Door de regels te hanteren wordt de API voorspelbaar. En dat is wel zo prettig voor andere ontwikkelaars die er gebruik van willen maken. Dankzij deze regels blijft het makkelijk voor organisaties om gegevens met elkaar uit te wisselen.</span></p>
+</div>
+            
+      </div>
+</div>
+                                </div>
+            
+  </div>
+  </div>
+  </div>
+      </div>
+</div>
+            
+          </div>
+    <div id="block-inhoudsopgave">
+      
+          <h2>Inhoudsopgave</h2>
+        
+          
+                    <div  class="field field--name-body content-item"><ul data-toc="div.indexable-content" data-toc-headings="h2">
+</ul>
+</div>
+            
+          </div>
+    <div id="block-primaireinhoudvandepagina">
+      
+        
+          
+  <article>
+
+    
+          <h2 class="sr-only">Content</h2>
+        
+
+    
+    <div>
+      
+<div  class="container">
+    
+<div  class="row">
+    
+<div  class="col-md-8 col-xs-12 indexable-content">
+    
+                    <div  class="field field--name-field-tabel-informatie content-item-list">
+                                    <div  class="field field--name-field-tabel-informatie content-item">  <div class="paragraph paragraph--type--video paragraph--view-mode--default">
+                  <h2>
+
+                    Introductie
+            </h2>
+                  
+                    <div  class="field field--name-field-video content-item">
+  <h1 class="sr-only">Main content</h1>
+</div>
+            
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-informatie content-item">  <div class="paragraph paragraph--type---standaarden-tabel- paragraph--view-mode--default">
+          
+<div  class="wrapper">
+    
+<h2 >
+    
+                    <div  class="field field--name-field-tabel-titel content-item">Status</div>
+            
+  </h2>
+<table >
+    
+                    <div  class="field field--name-field-tabel-rij content-item-list">
+                                    <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-block paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Lijst status</div>
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-block content-item">    <div class="views-element-container" id="block-views-block-standaarden-velden-block-3--2">
+      
+        
+          <div>
+<div class="js-view-dom-id-473eb85a66619e72f6680bedfcbbdb39be938e8304bc27052976188808bf4273">
+  
+  
+  
+          
+  
+
+      <div class="views-row"><div class="views-field views-field-field-status"><div class="field-content">Verplicht (&#039;Pas toe of leg uit&#039;)</div></div></div>
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+</div>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Functioneel toepassingsgebied</div>
+            
+                    <div  class="field field--name-field-tooltip content-item"><div class="tooltip-wrapper">
+    
+    <button aria-expanded="false" class="tooltip-bt fa fa-info-circle">
+        <span class="sr-only">Meer informatie over 
+                    <div  class="field field--name-name content-item">Functioneel toepassingsgebied</div>
+            </span>
+    </button>
+    
+    <div class="tooltip-ct">
+                    <div  class="field field--name-description content-item"><p>Beschrijft conform de <a href="https://www.forumstandaardisatie.nl/ideaaltypische-syntactische-structuur-voor-omschrijving-functioneel-toepassingsgebied">standaard syntaxis</a> de toepassing(en) waarvoor het gebruik van de standaard is verplicht ('Pas toe of leg uit') of wordt aanbevolen (afhankelijk van de lijststatus).&nbsp;</p>
+</div>
+            </div>
+</div>
+</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p><span>De standaard NLGov REST API Design Rules moet worden toegepast <strong>bij het aanbieden van REST API’s</strong> ten behoeve van het ontsluiten van overheidsinformatie en/of functionaliteit.</span></p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Organisatorisch werkingsgebied</div>
+            
+                    <div  class="field field--name-field-tooltip content-item"><div class="tooltip-wrapper">
+    
+    <button aria-expanded="false" class="tooltip-bt fa fa-info-circle">
+        <span class="sr-only">Meer informatie over 
+                    <div  class="field field--name-name content-item">Organisatorisch werkingsgebied</div>
+            </span>
+    </button>
+    
+    <div class="tooltip-ct">
+                    <div  class="field field--name-description content-item"><p>Benoemt de organisaties waarvoor de verplichting (of aanbeveling) geldt.</p>
+</div>
+            </div>
+</div>
+</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p>Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de (semi-) publieke sector.</p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-block paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Europese status</div>
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-block content-item">    <div class="views-element-container" id="block-views-block-standaarden-velden-block-6--2">
+      
+        
+          <div>
+<div class="js-view-dom-id-429cf14d741f6a191f2f5595b25a7cc96c106bb01b76a63ea999e48b2292602e">
+  
+  
+  
+          
+  
+
+      <div class="views-row"><div class="views-field views-field-field-europese-status-msp-"><div class="field-content">Nee</div></div></div>
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+</div>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                </div>
+            
+  </table>
+  </div>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-informatie content-item">  <div class="paragraph paragraph--type---standaarden-tabel- paragraph--view-mode--default">
+          
+<div  class="wrapper">
+    
+<h2 >
+    
+                    <div  class="field field--name-field-tabel-titel content-item">Nut en werking</div>
+            
+  </h2>
+<table >
+    
+                    <div  class="field field--name-field-tabel-rij content-item-list">
+                                    <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-block paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Typering</div>
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-block content-item">    <div class="views-element-container" id="block-views-block-standaarden-velden-block-7--2">
+      
+        
+          <div>
+<div class="js-view-dom-id-9167831c0dba4ed8f5bd4d51ee940c2ede2d272be5173b48b238b45a5419f0de">
+  
+  
+  
+          
+  
+
+      <div class="views-row"><div class="views-field views-field-field-typering"><div class="field-content">Verzameling regels voor het structureren en documenteren van REST API’s</div></div></div>
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+</div>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Nut</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p>De overheid ontsluit gegevens en applicaties steeds vaker met REST-API's. Voorbeelden hiervan zijn te zien op de website <a href="https://developer.overheid.nl/">developer.overheid.nl</a>, <a href="https://commonground.nl/">in Common Ground</a>, <a href="https://www.vngrealisatie.nl/producten/haal-centraal">Haal Centraal</a> en het<a href="https://iplo.nl/"> Informatiepunt Leefomgeving</a>.</p>
+<p><span>Representational state transfer (REST) is een ontwerpprincipe dat wereldwijd veel gebruikt wordt voor het bouwen van programmeerinterfaces over het web (API's). REST is geen standaard maar een ontwerpprincipe, en laat nog veel vrijheid in het structureren van API's.</span></p>
+<p><span>De standaard NLGov REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST-API's aanbiedt.&nbsp;Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties te ontwikkelen met API's van de overheid.</span></p>
+<p>&nbsp;</p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Werking</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p>Een application programming interface (API) is een gestructureerd en gedocumenteerd koppelvlak voor communicatie tussen applicaties. Zo lang er computers zijn, bestaan er API's en worden er verschillende API technologieën gebruikt. In de laatste 10 jaar heeft Representational state transfer (REST) zich ontwikkeld tot een bepalend principe voor het realiseren van API's. &nbsp;Zogenaamde ‘<em>REST-API's</em>’ doen voor applicaties wat websites voor mensen doen. Websites presenteren informatie aan mensen, REST-API's maken applicaties en gegevens over het Internet beschikbaar voor andere applicaties. De technologie achter websites en REST-API's heeft daarom veel gemeen.</p>
+<p>De overheid gebruikt REST-API's voor <span>koppelingen met andere overheden, bedrijven en indirect ook met burgers, bijvoorbeeld via mobiele apps en webapps die aangeboden worden door bedrijven of overheden zelf. </span>Ontwikkelaars kunnen deze REST-API's bevragen vanuit de gangbare programmeertalen en frameworks zoals Python, Java, Microsoft C#, PHP.</p>
+<p><span>De standaard REST-API Design Rules heeft tot doel om meer uniformiteit te brengen in de manier waarop de overheid REST-API's aanbiedt. Hiervoor beschrijft de standaard een aantal basisregels voor het structureren en documenteren van REST-API's.</span></p>
+<p><span>De standaard NLGov REST API Design Rules moet toegepast worden daar waar de overheid REST-API's inzet, <strong>maar verplicht niet het gebruik van REST-API's</strong> bij het ontsluiten van gegevens of functionaliteit.</span></p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-block paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Domein</div>
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-block content-item">    <div class="views-element-container" id="block-views-block-standaarden-velden-block-2--2">
+      
+        
+          <div>
+<div class="js-view-dom-id-a4dfa6f2d22776992371d5645947a57f8ed343fd684bb2568b34ad1344e4fbfc">
+  
+  
+  
+          
+  
+
+      <div class="views-row"><div class="views-field views-field-field-domein"><div class="field-content"><a href="/domein/uitwisselingsfundament" hreflang="nl">Uitwisselingsfundament</a></div></div></div>
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+</div>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-relatie-a paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Relatie met andere standaarden</div>
+            
+  </td>
+<td >
+    
+                    <ul class="field field--name-field-gerelateerde-standaarden content-item-list">
+                                    <li class="field field--name-field-gerelateerde-standaarden content-item"><a href="/open-standaarden/digikoppeling" hreflang="nl">Digikoppeling</a></li>
+                                        <li class="field field--name-field-gerelateerde-standaarden content-item"><a href="/open-standaarden/nl-gov-assurance-profile-oauth-20" hreflang="nl">NL GOV Assurance profile for OAuth 2.0</a></li>
+                                        <li class="field field--name-field-gerelateerde-standaarden content-item"><a href="/open-standaarden/odata" hreflang="nl">OData</a></li>
+                                        <li class="field field--name-field-gerelateerde-standaarden content-item"><a href="/open-standaarden/openapi-specification" hreflang="nl">OpenAPI Specification</a></li>
+                                </ul>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-block paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Trefwoorden</div>
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-block content-item">    <div class="views-element-container" id="block-views-block-standaarden-velden-block-5--2">
+      
+        
+          <div>
+<div class="js-view-dom-id-53dfd1318053527d28c6daac330b1adfe11fcf46baf92e0d54cf98f4562e296a">
+  
+  
+  
+          
+  
+
+      <div class="views-row"><div class="views-field views-field-field-trefwoorden"><div class="field-content"><ul><li><a href="/trefwoord/informatiebeveiliging" hreflang="nl">Informatiebeveiliging</a></li></ul></div></div></div>
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+</div>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                </div>
+            
+  </table>
+  </div>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-informatie content-item">  <div class="paragraph paragraph--type---standaarden-tabel- paragraph--view-mode--default">
+          
+<div  class="wrapper">
+    
+<h2 >
+    
+                    <div  class="field field--name-field-tabel-titel content-item">Detailinformatie</div>
+            
+  </h2>
+<table >
+    
+                    <div  class="field field--name-field-tabel-rij content-item-list">
+                                    <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Volledige naam</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p><span lang="EN-GB">NLGov REST API Design Rules</span></p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-block paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Versie</div>
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-block content-item">    <div class="views-element-container" id="block-views-block-standaarden-velden-block-8--2">
+      
+        
+          <div>
+<div class="js-view-dom-id-3daefce5a47b2e0c31bb8f1ff21abcc47d28d2ed8a5a874c5d59c9bfc17b4ac0">
+  
+  
+  
+          
+  
+
+      <div class="views-row"><div class="views-field views-field-field-versie"><div class="field-content">2.2</div></div></div>
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+</div>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Specificatiedocument</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p><a href="https://gitdocumentatie.logius.nl/publicatie/api/adr/2.2.0/"><span lang="EN-US">NLGov REST API Design Rules 2.2.0</span></a></p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-block paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Beheerorganisatie</div>
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-block content-item">    <div class="views-element-container" id="block-views-block-standaarden-velden-block-1--2">
+      
+        
+          <div>
+<div class="js-view-dom-id-42620e893fe07efd38bc5cd1be983f9eeaeffcb73a877146a657edbb565a3529">
+  
+  
+  
+          
+  
+
+      <div class="views-row"><div class="views-field views-field-field-beheerorganisatie"><div class="field-content">Logius</div></div></div>
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+</div>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                </div>
+            
+  </table>
+  </div>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-informatie content-item">  <div class="paragraph paragraph--type---standaarden-tabel- paragraph--view-mode--default">
+          
+<div  class="wrapper">
+    
+<h2 >
+    
+                    <div  class="field field--name-field-tabel-titel content-item">Toetsingsinformatie</div>
+            
+  </h2>
+<table >
+    
+                    <div  class="field field--name-field-tabel-rij content-item-list">
+                                    <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-block paragraph--view-mode--default">
+          
+<TR >
+    
+<td >
+    
+                    <div  class="field field--name-field-standaard-title content-item">Uitstekend beheer</div>
+            
+                    <div  class="field field--name-field-tooltip content-item"><div class="tooltip-wrapper">
+    
+    <button aria-expanded="false" class="tooltip-bt fa fa-info-circle">
+        <span class="sr-only">Meer informatie over 
+                    <div  class="field field--name-name content-item">Uitstekend beheer</div>
+            </span>
+    </button>
+    
+    <div class="tooltip-ct">
+                    <div  class="field field--name-description content-item"><ul>
+<li>‘Ja’ betekent dat een nieuwe versie van de standaard na aanmelding op de lijst wordt overgenomen zonder aanvullende toetsing door het Forum Standaardisatie.</li>
+<li>‘Nee’ betekent dat een nieuwe versie van de standaard na aanmelding eerst door het Forum Standaardisatie wordt getoetst voordat de huidige versie op de lijst door de nieuwe versie kan worden vervangen.</li>
+</ul>
+</div>
+            </div>
+</div>
+</div>
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-block content-item">    <div class="views-element-container" id="block-views-block-standaarden-velden-block-4--2">
+      
+        
+          <div>
+<div class="js-view-dom-id-ba9a0d9ffa87b31c783521a24edb260d82256efb97813f5c2282e3e9302182cd">
+  
+  
+  
+          
+  
+
+      <div class="views-row"><div class="views-field views-field-field-management-status"><div class="field-content">Ja voor deze standaard</div></div></div>
+
+    
+
+  
+  
+
+  </div>
+</div>
+
+          </div>
+</div>
+            
+  </td>
+  </TR>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Intakeadvies
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/Downloads/Bijlagen%20OS/REST%20API%20Design%20Rules/Intakeadvies_API_Design_Rules.pdf" type="application/pdf">Intakeadvies_API_Design_Rules.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 210.52 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Expertadvies
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/Downloads/Bijlagen%20OS/REST%20API%20Design%20Rules/Expertadvies-standaard-REST-API-Design-Rules-1.0.pdf" type="application/pdf">Expertadvies-standaard-REST-API-Design-Rules-1.0.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 420.3 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Forumadvies
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/2020-06/Forumadvies-REST-API-Design-Rules.pdf" type="application/pdf">Forumadvies-REST-API-Design-Rules.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 188.75 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Datum van aanmelding</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p>15-10-2019</p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Datum besluit</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p>09-07-2020</p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Datum besluit</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><p>25-11-2025</p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Versiewijziging naar 2.1
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/BFS/3-lijsten/standaarden/radr/20251222-Versiewijziging-NLgov-REST-API-Design-Rules-naar-2.1-uitstekend-beheer.pdf" type="application/pdf">20251222-Versiewijziging-NLgov-REST-API-Design-Rules-naar-2.1-uitstekend-beheer.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 112.44 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Versiewijziging naar 2.2
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/BFS/3-lijsten/standaarden/radr/20260515-Versiewijziging-NLgov-REST-API-Design-Rules-naar-2.2-uitstekend-beheer.pdf" type="application/pdf">20260515-Versiewijziging-NLgov-REST-API-Design-Rules-naar-2.2-uitstekend-beheer.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 163.78 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Intakeadvies
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/BFS/3-lijsten/standaarden/radr/20240920-Versiewijziging-NLgov-REST-API-Design-Rules.pdf" type="application/pdf">20240920-Versiewijziging-NLgov-REST-API-Design-Rules.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 171.76 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Expertadvies
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/BFS/3-lijsten/standaarden/radr/20250613-Expertadvies-NLGov-REST-API-Design-Rules-2.0.pdf" type="application/pdf">20250613-Expertadvies-NLGov-REST-API-Design-Rules-2.0.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 273.82 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Consultatie
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/BFS/3-lijsten/standaarden/radr/20250808-verslag-reacties-consultatie-NLGov-REST-API-Design-Rules-2.0.pdf" type="application/pdf">20250808-verslag-reacties-consultatie-NLGov-REST-API-Design-Rules-2.0.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 98.2 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij-bestand paragraph--view-mode--default">
+          
+<tr >
+    
+<td >
+    
+
+                    Forumadvies
+            
+  </td>
+<td >
+    
+                    <div  class="field field--name-field-bestand content-item"><div class="file-wrapper">
+    <h4><a href="/sites/default/files/BFS/3-lijsten/standaarden/radr/20250924-Forumadvies-NLGov-REST-API-Design-Rules-2.0.pdf" type="application/pdf">20250924-Forumadvies-NLGov-REST-API-Design-Rules-2.0.pdf</a></h4>
+    <div class="file-info">
+            PDF Document | 196.55 KB
+    </div>
+</div>
+</div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+      </div>
+</div>
+                                </div>
+            
+  </table>
+  </div>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-informatie content-item">  <div class="paragraph paragraph--type---standaarden-tabel- paragraph--view-mode--default">
+          
+<div  class="wrapper">
+    
+<h2 >
+    
+                    <div  class="field field--name-field-tabel-titel content-item">Toepassing</div>
+            
+  </h2>
+<table >
+    
+                    <div  class="field field--name-field-tabel-rij content-item-list">
+                                    <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Praktijkvoorbeelden</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><ul>
+<li><strong>Kadaster:</strong>&nbsp;<a href="/node/990/">Kadaster Dataplatform, het platform met betrouwbare geodata</a></li>
+</ul>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                </div>
+            
+  </table>
+  </div>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-informatie content-item">  <div class="paragraph paragraph--type---standaarden-tabel- paragraph--view-mode--default">
+          
+<div  class="wrapper">
+    
+<h2 >
+    
+                    <div  class="field field--name-field-tabel-titel content-item">Overig</div>
+            
+  </h2>
+<table >
+    
+                    <div  class="field field--name-field-tabel-rij content-item-list">
+                                    <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Toelichting bij opname</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><h3>De standaard verplicht niet het gebruik van REST-API's</h3>
+<p>Als een overheidsorganisatie investeert in de bouw van REST-API's, dan moeten deze &nbsp;aangeboden worden volgens de REST-API design rules. De standaard zelf verplicht echter niet het gebruik van REST-API's om gegevens of functionaliteit te ontsluiten. Hiervoor kunnen als vanouds ook Webservices (SOAP-API's), (linked) open data of andere koppelvlakken gebruikt worden.</p>
+<h3>Beheer onder Logius</h3>
+<p><span>De standaard NLGov REST API Design Rules&nbsp;</span>is ontwikkeld in het <a href="https://www.geonovum.nl/themas/kennisplatform-apis">Kennisplatform API's</a> door een brede groep organisaties. Vanaf medio 2020 ligt het beheer van de standaard formeel bij <a href="https://www.logius.nl/diensten-van-logius/standaarden">Logius</a>. Het Kennisplatform API's blijft wel input leveren voor de doorontwikkeling van de standaard.</p>
+<h3>Veranderend gegevenslandschap</h3>
+<p>De groeiende inzet van REST-API's bij de overheid raakt bestaande standaarden zoals <a href="https://forumstandaardisatie.nl/open-standaarden/digikoppeling">Digikoppeling</a> en <a href="https://forumstandaardisatie.nl/open-standaarden/stuf">StUF</a>. Logius, VNG, Forum Standaardisatie en het Kennisplatform API's werken samen aan een visie over de transitie naar een nieuw gegevenslandschap en hoe REST-API's, Digikoppeling en StUF daarin samenhangen. Hierover volgt nog een publicatie.</p>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                        <div  class="field field--name-field-tabel-rij content-item">  <div class="paragraph paragraph--type---standaarden-tabel-rij- paragraph--view-mode--default">
+          
+<tr >
+    
+<th  scope="row">
+    
+                    <div  class="field field--name-field-standaard-title content-item">Adoptieadviezen</div>
+            
+                    <div  class="field field--name-field-tooltip content-item"><div class="tooltip-wrapper">
+    
+    <button aria-expanded="false" class="tooltip-bt fa fa-info-circle">
+        <span class="sr-only">Meer informatie over 
+                    <div  class="field field--name-name content-item">Adoptieadviezen</div>
+            </span>
+    </button>
+    
+    <div class="tooltip-ct">
+                    <div  class="field field--name-description content-item"><p>De formele adoptieadviezen die het Forum Standaardisatie meegeeft bij plaatsing van de standaard op de 'Pas toe of leg uit'-lijst of lijst aanbevolen standaarden.</p>
+</div>
+            </div>
+</div>
+</div>
+            
+  </th>
+<td >
+    
+                    <div  class="field field--name-field-standaard-content content-item-list">
+                                    <div  class="field field--name-field-standaard-content content-item"><ul>
+<li>Aan Forum Standaardisatie om duidelijkheid te geven over de samenhang tussen verschillende standaarden –met name de samenhang tussen StUF en standaarden gerelateerd aan API’s– eventueel door het publiceren van een beslisboom.<br>&nbsp;</li>
+<li>Aan Logius (beheerder Digikoppeling) om expliciet aandacht te geven aan de samenhang en transitie van Digikoppeling en REST API Design Rules.<br>&nbsp;</li>
+<li>Aan Logius als beheerorganisatie om te waken voor een evenredige vertegenwoordiging van verschillende disciplines (zoals ontwikkelaars, ontwerpers, architecten en beleidsmakers) in de werkgroep bij het ontwikkel- en beheerproces van de standaard.<br>&nbsp;</li>
+<li>Aan de Werkgroep API Design Rules van het Kennisplatform API's om te werken aan verdere inhoudelijke ontwikkeling van de standaard om deze volwassener te maken en openstaande technische ‘issues’ weg te werken. Het Kennisplatform API's heeft toegezegd hier zo snel mogelijk mee aan de slag te gaan.</li>
+</ul>
+</div>
+                                </div>
+            
+  </td>
+  </tr>
+      </div>
+</div>
+                                </div>
+            
+  </table>
+  </div>
+      </div>
+</div>
+                                </div>
+            
+  </div>
+  </div>
+  </div>
+    </div>
+
+  </article>
+
+          </div>
+
+
+
+        
+        
+    </main>
+
+    <aside class="region-contactblock">
+        <div class="layout-container">
+            <div class="container">
+                        <div id="block-shareblock" class="share-block">
+      
+        
+          
+                    <div  class="field field--name-field-link content-item-list">
+                                    <div  class="field field--name-field-link content-item"><a href="" class="icon-pijl-boven top-link">Naar boven</a></div>
+                                        <div  class="field field--name-field-link content-item"><a href="" class="icon-printer print-link">Print</a></div>
+                                        <div  class="field field--name-field-link content-item"><a href="https://social.overheid.nl/@forumstandaardisatie" class="icon-mastodon" rel="me">Mastodon</a></div>
+                                        <div  class="field field--name-field-link content-item"><a href="https://code.overheid.nl/ForumStandaardisatie" class="icon-github">Codeplatform</a></div>
+                                        <div  class="field field--name-field-link content-item"><a href="https://www.linkedin.com/company/forum-standaardisatie/" class="icon-linked-in">LinkedIn</a></div>
+                                </div>
+            
+          </div>
+
+
+            </div>
+        </div>
+    </aside>
+</div>
+
+    <aside class="payoff">
+        <div class="logo">
+            <span class="payoff_information">
+                Standaard Samenwerken
+            </span>
+        </div>
+    </aside>
+
+<footer id="footer" class="page-footer clearfix">
+    <div class="layout-container">
+        <div class="container">
+                
+<div id="block-voet">
+        
+      
+      <h2 class="visually-hidden" id="block-voet-menu">Voet</h2>
+    
+          
+              <ul class="nav navbar-nav row">
+                          <li class="nav-item menu-item--expanded col-xs-12 col-md-3">
+                        <h3>Standaarden</h3>
+                                        <ul class="menu">
+                    <li class="nav-item">
+                        <a href="/open-standaarden" class="nav-link" data-drupal-link-system-path="node/3">Lijst open standaarden</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/publicaties/veelgestelde-vragen" class="nav-link" data-drupal-link-system-path="node/940">Veelgestelde vragen</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded col-xs-12 col-md-3">
+                        <h3>Organisatie</h3>
+                                        <ul class="menu">
+                    <li class="nav-item">
+                        <a href="/over-ons" class="nav-link" data-drupal-link-system-path="node/18">Forum Standaardisatie</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/publicaties" class="nav-link" data-drupal-link-system-path="node/235">Publicaties  </a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/vergaderingen-en-stukken" class="nav-link" data-drupal-link-system-path="node/13">Vergaderingen en -stukken</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/contactgegevens" title="Contactgegevens" class="nav-link" data-drupal-link-system-path="node/49">Contact</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded col-xs-12 col-md-3">
+                        <h3>Over deze site</h3>
+                                        <ul class="menu">
+                    <li class="nav-item">
+                        <a href="/toegankelijkheid" title="Lees meer over de toegankelijkheid van deze site" class="nav-link" data-drupal-link-system-path="node/51">Toegankelijkheid</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/kwetsbaarheid-melden" class="nav-link" data-drupal-link-system-path="node/1110">Kwetsbaarheid melden</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/cookies" class="nav-link" data-drupal-link-system-path="node/48">Cookies</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/copyright" title="Copyright" class="nav-link" data-drupal-link-system-path="node/1111">Copyright</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/open-data-lijst-open-standaarden" class="nav-link" data-drupal-link-system-path="node/1175">Open data</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="https://logius.sitearchief.nl/?subsite=forumstandaardisatie#archive" title="Bekijk de website zoals die er vroeger uitzag" class="nav-link">Archief website</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded col-xs-12 col-md-3" lang="en">
+                        <h3>International</h3>
+                                        <ul class="menu">
+                    <li class="nav-item">
+                        <a href="/en/netherlands-standardisation-forum" class="nav-link" data-drupal-link-system-path="node/508">Standardisation Forum (English)</a>
+                      </li>
+                <li class="nav-item">
+                        <a href="/en/contact-english" class="nav-link" data-drupal-link-system-path="node/964">Contact (English)</a>
+                      </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </div>
+
+
+        </div>
+    </div>
+</footer>
+
+  </div>
+
+    <script type="text/javascript" nonce="a1f43680b0b631cb59a44531a072c453c4f4d489f0742de62da5e6be81545f01">
+(function (window, document, dataLayerName, id) {
+  window[dataLayerName] = window[dataLayerName] || [];
+  window[dataLayerName].push({
+    start: (new Date).getTime(),
+    event: "stg.start"
+  });
+
+  var scripts = document.getElementsByTagName("script")[0],
+      tags = document.createElement("script");
+
+  function stgCreateCookie(a, b, c) {
+    var d = "";
+    if (c) {
+      var e = new Date;
+      e.setTime(e.getTime() + 24 * c * 60 * 60 * 1e3);
+      d = "; expires=" + e.toUTCString();
+      var f = "; SameSite=Strict";
+    }
+    document.cookie = a + "=" + b + d + f + "; path=/";
+  }
+
+  var isStgDebug = (
+    window.location.href.match("stg_debug") ||
+    document.cookie.match("stg_debug")
+  ) && !window.location.href.match("stg_disable_debug");
+
+  stgCreateCookie("stg_debug", isStgDebug ? 1 : "", isStgDebug ? 14 : -1);
+
+  var qP = [];
+  dataLayerName !== "dataLayer" && qP.push("data_layer_name=" + dataLayerName);
+  qP.push("use_secure_cookies");
+  tags.nonce = "a1f43680b0b631cb59a44531a072c453c4f4d489f0742de62da5e6be81545f01";
+  isStgDebug && qP.push("stg_debug");
+  var qPString = qP.length > 0 ? ("?" + qP.join("&")) : "";
+  tags.async = true;
+  tags.src = "https://statistiek.rijksoverheid.nl/containers/" + id + ".js" + qPString;
+  scripts.parentNode.insertBefore(tags, scripts);
+
+  !function (a, n, i) {
+    a[n] = a[n] || {};
+    for (var c = 0; c < i.length; c++)
+      !function (i) {
+        a[n][i] = a[n][i] || {};
+        a[n][i].api = a[n][i].api || function () {
+          var a = [].slice.call(arguments, 0);
+          if (typeof a[0] === "string") {
+            window[dataLayerName].push({
+              event: n + "." + i + ":" + a[0],
+              parameters: [].slice.call(arguments, 1)
+            });
+          }
+        };
+      }(i[c]);
+  }(window, "ppms", ["tm", "cm"]);
+})(window, document, "dataLayer", "3d781e74-4b2a-4a4e-9a91-677677802e5c");
+</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/255","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"nl"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":false,"extTargetAppendNewWindowDisplay":false,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"#block-shareblock","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"mailto","telClass":"tel","mailtoLabel":"(link stuurt e-mail)","telLabel":"(link is een telefoonnummer)","extUseFontAwesome":true,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"ro-icon-ext ro-icon-externe-link-24px","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"col-md-12 col-xs-12","id":"","element":"div","show_label":false,"label_element":"h3","attributes":"","effect":"none","speed":"fast","label":"table","show_empty_fields":false,"label_element_classes":""}}},"filter_tooltips":{"trigger_event":"click"},"user":{"uid":0,"permissionsHash":"d47ef3e6f4e2394efda0706dd8c313e16781fd6efc975d493ad667ed8b47f297"}}</script>
+<script src="/sites/default/files/js/js_BcI5JtdxshQCtZMT3dmSHrFTdgeMuPMTUv84GaH4utQ.js?scope=footer&amp;delta=0&amp;language=nl&amp;theme=bfs&amp;include=eJxLSivWT8_JT0rM0UmtKMnJzMvWTykqLUjM0YNyddIyc0pSi-JL8vNzSjILivVhDACcuhcn"></script>
+
+  </body>
+</html>

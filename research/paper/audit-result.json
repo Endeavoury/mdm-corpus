@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-09",
+  "source_records": 99,
+  "cited_sources": 75,
+  "claims": 68,
+  "source_extracts": 75,
+  "concepts": 22,
+  "open_questions": 8,
+  "pdf_pages": 33,
+  "pdf_sha256": "d7051f19c5524e4fad2dba22bca25c45dfb29c3b5e6cec8e911b02b0f5feedfe",
+  "csv_files_structurally_checked": 15,
+  "overfull_boxes": 0,
+  "empirical_evaluation": "niet uitgevoerd; buiten scope"
+}

@@ -1,0 +1,3927 @@
+ 
+
+    
+
+    
+    Core Public Organisation Vocabulary
+
+    
+
+     
+
+        Copyright © 2024
+
+    
+
+    
+
+    
+
+    
+Abstract
+The Core Public Organisation Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a public organisation.
+
+    
+
+        Introduction
+
+    
+
+  The Core Public Organization Vocabulary (CPOV) is designed to support the exchange
+  of basic information about individual public organizations. Using the vocabulary,
+  almost certainly augmented with sector- or country-specific information, will facilitate
+  the process for institutions publishing data about public organisations to
+
+    
+share information G2G (government to government), G2B (government to business) and G2C (government to citizen);
+
+develop common information systems;
+
+link data from public organizations to other data sets;
+
+manage a cross-border repository of public services and organizations;
+
+enable the creation of interoperable catalogues of public organisation in Europe and beyond;
+
+browse public organizations by its function;
+
+link public service provided, budgets, and other types of resources with certain public organisations;
+
+keep track of the evolution of public organizations; and
+
+increase efficiencies by spotting duplicated or overlapping functions.
+
+  The Core Public Organization Vocabulary is designed to describe the organization
+  itself. Whilst the vocabulary may support links to descriptions of public services,
+  members of staff or other resources such as relevant legislation, policies and
+  jurisdictional coverage, it will not describe those resources in detail.
+
+  Public organizations involve elected representatives but these descriptions are out of
+  scope for the current work but may be the focus of future work once the vocabulary
+  is established and used.
+
+  The vocabulary is not concerned with features associated with commercial entities
+  such as shareholdings and ownership.
+
+  Wherever possible, the CPOV will reuse existing vocabularies to avoid defining new
+  terms. When reusing existing terms, it may define how they should be used.
+
+  In order to assure the reusability, neutrality and extensibility of the core vocabulary,
+  specific code lists to be used as values for properties will not be included in the
+  specification.
+
+    
+Status
+
+            This Core Vocabulary has the status SEMIC Recommendation published at 2024-05-06.
+
+        
+
+            Information about the process and the decisions involved in the creation of this specification are consultable at the Changelog.
+
+    
+
+        License
+
+    
+
+	
+             Copyright © 2024 European Union. All material in this repository is published under the license CC-BY 4.0, unless explicitly otherwise mentioned.
+
+    
+
+    
+
+        Terminology
+
+        
+
+            A Core Vocabulary (CV) is a basic, reusable and extensible data specification that captures the fundamental characteristics of an entity in a context-neutral fashion. Its main objective is to provide terms to be reused in the broadest possible context.
+            More information can be found on the SEMIC Style Guide.
+
+        
+This specification uses the following prefixes to shorten the URIs for readability.
+
+        
+
+PrefixNamespace IRI
+
+            
+admshttp://www.w3.org/ns/adms#
+
+atuhttp://data.europa.eu/88u/dataset/
+
+cvhttp://data.europa.eu/m8g/
+
+cpsvhttp://purl.org/vocab/cpsv#
+
+dcthttp://purl.org/dc/terms/
+
+foafhttp://xmlns.com/foaf/0.1/
+
+locnhttp://www.w3.org/ns/locn#            
+
+orghttp://www.w3.org/ns/org#
+
+provhttp://www.w3.org/ns/prov#
+
+skoshttp://www.w3.org/2004/02/skos/core#
+
+timehttp://www.w3.org/2006/time#
+
+xhvhttps://www.w3.org/1999/xhtml/vocab#
+
+        
+
+    
+Overview
+
+    
+
+                
+
+                            This document describes the usage of the following main entities for a correct usage of the Core Vocabulary:
+
+                            |
+			      Address |
+			      Contact Point |
+			      Identifier |
+			      Public Organisation |
+
+                        
+
+                            The main entities are supported by:
+
+                            |
+			      Change Event |
+			      Document |
+			      Image Object |
+			      Organization |
+			      Organizational Unit |
+			      Reference Framework |
+			      Temporal Entity |
+
+                
+
+                        
+
+                            And supported by these datatypes:
+
+                            | Code | Date | Date Time | Literal | Location | Text | URI |
+
+                
+
+    
+
+        
+
+        
+
+    
+
+   Main Entities
+
+The main entities are those that form the core of the Core Vocabulary.
+
+   
+
+            
+
+                Address
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A spatial object that in a human-readable way identifies a fixed location.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        An "address representation" as conceptually defined by the INSPIRE Address Representation data type: "Representation of an address spatial object for use in external application schemas that need to include the basic, address information in a readable way.".
+
+The representation of Addresses varies widely from one country's postal system to another. Even within countries, there are almost always examples of Addresses that do not conform to the stated national standard. However, ISO 19160-1 provides a method through which different Addresses can be converted from one conceptual model to another.
+
+This specification was heavily based on the INSPIRE Address Representation data type. It is noteworthy that if an Address is provided using the detailed breakdown suggested by the properties for this class, then it will be INSPIRE-conformant. To this very granular set of properties, we add two further properties:
+
+- full address (the complete address as a formatted string)
+
+- addressID (a unique identifier for the address).
+
+The first of these allows publishers to simply provide the complete Address as one string, with or without formatting. This is analogous to vCard's label property.
+
+The addressID is part of the INSPIRE guidelines and provides a hook that can be used to link the Address to an alternative representation, such as vCard or OASIS xAL.
+
+This class belongs to Core Location Vocabulary
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: address area
+                            , address ID
+                            , administrative unit level 1
+                            , administrative unit level 2
+                            , full address
+                            , locator designator
+                            , locator name
+                            , post code
+                            , post name
+                            , post office box
+                            , thoroughfare
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        address area
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a geographic area that groups Addresses.
+
+                                
+                                    This would typically be part of a city, a neighbourhood or village, e.g. Montmartre. Address area is not an administrative unit.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        address ID
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A globally unique identifier for each instance of an Address.
+
+                                
+                                    The concept of adding a globally unique identifier for each instance of an address is a crucial part of the INSPIRE data spec. A number of EU countries have already implemented an ID (a UUID) in their Address Register/gazetteer, among them Denmark. OASIS xAL also includes an address identifier. It is the address Identifier that allows an address to be represented in a format other than INSPIRE whilst remaining conformant to the Core Vocabulary.
+
+The INSPIRE method of representing addresses is very detailed, designed primarily for use in databases of addresses. Whilst data that is published in full conformance with the INSPIRE data structure can be made available using theCore Location Vocabulary the reverse is not true since the Core Vocabulary allows much greater flexibility.
+
+Many datasets that include address data as one piece of information about something else are likely to have that data in simpler formats. These might be tailored to the specific need of the dataset, follow a national norm, or make use of a standard like vCard.
+
+To provide maximum flexibility in the Core Vocabulary, whilst remaining interoperable with INSPIRE Address Guidelines (which EU Member States are obliged to use), the  Core Location Vocabulary provides the extra property of full address and makes use of INSPIRE's addressID.
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        administrative unit level 1
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of the uppermost level of the address, almost always a country.
+
+                                
+                                    Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'France' or 'FRA' consistently throughout the dataset and avoid mixing the two. The Country controlled vocabulary from the Publications Office can be reused for this.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        administrative unit level 2
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities.
+
+                                
+                                    Values could be a region or province, more granular than level 1.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        full address
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The complete address written as a string.
+
+                                
+                                    Use of this property is recommended as it will not suffer any misunderstandings that might arise through the breaking up of an address into its component parts. This property is analogous to vCard's label property but with two important differences: (1) formatting is not assumed so that, unlike vCard label, it may not be suitable to print this on an address label, (2) vCard's label property has a domain of vCard Address; the fullAddress property has no such restriction. An example of a full address is "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        locator designator
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A number or sequence of characters that uniquely identifies the locator within the relevant scope.
+
+                                
+                                    In simpler terms, this is the building number, apartment number, etc. For an address such as "Flat 3, 17 Bridge Street", the locator is "flat 3, 17".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        locator name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building.
+
+                                
+                                    The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building.
+
+The key difference between a locator designator and a locator name is that the latter is a proper name and is unlikely to include digits. For example, "Shumann, Berlaymont" is a meeting room within the European Commission headquarters for which locator name is more appropriate than locator.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post code
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.
+
+                                
+                                    Post codes are common elements in many countries' postal address systems. One of the many post codes of Paris is for example "75000".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.
+
+                                
+                                    Usually a city, for example "Paris".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post office box
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A location designator for a postal delivery point at a post office, usually a number.
+
+                                
+                                    INSPIRE's name for this is "postalDeliveryIdentifier" for which it uses the locator designator property with a type attribute of that name. This vocabulary separates out the Post Office Box for greater independence of technology. An example post office box number is "9383".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        thoroughfare
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a passage or way through from one location to another.
+
+                                
+                                    A thoroughfare is usually a street, but it might be a waterway or some other feature. For example, "Avenue des Champs-Élysées".
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+   
+
+            
+
+                Contact Point
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    Information (e.g. e-mail address, telephone number) of a person or department through which the user can get in touch with.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The Core Public Organization Vocabulary defines properties for telephone number, e-mail address and opening hours although it is noteworthy that the class is based on schema.org's  ContactPoint  class  that has additional properties that some implementations may find useful.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: availability restriction
+                            , contact page
+                            , has email
+                            , has telephone
+                            , opening hours
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        availability restriction
+
+                                
+
+                                        
+                                            Temporal Entity
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The time during which the Contact Point is not available.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        contact page
+
+                                
+
+                                        
+                                            Document
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A web page that could be used to reach out the Contact Point.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has email
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    An electronic address through which the Contact Point can be contacted.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has telephone
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A telephone number through which the Contact Point can be contacted.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        opening hours
+
+                                
+
+                                        
+                                            Temporal Entity
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The time at which the Contact Point is normally available.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Identifier
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A structured reference that identifies an entity.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The Identifier class is based on the UN/CEFACT class of the same name and is defined under the ADMS namespace.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: date of issue
+                            , notation
+                            , schema agency
+                            , scheme name
+                            , scheme URI
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        date of issue
+
+                                
+
+                                        
+                                            Date
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The date on which the Identifier was assigned.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        notation
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A string of characters to uniquely identify a concept.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        schema agency
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of the agency that issued the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        scheme name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Name of the scheme used to construct the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        scheme URI
+
+                                
+
+                                        
+                                            URI
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    URI of the scheme used to construct the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Public Organisation
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    An Organization that is defined as being part of the public sector by a legal framework at any level.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        Organizations which exist to provide services for its citizens and companies are called Public Organizations. The Public Organization class represents the organization. One organization may comprise several sub-organizations and any organization may have one or more organizational units. Each of these is described using the same properties and relationships.
+
+This definition is consistent with the more detailed definition of a "public sector body" as given in the PSI Directive: "the State, regional or local authorities, bodies governed by public law and associations formed by one or several such authorities or one or several such bodies governed by public law". It further defines a body governed by public law as any body "(a) established for the specific purpose of meeting needs in the general interest, not having an industrial or commercial character; and (b) having legal personality; and (c) financed, for the most part by the State, or regional or local authorities, or other bodies governed by public law; or subject to management supervision by those bodies; or having an administrative, managerial or supervisory board, more than half of whose members are appointed by the State, regional or local authorities or by other bodies governed by public law".
+
+                
+
+                    
+                        Subclass of
+
+                             Organization
+
+                        
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: address
+                            , alternative label
+                            , changed by
+                            , classification
+                            , contact point
+                            , description
+                            , has member
+                            , has unit
+                            , homepage
+                            , identifier
+                            , logo
+                            , member of
+                            , next
+                            , preferred label
+                            , prev
+                            , purpose
+                            , resulted from
+                            , spatial
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        address
+
+                                
+
+                                        
+                                            Address
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The Address of a Public Organization.
+
+                                
+                                    For consistency with INSPIRE, the Location Core Vocabulary's Address class should be used.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        alternative label
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    An alternative or informal name(s) of a Public Organization, irrespective of language.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        changed by
+
+                                
+
+                                        
+                                            Change Event
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The Change Event that changed the Organization.
+
+                                
+                                    Usually a change in the legal framework that is linked with the existence and operation of the organisation.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        classification
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The categorisation of the Public Organization.
+
+                                
+                                    As an example, the Publications Office of the European Union provides a Named Authority list of Organization Types which is appropriate for European institutions. Other classification schemes should be used at other levels of Public Organization.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        contact point
+
+                                
+
+                                        
+                                            Contact Point
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The main contact information of the resource.
+
+                                
+                                    Usually a phone number and e-mail address. Other contact methods may be included, including online contact information, but this is conceptually distinct from the organization's homepage that may or may not provide contact information.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        description
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The textual description of the Public Organization.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has member
+
+                                
+
+                                        
+                                            Public Organisation
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    An Organization which is a member of another without being a sub organization, they are independent entities.
+
+                                
+                                    The memberOf and hasMember properties are very simple and don't support statements describing the nature of the membership. The W3C Organization Ontology provides both this simple method and a more sophisticated model that does make it possible to, for example, provide information about the period of time in which one Organization was a member of another, the level of membership etc. That more sophisticated model should be used where necessary and may be used in addition to the simple memberOf/hasMember properties.
+
+An example of memberships are the EU member states and other partners which could be represented via different legal entities as members of EFSA, the European Food Safety Agency.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has unit
+
+                                
+
+                                        
+                                            Organizational Unit
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    An operational department within the Public Organization.
+
+                                
+                                    Organizations typically comprise many departments, units, teams etc. Each of these is modelled in the CPOV as a unit that is linked from the parent Organization with hasUnit and to the parent with unitOf.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        homepage
+
+                                
+
+                                        
+                                            Document
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The official home page of the Public Organization.
+
+                                
+                                    The value of this property is a URL irrespective of the serialisation of the data.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        identifier
+
+                                
+
+                                        
+                                            Identifier
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The unambiguous structured reference for the Public Organization.
+
+                                
+                                    Public organizations identifiers are often using (but not limited to) acronyms. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a  list of such acronyms.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        logo
+
+                                
+
+                                        
+                                            Image Object
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A graphic symbol to represent the Public Organization.
+
+                                
+                                    The value of this property can simply be the URL of the logo but it is better for developers if it links to an object that provides the URL of the image and essential metadata about it, notably its dimensions.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        member of
+
+                                
+
+                                        
+                                            Public Organisation
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    An Organization of which the Public Organisation is a member without being a sub organization, they are independent entities.
+
+                                
+                                    The memberOf and hasMember properties are very simple and don't support statements describing the nature of the membership. The W3C Organization Ontology provides both this simple method and a more sophisticated model that does make it possible to, for example, provide information about the period of time in which one Organization was a member of another, the level of membership etc. That more sophisticated model should be used where necessary and may be used in addition to the simple memberOf/hasMember properties.
+
+An example of memberships are the EU member states and other partners which could be represented via different legal entities as members of EFSA, the  European Food Safety Agency.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        next
+
+                                
+
+                                        
+                                            Public Organisation
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    In some cases, it is necessary to be able to create an ordered sequence of organizations that precede and succeed each other. To support this, the CPOV includes the well-known relationships of previous and next to allow such sequences to be captured and computed.
+
+                                
+                                    Examples of events leading to sequences could be renaming, splitting or merging of public organizations.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        preferred label
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A preferred label is used to provide the primary, legally recognised name of the Public Organization, as defined in the ORG Ontology.
+
+                                
+                                    Refers to the official or legal name of a Public Organization. An organization may only have one such name in any given language. Primary names may be provided in multiple languages with multiple instances of the preferred label property.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        prev
+
+                                
+
+                                        
+                                            Public Organisation
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    In some cases, it is necessary to be able to create an ordered sequence of an organization that precede and succeed each other. To support this, the CPOV includes the well-known relationships of previous and next to allow such sequences to be captured and computed.
+
+                                
+                                    Examples of events leading to sequences could be renaming, splitting or merging of public organizations.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        purpose
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    This property describes the reasons of existence of an Organization.
+
+                                
+                                    The ORG ontology suggests that this property can also be thought of as meaning 'remit' or 'responsibility.' Ideally this will link to a COFOG code but where this isn't possible or appropriate, other controlled vocabularies may be used.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        resulted from
+
+                                
+
+                                        
+                                            Change Event
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A Change Event from which the Public Organisation resulted.
+
+                                
+                                    Usually a change in the legal framework that is linked with the existence and operation of the organisation.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        spatial
+
+                                
+
+                                        
+                                            Location
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    This property links an Organization to the Administrative Region(s) that it covers.
+
+                                
+                                    The value of the properly should be the URI of the region as defined in an authoritative
+list of regions. In Europe, this is likely to be the Administrative Territorial Units
+Named Authority List maintained by the Publications Office's Metadata Registry.
+
+The ATU list does not include a geometry. That is, the territory is only identified by
+its name not its spatial coordinates. This is likely to be the case for similar lists. If
+geometries are available for the Public Organization's territory, they can be linked
+from the territorial unit using the Core Location Vocabulary's locn:geometry
+property.
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+   Supportive Entities
+
+The supportive entities are supporting the main entities in the Core Vocabulary. 
+They are included in the Core Vocabulary because they form the range of properties.
+
+   
+
+            
+
+                Change Event
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    An event which resulted in a major change to an Organization such as a merger or complete restructuring.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        It is intended for situations where the resulting Organization is sufficiently distinct from the original Organizations that it has a distinct identity and distinct URI.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: description
+                            , ended at time
+                            , has formal framework
+                            , original organization
+                            , resulting organization
+                            , started at time
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        description
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A textual explanation of the event.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        ended at time
+
+                                
+
+                                        
+                                            Date Time
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The time instant when the state of the organisation update was terminated.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has formal framework
+
+                                
+
+                                        
+                                            Reference Framework
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A piece of legislation or a policy document that prompted the change.
+
+                                
+                                    The property hasFormalFramework links a Change Event or Foundation Event to a piece of legislation or a policy document that prompted the change.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        original organization
+
+                                
+
+                                        
+                                            Public Organisation
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The Organization that existed before the change.
+
+                                
+                                    Although the Foundation Event class is defined as a subclass of Change Event, it is inappropriate to use the original organization property with the Foundation Event class.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        resulting organization
+
+                                
+
+                                        
+                                            Public Organisation
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    This property links a Change Event or a Foundation Event to the Organization that resulted from it.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        started at time
+
+                                
+
+                                        
+                                            Date Time
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The time instant when the state of the organisation update was initiated.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Document
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A self-contained collection of information in a readable format.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        In alignment with FOAF, there is no distinction between physical and electronic documents, or between copies of a work and the abstraction those copies embody.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                        This specification does not impose any additional requirements to properties for this entity.
+
+                
+
+        
+
+    
+
+   
+
+            
+
+                Image Object
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A logo to describe / represent an entity.
+
+                
+
+                
+
+                        Properties
+
+                    
+
+                        This specification does not impose any additional requirements to properties for this entity.
+
+                
+
+        
+
+    
+
+   
+
+            
+
+                Organization
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.
+
+                
+
+                
+
+                        Subclass of
+
+                             Agent
+
+                        
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: has sub organization
+                            , sub organization of
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has sub organization
+
+                                
+
+                                        
+                                            Organization
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an organization which is a sub-part or child of this organization.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        sub organization of
+
+                                
+
+                                        
+                                            Organization
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an Organization which contains this Organization.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Organizational Unit
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A subdivision of Organization which is part of this Organization.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The existence of an Organizational Unit depends on the Parent Organization, which means that it can only exist in the scope of the Parent Organization and not on its own.
+
+                
+
+                    
+                        Subclass of
+
+                             Organization
+
+                        
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: unit of
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        unit of
+
+                                
+
+                                        
+                                            Public Organisation
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The Public Organisation of which the Organizational Unit is an operational department.
+
+                                
+                                    Organizations typically comprise many departments, units, teams etc. Each of these is modelled in the CPOV as a unit that is linked from the parent Organization with hasUnit and to the parent with unitOf.
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+   
+
+            
+
+                Reference Framework
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    Legislation or official policy from which Requirements are derived.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        Usual Reference Frameworks are legal and non-legal specifications. Examples include procedures, tendering legislation, etc.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: identifier
+                            , implements
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        identifier
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    An unambiguous reference to a Reference Framework.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        implements
+
+                                
+
+                                        
+                                            Change Event
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A Change Event linked to relevant legislation or policy documents.
+
+                                
+                                    An example is the reference framework under which the Change Event is defined.
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+   
+
+            
+
+                Temporal Entity
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A temporal interval or instant.
+
+                
+
+                
+
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: description
+                            , frequency
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        description
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A  textual representation of the Temporal Entity.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        frequency
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The recurrence of an instant or period.
+
+                                
+                                    It is recommended to use the frequency from an existing vocabulary like the Frequency from the Publications Office.
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+    
+
+        
+
+            Datatypes
+
+	The following datatypes are used within this specification.
+
+	
+
+		
+
+		    
+
+		    
+			Class
+
+		    
+			Definition
+
+		
+
+	    
+
+		
+
+                   
+
+		   
+
+                
+
+                        Code
+
+                
+
+                    An idea or notion; a unit of thought.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Date
+
+                
+
+                    Date represents top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day, up to but not including the beginning moment of the next day).  For non-timezoned values, the top-open intervals disjointly cover the non-timezoned timeline, one per day.  For timezoned values, the intervals begin at every minute and therefore overlap.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Date Time
+
+                
+
+                    dateTime represents instants of time, optionally marked with a particular time zone offset.  Values representing the same instant but having different time zone offsets are equal but not identical.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Literal
+
+                
+
+                    The class of literal values, eg. textual strings and integers.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Location
+
+                
+
+                    An identifiable geographic place or named place.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Text
+
+                
+
+                    The text data type is a combination of a string and a language identifier.
+
+		
+
+                   
+
+		   
+
+                
+
+                        URI
+
+                
+
+                    anyURI represents an Internationalized Resource Identifier Reference (IRI).  An anyURI value can be absolute or relative, and may have an optional fragment identifier (i.e., it may be an IRI Reference).
+
+            
+
+    
+ Examples 
+
+Example Public Organisation
+
+	
+Usage Guidelines
+
+  
+Support for implementation
+
+The following section provides support for implementing the Core Public Organisation Vocabulary.
+
+JSON-LD context file
+
+One common technical question is the format in which the data is being exchanged. 
+For conformance with the Core Public Organisation Vocabulary, it is not mandatory that this happens in a RDF serialisation, but the exhanged format SHOULD be unambiguously be transformable into RDF.
+For the format JSON, a popular format to exchange data between systems, SEMIC provides a JSON-LD context file. 
+JSON-LD is a W3C Recommendation [[[json-ld11]]] that provided a standard approach to interpret JSON structures as RDF.
+The provided JSON-LD context file can be used by implementers.
+This JSON-LD context is not normative, i.e. other JSON-LD contexts are allowed.
+
+The JSON-LD context file downloadable here.
+
+Validation
+
+To verify if the data is (technically) conformant to the Core Public Organisation Vocabulary, the exchanged data can be validated using the provided SHACL shapes. 
+SHACL is a W3C Recommendation to express constraints on a RDF knowledge graph. 
+
+To support the check whether or not a catalogue satisfies the expressed constraints in this Core Vocabulary, the constraints in this specification are expressed using SHACL [[shacl]].
+Each constraint in this specification that could be converted into a SHACL expression has been included.
+As such this collection of SHACL expressions that can be used to build a validation check for data. 
+
+It is up to the implementers to define the validation they expect.
+Each implementation happens within a context, and that context is beyond the SHACL expressions here.
+
+The shapes can be found here.
+
+RDF representation
+The RDF representation of the Core Public Organisation Vocabulary is available here.
+
+UML representation
+The UML representation from which the Core Public Organisation Vocabulary has been build is available here.
+
+    
+
+Governance
+
+Versioning governance
+All specifications produced in SEMIC will follow the versioning rule described by the SEMIC Style Guide rule 
+PC-R3.
+In case a SEMIC asset is deprecated the asset will remain available through its PURI.
+
+The serialisation will have:
+
+a dct:isReplacedBy referencing the new assets used instead and
+
+ an adms:status  indicating its deprecated status.
+
+Governance requirements for re-used assets
+In order to adhere to the SEMIC Style Guide rule GC-R2
+ a specification should have quality and governance standards for the assets that are being reused.
+
+In order for an asset to be considered for reuse within a SEMIC specification it can be requested by a community member or it requires to adhere to the following requirements:
+
+ The asset is part of a recommendation by a major standards body or an EU institution.
+
+ The asset is actively being maintained.
+
+After being taken into consideration the asset will be validated in three steps:
+
+ Syntax validation will be performed on the relevant artefacts.
+
+ Constraint validation will be performed on the relevant artefacts.
+
+ The PURI will be validated.
+
+Once considered and validated an asset can be adopted if it is approved by the community.
+
+Lexicalisation rules
+
+In order to adhere to the SEMIC Style Guide rule SC-R3 a specification requires formal lexicalisation rules.
+The Style Guide proposes two options either by using RDFS or SKOS lexicalisation.
+
+SEMIC uses and will use the RDFS lexicalisation for all of its specifications. More specifically:
+
+ rdfs:label is used to provide a human-readable version of a resource's name.
+
+ The usage of certain resource can be clarified in a skos:usageNote.
+
+    
+
+ 
+
+	
+Mappings
+A mapping towards Schema.org can be found here
+
+ 
+
+Quick Reference of Classes and Properties
+
+This section provides a condensed tabular overview of the mentioned classes and properties in this specification.
+The properties are indicated as mandatory, recommended, optional and deprecated. These terms have the following meaning.
+
+Mandatory property: a receiver MUST be able to process the information for that property; a sender MUST provide the information for that property.
+
+Recommended property: a receiver MUST be able to process the information for that property; a sender SHOULD provide the information for that property if it is available.
+
+Optional property: a receiver MUST be able to process the information for that property; a sender MAY provide the information for that property but is not obliged to do so.
+
+Deprecated property: a receiver SHOULD be able to process information about instances of that property; a sender SHOULD NOT provide the information about instances of that property.
+
+	
+
+ClassClass IRIProperty TypePropertyProperty IRI
+
+	
+
+				
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								address area 
+
+http://www.w3.org/ns/locn#addressArea
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								address ID 
+
+http://www.w3.org/ns/locn#addressId
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								administrative unit level 1 
+
+http://www.w3.org/ns/locn#adminUnitL1
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								administrative unit level 2 
+
+http://www.w3.org/ns/locn#adminUnitL2
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								full address 
+
+http://www.w3.org/ns/locn#fullAddress
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								locator designator 
+
+http://www.w3.org/ns/locn#locatorDesignator
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								locator name 
+
+http://www.w3.org/ns/locn#locatorName
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post code 
+
+http://www.w3.org/ns/locn#postCode
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post name 
+
+http://www.w3.org/ns/locn#postName
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post office box 
+
+http://www.w3.org/ns/locn#poBox
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								thoroughfare 
+
+http://www.w3.org/ns/locn#thoroughfare
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Change Event
+
+http://www.w3.org/ns/org#ChangeEvent
+
+								description 
+
+http://purl.org/dc/terms/description
+
+						
+
+						
+
+								Change Event
+
+http://www.w3.org/ns/org#ChangeEvent
+
+								ended at time 
+
+http://www.w3.org/ns/prov#endedAtTime
+
+						
+
+						
+
+								Change Event
+
+http://www.w3.org/ns/org#ChangeEvent
+
+								has formal framework 
+
+http://data.europa.eu/m8g/hasFormalFramework
+
+						
+
+						
+
+								Change Event
+
+http://www.w3.org/ns/org#ChangeEvent
+
+								original organization 
+
+http://www.w3.org/ns/org#originalOrganization
+
+						
+
+						
+
+								Change Event
+
+http://www.w3.org/ns/org#ChangeEvent
+
+								resulting organization 
+
+http://www.w3.org/ns/org#resultingOrganization
+
+						
+
+						
+
+								Change Event
+
+http://www.w3.org/ns/org#ChangeEvent
+
+								started at time 
+
+http://www.w3.org/ns/prov#startedAtTime
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								availability restriction 
+
+http://data.europa.eu/m8g/specialOpeningHoursSpecification
+
+						
+
+						
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								contact page 
+
+http://data.europa.eu/m8g/contactPage
+
+						
+
+						
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								has email 
+
+http://data.europa.eu/m8g/email
+
+						
+
+						
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								has telephone 
+
+http://data.europa.eu/m8g/telephone
+
+						
+
+						
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								opening hours 
+
+http://data.europa.eu/m8g/openingHours
+
+						
+
+				
+
+		
+
+					
+
+						Document
+
+http://xmlns.com/foaf/0.1/Document
+
+						
+
+					
+
+			
+
+				
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								date of issue 
+
+http://purl.org/dc/terms/issued
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								notation 
+
+http://www.w3.org/2004/02/skos/core#notation
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								schema agency 
+
+http://www.w3.org/ns/adms#schemaAgency
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								scheme name 
+
+http://www.w3.org/2000/01/rdf-schema#label
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								scheme URI 
+
+http://purl.org/dc/terms/conformsTo
+
+						
+
+				
+
+		
+
+					
+
+						Image Object
+
+http://data.europa.eu/m8g/ImageObject
+
+						
+
+					
+
+			
+
+				
+
+						
+
+						
+
+					
+
+					
+
+					
+
+						
+
+								Organization
+
+http://www.w3.org/ns/org#Organization
+
+								has sub organization 
+
+http://www.w3.org/ns/org#hasSubOrganization
+
+						
+
+						
+
+								Organization
+
+http://www.w3.org/ns/org#Organization
+
+								sub organization of 
+
+http://www.w3.org/ns/org#subOrganizationOf
+
+						
+
+				
+
+		
+
+					
+
+					
+
+						
+
+					
+
+							
+
+								Organizational Unit
+
+http://www.w3.org/ns/org#OrganizationalUnit
+
+								unit of 
+
+http://www.w3.org/ns/org#unitOf
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								address 
+
+http://www.w3.org/ns/locn#address
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								alternative label 
+
+http://www.w3.org/2004/02/skos/core#altLabel
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								changed by 
+
+http://www.w3.org/ns/org#changedBy
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								classification 
+
+http://www.w3.org/ns/org#classification
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								contact point 
+
+http://data.europa.eu/m8g/contactPoint
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								description 
+
+http://purl.org/dc/terms/description
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								has member 
+
+http://www.w3.org/ns/org#hasMember
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								has unit 
+
+http://www.w3.org/ns/org#hasUnit
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								homepage 
+
+http://xmlns.com/foaf/0.1/homepage
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								identifier 
+
+http://www.w3.org/ns/adms#identifier
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								logo 
+
+http://data.europa.eu/m8g/logo
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								member of 
+
+http://www.w3.org/ns/org#memberOf
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								next 
+
+http://www.w3.org/1999/xhtml/vocab#next
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								preferred label 
+
+http://www.w3.org/2004/02/skos/core#prefLabel
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								prev 
+
+http://www.w3.org/1999/xhtml/vocab#prev
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								purpose 
+
+http://www.w3.org/ns/org#purpose
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								resulted from 
+
+http://www.w3.org/ns/org#resultedFrom
+
+						
+
+						
+
+								Public Organisation
+
+http://data.europa.eu/m8g/PublicOrganisation
+
+								spatial 
+
+http://purl.org/dc/terms/spatial
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+						
+
+						
+
+					
+
+							
+
+								Reference Framework
+
+http://data.europa.eu/m8g/ReferenceFramework
+
+								identifier 
+
+http://purl.org/dc/terms/identifier
+
+						
+
+						
+
+								Reference Framework
+
+http://data.europa.eu/m8g/ReferenceFramework
+
+								implements 
+
+http://purl.org/vocab/cpsv#implements
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+						
+
+						
+
+					
+
+							
+
+								Temporal Entity
+
+http://www.w3.org/2006/time#TemporalEntity
+
+								description 
+
+http://purl.org/dc/terms/description
+
+						
+
+						
+
+								Temporal Entity
+
+http://www.w3.org/2006/time#TemporalEntity
+
+								frequency 
+
+http://data.europa.eu/m8g/frequency
+
+						
+
+				
+
+		
+
+   
+
+    
+
+        
+
+	 
+
+    
+
+    
+
+    
+
+    
+
+    
+
+	
+
+    	
+

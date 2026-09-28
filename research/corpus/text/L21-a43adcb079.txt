@@ -1,0 +1,147 @@
+     Entity Resolution: Theory, Practice & Open Challenges
+
+                                    Lise Getoor                                                      Ashwin Machanavajjhala
+                   University of Maryland, College Park                                                      Duke University
+                            getoor@cs.umd.edu                                                          ashwin@cs.duke.edu
+
+
+
+
+ABSTRACT                                                                                    2. OUTLINE
+This tutorial brings together perspectives on ER from a vari-                                 Despite its long history, with some of the earliest work go-
+ety of fields, including databases, machine learning, natural                               ing back to the 1950s, ER remains an active area of research.
+language processing and information retrieval, to provide,                                  In fact, with the emergence of “big data”, the problem has
+in one setting, a survey of a large body of work. We discuss                                enjoyed a renaissance in recent years. We will begin by sur-
+both the practical aspects and theoretical underpinnings of                                 veying some of the latest motivating problems for ER in
+ER. We describe existing solutions, current challenges, and                                 domains like advertising, online shopping, knowledge man-
+open research problems.                                                                     agement, and network science, the changing landscape for
+                                                                                            ER, and why the problem continues to be so important (and
+                                                                                            challenging!). The rest of the tutorial is divided into three
+1. INTRODUCTION                                                                             parts – ER theory, which reviews models and algorithms,
+   Entity resolution (ER), the problem of extracting, match-                                ER practice, which focuses on techniques for scaling ER,
+ing and resolving entity mentions in structured and unstruc-                                and ER challenges, where we outline active research areas.
+tured data, is a long-standing challenge in database man-
+agement, information retrieval, machine learning, natural                                   2.1    ER Theory
+language processing and statistics. Ironically, different sub-                                 We begin by introducing a simple abstraction for the en-
+disciplines refer to it by a variety of names, including record                             tity resolution problem. We categorize ER based on the type
+linkage, deduplication, co-reference resolution, reference rec-                             of input – single-entity ER, where all mentions correspond
+onciliation, object consolidation, identity uncertainty and                                 to a single entity type, relational ER, where real world en-
+database hardening. Accurate and fast ER has huge prac-                                     tities are linked (like in a social network), and multi-entity
+tical implications in a wide variety of commercial, scientific                              ER representing the most general problem with potentially
+and security domains.                                                                       linked mentions of different entity types (e.g., products, sell-
+   Despite the long history of work on ER there is still a                                  ers and reviews).
+surprising diversity of approaches – including rule based                                      We survey classical techniques for ER, which assume that
+methods, pair-wise classification, clustering approaches, and                               there exists a distance function between pairs of mentions.
+richer forms of probabilistic inference – and a lack of guid-                               These techniques can be broadly classified as pairwise ER,
+ing theory. Meanwhile, in the age of big data, the need for                                 where the decision to match a pair of mentions is made in-
+high quality entity resolution is only growing. We are inun-                                dependent of other mentions, and cluster-based ER, where
+dated with more and more data that needs to be integrated,                                  equivalence classes of entities are constructed via clustering.
+aligned and matched before further utility can be extracted.                                Pairwise ER is well suited for the problem of aligning two
+   This tutorial brings together perspectives on ER from a                                  databases of the same set of entities (e.g., lists of restau-
+variety of fields, including databases, machine learning nat-                               rants from two sites). We survey common algorithms for
+ural language processing and information retrieval, to pro-                                 computing similarity functions between mentions, and rule-
+vide, in one setting, a survey of a large body of work. We                                  based and probabilistic methods for pairwise and cluster-
+discuss both the practical aspects and theoretical underpin-                                based ER. We also discuss techniques for computing cluster
+nings of ER. We describe existing solutions, current chal-                                  representatives, a.k.a. canonical entities, from database and
+lenges, and open research problems.                                                         machine learning communities.
+                                                                                               We conclude this section by discussing the state of the
+                                                                                            art collective probabilistic inference techniques for multi-
+                                                                                            entity ER. These techniques are becoming popular due to
+Permission to make digital or hard copies of all or part of this work for                   an abundance of redundant mentions of entities on the Web
+personal or classroom use is granted without fee provided that copies are                   that are also linked, and techniques that only consider one
+not made or distributed for profit or commercial advantage and that copies                  entity type and that ignore links perform poorly. We de-
+bear this notice and the full citation on the first page. To copy otherwise, to             scribe approaches based on multi-relational clustering al-
+republish, to post on servers or to redistribute to lists, requires prior specific
+                                                                                            gorithms, probabilistic generative models, and probabilistic
+permission and/or a fee. Articles from this volume were invited to present
+their results at The 38th International Conference on Very Large Data Bases,                logical languages, e.g. Markov logic networks and proba-
+August 27th - 31st 2012, Istanbul, Turkey.                                                  bilistic soft logic.
+Proceedings of the VLDB Endowment, Vol. 5, No. 12
+Copyright 2012 VLDB Endowment 2150-8097/12/08... $ 10.00.
+
+
+
+
+                                                                                     2018
+2.2   ER Practice                                                      [10] W. Cohen, P. Ravikumar, and S. E. Fienberg. A
+   Naive ER algorithms that compare every pair of mentions                  comparison of string distance metrics for
+is O(n2 ). We will review efficient indexing, blocking, and                 name-matching tasks. In Proc. of IJCAI, 2003.
+message passing techniques, that can reduce the complexity             [11] X. Dong, A. Halevy, and J. Madhavan. Reference
+to near linear time. In addition, distributed computation                   reconciliation in complex information spaces. In
+can also significantly improve scalability of ER algorithms,                SIGMOD, 2005.
+and we will review recent work on distributed ER.                      [12] I. P. Fellegi and A. B. Sunter. A theory for record
+   Another important practical aspect is the evaluation of                  linkage. Journal of the American Statistical Society,
+ER results. A variety of measures have been proposed; we                    64(2283), 1969.
+will present some of the popular ones, and discuss some of             [13] L. Gravano, P. Ipeirotis, N. Koudas, and
+the important differences. We conclude this section with a                  D. Srivastava. Text joins for data cleansing and
+brief overview of ER systems that have been developed in                    integration in an rdbms. In ICDE, 2003.
+the academia and the industry.                                         [14] M. A. Hernandez and S. J. Stolfo. The merge/purge
+                                                                            problem for large databases. In SIGMOD, 1995.
+2.3   ER Challenges                                                    [15] D. V. Kalashnikov, S. Mehrotra, and Z. Chen.
+   Finally, we highlight a few open research directions, in-                Exploiting relationships for domain-independent data
+cluding ER in dynamic time varying data, large scale iden-                  cleaning. In SDM, 2005.
+tity management, privacy, query-driven ER, and active learn-           [16] H. Köpcke, A. Thor, and E. Rahm. Evaluation of
+ing or crowd-sourcing based methods for ER.                                 entity resolution approaches on real-world match
+                                                                            problems. PVLDB, 3(1):484–493, 2010.
+3. BIOGRAPHICAL SKETCHES                                               [17] N. Koudas, S. Sarawagi, and D. Srivastava. Record
+  Lise Getoor is an associate professor in the Computer                     linkage: Similarity measures and algorithms. Tutorial
+Science Department at the University of Maryland, College                   at SIGMOD, 2006.
+Park. Her main research interests are machine learning and             [18] A. McCallum, K. Nigam, and L. H. Ungar. Efficient
+reasoning under uncertainty, particularly in the context of                 clustering of high-dimensional data sets with
+structured and sem-structured data. She has published nu-                   application to reference matching. In KDD, 2000.
+merous articles in machine learning, data mining, database,            [19] A. McCallum and B. Wellner. Conditional models of
+and artificial intelligence forums. She received her PhD from               identity uncertainty with application to noun
+Stanford University in 2001.                                                coreference. In NIPS, 2004.
+  Ashwin Machanavajjhala is an Assistant Professor of                  [20] D. Menestrina, S. E. Whang, and H. Garcia-Molina.
+Computer Science at Duke University. His primary research                   Evaluating entity resolution results. In PVLDB, 2010.
+interests lie in data privacy, systems for massive data, and
+                                                                       [21] M. Michelson and C. A. Knoblock. Learning blocking
+statistical methods for data integration. Previously, he was
+                                                                            schemes for record linkage. In AAAI, 2006.
+a Senior Research Scientist at Yahoo! Research. His doc-
+                                                                       [22] A. E. Monge and C. P. Elkan. An efficient
+toral dissertation, from Cornell University, on defining and
+                                                                            domain-independent algorithm for detecting
+enforcing privacy was awarded the 2008 ACM SIGMOD Jim
+                                                                            approximately duplicate database records. In
+Gray Dissertation Award Honorable Mention.
+                                                                            SIGMOD Workshop on Research Issues on Data
+4. REFERENCES                                                               Mining and Knowledge Discovery, 1997.
+ [1] A. Arasu, M. Goetz, and R.Kaushik. On active
+                                                                       [23] H. Pasula, B. Marthi, B. Milch, S. Russell, and
+     learning of record matching packages. In SIGMOD,
+                                                                            I. Shpitser. Identity uncertainty and citation
+     2010.
+                                                                            matching. In NIPS, 2003.
+ [2] O. Benjelloun, H. Garcia-Molina, D. Menestrina,
+                                                                       [24] V. Rastogi, N. Dalvi, and M. Garofalakis. Large-scale
+     Q. Su, S. E. Whang, and J. Widom. Swoosh: a generic
+                                                                            collective entity matching. In PVLDB, 2012.
+     approach to entity resolution. VLDB Journal, 18(1),
+     2009.                                                             [25] E. S. Ristad and P. N. Yianilos. Learning string edit
+                                                                            distance. IEEE Transactions on Pattern Analysis and
+ [3] I. Bhattacharya and L. Getoor. A latent dirichlet
+                                                                            Machine Intelligence, 1998.
+     model for unsupervised entity resolution. In SDM,
+     2006.                                                             [26] S. Sarawagi and A. Bhamidipaty. Interactive
+                                                                            deduplication using active learning. In SIGKDD, 2002.
+ [4] I. Bhattacharya and L. Getoor. Collective entity
+     resolution in relational data. ACM Transactions on                [27] W. Shen, X. Li, and A. Doan. Constraint-based entity
+     Knowledge Discovery in Data, 1(1), 2007.                               matching. In AAAI, 2005.
+ [5] M. Bilenko, B. Kamath, and R. J. Mooney. Adaptive                 [28] P. Singla and P. Domingos. Multi-relational record
+     blocking: Learning to scale up record linkage and                      linkage. In KDD, 2004.
+     clustering. In ICDM, 2006.                                        [29] P. Singla and P. Domingos. Entity resolution with
+ [6] S. Chaudhuri, K. Ganjam, V. Ganti, and R. Motwani.                     markov logic. In ICDM, 2006.
+     Robust and efficient fuzzy match for online data                  [30] S. E. Whang, D. Menestrina, G. Koutrika,
+     cleaning. In SIGMOD, 2003.                                             M. Theobald, and H. Garcia-Molina. Entity resolution
+ [7] S. Chaudhuri, V. Ganti, and R. Motwani. Robust                         with iterative blocking. In SIGMOD, 2009.
+     identification of fuzzy duplicates. In ICDE, 2005.                [31] W. E. Winkler. Methods for record linkage and
+ [8] P. Christen. Data Matching. Springer, 2012.                            bayesian networks. Technical report, Statistical
+                                                                            Research Division, U.S. Census Bureau, 2002.
+ [9] W. Cohen and P. Ravikumar. A hierarchical graphical
+     model for record linkage. In Proc. of UAI, 2004.
+
+
+
+                                                                2019
+

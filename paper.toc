@@ -1,0 +1,80 @@
+\babel@toc {dutch}{}\relax 
+\contentsline {section}{\numberline {1}Inleiding}{4}{section.1}%
+\contentsline {section}{\numberline {2}Probleemstelling}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Praktisch probleem}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Wetenschappelijke kennisvraag en antecedenten}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Maatschappelijke en wetenschappelijke relevantie}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Onderzoeksdoel en onderzoeksvragen}{6}{section.3}%
+\contentsline {section}{\numberline {4}Onderzoeksmethode}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Design Science Research en onderzoeksstatus}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Bronbasis en syntheseprocedure}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Epistemische scheiding en onderzoeksintegriteit}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Afleiding en DSR-beslismomenten}{8}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Theoretisch kader}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Master Data Management}{8}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Operationele afbakening en grensgevallen}{8}{subsubsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.2}Metadata en data-elementen}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Terminologie, definities en concepten}{9}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Definitie versus datastructuur}{10}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.4}Semantiek en representatie}{11}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Semantic false agreement}{11}{subsubsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.5}Ontologie en ontologische commitment}{11}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Semantische interoperabiliteit}{12}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Data Products en governance}{12}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Identiteit en persistente identificatie}{13}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Temporaliteit en historie}{13}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}Provenance, authenticiteit en epistemische status}{13}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.11}Kwaliteit, constraints en AI als machineconsument}{14}{subsection.5.11}%
+\contentsline {section}{\numberline {6}Nederlandse overheidscontext}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Stelsel van Basisregistraties}{14}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Federatief Datastelsel}{14}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Nederlandse standaarden en hun status}{15}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Europese inbedding}{15}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Cross-standard analysis}{16}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Documenttypen en abstractieniveaus}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Aanvulling, overlap en conflict}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Semantische keten als netwerk}{16}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Kandidaatmappings in plaats van veronderstelde equivalentie}{17}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Status, toepasselijkheid en bronkritiek}{18}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Requirements voor een Semantic Master Data Product}{18}{section.8}%
+\contentsline {section}{\numberline {9}Reference Architecture}{20}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Architectuurstelling en alternatieven}{20}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Lagen, componenten en verantwoordelijkheden}{20}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Formele beschrijving van het conceptuele metamodel}{22}{subsection.9.3}%
+\contentsline {paragraph}{Analytisch tegenvoorbeeld, niet uitgevoerd.}{24}{section*.2}%
+\contentsline {subsection}{\numberline {9.4}Voorgestelde invarianten}{24}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Interfaces en informatiestromen}{25}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Normatieve en afgeleide informatie}{26}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Governance, lifecycle en versiebeheer}{26}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Minimale realisatie en concurrerende architecturen}{27}{subsection.9.8}%
+\contentsline {section}{\numberline {10}Design Principles}{27}{section.10}%
+\contentsline {section}{\numberline {11}Casus Stelsel van Basisregistraties}{30}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Onderbouwde casusgrens}{30}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Analytische toepassing op het BAG-fragment}{31}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Criteria voor uitbreiding naar meerdere registraties}{32}{subsection.11.3}%
+\contentsline {section}{\numberline {12}Bestaand prototype}{32}{section.12}%
+\contentsline {section}{\numberline {13}Voorgestelde evaluatiemethode}{32}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Evaluatievragen, eenheden en episodes}{32}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Sterke comparatoren en afzonderlijke interventies}{33}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Experimenten, variabelen en estimands}{33}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Hypothesen, praktische grenzen en weerlegging}{34}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Meetbare criteria}{35}{subsection.13.5}%
+\contentsline {subsection}{\numberline {13.6}Steekproef en gouden standaard}{36}{subsection.13.6}%
+\contentsline {subsection}{\numberline {13.7}Menselijke en AI-consumptie}{37}{subsection.13.7}%
+\contentsline {subsection}{\numberline {13.8}Analyse, kosten en rapportage}{37}{subsection.13.8}%
+\contentsline {subsection}{\numberline {13.9}Traceability-audit}{38}{subsection.13.9}%
+\contentsline {section}{\numberline {14}Discussie}{38}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Aard en begrenzing van de bijdrage}{38}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Semantische volledigheid en de grenzen van formalisering}{38}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Gezag en federatie}{38}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}AI: theoretische motivatie zonder effectoverschatting}{39}{subsection.14.4}%
+\contentsline {section}{\numberline {15}Threats to Validity}{39}{section.15}%
+\contentsline {section}{\numberline {16}Conclusie}{40}{section.16}%
+\contentsline {section}{\numberline {17}Future Work}{41}{section.17}%
+\contentsline {section}{\numberline {18}Pre-evaluation research state}{41}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Theoretische propositions en falsificatie}{41}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Afgeleide principes en te onderzoeken prototype-eigenschappen}{42}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Benodigde experimenten en open beslissingen}{42}{subsection.18.3}%
+\contentsline {section}{\numberline {A}Traceability van onderzoeksvragen naar evaluatie}{43}{appendix.A}%
+\contentsline {section}{\numberline {B}Corpus, bronstatus en reproduceerbaarheid}{45}{appendix.B}%
+\contentsline {section}{\numberline {C}Uitgebreide standaardvergelijking}{45}{appendix.C}%

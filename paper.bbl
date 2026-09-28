@@ -1,0 +1,611 @@
+\begin{thebibliography}{67}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abraham et~al.(2019)Abraham, Schneider, and vom Brocke]{L07}
+Rene Abraham, Johannes Schneider, and Jan vom Brocke.
+\newblock {Data governance: A conceptual framework, structured review, and
+  research agenda}.
+\newblock Peer-reviewed tijdschriftartikel; International Journal of
+  Information Management, 2019.
+\newblock URL \url{https://doi.org/10.1016/j.ijinfomgt.2019.07.008}.
+\newblock Dossierreferentie L07. Bewijs: Institutioneel abstract en
+  bibliografie.
+
+\bibitem[Blohm et~al.(2024)Blohm, Wortmann, Legner, and Köbler]{L12}
+Ivo Blohm, Felix Wortmann, Christine Legner, and Felix Köbler.
+\newblock {Data products, data mesh, and data fabric: New paradigm(s) for data
+  and analytics?}
+\newblock Tijdschriftbijdrage type Catchword; Business \& Information Systems
+  Engineering, 2024.
+\newblock URL \url{https://doi.org/10.1007/s12599-024-00876-5}.
+\newblock Dossierreferentie L12. Bewijs: Volledige openbare artikeltekst;
+  relevante secties.
+
+\bibitem[{BZK / Stelsel van Basisregistraties}(2021)]{S26}
+{BZK / Stelsel van Basisregistraties}.
+\newblock {Stelselafspraken / baseline kwaliteitszorg}.
+\newblock Afspraken- en kwaliteitskader, 2021.
+\newblock URL
+  \url{https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/07/Baseline-kwaliteitszorg-stelsel-van-basisregistraties2.pdf}.
+\newblock Dossierreferentie S26. Versie: Geraadpleegde publicatie 2021; geen
+  release-ID vastgesteld. Bewijs: Officiële PDF; hoofdstuk 2 geraadpleegd.
+  Peildatum 7 september 2026.
+
+\bibitem[{BZK; Kadaster; Geonovum}(2018)]{S49}
+{BZK; Kadaster; Geonovum}.
+\newblock {Catalogus BAG 2018}.
+\newblock Domeincatalogus / gegevensspecificatie, 2018.
+\newblock URL
+  \url{https://www.geobasisregistraties.nl/documenten/2018/03/12/catalogus-2018}.
+\newblock Dossierreferentie S49. Versie: 2018, versie 1.0;
+  wijzigingsvoorstellen niet automatisch normatief. Bewijs: Officiële
+  publicatiepagina; objectcontext via Kadaster. Peildatum 7 september 2026.
+
+\bibitem[{DAMA International}(2024)]{S01}
+{DAMA International}.
+\newblock {DAMA-DMBOK}.
+\newblock Body of knowledge / best practices, 2024.
+\newblock URL \url{https://dama.org/dama-dmbok-revision/}.
+\newblock Dossierreferentie S01. Versie: DMBOK2 Revised Edition, 2024. Bewijs:
+  Officiële editie-informatie; boek niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{Europees Parlement en Raad}(2024)]{S42}
+{Europees Parlement en Raad}.
+\newblock {Interoperable Europe Act}.
+\newblock EU-verordening; geen technische standaard, 2024.
+\newblock URL \url{https://eur-lex.europa.eu/eli/reg/2024/903}.
+\newblock Dossierreferentie S42. Versie: Verordening (EU) 2024/903. Bewijs:
+  primaire specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{Europese Commissie}(2017)]{S43}
+{Europese Commissie}.
+\newblock {European Interoperability Framework}.
+\newblock Interoperabiliteitskader / aanbevelingen, 2017.
+\newblock URL
+  \url{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52017DC0134}.
+\newblock Dossierreferentie S43. Versie: 2017, COM(2017)134. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{Europese Commissie / SEMIC}(2024)]{S44}
+{Europese Commissie / SEMIC}.
+\newblock {SEMIC Core Vocabularies}.
+\newblock Vocabulairefamilie / herbruikbare modellen, 2024.
+\newblock URL
+  \url{https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/}.
+\newblock Dossierreferentie S44. Versie: Onderzoeksreferenties: Person 2.1.1;
+  Business 2.2.0; Location 2.1.0; Public Organisation 2.1.1; geen
+  familieversie. Bewijs: Primaire releasepagina’s; scope en relevante
+  concepten. Peildatum 7 september 2026. Aanvullende primaire bronnen:
+  \url{https://semiceu.github.io/Core-Business-Vocabulary/releases/2.2.0/};
+  \url{https://semiceu.github.io/Core-Location-Vocabulary/releases/2.1.0/};
+  \url{https://semiceu.github.io/CPOV/releases/2.1.1/}.
+
+\bibitem[{Europese Commissie / SEMIC}(z.d.)]{S45}
+{Europese Commissie / SEMIC}.
+\newblock {DCAT-AP}.
+\newblock Applicatieprofiel, z.d.
+\newblock URL \url{https://semiceu.github.io/DCAT-AP/releases/3.0.1/}.
+\newblock Dossierreferentie S45. Versie: 3.0.1. Bewijs: primaire specificatie:
+  relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{Geonovum}(2024)]{S14}
+{Geonovum}.
+\newblock {NL-SBB}.
+\newblock Standaard voor begripsbeschrijving, 2024.
+\newblock URL
+  \url{https://docs.geostandaarden.nl/nl-sbb/def-st-nl-sbb-20241010/}.
+\newblock Dossierreferentie S14. Versie: 1.0. Bewijs: primaire specificatie:
+  relevante onderdelen. Peildatum 7 september 2026. Lijststatus en
+  toepassingsgebied:
+  \url{https://www.forumstandaardisatie.nl/open-standaarden/nl-sbb}.
+
+\bibitem[{Geonovum}(2025)]{S16}
+{Geonovum}.
+\newblock {DCAT-AP-NL}.
+\newblock Standaard / applicatieprofiel, 2025.
+\newblock URL
+  \url{https://docs.geostandaarden.nl/dcat/def-st-dcat-ap-nl30-20250526/}.
+\newblock Dossierreferentie S16. Versie: 3.0. Bewijs: primaire specificatie:
+  relevante onderdelen. Peildatum 7 september 2026. Lijststatus en
+  toepassingsgebied:
+  \url{https://www.forumstandaardisatie.nl/open-standaarden/dcat-ap-nl}.
+
+\bibitem[{Geonovum; ontwikkeld met Kadaster en VNG}(2024)]{S13}
+{Geonovum; ontwikkeld met Kadaster en VNG}.
+\newblock {MIM}.
+\newblock Standaard / metamodel, 2024.
+\newblock URL \url{https://docs.geostandaarden.nl/mim/def-st-mim-20240613/}.
+\newblock Dossierreferentie S13. Versie: 1.2. Bewijs: primaire specificatie:
+  relevante onderdelen. Peildatum 7 september 2026. Lijststatus en
+  toepassingsgebied:
+  \url{https://www.forumstandaardisatie.nl/open-standaarden/mim}.
+
+\bibitem[Gregor and Hevner(2013)]{L04}
+Shirley Gregor and Alan~R. Hevner.
+\newblock {Positioning and Presenting Design Science Research for Maximum
+  Impact}.
+\newblock Peer-reviewed methodologisch essay; MIS Quarterly, 2013.
+\newblock URL
+  \url{https://ailab-ua.github.io/courses/MIS611D/gregor-2013-positioning-presenting-design-science-research.pdf}.
+\newblock Dossierreferentie L04. Bewijs: Universitaire kopie gepubliceerd
+  artikel; relevante tekst.
+
+\bibitem[Gualo et~al.(2023)Gualo, Caballero, Rodríguez, and Piattini]{L19}
+Fernando Gualo, Ismael Caballero, Moisés Rodríguez, and Mario Piattini.
+\newblock {A Data Quality Model for Master Data Repositories}.
+\newblock Tijdschriftartikel; Informatica, 2023.
+\newblock URL \url{https://doi.org/10.15388/23-INFOR534}.
+\newblock Dossierreferentie L19. Bewijs: Primaire uitgeverstekst; model- en
+  meetsecties gecontroleerd tijdens review.
+
+\bibitem[Guarino and Welty(2002)]{L10}
+Nicola Guarino and Christopher Welty.
+\newblock {Evaluating ontological decisions with OntoClean}.
+\newblock Tijdschriftartikel; Communications of the ACM, 2002.
+\newblock URL \url{https://doi.org/10.1145/503124.503150}.
+\newblock Dossierreferentie L10. Bewijs: Auteurs-PDF; relevante tekst.
+
+\bibitem[Guizzardi(2005)]{L08}
+Giancarlo Guizzardi.
+\newblock {Ontological foundations for structural conceptual models}.
+\newblock Proefschrift; Universiteit Twente, 2005.
+\newblock URL
+  \url{https://research.utwente.nl/en/publications/ontological-foundations-for-structural-conceptual-models/}.
+\newblock Dossierreferentie L08. Bewijs: Institutioneel abstract en
+  bibliografie.
+
+\bibitem[Guizzardi et~al.(2015)Guizzardi, Wagner, Almeida, and Guizzardi]{L09}
+Giancarlo Guizzardi, Gerd Wagner, João Paulo~A. Almeida, and Renata S.~S.
+  Guizzardi.
+\newblock {Towards ontological foundations for conceptual modeling: The unified
+  foundational ontology (UFO) story}.
+\newblock Peer-reviewed tijdschriftartikel; Applied Ontology, 2015.
+\newblock URL \url{https://doi.org/10.3233/AO-150157}.
+\newblock Dossierreferentie L09. Bewijs: Institutioneel record en abstract.
+
+\bibitem[Haug et~al.(2013)Haug, Arlbjørn, Zachariassen, and Schlichter]{L17}
+Anders Haug, Jan~Stentoft Arlbjørn, Frederik Zachariassen, and Jakob
+  Schlichter.
+\newblock {Master data quality barriers: An empirical investigation}.
+\newblock Peer-reviewed tijdschriftartikel; Industrial Management \& Data
+  Systems, 2013.
+\newblock URL \url{https://doi.org/10.1108/02635571311303550}.
+\newblock Dossierreferentie L17. Bewijs: Institutioneel abstract en
+  bibliografie.
+
+\bibitem[Hevner et~al.(2004)Hevner, March, Park, and Ram]{L01}
+Alan~R. Hevner, Salvatore~T. March, Jinsoo Park, and Sudha Ram.
+\newblock {Design Science in Information Systems Research}.
+\newblock Peer-reviewed tijdschriftartikel; MIS Quarterly, 2004.
+\newblock URL \url{https://aisel.aisnet.org/misq/vol28/iss1/6/}.
+\newblock Dossierreferentie L01. Bewijs: Uitgeversabstract en bibliografie.
+
+\bibitem[Hogan et~al.(2021)]{L13}
+Aidan Hogan et~al.
+\newblock {Knowledge Graphs}.
+\newblock Peer-reviewed survey; ACM Computing Surveys, 2021.
+\newblock URL \url{https://doi.org/10.1145/3447772}.
+\newblock Dossierreferentie L13. Bewijs: Auteurs-PDF; abstract en relevante
+  tekst.
+
+\bibitem[{IETF / RFC Editor}(2005)]{S38}
+{IETF / RFC Editor}.
+\newblock {URI / IRI-identificatie}.
+\newblock Technische specificaties, 2005.
+\newblock URL \url{https://www.rfc-editor.org/info/rfc3986/}.
+\newblock Dossierreferentie S38. Versie: RFC 3986 en 3987, 2005. Bewijs:
+  primaire specificatie: relevante onderdelen. Peildatum 7 september 2026.
+  Aanvullende primaire bronnen: \url{https://www.rfc-editor.org/info/rfc3987/}.
+
+\bibitem[{ISO/IEC JTC 1/SC 32}(2023{\natexlab{a}})]{S07}
+{ISO/IEC JTC 1/SC 32}.
+\newblock {ISO/IEC 11179-3}.
+\newblock Internationale norm / metamodel, 2023{\natexlab{a}}.
+\newblock URL \url{https://www.iso.org/standard/78915.html}.
+\newblock Dossierreferentie S07. Versie: 2023. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/IEC JTC 1/SC 32}(2023{\natexlab{b}})]{S08}
+{ISO/IEC JTC 1/SC 32}.
+\newblock {ISO/IEC 11179-31}.
+\newblock Internationale norm / metamodel, 2023{\natexlab{b}}.
+\newblock URL \url{https://www.iso.org/standard/78925.html}.
+\newblock Dossierreferentie S08. Versie: 2023. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/IEC JTC 1/SC 32}(2023{\natexlab{c}})]{S09}
+{ISO/IEC JTC 1/SC 32}.
+\newblock {ISO/IEC 11179-33}.
+\newblock Internationale norm / metamodel, 2023{\natexlab{c}}.
+\newblock URL \url{https://www.iso.org/standard/81725.html}.
+\newblock Dossierreferentie S09. Versie: 2023. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/IEC JTC 1/SC 32}(2023{\natexlab{d}})]{S10}
+{ISO/IEC JTC 1/SC 32}.
+\newblock {ISO/IEC 11179-6}.
+\newblock Internationale norm, 2023{\natexlab{d}}.
+\newblock URL \url{https://www.iso.org/standard/78916.html}.
+\newblock Dossierreferentie S10. Versie: 2023. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/IEC JTC 1/SC 7}(2008)]{S12}
+{ISO/IEC JTC 1/SC 7}.
+\newblock {ISO/IEC 25012}.
+\newblock Internationale norm / kwaliteitsmodel, 2008.
+\newblock URL \url{https://www.iso.org/standard/35736.html}.
+\newblock Dossierreferentie S12. Versie: 2008. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/TC 184/SC 4}(2016{\natexlab{a}})]{S02}
+{ISO/TC 184/SC 4}.
+\newblock {ISO 8000-100}.
+\newblock Internationale norm, 2016{\natexlab{a}}.
+\newblock URL \url{https://www.iso.org/standard/62392.html}.
+\newblock Dossierreferentie S02. Versie: 2016. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/TC 184/SC 4}(2016{\natexlab{b}})]{S04}
+{ISO/TC 184/SC 4}.
+\newblock {ISO 8000-120}.
+\newblock Internationale norm, 2016{\natexlab{b}}.
+\newblock URL \url{https://www.iso.org/standard/62393.html}.
+\newblock Dossierreferentie S04. Versie: 2016. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/TC 184/SC 4}(2016{\natexlab{c}})]{S05}
+{ISO/TC 184/SC 4}.
+\newblock {ISO 8000-130}.
+\newblock Internationale norm, 2016{\natexlab{c}}.
+\newblock URL \url{https://www.iso.org/standard/62394.html}.
+\newblock Dossierreferentie S05. Versie: 2016. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/TC 184/SC 4}(2016{\natexlab{d}})]{S06}
+{ISO/TC 184/SC 4}.
+\newblock {ISO 8000-140}.
+\newblock Internationale norm, 2016{\natexlab{d}}.
+\newblock URL \url{https://www.iso.org/standard/62395.html}.
+\newblock Dossierreferentie S06. Versie: 2016. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/TC 184/SC 4}(2021)]{S03}
+{ISO/TC 184/SC 4}.
+\newblock {ISO 8000-110}.
+\newblock Internationale norm, 2021.
+\newblock URL \url{https://www.iso.org/standard/78501.html}.
+\newblock Dossierreferentie S03. Versie: 2021. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[{ISO/TC 37/SC 1}(2022)]{S11}
+{ISO/TC 37/SC 1}.
+\newblock {ISO 704}.
+\newblock Internationale norm / terminologische methode, 2022.
+\newblock URL \url{https://www.iso.org/standard/79077.html}.
+\newblock Dossierreferentie S11. Versie: 2022. Bewijs: ISO-catalogus en
+  openbaar abstract; volledige norm niet geraadpleegd. Peildatum 7 september
+  2026.
+
+\bibitem[Jensen et~al.(1994)]{L14}
+Christian~S. Jensen et~al.
+\newblock {A Consensus Glossary of Temporal Database Concepts}.
+\newblock Wetenschappelijke glossary; ACM SIGMOD Record, 1994.
+\newblock URL
+  \url{https://www2.cs.arizona.edu/~rts/pubs/SIGMODRecordMarch94p52.pdf}.
+\newblock Dossierreferentie L14. Bewijs: Auteurs-PDF; definities gelezen.
+
+\bibitem[{KOOP}(2025)]{S15}
+{KOOP}.
+\newblock {TOOI}.
+\newblock Kennismodel: ontologieën / thesauri / registers, 2025.
+\newblock URL \url{https://standaarden.overheid.nl/tooi/downloads}.
+\newblock Dossierreferentie S15. Versie: Ontologie 1.6.2 (2025-07-04);
+  lijstdocumentatie 1.3.4. Bewijs: Officiële module- en versie-informatie.
+  Peildatum 7 september 2026.
+
+\bibitem[Lewis et~al.(2020)]{L16}
+Patrick Lewis et~al.
+\newblock {Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks}.
+\newblock Peer-reviewed conferentiepaper; NeurIPS, 2020.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html}.
+\newblock Dossierreferentie L16. Bewijs: Proceedingsabstract.
+
+\bibitem[{Logius}(2026{\natexlab{a}})]{S21}
+{Logius}.
+\newblock {Federated Service Connectivity (FSC)}.
+\newblock Technische specificatie, 2026{\natexlab{a}}.
+\newblock URL
+  \url{https://gitdocumentatie.logius.nl/publicatie/fsc/core/2.0.0/}.
+\newblock Dossierreferentie S21. Versie: Core 2.0.0. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{Logius}(2026{\natexlab{b}})]{S22}
+{Logius}.
+\newblock {NL GOV profile for CloudEvents}.
+\newblock Standaard / notificatieprofiel, 2026{\natexlab{b}}.
+\newblock URL
+  \url{https://gitdocumentatie.logius.nl/publicatie/notificatieservices/cloudevents-nl/1.1/}.
+\newblock Dossierreferentie S22. Versie: 1.1. Bewijs: primaire specificatie:
+  relevante onderdelen; review: lijstveld versie 1.1, specificatielinklabel
+  noemt 1.0; geselecteerde 1.1-publicatie apart gecontroleerd. Peildatum 7
+  september 2026. Lijststatus en toepassingsgebied:
+  \url{https://www.forumstandaardisatie.nl/open-standaarden/nl-gov-profile-cloudevents}.
+
+\bibitem[{Logius}(z.d.{\natexlab{a}})]{S18}
+{Logius}.
+\newblock {NLGov REST API Design Rules}.
+\newblock Standaard / API-specificatie, z.d.{\natexlab{a}}.
+\newblock URL
+  \url{https://gitdocumentatie.logius.nl/publicatie/api/adr/2.2.0/}.
+\newblock Dossierreferentie S18. Versie: 2.2.0; Forum vermeldt 2.2. Bewijs:
+  primaire specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{Logius}(z.d.{\natexlab{b}})]{S20}
+{Logius}.
+\newblock {Digikoppeling}.
+\newblock Standaardenfamilie / koppelvlakspecificaties, z.d.{\natexlab{b}}.
+\newblock URL \url{https://gitdocumentatie.logius.nl/publicatie/dk/restapi/}.
+\newblock Dossierreferentie S20. Versie: Geen overkoepelend versienummer;
+  REST-API 4.0.1. Bewijs: primaire specificatie: relevante onderdelen.
+  Peildatum 7 september 2026.
+
+\bibitem[{Logius}(z.d.{\natexlab{c}})]{S23}
+{Logius}.
+\newblock {BOMOS}.
+\newblock Governanceframework / best practices, z.d.{\natexlab{c}}.
+\newblock URL
+  \url{https://gitdocumentatie.logius.nl/publicatie/bomos/fundament/3.0.2/}.
+\newblock Dossierreferentie S23. Versie: Fundament 3.0.2; andere modules
+  afzonderlijk. Bewijs: primaire specificatie: relevante onderdelen. Peildatum
+  7 september 2026.
+
+\bibitem[{Nationaal Archief}(z.d.)]{S24}
+{Nationaal Archief}.
+\newblock {MDTO}.
+\newblock Norm / metagegevens- en uitwisselspecificatie, z.d.
+\newblock URL \url{https://www.nationaalarchief.nl/archiveren/mdto}.
+\newblock Dossierreferentie S24. Versie: 1.0. Bewijs: Officiële
+  overzichtspagina; geen clausuleconformiteit vastgesteld. Peildatum 7
+  september 2026.
+
+\bibitem[{NEN; commissie 351240}(2022)]{S17}
+{NEN; commissie 351240}.
+\newblock {NEN 3610}.
+\newblock Nederlandse norm / basismodel, 2022.
+\newblock URL \url{https://www.nen.nl/nen-3610-2022-nl-296137}.
+\newblock Dossierreferentie S17. Versie: 2022. Bewijs: NEN-catalogus; volledige
+  norm niet geraadpleegd. Peildatum 7 september 2026.
+
+\bibitem[{NORA Expertgroep Gegevensmanagement}(z.d.)]{S48}
+{NORA Expertgroep Gegevensmanagement}.
+\newblock {NORA Raamwerk gegevenskwaliteit}.
+\newblock Kwaliteitsraamwerk / begrippen en metrieken, z.d.
+\newblock URL
+  \url{https://www.noraonline.nl/wiki/Raamwerk_gegevenskwaliteit_NORA}.
+\newblock Dossierreferentie S48. Versie: Webversie geraadpleegd 2026-09-07.
+  Bewijs: primaire specificatie: relevante onderdelen. Peildatum 7 september
+  2026.
+
+\bibitem[{Object Management Group (OMG)}(2025)]{S51}
+{Object Management Group (OMG)}.
+\newblock {Data Product Ontology (DPROD)}.
+\newblock Ontologie / specificatie, 2025.
+\newblock URL \url{https://www.omg.org/spec/DPROD/1.0/Beta1/PDF}.
+\newblock Dossierreferentie S51. Versie: 1.0 Beta 1; document februari 2025,
+  catalogus adoption januari 2025. Bewijs: Primaire PDF: geselecteerde secties
+  en primaire catalogus gecontroleerd tijdens review. Peildatum 7 september
+  2026.
+
+\bibitem[{Onderzoeksgemeenschap rond Guizzardi en mede-auteurs}(z.d.)]{S40}
+{Onderzoeksgemeenschap rond Guizzardi en mede-auteurs}.
+\newblock {UFO}.
+\newblock Foundational ontology, z.d.
+\newblock URL \url{https://ontouml.org/ufo/}.
+\newblock Dossierreferentie S40. Versie: Onderzoeksbasis 2005 en 2015; geen
+  release vastgezet. Bewijs: Primaire communitydocumentatie; aangevuld met
+  L08-L09. Peildatum 7 september 2026.
+
+\bibitem[{OntoUML-onderzoeksgemeenschap}(z.d.)]{S41}
+{OntoUML-onderzoeksgemeenschap}.
+\newblock {OntoUML}.
+\newblock Modelleertaal / metamodel; ondersteund door methoden, z.d.
+\newblock URL \url{https://ontouml.org/ufo/}.
+\newblock Dossierreferentie S41. Versie: Geen eenduidige release vastgesteld;
+  onderzoeksbaseline L08. Bewijs: Communitydocumentatie en proefschrift L08.
+  Peildatum 7 september 2026.
+
+\bibitem[{OpenAPI Initiative / Linux Foundation}(z.d.)]{S19}
+{OpenAPI Initiative / Linux Foundation}.
+\newblock {OpenAPI Specification}.
+\newblock Interfacespecificatie, z.d.
+\newblock URL \url{https://spec.openapis.org/oas/v3.1.1.html}.
+\newblock Dossierreferentie S19. Versie: Onderzoeksreferentie 3.1.1;
+  Nederlandse lijst 3.0. Bewijs: primaire specificatie: relevante onderdelen.
+  Peildatum 7 september 2026. Nederlandse lijstversie 3.0 volgens het dossier;
+  lijstbron:
+  \url{https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification}.
+
+\bibitem[Otto et~al.(2012)Otto, Hüner, and Österle]{L05}
+Boris Otto, Kai~M. Hüner, and Hubert Österle.
+\newblock {Toward a functional reference model for master data quality
+  management}.
+\newblock Peer-reviewed tijdschriftartikel; Information Systems and e-Business
+  Management, 2012.
+\newblock URL \url{https://doi.org/10.1007/s10257-011-0178-0}.
+\newblock Dossierreferentie L05. Bewijs: Uitgeversabstract; volledige tekst
+  achter toegang.
+
+\bibitem[Peffers et~al.(2007)Peffers, Tuunanen, Rothenberger, and
+  Chatterjee]{L02}
+Ken Peffers, Tuure Tuunanen, Marcus~A. Rothenberger, and Samir Chatterjee.
+\newblock {A Design Science Research Methodology for Information Systems
+  Research}.
+\newblock Peer-reviewed tijdschriftartikel; JMIS, 2007.
+\newblock URL \url{https://doi.org/10.2753/MIS0742-1222240302}.
+\newblock Dossierreferentie L02. Bewijs: Uitgeversabstract en auteurs-PDF.
+
+\bibitem[{Realisatie IBDS / betrokken overheden}(2025)]{S27}
+{Realisatie IBDS / betrokken overheden}.
+\newblock {Federatief Datastelsel (FDS)}.
+\newblock Afsprakenstelsel / architectuurcontext, 2025.
+\newblock URL
+  \url{https://federatief.datastelsel.nl/afspraken/afwegingskader/v1/}.
+\newblock Dossierreferentie S27. Versie: Afwegingskader v1, 2025-12-18. Bewijs:
+  primaire specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{Rijksoverheid / BZK en betrokken ministers}(2003)]{S25}
+{Rijksoverheid / BZK en betrokken ministers}.
+\newblock {Twaalf eisen basisregistraties}.
+\newblock Beleidskader; geen technische standaard, 2003.
+\newblock URL \url{https://zoek.officielebekendmakingen.nl/kst-26387-18.html}.
+\newblock Dossierreferentie S25. Versie: Kamerstuk 26387 nr.18, 2003. Bewijs:
+  primaire specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[Venable et~al.(2016)Venable, Pries-Heje, and Baskerville]{L03}
+John Venable, Jan Pries-Heje, and Richard Baskerville.
+\newblock {FEDS: a Framework for Evaluation in Design Science Research}.
+\newblock Peer-reviewed tijdschriftartikel; EJIS, 2016.
+\newblock URL \url{https://doi.org/10.1057/ejis.2014.36}.
+\newblock Dossierreferentie L03. Bewijs: Uitgeversabstract en bibliografie.
+
+\bibitem[{W3C}(2008)]{S39}
+{W3C}.
+\newblock {Cool URIs for the Semantic Web}.
+\newblock Best practice / Interest Group Note, 2008.
+\newblock URL \url{https://www.w3.org/TR/cooluris/}.
+\newblock Dossierreferentie S39. Versie: 2008-12-03. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2009)]{S31}
+{W3C}.
+\newblock {SKOS}.
+\newblock Standaard / vocabulaire, 2009.
+\newblock URL \url{https://www.w3.org/TR/skos-reference/}.
+\newblock Dossierreferentie S31. Versie: 2009-08-18. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2012)]{S30}
+{W3C}.
+\newblock {OWL}.
+\newblock Standaard / ontologietaal, 2012.
+\newblock URL \url{https://www.w3.org/TR/owl2-overview/}.
+\newblock Dossierreferentie S30. Versie: OWL 2, second edition, 2012. Bewijs:
+  primaire specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2013{\natexlab{a}})]{S33}
+{W3C}.
+\newblock {PROV-O}.
+\newblock Standaard / ontologie, 2013{\natexlab{a}}.
+\newblock URL \url{https://www.w3.org/TR/prov-o/}.
+\newblock Dossierreferentie S33. Versie: 2013-04-30. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2013{\natexlab{b}})]{S36}
+{W3C}.
+\newblock {SPARQL}.
+\newblock Standaardenfamilie / querytaal, 2013{\natexlab{b}}.
+\newblock URL \url{https://www.w3.org/TR/sparql11-overview/}.
+\newblock Dossierreferentie S36. Versie: 1.1, 2013-03-21. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2014{\natexlab{a}})]{S28}
+{W3C}.
+\newblock {RDF}.
+\newblock Standaard / abstract datamodel, 2014{\natexlab{a}}.
+\newblock URL \url{https://www.w3.org/TR/rdf11-concepts/}.
+\newblock Dossierreferentie S28. Versie: 1.1, 2014-02-25. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2014{\natexlab{b}})]{S29}
+{W3C}.
+\newblock {RDFS}.
+\newblock Standaard / vocabulaire, 2014{\natexlab{b}}.
+\newblock URL \url{https://www.w3.org/TR/rdf-schema/}.
+\newblock Dossierreferentie S29. Versie: 1.1, 2014-02-25. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2016)]{S34}
+{W3C}.
+\newblock {DQV}.
+\newblock Vocabulaire / Working Group Note, 2016.
+\newblock URL \url{https://www.w3.org/TR/vocab-dqv/}.
+\newblock Dossierreferentie S34. Versie: 2016-12-15. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2017)]{S32}
+{W3C}.
+\newblock {SHACL}.
+\newblock Standaard / constrainttaal, 2017.
+\newblock URL \url{https://www.w3.org/TR/shacl/}.
+\newblock Dossierreferentie S32. Versie: 2017-07-20. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2020)]{S35}
+{W3C}.
+\newblock {JSON-LD}.
+\newblock Standaard / serialisatiespecificatie, 2020.
+\newblock URL \url{https://www.w3.org/TR/json-ld11/}.
+\newblock Dossierreferentie S35. Versie: 1.1, 2020-07-16. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C}(2024)]{S47}
+{W3C}.
+\newblock {DCAT}.
+\newblock Standaard / vocabulaire, 2024.
+\newblock URL \url{https://www.w3.org/TR/2024/REC-vocab-dcat-3-20240822/}.
+\newblock Dossierreferentie S47. Versie: 3, 2024-08-22. Bewijs: primaire
+  specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[{W3C / OGC}(2017)]{S37}
+{W3C / OGC}.
+\newblock {OWL-Time}.
+\newblock Standaard / ontologie, 2017.
+\newblock URL \url{https://www.w3.org/TR/2017/REC-owl-time-20171019/}.
+\newblock Dossierreferentie S37. Versie: Recommendation 2017-10-19. Bewijs:
+  primaire specificatie: relevante onderdelen. Peildatum 7 september 2026.
+
+\bibitem[Wang and Strong(1996)]{L15}
+Richard~Y. Wang and Diane~M. Strong.
+\newblock {Beyond Accuracy: What Data Quality Means to Data Consumers}.
+\newblock Peer-reviewed tijdschriftartikel; JMIS, 1996.
+\newblock URL \url{https://www.jmis-web.org/articles/1002}.
+\newblock Dossierreferentie L15. Bewijs: Uitgeversabstract en issue-metadata.
+
+\bibitem[Wang et~al.(2009)Wang, Sun, Cao, Ma, Kanellos, Zhang, Pan, and
+  Yu]{L18}
+Xiaoyuan Wang, Xingzhi Sun, Feng Cao, Li~Ma, Nick Kanellos, Kang Zhang, Yue
+  Pan, and Yong Yu.
+\newblock {SMDM: Enhancing Enterprise-Wide Master Data Management Using
+  Semantic Web Technologies}.
+\newblock Conferentiedemonstratiepaper; Proceedings of the VLDB Endowment,
+  2009.
+\newblock URL \url{https://www.vldb.org/pvldb/vol2/vldb09-1011.pdf}.
+\newblock Dossierreferentie L18. Bewijs: Primaire proceedings-PDF; abstract en
+  architectuursecties gelezen.
+
+\bibitem[Wilkinson et~al.(2016)]{L11}
+Mark~D. Wilkinson et~al.
+\newblock {The FAIR Guiding Principles for scientific data management and
+  stewardship}.
+\newblock Peer-reviewed artikel; Scientific Data, 2016.
+\newblock URL \url{https://doi.org/10.1038/sdata.2016.18}.
+\newblock Dossierreferentie L11. Bewijs: Volledige openbare artikeltekst;
+  relevante passages.
+
+\end{thebibliography}

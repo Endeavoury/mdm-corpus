@@ -1,0 +1,297 @@
+
+
+	
+
+		An Introduction to Ontology Engineering
+
+		
+
+	
+
+		
+
+ 
+
+    
+
+    
+
+    
+
+	
+
+    
+
+An Introduction to Ontology Engineering         
+
+  
+
+    
+
+OE Textbook
+
+   Overview
+
+   ToC 2nd Ed.  
+
+   Exercises
+
+   Tutorials
+
+   Software
+
+   Slides
+
+   FAQ
+
+   Errata
+
+Other writings
+
+Homepage
+
+  
+
+ 
+
+ 
+
+ Overview  
+
+The main aim of the textbook An introduction to ontology engineering is to provide the reader with a comprehensive introductory overview of ontology engineering. A secondary aim is to provide hands-on experience in ontology development that illustrate the theory.
+
+After an introductory chapter, the book is divided into three blocks:
+
+	
+Part I: logic foundations for ontologies both regarding the languages (mainly First Order predicate Logic, Description Logics, and OWL) and automated reasoning,  including a broader context.
+
+Part II: developing good ontologies with methods and methodologies, the top-down approach with foundational ontologies and theories (part-whole relations), and the bottom-up approach to extract as much useful content as possible from existing material, such as databases and text.
+
+Part III: advanced topics with a selection of areas of specialisation, including Ontology-Based Data Access, the interaction between ontologies and natural languages (multilingual ontologies, controlled natural language), advanced modelling with additional language features (fuzzy and temporal ontologies), and other topics, such as ontology modularisation, ontology matching and more.
+
+The start of each chapter contains a list of learning outcomes and the end of each chapter contains review questions and exercises. A number of sidebars and remarks are sprinkled throughout the book.
+
+The textbook is principally aimed at advanced undergraduate/postgraduate level in computer science and could fit a semester course in ontology engineering or a 2-week (very/perhaps too) intensive crash course. Domain experts and philosophers may find a subset of the chapters of interest, or work through the chapters in a different order.
+
+The book is published by College Publications and for sale in softcover hardcopy (a large size 'paperback', around 32.50 GBP, or 43 USD, or 37 EUR) and e-book (around half that cost) from online retailers, such as Amazon (.com, .co.uk, .de, .co.za), B&N, and others. Or search with ISBN-10 848900201 or ISBN-13 978-1848900202.
+
+There is also a  digital edition available via College Publications, through gumroad that will get you a PDF or you can send it to your Kindle for 16 GPB. 
+
+  
+
+2021 UCT Open Textbook Award for the textbook
+
+See also the announcement of the award by the DVC Teaching & Learning or
+ a brief interview in the UCT News about the textbook and the award
+
+Previous editions:  
+
+Version 1.5 from February 2020 is an 
+
+open educational resource textbook and downloadable from the textbook's website
+
+The first edition (paperback), was published by the non-profit College Publications and is still available from Amazon.com, .co.uk, .de, .es and many others
+
+Version 1 from July 2018 is also an open educational resource. 
+
+Exercises and tutorials 
+
+The exercises are described in the book. It refers to several ontologies, other files, and tools specifically, which are listed here with links to the appropriate sources, in the order that you would come across it in the book.
+
+The tutorials, assignments, and answers to the exercises for the second edition of the textbook are now available as a Workbook.
+
+Supplementary materials for the textbook's exercises
+
+	
+Several ontologies are used in the exercises, they are available here in this folder
+
+	
+
+A description of the AWO tutorial ontologies, or if you want to use them and cite them, please consult/use:
+
+Keet, C.M. The African Wildlife Ontology tutorial ontologies. Journal of Biomedical Semantics, 2020, 11:4.
+
+	
+
+	
+The Pizza ontology OOPS! outputs (zip file)
+
+OntoClean
+
+			
+The OntoClean example by Guarino and Welty (the one described in their paper), carried out in multiple steps
+
+		
+
+The OBDA tutorial about elephants in the Kruger Park
+
+The Ontology verbalisers (categorised) with their references, compiled by Zola Mahlaza
+
+A sample exam is available upon request 
+
+Tools and plugins
+Several in-house developed tools are used in the exercises: 
+
+		
+Logics support
+
+			
+DL axiom renderer - DL notation in Protégé
+
+OWL Classifier - detects OWL species and violations
+
+		
+
+Methods for ontology authoring
+
+			
+TDDonto2 - authoring support in Protégé
+
+CLaRO - competency question authoring
+
+ONSET - foundational ontology selection
+
+ROMULUS - foundational ontology repository
+
+BFO Classifier - align an ontology to BFO v2.0			
+
+OntoPartS - select part-whole relations
+
+TOMM - compute module metrics
+
+NOMSA - modularise an ontology			
+
+		
+
+Natural language tools
+
+			
+isiZulu verbaliser
+
+Afrikaans verbaliser
+
+ODE localiser - Protégé and Manchester syntax in Afrikaans and Spanish			
+
+		
+
+For some pedagogical context about these tools, see:
+
+Keet, C.M. In-house Developed Tools for Ontology Engineering Education (Demo). Proceedings of the Joint Ontology Workshops 2023 Episode IX: The Quebec Summer of Ontology --FOIS'23 Demonstrations. July 17-20, 2023, Sherbrooke, Canada. CEUR-WS Vol. 3637, paper 51.
+
+Other tools and sites that are used or pass the revue in the exercises (to be completed):
+
+	
+Ontology editors: Protégé  
+
+Ontology repositories: BioPortal, OntoHub, and ODPs
+
+Methods with tools: OOPS! ontology pitfall scanner 
+
+Tools for working with OWL files: OWL API, OWLlink, Owlready, and Apache Jena
+
+OBDA system: Ontop
+
+Course Slides 
+
+The ones used in 2019 are available in pdf, latex source, and ppt (automated conversion + post-processing). However, note that some of the material lends itself well, or even better, for scribbling on the board rather than static pretty pictures on slides (especially in the FOL, DL and OWL sections). When I have more time, I may make more neat figures; the figures that I did not make are referenced in the tex source file or in the 'notes' section of the ppt file.
+
+You can freely reuse and remix them, under a CC-BY licence.
+
+	
+Administrivia and general information; pdf
+
+Introduction; pdf - latex (zip)  - pptx
+
+FOL; pdf - latex (zip) - pptx
+
+DL; pdf - latex (zip) - pptx
+
+OWL etc; pdf - latex (zip) - pptx, and the reasoner example with Schrodinger's cat: pp23-43 of SWModLang-ESSLLI09-2.pdf
+
+Methods and methodologies; pdf - latex (zip) - ppt
+
+Top-down, part I (foundational ontologies); pdf - latex (zip) - ppt
+
+Top-down, part II (part-whole relations, ODPs); pdf - latex (zip) - ppt
+
+Bottom-up; pdf - latex (zip) - ppt, and the SKOS slides
+
+Multilingual Ontologies and ontology verbalisation; pdf - latex (zip) - ppt
+
+Guest lecture by Zubeida Khan on ontology modularisation; pdf - ppt
+
+Ontology Engineering Tutorials 
+
+Tutorials sessions, days, or weeks at various international events, with slides and practical activities:
+
+Competency Questions for Ontologies. Educational Series on Applied Ontology (ESAO'24). December 17, 2024, online.
+
+ISAO 2023 tutorials: Principles and methods for good ontologies and Foundations of ontology-based data access. International School on Applied Ontology (ISAO'23). Sherbrooke, Canada, 10-14 July 2023.
+
+JOWO 2022 tutorial: Generating text from ontologies in multiple languages.  Jönköping, Sweden, 15-19 August.
+
+Foundations and recent trends on ontology engineering. Course at the Erasmus Mundus Master's Programme in Information Technologies for Business Intelligence (IT4BI)/Erasmus Mundus Joint Master Degree Programme in Big Data Management and Analytics (BDMA). Universitat Politecnica de Catalunya, Barcelona, Spain. 2017. 1 ECTS. slides: Foundations and Recent trends (selected methods)
+
+ Representing and reasoning over relationships in ontologies. Forum on AI Research 2014 (FAIR'14), Stellenbosch, South Africa, 3-5 December, 2014.
+
+Introduction to ontology engineering, with emphasis on Semantic Web Technologies as part of the Masters Ontology Winter School 2010, 16-30 July, Meraka Institute, South Africa; Lecturer; includes course development and teaching (15+7 hours lectures and labs).
+
+Introduction to Ontology Engineering: Foundations and applications, 5-15 July 2010, Universidad de las Ciencias Informáticas, Cuba;  Lecturer; includes course development and teaching (20+10 hours lectures and labs).
+
+ Comprehensive introduction to ontology engineering, 5-16 April 2010, MSc-level,
+30 hours, Universidad de la Habana, Cuba; Lecturer; includes course development, teaching, and labs.
+
+ Representing and reasoning over a taxonomy of part-whole relations. Mini Ontology Winter School (MOWS 2008), Knowledge System Group, Meraka Institute, 1-11 July 2008, Pretoria, South Africa. A shorter version was presented at the University of South Africa, Pretoria, on August 6, 2008.
+
+Elsewhere 
+
+Version 1 of the book is also available in various institutional repositories, such as OpenUCT and the Open Textbook Archive, and people in charge of other archives and indexes have added it to other archives as well, including, but not limited to unglue.it (featured in the week of 13-8-2018), Open Libra, and the EBooks Directory. LibreText has been converting the textbook into HTML.
+
+It was also posted on Reddit and I announced it on my blog. 
+
+ 
+The OE book or its predecessor lecture notes and/or the slides based on it [is being/was/has been/will be] used in whole or in part in the following courses/at the following universities (in alphabetical order):
+
+	
+Free University of Bozen-Bolzano, Italy
+
+National Institute of Technology Patna, India 
+
+Open Universiteit, Nederland		
+
+Otto Von Guericke University, Germany	
+
+Politecnico de Milano, Italy	
+
+Tshwane University of Technology, South Africa	
+
+Umeå University, Sweden
+
+Universidad de las Ciencias Informáticas, Cuba
+
+Universität Leipzig, Germany
+
+University of Cape Town, South Africa
+
+University of KwaZulu-Natal, South Africa
+
+University of Liverpool, UK	
+
+University of Swansea, UK
+
+[to be updated]
+
+	(If you use it and would like it to be listed here, please contact me.)
+
+There's also a dialogue/interview with Teodora Petkova, following the publication of the textbook.
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+  
+
+This page was last updated on 31 October, 2025
+
+Design based on 3XPL051V3 by Robin 
+    Holm | Valid xhtml 
+    | Valid css 
+

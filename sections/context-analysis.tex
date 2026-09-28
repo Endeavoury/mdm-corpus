@@ -1,0 +1,59 @@
+\section{Nederlandse overheidscontext}
+\subsection{Stelsel van Basisregistraties}
+Het Stelsel is de primaire institutionele casus. De twaalf historische eisen omvatten wettelijke verankering, terugmelding, gebruik, aansprakelijkheid, redelijke kosten en kostendeling, inhoudelijke afbakening, afspraken, toegankelijkheid, kwaliteitsborging, betrokkenheid van gebruikers, de positie en relaties binnen het Stelsel en een verantwoordelijk bestuursorgaan. \citep{S25} Deze opsomming geeft de strekking van het beleidsdocument uit 2003 weer. Zij wordt niet gebruikt als zelfstandig bewijs van de huidige wettelijke plicht voor ieder gegeven, iedere organisatie of iedere concrete verwerking.
+
+De kwaliteitsbaseline uit 2021 vormt een aanvullende bron voor kwaliteitszorg en terugmelding. Het dossier maakt onderscheid tussen bestaande uitgangspunten en de als potentieel aangeduide afspraken in paragraaf 2.7. \citep{S26} Het ontwerp leidt daaruit af dat een terugmelding een eigen verantwoordelijke, status en besluitspoor nodig heeft (R19). Of een concreet gegeven authentiek is, en wat verplicht gebruik of terugmelding juridisch betekent, moet later aan de toepasselijke registratiebron worden getoetst. De architectuur representeert die beslissingen; zij neemt ze niet zelf.
+
+\subsection{Federatief Datastelsel}
+Het geselecteerde FDS-afwegingskader, versie 1 van 18 december 2025, verbindt deelname met afspraken over onder meer gezag en grondslag, identificatie, metadata, dienstverlening en kwaliteit. Het dossier registreert verschillende gradaties van bindendheid; KW001 is bijvoorbeeld aanbevolen. \citep{S27} De paper behandelt het kader daarom als een verzameling afzonderlijk te beoordelen afspraken. Deelnamevoorwaarden zijn niet zonder nadere grondslag algemene wettelijke verplichtingen voor elke overheidsdataset.
+
+De voorgestelde aansluiting op het FDS bestaat uit een toepasselijkheidsregister: per afspraak worden versie, betrokken product, verantwoordelijke, bindendheidsgrond, bewijs en openstaande afwijking vastgelegd. Dit is een ontwerpkeuze waarmee R18 toetsbaar wordt gemaakt. Federatieve publicatie vereist in deze architectuur geen centrale kopie van alle masterdata. De semantische graaf kan verwijzen naar brongebonden records en diensten, mits hun identiteit en versies voldoende eenduidig beschikbaar zijn.
+
+\subsection{Nederlandse standaarden en hun status}
+MIM ondersteunt informatiemodellering; NL-SBB ondersteunt begripsbeschrijving; NEN 3610 richt zich op het geo-informatiemodelleringsdomein. De geselecteerde referenties zijn respectievelijk MIM 1.2, NL-SBB 1.0 en NEN 3610:2022. \citep{S13,S14,S17} De inhoudelijke aansluiting is belangrijker dan het gezamenlijk Nederlandse karakter: het betreft verschillende abstractieniveaus en geen onderling vervangbare modellen.
+
+TOOI biedt semantiek en identificatievoorzieningen voor overheidsorganisaties en overheidsinformatie. Het is daarmee bruikbaar voor verwijzingen naar actoren of informatieobjecten, maar geen complete ontologie van alle basisregistraties. \citep{S15} MDTO betreft metadata voor duurzaam toegankelijke informatieobjecten en wordt alleen relevant geacht wanneer bewijsobjecten of publicatieversies onder een afzonderlijk bewaarbeleid vallen. \citep{S24} Het ontwerp leidt hieruit geen algemene MDTO-plicht voor elk operationeel masterdatarecord af.
+
+Voor distributie worden de Nederlandse REST API Design Rules, OpenAPI, Digikoppeling, FSC en het NL GOV profile for CloudEvents op hun eigen verantwoordelijkheid beoordeeld. \citep{S18,S19,S20,S21,S22} De versie van een technische specificatie moet worden onderscheiden van de versie op een Nederlandse standaardenlijst. Het dossier gebruikt bijvoorbeeld OpenAPI 3.1.1 als technische referentie en vermeldt 3.0 als Nederlandse lijstversie. Ook een gepubliceerde DCAT-AP-NL-specificatie en haar procedurestatus zijn verschillende feiten. De paper formuleert daarom geen algemene ``voldoet aan de Nederlandse standaarden''-claim; R21 vraagt om een expliciete versie- en toepasselijkheidstoets.
+
+\subsection{Europese inbedding}
+Het EIF is een interoperabiliteitskader. De Interoperable Europe Act is daarentegen een verordening met een eigen toepassingsgebied en voorwaarden, onder meer voor interoperabiliteitsbeoordelingen bij relevante nieuwe of gewijzigde bindende eisen. \citep{S43,S42} De verordening wordt niet geïnterpreteerd als een algemene verplichting tot RDF of OWL. De juridische beoordeling van een concrete toepassing blijft een afzonderlijke taak.
+
+SEMIC Core Vocabularies bieden generieke concepten voor onder meer personen, organisaties en locaties. De geselecteerde releases hebben eigen versies; ``SEMIC'' is geen enkelvoudig domeinmodel met één versienummer. \citep{S44} Een generiek locatieconcept geeft geen automatische juridische equivalentie met een Nederlands registratieobject. DCAT-AP en DCAT-AP-NL verbinden Europese en Nederlandse catalogisering, maar de in het dossier gekozen versies mogen niet zonder verificatie als een specifieke afleidingsketen worden gepresenteerd. \citep{S45,S16}
+
+\section{Cross-standard analysis}
+\label{sec:cross}
+\subsection{Documenttypen en abstractieniveaus}
+Een \emph{norm} wordt hier gebruikt voor een formeel normdocument, een \emph{specificatie} voor een expliciete technische beschrijving en een \emph{standaard} als bredere aanduiding voor vastgelegde afspraken. Een \emph{vocabulaire} definieert herbruikbare termen en relaties; een \emph{ontologie} formaliseert categorieën en axioma’s; een \emph{metamodel} beschrijft modelconstructies. Een \emph{methodologie} organiseert onderzoek of ontwikkeling, een \emph{architectuur} ordent verantwoordelijkheden en verbindingen en een \emph{governanceframework} ordent besluitvorming en beheer. Een \emph{best practice} is een aanbeveling waarvan de herkomst en reikwijdte afzonderlijk moeten worden vastgesteld. Dit zijn classificatieregels voor de analyse, geen claim dat alle organisaties deze woorden identiek gebruiken.
+
+Een organisatie kan haar artefact bovendien ``Recommendation'' noemen zonder dat het daardoor Nederlands recht wordt. DQV is een W3C Working Group Note, SHACL een W3C Recommendation en de Interoperable Europe Act een EU-verordening. \citep{S34,S32,S42} Het ontwerp onderscheidt daarom documenttype, publicatiestatus, gekozen versie en toepasselijke verplichting. Tabel~\ref{tab:cross} concentreert zich op functionele aansluiting. De volledige standards matrix blijft de plaats voor eigenaar, lijststatus en bronlocatie.
+
+De uitgebreide functionele vergelijking staat in bijlage~\ref{sec:full-standards}. De hoofdtekst concentreert zich hieronder op de beslissingen die niet door één standaard worden opgelost.
+
+
+\subsection{Aanvulling, overlap en conflict}
+De belangrijkste aanvulling is verticaal: terminologie beschrijft betekenis, modellen structureren die betekenis, data-elementen verbinden haar met representaties en distributiestandaarden ontsluiten representaties. De belangrijkste overlap is horizontaal: SKOS en OWL kunnen beide semantische relaties uitdrukken, en zowel ISO/IEC 11179 als DCAT kan datasets beschrijven. De beslissende vraag is steeds welke soort resource wordt beschreven en met welke semantiek. \citep{S31,S30,S09,S47}
+
+Een conflict ontstaat niet noodzakelijk doordat twee standaarden tegenstrijdige voorschriften geven. Het kan ook ontstaan doordat een implementatie verschillende begrippen samenvoegt. ``Klasse'' in een ontologie, ``objecttype'' in een informatiemodel en ``object class'' bij metadata\-registratie krijgen bijvoorbeeld niet automatisch dezelfde extensie of beheerstatus. \citep{S30,S13,S08} De voorgestelde oplossing is een mapping met expliciete voorwaarden, niet een syntactische hernoeming.
+
+Er blijven vier integratiehiaten binnen dit dossier. Ten eerste ontbreekt een gezamenlijk vastgesteld profiel voor de gehele keten. Ten tweede is de overgang van juridische definitie naar formele axioma’s niet volledig mechanisch onderbouwd. Ten derde is een dataproduct met operationele en epistemische afspraken breder dan een catalogusrecord. Ten vierde bepalen afzonderlijke provenance-, event- en tijdspecificaties niet hoe historische bewijsvoering over alle lagen heen plaatsvindt. Deze conclusies zijn \status{scope-gebaseerde syntheses}; een volledige review kan aanvullende oplossingen identificeren.
+
+\subsection{Semantische keten als netwerk}
+De gevraagde keten wordt analytisch weergegeven als:
+\begin{center}\small
+werkelijkheid $\rightarrow$ juridisch begrip $\rightarrow$ term en definitie $\rightarrow$ concept\\
+$\rightarrow$ ontologie $\rightarrow$ conceptueel informatiemodel $\rightarrow$ logisch informatiemodel\\
+$\rightarrow$ data-element $\rightarrow$ masterdata-object $\rightarrow$ dataset/dataproduct\\
+$\rightarrow$ API/event $\rightarrow$ applicatie of AI.
+\end{center}
+Deze volgorde is geen universeel productieproces. Een juridisch begrip hoeft niet aan elk gegeven vooraf te gaan; een concept kan meerdere definities hebben in verschillende contexten; één klasse kan naar meerdere modelelementen verwijzen. Werkelijkheid zelf is bovendien geen knoop waarvan juistheid uit het systeem kan worden afgeleid. Het metamodel registreert verwijzingen en beweringen over referenten. Termen, definities en concepten worden gekoppeld, niet tot opeenvolgende bestandsformaten gereduceerd. De architectuur werkt de keten daarom uit als een getypeerd netwerk met expliciete terugkoppeling en versieafhankelijkheden.
+
+\input{sections/integration-decisions}
+
+\section{Requirements voor een Semantic Master Data Product}
+\label{sec:requirements}
+R01--R22 zijn overgenomen uit het onderzoeksdossier; R23 expliciteert de gevraagde epistemische status. Elke requirement is een \status{ontwerpafleiding}. Het woord MOET betekent een verplichting binnen het voorgestelde SMDP-profiel. Het impliceert geen wettelijke verplichting of bewezen letterlijke normconformiteit. Conditionele eisen, bijvoorbeeld archiefmetadata of FDS-aansluiting, vereisen eerst een toepasselijkheidsbesluit. Een gemotiveerde niet-toepasselijkheid wordt geregistreerd en mag geen onzichtbare uitzondering worden.
+
+\input{sections/requirements-table}
+
+De eisen zijn niet onafhankelijk. R03 en R10 maken versiegebonden R07-provenance mogelijk; R01 en R04 begrenzen wat R11 als mapping mag verbinden; R06 bepaalt welke historische versie R14 moet leveren. R08 en R23 beschermen tegen het verwarren van herkomst met gezag. Deze afhankelijkheden vormen de rationale voor één samenhangend metamodel. Een apart controlesysteem per standaard zou de verbindingen nog steeds expliciet moeten maken.

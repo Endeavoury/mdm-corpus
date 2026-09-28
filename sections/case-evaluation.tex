@@ -1,0 +1,84 @@
+\section{Casus Stelsel van Basisregistraties}
+\subsection{Onderbouwde casusgrens}
+De primaire casus is het Stelsel, maar het beschikbare dossier ondersteunt slechts een beperkte concrete objectselectie uit de BAG: nummeraanduiding, verblijfsobject en pand. De geregistreerde officiële BAG-catalogusbron dient als grondslag voor deze selectie. \citep{S49} Het dossier biedt onvoldoende vastgelegde primaire inhoud om een volledige juridisch gevalideerde keten met persoon, perceel en WOZ-object te modelleren. Daarom worden geen BRP-, BRK- of WOZ-definities, cardinaliteiten of identiteitsregels ingevuld op basis van veronderstellingen.
+
+Dit beperkt de bewijskracht wezenlijk: een BAG-fragment is geen empirische demonstratie van interoperabiliteit tussen basisregistraties. De nog niet gevalideerde onderzoeksroute wordt als toekomstig uitbreidingsontwerp weergegeven:
+\begin{center}
+\small
+persoon $\dashrightarrow$ adres/nummeraanduiding $\dashrightarrow$ verblijfsobject\\
+$\dashrightarrow$ pand $\dashrightarrow$ perceel $\dashrightarrow$ WOZ-object.
+\end{center}
+De gestippelde pijl betekent hier uitsluitend ``te onderzoeken verbinding'', geen vastgestelde registratierelatie, navigatiepad of cardinaliteit. Ook het gebruik van \emph{adres} als knoop moet worden onderzocht: een beschrijving, een samengesteld gegeven en een registratieobject mogen niet stilzwijgend gelijkgesteld worden.
+
+\subsection{Analytische toepassing op het BAG-fragment}
+Voor de drie geselecteerde objectcategorieën stelt het ontwerp dezelfde onderzoekseenheid voor: een conceptbeschrijving, een eventuele ontologische klasse, een modeltype, data-elementen en verwijzingen naar recordversies. De categorieën worden niet samengevoegd omdat een applicatie ze gezamenlijk presenteert. De catalogus ondersteunt hun keuze als domeinonderwerpen; de concrete relaties en hun juridische gevolgen moeten later uit volledige gecontroleerde inhoud worden overgenomen. \citep{S49}
+
+\begin{longtable}{@{}P{.22\linewidth}P{.40\linewidth}P{.30\linewidth}@{}}
+\caption{Voorgestelde casusvragen; geen reeds uitgevoerde casustoets.}\\
+\toprule Aspect & Vraag voor het BAG-fragment & Benodigde aanvulling vóór evaluatie \\ \midrule\endfirsthead
+\toprule Aspect & Vraag voor het BAG-fragment & Benodigde aanvulling vóór evaluatie \\ \midrule\endhead
+Begrip en definitie & Welke afzonderlijke begrippen worden bedoeld en welke bronversie begrenst ze? & Geverifieerde definitietekst en toepassingscontext per categorie. \\
+Identiteit & Welke identifier verwijst naar object, record, versie of document? & Officieel uitgifte-, scope- en historiebeleid; geen afleiding uit tekenreekslengte alleen. \\
+Relaties en modellen & Welke relaties bestaan en welke betekenis behouden modeltransformaties? & Vastgestelde modelelementen, rollen en cardinaliteiten; gereviewde MIM/OWL-mapping. \\
+Ontologische verschillen & Wordt een fysieke, administratieve of andere referent gemodelleerd en welke identiteit geldt? & Domeindeskundige beoordeling; een UFO-classificatie blijft een gemotiveerd voorstel. \\
+Provenance en gezag & Welke bron ondersteunt welke waarde en authenticiteitsclaim? & Attribuut-/uitspraakgebonden grondslag en bronrecordversie. \\
+Historie & Welke situatie gold wanneer en welke versie was toen bekend? & Brongebonden definitie van tijdvelden en beschikbaarheid van historie. \\
+Koppeling buiten BAG & Is er identiteit, gedeeltelijke overlap of slechts een functionele relatie? & Primaire BRP/BRK/WOZ-bronnen, bevoegdheidsbeoordeling en afzonderlijke mappingvalidatie. \\
+\bottomrule
+\end{longtable}
+
+Een synthetisch scenario kan later een correctie van een eerder gepubliceerd gegeven gebruiken. De juiste uitkomst hangt dan af van zowel de geldigheidsdatum als het registratiemoment bij de gekozen bron. Een tweede scenario kan twee gelijknamige velden uit verschillende modelversies vergelijken. Een derde scenario kan een AI-afgeleide correspondentie aanbieden waarvoor geen bevoegde bevestiging bestaat. Deze scenario’s zijn ontworpen foutprikkels, geen gerapporteerde gebeurtenissen in de BAG. Een Stelselbrede effectclaim is pas toelaatbaar na brongecontroleerde evaluatie van minimaal twee onafhankelijk beheerde registraties met inhoudelijk verschillende identiteits- of tijdscontext. Twee registraties zijn een minimale stage-gate, geen bewijs van representativiteit voor het hele Stelsel.
+
+\subsection{Criteria voor uitbreiding naar meerdere registraties}
+Een uitbreiding wordt pas in de empirische casus opgenomen wanneer per relatie de primaire bron, definitie, identifier-scope, tijdsbetekenis, gezagsgrond en toegestane verwerking zijn vastgesteld. Het onderzoeksprotocol moet bovendien voldoende negatieve voorbeelden bevatten: gelijke labels zonder equivalentie, gedeeltelijke overlap en wijzigingen waarbij object- en recordidentiteit uiteenlopen. De meerregistratieclaim blijft tot die uitbreiding onbewezen. Gebruik van openbare informatie wordt niet gelijkgesteld aan onbeperkte herbruikbaarheid van alle mogelijke persoonsgegevens; een concrete verwerking vergt een afzonderlijke beoordeling die buiten deze paper valt.
+
+\section{Bestaand prototype}
+Het bestaan van een technisch prototype is onderzoekscontext op basis van de opdracht. De huidige repository bevat het onderzoeksdossier; daarin zijn geen prototypebroncode, deploymentbeschrijving, versie-identificatie, testrapporten of geverifieerde implementatiemapping opgenomen. Deze lokale inventarisatie rechtvaardigt geen uitspraak over welke technologieën of standaarden het prototype daadwerkelijk implementeert.
+
+Er wordt daarom geen implementatiearchitectuur getekend alsof zij is vastgesteld. De reference architecture is een voorstel waarmee het prototype later vergeleken zal worden. Voorafgaand aan die vergelijking moeten repositorylocatie, commit of release, configuratie, gegevensselectie, modelversies, afhankelijkheden en bekende beperkingen worden geregistreerd. Elke feitelijke component krijgt vervolgens een mapping naar C1--C15 met de status aanwezig, gedeeltelijk aanwezig, afwezig of nog niet beoordeeld. Het ontbreken van die inventarisatie is op dit moment een bewijsgrens, geen vastgesteld gebrek van het prototype.
+
+De prototype-evaluatie zal eisen uit de literatuur toetsen via R01--R23: onder meer typezuiverheid, brongebonden definities, identifier-scope, bitemporale reconstructie, provenance, toetsbare kwaliteitsregels, versiegebonden mappings, productcontracten, wijzigingen en epistemische status. Bestaande implementatiekeuzen mogen bij deze toets niet achteraf de criteria bepalen. Een wijziging van het prototype tijdens een formatieve fase krijgt een nieuwe versie; een summatieve test vereist vooraf bevroren criteria en artefactversie.
+
+\section{Voorgestelde evaluatiemethode}
+\label{sec:evaluation}
+\subsection{Evaluatievragen, eenheden en episodes}
+De evaluatie moet vaststellen of het ontwerp bruikbaar, uitvoerbaar en semantisch adequaat is, en welke extra kosten het veroorzaakt. FEDS ondersteunt het onderscheiden van verschillende evaluatiedoelen en contexten. \citep{L03} De volgende vier episodes zijn eigen operationaliseringen.
+
+In een eerste, formatieve episode beoordelen onafhankelijke deskundigen requirements, begrippen, mappings en juridische toepasselijkheidsbesluiten. Hun opmerkingen leiden tot gereviseerde ontwerpversies, niet tot een summatieve effectclaim. In een tweede, kunstmatige episode worden gecontroleerde fout-, wijzigings- en historiescenario’s uitgevoerd tegen een bevroren prototypeversie. Een derde episode vergelijkt menselijke interpretatie en wijzigingsanalyse in taakgerichte sessies. Een vierde episode onderzoekt machineconsumptie, inclusief een afzonderlijke AI-taakset. Een latere praktijkepisode met bronhouders en afnemers moet de ecologische geldigheid toetsen.
+
+De analyse-eenheden zijn niet onderling uitwisselbaar: een metadataresource, mappingpaar, bewering, wijzigingsscenario, gebruikstaak en deelnemer vragen elk een eigen noemer. Herhaalde antwoorden van hetzelfde model op dezelfde vraag zijn geen onafhankelijke domeincases. De datasetselectie en analyse-eenheden worden vóór de summatieve fase vastgelegd.
+
+\input{sections/evaluation-design}
+
+\subsection{Meetbare criteria}
+Tabel~\ref{tab:metrics} operationaliseert de requirements. \emph{Semantic completeness} wordt bepaald ten opzichte van een vooraf door deskundigen afgebakende taak- en begrippenverzameling, niet ten opzichte van alle mogelijke kennis. \emph{Explainability} betekent in deze evaluatie dat een antwoord controleerbaar verwijst naar relevante definitie, bronversie, mapping en eventuele afleiding; dit is geen claim over volledige interne uitlegbaarheid van een AI-model.
+
+\input{sections/metrics-table}
+
+Voor verhoudingsmaten geldt $\operatorname{dekking}=n_{\mathrm{geldig}}/n_{\mathrm{toepasselijk}}$. Een noemer nul wordt als niet-toepasselijk gerapporteerd, niet als perfecte score. Onbekende informatie wordt apart geteld en telt bij vereiste informatie als onvolledig. Voor detectie en mappings worden precisie $TP/(TP+FP)$ en recall $TP/(TP+FN)$ gerapporteerd; alleen vooraf als niet-adjudiceerbaar aangemerkte goudstandaardgevallen worden uitgesloten met reden en aantal. Een behandelingsafhankelijke mislukking, ontbrekende bron of onbekend antwoord wordt niet achteraf uit de noemer verwijderd. Bij lege noemers worden geen numerieke scores geconstrueerd.
+
+Standards conformance wordt per profiel en versie onderzocht. De volledige toepasselijke normteksten zijn een voorwaarde voor clausuleconformiteit bij ISO en NEN. Tot die toegang bestaat, kan alleen de dekking van de uit het dossier afgeleide requirements worden beoordeeld. Er wordt geen gemiddelde conformiteitsscore berekend die het falen van een verplichte regel met andere successen compenseert.
+
+\subsection{Steekproef en gouden standaard}
+Als pilotomvang worden, in aansluiting op het onderzoeksdossier, 30--50 competency questions en 20--30 wijzigingsscenario’s overwogen. Dit zijn planningswaarden, geen berekende steekproefvereisten of reeds verzamelde observaties. De uiteindelijke omvang volgt uit taakvariatie, verwachte afhankelijkheden, pilotvariantie en een vooraf vastgestelde analyse. Een numerieke powerclaim is op dit moment niet onderbouwd.
+
+Een gouden standaard wordt onafhankelijk van de implementatie opgesteld op basis van gecontroleerde broninhoud. Twee deskundigen beoordelen waar mogelijk afzonderlijk antwoorden, mappings en gezagsclaims; verschillen worden geadjudiceerd en gerapporteerd. Onopgeloste semantische geschillen blijven als zodanig in het materiaal zichtbaar. Train-/ontwikkelscenario’s worden gescheiden van de summatieve toetsset. De ontwerpers mogen niet als enige beoordelaars van hun eigen mappings fungeren.
+
+De metrics M01--M16 en M18--M23 bevatten vooral contract- en componenttoetsen; hun voltooiing bewijst niet de centrale effectthese. E1--E4 gebruiken daarnaast onafhankelijk geadjudiceerde taakuitkomsten, foutkansen en kosten. Mappingrecall wordt alleen berekend over een vooraf bevroren kandidatenverzameling met alle geadjudiceerde positieve relaties; de volledigheid van alle denkbare mappings wordt niet geclaimd.
+
+De taakset bevat positieve én negatieve gevallen: ontbrekende definitie, verkeerd concept, verschillende identiteitsniveaus, geldigheid versus registratie, onvolledige provenance, correctiehistorie, syntactisch geldig maar semantisch fout gegeven, onterechte equivalentie, duplicaat-event en onzekere AI-afleiding. Deze cases worden synthetisch opgesteld of uit expliciet toegestane bronnen geselecteerd; er zijn nog geen feitelijke stelselincidenten als testdata vastgesteld.
+
+\subsection{Menselijke en AI-consumptie}
+Voor menselijke deelnemers wordt een gebalanceerde taaktoewijzing voorgesteld die volgorde- en leereffecten beperkt. Dezelfde deelnemer mag niet simpelweg identieke vragen in beide condities beantwoorden zonder controle voor herkenning. Vergelijkbare taaksets, gerandomiseerde volgorde en registratie van domeinervaring zijn mogelijke maatregelen. Tijd, correctheid, brongebruik en ervaren taakbelasting worden apart geanalyseerd.
+
+Voor de AI-conditie worden modelnaam en versie, prompt, retrievalinstellingen, beschikbare context, tokenbudget, temperatuur waar instelbaar en uitvoeringsdatum vastgelegd. Antwoorden worden op dezelfde inhoudelijke criteria beoordeeld, met aanvullende aandacht voor bronverzinsel, temporele verwarring en onterechte authenticiteitsclaims. Een geldig geciteerde bron moet de concrete uitspraak daadwerkelijk ondersteunen. Metadata van externe bronnen worden als te beoordelen gegevens behandeld, niet als uitvoerbare instructies. Negatieve scenario’s bevatten misleidende provenance, ingetrokken toegang en onjuiste contextverwijzingen; dit zijn ontworpen risicocondities, geen reeds geobserveerde incidenten. Het model kan ook correct besluiten dat bewijs ontbreekt; passende onthouding en onnodige onthouding krijgen afzonderlijke scores.
+
+Lewis et al. ondersteunen slechts dat retrieval-augmented modellen op de onderzochte taken voordelen kunnen bieden. \citep{L16} Daarom worden eventuele SMDP-effecten niet vooraf aan deze literatuur ontleend. Repetities dienen om uitvoeringsvariatie te beschrijven; statistische analyse moet clustering per vraag, domein en model respecteren. Een andere modelversie vormt een nieuwe evaluatieconditie.
+
+\subsection{Analyse, kosten en rapportage}
+De analyse rapporteert gepaarde verschillen waar het ontwerp dat toelaat, onzekerheidsintervallen en foutcategorieën. Bij voldoende observaties kan een model met taak- en deelnemereffecten worden overwogen; de exacte methode wordt vóór de summatieve meting vastgelegd. Bij onvoldoende omvang wordt beschrijvend gerapporteerd zonder ongefundeerde generalisatie. Meerdere secundaire metrieken worden niet gebruikt om achteraf alleen gunstige effecten te selecteren.
+
+Kosten omvatten modelleringstijd, reviewtijd, onderhoud na wijzigingen, latency en opslag-/verwerkingslast. Een semantisch correcter maar onwerkbaar beheerproces kan aanleiding zijn tot herziening van DP8 of de fysieke architectuur. Zowel negatieve uitkomsten als afwezige effecten worden gepubliceerd. De rapportage onderscheidt ontwerpwijzigingen tijdens formatieve evaluatie van prestaties van de daarna bevroren versie.
+
+\subsection{Traceability-audit}
+De auditketen in bijlage~\ref{sec:trace} koppelt OV1--OV6 aan corpusbronnen, R01--R23, DP1--DP9, C1--C15 en M01--M23/T01--T23. Een bronverwijzing onderbouwt de rationale; een metriek operationaliseert de voorgestelde toets. De keten is niet omkeerbaar als bewijs: het slagen van M14 zou bijvoorbeeld niet betekenen dat alle semantische requirements zijn vervuld. De uitgevoerde documentaudit controleert uitsluitend de aanwezigheid en geldigheid van verwijzingen. Alle prototype- en consumentmetingen blijven gepland.

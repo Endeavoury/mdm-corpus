@@ -1,0 +1,1710 @@
+     Master Data Management: concepten, capabilities en
+                      standaarden
+  Een kritische literatuur- en standaardsynthese met aandacht voor de Nederlandse
+                                       overheid
+
+                                    Onderzoeksmanuscript
+
+                                        9 september 2026
+                Beschrijvende overzichtsstudie op basis van een afgebakend corpus
+
+
+
+                                           Samenvatting
+         Master Data Management (MDM) wordt besproken als technische integratievoor-
+     ziening, organisatorische discipline en onderdeel van bredere data-architecturen. Deze
+     paper onderzoekt hoe de belangrijkste concepten, capabilities, architectuurpatronen,
+     governancebenaderingen en standaarden zich tot elkaar verhouden. De studie combineert
+     een verkennende literatuurreview, analyse van oﬀiciële standaarddocumenten en con-
+     ceptuele synthese. De initiële verwervingssnapshot omvat 96 bronvermeldingen en 178
+     bruikbare bestanden; deze aantallen zijn geen aantallen onafhankelijke studies. Relevante
+     passages zijn doelgericht geselecteerd en beoordeeld. De studie claimt geen uitputtende
+     systematische review, onafhankelijke dubbele screening of clausuledekkende normanalyse.
+     De synthese onderscheidt entiteit, record, selectie van voorkeurswaarden, metadata,
+     referentiedata en dataproduct, en ordent capabilities naar hun functie in de datalifecycle.
+     Vroege MDM-bronnen behandelen reeds bedrijfssemantiek, context en masterdata als
+     product. Daarom is een algemene tegenstelling tussen traditioneel MDM en semantisch of
+     productgericht datamanagement niet houdbaar binnen dit corpus. De standaardenanalyse
+     laat verschillende verantwoordelijkheden zien voor terminologie, modellering, registratie,
+     kwaliteit, herkomst, catalogisering en uitwisseling. Hun gezamenlijke toepassing vraagt
+     expliciete mappings en toepasselijkheidsbesluiten, maar rechtvaardigt niet vanzelf een
+     nieuwe architectuur. Voor de Nederlandse overheid worden gezag, scope en standaard-
+     status afzonderlijk behandeld. Kennishiaten betreffen onder meer de vergelijkbaarheid
+     van capability-taxonomieën, de voorwaarden waaronder semantische formalisering
+     meerwaarde heeft en de verhouding tussen federatie en beheerlast. AI is één afnemer
+     binnen dit landschap; prestatieverbetering en het voorkomen van onjuiste antwoorden
+     worden niet als bewezen effecten gepresenteerd. Het bestaande prototype speelt geen rol
+     in selectie, analyse of conclusies.
+
+Trefwoorden: masterdata; Master Data Management; data governance; metadata; semantische
+interoperabiliteit; standaarden; literatuursynthese.
+
+
+
+
+                                                 1
+Inhoudsopgave
+1   Inleiding                                                                                          4
+    1.1 Onderzoeksvraag en deelvragen . . . . . . . . . . . . . . . . . . . . . . . . . . . .          4
+
+2   Onderzoeksmethode                                                                                  4
+    2.1 Reviewstrategie en corpus . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      4
+    2.2 Selectie, extractie en analyse . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   5
+
+3   Definitie van Master Data                                                                          5
+
+4   Ontwikkeling en theoretische perspectieven                                                         6
+
+5   Masterdata versus gerelateerde dataconcepten                                                       6
+
+6   MDM-capabilities en lifecycle                                                                      7
+
+7   Bestaande MDM-architectuurpatronen                                                                 9
+
+8   Identity en Entity Resolution                                                                      10
+
+9   Data Quality                                                                                       11
+
+10 Governance en Stewardship                                                                           11
+
+11 Metadata en Data Elements                                                                           12
+
+12 Semantiek en Begrippen                                                                              13
+   12.1 Semantic false agreement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .       13
+
+13 Ontologie en Conceptual Modelling                                                                   13
+   13.1 Knowledge graphs en Semantic Web . . . . . . . . . . . . . . . . . . . . . . . . . .           14
+
+14 Provenance, Lineage en Temporaliteit                                                                14
+
+15 Het standaardenlandschap                                                                            15
+   15.1 Documentsoorten en normatieve reikwijdte . . . . . . . . . . . . . . . . . . . . . .           15
+   15.2 Overlap, mappings en hiaten . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        16
+
+16 Nederlandse overheidscontext                                                                        16
+   16.1 Stelsel van Basisregistraties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    16
+   16.2 Nederlandse modellen, begrippen en metadata . . . . . . . . . . . . . . . . . . . .            17
+   16.3 Versie, lijststatus en toepasselijkheid . . . . . . . . . . . . . . . . . . . . . . . . . .    17
+   16.4 Federatief Datastelsel en Europese kaders . . . . . . . . . . . . . . . . . . . . . . .        17
+
+17 Masterdata en Data Products                                                                         18
+
+18 Masterdata en federatieve data-architecturen                                                        18
+
+19 API-first, events en data contracts                                                                 18
+
+20 Masterdata en AI                                                                                    19
+
+21 Synthese: een conceptueel overzicht van de literatuur                                               19
+   21.1 Gedeelde accenten en controverses . . . . . . . . . . . . . . . . . . . . . . . . . . .        20
+
+
+                                                    2
+22 Research Gaps en open vragen                                                                      20
+
+23 Discussie                                                                                         21
+   23.1 Theoretische bijdrage en alternatieve interpretaties . . . . . . . . . . . . . . . . . .     21
+   23.2 Praktische betekenis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   22
+
+24 Beperkingen en threats to validity                                                                22
+
+25 Conclusie                                                                                         23
+
+A Brongebonden traceability                                                                          23
+
+B Geselecteerde standaarddocumenten en bewijsgrenzen                                                 26
+
+C Reproduceerbaarheid en onderzoeksbestanden                                                         28
+
+
+
+
+                                                  3
+1    Inleiding
+Master Data Management betreft in de onderzochte literatuur zowel het beheren van gegevens
+over belangrijke bedrijfsentiteiten als het organiseren van de verantwoordelijkheden die dat
+beheer mogelijk maken. De functionele MDM-studie van Otto en Ofner behandelt modelle-
+ring, beschikbaarstelling, kwaliteit, onderhoud en archivering als samenhangende activiteiten.
+Een functioneel referentiemodel voor masterdatakwaliteit positioneert systeemondersteuning
+bovendien binnen een organisatorisch kwaliteitsvraagstuk. Daarmee is MDM geen synoniem
+voor een database of softwarepakket. (Otto en Ofner 2011; Otto e.a. 2012)RC01
+     De terminologie wordt complexer wanneer MDM in verband wordt gebracht met know-
+ledge graphs, data products, Data Mesh en federatieve datastelsels. De literatuur onderscheidt
+deze benaderingen naar doel en organisatievorm, maar gebruikt ook overlappende begrippen.
+Blohm et al. bespreken expliciet de onderlinge samenhang van data products, data mesh en
+data fabric; Gieß en Hutterer vergelijken bredere datamanagementbenaderingen. Zulke verge-
+lijkingen vormen antecedenten voor deze studie, geen bewijs dat al hun conclusies naar ieder
+MDM-domein kunnen worden overgedragen. (Blohm e.a. 2024; Gieß en Hutterer 2025)RC02
+     Het onderzoeksdoel is de beschikbare kennis te structureren zonder een gewenste oplossing
+voorop te stellen. De bijdrage ligt in het onderscheiden van analyse-eenheden, het vergelijken
+van bronafhankelijke terminologie en het verbinden van capabilities met hun normatieve en
+organisatorische context. Het Stelsel van Basisregistraties biedt een toepassingsperspectief op
+gezag en gedeeld gegevensgebruik, maar deze paper is geen implementatiecasus of effectstudie.
+
+1.1 Onderzoeksvraag en deelvragen
+De hoofdvraag luidt: Wat is de huidige stand van wetenschappelijke, normatieve en professionele kennis
+over Master Data Management binnen het onderzochte corpus, en hoe hangen de belangrijkste concepten,
+capabilities, standaarden, architecturen en governancebenaderingen samen?
+    De toevoeging “binnen het onderzochte corpus” begrenst de aanspraak op actualiteit en
+volledigheid. Zes deelvragen bundelen de 22 vraagthema’s uit de onderzoeksopdracht:
+
+    1. OV1: hoe worden masterdata en verwante dataconcepten gedefinieerd, en welke histori-
+       sche en theoretische perspectieven zijn herkenbaar?
+
+    2. OV2: welke businessproblemen, capabilities, lifecycleactiviteiten en architectuurpatronen
+       worden beschreven?
+
+    3. OV3: hoe worden identiteit, kwaliteit, governance, temporaliteit en herkomst behandeld?
+
+    4. OV4: welke rollen spelen metadata, semantiek, ontologie en standaarden, en waar ont-
+       staan overlap, mappings of interpretatieverschillen?
+
+    5. OV5: hoe verhouden Nederlandse overheidskaders en ontwikkelingen rond dataproduc-
+       ten, federatie en AI zich tot MDM?
+
+    6. OV6: welke synthese is gerechtvaardigd, welke controverses blijven bestaan en welke vra-
+       gen vereisen aanvullend onderzoek?
+
+
+2    Onderzoeksmethode
+2.1 Reviewstrategie en corpus
+De studie is een verkennende state-of-the-art review met standards landscape analysis en con-
+ceptuele synthese, voorbereid vanuit een scoping-reviewprotocol. PRISMA-ScR ondersteunt
+het expliciteren van doel, selectie en rapportage van scoping reviews; PRISMA-S richt zich op
+
+                                                  4
+transparante rapportage van zoekactiviteiten. Deze paper gebruikt die aandachtspunten, maar
+claimt geen volledige naleving van alle rapportage-items of een retrospectief gereconstrueerde
+systematische review. (Tricco e.a. 2018; Rethlefsen e.a. 2021)RC03
+    De verwerving van 8 september 2026 bouwde voort op 70 bestaande vermeldingen: 51
+standaard-/kadervermeldingen en 19 literatuurvermeldingen. Gerichte zoekacties voegden 26
+kandidaten toe. De lokale verzameling bevat 90 PDF’s en 88 webdocumenten, afkomstig van
+218 geregistreerde downloadroutes. Er zijn 171 verschillende bestandshashes. Deze administra-
+tieve aantallen beschrijven beschikbaar materiaal: een standaard kan meerdere bijlagen hebben
+en één publicatie kan meerdere bron-ID’s dragen. FAIR (S46/L11) en OntoClean (S50/L10)
+leveren bijvoorbeeld geen onafhankelijk dubbel bewijs. Tijdens de paperfase zijn drie afzonder-
+lijke oﬀiciële statusbronnen toegevoegd en zijn Europese brondocumenten gericht aangevuld.
+Deze aanvullingen vallen buiten de genoemde verwervingssnapshot. Veertig routes leverden
+geen bruikbaar brondocument op; andere routes konden voor dezelfde bron wel slagen.
+    Zoekacties richtten zich op MDM-reviews, boeken, entity resolution, governance, Data
+Mesh, ontology engineering en oﬀiciële standaardpublicaties. Het zoeklog bevat de werkelijk
+gebruikte queries en geselecteerde vindplaatsen. Er is geen volledige databasebrede export of
+gedocumenteerde beoordeling van alle gerangschikte zoekresultaten. De eerdere bronselectie
+had een ontwerpgerichte aanleiding; de huidige studie behandelt die selectie als mogelijk
+vertekenend startbestand, niet als onafhankelijke afspiegeling van het vakgebied.
+
+2.2 Selectie, extractie en analyse
+Bronnen zijn inhoudelijk gebruikt wanneer zij een deelvraag ondersteunen en relevante tekst of
+een duidelijk begrensd oﬀicieel abstract beschikbaar is. Hoofdpublicatie, auteursversie, boek-
+fragment, catalogus en gelinkte bijlage zijn onderscheiden. Bij downloads die via een standaard-
+pagina zijn gevonden, is niet aangenomen dat de inhoud zelf tot die standaard behoort. Niet-
+gebruikte kandidaten blijven zichtbaar in het selectieregister.
+    De analyse-eenheid is een passage over een definitie, functie, relatie, patroon of toepassings-
+voorwaarde. De extractie registreert bron-ID, bestand, hash, locatie, inhoudelijke parafrase en
+interpretatiegrens. De bronnen zijn doelgericht op de vraagthema’s gelezen; de paper claimt
+geen integrale lezing van alle 178 bestanden. Boeken achter toegangsbeperkingen worden al-
+leen aangehaald voor het geraadpleegde fragment of de oﬀiciële scopebeschrijving. Voor ISO en
+NEN ontbreekt grotendeels volledige normtoegang. Dat beperkt de analyse tot geregistreerde
+onderwerpen en niet tot uitputtende clausuleconformiteit.
+    De synthese vergelijkt eerst de bedoelde eenheden, vervolgens het abstractieniveau en
+daarna de normatieve of descriptieve functie. Bronafhankelijke definities blijven naast elkaar
+staan wanneer equivalentie niet kan worden onderbouwd. Een tweede analysegang zoekt
+tegenargumenten voor een veronderstelde tegenstelling tussen klassiek MDM en semantisch
+of productgericht datamanagement. Het claims-register scheidt normatieve uitspraken,
+claims met één of meerdere bronnen en eigen synthese. “Meerdere bronnen” betekent geen
+automatische consensus.
+    Er is geen onafhankelijke dubbele screening of interbeoordelaarsbetrouwbaarheid vastge-
+steld. De analyse en redactionele ondersteuning zijn door een AI-assistent uitgevoerd; een men-
+selijke vakinhoudelijke review is nog nodig. De toegevoegde extracties en traceability maken
+de keuzes controleerbaar, maar vervangen die review niet. Geen prototype, gebruikersproef of
+AI-benchmark maakt deel uit van de methode.
+
+
+3   Definitie van Master Data
+Loshin verbindt masterdata met representaties van veelgebruikte bedrijfsconcepten en met een
+organisatiebrede, consistente blik op die informatie. Otto en Ofner onderscheiden masterdata-
+
+
+                                                5
+klasse, attribuut en object, terwijl Wang et al. herhaald gebruik van kernentiteiten over bedrijfs-
+processen en systemen benadrukken. Deze accenten wijzen op samenhang, maar leveren geen
+universele lijst van intrinsieke data-eigenschappen. (Loshin 2008; Otto en Ofner 2011; Wang e.a.
+2009)RC04
+    Voor deze synthese betekent masterdata: gegevens over domeinentiteiten die binnen een vast-
+gestelde organisatorische context herhaald worden gebruikt en waarvoor afgestemd beheer re-
+levant is. Dit is een analytische werkdefinitie. Zij schrijft geen centrale opslag, unieke recordre-
+presentatie of bepaald update-interval voor. Een entiteit is hier de bedoelde referent; een record
+is een geregistreerde beschrijving daarvan. Meerdere records kunnen dezelfde referent beschrij-
+ven zonder inhoudelijk identiek te zijn.
+    Het onderscheid is van belang bij termen als master record en golden record. Een master record
+kan in een bron een aangewezen beheerrecord betekenen; golden record duidt veelal op een
+geïntegreerde selectie van gegevens uit bronnen. Gualo et al. gebruiken het laatste begrip in hun
+behandeling van masterdatarepositories. De toepasselijke selectie- en kwaliteitsregels blijven
+echter nodig om te bepalen wat zo’n record vertegenwoordigt. Het woord “golden” levert op
+zichzelf geen onafhankelijk bewijs van juistheid of bevoegd gezag. (Gualo e.a. 2023; Bracht e.a.
+2012)RC05
+
+
+4   Ontwikkeling en theoretische perspectieven
+Loshin beschrijft de ontwikkeling van MDM vanuit verspreide applicaties en uiteenlopende
+representaties van bedrijfsconcepten. Deze historische lezing is een professionele reconstruc-
+tie, geen door deze paper uitgevoerde geschiedschrijving. Een precieze oorsprongsdatum van
+MDM wordt daarom niet vastgesteld. (Loshin 2008, §1.2)
+     De geselecteerde publicaties ondersteunen wel een reeks gedateerde ankerpunten. SMDM
+demonstreerde in 2009 semantische toegang tot masterdata. In 2011 beschreven Otto en Ofner
+strategische requirements, inclusief masterdata als product en business semantics management.
+Gualo et al. publiceerden in 2023 een kwaliteitsmodel voor masterdatarepositories. Recente
+syntheses verbreden vervolgens de vergelijking met data products en federatieve organisatie-
+vormen. Deze ankerpunten tonen continuïteit en variatie; zij bewijzen geen universele opeen-
+volging van volwassenheidsfasen. (Wang e.a. 2009; Otto en Ofner 2011; Gualo e.a. 2023; Blohm
+e.a. 2024; Gieß en Hutterer 2025)RC06
+     Vier theoretische perspectieven zijn analytisch te onderscheiden. Het informatiekwaliteits-
+perspectief onderzoekt geschiktheid voor gebruik; het governanceperspectief onderzoekt be-
+voegdheden en besluitvorming; het integratieperspectief behandelt identificatie en afstemming
+tussen representaties; het ontologische perspectief onderzoekt aannames over objecten, catego-
+rieën en identiteit. Deze indeling is een synthese van de geselecteerde literatuur, geen bestaande
+uniforme MDM-theorie. Zij verklaart waarom een technisch succescriterium, zoals minder du-
+plicaten, niet alle governance- of betekenisvragen beantwoordt. (Wang en Strong 1996; Abra-
+ham e.a. 2019; Getoor en Machanavajjhala 2012; Guizzardi 2005)RC07
+
+
+5   Masterdata versus gerelateerde dataconcepten
+Datacategorieën moeten op hun classificatiegrond worden vergeleken. “Operationeel” en “ana-
+lytisch” beschrijven in MDM-literatuur gebruiksscenario’s; “masterdata” beschrijft een beheerd
+gegevensdomein. Een dataset is een publiceerbare verzameling, terwijl een dataproduct ook
+doel en consumptie adresseert. Daarom zijn deze labels niet allemaal wederzijds uitsluitende
+soorten data. (Otto en Ofner 2011; W3C 2024; Blohm e.a. 2024)RC08
+
+ Begrip               Analytische afbakening                  Te vermijden gelijkstelling
+
+
+                                                 6
+ Transactionele       Beschrijven gebeurtenissen of han-    “Transactional MDM” is niet au-
+ data                 delingen; masterdata kunnen er-       tomatisch beheer van alle bedrijfs-
+                      naar worden verwezen.                 gebeurtenissen.
+ Referentiedata       Waardenstelsels voor toegestane       Niet ieder waardenstelsel is een
+                      of gedeelde classificaties; bronge-   entiteitenregister.
+                      bruik kan ruimer zijn.
+ Metadata             Beschrijven gegevens, representa-     Metadata zijn geen synoniem
+                      tie of beheercontext.                 voor alleen technische schemas.
+ Operationele/        Gebruik in uitvoering respectieve-    Masterdata kunnen beide soorten
+ analytische data     lijk analyse.                         gebruik ondersteunen.
+ Dataset              Afgebakende gegevensverzame-          Geen organisatieverantwoorde-
+                      ling in cataloguscontext.             lijkheid door het label alleen.
+ Dataproduct          Beheerd aanbod gericht op een         Kan master-, referentie- of andere
+                      terugkerende informatiebehoefte.      data bevatten.
+
+    De tabel is een werkordening op basis van de onderscheiden gebruikscontexten. De referen-
+tiedatabespreking in Gualo et al. omvat bijvoorbeeld zowel toegestane waarden als procedures
+om geldige waarden te bepalen. Die ruime formulering mag niet ongemotiveerd tot algemene
+definitie worden verheven. (Gualo e.a. 2023; ISO/IEC JTC 1/SC 32 2023b; W3C 2024; Blohm e.a.
+2024)
+
+
+6   MDM-capabilities en lifecycle
+Een capability wordt hier opgevat als een vermogen om een terugkerende beheertaak uit
+te voeren. Dat vermogen kan mensen, afspraken en software omvatten. De term wordt
+gebruikt om bronnen vergelijkbaar te maken, niet om te suggereren dat iedere auteur dezelfde
+taxonomie hanteert. Otto en Ofner beschrijven requirements op strategisch en functioneel
+niveau; het MDQM-referentiemodel organiseert systeemfuncties; de IBM-publicatie beschrijft
+implementatie- en modelleeractiviteiten. Hun granulariteit verschilt. (Otto en Ofner 2011;
+Otto e.a. 2012; Bracht e.a. 2012)RC09
+    De onderstaande taxonomie groepeert brononderbouwde functies. Zij is niet gerangschikt
+naar volwassenheid en bevat geen universele aanschaflijst. Brede labels als observability en data
+product management zijn herkenbaar als hedendaagse ordening van eerder beschreven taken,
+niet als bewijs dat die taken pas recent ontstonden.
+
+                  Tabel 2: Capability-taxonomie als synthese, met bron- en
+                  reikwijdtegrenzen.
+
+ Cluster              Functies                                    Bronbasis en begrenzing
+ Governance           Eigenaarschap, stewardship, escalatie,      Otto en Ofner (2011) en
+                      workflow en goedkeuring.                    Abraham e.a. (2019); rol- en
+                                                                  besluitrechten zijn organisa-
+                                                                  tieafhankelijk.
+ Identiteit           Identifierbeheer, entity resolution, mat-   Getoor en Machanavajjhala
+                      ching en deduplicatie.                      (2012), Christophides e.a.
+                                                                  (2020) en IETF / RFC Edi-
+                                                                  tor (2005); een identifier is
+                                                                  geen matchingalgoritme.
+
+
+
+                                               7
+ Cluster              Functies                                     Bronbasis en begrenzing
+ Consolidatie         Survivorship, samenvoeging, herstel         Bracht e.a. (2012) en Mene-
+                      van onjuiste samenvoeging en verrij-        strina e.a. (2010); herstel als
+                      king.                                       analytische foutafhandeling,
+                                                                  niet overal gelijk benoemd.
+ Structuur            Hiërarchieën, relaties, reference data en   Bracht e.a. (2012), Gualo
+                      datamodellering.                            e.a. (2023) en Geonovum;
+                                                                  ontwikkeld met Kadaster
+                                                                  en VNG (2024); technisch
+                                                                  en domeininhoudelijk be-
+                                                                  heer onderscheiden.
+ Kwaliteit            Profilering, business rules, validatie en   Gualo e.a. (2023), W3C
+                      kwaliteitsmeting.                           (2017) en W3C (2016); for-
+                                                                  mele geldigheid is slechts
+                                                                  één kwaliteitsaspect.
+ Betekenis            Metadata management, begripsbeheer          ISO/IEC JTC 1/SC 32
+                      en semantische mappings.                    (2023b), Geonovum (2024)
+                                                                  en Wang e.a. (2009); for-
+                                                                  malisering is een mogelijke
+                                                                  uitwerking.
+ Verandering          Versioning, history, provenance en line-    Jensen e.a. (1994), W3C
+                      age.                                        (2013a) en Otto en Ofner
+                                                                  (2011); verschillende tijd-
+                                                                  en herkomstvragen.
+ Beveiliging          Security, access control en rolgebonden     Otto en Ofner (2011) en
+                      toegang.                                    Logius (2026a); standaard-
+                                                                  scope bepaalt welk deel
+                                                                  wordt ondersteund.
+ Distributie          Publicatie, synchronisatie, API manage-     Chen e.a. (2014), OpenAPI
+                      ment en eventing.                           Initiative / Linux Foun-
+                                                                  dation (z.d.) en Logius
+                                                                  (2026b); interfaces zijn geen
+                                                                  volledige governance.
+ Gebruiksbeheer       Gebruiksmonitoring, auditinformatie en      Otto en Ofner (2011) en Ob-
+                      productbeschrijving.                        ject Management Group
+                                                                  (OMG) (2025); geen gene-
+                                                                  riek gevalideerd observabili-
+                                                                  tymodel afgeleid.
+
+
+    Het lifecyclepad identificeren, registreren, valideren, matchen, consolideren, verrijken,
+goedkeuren, publiceren, distribueren, wijzigen, historiseren en archiveren/verwijderen dient
+als analysekader. Niet iedere bron schrijft deze volgorde voor. Matching kan bijvoorbeeld
+vóór registratie in een hub gebeuren, of later tijdens herstel. Beheer is cyclisch waar correcties
+nieuwe validatie, publicatie en beoordeling vereisen. Dat is een procesmatige synthese van de
+beschreven activiteiten, geen nieuw normatief lifecyclemodel. (Otto en Ofner 2011; Bracht e.a.
+2012; Chen e.a. 2014)RC10
+
+
+
+
+                                                8
+ Fasegroep              Verantwoordelijkheidsvraag      Te onderzoeken metadata, kwaliteit
+                                                        en ondersteuning
+ Identificeren/         Wie bepaalt welke referent      Identifiers, broncontext en registra-
+ registreren            en bron worden bedoeld?         tievoorwaarden; invoer- en validatie-
+                                                        functies.
+ Valideren/matchen      Wie stelt regels en beslis-     Regelversie, matchbewijs en foutca-
+                        drempels vast?                  tegorieën; algoritme en menselijke
+                                                        beoordeling.
+ Consolideren/          Wie mag voorkeurswaarden        Selectieregels, herkomst en onzeker-
+ verrijken              of relaties vaststellen?        heid; survivorship en herstelmogelijk-
+                                                        heid.
+ Goedkeuren/            Wie neemt het vrijgavebe-       Besluit, versie, doelgroep en beper-
+ publiceren             sluit?                          kingen; workflow en publicatiecon-
+                                                        tract.
+ Distribueren/          Wie ontvangt welke verande-     Interface, wijzigingstype en afhanke-
+ wijzigen               ring?                           lijkheden; synchronisatie en notifica-
+                                                        tie.
+ Historiseren/          Welke toestand moet behou-      Tijdassen, bewaarbeleid en aantoon-
+ afsluiten              den of verwijderd worden?       bare intrekking; historie- en archief-
+                                                        functies.
+
+    Deze fasevragen zijn eigen vergelijkingsvragen voor corpusanalyse. Zij mogen niet als em-
+pirisch aangetoonde standaardwerkwijze van alle MDM-organisaties worden gelezen.
+
+
+7   Bestaande MDM-architectuurpatronen
+Architectuurtermen zijn niet consistent tussen bronnen. Otto en Ofner onderscheiden central
+system, leading system, repository en peer-to-peer. De IBM-modelleerpublicatie noemt exter-
+nal reference, registry, coexistence en centralized. Deze namen classificeren deels andere ei-
+genschappen: locatie van gegevens, aanwijzing van een leidend systeem en organisatie van
+synchronisatie. Een namenlijst alleen levert daarom geen betrouwbare patroonmapping. (Otto
+en Ofner 2011; Bracht e.a. 2012)RC11
+
+                  Tabel 4: Vergelijking op schrijfverantwoordelijkheid en gege-
+                  vensplaatsing; geen universele patroonstandaard.
+
+ Patroonlabel       Kern van de beschrijving          Afweging en begrenzing
+ Registry           Verwijzingen en identiteitskop- Beperkt kopiëren; beantwoording kan
+                    pelingen; gegevens blijven in   bronbeschikbaarheid en resolutie vra-
+                    bronsystemen.                   gen. Virtuele deduplicatie verwijdert
+                                                    bronduplicaten niet.
+ Consolidation      Samenbrengen voor een ge-       Een uniforme afnamevorm is mogelijk;
+                    ïntegreerde representatie of    terugkoppeling naar bronnen volgt
+                    analyse.                        niet automatisch.
+ Coexistence        Gegevens bestaan zowel lokaal De IBM-bron laat bronnen als primair
+                    als in een hub; synchronisatie  gelden. De term alleen bewijst dus
+                    is nodig.                       geen tweezijdig schrijfgezag.
+
+
+
+                                                9
+ Patroonlabel      Kern van de beschrijving          Afweging en begrenzing
+ Centralized /     Onderhoud van masterdata          Gecoördineerde mutatie; organisatori-
+ transactional     verschuift naar een leidende      sche overdracht van beheer moet wor-
+                   centrale voorziening.             den geregeld. “Transactional” betreft
+                                                     hier masterdatamutaties.
+ Federated /       Beheer en afstemming over         Lokale autonomie en gezamenlijke af-
+ peer-to-peer      meerdere organisatorische of      spraken moeten worden onderschei-
+                   technische eenheden.              den; peer-to-peer is niet vanzelf een
+                                                     volledig federatief governancemodel.
+
+
+   De beschrijvingen zijn gebaseerd op Bracht e.a. (2012), Otto en Ofner (2011) en Goedege-
+buure e.a. (2023); de aangegeven gevolgen zijn architectuurinterpretaties, geen gemeten rang-
+orde. De specifieke betekenis van coexistence in de IBM-bron is een voorbeeld van waarom
+brongebonden definities behouden moeten blijven.
+   Voor een vergelijking zijn minstens acht assen relevant: doel, gegevensplaatsing, write au-
+thority, eigenaarschap, synchronisatiemechanisme, zichtbaarheidsvertraging, distributie en be-
+tekenisafstemming. Een patroonlabel bepaalt geen consistency model in formele zin. Evenmin
+volgen latency of schaalbaarheid uit het woord “federatief”. Zulke eigenschappen vereisen een
+concrete implementatie, werkbelasting en meetdefinitie. De huidige bronnen maken een al-
+gemeen prestatieranglijstje niet mogelijk. (Bracht e.a. 2012; Chen e.a. 2014; Gieß en Hutterer
+2025)RC12
+
+
+8   Identity en Entity Resolution
+Entity resolution onderzoekt of verschillende records naar dezelfde referent verwijzen. Getoor
+en Machanavajjhala plaatsen deze vraag op het raakvlak van onder meer databases, machine
+learning en informatieontsluiting. Een vergelijking van tekens is daarbij slechts een mogelijke
+stap. Blocking beperkt kandidaten, matching beoordeelt overeenkomsten en een daaropvol-
+gend besluit bepaalt welke koppeling of clustering wordt aanvaard. (Getoor en Machanavajj-
+hala 2012; Christophides e.a. 2020; Papadakis e.a. 2020)RC13
+    Een identifier werkt binnen een gekozen naamgevings- en uitgiftecontext. URI/IRI-
+specificaties en publicatieadviezen regelen aspecten van identificatie en verwijzing, maar
+beslissen niet of twee administratieve registraties dezelfde domeinentiteit bedoelen. Daarom
+moeten identifiergelijkheid, recordgelijkheid en referentidentiteit afzonderlijk worden geana-
+lyseerd. De juridische of institutionele betekenis van de referent kan bovendien per domein
+verschillen. (IETF / RFC Editor 2005; W3C 2008; Guizzardi 2005)RC14
+    Survivorship betreft de keuze van te gebruiken waarden wanneer bronnen verschillen. Een
+matchbesluit zegt nog niet welke waarde voor welk doel moet gelden. Evenzo kan een samen-
+voeging achteraf onjuist blijken. Een split kan een correctie van een cluster zijn, maar in een
+domein ook een verandering van het object zelf beschrijven. Deze twee betekenissen zijn ana-
+lytisch te onderscheiden; een productfunctie met de naam “split” zegt niet welke ervan wordt
+ondersteund. (Bracht e.a. 2012; Menestrina e.a. 2010; Guizzardi 2005)RC15
+    De keuze van evaluatiemaatstaf is inhoudelijk relevant. Menestrina et al. laten zien dat
+entity-resolutionmaten dezelfde uitkomsten verschillend kunnen rangschikken. Pairwise- en
+clustermaatstaven beschrijven niet noodzakelijk dezelfde foutkosten. Voor publieke toepassin-
+gen kan een onterechte samenvoeging andere gevolgen hebben dan een gemiste koppeling; die
+asymmetrie is een te expliciteren toepassingskeuze, geen in deze paper gemeten overheidsuit-
+komst. (Menestrina e.a. 2010)RC16
+
+
+
+
+                                              10
+9    Data Quality
+Datakwaliteit omvat meer dan juistheid van afzonderlijke waarden. Het consumentenperspec-
+tief van Wang en Strong en de vergelijking van kwaliteitsdimensies bij Gualo et al. maken dui-
+delijk dat verschillende doelen en contexten verschillende beoordelingsaspecten vragen. Gualo
+et al. ontwikkelen een model met standaardaanknopingspunten en demonstreren toepassing
+in een repositorycasus. Hun studie ondersteunt het bestaan van een operationalisering; zij be-
+wijst geen universele geschiktheid voor ieder MDM-domein. (Wang en Strong 1996; Gualo e.a.
+2023)RC17
+    In deze analyse wordt validiteit gebruikt voor voldoen aan een gekozen regel of domein,
+volledigheid voor dekking van vereiste gegevens, consistentie voor het ontbreken van relevante
+tegenstrijdigheden, actualiteit voor temporele bruikbaarheid en juistheid voor overeenkomst
+met de bedoelde werkelijkheid of gezaghebbende beoordelingsgrond. Deze beknopte omschrij-
+vingen zijn vergelijkingsconventies. Zij vervangen niet de afzonderlijke definities in ISO/IEC
+25012 of andere bronnen. (ISO/IEC JTC 1/SC 7 2008; Gualo e.a. 2023)RC18
+    ISO 8000 behandelt onder meer masterdata-uitwisseling en semantische codering. ISO/IEC
+25012 positioneert een datakwaliteitsmodel, terwijl DQV een vocabulaire biedt om kwaliteits-
+metingen en context te beschrijven. SHACL ondersteunt controle van een datagraaf tegen vast-
+gelegde shapes. Deze functies vullen elkaar aan, maar een geslaagde shapevalidatie toont niet
+dat een adres, identiteit of bevoegdheidsclaim feitelijk correct is. Dat laatste is een analytische
+gevolgtrekking uit de verschillende toetsobjecten. (ISO/TC 184/SC 4 2016; ISO/TC 184/SC 4
+2021; ISO/IEC JTC 1/SC 7 2008; W3C 2017; W3C 2016)RC19
+    De studie van Gualo et al. verwijst ook naar ISO/IEC 25024. Dit is een gemotiveerde uitbrei-
+dingsroute voor nader onderzoek naar meting, geen in deze paper onafhankelijk gelezen norm.
+Over de conformiteit met dat document worden daarom geen eigen uitspraken gedaan. De-
+zelfde terughoudendheid geldt wanneer een academische bron een normtitel of deelnummer
+onnauwkeurig weergeeft: het artikel vervangt dan niet de oﬀiciële normregistratie. (Gualo e.a.
+2023)
+
+
+10    Governance en Stewardship
+De oﬀiciële DAMA-DMBOK-pagina documenteert de herziene editie van dit professionele
+kenniswerk. Omdat de volledige boektekst niet is geraadpleegd, gebruikt deze paper DAMA-
+DMBOK niet als bewijs voor een uitputtende capability- of rol-taxonomie. Die beperking
+onderscheidt het professionele referentiekader van de inhoudelijk gebruikte artikelen en
+boekfragmenten. (DAMA International 2024)
+    Governance betreft in de review van Abraham et al. de uitoefening van gezag en con-
+trole over gegevensbeheer. De auteurs onderscheiden meerdere dimensies en mechanismen;
+hun conceptueel overzicht geeft geen enkel verplicht organisatiemodel. Voor MDM impliceert
+dit dat kwaliteit, toegang en betekenis ook besluitrechten en verantwoordelijkheden vereisen.
+De organisatorische taak kan niet worden afgeleid uit de opslaglocatie alleen. (Abraham e.a.
+2019; Otto en Ofner 2011) De recente review van Guerreiro et al. stelt het verband tussen
+MDM-frameworks en governancevolwassenheid centraal. De auteurs plaatsen empirische va-
+lidatie van hun conceptuele kader echter expliciet in vervolgonderzoek. Hun synthese wordt
+hier daarom gebruikt als verwant overzichtswerk, zonder er een causaal aangetoond effect van
+MDM op volwassenheid aan te ontlenen. (Guerreiro e.a. 2025)RC20
+
+ Rolterm               Te analyseren verantwoordelijkheid      Bewijsgrens
+ Data owner            Beslissen over doelen, gebruik en       Terminologie en mandaat ver-
+                       verantwoord beheer.                     schillen per organisatie.
+
+
+                                                11
+ Data steward          Operationele coördinatie van kwali-     Geen automatisch juridisch ei-
+                       teit, betekenis en issues.              gendom.
+ Custodian             Technische zorg voor opslag, be-        Vergelijkingsrol; niet overal als
+                       scherming en beschikbaarstelling.       aparte functie gedefinieerd.
+ Domain owner          Afbakening en afstemming binnen         In federatieve benaderingen
+                       een gegevensdomein.                     aan domeinorganisatie gerela-
+                                                               teerd.
+ Product owner         Verantwoordelijkheid voor een be-       Productverantwoordelijkheid
+                       heerd aanbod aan afnemers.              verleent geen automatisch bron-
+                                                               gezag.
+
+    Deze rolvergelijking ordent verantwoordelijkheidsvragen uit MDM-, governance- en data-
+productliteratuur; zij is geen gezamenlijke definitie van alle bronnen. Vooral custodian en do-
+main owner vragen verdere bronvergelijking voordat een uniforme rol-taxonomie kan worden
+gesteld. (Otto en Ofner 2011; Abraham e.a. 2019; Goedegebuure e.a. 2023; Object Management
+Group (OMG) 2025)RC21
+    Governancevormen kunnen gecentraliseerde besluitvorming, gedelegeerde domeinverant-
+woordelijkheid en gezamenlijke regels combineren. BOMOS behandelt beheer van standaarden;
+het is daarmee relevant voor de afspraken waarop MDM steunt, maar geen volledige vervanging
+van organisatiebrede data governance. Het beheer van een standaard en het beheer van een ge-
+gevensverzameling hebben verschillende objecten en bevoegdheden. (Logius z.d.[a]; Abraham
+e.a. 2019)RC22
+
+
+11    Metadata en Data Elements
+Metadata verbinden een gegevensrepresentatie met informatie over betekenis, vorm of beheer.
+ISO/IEC 11179 adresseert metadataregistratie en maakt onderscheid tussen conceptuele
+en representatiegerichte constructies. Binnen het dossier is vooral het onderscheid tussen
+data-elementconcept en waardedomein relevant. De beschikbare oﬀiciële scope-informatie
+ondersteunt deze positionering, maar geen volledige beoordeling van alle modelclausules. De
+catalogus vermeldt bij ISO/IEC 11179-3:2023 tevens Amendment 1:2026 over item mappings;
+de inhoud daarvan is niet geanalyseerd. (ISO/IEC JTC 1/SC 32 2023a; ISO/IEC JTC 1/SC 32
+2023b; ISO/IEC JTC 1/SC 32 2023c; ISO/IEC JTC 1/SC 32 2023d)RC23
+    Een technisch veld met een naam en datatype bepaalt niet zelfstandig welke eigenschap van
+welk object wordt weergegeven. Een beschrijving kan daarnaast een definitie, context, eenheid,
+toegestane waarden en bronverwijzing nodig hebben. Welke daarvan noodzakelijk zijn, hangt
+af van de concrete interpretatietaak. Dit is een synthese van terminologie- en metadatawerk;
+geen eis dat iedere waarde alle context steeds in dezelfde payload moet meedragen. (ISO/TC
+37/SC 1 2022; ISO/IEC JTC 1/SC 32 2023b; Geonovum 2024)RC24
+    Metadataregistries en datacatalogi hebben aanpalende, maar verschillende analyse-
+eenheden. Een metadataregistry kan dataspecificaties registreren; DCAT beschrijft onder
+meer datasets, distributies en dataservices. Een catalogusbeschrijving van een dataset is
+dus niet vanzelf een volledige beschrijving van ieder data-element. Omgekeerd geeft een
+verzameling elementdefinities nog geen compleet overzicht van het beschikbare aanbod. De
+grens is niet exclusief: ISO/IEC 11179-33 adresseert zelf datasetregistratie, inclusief kwaliteits-
+en herkomstmetadata. Er is dus daadwerkelijke overlap op datasetniveau; een tegenstelling
+tussen de gehele ISO/IEC 11179-serie en catalogisering zou te sterk zijn. (ISO/IEC JTC 1/SC 32
+2023b; ISO/IEC JTC 1/SC 32 2023c; W3C 2024)RC25
+
+
+
+
+                                                12
+12    Semantiek en Begrippen
+Een term is een aanduiding; een definitie beschrijft de afbakening van het bedoelde begrip.
+“Begrip” en “concept” kunnen vertaalvarianten zijn, maar bronnen kunnen ze ook op verschil-
+lende manieren in hun model gebruiken. De analyse behandelt ze daarom als afzonderlijke
+labels waarvan de relatie per bron wordt vastgesteld. Zij poneert niet vooraf dat begrip en con-
+cept twee universeel verschillende ontologische categorieën vormen. (ISO/TC 37/SC 1 2022;
+Geonovum; ontwikkeld met Kadaster en VNG 2024; W3C 2009)RC26
+    SKOS biedt een model voor begrippenstelsels, labels en relaties. NL-SBB specificeert be-
+schrijvingen van begrippen en werkt de relatie met informatiemodellen en begrippenbeheer
+uit. MIM behandelt verschillende beschouwingsniveaus en modelconstructies. Het zijn daar-
+mee deels complementaire instrumenten, met expliciet beschreven raakvlakken. NL-SBB is niet
+eenvoudigweg overbodig omdat SKOS bestaat, en MIM is niet hetzelfde soort artefact als een
+afzonderlijk begrippenstelsel. (W3C 2009; Geonovum 2024; Geonovum; ontwikkeld met Ka-
+daster en VNG 2024)RC27
+    Een belangrijk tegenargument tegen een te scherpe oud/nieuw-tegenstelling komt uit het
+MDM-corpus zelf. Loshin bespreekt al uiteenlopende definities van gedeelde bedrijfsconcep-
+ten. Otto en Ofner noemen business semantics management en contextafhankelijke master-
+data. Expliciete bedrijfsbetekenis is dus aantoonbaar onderdeel van sommige eerdere MDM-
+benaderingen. De resterende vraag is welke mate van formalisering en uitvoerbare koppeling
+wordt bereikt, niet of betekenis ooit onderwerp van MDM was. (Loshin 2008; Otto en Ofner
+2011)RC28
+
+12.1 Semantic false agreement
+Als twee systemen hetzelfde label gebruiken, kan hun schijnbare overeenstemming een verschil-
+lende afbakening verhullen. Omgekeerd kunnen verschillende labels hetzelfde bedoelen. Hier
+wordt semantic false agreement gebruikt als analytische aanduiding van zulke onterecht aange-
+nomen overeenstemming, niet als nieuw empirisch vastgesteld fenomeen of uniforme term van
+alle bronnen. De probleembeschrijving bij Loshin en de afzonderlijke label- en conceptconstruc-
+ties in SKOS geven aanknopingspunten. (Loshin 2008; W3C 2009)RC29
+    Het onderscheid tussen syntactische, structurele en semantische interoperabiliteit helpt dit
+te analyseren. Syntactische overeenstemming betreft de leesbare representatie; structurele over-
+eenstemming de ordening en modelrelaties; semantische overeenstemming de interpretatie. Or-
+ganisatorische afstemming en juridische toepasselijkheid voegen andere voorwaarden toe. EIF
+onderscheidt juridische, organisatorische, semantische en technische interoperabiliteit; de uit-
+splitsing van syntaxis en structuur is hier een nadere analytische ordening binnen de technische
+en semantische bespreking, niet een letterlijke vijfdelige EIF-classificatie. (Europese Commissie
+2017)RC30
+
+
+13    Ontologie en Conceptual Modelling
+Een ontologische analyse onderzoekt welke categorieën en identiteitscriteria een model veron-
+derstelt. In Guizzardi’s werk worden dergelijke grondslagen gebruikt om structurele conceptu-
+ele modellen te beoordelen. Een objecttype dat bijvoorbeeld een rol representeert, kan andere
+identiteitsvoorwaarden hebben dan een type dat een zelfstandig object bedoelt. Het model
+maakt dus aannames over de referenten; deze aannames verdwijnen niet doordat het diagram
+technisch correct is. (Guizzardi 2005)RC31
+    UFO en OntoUML zijn relevant als ontologische grondslag respectievelijk modelleer-
+benadering. OntoClean biedt een aanvullende manier om taxonomische beslissingen te
+
+
+
+                                               13
+beoordelen. Het zijn geen automatisch noodzakelijke voorzieningen voor ieder MDM-
+programma. OntoUML is bovendien geen Nederlandse overheidsstandaard. De afweging
+betreft de concrete modelleervraag, beschikbare expertise en gevolgen van foutieve categorie-
+of identiteitskeuzen.      (Onderzoeksgemeenschap rond Guizzardi en mede-auteurs z.d.
+OntoUML-onderzoeksgemeenschap z.d. Guarino en Welty 2002)RC32
+    Een ontologische klasse, MIM-objecttype, modelattribuut en data-element worden niet zon-
+der mapping gelijkgesteld. Tegelijk verbiedt SKOS niet algemeen dat dezelfde resource ook
+als OWL-klasse wordt gebruikt. Een verantwoord onderscheid betreft hier de representatie-
+rol en interpretatieregels, niet een universele verplichting tot disjuncte resourceverzamelingen.
+(W3C 2009, §3.5.1)(Geonovum; ontwikkeld met Kadaster en VNG 2024; ISO/IEC JTC 1/SC 32
+2023b)RC33
+
+13.1 Knowledge graphs en Semantic Web
+RDF biedt een graafgebaseerde representatie; RDFS en OWL voegen verschillende semantische
+beschrijvingsmogelijkheden toe. JSON-LD biedt een JSON-gebaseerde representatie van linked
+data, terwijl SPARQL querymogelijkheden voor RDF adresseert. Deze bouwstenen kunnen sa-
+men worden gebruikt zonder dat zij één verplicht opslagproduct of één centrale database voor-
+schrijven. (W3C 2014a; W3C 2014b; W3C 2012; W3C 2020; W3C 2013b)RC34
+    SMDM is een concreet antecedent: Wang et al. beschrijven virtuele RDF-toegang tot relatio-
+nele masterdata, ontologieën, mappings en redeneerondersteuning. Dat ondersteunt de moge-
+lijkheid van semantische uitbreiding van MDM en weerspreekt de nieuwheid van die combina-
+tie als zodanig. De demonstratie onderbouwt geen algemene kosten-batenuitspraak voor alle
+organisaties of hedendaagse AI-toepassingen. (Wang e.a. 2009)RC35
+    De kennisgraafliteratuur bespreekt uiteenlopende vormen van schema, identiteit, context
+en gevolgtrekking. Een knowledge graph is daarom geen garantie dat begrippen onderling
+zijn geharmoniseerd of gezagsclaims zijn gecontroleerd. Een foutieve mapping kan ook in een
+formeel valide graaf bestaan. Deze beperking volgt uit het onderscheid tussen representatie en
+de juistheid van de gemodelleerde inhoud. (Hogan e.a. 2021; W3C 2017)RC36
+
+
+14    Provenance, Lineage en Temporaliteit
+PROV-O onderscheidt entiteiten, activiteiten en agents en biedt relaties voor onder meer ge-
+bruik, generatie en afleiding. Daarmee kan herkomst in samenhang worden beschreven. Li-
+neage wordt in deze paper gebruikt voor de gevolgde gegevens- en transformatieketen; pro-
+venance omvat daarnaast de context waarin zulke relaties worden verantwoord. Dit is een
+praktische werkafbakening, geen claim dat alle auteurs dezelfde terminologische grens han-
+teren. (W3C 2013a)RC37
+    Herkomst is niet hetzelfde als waarheid of bevoegdheid. Een bekende agent kan een on-
+juist gegeven produceren; een goed gedocumenteerde bewerking kan een inferentie opleveren
+die niet als authentiek brongegeven mag worden behandeld. Deze onderscheidingen zijn een
+conceptuele synthese van provenance en stelselverantwoordelijkheden. De aanwezigheid van
+een PROV-relatie bewijst niet zelfstandig de juridische grond van een uitspraak. (W3C 2013a;
+Rijksoverheid / BZK en betrokken ministers 2003)RC38
+    Valid time betreft wanneer een feit geldt in de gemodelleerde werkelijkheid; transaction time
+wanneer het als actuele databasekennis is opgeslagen. De temporele databaseglossary maakt
+dit onderscheid expliciet. Een registratiecontext moet daarnaast aangeven op welk systeem een
+registratiemoment betrekking heeft. Het moment waarop een afnemer een record ontvangt is
+niet automatisch het transactiemoment van de bron. (Jensen e.a. 1994)RC39
+    OWL-Time adresseert temporele representatie, ISO 8601 datum- en tijdnotatie. Geen van
+beide kiest op zichzelf het beleid voor retroactieve correcties, versie-identiteit of bewaring. Die
+
+
+                                                14
+grens is relevant bij de interpretatie van historische masterdata: gelijke datumvelden betekenen
+nog geen gelijke tijdssemantiek. De IBM-bron behandelt geldigheidsintervallen en technische
+wijzigingshistorie bovendien al als verschillende aspecten van een MDM-model. (W3C / OGC
+2017; ISO g.d.; Bracht e.a. 2012)RC40
+
+
+15    Het standaardenlandschap
+15.1 Documentsoorten en normatieve reikwijdte
+Het corpus bevat normen, technische specificaties, vocabularia, ontologieën, metamodellen, be-
+heerhandreikingen, principes en wetgeving. Deze classificaties vormen verschillende assen.
+Een ontologie kan als W3C Recommendation zijn gepubliceerd; een metamodel kan een Ne-
+derlandse standaard zijn. FAIR is geen ISO-norm en de Interoperable Europe Act is geen vo-
+cabulaire. Zulke verschillen bepalen welke conclusies de bron kan ondersteunen. (W3C 2012;
+Geonovum; ontwikkeld met Kadaster en VNG 2024; Wilkinson e.a. 2016; Europees Parlement
+en Raad 2024)RC41
+    Het verschil tussen een normatieve passage en empirisch bewijs blijft eveneens essentieel.
+Een publicatie kan voorschrijven hoe gegevens worden uitgewisseld zonder te meten hoeveel
+interpretatiefouten daarmee verdwijnen. De aanwezigheid van een normatieve eis is geen ef-
+fectstudie. Deze paper analyseert daarom toepassingsgebied en constructies afzonderlijk van
+claims over gerealiseerde voordelen.
+
+                  Tabel 6: Cross-standard analyse: complementaire taken en
+                  de grenzen van de verbinding.
+
+ Niveau / vraag       Relevante instrumenten              Aansluiting en grens
+ Terminologie         ISO 704, NL-SBB, SKOS               Begripsbeschrijving en begrippen-
+                                                          relaties; nog geen volledig logisch
+                                                          recordschema.
+ Ontologische ana- UFO, OntoUML, OntoClean;               Categorieën en axioma’s; geen al-
+ lyse              OWL voor formalisering                 gemeen bewijs van noodzaak of
+                                                          optimale modellering.
+ Informatie-          MIM, NEN 3610, SEMIC Core           Modelconstructies en domeinherge-
+ modellen             Vocabularies                        bruik; mapping naar eigen begrips-
+                                                          context blijft nodig.
+ Metadata-            ISO/IEC 11179                       Betekenis en representatie van data-
+ registratie                                              specificaties; niet hetzelfde als een
+                                                          datasetcatalogus.
+ Masterdata-          ISO 8000, ISO/IEC 25012             Uitwisseling en kwaliteitsdimen-
+ kwaliteit                                                sies; volledige toepasselijke norm-
+                                                          tekst nodig voor clausuleanalyse.
+ Regels en metin-     SHACL, DQV                          Graafvalidatie en kwaliteitsbeschrij-
+ gen                                                      ving; geen garantie van feitelijke
+                                                          juistheid.
+ Herkomst en tijd     PROV-O, OWL-Time, ISO 8601          Herkomststructuur, tijdsrelaties en
+                                                          notatie; gezag en historiebeleid niet
+                                                          automatisch bepaald.
+
+
+
+
+                                               15
+ Niveau / vraag       Relevante instrumenten               Aansluiting en grens
+ Aanbod en pro-       DCAT, DCAT-AP, DCAT-AP-NL,           Catalogusresources en productbe-
+ ducten               DPROD                                schrijving; geen uniforme definitie
+                                                           van ieder data-element.
+ Distributie          OpenAPI, REST API Design Ru-         Interfaces en uitwisseling; beteke-
+                      les, Digikoppeling, FSC              nisafstemming vraagt aanvullende
+                                                           afspraken.
+ Wijzigingen          NL GOV CloudEvents                   Eventbeschrijving en notificatie;
+                                                           geen volledige definitie van de do-
+                                                           meinverandering.
+ Beheer en context    BOMOS, MDTO, EIF, overheids-         Standaardbeheer, duurzame toe-
+                      kaders                               gankelijkheid en interoperabiliteit;
+                                                           verschillende beheerobjecten.
+
+
+   De tabel is eigen synthese van de afzonderlijke bronposities; de appendix identificeert do-
+cumentversies en beperkingen. Het is geen lijst van gezamenlijk verplichte componenten.RC42
+
+15.2 Overlap, mappings en hiaten
+Drie relaties moeten uit elkaar worden gehouden. Ten eerste kan een profiel een bestaande stan-
+daard nader invullen, zoals DCAT-AP en DCAT-AP-NL rond DCAT. Ten tweede kunnen docu-
+menten verschillende aspecten van dezelfde resource beschrijven, zoals DQV en PROV-O voor
+kwaliteitsmetadata en hun herkomst. Ten derde kan een verbinding een onderzoekersmapping
+zijn, bijvoorbeeld tussen een lokaal begrip en een ontologische klasse. Alleen de eerste twee
+zijn door de genoemde standaarden rechtstreeks gepositioneerd; de derde vergt afzonderlijke
+rechtvaardiging. (W3C 2024; Europese Commissie / SEMIC z.d. Geonovum 2025; W3C 2016;
+W3C 2013a; W3C 2009)RC43
+    Het ontbreken van een onderwerp in één standaard is niet vanzelf een hiaat. OpenAPI hoeft
+niet alle institutionele identiteitscriteria te formaliseren om een bruikbare interfacespecificatie
+te zijn. Een inhoudelijke lacune ontstaat pas ten opzichte van een gemotiveerde behoefte én
+de gezamenlijk onderzochte dekking. Evenzo bewijst overlap geen redundantie: NL-SBB be-
+schrijft ook gebruiks- en beheerafspraken die niet uit de loutere aanwezigheid van SKOS volgen.
+(OpenAPI Initiative / Linux Foundation z.d. Geonovum 2024; W3C 2009)RC44
+
+
+16    Nederlandse overheidscontext
+16.1 Stelsel van Basisregistraties
+De historische eisen voor basisregistraties verbinden registratie met wettelijke verankering, ver-
+antwoordelijkheden, kwaliteit en terugmelding. De kwaliteitsbaseline werkt stelselbrede kwa-
+liteitszorg verder uit. Deze bronnen zijn relevant voor MDM omdat zij laten zien dat gedeeld
+gebruik van kerngegevens niet losstaat van institutionele afspraken. De kwalificatie “master-
+data” verleent op zichzelf echter geen authenticiteit of bevoegdheid. (Rijksoverheid / BZK en
+betrokken ministers 2003; BZK / Stelsel van Basisregistraties 2021)RC45
+     Het Stelsel kan niet zonder nadere analyse als één commerciële MDM-hub worden beschre-
+ven. Een vergelijking moet onderscheid maken tussen de verantwoordelijke registratie, de gege-
+vensverstrekking en een eventuele samengestelde afnemersweergave. Dit is een toepassingsin-
+terpretatie, geen claim dat alle basisregistraties op dezelfde technische wijze zijn ingericht. De
+paper onderzoekt geen operationele keten tussen registraties.
+
+
+
+                                                16
+    De BAG-catalogus biedt een concrete documentatiecontext met onder meer nummeraandui-
+ding, verblijfsobject en pand. Een overeenkomstig label in een andere registratie bewijst geen
+identiteit. Voor een toekomstige vergelijking zijn brondefinities, modelrelaties en tijdsbeteke-
+nis nodig. Hier dient BAG uitsluitend om duidelijk te maken welke soorten documenten en
+begrippen bij een overheidsgerichte MDM-analyse moeten worden onderscheiden. Er worden
+geen niet-gecontroleerde BRP-, BRK- of WOZ-relaties ingevuld. (BZK; Kadaster; Geonovum
+2018)RC46
+
+16.2 Nederlandse modellen, begrippen en metadata
+MIM ordent conceptuele en logische informatiemodellering; NL-SBB ordent begripsbeschrij-
+vingen; TOOI biedt een kennismodel voor overheidsinformatie. NEN 3610 vormt een afzon-
+derlijke normatieve context voor geo-informatie. DCAT-AP-NL adresseert catalogusmetadata.
+Dit zijn verschillende abstractieniveaus en toepassingsgebieden, zodat een gezamenlijk gebruik
+niet mag worden teruggebracht tot een keuze voor één universele modeltaal. (Geonovum; ont-
+wikkeld met Kadaster en VNG 2024; Geonovum 2024; KOOP 2025; NEN; commissie 351240
+2022; Geonovum 2025)RC47
+    Voor MDTO is het relevante vraagstuk duurzame toegankelijkheid en metagegevens van
+informatieobjecten. Het kan daardoor raken aan archivering en historie, maar is niet zonder
+meer een vervanging voor een masterdata- of begrippenmodel. BOMOS gaat juist over beheer
+van standaarden. De twee documenten delen een beheerthema zonder noodzakelijk hetzelfde
+beheerobject te hebben. (Nationaal Archief z.d. Logius z.d.[a])
+
+16.3 Versie, lijststatus en toepasselijkheid
+Bij de oﬀiciële lijstcontrole op 9 september 2026 is MIM 1.2 aanbevolen. De verplichte lijst ver-
+meldt NL-SBB 1.0, OpenAPI Specification 3.0, REST API Design Rules 2.2 en NL GOV Clou-
+dEvents 1.1. DCAT-AP-NL 3.0 staat bij de standaarden in behandeling. Ook TOOI en MDTO
+staan op de geraadpleegde lijst in behandeling. Dit zijn waarnemingen van de oﬀiciële registra-
+ties op de peildatum, geen zelfstandig oordeel over iedere organisatie of gegevensuitwisseling.
+(Forum Standaardisatie 2026b; Forum Standaardisatie 2026a; Forum Standaardisatie 2026c)RC48
+    De technische analyse gebruikt onder meer OpenAPI 3.1.1. Dat is een specificatieversie en
+niet automatisch de versie die op de Nederlandse lijst is vastgesteld. Formele status en techni-
+sche documentversie worden daarom in de matrix gescheiden. De paper leidt uit de aanwezig-
+heid op een lijst geen onvoorwaardelijke wettelijke verplichting voor alle MDM-functionaliteit
+af. (OpenAPI Initiative / Linux Foundation z.d. Forum Standaardisatie 2026b; Forum Standaar-
+disatie 2026c)
+
+16.4 Federatief Datastelsel en Europese kaders
+Het geraadpleegde FDS-afwegingskader vormt een ingang naar voorwaarden voor toelating
+van aanbod. De beschikbare hoofdpagina is echter onvoldoende om alle operationele afspraken
+van FDS inhoudelijk te reconstrueren. De studie positioneert FDS daarom als relevante Neder-
+landse onderzoekscontext en laat gedetailleerde vergelijking met federatieve MDM-patronen
+open. (Realisatie IBDS / betrokken overheden 2025)RC49
+    EIF ordent interoperabiliteit over meerdere niveaus. De Interoperable Europe Act vormt een
+juridisch kader voor interoperabiliteit in de Europese publieke sector. SEMIC Core Vocabularies
+bieden herbruikbare kernmodellen, bijvoorbeeld voor personen, organisaties en locaties. Hun
+rol verschilt: een juridisch of bestuurlijk kader is geen datamodel, en een kernvocabulaire beslist
+niet automatisch over de volledige betekenis van een nationale registratierelatie. (Europese
+Commissie 2017; Europees Parlement en Raad 2024; Europese Commissie / SEMIC 2024)RC50
+
+
+
+                                                17
+    FAIR benadrukt vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid, in-
+clusief aandacht voor machinegericht gebruik. De principes ondersteunen daarmee het belang
+van metadata en expliciete verwijzingen. Zij verplichten niet alle gegevens openbaar te maken
+en bewijzen geen bepaalde MDM-architectuur. (Wilkinson e.a. 2016)RC51
+
+
+17    Masterdata en Data Products
+Dataproductdenken legt nadruk op een terugkerende informatiebehoefte, beheer en consump-
+tie. Een dataproduct kan masterdata aanbieden, maar ook gegevens uit andere categorieën. De
+relatie is daarom geen eenvoudige vervanging van de ene term door de andere. Productdenken
+betreft het georganiseerde aanbod; masterdata betreft een gegevens- en beheervraagstuk dat
+daarbinnen kan liggen. (Blohm e.a. 2024)RC52
+     De gedachte dat masterdata als product kunnen worden behandeld is ouder dan de recente
+Data Mesh-discussie. Otto en Ofner noemen dit expliciet en verbinden er productbeschrijvin-
+gen en zicht op bronnen en afnemers aan. Een nieuw label is dus onvoldoende om een nieuwe
+capability of wetenschappelijke bijdrage te claimen. Wel blijft onderzoek nodig naar de prak-
+tische invulling en verschillen tussen oudere en recente productbenaderingen. (Otto en Ofner
+2011)RC53
+     DPROD biedt een kandidaatvocabulaire voor productmetadata, waaronder eigenaar, doel
+en relaties met datasets en diensten. De hier geraadpleegde versie is 1.0 Beta 1. De bron on-
+dersteunt het bestaan van een productspecificatie, niet dat deze versie iedere MDM-behoefte
+afdekt of dat een specifiek product ermee conformeert. Samenhang met DCAT-profielen en
+metadataregistries vraagt een vergelijking van resources en verantwoordelijkheden. (Object
+Management Group (OMG) 2025; W3C 2024; ISO/IEC JTC 1/SC 32 2023b)RC54
+
+
+18    Masterdata en federatieve data-architecturen
+De grijze-literatuurreview van Goedegebuure et al. synthetiseert praktijkmateriaal over Data
+Mesh. De beschreven principes betreffen domeinverantwoordelijkheid, data als product, self-
+service en federatieve governance. De geraadpleegde auteursversie is geen door deze paper
+uitgevoerd praktijkonderzoek; de onderliggende professionele claims worden niet automatisch
+bewijs van gerealiseerde voordelen. (Goedegebuure e.a. 2023)RC55
+     Federatie betreft bovendien meerdere dimensies: verdeling van gegevens, verdeling van be-
+sluitrechten en de afspraken waarmee partijen samenwerken. Een centraal metadataoverzicht
+kan met decentraal gegevensbeheer samengaan. Daarom is een tegenstelling tussen “centraal
+MDM” en “decentraal Data Mesh” analytisch te grof. De patroonbeschrijvingen en recente ar-
+chitectuurvergelijkingen bevatten verschillende combinaties; de optimale keuze volgt daar niet
+algemeen uit. (Otto en Ofner 2011; Goedegebuure e.a. 2023; Gieß en Hutterer 2025)RC56
+     Gieß en Hutterer ordenen data platforms, spaces, meshes en fabrics onder meer naar gover-
+nance en toepassingsgebied. Hun synthese is bruikbaar als vergelijkingskader, maar een clas-
+sificatie op dat niveau bepaalt geen formele consistentiegaranties of lokale beheerlast. Beheer-
+autonomie kan extra afstemming vragen; centralisatie kan bevoegdheden bundelen. Beide zijn
+afwegingsdimensies die in een concrete context moeten worden onderzocht. (Gieß en Hutterer
+2025)
+
+
+19    API-first, events en data contracts
+OpenAPI beschrijft interfaces, de Nederlandse REST-regels stellen ontwerpafspraken en Di-
+gikoppeling/FSC adresseert onderdelen van gegevensuitwisseling en verbindingen. Het NL
+GOV-profiel voor CloudEvents beschrijft gebeurtenissen binnen een uitwisselingscontext. Deze
+
+
+                                              18
+instrumenten kunnen distributie en verandering ondersteunen, maar definiëren niet vanzelf de
+domeinbetekenis van een merge, correctie of intrekking. (OpenAPI Initiative / Linux Founda-
+tion z.d. Logius z.d.[c]; Logius z.d.[b]; Logius 2026a; Logius 2026b)RC57
+    “API-first” en “event-driven” worden hier als ontwerporiëntaties onderzocht, niet als be-
+wezen opvolgers van MDM. Hetzelfde geldt voor data contracts. De term kan een technisch
+schema, een kwaliteitsafspraak of een breder productcontract aanduiden. DPROD, catalogus-
+profielen en interfacespecificaties bieden aangrenzende constructies, maar het huidige corpus
+rechtvaardigt geen universele definitie of rangorde van data-contractbenaderingen. Dat is een
+beperking van deze synthese. (Object Management Group (OMG) 2025; W3C 2024; OpenAPI
+Initiative / Linux Foundation z.d.)RC58
+    Een event dat een wijziging meldt, hoeft niet de volledige nieuwe toestand te bevatten. Voor
+interpretatie moet daarom worden onderzocht welke identifiers, versiegegevens en verwijzin-
+gen het gekozen profiel en de concrete toepassing leveren. Dit is een analysevraag op het grens-
+vlak van eventing en historie; er worden geen niet-uitgevoerde prestatietests van eventverwer-
+king gerapporteerd. (Logius 2026b; W3C / OGC 2017)
+
+
+20    Masterdata en AI
+AI kan zowel hulpmiddel bij gegevensbeheer als afnemer van gegevens zijn. Entity-
+resolutiononderzoek behandelt algoritmische matching en de xLP-publicatie illustreert
+uitlegbaarheid rond voorspelde relaties in een MDM-context. Het bestaan van deze toepassin-
+gen zegt niets over een universele vervanging van governance of over de betrouwbaarheid van
+ieder afgeleid verband. De geraadpleegde xLP-tekst is een in 2024 gedeponeerde auteursversie
+met andere jaaraanduidingen in het document; deze paper gebruikt haar als voorbeeld, niet om
+een chronologische prioriteitsclaim te maken. (Christophides e.a. 2020; Ganesan e.a. 2024)RC59
+     Retrieval-Augmented Generation combineert in Lewis et al. generatie met opgehaalde infor-
+matie. De studie rapporteert resultaten voor haar eigen taken en modellen. Zij bewijst niet dat
+een MDM-product met ontologieën automatisch betere antwoorden produceert. Knowledge
+graphs en expliciete metadata kunnen informatie structureren en ontsluiten, maar onjuiste bron-
+nen, verkeerde mappings of een verkeerde selectiecontext blijven mogelijke fouten. (Lewis e.a.
+2020; Hogan e.a. 2021; W3C 2013a)RC60
+     Semantic grounding wordt hier opgevat als het verbinden van een interpretatie aan con-
+troleerbare concepten en bronnen. Dat is een analytische werkbetekenis, geen claim dat het
+corpus een algemeen geaccepteerde definitie levert. Het onderscheid tussen normatieve defini-
+tie, gezaghebbende registratie, overige registratie en afleiding kan bij AI-consumptie relevant
+zijn. Hoe die categorieën machineleesbaar worden weergegeven en of zij fouten verminderen,
+blijft een open onderzoeksvraag. Provenance is daarvoor een mogelijke bouwsteen, geen be-
+wijs van effectiviteit. (W3C 2013a; Rijksoverheid / BZK en betrokken ministers 2003; Lewis e.a.
+2020)RC61
+     Voor AI-agents als zelfstandige ketenafnemers is de specifieke empirische dekking in deze
+verzameling beperkt. Claims over veilige autonome besluitvorming, hallucinatie-eliminatie of
+gegarandeerde interpretatie worden daarom niet gedaan. De noodzakelijke vervolgstudie moet
+toegang, bronversie, modelgedrag, taakcontext en foutkosten samen behandelen. Deze onder-
+zoeksagenda volgt uit de onderscheiden bewijsgrenzen, niet uit een uitgevoerd experiment.
+
+
+21    Synthese: een conceptueel overzicht van de literatuur
+De hoofdbevinding is een onderscheid tussen gegevens, representaties, beheer en gebruik. Mas-
+terdata organiseren herbruikbare beschrijvingen van relevante entiteiten; identity management
+ondersteunt verwijzing; kwaliteit adresseert geschiktheid; governance regelt verantwoordelijk-
+
+
+                                              19
+heden; metadata en semantiek ondersteunen interpretatie; product- en distributiemechanismen
+organiseren het aanbod. Deze relaties vormen een eigen synthese van de besproken bronnen
+en geen nieuwe implementatiearchitectuur. (Otto en Ofner 2011; Gualo e.a. 2023; Abraham e.a.
+2019; ISO/IEC JTC 1/SC 32 2023b; W3C 2024; Blohm e.a. 2024)RC62
+
+                             Institutionele context en governance
+                     doel, bevoegdheid, verantwoordelijkheid en gebruik
+
+
+                                    Betekenis en representatie
+               termen, definities, concepten, ontologieën, modellen en metadata
+
+
+                                   Gegevensbeheer en lifecycle
+                 identiteit, records, matching, kwaliteit, historie en herkomst
+
+
+                                   Aanbod en consumptie
+                 datasets, dataproducten, interfaces, events, applicaties en AI
+
+
+Figuur 1: Synthesemodel van de literatuur. De pijlen staan voor analytische afhankelijkheden
+en terugkoppeling; niet voor verplichte componenten of een gevalideerde architectuur.
+
+    Drie gevolgtrekkingen zijn centraal. Ten eerste kunnen dezelfde gegevens verschillende rol-
+len hebben: een masterdatarecord kan deel uitmaken van een dataset en via een dataproduct
+worden aangeboden. Ten tweede zijn verschillende vormen van correctheid te onderscheiden:
+een schema kan geldig zijn terwijl een referentkoppeling onjuist is. Ten derde moet centrale of
+federatieve inrichting over meerdere assen worden beoordeeld; plaatsing van data bepaalt niet
+automatisch gezag of betekenis. Deze gevolgtrekkingen ordenen het corpus zonder één tech-
+nologie als noodzakelijk te verklaren. (W3C 2024; Blohm e.a. 2024; Menestrina e.a. 2010; W3C
+2017; Gieß en Hutterer 2025)RC63
+
+21.1 Gedeelde accenten en controverses
+In meerdere geselecteerde bronnen keren organisatiebrede afstemming, gegevenskwaliteit en
+verantwoordelijkheid terug. Dat ondersteunt een voorzichtige convergentieclaim binnen dit
+corpus, geen statistisch vastgestelde consensus van het vakgebied. Op het niveau van definities,
+patronen en roltermen blijft variatie bestaan. Die variatie kan ontstaan door een ander toepas-
+singsdomein, een ander beschouwingsniveau of een andere publicatiedoelstelling. (Otto e.a.
+2012; Abraham e.a. 2019; Otto en Ofner 2011; Bracht e.a. 2012)RC64
+   Vier spanningen verdienen nadere analyse: uniforme voorkeurswaarden versus legitieme
+contextverschillen; centrale coördinatie versus domeinautonomie; expliciete semantiek versus
+modelleer- en onderhoudsinspanning; en kwaliteitscertificering versus feitelijke bruikbaarheid
+voor een specifieke afnemer. Dit zijn door de synthese geformuleerde spanningsvelden. De
+paper claimt niet dat de bronnen hierover een georganiseerd debat met twee vaste kampen
+vormen. (Gualo e.a. 2023; Otto en Ofner 2011; Goedegebuure e.a. 2023; Hogan e.a. 2021)RC65
+
+
+22    Research Gaps en open vragen
+Een hiaat in de lokale verzameling is niet hetzelfde als een wetenschappelijke lacune. De vol-
+gende agenda onderscheidt vragen die inhoudelijk uit vergelijking volgen van vragen waarvoor
+vooral extra bronverwerving nodig is. Alle lacuneclaims blijven voorlopig: zij moeten worden
+ingeperkt wanneer aanvullend werk het vermeende tekort al adresseert.
+
+                                                20
+ ID        Open vraag                                Type en onderbouwing
+ RG01      Hoe zijn capability-taxonomieën      Synthesevraag door uiteenlopende granu-
+           vergelijkbaar zonder bronverschil-   lariteit in Otto en Ofner (2011), Otto e.a.
+           len te verliezen?                    (2012) en Bracht e.a. (2012); geen bewezen
+                                                afwezigheid van alle mappings.
+ RG02      Wanneer levert expliciete seman-     Conditionele effectvraag; vroege semanti-
+           tische formalisering extra waarde    sche MDM en kennisgraafliteratuur selecte-
+           boven goed begrips- en metadata- ren geen universeel optimale diepte. (Wang
+           beheer?                              e.a. 2009; Hogan e.a. 2021)
+ RG03      Hoe verhouden MDM-patronen           Vergelijkingsvraag; labels en abstractieni-
+           en federatieve governance zich       veaus verschillen. (Otto en Ofner 2011; Goe-
+           onder gelijke taak- en kostendefini- degebuure e.a. 2023; Gieß en Hutterer 2025)
+           ties?
+ RG04      Hoe worden identiteit, pro-          Integratievraag tussen verschillende con-
+           venance en institutioneel gezag      structies; nog geen aangetoond wereldwijd
+           gezamenlijk geïnterpreteerd?         ontbreken van oplossingen. (Getoor en Ma-
+                                                chanavajjhala 2012; W3C 2013a; Rijksover-
+                                                heid / BZK en betrokken ministers 2003)
+ RG05      Welke tijds- en mappinginformatie Contextgebonden integratievraag vanuit
+           blijft behouden bij bron- en model- temporele begrippen en metadatamodel-
+           wijzigingen?                         len. (Jensen e.a. 1994; ISO/IEC JTC 1/SC 32
+                                                2023b; Geonovum; ontwikkeld met Kadas-
+                                                ter en VNG 2024)
+ RG06      Welke effecten heeft contextmeta-    Empirische vervolgbehoefte; RAG- en xLP-
+           data bij AI-consumptie van master- resultaten zijn niet zonder meer overdraag-
+           data?                                baar. (Lewis e.a. 2020; Ganesan e.a. 2024)
+ RG07      Wat schrijven volledige toepas-      Toegangslacune van deze review; geen in-
+           selijke ISO/NEN-teksten precies      houdelijke tekortkoming van de normen.
+           voor?
+ RG08      Hoe volledig zijn de dekking van     Corpuslacune; gerichte uitbreiding en pri-
+           FDS, semantic layers, data con-      maire passagecontrole nodig.
+           tracts en AI-agents?
+
+
+   Deze agenda draagt claim RC66: zij identificeert onderzoeksvragen en bewijsgrenzen, niet
+acht reeds bewezen nieuwe research gaps.RC66
+
+
+23    Discussie
+23.1 Theoretische bijdrage en alternatieve interpretaties
+De bijdrage is een brongebonden ordening die concepten, capabilities en standaardfuncties ver-
+bindt. De paper ontwerpt geen nieuw MDM-product en pretendeert geen nieuwe algemene
+MDM-theorie. Haar bruikbaarheid ligt in het voorkomen van ongedocumenteerde gelijkstellin-
+gen: een identifier wordt geen bewijs van identiteit, een kwaliteitsregel geen waarheidsgarantie
+en een dataproduct geen nieuw authentiek register.
+    Een alternatieve lezing is dat de besproken ontwikkelingen vooral bestaande disciplines
+hernoemen. De aanwezigheid van productdenken en business semantics in vroege MDM-
+literatuur ondersteunt dat tegenargument gedeeltelijk. Een andere lezing is dat nieuwe
+technologie de uitvoerbaarheid en schaal van bestaande ideeën verandert. De knowledge
+
+
+                                                21
+graph- en RAG-literatuur maakt technische variatie aannemelijk, maar de huidige review
+bepaalt niet hoeveel daarvan werkelijk additionele MDM-waarde oplevert. Beide verklaringen
+blijven dus mogelijk, afhankelijk van de afgebakende capability en context. (Otto en Ofner
+2011; Wang e.a. 2009; Hogan e.a. 2021; Lewis e.a. 2020)RC67
+    Een derde verklaring voor integratieproblemen is onvoldoende governance of gebrekkige
+uitvoering van reeds beschikbare standaarden. Dan is een nieuw vocabulaire niet de primaire
+oplossing. Omgekeerd kunnen bestaande modellen onvoldoende expliciete verbindingen bie-
+den voor een specifieke taak. De analyse moet daarom onderscheid maken tussen ontbrekende
+specificatie, ontbrekende toepassing, onjuiste mapping en onvoldoende empirisch bewijs. De
+huidige synthese biedt categorieën voor dat onderscheid, geen algemene diagnose van de Ne-
+derlandse overheid. (Abraham e.a. 2019; Geonovum 2024; ISO/IEC JTC 1/SC 32 2023b)RC68
+
+23.2 Praktische betekenis
+Voor organisaties biedt de review een manier om vragen te ordenen voordat een platform of
+patroon wordt gekozen: welke entiteiten zijn relevant, welke betekenisverschillen zijn legitiem,
+wie mag beslissen, welke uitkomsten gelden als kwaliteit en welke representaties moeten wor-
+den verbonden? Het antwoord kan verschillende combinaties van organisatorische maatregelen
+en technische voorzieningen opleveren. Een capability-taxonomie hoort daarmee een gesprek
+en analyse te ondersteunen, niet automatisch een maximaal pakket aan productfuncties te legi-
+timeren.
+    Voor de Nederlandse context is vooral het onderscheid tussen bronverantwoordelijkheid,
+publicatieverantwoordelijkheid en afgeleid gebruik relevant. Een dataset of product kan infor-
+matie bundelen zonder de status van de onderliggende registraties te vervangen. Dat is een ana-
+lytische toepassing van de besproken begripsgrenzen, geen juridisch oordeel over een specifieke
+verwerking. (Rijksoverheid / BZK en betrokken ministers 2003; W3C 2024; Object Management
+Group (OMG) 2025)
+
+
+24    Beperkingen en threats to validity
+Selectie en dekking. Het corpus begon met een ontwerpgerichte selectie en is via gerichte web-
+zoekacties uitgebreid. Selectiebias, beschikbaarheidsbias, zoekmachinerangorde en taalkeuze
+kunnen de synthese beïnvloeden. De studie heeft geen databasebrede dekking of theoretische
+verzadiging vastgesteld. Extra downloads verminderen deze beperkingen niet automatisch.
+    Bronkwaliteit en onafhankelijkheid. Boeken, normen, academische studies, preprints en
+leveranciersdocumenten ondersteunen verschillende claimtypen. Leveranciersliteratuur is her-
+kenbaar gescheiden, maar vormt voor sommige technische functies een belangrijke bron. Voor
+die functies ontbreekt soms onafhankelijke vergelijkende onderbouwing. Meerdere bronnen
+kunnen hetzelfde werk herhalen; documentaantallen mogen daarom niet als onafhankelijk be-
+wijs worden opgeteld.
+    Constructvaliditeit. De eigen capability-clusters en begripsafbakening kunnen auteursver-
+schillen oversimplificeren. De taxonomie is niet door onafhankelijke beoordelaars gevalideerd.
+Een expliciete rolvergelijking vermindert terminologische ambiguïteit in de paper, maar bewijst
+niet dat de voorgestelde categorieën in elke organisatie passend zijn.
+    Toegang en versie. Oﬀiciële catalogi geven geen toegang tot alle norminhoud. Sommige
+auteursversies bevatten afwijkende jaaraanduidingen of voorlopige publicatiegegevens. De bi-
+bliografie vermeldt daarom de gebruikte representatie. Webpagina’s en lijststatussen zijn tijd-
+gebonden; de peildatum is geen permanente garantie van actualiteit.
+    Interpretatie en AI-ondersteuning. Tekstextractie kan tabellen, accenten of paginagrenzen
+verkeerd weergeven. De AI-ondersteunde analyse kan relaties te snel generaliseren of tegenbe-
+wijs missen. Het passage- en claims-register biedt een auditspoor, maar externe vakinhoudelijke
+
+
+                                              22
+controle en waar nodig juridisch-inhoudelijke beoordeling blijven nodig.
+   Externe geldigheid. Er is geen onderzoek uitgevoerd naar een organisatiepopulatie, een
+werkende stelselketen of consumentprestaties. Conclusies betreffen de gelezen bronnen. De
+paper kan geen kostenbesparing, kwaliteitswinst, adoptiegraad of verbeterde AI-interpretatie
+voor een praktijkcontext vaststellen.
+
+
+25    Conclusie
+Binnen het onderzochte corpus verschijnt MDM als een combinatie van entiteitsgericht gege-
+vensbeheer, organisatorische verantwoordelijkheid en technische ondersteuning. Masterdata,
+referentiedata, metadata, datasets en dataproducten beschrijven verschillende aspecten en kun-
+nen in één aanbod samenkomen. Architectuurpatronen verschillen niet alleen in plaatsing van
+gegevens, maar ook in schrijfverantwoordelijkheid en afstemming.
+    De bronvergelijking rechtvaardigt geen algemene claim dat semantiek of productdenken
+ontbreekt in eerdere MDM-benaderingen. Beide komen al in vroege bronnen voor. De betekenis
+van nieuwe ontwikkelingen moet daarom worden onderzocht op het niveau van concrete me-
+chanismen, toepassingsvoorwaarden en aantoonbare resultaten. Standaarden verdelen verant-
+woordelijkheden over terminologie, modellen, metadata, kwaliteit, provenance, aanbod en dis-
+tributie; hun combinatie vraagt expliciete interpretatie zonder dat daaruit vanzelf een nieuwe
+architectuur volgt.
+    De wetenschappelijke opbrengst van deze versie is een controleerbare conceptuele synthese
+en een begrensde onderzoeksagenda. Verdere corpusuitbreiding, onafhankelijke beoordeling
+en waar passend empirisch onderzoek moeten vaststellen welke verbindingen praktisch waar-
+devol zijn en waar bestaande kennis al voldoende is. Een prototype vormt geen grondslag voor
+deze conclusies en is in deze onderzoeksfase niet onderzocht.
+
+
+A Brongebonden traceability
+De codes in de hoofdtekst verwijzen naar de onderstaande analytische claims. Het machinelees-
+bare register bevat daarnaast bronpassages, grenzen en tegenargumenten. Een geregistreerde
+claim is geen onafhankelijk gevalideerd resultaat. De vindplaatsen verwijzen naar passages en
+lokale tekstextracties; voor letterlijke citaten blijft het brondocument leidend.
+
+ Claim      Analytische uitspraak                                             Bron-ID's
+ RC01       MDM omvat technische en organisatorische beheertaken.             L05, L20
+ RC02       Dataproducten en federatieve benaderingen overlappen met          L12, L24
+            MDM zonder ermee samen te vallen.
+ RC03       Reviewrapportagerichtlijnen ondersteunen transparantie,           M01, M02
+            geen automatisch systematische dekking.
+ RC04       Masterdatadefinities benadrukken domeinentiteiten, herge-         B01, L18, L20
+            bruik en afgestemd beheer.
+ RC05       Een golden record is geen garantie van juistheid of institutio-   L19, P01
+            neel gezag.
+ RC06       Vroege MDM-publicaties bevatten semantisch en productge-          L12, L18, L19, L20, L24
+            richt denken.
+ RC07       Vier theoretische perspectieven bieden een eigen ordening         L07, L08, L15, L21
+            van het corpus.
+ RC08       Datacategorieën verschillen in classificatiegrond en zijn niet    L12, L20, S47
+            allemaal exclusief.
+ RC09       Capability-taxonomieën verschillen in granulariteit en doel.      L05, L20, P01
+
+
+
+                                                  23
+Claim   Analytische uitspraak                                          Bron-ID's
+RC10    De lifecycle is een cyclisch analysekader, geen universeel     L20, P01, P02
+        stappenvoorschrift.
+RC11    Patroonlabels verschillen tussen MDM-bronnen.                  L20, P01
+RC12    Patroonlabels bepalen niet zelfstandig prestaties of consis-   L24, P01, P02
+        tentiegaranties.
+RC13    Entity resolution omvat meer dan tekstvergelijking.            L21, L29, L30
+RC14    Identifiergelijkheid, recordgelijkheid en referentidentiteit   L08, S38, S39
+        verschillen.
+RC15    Matching, survivorship en domeinverandering vragen ver-        L08, L22, P01
+        schillende besluiten.
+RC16    ER-maatstaven kunnen verschillende rangordes opleveren.        L22
+RC17    Datakwaliteit is contextgebonden en multidimensionaal.         L15, L19
+RC18    Kwaliteitsdimensies vereisen expliciete vergelijkingsconven-   L19, S12
+        ties.
+RC19    Normscope, kwaliteitsmetadata en graafvalidatie hebben         S02, S03, S12, S32, S34
+        verschillende toetsobjecten.
+RC20    Governance adresseert besluitrechten en verantwoordelijk-      L07, L20, L27
+        heid.
+RC21    Roltermen vragen bron- en contextgebonden interpretatie.       L07, L20, L23, S51
+RC22    Standaardbeheer is geen volledige data governance.             L07, S23
+RC23    Metadataregistratie onderscheidt conceptuele en representa-    S07, S08, S09, S10
+        tieconstructies.
+RC24    Een technisch schema bepaalt niet zelfstandig de volledige     S08, S11, S14
+        betekenis.
+RC25    Metadataregistries en catalogi hebben verschillende en over-   S08, S09, S47
+        lappende scopes.
+RC26    Term, definitie en begrip zijn te onderscheiden; be-           S11, S13, S31
+        grip/concept zijn bronafhankelijk.
+RC27    SKOS, NL-SBB en MIM hebben complementaire en overlap-          S13, S14, S31
+        pende functies.
+RC28    Bedrijfssemantiek komt aantoonbaar voor in vroegere MDM-       B01, L20
+        literatuur.
+RC29    Gelijke labels garanderen geen gelijke begripsafbakening.      B01, S31
+RC30    EIF-niveaus verschillen van de eigen uitsplitsing van syn-     S43
+        taxis en structuur.
+RC31    Conceptuele modellen veronderstellen ontologische catego-      L08
+        rieën en identiteit.
+RC32    Ontologische modelleerbenaderingen zijn geen universele        L10, S40, S41
+        MDM-vereiste.
+RC33    SKOS-concept, ontologische klasse, objecttype en data-         S08, S13, S31
+        element zijn geen automatische equivalenten.
+RC34    Semantic Web-specificaties vervullen verschillende             S28, S29, S30, S35, S36
+        representatie- en queryfuncties.
+RC35    SMDM is een bestaand antecedent van semantische MDM-           L18
+        integratie.
+RC36    Een formeel valide graaf garandeert geen juiste mapping of     L13, S32
+        broninhoud.
+RC37    PROV-O biedt constructies voor provenance; lineage is hier     S33
+        een werkafbakening.
+RC38    Herkomst is geen zelfstandige waarheids- of bevoegdheids-      S25, S33
+        waarborg.
+
+
+
+                                            24
+Claim   Analytische uitspraak                                            Bron-ID's
+RC39    Valid time en transaction time zijn verschillende tijdsbeteke-   L14
+        nissen.
+RC40    Tijdnotatie en tijdontologie bepalen geen volledig historiebe-   P01, S37, S52
+        leid.
+RC41    Documentsoort, normatieve status en empirisch bewijs zijn        L11, S13, S30, S42
+        verschillende assen.
+RC42    Cross-standard relaties vormen een synthese, geen ver-           S01, S02, S03, S07, S08,
+        plichte componentenlijst.                                        S09, S10, S11, S12, S13,
+                                                                         S14, S15, S16, S17, S18,
+                                                                         S19, S20, S21, S22, S23,
+                                                                         S24, S25, S26, S27, S28,
+                                                                         S29, S30, S31, S32, S33,
+                                                                         S34, S35, S36, S37, S38,
+                                                                         S39, S40, S41, S42, S43,
+                                                                         S44, S45, S47, S49, S51,
+                                                                         S52
+RC43    Profielrelaties, complementaire metadata en onderzoekers-        S16, S31, S33, S34, S45,
+        mappings verschillen.                                            S47
+RC44    Overlap bewijst geen redundantie; scopebeperking bewijst         S14, S19, S31
+        geen wetenschappelijke lacune.
+RC45    Basisregistratieafspraken verbinden kerngegevens met insti-      S25, S26
+        tutionele verantwoordelijkheid.
+RC46    BAG biedt begripsdocumentatie; geen operationele stelselke-      S49
+        ten is hier onderzocht.
+RC47    Nederlandse standaarden opereren op verschillende abstrac-       S13, S14, S15, S16, S17
+        tieniveaus.
+RC48    Nederlandse lijststatus en technische versie moeten afzon-       F01, F02, F03
+        derlijk worden vastgesteld.
+RC49    De FDS-dekking is te beperkt voor reconstructie van operati-     S27
+        onele afspraken.
+RC50    EIF, Europese wetgeving en SEMIC hebben verschillende            S42, S43, S44
+        functies.
+RC51    FAIR ondersteunt hergebruik en machinegericht gebruik            L11
+        zonder algemene openbaarheidseis.
+RC52    Masterdata en dataproducten beschrijven verschillende as-        L12
+        pecten van gegevensaanbod.
+RC53    Masterdata als product is een expliciet eerder gepubliceerd      L20
+        idee.
+RC54    Productmetadata overlappen met catalogus- en registratie-        S08, S47, S51
+        metadata.
+RC55    Data Mesh-principes zijn beschreven in een grijze-               L23
+        literatuurreview.
+RC56    Federatie heeft technische en organisatorische dimensies.        L20, L23, L24
+RC57    API- en eventstandaarden bepalen niet vanzelf domeinbete-        S18, S19, S20, S21, S22
+        kenis.
+RC58    Data contracts en API-first zijn hier begrensde onderzoeks-      S19, S47, S51
+        oriëntaties.
+RC59    AI kan hulpmiddel en consument van masterdata zijn; xLP          L29, L31
+        is een beperkt voorbeeld.
+RC60    RAG-resultaten bewijzen geen algemeen voordeel van se-           L13, L16, S33
+        mantische MDM.
+RC61    Machineleesbare epistemische status is een open effect- en       L16, S25, S33
+        representatievraag.
+
+
+                                             25
+ Claim         Analytische uitspraak                                         Bron-ID's
+ RC62          Gegevens, representaties, beheer en consumptie vormen een     L07, L12, L19, L20, S08,
+               eigen synthesemodel.                                          S47
+ RC63          Gegevensrollen, correctheidsvormen en centralisatie-assen     L12, L22, L24, S32, S47
+               moeten worden onderscheiden.
+ RC64          Convergentie in geselecteerde bronnen is geen vastgestelde    L05, L07, L20, P01
+               vakgebiedbrede consensus.
+ RC65          Uniformiteit, autonomie, modelleerlast en bruikbaarheid       L13, L19, L20, L23
+               vormen analytische spanningen.
+ RC66          De onderzoeksagenda onderscheidt synthesevragen van           L05, L13, L14, L16, L18,
+               corpus- en toegangslacunes.                                   L20, L21, L23, L24, L31,
+                                                                             P01, S08, S13, S25, S33
+ RC67          Herbenoeming en technische vernieuwing blijven alterna-       L13, L16, L18, L20
+               tieve interpretaties.
+ RC68          Integratieproblemen kunnen door ontbrekende toepassing        L07, S08, S14
+               in plaats van ontbrekende standaarden ontstaan.
+
+
+
+B Geselecteerde standaarddocumenten en bewijsgrenzen
+Dit overzicht noemt de gebruikte documentversies; het is geen verklaring van actuele conformi-
+teit of verplichte gezamenlijke toepassing.
+
+ Document                         Gebruikte versie          Niveau en bewijsgrens
+ S01 DAMA-DMBOK                   DMBOK2 Revised            Organisatie en processen. oﬀiciële
+                                  Edition, 2024             overzichts-/cataloguspagina; beperkte
+                                                            inhoudelijke dekking
+ S02 ISO 8000-100                 2016                      Uitwisseling. oﬀiciële webcontrole; alleen
+                                                            scope
+ S03 ISO 8000-110                 2021                      Bericht en semantische codering. oﬀiciële
+                                                            webcontrole; alleen scope
+ S07 ISO/IEC 11179-3              2023; Amd 1:2026 ver-     Meta. oﬀiciële webcontrole; alleen scope
+                                  meld, inhoud niet
+                                  geanalyseerd
+ S08 ISO/IEC 11179-31             2023                      Meta en data-element. oﬀiciële webcon-
+                                                            trole; alleen scope
+ S09 ISO/IEC 11179-33             2023                      Meta en collectie. oﬀiciële webcontrole;
+                                                            alleen scope
+ S10 ISO/IEC 11179-6              2023                      Governance van metadata. oﬀiciële web-
+                                                            controle; alleen scope
+ S11 ISO 704                      2022                      Terminologie. oﬀiciële webcontrole; al-
+                                                            leen scope
+ S12 ISO/IEC 25012                2008                      Gegevenskwaliteit. oﬀiciële webcontrole;
+                                                            alleen scope
+ S13 MIM                          1.2                       Meta; beschouwingsniveaus. geselec-
+                                                            teerde passage; geen integrale bronvali-
+                                                            datie
+ S14 NL-SBB                       1.0                       Begrip en terminologie. geselecteerde
+                                                            passage; geen integrale bronvalidatie
+ S15 TOOI                         Ontologie 1.6.2 (2025-    Domeinsemantiek en referentiedata. gese-
+                                  07-04); lijstdocumenta-   lecteerde passage; geen integrale bronvali-
+                                  tie 1.3.4                 datie
+
+
+
+                                                  26
+Document                          Gebruikte versie           Niveau en bewijsgrens
+S16 DCAT-AP-NL                    3.0                        Dataset; dienst; distributie. geselecteerde
+                                                             passage; geen integrale bronvalidatie
+S17 NEN 3610                      2022                       Conceptueel en logisch. oﬀiciële
+                                                             overzichts-/cataloguspagina; beperkte
+                                                             inhoudelijke dekking
+S18 NLGov REST API Design         2.2.0; Forum vermeldt      Interface. geselecteerde passage; geen
+Rules                             2.2                        integrale bronvalidatie
+S19 OpenAPI Specification         Onderzoeksreferentie       Interface en payloadschema. geselec-
+                                  3.1.1; Nederlandse lijst   teerde passage; geen integrale bronvali-
+                                  3.0                        datie
+S20 Digikoppeling                 Geen overkoepelend         Transport; beveiliging; koppelvlak. gese-
+                                  versienummer; REST-        lecteerde passage; geen integrale bronvali-
+                                  API 4.0.1                  datie
+S21 Federated Service Con-        Core 2.0.0                 Vertrouwen en infrastructuur. geselec-
+nectivity (FSC)                                              teerde passage; geen integrale bronvalida-
+                                                             tie
+S22 NL GOV profile for Clou-      1.1                        Event envelope. geselecteerde passage;
+dEvents                                                      geen integrale bronvalidatie
+S23 BOMOS                         Fundament 3.0.2; an-       Organisatorisch. geselecteerde passage;
+                                  dere modules afzon-        geen integrale bronvalidatie
+                                  derlijk
+S24 MDTO                          1.0                        Informatieobject en bewaring. geselec-
+                                                             teerde passage; geen integrale bronvalida-
+                                                             tie
+S25 Twaalf eisen basisregistra-   Kamerstuk 26387            Juridisch en organisatorisch. geselec-
+ties                              nr.18, 2003                teerde passage; geen integrale bronvali-
+                                                             datie
+S26 Stelselafspraken / base-      Geraadpleegde pu-          Stelsel en processen. geselecteerde pas-
+line kwaliteitszorg               blicatie 2021; geen        sage; geen integrale bronvalidatie
+                                  release-ID vastgesteld
+S27 Federatief Datastelsel        Afwegingskader v1,         Federatief; organisatie tot dienst. oﬀiciële
+(FDS)                             2025-12-18                 overzichts-/cataloguspagina; beperkte
+                                                             inhoudelijke dekking
+S28 RDF                           1.1, 2014-02-25            Representatie. geselecteerde passage;
+                                                             geen integrale bronvalidatie
+S29 RDFS                          1.1, 2014-02-25            Schema. geselecteerde passage; geen inte-
+                                                             grale bronvalidatie
+S30 OWL                           OWL 2, second edi-         Formele semantiek. geselecteerde pas-
+                                  tion, 2012                 sage; geen integrale bronvalidatie
+S31 SKOS                          2009-08-18                 Begripsrepresentatie. geselecteerde pas-
+                                                             sage; geen integrale bronvalidatie
+S32 SHACL                         2017-07-20                 Uitvoerbare constraints. geselecteerde
+                                                             passage; geen integrale bronvalidatie
+S33 PROV-O                        2013-04-30                 Bewering en proces. geselecteerde pas-
+                                                             sage; geen integrale bronvalidatie
+S34 DQV                           2016-12-15                 Meting en collectie. geselecteerde pas-
+                                                             sage; geen integrale bronvalidatie
+S35 JSON-LD                       1.1, 2020-07-16            Representatie en interface. geselecteerde
+                                                             passage; geen integrale bronvalidatie
+S36 SPARQL                        1.1, 2013-03-21            Query en protocol. geselecteerde passage;
+                                                             geen integrale bronvalidatie
+S37 OWL-Time                      Recommendation             Temporele semantiek. geselecteerde pas-
+                                  2017-10-19                 sage; geen integrale bronvalidatie
+
+
+                                                    27
+ Document                       Gebruikte versie           Niveau en bewijsgrens
+ S38 URI / IRI-identificatie    RFC 3986 en 3987,          Identificatie. geselecteerde passage; geen
+                                2005                       integrale bronvalidatie
+ S39 Cool URIs for the Seman-   2008-12-03                 Webpublicatie. geselecteerde passage;
+ tic Web                                                   geen integrale bronvalidatie
+ S40 UFO                        Onderzoeksbasis 2005       Foundational / domeinonafhankelijk. ge-
+                                en 2015; geen release      selecteerde passage; geen integrale bron-
+                                vastgezet                  validatie
+ S41 OntoUML                    Geen eenduidige re-        Conceptueel. geselecteerde passage; geen
+                                lease vastgesteld; on-     integrale bronvalidatie
+                                derzoeksbaseline L08
+ S42 Interoperable Europe Act   Verordening (EU)           Juridisch en governance. geselecteerde
+                                2024/903                   passage; geen integrale bronvalidatie
+ S43 European Interoperabi-     2017, COM(2017)134         Juridisch; organisatorisch; semantisch;
+ lity Framework                                            technisch. geselecteerde passage; geen
+                                                           integrale bronvalidatie
+ S44 SEMIC Core Vocabularies    Referenties: Person        Domeinconceptueel en uitwisseling. gese-
+                                2.1.1; Business 2.2.0;     lecteerde passage; geen integrale bronvali-
+                                Location 2.1.0; Pu-        datie
+                                blic Org. 2.1.1; geen
+                                familieversie
+ S45 DCAT-AP                    3.0.1                      Dataset; distributie; dienst. geselecteerde
+                                                           passage; geen integrale bronvalidatie
+ S47 DCAT                       3, 2024-08-22              Metadata. geselecteerde passage; geen
+                                                           integrale bronvalidatie
+ S49 Catalogus BAG 2018         2018, versie 1.0; wijzi-   Domein; model; registratie. geselecteerde
+                                gingsvoorstellen niet      passage; geen integrale bronvalidatie
+                                automatisch normatief
+ S51 Data Product Ontology      1.0 Beta 1; document       Productmetadata en semantische cata-
+ (DPROD)                        februari 2025, catalo-     logisering. geselecteerde passage; geen
+                                gus adoption januari       integrale bronvalidatie
+                                2025
+ S52 ISO 8601 — Date and        Serieoverzicht; 2019-      Datum- en tijdrepresentatie. Oﬀicieel web-
+ time format                    delen vermeld              overzicht; geen volledige norm
+
+
+
+C    Reproduceerbaarheid en onderzoeksbestanden
+De nieuwe paper staat onder research/paper/. Het bronnenregister, de literatuurmatrix,
+standaardenmatrix, conceptanalyse, het claims-register en het hiatenregister staan onder
+research/evidence/. Het bestand source-extracts.csv koppelt passages aan bestands-
+hashes; paper-selection.csv onderscheidt aangehaalde bronnen van niet in deze paper
+gebruikte kandidaten. paper-traceability.csv verbindt onderzoeksvragen, claims, bronnen
+en papersecties. De dekkingstoets in research/analysis/coverage-assessment.md motiveert
+de begrensde reikwijdte van deze versie.
+    De oude ontwerpgerichte paper in de projectroot is geen bron voor de inhoudelijke synthese.
+Alleen haar onderliggende, afzonderlijk controleerbare bronregistratie is als startpunt herge-
+bruikt. De huidige publicatie is een eerste volledige manuscriptversie, geen afgeronde corpus-
+uitbreiding. De bibliografie onderscheidt de geraadpleegde boekfragmenten en auteursversies
+van volledige commerciële edities. Normcatalogi ondersteunen slechts de vermelde scope- en
+editie-informatie.
+
+
+
+
+                                                 28
+Referenties
+Abraham, Rene, Johannes Schneider en Jan vom Brocke (2019). Data governance: A conceptual
+   framework, structured review, and research agenda. Peer-reviewed tijdschriftartikel; International
+   Journal of Information Management. Bron-ID L07. abstract; geen volledige artikelanalyse.
+   DOI: 10.1016/j.ijinfomgt.2019.07.008. URL: https://doi.org/10.1016/j.ijinfomgt
+   .2019.07.008.
+Blohm, Ivo, Felix Wortmann, Christine Legner en Felix Köbler (2024). Data products, data mesh,
+   and data fabric: New paradigm(s) for data and analytics? Tijdschriftbijdrage type Catchword;
+   Business & Information Systems Engineering. Bron-ID L12. geselecteerde passage; geen in-
+   tegrale bronvalidatie. DOI: 10.1007/s12599-024-00876-5. URL: https://doi.org/10.1007
+   /s12599-024-00876-5.
+Bracht, Jan-Bernd, Joerg Rehr, Markus Siebert en Rouven Thimm (2012). Smarter Modeling of
+   IBM InfoSphere Master Data Management Solutions. Bron-ID P01. geselecteerde passage; geen
+   integrale bronvalidatie Leveranciersliteratuur. URL: https://www.redbooks.ibm.com/abst
+   racts/sg247956.html (bezocht op 09-09-2026).
+BZK / Stelsel van Basisregistraties (2021). Stelselafspraken / baseline kwaliteitszorg. Afspraken- en
+   kwaliteitskader. Bron-ID S26. geselecteerde passage; geen integrale bronvalidatie. URL: http
+   s://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/07/Baseline-kwal
+   iteitszorg-stelsel-van-basisregistraties2.pdf.
+BZK; Kadaster; Geonovum (2018). Catalogus BAG 2018. Domeincatalogus / gegevensspecificatie.
+   Bron-ID S49. geselecteerde passage; geen integrale bronvalidatie. URL: https://www.geoba
+   sisregistraties.nl/documenten/2018/03/12/catalogus-2018.
+Chen, Whei-Jen, Bhavani Eshwar, Ramya Rajendiran, Shettigar Srinivas, Manjunath B Subrama-
+   nian en Bharathi Venkatasubramanian (2014). Master Data Management for SaaS Applications.
+   Bron-ID P02. geselecteerde passage; geen integrale bronvalidatie Leveranciersliteratuur. URL:
+   https://www.redbooks.ibm.com/abstracts/sg248220.html (bezocht op 09-09-2026).
+Christophides, Vassilis, Vasilis Efthymiou, Themis Palpanas, George Papadakis en Kostas Stefa-
+   nidis (2020). End-to-End Entity Resolution for Big Data: A Survey. Bron-ID L29. geselecteerde
+   passage; geen integrale bronvalidatie Auteursversie 2020; eerste depot 2019; geen voorlopige
+   DOI overgenomen. URL: https://arxiv.org/abs/1905.06397 (bezocht op 09-09-2026).
+DAMA International (2024). DAMA-DMBOK. Body of knowledge / best practices. Bron-ID S01.
+   oﬀiciële overzichts-/cataloguspagina; beperkte inhoudelijke dekking. URL: https://dama.o
+   rg/dama-dmbok-revision/.
+Europees Parlement en Raad (2024). Interoperable Europe Act. EU-verordening; geen technische
+   standaard. Bron-ID S42. geselecteerde passage; geen integrale bronvalidatie. URL: https://e
+   ur-lex.europa.eu/eli/reg/2024/903.
+Europese Commissie (2017). European Interoperability Framework. Interoperabiliteitskader / aan-
+   bevelingen. Bron-ID S43. geselecteerde passage; geen integrale bronvalidatie. URL: https :
+   //ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf.
+Europese Commissie / SEMIC (2024). SEMIC Core Vocabularies. Vocabulairefamilie / herbruik-
+   bare modellen. Bron-ID S44. geselecteerde passage; geen integrale bronvalidatie. URL: http
+   s://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/.
+— (z.d.). DCAT-AP. Applicatieprofiel. Bron-ID S45. geselecteerde passage; geen integrale bron-
+   validatie. URL: https://semiceu.github.io/DCAT-AP/releases/3.0.1/.
+Forum Standaardisatie (2026a). MIM: oﬀiciële standaardregistratie. Bron-ID F02. geselecteerde
+   passage; geen integrale bronvalidatie. URL: https://www.forumstandaardisatie.nl/op
+   en-standaarden/mim (bezocht op 09-09-2026).
+— (2026b). Pas toe of leg uit-standaarden (verplicht). Bron-ID F01. geselecteerde passage; geen
+   integrale bronvalidatie. URL: https://www.forumstandaardisatie.nl/open-standaarden
+   /verplicht (bezocht op 09-09-2026).
+
+
+                                                29
+Forum Standaardisatie (2026c). Standaarden in behandeling. Bron-ID F03. geselecteerde passage;
+   geen integrale bronvalidatie. URL: https://www.forumstandaardisatie.nl/standaarden-
+   in-behandeling (bezocht op 09-09-2026).
+Ganesan, Balaji, Sumit Bhatia, Hima Patel, Sameep Mehta, Matheen Ahmed Pasha, Srinivasa
+   Parkala, Neeraj R Singh, Gayatri Mishra en Somashekhar Naganna (2024). xLP: Explainable
+   Link Prediction for Master Data Management. Bron-ID L31. geselecteerde passage; geen inte-
+   grale bronvalidatie Depot 2024; document noemt tevens 2020 en 2022. URL: https://arxiv
+   .org/abs/2403.09806 (bezocht op 09-09-2026).
+Geonovum (2024). NL-SBB. Standaard voor begripsbeschrijving. Bron-ID S14. geselecteerde
+   passage; geen integrale bronvalidatie. URL: https : / / docs . geostandaarden . nl / nl - sbb
+   /def-st-nl-sbb-20241010/.
+— (2025). DCAT-AP-NL. Standaard / applicatieprofiel. Bron-ID S16. geselecteerde passage;
+   geen integrale bronvalidatie. URL: https://docs.geostandaarden.nl/dcat/def-st-dcat-
+   ap-nl30-20250526/.
+Geonovum; ontwikkeld met Kadaster en VNG (2024). MIM. Standaard / metamodel. Bron-ID
+   S13. geselecteerde passage; geen integrale bronvalidatie. URL: https://docs.geostandaard
+   en.nl/mim/def-st-mim-20240613/.
+Getoor, Lise en Ashwin Machanavajjhala (2012). Entity Resolution: Theory, Practice & Open Chal-
+   lenges. Bron-ID L21. geselecteerde passage; geen integrale bronvalidatie. URL: https://vldb
+   .org/pvldb/vol5/p2018_lisegetoor_vldb2012.pdf (bezocht op 09-09-2026).
+Gieß, Anna en Andreas Hutterer (2025). The Future of Data Management: A Delimitation of Data
+   Platforms, Data Spaces, Data Meshes, and Data Fabrics. Bron-ID L24. geselecteerde passage;
+   geen integrale bronvalidatie. DOI: 10.1007/s10257-025-00707-4. URL: https://doi.org/1
+   0.1007/s10257-025-00707-4 (bezocht op 09-09-2026).
+Goedegebuure, Abel, Indika Kumara, Stefan Driessen, Willem-Jan van den Heuvel, Geert Mon-
+   sieur, Damian Andrew Tamburri en Dario Di Nucci (2023). Data Mesh: a Systematic Gray
+   Literature Review. Bron-ID L23. geselecteerde passage; geen integrale bronvalidatie Auteurs-
+   versie 2023; grijze-literatuurreview. URL: https://arxiv.org/abs/2304.01062 (bezocht op
+   09-09-2026).
+Gualo, Fernando, Ismael Caballero, Moisés Rodríguez en Mario Piattini (2023). A Data Quality
+   Model for Master Data Repositories. Tijdschriftartikel; Informatica. Bron-ID L19. geselecteerde
+   passage; geen integrale bronvalidatie. DOI: 10.15388/23-INFOR534. URL: https://doi.org
+   /10.15388/23-INFOR534.
+Guarino, Nicola en Christopher Welty (2002). Evaluating ontological decisions with OntoClean.
+   Tijdschriftartikel; Communications of the ACM. Bron-ID L10. geselecteerde passage; geen
+   integrale bronvalidatie. DOI: 10.1145/503124.503150. URL: https://doi.org/10.1145/50
+   3124.503150.
+Guerreiro, Leonardo, José Martins, Maria do Rosário Bernardo, Henrique Mamede en Frederico
+   Branco (2025). Impact of a Master Data Management Framework to Trigger Data Governance Matu-
+   rity: A Systematic Literature Review. Bron-ID L27. geselecteerde passage; geen integrale bron-
+   validatie. URL: https://doi.org/10.1109/ACCESS.2025.3627855 (bezocht op 09-09-2026).
+Guizzardi, Giancarlo (2005). Ontological foundations for structural conceptual models. Proefschrift;
+   Universiteit Twente. Bron-ID L08. geselecteerde passage; geen integrale bronvalidatie. URL:
+   https://research.utwente.nl/en/publications/ontological-foundations-for-str
+   uctural-conceptual-models/.
+Hogan, Aidan e.a. (2021). Knowledge Graphs. Peer-reviewed survey; ACM Computing Surveys.
+   Bron-ID L13. geselecteerde passage; geen integrale bronvalidatie. DOI: 10 . 1145 / 3447772.
+   URL: https://doi.org/10.1145/3447772.
+IETF / RFC Editor (2005). URI / IRI-identificatie. Technische specificaties. Bron-ID S38. geselec-
+   teerde passage; geen integrale bronvalidatie. URL: https://www.rfc-editor.org/info/rf
+   c3986/.
+
+
+                                                30
+ISO (g.d.). ISO 8601 — Date and time format. Bron-ID S52. oﬀiciële webcontrole; alleen scope. URL:
+   https://www.iso.org/iso-8601-date-and-time-format.html (bezocht op 09-09-2026).
+ISO/IEC JTC 1/SC 32 (2023a). ISO/IEC 11179-3. Internationale norm / metamodel. Bron-ID S07.
+   oﬀiciële webcontrole; alleen scope. URL: https://www.iso.org/standard/78915.html.
+— (2023b). ISO/IEC 11179-31. Internationale norm / metamodel. Bron-ID S08. oﬀiciële web-
+   controle; alleen scope. URL: https://www.iso.org/standard/78925.html.
+— (2023c). ISO/IEC 11179-33. Internationale norm / metamodel. Bron-ID S09. oﬀiciële web-
+   controle; alleen scope. URL: https://www.iso.org/standard/81725.html.
+— (2023d). ISO/IEC 11179-6. Internationale norm. Bron-ID S10. oﬀiciële webcontrole; alleen
+   scope. URL: https://www.iso.org/standard/78916.html.
+ISO/IEC JTC 1/SC 7 (2008). ISO/IEC 25012. Internationale norm / kwaliteitsmodel. Bron-ID
+   S12. oﬀiciële webcontrole; alleen scope. URL: https://www.iso.org/standard/35736.html.
+ISO/TC 184/SC 4 (2016). ISO 8000-100. Internationale norm. Bron-ID S02. oﬀiciële webcontrole;
+   alleen scope. URL: https://www.iso.org/standard/62392.html.
+— (2021). ISO 8000-110. Internationale norm. Bron-ID S03. oﬀiciële webcontrole; alleen scope.
+   URL: https://www.iso.org/standard/78501.html.
+ISO/TC 37/SC 1 (2022). ISO 704. Internationale norm / terminologische methode. Bron-ID S11.
+   oﬀiciële webcontrole; alleen scope. URL: https://www.iso.org/standard/79077.html.
+Jensen, Christian S. e.a. (1994). A Consensus Glossary of Temporal Database Concepts. Wetenschap-
+   pelijke glossary; ACM SIGMOD Record. Bron-ID L14. geselecteerde passage; geen integrale
+   bronvalidatie. URL: https://www2.cs.arizona.edu/~rts/pubs/SIGMODRecordMarch94p52
+   .pdf.
+KOOP (2025). TOOI. Kennismodel: ontologieën / thesauri / registers. Bron-ID S15. geselec-
+   teerde passage; geen integrale bronvalidatie. URL: https : / / standaarden . overheid . nl
+   /tooi/downloads.
+Lewis, Patrick e.a. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. Peer-
+   reviewed conferentiepaper; NeurIPS. Bron-ID L16. geselecteerde passage; geen integrale
+   bronvalidatie. URL: https://proceedings.neurips.cc/paper_files/paper/2020/has
+   h/6b493230205f780e1bc26945df7481e5-Abstract.html.
+Logius (2026a). Federated Service Connectivity (FSC). Technische specificatie. Bron-ID S21. gese-
+   lecteerde passage; geen integrale bronvalidatie. URL: https://gitdocumentatie.logius.n
+   l/publicatie/fsc/core/2.0.0/.
+— (2026b). NL GOV profile for CloudEvents. Standaard / notificatieprofiel. Bron-ID S22. geselec-
+   teerde passage; geen integrale bronvalidatie. URL: https://gitdocumentatie.logius.nl
+   /publicatie/notificatieservices/cloudevents-nl/1.1/.
+— (z.d.[a]). BOMOS. Governanceframework / best practices. Bron-ID S23. geselecteerde pas-
+   sage; geen integrale bronvalidatie. URL: https://gitdocumentatie.logius.nl/publicati
+   e/bomos/fundament/3.0.2/.
+— (z.d.[b]). Digikoppeling. Standaardenfamilie / koppelvlakspecificaties. Bron-ID S20. geselec-
+   teerde passage; geen integrale bronvalidatie. URL: https://gitdocumentatie.logius.nl
+   /publicatie/dk/restapi/.
+— (z.d.[c]). NLGov REST API Design Rules. Standaard / API-specificatie. Bron-ID S18. geselec-
+   teerde passage; geen integrale bronvalidatie. URL: https://gitdocumentatie.logius.nl
+   /publicatie/api/adr/2.2.0/.
+Loshin, David (2008). Master Data Management. Bron-ID B01. geselecteerde passage; geen inte-
+   grale bronvalidatie Alleen hoofdstuk 1 geraadpleegd. URL: https://shop.elsevier.com/b
+   ooks/master-data-management/loshin/978-0-12-374225-4 (bezocht op 09-09-2026).
+Menestrina, David, Steven Euijong Whang en Hector Garcia-Molina (2010). Evaluating Entity
+   Resolution Results. Bron-ID L22. geselecteerde passage; geen integrale bronvalidatie. URL: ht
+   tps://www.vldb.org/pvldb/vol3/R18.pdf (bezocht op 09-09-2026).
+
+
+
+
+                                                31
+Nationaal Archief (z.d.). MDTO. Norm / metagegevens- en uitwisselspecificatie. Bron-ID S24.
+    geselecteerde passage; geen integrale bronvalidatie. URL: https://www.nationaalarchief
+    .nl/archiveren/mdto.
+NEN; commissie 351240 (2022). NEN 3610. Nederlandse norm / basismodel. Bron-ID S17. oﬀi-
+    ciële overzichts-/cataloguspagina; beperkte inhoudelijke dekking. URL: https://www.nen.n
+    l/nen-3610-2022-nl-296137.
+Object Management Group (OMG) (2025). Data Product Ontology (DPROD). Ontologie / spe-
+    cificatie. Bron-ID S51. geselecteerde passage; geen integrale bronvalidatie. URL: https://ww
+    w.omg.org/spec/DPROD/1.0/Beta1/PDF.
+Onderzoeksgemeenschap rond Guizzardi en mede-auteurs (z.d.). UFO. Foundational ontology.
+    Bron-ID S40. geselecteerde passage; geen integrale bronvalidatie. URL: https://ontouml.o
+    rg/ufo/.
+OntoUML-onderzoeksgemeenschap (z.d.). OntoUML. Modelleertaal / metamodel; onder-
+    steund door methoden. Bron-ID S41. geselecteerde passage; geen integrale bronvalidatie.
+    URL: https://ontouml.org/ufo/.
+OpenAPI Initiative / Linux Foundation (z.d.). OpenAPI Specification. Interfacespecificatie. Bron-
+    ID S19. geselecteerde passage; geen integrale bronvalidatie. URL: https://spec.openapis
+    .org/oas/v3.1.1.html.
+Otto, Boris, Kai M. Hüner en Hubert Österle (2012). Toward a functional reference model for
+    master data quality management. Peer-reviewed tijdschriftartikel; Information Systems
+    and e-Business Management. Bron-ID L05. abstract; geen volledige artikelanalyse. DOI:
+    10.1007/s10257-011-0178-0. URL: https://doi.org/10.1007/s10257-011-0178-0.
+Otto, Boris en Martin H. Ofner (2011). Strategic Business Requirements for Master Data Management
+    Systems. Bron-ID L20. geselecteerde passage; geen integrale bronvalidatie. URL: https://ai
+    sel.aisnet.org/amcis2011_submissions/108/ (bezocht op 09-09-2026).
+Papadakis, George, Dimitrios Skoutas, Emmanouil Thanos en Themis Palpanas (2020). A Survey
+    of Blocking and Filtering Techniques for Entity Resolution. Bron-ID L30. geselecteerde passage;
+    geen integrale bronvalidatie Auteursversie 2020; eerste depot 2019; geen voorlopige DOI
+    overgenomen. URL: https://arxiv.org/abs/1905.06167 (bezocht op 09-09-2026).
+Realisatie IBDS / betrokken overheden (2025). Federatief Datastelsel (FDS). Afsprakenstelsel / ar-
+    chitectuurcontext. Bron-ID S27. oﬀiciële overzichts-/cataloguspagina; beperkte inhoudelijke
+    dekking. URL: https://federatief.datastelsel.nl/afspraken/afwegingskader/v1/.
+Rethlefsen, Melissa L., Shona Kirtley, Siw Waffenschmidt, Ana Patricia Ayala, David Moher,
+    Matthew J. Page, Jonathan B. Koffel en PRISMA-S Group (2021). PRISMA-S: an extension to
+    the PRISMA statement for reporting literature searches in systematic reviews. Bron-ID M02. gese-
+    lecteerde passage; geen integrale bronvalidatie. DOI: 10.5195/jmla.2021.962. URL: https:
+    //doi.org/10.5195/jmla.2021.962 (bezocht op 09-09-2026).
+Rijksoverheid / BZK en betrokken ministers (2003). Twaalf eisen basisregistraties. Beleidskader;
+    geen technische standaard. Bron-ID S25. geselecteerde passage; geen integrale bronvalidatie.
+    URL: https://zoek.officielebekendmakingen.nl/kst-26387-18.html.
+Tricco, Andrea C., Erin Lillie, Wasifa Zarin e.a. (2018). PRISMA Extension for Scoping Reviews
+    (PRISMA-ScR): Checklist and Explanation. Bron-ID M01. geselecteerde passage; geen inte-
+    grale bronvalidatie. URL: https://doi.org/10.7326/M18-0850 (bezocht op 09-09-2026).
+W3C (2008). Cool URIs for the Semantic Web. Best practice / Interest Group Note. Bron-ID S39.
+    geselecteerde passage; geen integrale bronvalidatie. URL: https://www.w3.org/TR/coolur
+    is/.
+— (2009). SKOS. Standaard / vocabulaire. Bron-ID S31. geselecteerde passage; geen integrale
+    bronvalidatie. URL: https://www.w3.org/TR/skos-reference/.
+— (2012). OWL. Standaard / ontologietaal. Bron-ID S30. geselecteerde passage; geen integrale
+    bronvalidatie. URL: https://www.w3.org/TR/owl2-overview/.
+
+
+
+
+                                                32
+W3C (2013a). PROV-O. Standaard / ontologie. Bron-ID S33. geselecteerde passage; geen inte-
+   grale bronvalidatie. URL: https://www.w3.org/TR/prov-o/.
+— (2013b). SPARQL. Standaardenfamilie / querytaal. Bron-ID S36. geselecteerde passage; geen
+   integrale bronvalidatie. URL: https://www.w3.org/TR/sparql11-overview/.
+— (2014a). RDF. Standaard / abstract datamodel. Bron-ID S28. geselecteerde passage; geen
+   integrale bronvalidatie. URL: https://www.w3.org/TR/rdf11-concepts/.
+— (2014b). RDFS. Standaard / vocabulaire. Bron-ID S29. geselecteerde passage; geen integrale
+   bronvalidatie. URL: https://www.w3.org/TR/rdf-schema/.
+— (2016). DQV. Vocabulaire / Working Group Note. Bron-ID S34. geselecteerde passage; geen
+   integrale bronvalidatie. URL: https://www.w3.org/TR/vocab-dqv/.
+— (2017). SHACL. Standaard / constrainttaal. Bron-ID S32. geselecteerde passage; geen inte-
+   grale bronvalidatie. URL: https://www.w3.org/TR/shacl/.
+— (2020). JSON-LD. Standaard / serialisatiespecificatie. Bron-ID S35. geselecteerde passage;
+   geen integrale bronvalidatie. URL: https://www.w3.org/TR/json-ld11/.
+— (2024). DCAT. Standaard / vocabulaire. Bron-ID S47. geselecteerde passage; geen integrale
+   bronvalidatie. URL: https://www.w3.org/TR/2024/REC-vocab-dcat-3-20240822/.
+W3C / OGC (2017). OWL-Time. Standaard / ontologie. Bron-ID S37. geselecteerde passage; geen
+   integrale bronvalidatie. URL: https://www.w3.org/TR/2017/REC-owl-time-20171019/.
+Wang, Richard Y. en Diane M. Strong (1996). Beyond Accuracy: What Data Quality Means to Data
+   Consumers. Peer-reviewed tijdschriftartikel; JMIS. Bron-ID L15. abstract; geen volledige arti-
+   kelanalyse. URL: https://www.jmis-web.org/articles/1002.
+Wang, Xiaoyuan, Xingzhi Sun, Feng Cao, Li Ma, Nick Kanellos, Kang Zhang, Yue Pan en Yong
+   Yu (2009). SMDM: Enhancing Enterprise-Wide Master Data Management Using Semantic Web
+   Technologies. Conferentiedemonstratiepaper; Proceedings of the VLDB Endowment. Bron-ID
+   L18. geselecteerde passage; geen integrale bronvalidatie. URL: https://www.vldb.org/pvl
+   db/vol2/vldb09-1011.pdf.
+Wilkinson, Mark D. e.a. (2016). The FAIR Guiding Principles for scientific data management and
+   stewardship. Peer-reviewed artikel; Scientific Data. Bron-ID L11. geselecteerde passage; geen
+   integrale bronvalidatie. DOI: 10.1038/sdata.2016.18. URL: https://doi.org/10.1038/sd
+   ata.2016.18.
+
+
+
+
+                                               33
+

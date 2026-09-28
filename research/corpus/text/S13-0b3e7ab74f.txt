@@ -1,0 +1,333 @@
+notitie
+FORUM STANDAARDISATIE 9 JUNI 2021
+Agendapunt 3D – Forumadvies MIM
+Nummer: FS-20210609.3D
+
+Aan:        Forum Standaardisatie
+
+Van:        Stuurgroep Open Standaarden
+
+Datum:      25 mei 2021
+
+Versie:     1.1
+
+Bijlagen:   Expertadvies MIM
+            C ommentaar op de openbare consultatie MIM
+
+
+1. Advies
+Het Forum Standaardisatie wordt gevraagd om in te stemmen met onderstaand advies.
+
+Het Forum Standaardisatie adviseert het Overheidsbreed Beleidsoverleg Digitale
+Overheid (OBDO) om:
+
+1. MIM op te nemen op de lijst aanbevolen standaarden.
+2. Ten aanzien van de adoptie van MIM de oproepen te doen die beschreven staan in paragraaf
+   2.5 hieronder.
+
+
+1.1 Aanleiding en achtergrond
+Dit document is het forumadvies voor de standaard MIM gericht aan het OBDO en Forum
+Standaardisatie.
+
+MIM (Metamodel voor Informatiemodellering) is een standaard die dient als gemeenschappelijk
+vertrekpunt voor het opstellen van conceptuele en logische informatiemodellen. Toepassing van
+MIM maakt informatiemodellen en de daarop gebaseerde standaarden voor gegevensuitwisseling
+meer compatibel. MIM voorziet in duidelijke afspraken over het vastleggen van
+gegevensspecificaties maar biedt ook ruimte aan de verschillende niveaus van modellering.
+
+
+1.2 Gevolgd proces
+Geonovum heeft MIM in oktober 2018 aangemeld voor plaatsing op de ‘pas-toe-of-leg-uit’ lijst. Op
+13 december 2018 besloot Forum Standaardisatie de standaard in procedure te nemen en op 24
+januari 2019 kwam de expertgroep bijeen. Uit het expertonderzoek kwam naar voren dat MIM nog
+niet helemaal voldeed aan de criteria voor plaatsing op de ‘pas-toe-of-leg-uit’ lijst. Bureau Forum
+Standaardisatie besloot in overleg met Geonovum om de procedure aan te houden en Geonovum
+in de gelegenheid te stellen deze knelpunten op te lossen.
+
+In november 2020 gaf Geonovum aan dat de procedure hervat kon worden, met verzoek tot
+plaatsing van MIM op de lijst aanbevolen standaarden in plaats van de ‘pas-toe-of-leg-uit’ lijst. De
+toetsingsprocedure is toen hervat met een nieuwe expertbijeenkomst. Het expertadvies werd van
+8 april tot en met 6 mei 2021 aangeboden ter openbare consultatie op internetconsultatie.nl. In de
+
+
+
+                                                 1
+openbare consultatie kwam een tweetal reacties terug. Op basis van het expertadvies en de
+reacties uit de openbare consultatie is het Forumadvies samengesteld.
+
+
+1.3 Consequenties en vervolgstappen
+Het Forum Standaardisatie brengt op basis van dit document een advies uit aan het
+Overheidsbreed Beleidsoverleg Digitale Overheid. Het Overheidsbreed Beleidsoverleg Digitale
+Overheid bepaalt op basis van dit advies of MIM op de lijst aanbevolen standaarden wordt
+opgenomen.
+
+
+2. Toelichting
+2.1 Over de standaard
+MIM (Metamodel voor Informatiemodellering) is een standaard die een gemeenschappelijk
+vertrekpunt biedt voor het opstellen van conceptuele en logische (zie tekstkader)
+informatiemodellen, zodat informatiemodellen en de daarop gebaseerde standaarden voor
+gegevensuitwisseling meer compatibel worden. MIM voorziet in afspraken over het vastleggen van
+gegevensspecificaties, maar biedt ook ruimte aan de verschillende niveaus van modellering. MIM is
+niet van toepassing op technische informatiemodellen.
+
+Conceptueel informatiemodel: modellering van de werkelijkheid binnen het beschouwde
+domein, v.w.b. informatie daarvan, onafhankelijk van ontwerp van en implementatie in systemen.
+Het geeft een zo getrouw mogelijke beschrijving van die werkelijkheid waarbij de gebruikte termen
+in natuurlijke taal geformuleerd worden. Een dergelijk model definieert het ‘wat’: welke
+‘concepten’ (‘dingen’) worden onderscheiden (in de beschouwde werkelijkheid), wat betekenen zij,
+hoe verhouden ze zich tot elkaar en welke informatie (eigenschappen) is daarvan relevant. Het
+dient als taal waarmee domeinexperts kunnen communiceren met informatieanalisten en verschaft
+een eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie. Een
+conceptueel informatiemodel wordt dan ook opgesteld voor gebruik door mensen, zodat ‘de
+business’ en de IC T-specialisten elkaar gaan begrijpen. (ontleend aan: Model Driven Architecture
+(MDA) Guide; Object Management Group, revisie 2.0, 1-6-2014)
+
+Logisch Informatiemodel: Beschrijft hoe de, in het conceptuele model onderscheiden,
+concepten gebruikt worden bij de interactie tussen systemen en hun gebruikers en tussen
+systemen onderling. Anders gezegd, een model van de representatie van informatie over de
+werkelijkheid in digitale registraties en in de uitwisseling daartussen. Het gaat hierbij, in
+tegenstelling tot een conceptueel model, dus veel meer om het ‘hoe’. Het slaat de brug tussen
+werkelijkheid en systemen maar beschrijft nog niet de implementatie in die systemen. Een
+dergelijk model wordt in een formele taal beschreven en wordt waar mogelijk gegenereerd vanuit
+het conceptueel model. Het logisch model wordt opgesteld voor IC T- interoperabiliteit, voor
+gebruik door met name de ontwerpers, bouwers en beheerders van IC T- voorzieningen. (ontleend
+aan: Model Driven Architecture (MDA) Guide; Object Management Group, revisie 2.0, 1-6-2014)
+
+Bij een gezamenlijke toepassing van MIM worden informatiemodellen beter vergelijkbaar.
+Aanvullend wordt het mogelijk om op basis daarvan uitwisselstandaarden eenduidiger vast te
+stellen en zo gegevensuitwisseling te bevorderen. Beschrijving van het metamodel is een
+randvoorwaarde indien er sprake is van een stelsel van samenhangende informatiemodellen. De
+beschrijving is noodzakelijk om efficiënt gegevens uit te kunnen wisselen over ketens en
+organisaties heen.
+
+Een metamodel is een model dat wordt gehanteerd bij het modelleren van modellen. Het definieert
+een verzameling van modelleerconstructies in de vorm van bouwstenen oftewel modelelementen,
+met bijbehorende betekenis en bijbehorende afspraken omtrent hoe deze toe te passen. Een
+informatiemodel kan vervolgens hiermee gemaakt worden. Het metamodel is daarmee de
+modelleertaal waarin een informatiemodel is uitgedrukt. Deze metataal beschrijft als het ware de
+grammatica en de syntax van de modelleertaal, en geeft daarmee kaders aan deze
+informatiemodellen. Het opstellen van het informatiemodel en de keuze van modelelementen is
+geheel aan de opsteller en domeindeskundigen zelf. Verder is het mogelijk om aanvullende
+modelelementen te specificeren in een eigen extensie.
+
+
+
+
+                                               2
+2.2 Betrokkenen en proces
+Geonovum heeft MIM op 25 oktober 2018 aanvankelijk aangemeld voor plaatsing op de ‘pas-toe-
+of-leg-uit’ lijst.
+
+Voor het opstellen van het Forumadvies is de volgende procedure doorlopen:
+
+1.   De procesbegeleiders en vertegenwoordiger Bureau Forum Standaardisatie hebben op 13
+     november 2018 een intakegesprek gevoerd met de indiener. Tijdens de intake is de standaard
+     getoetst op criteria voor inbehandelname en is een eerste inschatting gemaakt van de
+     kansrijkheid van de procedure.
+2.   Op basis van de intake heeft het Forum Standaardisatie op 13 december 2018 besloten de
+     aanmelding in procedure te nemen. Hierop volgend is een expertgroep samengesteld en een
+     voorzitter aangesteld.
+3.   De leden van de expertgroep hebben een voorbereidingsdossier gekregen dat is samengesteld
+     met informatie uit de aanmelding en het intake onderzoek. Voorafgaand aan de
+     expertbijeenkomst heeft de expertgroep dit voorbereidingsdossier doorgenomen en
+     aandachtspunten geïdentificeerd.
+4.   De expertgroep is op 24 januari 2019 bijeengekomen om de bevindingen in het algemeen en
+     de geïdentificeerde aandachtspunten in het bijzonder te bespreken. Tijdens deze bijeenkomst
+     zijn ook het toepassings- en werkingsgebied vastgesteld.
+5.   Uit het expertonderzoek bleek dat MIM niet voldeed aan de criteria voor plaatsing op de ‘pas-
+     toe-of-leg-uit’ lijst. Het beheerproces was onvoldoende georganiseerd en gedocumenteerd, en
+     er de financiering van het beheer waren onvoldoende geborgd. Ook waren er technische
+     aandachtspunten zoals de geschiktheid van MIM voor linked data toepassingen. Na de
+     expertbijeenkomst is daarom in overleg met de indiener besloten om de toetsingsprocedure te
+     onderbreken.
+6.   In november 2020 gaf Geonovum aan dat de procedure hervat kon worden, echter nu met
+     verzoek tot plaatsing van MIM op de lijst aanbevolen standaarden. Er is geen nieuw
+     intakeonderzoek gedaan omdat de aandachtsgebieden duidelijk waren uit het vorige
+     intakeadvies en expertadvies. Er heeft wel een bespreking plaatsgevonden met de indieners
+     over de aandachtspunten en aanbevelingen van het vorige expertadvies.
+7.   De expertgroep van 2019 en een aantal nieuwe experts zijn uitgenodigd voor een nieuwe
+     expertbijeenkomst. De leden van de expertgroep hebben opnieuw een voorbereidingsdossier
+     gekregen dat is samengesteld met informatie uit de vorige procedure. Voorafgaand aan de
+     expertbijeenkomst heeft de expertgroep dit voorbereidingsdossier doorgenomen en
+     aandachtspunten geïdentificeerd.
+8.   De nieuwe expertgroep is op 2 maart 2021 bijeengekomen om de bevindingen in het
+     algemeen en de geïdentificeerde aandachtspunten in het bijzonder te bespreken. Tijdens deze
+     bijeenkomst zijn ook het toepassings- en werkingsgebied vastgesteld.
+     De volgende experts waren daarbij aanwezig:
+     -    Jos van der Arend (Kennisnet)
+     -    Mick Baggen (Rijkswaterstaat)
+     -    Lennart van Bergen (Kadaster)
+     -    Johan Boer (VNG)
+     -    Koos Boersma (Informatiehuis Water)
+     -    Michel Böhms (TNO)
+     -    Rob van Dort (Kamer van Koophandel)
+     -    Saskia van der Elst (Nationale Politie)
+     -    Joeri van Es (ArchiXL)
+     -    Jan van Grinsven (BKWI)
+     -    Paul Janssen (Geonovum)
+     -    Elly Kampert (Zorginstituut Nederland)
+     -    Ruud Kathmann (Waarderingskamer)
+     -    Merijn Koster (Belastingdienst)
+     -    Dick Krijtenburg (Geonovum, indiener)
+     -    Arjan Loeffen (Armatiek)
+     -    Robert Melskens (VNG Realisatie)
+     -    Nico Plat (Rijkswaterstaat)
+     -    Fabien Reniers (Zorginstituut Nederland)
+
+
+                                                3
+    -    Wijnand van Riel (TNO)
+    -    Hans Sinnige (Stichting Rinis)
+    -    Tonkie Zwaan (BKWI)
+    Als onafhankelijk voorzitter is opgetreden Diana Koppenol, directeur bij Lost Lemon. Jasper
+    Muskiet consultant en Arjen Brienen senior consultant, hebben de procedure in opdracht van
+    het Bureau Forum Standaardisatie begeleid. Redouan Ahaloui en Han Zuidweg van het Bureau
+    Forum Standaardisatie waren als toehoorders bij de expertbijeenkomst aanwezig.
+9. Het expertadvies is van 7 april tot en met 5 mei 2021 ter openbare consultatie aangeboden
+    op internetconsultatie.nl. In deze openbare consultatie werden twee reacties ontvangen.
+10. Dit Forumadvies is samengesteld op basis van de resultaten van het expertadvies en de
+    resultaten van de openbare consultatie.
+
+
+2.3 Toetsing criteria
+Open standaardisatieproces
+De ontwikkeling en het beheer van MIM ligt bij Geonovum en is op een open, onafhankelijke,
+toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze ingericht. Geonovum vraagt het
+predicaat ‘uitstekend beheer’ voor MIM. De expertgroep heeft extra aandacht gevraagd voor de
+vindbaarheid van de documentatie op de website en het inzichtelijk maken van de MIM
+community. Geonovum is hieraan tegemoet gekomen.
+
+Toegevoegde waarde
+De expertgroep concludeert dat MIM toegevoegde waarde heeft als aanbevolen standaard, omdat
+informatiemodellen en de daarop gebaseerde standaarden voor gegevensuitwisseling met
+toepassing van MIM meer compatibel worden.
+
+De experts constateren dat er een aantal concurrerende standaarden bestaat voor MIM, te weten:
+
+   •   NEN 3610 voor het Geo-domein; deze standaard is onderdeel van de Geostandaarden op
+       de ‘pas toe of leg uit’ lijst.
+   •   NTA 8035:2020, NEN 2660-1, C EN TC 442/WG4/TG3 SML en ISO 12006-3 voor het domein
+       van de bebouwde omgeving. Van deze standaarden is een deel nog in ontwikkeling.
+
+Sommige experts stellen dat plaatsing van MIM op de lijst open standaarden van het Forum
+Standaardisatie verwarring kan opleveren voor organisaties waarvoor NEN 3610 en NEN 2660-1
+relevant zijn. Volgens een aantal experts zijn deze standaarden bovendien ook breder toepasbaar
+dan het Geo-domein en de bebouwde omgeving.
+
+De experts concluderen dat MIM van deze alternatieven wel de meest breed inzetbare standaard
+voor metamodellering is, en dat plaatsing van MIM op de lijst aanbevolen standaarden geen
+verplichting tot gevolg heeft. Organisaties kunnen ervoor kiezen om andere standaarden zoals NEN
+3610 en NEN 2660-1 te gebruiken als deze meer van toepassing blijken.
+
+Wel doen de experts een dringende oproep NEN en Geonovum om samen te werken aan de
+compatibiliteit van NEN 3610, NEN 2660-1 en MIM, en te onderzoeken hoe een fundamentele (top-
+level) ontologie kan worden ingepast in MIM. NEN en Geonovum doen reeds inspanningen om NEN
+3610, NEN 2660-1 en MIM op elkaar af te stemmen. Zo zijn zowel NEN 3610 als MIM in 2020 in
+overeenstemming met NTA 8035 en NEN 2660-1 aangepast voor linked data toepassingen.
+
+Draagvlak
+MIM wordt al door verschillende organisaties toegepast. Het expertonderzoek liet aantoonbaar
+draagvlak zien voor opname van de standaard MIM op de lijst aanbevolen standaarden en dit
+draagvlak is groeiende. De experts benadrukken het belang om de samenhang en compatibiliteit
+te organiseren tussen de verschillende standaarden.
+
+Opname bevordert adoptie
+De adoptie van de standaard MIM is groeiende en breidt zich uit over meerdere domeinen.
+Opname op de lijst aanbevolen standaarden helpt deze adoptie verder. De standaard kent een
+aantal concurrerende standaarden op specifieke domeinen, waardoor een aanbevolen status
+ruimte geeft voor partijen om hier ook andere keuzes in te maken.
+
+
+
+
+                                               4
+2.4 Conclusies van de openbare consultatie
+Tijdens de openbare consultatie zijn er twee reacties binnengekomen. Onze reactie op de
+consultaties hebben we schuingedrukt toegevoegd.
+
+Dienst Uitvoering Onderwijs (DUO) geeft aan dat de toelichting op een conceptueel en logisch
+model in het expertadvies juist is, maar de voorgeschreven modelelementen, metadata en
+technieken door MIM gelijk zijn. Hiermee zou MIM verwarring creëren en alleen toepasbaar zijn
+voor logische modellen.
+
+Het onderscheid tussen logische en conceptuele informatiemodellen is uitgebreid tijdens de
+expertbijeenkomst aan bod gekomen. Vanuit de literatuur is er een duidelijk onderscheid, in de
+praktijk echter geven deze twee typen informatiemodellen vaak verwarring. Voor wat betreft MIM
+is dit onderscheid minder van belang omdat MIM van toepassing is op beide modellen. Wel is de
+uitsluiting van technische informatiemodellen (zoals ERD’s) van belang, aangezien MIM daar geen
+uitspraken over doet.
+
+Rijkswaterstaat (RWS) wijst op de overlap tussen MIM en andere concurrerende standaarden:
+“De NTA 8035:2020, uitgewerkt in NEN 2660-1 (momenteel in ontwikkeling, nu in publieke
+consultatie) overlapt volledig met de scope van MIM, maar dan vanuit een andere benadering. De
+NTA 8035 en NEN 2660 zijn specifiek ontworpen om de uitwisseling/deling tussen partijen (OG en
+ON) in de Gebouwde Omgeving (GWW, B&U) te bevorderen. Voor NEN 2660 is het voornemen om
+deze in 2021 nog aan te melden bij het Forum Standaardisatie, waarbij de situatie kan ontstaan
+dat er twee metamodelstandaarden die elkaar overlappen in omloop komen.”
+
+RWS dringt er daarom op aan om MIM nog niet op de lijst aanbevolen standaarden te plaatsen
+totdat de compatibiliteit met NEN 2660 gewaarborgd is. Het is de inschatting van RWS (ook na
+vooroverleg met de opstellers van het MIM) dat de gevraagde compatibiliteit kan worden
+gerealiseerd, maar dat dit wel tijd en inzet zal vragen (RWS voorziet een doorlooptijd ongeveer 3
+maanden).
+
+In de expertbijeenkomst werd dit bezwaar reeds besproken met de experts. De experts herkennen
+het risico van verschillende standaarden die overlappen, maar stellen vast dat MIM een domein
+overstijgende standaard is die al breed gebruikt wordt. NEN-2660-1 daarentegen is nog in
+ontwikkeling en wordt in eerste instantie van toepassing in het domein van de bebouwde
+omgeving. De experts vinden het daarom niet passend om de plaatsing van MIM op de lijst
+aanbevolen standaarden voorwaardelijk te maken aan de compatibiliteit met NEN-2660-1.
+
+Gezien de lopende inspanningen om de compatibiliteit van NEN 3610, NEN 2660-1 en MIM te
+waarborgen, vinden de experts het voldoende om een dringende oproep te doen om de
+standaarden op elkaar af te stemmen.
+
+
+2.5 Aanvullende adviezen van de experts
+De expertgroep adviseert het Forum Standaardisatie en OBDO om bij de opname op de lijst
+aanbevolen standaarden de volgende oproepen te doen ten aanzien van de adoptie van de
+standaard MIM:
+
+    -   Aan Geonovum en NEN een dringende oproep om gezamenlijk de compatibiliteit tussen
+        MIM, NEN 3610 en NEN 2660-1 te waarborgen en te onderzoeken hoe een fundamentele
+        (top-level) ontologie kan worden ingepast in MIM.
+    -   Aan de beheerorganisatie Geonovum om de vindbaarheid van de documentatie (met name
+        het beheerplan) op de website te verbeteren. (Gedaan: Geonovum heeft ondertussen de
+        website hiervoor aangepast met het kopje ‘beheer MIM’.)
+    -   Aan de beheeroganisatie Geonovum om beter inzichtelijk te maken welke partijen
+        onderdeel zijn van de MIM-community. (Gedaan: Geonovum heeft ondertussen de MIM
+        community een duidelijkere plek gegeven in de documentatie.)
+    -   Aan de beheerorganisatie Geonovum om in het beheerplan op te nemen dat in de MIM
+        community een evenredige vertegenwoordiging is van stakeholders. (Gedaan: Geonovum
+        heeft ondertussen de MIM community een duidelijkere plek gegeven in de documentatie.)
+    -   Aan de beheerorganisatie Geonovum om MIM-profielen laagdrempelig beschikbaar te
+        maken. De beheerorganisatie geeft aan dit graag te organiseren. (Gedaan: Geonovum
+        heeft ondertussen de profielen beschikbaar gesteld op de website (Implementatie) voor
+        UML. Daarnaast is de beschrijving voor Linked Data in het MIM-document opgenomen.)
+
+
+
+
+                                                5
+   -   Aan de beheerorganisatie Geonovum om de passage in het beheerplan over de basis van
+       MIM (Geo-standaarden) aan te passen zodat beter uitgelegd wordt dat MIM breder dan op
+       Geo-standaarden kan worden toegepast.
+
+
+3. Referenties
+Het Forum Standaardisatie wordt gevraagd om
+
+  [1] Intakeadvies MIM
+
+  [2] Expertadvies MIM 2021
+
+  [3] Reacties uit de consultatieronde MIM
+
+
+
+
+                                              6
+

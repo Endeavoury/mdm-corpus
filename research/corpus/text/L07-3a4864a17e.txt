@@ -1,0 +1,291 @@
+
+
+	
+
+	
+
+	Data governance: A conceptual framework, structured review, and research agenda | Department of Information Systems
+
+	
+
+	
+
+    
+
+    
+
+        
+
+To the content
+
+To the main navigation
+
+To the target group navigation
+
+To the sub-navigation
+
+    
+
+                
+
+        
+
+        
+
+                                                                        
+
+                                                
+
+                                                
+
+    
+
+                    
+
+                
+
+                            
+
+                
+
+            
+
+    
+
+                            
+
+Search
+
+                    
+
+Student Affairs
+
+Prospective Students
+
+Research
+
+The Department
+
+Campus
+
+Career
+
+    
+
+        
+
+School of Business and Economics
+
+ISSC - Student Council
+
+Women+ in IS
+
+ERCIS
+
+        
+
+en
+
+de
+
+    
+
+            
+
+            
+
+Home 
+Research 
+Publications 
+Data governance: A conceptual framework, structured review, and research agenda            
+
+                    
+
+                        
+
+        
+     
+
+        
+Data governance: A conceptual framework, structured review, and research agenda
+
+Abraham R; Schneider J; vom Brocke J
+
+Abstract
+
+Data governance refers to the exercise of authority and control over the management of data. The purpose of data governance is to increase the value of data and minimize data-related cost and risk. Despite data governance gaining in importance in recent years, a holistic view on data governance, which could guide both practitioners and researchers, is missing. In this review paper, we aim to close this gap and develop a conceptual framework for data governance, synthesize the literature, and provide a research agenda. We base our work on a structured literature review including 145 research papers and practitioner publications published during 2001-2019. We identify the major building blocks of data governance and decompose them along six dimensions. The paper supports future research on data governance by identifying five research areas and displaying a total of 15 research questions. Furthermore, the conceptual framework provides an overview of antecedents, scoping parameters, and governance mechanisms to assist practitioners in approaching data governance in a structured manner.
+
+Keywords
+
+Data governance; information governance; conceptual framework; literature review; research agenda
+
+Cite as
+        Abraham, R., Schneider, J., & vom Brocke, J. (2019). Data governance: A conceptual framework, structured review, and research agenda. International Journal of Information Management, 49, 424–438.        
+
+Details
+
+            
+Publication type
+
+Research article (journal)
+
+            
+
+Peer reviewed
+
+Yes
+
+                        
+
+Publication status
+
+Published
+
+                        
+
+Year
+
+2019
+
+            
+
+                        
+
+Journal
+
+International Journal of Information Management
+
+                        
+
+Volume
+
+49
+
+                        
+
+                        
+
+                        
+
+Start page
+
+424
+
+                        
+
+End page
+
+438
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+ISSN
+
+0268-4012
+
+                        
+
+                        
+DOI
+
+https://doi.org/10.1016/j.ijinfomgt.2019.07.008
+
+                        
+
+Full text
+
+https://www.sciencedirect.com/
+
+                        
+
+    
+
+    
+
+        
+
+	
+
+        
+        User login    
+
+                
+
+  Username *
+
+Please provide your WWU account
+
+  Password *
+
+Please provide your WWU password
+
+    
+
+                    
+
+            
+
+            
+
+Contact
+
+                        Department of Information Systems
+
+                                                Leonardo-Campus 3                                                
+
+                        48149                         Münster
+                         Germany                                                                                                                                            
+
+                        
+Youtube                        
+Facebook                                                
+Instagram                        
+LinkedIn                    
+
+            
+
+            
+
+                                    
+
+                                                    living.knowledge
+
+                            
+
+        
+
+        
+
+                
+Index
+
+Sitemap
+
+Contact
+
+Login
+
+Legal Notice
+
+Privacy Statement
+
+        
+
+            
+© 2026                                    Department of Information Systems                                
+
+    
+
+  
+

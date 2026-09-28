@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- © ArchiXL -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bezig met het verifiëren van de verbinding</title>
+<style>
+  :root{--bg:#f1f5f9;--card:#ffffff;--muted:#6b7280;--accent:#0ea5a4}
+  html,body{height:100;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:#0f172a}
+  body{background:var(--bg);display:flex;align-items:center;justify-content:center;padding:32px}
+  .card{width:100;max-width:640px;background:var(--card);border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.08);padding:40px;text-align:center}
+  .brand{display:block;margin-bottom:18px;color:var(--muted);font-weight:600;font-size:14px}
+  h1{margin:0 0 8px;font-size:22px;color:#0b1220}
+  p.lead{margin:0 0 18px;color:var(--muted);line-height:1.4}
+  /* progress indicator (three-dot style similar to Cloudflare) */
+  #progressBar{width:96px;height:96px;border-radius:50;display:inline-flex;align-items:center;justify-content:center;margin:18px auto;background:transparent}
+  #progressBar .dot{width:10px;height:10px;border-radius:50;background:var(--muted);display:inline-block;margin:0 6px;opacity:0.25}
+  #progressBar.animate .dot{animation:cf-dots 1s infinite ease-in-out}
+  #progressBar.animate .dot:nth-child(1){animation-delay:0s}
+  #progressBar.animate .dot:nth-child(2){animation-delay:0.15s}
+  #progressBar.animate .dot:nth-child(3){animation-delay:0.3s}
+  @keyframes cf-dots{0%,80%,100%{opacity:0.25;transform:translateY(0)}40%{opacity:1;transform:translateY(-6px)}}
+  .status{font-size:16px;margin-top:14px;font-weight:600}
+  .muted{color:var(--muted);font-size:13px;margin-top:6px}
+  footer{color:var(--muted);font-size:13px}
+  iframe{display:none}
+  /* done state */
+  #progressBar.done{background:transparent}
+  #progressBar.done{color:seagreen}
+  #progressBar.error{background:transparent}
+  #progressBar.error{color:#ef4444}
+</style>
+<form method="post" target="post" action="/_challenge" name="challenge">
+  <input type="hidden" name="ip" value="188.91.186.3">
+  <input type="hidden" name="ts" value="1788891719">
+  <input type="hidden" name="diff" value="4">
+  <input type="hidden" name="tries" value="">
+</form>
+<main class="card" role="main" aria-live="polite">
+  <span class="brand">www.noraonline.nl</span>
+  <h1 id="progressText">Bezig met het verifiëren van de verbinding</h1>
+  <p class="lead" id="progressDesc">Even een korte controle uitvoeren om te bevestigen dat uw verbinding veilig is.</p>
+  <div id="progressBar" class="animate"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+  <div class="status" id="progressSmall"></div>
+  <div class="muted">Dit duurt meestal maar enkele seconden. Blijf op deze pagina.</div>
+</main>
+  <iframe srcdoc="" src="about:blank" name="post"></iframe>
+<script>
+  "use strict";
+
+  async function challenge(diff, ip, ts) {
+    let te = new TextEncoder;
+    let tries = 0;
+    progressText.innerText = "Bezig met het verifiëren van de verbinding";
+    // ensure dots are present and animation state is active
+    if (!progressBar.querySelector('.dot')) progressBar.innerHTML = '<span class="dot"></span><span class="dot"></span><span class="dot"></span>';
+    progressBar.classList.remove('done','error');
+    progressBar.classList.add('animate');
+    for (; tries < 10_000_000; tries++) {
+      let hash = await crypto.subtle.digest("SHA-256", te.encode([ip,location.hostname,ts,tries].join(";")));
+      let y = new Uint8Array(hash);
+      let i = 0;
+      while(i < diff/2) {
+        if (y[i]>0x0F) break;
+        if ((i*2)+1 >= diff) return tries;
+        if (y[i++] > 0) break;
+        if ((i*2) >= diff) return tries;
+      }
+    }
+  }
+
+  async function startChallenge(form) {
+    if (!('subtle' in window.crypto)) {
+      if (location.protocol !== 'https:') {
+        progressText.innerText = 'Geen WebCrypto-ondersteuning. Dit moet via een HTTPS-verbinding worden geserveerd.';
+      } else {
+        progressText.innerText = 'Geen WebCrypto-ondersteuning in uw browser. Dit is vereist om de controle te doorlopen.';
+      }
+      return;
+    }
+
+    let backoff = 0;
+    let tryOnce = _ => {
+      if (backoff > 8) {
+        progressText.innerText = 'Verzenden meerdere keren mislukt. Probeer de pagina te herladen.';
+        return;
+      }
+      setTimeout(async _ => submitAnswer(form), 1000*(Math.pow(2, backoff++)-1));
+    };
+    form.addEventListener("error", tryOnce);
+    let iframe = document.querySelector("iframe");
+    iframe.addEventListener("load", _ => location.hash.length ? location.reload() : location.replace(location));
+    tryOnce();
+  }
+
+  async function submitAnswer(form) {
+    let start = new Date;
+    let tries = await challenge(form.diff.value, form.ip.value, form.ts.value);
+    if (tries === undefined) {
+      progressText.innerText = 'Kan de challenge niet berekenen. Probeer te herladen of een andere browser.';
+      progressBar.className = 'error';
+      progressBar.innerText = '❌';
+      return;
+    }
+    form.tries.value = tries;
+    progressText.innerText = 'Alles is in orde';
+    console.log(`${tries} pogingen.\n${progressText.innerText}`);
+    progressBar.className = 'done';
+    progressBar.innerText = '✅';
+    form.submit();
+  }
+
+  window.addEventListener("load", _ => startChallenge(document.forms.challenge));
+</script>
+<noscript>Om gebruik te maken van onze diensten moet JavaScript zijn ingeschakeld.</noscript>
+<footer>Voor meer informatie, ga naar: <a href="https://www.archixl.nl">archixl.nl</a></footer>
+<style>footer{position:fixed;left:0;right:0;bottom:12px;text-align:center;pointer-events:auto;background:transparent;padding:6px 0}</style>

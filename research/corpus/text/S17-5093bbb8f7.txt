@@ -1,0 +1,1267 @@
+Forum Standaardisatie
+
+
+
+
+Expertadvies geo-standaarden
+
+
+
+
+Datum      31 juli 2014
+Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+Colofon
+
+
+
+
+Projectnaam               Expertadvies geo-standaarden
+Versienummer              1.0
+Locatie
+Organisatie               Forum Standaardisatie
+                          Postbus 96810
+                          2509 JE Den Haag
+                          forumstandaardisatie@logius.nl
+
+
+Auteurs                   Rick van Rooijen
+
+
+
+
+                                                                      Pagina 2 van 24
+Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+Inhoud
+
+
+Colofon ............................................................................... 2
+
+Inhoud ................................................................................ 3
+
+Forumadvies & Managementsamenvatting ......................... 4
+
+1    Doelstelling expertadvies .............................................. 8
+    1.1   Achtergrond .................................................................8
+    1.2   Proces .........................................................................8
+    1.3   Vervolg........................................................................9
+    1.4   Samenstelling expertgroep.............................................9
+    1.5   Toelichting geo-standaarden ........................................ 10
+    1.6   Relatie met andere standaarden ................................... 11
+    1.7   Leeswijzer ................................................................. 11
+
+2    Toepassings– en werkingsgebied ................................ 12
+    2.1   Functioneel toepassingsgebied ..................................... 12
+    2.2   Organisatorisch werkingsgebied .................................... 12
+
+3    Toetsing van standaard aan criteria ............................. 13
+    3.1   Toegevoegde waarde .................................................. 13
+    3.2   Open standaardisatieproces ......................................... 16
+    3.3   Draagvlak .................................................................. 21
+    3.4   Opname bevordert adoptie........................................... 22
+    3.5   Adoptieactiviteiten ...................................................... 23
+
+4    Referenties .................................................................. 24
+
+
+
+
+                                                                                              Pagina 3 van 24
+Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+Forumadvies & Managementsamenvatting
+
+
+Advies aan het Forum
+De expertgroep adviseert het Forum en College om versie 1.3 van het
+Nederlandse metadataprofiel voor geografie en versie 1.2 van het
+Nederlandse metadataprofiel voor services op te nemen op de lijst voor
+‘pas toe of leg uit’ en om Geonovum het predicaat ‘uitstekend
+beheerproces’ toe te kennen voor de gehele set geo-standaarden onder
+voorwaarde dat – en niet eerder dan nadat – de door de expertgroep
+geconstateerde tekortkomingen zijn weggenomen.
+
+Als overkoepelend toepassingsgebied wordt geadviseerd:
+Uitwisseling van geografische informatie tussen organisaties, waarbij de
+ruimtelijke dimensie van significant belang is.
+
+Als toepassingsgebied voor het metadataprofiel voor geografie wordt
+geadviseerd:
+Metadatering van geografische datasets en dataset series.
+
+Als toepassingsgebied voor het metadataprofiel voor services wordt
+geadviseerd:
+Metadatering van geografische informatie services.
+
+Als organisatorisch werkingsgebied wordt geadviseerd:
+Overheden (Rijk, provincies, gemeenten en waterschappen) en
+instellingen uit de (semi-)publieke sector.
+
+Waar gaat het inhoudelijk over?
+De set geo-standaarden die op de ‘pas toe of leg uit’-lijst staan bestaat
+uit:
+     -  ISO 19136:2007 Geographic information - Geography Markup
+        Language (GML)1;
+     -  NEN 3610:2011 (nl) Basismodel Geo-informatie - Termen,
+        definities, relaties en algemene regels voor de uitwisseling van
+        informatie over aan de aarde gerelateerde ruimtelijke objecten;
+     -  Nederlands profiel op ISO 19142 Geographic information - Web
+        Feature Service, versie 1.01;
+     -  Nederlands profiel op ISO 19128 Geographic information - Web
+        Map Server Interface, versie 1.0;
+     -  Nederlands profiel op ISO 19115 voor geografie, versie 1.2;
+     -  Nederlands metadata profiel op ISO 19119 voor services, versie
+        1.1.
+
+Geonovum heeft nieuwe versies van de metadataprofielen voor geografie
+en webservices aangemeld voor opname op de lijst voor ‘pas toe of leg
+uit’. Daarnaast is gevraagd om het predicaat ‘uitstekend beheerproces’ toe
+te kennen voor de gehele set van standaarden die op de ‘pas toe of leg
+uit’-lijst staan.
+
+
+
+
+1   GML is ook een OGC standaard. ISO en OGC (Open Geospatial Consortium) werken gezamenlijk
+    aan de GML-standaard en brengen beiden, onder eigen noemer, dezelfde standaard uit. De ISO
+    variant is opgenomen op de ‘pas toe of leg uit’-lijst.
+                                                                                                 Pagina 4 van 24
+Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+Met de set geo-standaarden kunnen partijen in de publieke sector en
+daarbuiten eenvoudiger en efficiënter geo-informatie vinden, uitwisselen
+en gebruiken.
+
+De aangemelde metadataprofielen zijn een verbijzondering van de
+internationale metadatastandaarden van ISO en zijn bedoeld om de
+interoperabiliteit binnen Nederland te bevorderen.
+
+De Europese richtlijn INSPIRE schrijft ook vereisten voor metadata voor.
+Deze vereisten zijn opgenomen in de Nederlandse profielen, zodat
+hiermee zowel aan de Europese als aan de Nederlandse vereisten wordt
+voldaan.
+
+Hoe is het proces verlopen?
+Om tot dit advies te komen is een groep van experts gevraagd om per e-
+mail en telefonisch over het toepassings- en werkingsgebied van de
+nieuwe versies van de twee ingediende geo-standaarden te adviseren en
+om de standaard te toetsen tegen de criteria van het Forum en College
+Standaardisatie. Dit expertadvies vat de ontvangen reacties samen.
+
+Hoe scoort de standaard op de toetsingscriteria?
+
+Toegevoegde waarde
+
+De expertgroep concludeert dat de nieuwe versies van de Nederlandse
+metadataprofielen voldoende toegevoegde waarde hebben binnen het
+gekozen functioneel toepassingsgebied en organisatorisch werkingsgebied.
+
+Open standaardisatieproces
+
+De expertgroep concludeert dat het standaardisatieproces van Geonovum
+voldoende open is. Geonovum verdient voor het beheer van de geo-
+standaarden het predicaat ‘uitstekend beheerproces’ onder voorwaarde
+dat Geonovum:
+    -  de vergaderdata en verslagen van de werkgroepen publiceert op
+       haar website, zoals beschreven in het document ‘beheer basis
+       geo-standaarden’;
+    -  publiceert wie er aan de werkgroepen deelnemen;
+    -  waarborgt dat voor alle standaarden in de set geo-standaarden
+       publieke consultaties worden georganiseerd;
+    -  de publieke consultaties tenminste 30 dagen laat lopen (de laatste
+       consultatie liep 15 dagen);
+    -  de consultaties (ook) communiceert via haar nieuwsbrief;
+    -  de consultaties aankondigt bij BFS, zodat BFS hierover kan
+       berichten op haar website/twitterkanaal;
+    -  regelt dat partijen die bijdragen aan de ontwikkeling van een
+       standaard hun intellectueel eigendomsrecht onherroepelijk
+       royalty-free voor eenieder beschikbaar stellen;
+    -  het bovenstaande verwerkt in het document 'beheer basis geo-
+       standaarden'.
+
+Om besluitvorming over het toekennen van het predicaat ‘uitstekend
+beheerproces’ door het College Standaardisatie mogelijk te maken, zal
+Geonovum voor 17 september 2014 ten genoegen van Bureau Forum
+Standaardisatie dienen aan te tonen dat aan bovengenoemde
+voorwaarden is voldaan.
+
+                                                                            Pagina 5 van 24
+Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+Draagvlak
+
+De expertgroep concludeert dat er voldoende ICT-dienstverleners zijn die
+de standaard ondersteunen en dat de standaard door voldoende
+organisaties wordt gebruikt. Ook kunnen gebruikers de conformiteit van
+de implementatie van de standaard toetsen. De expertgroep concludeert
+dat de ervaring van aanbieders en gebruikers met het ondersteunen,
+implementeren en gebruiken van de standaard voldoende is.
+
+
+
+
+                                                                           Pagina 6 van 24
+Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+Opname bevordert de adoptie
+
+De expertgroep concludeert dat de 'pas toe of leg uit'-lijst het passende
+middel is om de adoptie van de standaarden binnen de (semi)overheid te
+bevorderen.
+
+Welke additionele adviezen zijn er ten aanzien van de adoptie van de
+standaard?
+De expertgroep doet het College Standaardisatie de aanbeveling om bij de
+opname op de ‘pas toe of leg uit’-lijst de volgende oproepen ten aanzien
+van de adoptie van de standaard te doen:
+    -  Geonovum wordt opgeroepen om te publiceren welke
+       implementaties van de standaarden voldoen aan de
+       conformiteitstoets.
+    -  Het Bureau Forum Standaardisatie en Geonovum worden
+       opgeroepen om gezamenlijk te kijken hoe ze kunnen
+       samenwerken om de geo-standaarden onder de aandachte te
+       brengen en adoptie van de standaarden te bevorderen.
+    -  De wetgever en het ministerie van Infrastructuur en Milieu worden
+       opgeroepen om de semantische knelpunten, waarnaar Geonovum
+       momenteel onderzoek doet, te zijner tijd voortvarend aan te
+       pakken via nieuwe wetsontwerpen.
+    -  Beheerders van sectorale informatiemodellen2, de modellen van
+       de geografische basisregistraties3 en de dataspecificaties van de
+       Europese richtlijn INSPIRE4 worden opgeroepen om semantiek
+       (begrippen en definities) te publiceren in het geo-
+       conceptenregister van Geonovum (of ander centraal register) om
+       zo te werken aan een geharmoniseerd stelsel van geografische
+       informatiemodellen.
+
+De opgeroepen partijen worden gevraagd om één jaar na opname van de
+stadaard over de voortgang op deze punten te rapporteren aan het Forum
+Standaardisatie.
+
+
+
+
+2   http://www.geonovum.nl/onderwerpen/afstemming-informatiemodellen/algemeen-
+    informatiemodellen
+3   http://www.e-
+    overheid.nl/onderwerpen/stelselinformatiepunt/stelselthemas/verbindingen/verbindingen-tussen-
+    basisregistraties
+4   http://www.geonovum.nl/onderwerpen/inspire
+                                                                                                    Pagina 7 van 24
+      Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+1     Doelstelling expertadvies
+
+
+
+1.1   Achtergrond
+      Het gebruik van open standaarden en het voorkomen van vendor lock-in
+      is een van de doelstellingen van de Nederlandse overheid. In 2006 is
+      daarom het College en Forum Standaardisatie ingesteld (en in 2012
+      herbevestigd) om de digitale samenwerking (interoperabiliteit) tussen
+      overheden onderling en tussen overheid, bedrijven en burgers te
+      bevorderen.
+
+      Aanvullend daarop is in 2007 door het kabinet besloten tot een actieplan
+      Nederland Open in Verbinding [1]. Het doel van dit actieplan is om de
+      informatievoorziening toegankelijker te maken, onafhankelijkheid van
+      ICT-leveranciers te creëren en de weg vrij te maken voor innovatie. Dit
+      beleid wordt herbevestigd in actieplan “Open overheid”, de digitale agenda
+      2011-2015 en de digitale agenda 2017. Dit plan onderstreept de noodzaak
+      van het zoveel mogelijk meenemen van open standaarden bij het
+      ontwerpen van informatiesystemen.
+
+      Een van de maatregelen om de adoptie van standaarden te bevorderen is
+      het beheren van een lijst met standaarden, die vallen onder het principe
+      "pas toe of leg uit" (comply-or-explain) [2]. Het College Standaardisatie
+      spreekt zich uit over de standaarden die op de lijst zullen worden
+      opgenomen, o.a. op basis van een expertbeoordeling van de standaard
+      [3]. Het College Standaardisatie wordt geadviseerd door het Forum
+      Standaardisatie. Bureau Forum Standaardisatie ondersteunt beide
+      instellingen.
+
+      Een dertiental experts is verzameld in een expertgroep, die de standaard
+      heeft beoordeeld aan de hand van een aantal criteria. Deze criteria –
+      vooraf vastgesteld door het College Standaardisatie [4] en uitgewerkt in
+      de vorm van concrete vragen – worden in het hier voorliggende
+      expertadvies genoemd en behandeld.
+
+      Onderwerp van dit expertadvies zijn de geo-standaarden. Namens
+      Geonovum zijn door Marcel Reuvers twee nieuwe versies van de
+      geostandaarden aangemeld voor op de ‘pas toe of leg uit’-lijst. Dit zijn het
+      Nederlands profiel op ISO 19115 voor geografie, versie 1.2 en het
+      Nederlands metadata profiel op ISO 19119 voor services, versie 1.1.
+
+      De opdracht aan de expertgroep was om een advies op te stellen over het
+      wel of niet opnemen van deze standaarden op de lijst, al dan niet onder
+      bepaalde voorwaarden. Daarnaast is gevraagd om te toetsen of het
+      predicaat ‘uitstekend beheerproces’ kan worden toegekend voor de gehele
+      set van geo-standaarden.
+
+
+
+1.2   Proces
+
+      Voor het opstellen van dit advies is de volgende procedure doorlopen:
+
+      -    Door het Bureau Forum Standaardisatie is een intakegesprek gevoerd
+           met de indiener op 12 mei 2014. Hierin is de standaard getoetst op
+
+
+                                                                                     Pagina 8 van 24
+      Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+           uitsluitingscriteria (‘criteria voor in behandelname’) en is een eerste
+           inschatting gemaakt van de kansrijkheid voor opname.
+      -    Op basis van de intake is besloten tot het uitvoeren van een kleinere
+           experttoetst. Op basis van dit besluit is door het Bureau Forum
+           Standaardisatie een expertgroep samengesteld. Op basis van de
+           aanmelding en de intake is een voorbereidingsdossier opgesteld voor
+           leden van de expertgroep.
+      -    Gezien de beperkte wijzigingen van de nieuwe versie en dat
+           Geonovum voornamelijk voor uitstekend beheer wordt getoetst, is er
+           geen afzonderlijke expertbijeenkomst georganiseerd. Aan de hand van
+           een spreadsheet met vragen in het voorbereidingsdossier, zijn een
+           aantal experts gevraagd om per e-mail en telefonisch over het
+           toepassings- en werkingsgebied van de geo-standaarden te adviseren
+           en om de standaard te toetsen tegen de criteria van het Forum en
+           College Standaardisatie.
+
+      De reacties van de expertgroep zijn door de begeleider verwerkt in dit
+      adviesrapport. Een eerste conceptversie is aan de leden van de
+      expertgroep gestuurd met verzoek om reactie. Na verwerking van de
+      reacties is het rapport afgerond, nogmaals toegestuurd aan de experts en
+      ingediend voor de publieke consultatieronde.
+
+
+
+1.3   Vervolg
+
+      Dit expertadvies zal ten behoeve van een publieke consultatie openbaar
+      worden gemaakt door het Bureau Forum Standaardisatie. Eenieder kan
+      gedurende de consultatieperiode op dit expertadvies zijn/haar reactie
+      geven. Het Bureau Forum Standaardisatie legt vervolgens de reacties voor
+      aan de begeleider en indien nodig aan de expertgroep.
+
+      Het Forum Standaardisatie zal op basis van het expertadvies en inzichten
+      uit de openbare consultatie een advies aan het College Standaardisatie
+      opstellen. Het College Standaardisatie bepaalt op basis van het
+      forumadvies of de nieuwe versie van de standaarden op de 'pas toe of leg
+      uit'-lijst komt en of Geonovum het predicaat ‘uitstekend beheerproces’
+      verdient voor de gehele set van geo-standaarden.
+
+      De planning van deze en andere activiteiten staat op de website van het
+      Forum Standaardisatie: https://www.forumstandaardisatie.nl/open-
+      standaarden/voor-aanmelders/jaarplanning/.
+
+
+
+1.4   Samenstelling expertgroep
+
+      Voor de expertgroep zijn personen uitgenodigd die vanuit hun persoonlijke
+      expertise of werkzaamheden bij een bepaalde organisatie direct of indirect
+      betrokken zijn bij de standaard. Het Forum streeft naar een zo
+      representatief mogelijke expertgroep, met een evenwichtige mix van
+      eindgebruikers, IT-leveranciers, wetenschappers, adviseurs, en
+      vertegenwoordigers van de standaardisatieorganisatie. Zowel technische
+      experts als experts die inzicht hebben in de functionele impact zijn
+      uitgenodigd. Daarnaast is een onafhankelijke begeleider aangesteld om de
+      expertgroep te leiden en als verantwoordelijke op te treden voor het
+      uiteindelijke expertadvies.
+
+
+                                                                                     Pagina 9 van 24
+      Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+      De expertgroep is in opdracht van het Forum Standaardisatie begeleid
+      door Rick van Rooijen, adviseur bij Verdonck, Klooster & Associates.
+
+      Aan de expertgroep hebben deelgenomen:
+         -   Marcel Reuvers, Geonovum (aanmelder)
+         -   Monique van Scherpenzeel, Geonovum
+         -   Linda van den Brink, Geonovum
+         -   Martin Salzmann, voorzitter van de programmaraad Geonovum
+         -   Ben Tänzer, Dienst Landelijk Gebied
+         -   Ruud van Rossem, ministerie van Infrastructuur en Milieu
+         -   Arjan Levinga, Rijkswaterstaat
+         -   Arnold Reinders, ministerie van Binnenlandse Zaken en
+             Koninkrijksrelaties
+         -   Tom Peelen, Logius
+         -   Gabriel van Tiggelen, VNG
+         -   Cor Melse, RIVM
+         -   Hinne Reitsma, Informatiehuis Water
+         -   Remko Tepper, gemeente Moerdijk
+
+      Het Bureau Forum Standaardisatie is vertegenwoordigd door Lancelot
+      Schellevis.
+
+
+
+1.5   Toelichting geo-standaarden
+
+      De set geo-standaarden die op de ‘pas toe of leg uit’-lijst staan bestaat
+      uit:
+           -  ISO 19136:2007 Geographic information - Geography Markup
+              Language (GML)
+           -  NEN 3610:2011 (nl) Basismodel Geo-informatie - Termen,
+              definities, relaties en algemene regels voor de uitwisseling van
+              informatie over aan de aarde gerelateerde ruimtelijke objecten;
+           -  Nederlands profiel op ISO 19142 Geographic information - Web
+              Feature Service, versie 1.01;
+           -  Nederlands profiel op ISO 19128 Geographic information - Web
+              Map Server Interface, versie 1.0;
+           -  Nederlands profiel op ISO 19115 voor geografie, versie 1.2;
+           -  Nederlands metadata profiel op ISO 19119 voor services, versie
+              1.1.
+
+      Met deze set standaarden kunnen partijen in de publieke sector en
+      daarbuiten eenvoudiger en efficiënter geo-informatie vinden, uitwisselen
+      en gebruiken.
+
+      De Nederlandse metadataprofielen zijn een verbijzondering van de
+      internationale metadatastandaarden van ISO en zijn bedoeld om de
+      interoperabiliteit binnen Nederland te bevorderen.
+
+      De Europese richtlijn INSPIRE schrijft ook vereisten voor metadata voor.
+      Deze vereisten zijn opgenomen in de Nederlandse profielen, zodat
+      hiermee zowel aan de Europese als aan de Nederlandse vereisten wordt
+      voldaan.
+
+
+
+
+                                                                                  Pagina 10 van 24
+      Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+1.6   Relatie met andere standaarden
+
+      Er bestaat samenhang tussen de set geo-standaarden, de Aquo-
+      standaard, SIKB0101, OWMS en StUF. De standaard conflicteert niet met
+      deze standaarden. Zie paragraaf 3.1.2.
+
+
+
+1.7   Leeswijzer
+
+      In hoofdstuk 2 wordt beschreven in welke gevallen de standaard
+      functioneel gezien gebruikt zou moet worden (functioneel
+      toepassingsgebied) en door welke organisaties deze gebruikt zou moeten
+      worden (organisatorisch werkingsgebied).
+
+      Om te bepalen of de standaard opgenomen moet worden op de lijst met
+      standaarden voor ‘pas toe of leg uit’, is deze getoetst aan een viertal door
+      het College Standaardisatie vastgestelde criteria. In hoofdstuk 3 staat het
+      resultaat van deze toetsing.
+
+
+
+
+                                                                                     Pagina 11 van 24
+      Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+2     Toepassings– en werkingsgebied
+
+
+      Van overheidsorganisaties wordt verwacht dat zij de lijst met open
+      standaarden hanteren bij aanbestedingstrajecten volgens het ‘pas toe of
+      leg uit’-regime. Afhankelijk van de aan te schaffen functionaliteit zal
+      bepaald moeten worden welke koppelvlakken geïmplementeerd moeten
+      worden, en welke standaarden uit de lijst hiervoor ingezet dienen te
+      worden. Om dit te kunnen doen heeft de expertgroep gekeken in welke
+      gevallen de standaard functioneel gezien gebruikt zou moeten worden
+      (functioneel toepassingsgebied), en door welke organisaties deze gebruikt
+      zou moeten worden (organisatorisch werkingsgebied).
+
+
+
+2.1   Functioneel toepassingsgebied
+
+      Het voorstel is om het toepassingsgebied voor de geo-standaarden niet te
+      wijzigen, dit is:
+
+      Uitwisseling van geografische informatie tussen organisaties,
+      waarbij de ruimtelijke dimensie van significant belang is.
+
+      Als toepassingsgebied voor het metadataprofiel voor geografie wordt
+      voorgesteld:
+      Metadatering van geografische datasets en dataset series.
+
+      Als toepassingsgebied voor het metadataprofiel voor services wordt
+      voorgesteld:
+      Metadatering van geografische informatie services.
+
+
+
+2.2   Organisatorisch werkingsgebied
+
+      De expertgroep adviseert om het organisatorisch werkingsgebied van de
+      standaard overeen te laten komen met het werkingsgebied waarop het
+      ‘pas toe of leg uit’ principe van toepassing is, te weten:
+
+      Overheden (Rijk, provincies, gemeenten en waterschappen) en
+      instellingen uit de (semi-) publieke sector.
+
+      De expertgroep ziet geen reden om het organisatorisch werkingsgebied te
+      beperken.
+
+
+
+
+                                                                                  Pagina 12 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+3         Toetsing van standaard aan criteria
+
+
+          Om te bepalen of de standaard opgenomen moet worden op de lijst met
+          open standaarden zijn deze getoetst aan een aantal criteria. Er zijn vier
+          hoofdcriteria:
+             1. Toegevoegde waarde
+             2. Open standaardisatieproces
+             3. Draagvlak
+             4. Opname bevordert adoptie
+
+          Deze criteria staan beschreven in het rapport, “Toetsingprocedure en
+          criteria voor indieners en experts” [4] en staan op de website
+          www.forumstandaardisatie.nl/open-standaarden. Het resultaat van de
+          toetsing zal in dit hoofdstuk per criterium beschreven worden. Voor de
+          volledigheid is tevens de definitie van elk criterium opgenomen.
+
+
+
+3.1       Toegevoegde waarde
+
+          De interoperabiliteitswinst en andere voordelen van adoptie van de
+          standaard wegen overheidsbreed en maatschappelijk op tegen de risico’s
+          en nadelen.
+
+
+
+3.1.1     Is het toepassings- en werkingsgebied van de aanmelding goed
+          gedefinieerd?
+
+3.1.1.1   Is het functioneel toepassingsgebied goed gedefinieerd?
+          Ja. Zie paragraaf 2.1.
+
+3.1.1.2   Is het organisatorisch werkingsgebied goed gedefinieerd?
+          Ja. Zie paragraaf 2.2.
+
+3.1.1.3   Is de standaard generiek toepasbaar en niet alleen bedoeld voor
+          gegevensuitwisseling met één of een beperkt aantal specifieke
+          voorzieningen? (toelichtende vraag)
+          Ja. De Nederlandse metadataprofielen zijn breed toepasbaar en geschikt
+          voor gegevensuitwisseling met diverse geografische informatiesystemen.
+
+          De standaarden zijn onder meer geïmplementeerd in:
+              -  GeoSticker, een metadata-editor van Esri Nederland;
+              -  Nationaal Georegister (NGR), waarvoor de open source software
+                 GeoNetwork is gebruikt;
+              -  Publieke Dienstverlening Op de Kaart (PDOK) producten.
+
+
+
+3.1.2     Verhoudt de standaard zich goed tot andere standaarden?
+
+3.1.2.1   Kan de standaard naast of in combinatie met reeds opgenomen
+          standaarden worden toegepast (d.w.z. de standaard conflicteert niet met
+          reeds opgenomen standaarden)?
+          Ja. De Nederlandse metadataprofielen maken onderdeel uit van een set
+          geo-standaarden. Deze set kan naast of in combinatie met de Aquo-
+          standaard, SIKB0101, OWMS en StUF worden toegepast:
+                                                                                      Pagina 13 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+               -    De uitwisselmodellen van de Aquo-standaard (IMWA en UM Aquo)
+                    zijn gebaseerd op NEN 3610, die als onderdeel van de geo-
+                    standaarden is opgenomen op de 'pas toe of leg uit'-lijst.
+               -    Ook SIKB0101 is gebaseerd op NEN 3610.
+               -    Aan OWMS wordt gemapt door de metadata standaard voor
+                    geografie (zie: Mapping Kernset 1.3 - OWMS 4.0).
+               -    StUF heeft betrekking op de uitwisseling van basisgegevens,
+                    waaronder adressen. Met de beheerder van de StUF standaarden
+                    zijn afspraken gemaakt om overlap te voorkomen en raakvlakken
+                    te identificeren. Hiervoor hebben KING en Geonovum ook een
+                    samenwerkingsovereenkomst getekend.
+
+          De set geo-standaarden conflicteert niet met deze standaarden.
+
+3.1.2.2   Biedt de aangemelde standaard meerwaarde boven reeds opgenomen
+          standaarden met een overlappend functioneel toepassings- en
+          organisatorisch werkingsgebied? (Dit kan ook om een nieuwe versie van
+          dezelfde standaard gaan.)
+          Ja. De nieuwe versies van de Nederlandse profielen op ISO 19115 en ISO
+          19119 zijn aangepast, omdat in de downloadspecificatie van de Europese
+          INSPIRE-richtlijn naast een WFS5 implementatie ook een Atom feed6
+          implementatie mogelijk is. Nu zijn de Nederlandse profielen daarop
+          aangepast. De nieuwe versies bevatten een kleine aanvulling; in de
+          codelijst SV_ServiceType is bij het element protocol de INSPIRE Atom
+          feed opgenomen.
+
+3.1.2.3   Biedt de aangemelde standaard meerwaarde boven bestaande
+          concurrerende standaarden die in aanmerking zouden kunnen komen voor
+          opname? (toelichtende vraag)
+          Niet van toepassing. Gezien het functioneel toepassingsgebied, is er geen
+          direct alternatief voor de Nederlandse metadataprofielen.
+
+3.1.2.4   Is de standaard een internationale standaard of sluit de standaard aan bij
+          relevante internationale standaarden? (toelichtende vraag)
+          Ja. De Nederlandse metadataprofielen sluiten aan bij relevante
+          internationale standaarden, namelijk ISO 19115 voor geografie en ISO
+          19119 voor services.
+
+3.1.2.5   Draagt de standaard voldoende bij aan interoperabiliteit zonder dat
+          aanvullende standaardisatieafspraken (zoals lokale profielen) noodzakelijk
+          zijn? (toelichtende vraag)
+          Ja. Aanvullende standaardisatieafspraken zijn niet noodzakelijk. Als men
+          dit wil, kan men de profielen wel uitbreiden. De standaarden bevatten
+          hiervoor voorwaarden en aanbevelingen.
+
+
+
+3.1.3     Wegen de kwantitatieve en kwalitatieve voordelen van adoptie van de
+          standaard, voor de (semi-)overheid als geheel en voor de maatschappij,
+          op tegen de nadelen?
+
+3.1.3.1   Draagt de adoptie van de standaard bij aan de oplossing van een
+          bestaand, relevant interoperabiliteitsprobleem?
+
+          5   Web Feature Service (WFS) is een protocol voor het opvragen, aanleveren, bewerken en
+              analyseren van geografische vector data. Het maakt gebruik van Geography Markup Language
+              (GML) voor dataoverdracht.
+          6   Atom is een XML-gebaseerde open standaard om de (gedeeltelijke) inhoud van sites beschikbaar te
+              maken voor andere sites, internetgebruikers en media.
+                                                                                                                Pagina 14 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+          Ja. Als gevolg van het groeiende aanbod van geografische datasets wordt
+          het voor de gebruikers hiervan steeds moeilijker om de juiste informatie
+          te vinden. Met metadata wordt een geografische dataset op zo’n manier
+          beschreven dat een zoekopdracht zich kan richten op vragen als ‘wie, wat,
+          waar, wanneer, waarom en hoe?’. De metadata bevat details over de
+          eigenaar van de geografische data, kwaliteit, thema, etc., en hoe de
+          informatie kan worden benaderd en gebruikt. Metadata zorgt ervoor dat
+          geo-informatie snel door mens en machine kan worden gevonden.
+
+3.1.3.2   Draagt de standaard bij aan het voorkomen van een vendor lock-in
+          (leveranciersafhankelijkheid)?
+          Ja. Leveranciers gaan veelal uit van internationale specificaties en eigen
+          profielen daarop c.q. implementatiestijlen daarvan. Er is daardoor geen
+          garantie dat producten van verschillende leveranciers samenwerken. Voor
+          afnemers leidt dit tot een zekere lock-in: er moeten immers extra kosten
+          worden gemaakt om te kunnen werken met producten van een andere
+          leverancier. Toepassing van de standaarden vermindert deze kosten en
+          daardoor de afhankelijkheid. Bovendien kan het een stimulans betekenen
+          voor de ontwikkeling van open source producten op basis van deze open
+          standaarden.
+
+3.1.3.3   Wegen de overheidsbrede en maatschappelijke baten voor de
+          informatievoorziening en de bedrijfsvoering op tegen de kosten?
+          Ja. De Nederlandse metadataprofielen zijn een verbijzondering van de
+          internationale metadatastandaarden van ISO en zijn bedoeld om de
+          interoperabiliteit binnen Nederland te bevorderen. Ook de Europese
+          richtlijn INSPIRE schrijft metadataprofielen voor. De Nederlandse profielen
+          zijn hier op afgestemd. Door de Nederlandse profielen toe te passen,
+          wordt voldaan aan de INSPIRE profielen voor metadata.
+
+3.1.3.4   Zijn de beveiligingsrisico’s aan overheidsbrede adoptie van de standaard
+          acceptabel?
+          Ja. Voor zover er beveiligingsrisico’s zijn, spelen deze met name op het
+          moment dat er toepassingen worden ontwikkeld op basis van de
+          standaarden. Dan kan het belangrijk zijn om bepaalde gegevens af te
+          schermen voor bepaalde gebruikers. Denk bijvoorbeeld aan het
+          afschermen van gegevens over vitale objecten (militaire locaties,
+          watervoorziening, telecommunicatie, etc.). Binnen de diverse domeinen
+          zijn hiervoor specifieke regels en procedures die gelden als vigerend
+          kader.
+
+3.1.3.5   Zijn de privacyrisico’s aan overheidsbrede adoptie van de standaard
+          acceptabel?
+          Ja. Voor zover er privacyrisico’s zijn, dienen deze door organisatorische en
+          technische maatregelen buiten de Nederlandse metadataprofielen te
+          worden weggenomen of beperkt.
+
+3.1.4     Conclusie
+          De expertgroep concludeert dat de nieuwe versies van de Nederlandse
+          metadataprofielen voldoende toegevoegde waarde hebben binnen het
+          gekozen functioneel toepassingsgebied en organisatorisch werkingsgebied.
+
+
+
+
+                                                                                         Pagina 15 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+3.2       Open standaardisatieproces7
+
+          De ontwikkeling en het beheer van de standaard zijn op een open,
+          onafhankelijke, toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze
+          ingericht.
+
+3.2.1     Is de documentatie voor een ieder drempelvrij beschikbaar?
+
+3.2.1.1   Is het specificatiedocument beschikbaar zonder dat er sprake is van
+          onacceptabele belemmeringen (zoals te hoge kosten en te hoge
+          lidmaatschapseisen)?
+          Ja.
+
+          Het specificatiedocument van ISO 19136:2007 Geographic information --
+          Geography Markup Language (GML) is tegen betaling van 198,00
+          Zwitserse frank (162,79 Euro) te downloaden in de ISO Store:
+          http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?
+          csnumber=32554.
+
+          GML is ook een OGC standaard. ISO en OGC werken gezamenlijk aan de
+          GML-standaard en brengen beiden, onder eigen noemer, dezelfde
+          standaard uit. De OGC variant is gratis te downloaden van de website van
+          Geonovum:
+          http://www.geonovum.nl/wegwijzer/standaarden/opengis%C2%AE-gml-
+          encoding-standard-321.
+
+          Het specificatiedocument van NEN3610:2011 is gratis te downloaden in de
+          NEN Normshop: http://www.nen.nl/NEN-Shop/Norm/NEN-36102011-
+          nl.htm. Hiervoor is wel een (gratis) NEN Normshop-account nodig. De
+          kosten voor de standaard zijn door Geonovum tot en met 31 december
+          2016 met NEN afgekocht.
+
+          De overige specificatiedocumenten zijn gratis te downloaden van de
+          website van Geonovum:
+             -   Nederlands metadataprofiel voor geografie en services:
+                 http://www.geonovum.nl/onderwerpen/metadata/algemeen-
+                 metadata
+             -   Nederlandse webserviceprofielen voor de Web Feature Service en
+                 de Web Map Service:
+                 http://www.geonovum.nl/onderwerpen/services/web-feature-
+                 service-wfs en
+                 http://www.geonovum.nl/onderwerpen/services/web-map-
+                 service-wms.
+
+
+
+3.2.1.2   Is de documentatie over het ontwikkel- en beheerproces (bijv. het
+          voorlopige specificatiedocument, notulen en beschrijving
+          besluitvormingsprocedure) beschikbaar zonder dat er sprake is van
+          onacceptabele belemmeringen (zoals te hoge kosten en te hoge
+          lidmaatschapseisen)?
+
+
+
+
+          7   Onderstaande punten met betrekking tot het open standaardisatieproces zijn van toepassing op alle
+              zes de geo-standaarden die op de ‘pas toe of leg uit’-lijst staan, tenzij anders aangegeven.
+                                                                                                                  Pagina 16 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+          Gedeeltelijk. Het document ‘beheer basis geo-standaarden’ beschrijft hoe
+          Geonovum het beheer van de standaarden heeft ingericht. Iedereen kan
+          dit document gratis downloaden van de website van Geonovum.
+
+          Het meldingsformulier om een wijzigingsverzoek te doen en de verslagen
+          van de werkgroepen en de programmaraad van Geonovum staan niet
+          meer op de website van Geonovum sinds de website is vernieuwd.
+
+          Om in aanmerking te komen voor het predicaat ‘uitstekend beheerproces’
+          dienen de verslagen voor een ieder drempelvrij beschikbaar te zijn. De
+          expertgroep adviseert Geonovum om de verslagen te publiceren op haar
+          website, zoals beschreven in het document ‘beheer basis geo-
+          standaarden’.
+
+
+
+3.2.2     Is het intellectuele eigendomsrecht voor eenieder beschikbaar, zodat de
+          standaard vrij implementeerbaar en te gebruiken is?
+
+3.2.2.1   Stelt de standaardisatieorganisatie het intellectueel eigendomsrecht op de
+          standaard m.b.t. bijvoorbeeld eventuele patenten- onherroepelijk royalty-
+          free voor eenieder beschikbaar?
+          Ja. Geonovum is verplicht om producten die met de subsidie van IenM zijn
+          ontwikkeld krachtens een niet-exclusief gebruiksrecht aan derden ter
+          beschiking te stellen. Elke (nieuwe versie van een) door Geonovum
+          beheerde basis geo-standaard is voorzien van de Creative Commoms
+          licentie Naamsvermelding-GeenAfgeleideWerken 3.0 Nederland. NEN, ISO
+          en OGC hanteren eigen onherroepelijke, royalty-vrije licenties voor de
+          door hen beheerde standaarden. De kosten voor NEN3610:2011 zijn door
+          Geonovum met NEN afgekocht.
+
+3.2.2.2   Garandeert de standaardisatieorganisatie dat partijen die bijdragen aan de
+          ontwikkeling van de standaard hun intellectueel eigendomsrecht
+          onherroepelijk royalty-free voor eenieder beschikbaar stellen?
+          Gedeeltelijk. Partijen weten onder welke voorwaarden Geonovum, NEN,
+          ISO en OGC publiceren. Zie ook paragraaf 3.2.2.1. Geonovum regelt met
+          externen niet expliciet iets met betrekking tot intellectueel eigendom.
+          Hierover staat niets in inkoopvoorwaarden of contracten. Waar het gaat
+          om standaarden, schrijven de mensen van Geonovum die eigenlijk altijd
+          zelf.
+
+          De expergroep adviseert Geonovum om – indien derden bijdragen aan de
+          ontwikkeling van een standaard – te regelen dat deze partijen hun
+          intellectueel eigendomsrecht onherroepelijk royalty-free voor eenieder
+          beschikbaar stellen. Een mogelijkheid hiertoe is het gebruik van de
+          Algemene Rijksvoorwaarden voor het verstrekken van opdrachten tot het
+          verrichten van diensten (ARVODI).
+
+
+
+3.2.3     Is de inspraak van eenieder in voldoende mate geborgd?
+
+3.2.3.1   Is het besluitvormingsproces toegankelijk voor alle belanghebbenden
+          (bijv. gebruikers, leveranciers, adviseurs, wetenschappers)?
+          Ja. De expertgroep is van menig dat het besluitvormingsproces voldoende
+          toegankelijk voor alle belanghebbenden.
+
+
+
+
+                                                                                       Pagina 17 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+          Als er behoefte is aan (verdere) ontwikkeling van een standaard, stelt
+          Geonovum hiervoor een werkgroep in. Werkgroepen staan voor iedereen
+          open en er volgt altijd een openbare consultatie voor een nieuwe
+          standaard of nieuwe versie van een standaard. De programmaraad van
+          Geonovum stelt formeel een standaard of nieuwe versie daarvan vast. De
+          leden van de programmaraad staan op de website van Geonovum:
+          http://www.geonovum.nl/over-geonovum/wie-wij-zijn/programmaraad.
+          Wie er aan de werkgroepen deelnemen blijkt niet uit de website.
+
+          Volgens het document ‘beheer basis geo-standaarden’ kan op de website
+          voor de standaarden die Geonovum in beheer heeft een wijzigingsverzoek
+          gedaan worden. Dit gebeurt met het meldingsformulier. Het
+          meldingsformulier om een wijzigingsverzoek te doen staat niet meer op de
+          website van Geonovum sinds de website is vernieuwd.
+
+          Geonovum behartigt de Nederlandse belangen voor geo-standaarden door
+          actieve participatie binnen de internationale standaardisatiefora ISO/TC
+          211 en het Open Geospatial Consortium, en op Europees niveau in
+          CEN/TC 287 en voor de Europese richtlijn INSPIRE. In Nederland is
+          Geonovum voorzitter van de NEN Normcommissie 351 240 Geo-
+          informatie.
+
+3.2.3.2   Vindt besluitvorming plaats op een wijze die zoveel mogelijk recht doet
+          aan de verschillende belangen?
+          Ja. In de besluitvorming over de geo-standaarden spelen werkgroepen en
+          de programmaraad van Geonovum een belangrijke rol.
+
+          De werkgroepen zijn betrokken bij het uitvoerende werk en toetsing van
+          standaarden in de praktijk (zie ook 3.2.3.1). Zij worden gevormd uit de
+          community, die bestaat uit publieke en private organisaties. De
+          werkgroepen besluiten op basis van consensus.
+
+          De programmaraad keurt wijzigingvoorstellen voor een standaard goed of
+          af. De programmaraad bestaat uit vertegenwoordigers van publieke
+          organisaties in het geo-werkveld.
+
+3.2.3.3   Kan een belanghebbende formeel bezwaar aantekenen tegen de gevolgde
+          procedure?
+          Ja. Het document 'beheer basis geo-standaarden' beschrijft hoe klachten
+          over het beheer van de standaarden worden afgehandeld. Klachten over
+          de door NEN, ISO en OGC beheerde standaarden kunnen zowel via
+          Geonovum als rechtstreeks worden ingediend.
+
+3.2.3.4   Organiseert de standaardisatieorganisatie regelmatig overleggen met
+          belanghebbenden over doorontwikkeling en beheer van de standaard?
+          Ja. De programmaraad komt vier keer per jaar bij elkaar. Twee keer per
+          jaar vindt aansluitend een netwerkbijeenkomst plaats met een bredere
+          groep belanghebbenden. De samenstelling van deze groep is afhankelijk
+          van het onderwerp.
+
+          Het is onduidelijk wanneer de werkgroepen bij elkaar komen. De
+          expertgroep adviseert Geonovum om de vergaderdata te publiceren op
+          haar website, zoals beschreven in het document ‘beheer basis geo-
+          standaarden’.
+
+
+
+
+                                                                                     Pagina 18 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+3.2.3.5   Organiseert de standaardisatieorganisatie een publieke consultatie voordat
+          (een nieuwe versie van) de standaard wordt vastgesteld?
+          Ja. Er volgt altijd een openbare consultatie voor een nieuwe standaard of
+          nieuwe versie van een standaard. OGC en NEN organiseren ook publieke
+          consultaties. Deze publiceert Geonovum ook via haar website. De publieke
+          consultaties van ISO lopen via de leden, in dit geval NEN. .
+
+          De laatste openbare consultatie van Geonovum betrof een (zeer) kleine
+          wijziging van de Nederlandse profielen voor metadata. Deze openbare
+          consultatie liep van 5 september 2013 tot en met 19 september 2013,
+          minder dan de door Forum en College Standaardisatie vereiste 30 dagen.
+          De documenten die geconsulteerd werden (i.c. de wijzigingen) waren vrij
+          beschikbaar op de website van Geonovum. De consultatie is
+          gecommuniceerd via de website van Geonovum. Geonovum heeft
+          voorafgaand aan de consultatie geen extra editie van haar nieuwsbrief
+          uitgegeven om de consultatie bekend te maken. Ook is de consultatie niet
+          aangekondigd bij BFS. BFS heeft dan ook niet kunnen berichten over de
+          consultatie op haar website en twitterkanaal. Het consultatieproces en de
+          besluitvormingsprocessen op basis van de consultatie zijn beschreven in
+          het document 'beheer basis geo-standaarden'. Na consultatie zijn de
+          nieuwe versies van de Nederlandse profielen beschikbaar gekomen. De
+          wijzigingen ten opzicht van de voorgaande versie zijn benoemd in het
+          document. Geonovum heeft in dit geval niet individueel aan deelnemers
+          teruggekoppeld wat er met hun input gedaan is, maar publiekelijk via de
+          website en het specificatiedocument. In andere gevallen publiceert
+          Geonovum een rapport met wijzigingen ten opzichte van de voorgaande
+          versie.
+
+          Om in aanmerking te komen voor het predicaat ‘uitstekend beheerproces’
+          dient Geonovum:
+              -   de publieke consultaties tenminste 30 dagen te laten lopen;
+              -   de consultaties (ook) te communiceren via haar nieuwsbrief;
+              -   de consultaties aan te kondigen bij BFS, zodat BFS hierover kan
+                  berichten op haar website/twitterkanaal.
+
+          Bovenstaande voorwaarden gelden zowel voor de publieke consultaties die
+          Geonovum organiseer als voor de publieke consultaties die ISO, OGC en
+          NEN organiseren.
+
+
+
+3.2.4     Is de standaardisatieorganisatie onafhankelijk en duurzaam?
+
+3.2.4.1   Is de ontwikkeling en het beheer van de standaard belegd bij een
+          onafhankelijke non-profit standaardisatieorganisatie?
+          Ja. Geonovum is een onafhankelijke overheidsstichting.
+
+3.2.4.2   Is de financiering van de ontwikkeling en het onderhoud van de standaard
+          voor tenminste drie jaar gegarandeerd?
+          Ja. De taken op het gebied van ontwikkeling en beheer maken onderdeel
+          uit van het basisprogramma van Geonovum. Voor dit basisprogramma
+          ontvangt Geonovum subsidie van het ministerie van Infrastructuur en
+          Milieu, van het ministerie van Economische Zaken, van het Kadaster en
+          van de Geologische Dienst Nederland TNO (basisfinanciering).
+
+
+
+
+                                                                                       Pagina 19 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+3.2.5     Is het (versie) beheer van de standaard goed geregeld?
+
+3.2.5.1   Heeft de standaardisatieorganisatie gepubliceerd beleid met betrekking tot
+          versiebeheer van de standaard? (met o.a. aandacht voor migratie van
+          gebruikers)
+          Ja. Het document 'beheer basis geo-standaarden' beschrijft de afspraken
+          over het versiebeheer.
+
+3.2.5.2   Is het standaardisatieproces van de standaardisatieorganisatie zodanig
+          goed geregeld dat het Forum zich kan onthouden van aanvullende
+          toetsing bij de aanmelding van een nieuwe versie van de standaard?
+          Ja, onder voorwaarde dat de adviezen in paragraaf 3.2.6 tijdig (voor 17
+          september 2014) zijn opgevolgd.
+
+          Geonovum heeft het beheer en de verdere ontwikkeling van de set geo-
+          standaarden vormgegeven met behulp van BOMOS, het beheer- en
+          ontwikkelmodel voor open standaarden.
+
+          De expertgroep merkt op dat Geonovum haar werk al jaren op zorgvuldige
+          wijze en naar tevredenheid van de Nederlandse geo-wereld doet. De
+          expertgroep heeft vertrouwen in de werkwijze van Geonovum en de
+          standaarden die door Geonovum worden ontwikkeld.
+
+          Om de kwaliteit van het beheer ook voor de toekomst te borgen, wordt
+          aanbevolen dat Geonovum periodiek een BOMOS2i toets uitvoert.
+
+3.2.5.3   Is het belang van de Nederlandse overheid voldoende geborgd bij de
+          ontwikkeling en het beheer van de standaard?
+          Ja. De Nederlandse overheid is zowel vertegenwoordid in de werkgroepen
+          als in de programmaraad. Daarnaast wordt er regelmatig en via diverse
+          gremia met overheden overlegd (bijvoorbeeld via de PDOK regiegroep).
+          Geonovum ondersteunt bovendien het ministerie van Infrastructuur en
+          Milieu (IenM) en het Beraad voor geo-informatie (GI-beraad) bij de
+          uitvoering van hun verantwoordelijkheden. IenM is verantwoordelijk voor
+          het beleid voor de nationale geo-informatie infrastructuur. Het GI-beraad
+          is meedenker en adviseur voor de minister van IenM over strategische
+          onderwerpen op het gebied van geo-informatie in de publieke sector.
+
+
+
+3.2.6     Conclusie
+          De expertgroep concludeert dat het standaardisatieproces van Geonovum
+          voldoende open en duurzaam is ingericht. Geonovum verdient voor het
+          beheer van de geo-standaarden het predicaat ‘uitstekend beheerproces’
+          onder voorwaarde dat Geonovum:
+              -  de vergaderdata en verslagen van de werkgroepen publiceert op
+                 haar website, zoals beschreven in het document ‘beheer basis
+                 geo-standaarden’;
+              -  publiceert wie er aan de werkgroepen deelnemen;
+              -  waarborgt dat voor alle standaarden in de set geo-standaarden
+                 publieke consultaties worden georganiseerd;
+              -  de publieke consultaties tenminste 30 dagen laat lopen;
+              -  de consultaties (ook) communiceert via haar nieuwsbrief;
+              -  de consultaties aankondigt bij BFS, zodat BFS hierover kan
+                 berichten op haar website/twitterkanaal;
+
+
+                                                                                       Pagina 20 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+               -    regelt dat partijen die bijdragen aan de ontwikkeling van een
+                    standaard hun intellectueel eigendomsrecht onherroepelijk
+                    royalty-free voor eenieder beschikbaar stellen;
+               -    het bovenstaande verwerkt in het document 'beheer basis geo-
+                    standaarden'.
+
+          Om besluitvorming over het toekennen van het predicaat ‘uitstekend
+          beheerproces’ door het College Standaardisatie mogelijk te maken, zal
+          Geonovum voor 17 september 2014 ten genoegen van Bureau Forum
+          Standaardisatie dienen aan te tonen dat aan bovengenoemde
+          voorwaarden is voldaan.
+
+
+
+3.3       Draagvlak
+          Aanbieders en gebruikers moeten voldoende ervaring hebben bij het
+          ondersteunen, implementeren en gebruiken van de standaard.
+
+3.3.1     Bestaat er voldoende marktondersteuning voor de standaard?
+
+3.3.1.1   Bieden meerdere leveranciers ondersteuning voor de standaard?
+          Ja. Veel GIS-leveranciers ondersteunen de standaard. Bovendien is er een
+          groot internationaal speelveld van leveranciers.
+
+3.3.1.2   Kan een gebruiker de conformiteit van de implementatie van de standaard
+          (laten) toetsen?
+          Ja. Geonovum biedt validators om bestanden te valideren tegen de
+          Nederlandse profielen op:
+              -    ISO 19115: http://validatie-
+                   dataspecificaties.geostandaarden.nl/genericvalidator/content/stan
+                   dard/232;
+              -    ISO 19119: http://validatie-
+                   dataspecificaties.geostandaarden.nl/genericvalidator/content/stan
+                   dard/230.
+
+          Geonovum biedt ook conformiteitstoetsen voor de metadataprofielen:
+          http://www.geonovum.nl/wegwijzer/validatie.
+
+
+
+3.3.2     Kan de standaard rekenen op voldoende draagvlak?
+
+3.3.2.1   Wordt de aangemelde versie van de standaard binnen het
+          organisatorische werkingsgebied door meerdere organisaties gebruikt?
+          Ja. Beide aangemelde gewijzigde standaarden zijn al sinds 2011
+          vrijgegeven en zijn gebaseerd op internationale standaarden. Veel GIS-
+          leveranciers ondersteunen de nieuwe versies van de standaard. Bovendien
+          is er een groot internationaal speelveld van leveranciers. De metadata
+          wordt nationaal gepubliceerd voor de dataproviders die dit willen. Op dit
+          moment zijn dit zo’n 100 organisaties. Op 22 mei 2014 zaten er 7.215
+          datasets volgens de metadatastandaard voor geografie en 354 services
+          volgens de metadata standaard voor services in het nationaal georegister
+          (www.nationaalgeoregister.nl).
+
+3.3.2.2   Wordt een vorige versie van de standaard binnen het organisatorische
+          werkingsgebied door meerdere organisaties gebruikt?
+          Ja. De meeste betrokken organisaties werken met de standaarden.
+
+
+                                                                                       Pagina 21 van 24
+          Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+3.3.2.3   Is de aangemelde versie backwards compatible met eerdere versies van
+          de standaard?
+          Ja. Het gaat om kleine wijzigingen.
+
+3.3.2.4   Zijn er voldoende positieve signalen over toekomstige gebruik van de
+          standaard door (semi-)overheidsorganisaties, het bedrijfsleven en
+          burgers?
+          Ja. De leden van het GI-beraad, het beraad voor de Geo-Informatie,
+          ondersteunen de aanmelding.
+
+
+
+3.3.3     Conclusie
+          De expertgroep concludeert dat er voldoende ICT-dienstverleners zijn die
+          de standaard ondersteunen en dat de standaard door voldoende
+          organisaties wordt gebruikt. Ook kunnen gebruikers de conformiteit van
+          de implementatie van de standaard toetsen. De expertgroep concludeert
+          dat de ervaring van aanbieders en gebruikers met het ondersteunen,
+          implementeren en gebruiken van de standaard voldoende is.
+
+
+
+3.4       Opname bevordert adoptie
+          De opname op de lijst is een geschikt middel om de adoptie van de
+          standaard te bevorderen.
+
+          Er zijn twee lijsten: de lijst met gangbare standaarden en de lijst voor ‘pas
+          toe of leg uit’. Deze laatste lijst is bedoeld om standaarden een extra
+          stimulans te geven wanneer:
+          1. Hun huidige adoptie binnen de (semi-)overheid beperkt is;
+          2. Opname bijdraagt aan de adoptie door te stimuleren o.b.v. het ‘pas
+              toe of leg uit’ regime.
+
+          De lijst met gangbare standaarden vormt een referentie voor standaarden
+          die veel gebruikt worden. Als standaarden voldoen aan enkele
+          basisvoorwaarden (voor o.a. openheid), er is geen discussie over en de
+          standaarden worden breed gebruikt, dan vindt opname op die lijst plaats.
+
+          Voor de geo-standaarden geldt dat een opname op de lijst voor ‘pas toe of
+          leg uit’ wordt voorzien.
+
+
+
+3.4.1     Is de “pas toe of leg uit”-lijst het passende middel om de adoptie van de
+          standaard binnen de (semi)overheid te bevorderen?
+          Ja. De adoptie van de standaarden is hoog, maar het gebruik ervan is nog
+          niet in alle gevallen vanzelfsprekend. Opname op de ‘pas toe of leg uit’-
+          lijst is daarom het passende middel om de adoptie van de standaarden
+          verder te bevorderen. Opname op deze lijst benadrukt de kwaliteit en
+          onderschrijft het belang van de standaarden voor het geodomein.
+
+          De vorige versies van de standaarden zijn al opgenomen op de ‘pas toe of
+          leg uit’-lijst. Deze zullen bij opname worden vervangen door de nieuwe
+          versies.
+
+
+
+3.4.2     Is de lijst met gangbare open standaarden het passende middel om de
+          adoptie van de standaard binnen de (semi)overheid te bevorderen?
+          Nee. Zie paragraaf 3.4.1.
+                                                                                          Pagina 22 van 24
+        Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+3.4.3   Conclusie
+        De expertgroep concludeert dat de 'pas toe of leg uit'-lijst het passende
+        middel is om de adoptie van de standaarden binnen de (semi)overheid te
+        bevorderen.
+
+
+
+3.5     Adoptieactiviteiten
+
+        Gebruik van de standaard is het einddoel van het Forum en College.
+        Plaatsing op de lijsten is hiervoor een goede stap, maar voor het
+        daadwerkelijk adopteren (implementeren en gebruiken) van de standaard
+        is vaak aanvullende actie benodigd. Aanvullend kan Forum
+        Standaardisatie dan ook bijdragen aan adoptie van de standaard door het
+        actief inzetten van adoptie-instrumenten of ondersteunende acties. Welke
+        kansen zijn er om de adoptie te versnellen en welke drempels bestaan er
+        die de adoptie van de standaard hinderen?
+
+        De expertgroep doet het College Standaardisatie de aanbeveling om bij de
+        opname op de ‘pas toe of leg uit’-lijst de volgende oproepen ten aanzien
+        van de adoptie van de standaard te doen:
+            -  Geonovum wordt opgeroepen om te publiceren welke
+               implementaties van de standaarden voldoen aan de
+               conformiteitstoets.
+            -  Het Bureau Forum Standaardisatie en Geonovum worden
+               opgeroepen om gezamenlijk te kijken hoe ze kunnen
+               samenwerken om de geo-standaarden onder de aandachte te
+               brengen en adoptie van de standaarden te bevorderen.
+            -  De wetgever en het ministerie van Infrastructuur en Milieu worden
+               opgeroepen om de semantische knelpunten, waarnaar Geonovum
+               momenteel onderzoek doet, te zijner tijd voortvarend aan te
+               pakken via nieuwe wetsontwerpen.
+            -  Beheerders van sectorale informatiemodellen, de modellen van de
+               geografische basisregistraties en de dataspecificaties van de
+               Europese richtlijn INSPIRE worden opgeroepen om semantiek
+               (begrippen en definities) te publiceren in het geo-
+               conceptenregister van Geonovum (of ander centraal register) om
+               zo te werken aan een geharmoniseerd stelsel van geografische
+               informatiemodellen.
+
+        De opgeroepen partijen worden gevraagd om één jaar na opname van de
+        stadaard over de voortgang op deze punten te rapporteren aan het Forum
+        Standaardisatie.
+
+
+
+
+                                                                                    Pagina 23 van 24
+    Expertadvies geo-standaarden | Forum Standaardisatie | 31 juli 2014
+
+
+
+
+4   Referenties
+
+
+
+    [1]       Actieplan Nederland Open in Verbinding, 's-Gravenhage:
+              Ministerie van Economische Zaken, 2007.
+
+    [2]       "Pas toe of leg uit" is vastgelegd in de "Instructie rijksdienst bij
+              aanschaf ICT-diensten of ICT- producten" van 8 november 2008,
+              en daarnaast in convenanten en afspraken met decentrale
+              overheden. http://www.forumstandaardisatie.nl/open-
+              standaarden/voor-overheden/pas-toe-of-leg-uit-regime/
+
+    [3]       "Instellingsbesluit College en Forum Standaardisatie 2010",
+              https://zoek.officielebekendmakingen.nl/stcrt-2010-4499.html
+
+    [4]       “Toetsingprocedure en criteria voor indieners en experts”,
+              http://www.forumstandaardisatie.nl/open-
+              standaarden/aanmelden-en-toetsing/toetsingscriteria/
+
+
+
+
+                                                                                     Pagina 24 van 24
+

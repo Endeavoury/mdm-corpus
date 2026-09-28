@@ -1,0 +1,860 @@
+                                     A Consensus                                      Glossary                          of Temporal              Database          Concepts*
+
+                                     Christian S. Jensen James Clifford      Ramez Elmasri
+                                   Shashi I<. Gadia      Pat Hayes Sushi1 Jajodia    (editors)
+                      Curtis Dyreson        Fabio Grandi    Wolfgang K&fer Nick Kline       Nikos Lorentzos
+                  Yamzis Mitsopoulos      Angelo Montanari      Daniel Nonen   Elisa Peressi Barbara Pernici
+                             John F. Roddick      Nandlal L. Sarda Maria Rita Scalas Arie Segev
+                  Richa.rd T. Snodgrass      Mike D. Soo Abdullah Tansel      Paolo Tiberio     Gio Wiederhold
+
+
+                                                    Abstract                                                                         that are well-defined, well understood, and widely used. The
+                                                                                                                                     proposal meets a need for creating a higher degree of con-
+  This document          contains     definitions       of a wide range of con-                                                      sensuson the definition and naming of central concepts from
+ cepts specific to and widely used within                      tempoml     databases.
+                                                                                                                                     within the field. The use of inconsistent terminology ad-
+ In addition       to providing        definitions,        the document       also in-
+                                                                                                                                     versely affects the accessibility of the literature-to mem-
+ cludes sepamte explanations                of many of the defined concepts.
+                                                                                                                                     bers of the community as well as others-and has an adverse
+  Two sets of criteria are included.                First, all included concepts
+                                                                                                                                     effect on progress.
+ were required to satisfy           four relevance criteria,           and, second,
+ the naming of the concepts was resoloed using a set of evalua-                                                                          This document is a digest of a full version of the glossary.
+ tion criteria.      The concepts are grouped into three categories:                                                                 The full version does not contain any additional definitions,
+ concepts of general           database interest,            of temporal     database                                                but include.. discussionsof the particular choices of namesfor
+ interest,    and of specialized          interest.       This document        is a di-                                              the concepts. Thus, when several different names were pre-
+gest of a fall version             of the glossary’.            In addition      to the                                              viously used for a concept, the alternatives are enumerated
+ material     included here, the full version includes substantial                                                                   and discussed.
+ discussions of the naming of the concepts.                                                                                              The history of this document (and its full version) may be
+      The consensus effort that lead to this glossary was initi-                                                                     described as follows. An initial glossary of temporal database
+ ated in Early 1992. Earlier                  status documents           appeared in                                                 concepts arose from e-mail discussionswhen appropriate tkr-
+ March     1993 and December                 1992 and included            terms pro-                                                 minology was considered for the book Temporal        Databases:
+posed after an initial glossary appeared in SIGMOD                              Record                                                Theory, Design, and Implementation,      edited by A. Tansel,
+ in September         1992.      The present glossary subsumes all the                                                               J. Clifford, S. Gadia, S. Jajodia, A. Segev, and R. Snod-
+previous documents.               It was lnost recently discussed at the                                                             grass, from Benjamin/Cummings Publishers. That glossary
+  “ARPA/NSF           International         Workshop         on an Infrastructure                                                    also appeared in t*heSeptember 1992 issue of the ACM SIG-
+for Temporal Databases, ” in Arlington,                       TX, June 1993, and                                                     MOD Record. The effort continued, independently of the
+ is recommended          by a significant       part of the temporal database                                                        book, and the community was invited to submit proposals
+ community.         The glossary meets a need for creating a higher                                                                  to an open mailing list. As results, status documents ap-
+ degree of consensus on the definition                   and naming of tempoml                                                       peared in December 1992 and in March 1993. In June 1993,
+ database concepts.                                                                                                                  a complete document of the 100 glossary entries proposed to
+                                                                                                                                     date was discussedamong 44 temporal database researchers
+                                                                                                                                     at the “ARPA/NSF International Workshop on an Infras-
+1          Introduction                                                                                                              tructure for Temporal Databases,” in Arlington, TX, with
+                                                                                                                                     the goal of obtaining a widely agreed upon glossary. An ed-
+A technical language is an important infrastructural com-                                                                            itorial board has since supervised a revision of the glossary
+ponent, of any scientific community. To be effective, such a                                                                         baaed on the input from the workshop. The present glossary
+language should be well-defined, intuitive, and agreed-upon.                                                                         is a digest of the result. Each individual who contributed
+This document contains recommended definitions and names                                                                             significantly to the glossary effort is a coauthor of this doc-
+for a wide range of concepts specific to temporal databases                                                                          ument .
+       *Correspondence                   may       be directed           to the electronic              mail      distribu-              The document is organized as follows. The next section
+tion,       tdbglossaryQcs.arizona.edu,                             or to the editor,            C. S. Jensen,                 at    first lists four relevance criteria for concepts, then lists nine
+Aalborg           University,           Datalogi,        Fr. Eajers         Vej 7E, DK-9220                   Aalborg          0,
+                                                                                                                                     evaluation criteria for the naming of concepts. Finally, the
+Denmark,               cs j@iesd        .auc .dk.        The   affiliations        and e-mail              addresses            of
+the many              contributors             may be found             in a separate        section           at the end            structure of a glossary entry for a.concept is explained. The
+of the document.                                                                                                                     next three sections constitute the main body of the glossary
+       ‘The       full version          of the glossary        is available         via anonymous                  ftp from          and contain glossary entries for concepts. The first includes
+cs.arizona.edu                     where        it may      be found         in the tsql           directory             along
+                                                                                                                                     entries for concepts that are expected to be of interest to
+with        other       material          related      to t,he ongoing           glossary         initiative.               It is
+also available                as Technical           Report     R 93-2035             (November               1993)       from       researchers within the general database area. The second
+Aalborg           University.                                                                                                        covers concepts tha.t are expected to be of general interest
+
+                52                                                                                                             SIGMOD      RECORD, Vol. 23, No. 1, March 1994
+wit.hin t,empora.l databases      only. The third covers the re-            E7    New na.messhould be consistent, with relat.ed aud         a.lrea.d\
+maining concepts of more specialized interest.         Finally, the               esisting and accepted names.
+a.ffilia.tions and e-mail addresses of the aut.hors are listed, and
+                                                                            ES Names should be intuitive.
+an indes is included on the last pa.ge.
+                                                                            E9    Na.messhould be precise.
+
+2      Relevance          and Evaluation                     Crite-
+                                                                            2.3          Structure          of the   Glossary
+       ria for the        Glossary
+                                                                            The following template is used           for presenting the concepts of
+2.1      Relevance      Criteria     for         Concepts                   t,lie glossary.
+
+It. has been at,tempt,ed to name only concepts          tha.t fulfill the    Nrrme-the chosen name of t.he concept is useclas the head-
+followiug four requirements.                                                    ing.
+
+                                                                             Definition-the            definition of the concept.
+Rl    The concept, must he specific to temporal databases.
+      Thus, concepts used more generally are excluded.                       E~~lallutio?I-further exploration of the definition and its
+                                                                                consequences,including exemplification; this section is
+R2    The concept must be well-defined. Before att,empting t.o
+                                                                                optional.
+      name a concept, it is necessary to a.greeon the definition
+      of the concept itself.                                                The full version extends           the template with these items.
+
+R.3 The concept must be well understood.         We have at.-                Previously          Used Names-list     of previously used names.
+      tempted to not name a concept if a. clear understanding
+                                                                             Discussion   of Naming-reasons for the particular choice of
+      of the appropriateness, consequences, and implications
+                                                                                  name (aud concept) and reasons for not selecting previ-
+      of the concept is missing. Thus, we avoid concepts from
+                                                                                  ously used names (and concepts).
+      research areas that are currently being explored.
+                                                                            Na.mes of concepts that are defined in the glossary are
+R4    The concept must be widely used. We have a.voided                     typeset. with a special font. For example, valid time and
+      concepts used only sporadically within the field.                     transaction  time have entries in the glossa.ry. The special font.
+                                                                            is only used for the first occurrence of a name in a subsection
+2.2      Evaluation       Criteria         for      Naming       Con-       of a glossary entry, and only if the entry of the name n1a.y
+         cepts                                                              be found in the current section or in an earlier section. To
+                                                                            locate a. particular glossary entry, use t,he index at the end
+Below is a list of criteria for what is a good name. Contrib-               of the document.
+utors have been encouraged to reference these criteria when
+proposing glossary entries. The criteria, are sometimes con-
+flicting, making the choice of names a difficult and challeng-              3      Concepts                 of General          Database        In-
+ing task. While the list is comprehensive, it is not complete.                     t erest
+El    The naming of concepts should be orthogonal. Parallel
+                                                                            3.1          Valid       Time
+      concepts should have parallel names.
+                                                                            Definition
+E2    Names should be easy to write, i.e., they should be short             The valid time of a fact is the time when the fact is true in
+      or possessa short acronym, should be easily pronounced                the modeled reality. A fact may have associated any number
+      (the name or its acronym), and should be appropriate                  of instants and time intervals, with single instants and inter-
+      for use in subscripts and superscript,s.                              vals being important special cases. Valid times are usually
+                                                                            supplied by the user.
+E3    Already widely accepted names are preferred over new
+      names.
+                                                                            3.2          Transaction          Time
+I34 Names should be open-ended in the sensethat the name                    Definition
+      of a concept should not prohibit t.he invention of a. par-            A database fact is stored in a database at some point in
+      allel name if a parallel concept is defined.                          time, and after it is stored, it is current until logically
+E5    The creation of homographs and homonyms should be                     deleted. The transaction time of a database fact is the t,ime
+      avoided. Names with an already accepted meaning, e.g.,                when the fact is current in the database and may be re-
+      an informal meaning, should not be given an additiona.                trieved. Transaction times are consistent with the serial-
+      meaning.                                                              ization order of the transactions. Transaction-time values
+                                                                            cannot be later than the current tra.nsaction time. Also, as
+E6    The naming of concepts should be conservative.                  No    it, is impossible to change the past, transaction times can-
+      name is better than a bad name.                                       not. be changed. Transaction times may be implement.ed
+
+          SIGMOD RECORD, Vol. 23, No. 1, March 1994                                                                                    53
+using transaction      commit       times,   and    a.re system-generated     Explauatiou
+and -supplied.                                                                in the a.dopt*ed definition. “bi” refers t,o the esistence
+                                                                              of esactly two times.          An alternative definition stat,es
+                                                                              that a bitemporal relation has one or more system-
+3.3     User-defined              Time
+                                                                              supported valid times and one or more system-support,ed
+Definition                                                                    transaction   times.   In this definition. “bi” refers to the ex-
+ CJser-defined time is an uninterpreted attribute domain of                   istence of exactly two types of t,imes.
+date and time. User-defined time is parallel to domains                            Most rela.tions involving both valid and transaction time
+such as “money” and integer- unlike transaction       time and                a.rebitempora.1 a.ccording to both definitions. Being the most
+valid time,   it has no special query language support. It may                restrictive, the a,dopted definition is the most desirable: It is
+be used for attributes such a.s“birth day” and “hiring da.te.”                t.he tightest fit, giving the most precise characterization.
+                                                                                   The definition of bitempora.1 is used as the basisfor applg-
+                                                                              ing bitemporal as a modifier to other concepts such as “quer!
+3.4     Temporal           Data      Type                                     language.” This a.dds more import.ant. reasons for preferring
+Definition                                                                    the adopted definition.
+The user-defined temporal data type is a time representation                       Independently of the precise definition of bitempora.1, a.
+specially designed to meet the specific needsof the user. For                 query language is bitemporal if and only if it supports any
+example, the designers of a database used for classscheduling                 hitemporal relation, see Section 3.9. With the adopted de6
+in a school might be based on a “Year:Term:Day:Period” for-                   nition, most4query langua.gesinvolving both valid and trans-
+mat. Terms belonging to a. user-defined temporal data type                    action time may be charact,erized as bitemporal. With t.he
+get the same query la.nguage support as’do terms belonging                    a.lternative definition, query language.. that are bitempora.1
+to built-in temporal data types such as the DATE data t.ype.                  under the adopted definition are no longer bitemporal. This
+                                                                              is a seriousdrawback of the a.lt.ernative definition. It, excludes
+                                                                              the possibility of nan~ing langua.ges that may be precisely
+3.5     Valid-time          Relation                                          named using the adopted definition. With t,he a.lternat.ive
+Definition                                                                    definition, those query langua.ges have no (precise) name.
+A o&d-time relation is a relation with exactly one system                     Wha.t we get is a. concept and name (bitemporal query la.n-
+supported valid time. There are no restrictions on how valid                  guage) for which there is currentJy little or no use.
+times may be incorporated into the t,uples; e.g., the valid-                       Also, note t*hat a query language that is bitemporal wit.11
+times may be incorpora.ted by including one or more ad-                       the a.lternative definition is also bibemporal with regard t.o
+ditional valid-time attributes in t.he rela.tion schema, or by                t.he adopted definition (but the adopted definition does 1101
+including the valid-times as a component of the values of the                 provide a precise charact,erization of this query langua.ge).
+application-specific attributes.                                              Thus, the restrictive definition of a bitemporal relation re-
+                                                                              sults in a non-restrictive definit,ion of bitemporal query lan-
+                                                                              guage (and vice-versa,).
+3.6     Transaction-time                 Relation                                  We choose tSo name rela.tions as opposed t.o databases
+Definition                                                                    beca.usea. database ma.y contain several types of relations.
+A ttnnsaction-time relation is a relation with exa.ctly one sys-              Thus, na.ming relations is a more general approach.
+tem supported transaction    time.  .4s for valid-time relations,
+there are no restrictions as to how transaction times may be                  3.9     Snapshot,    Valid-     and Transaction-time,
+incorporated into the tuples.                                                         and Bitemporal         as Modifiers
+                                                                              The definitions of how “snapshot .” “va.lid-time,” “tmns-
+3.7     Snapshot         Relation                                             action-time,” and “bitemporal” apply to relations provide
+Definition                                                                    the basis for applying these modifiers to a. range of other
+Relations of a conventional relational database system incor-                 concepts. Let t be one of snapshot.. valid-time, transaction-
+porating neither va.lid-time nor transaction-time timestamps                  time, a,nd hitemporal. Twenty derived concepts are defined
+a.re snapshot relations.                                                      as follows.
+
+                                                                              relational database An E relational database contains one
+3.8     Bitemporal           Relation                                               or more E relations.
+Definition                                                                    relational algebra An I relational algebra. has relations of
+A bitemporal       relation          is a. rela.tion with exactly one               type x as basic objects.
+system supported valid time                  aad exactly one system-
+supported transaction          time.      As for valid-time   relations and    relational query language An t relational query lan-
+transaction-time    relations,        there a.re no restrictions as to how           guage manipulates any possible x relation. Had we used
+either of these temporal dimensions may be incorporated into                         “some” instead of “any” in t,his definition, t.he defined
+t,he tuples.                                                                         concept would be very imprecise.
+
+             54                                                             SIGMOD    RECORD, Vol. 23, No. 1, March 1994
+data     model          An t data model has a.111: query langua.geand      Explanation
+        supports        the specification of constraints on any 5’ rela-   Da.ta models may represent a time line by a sequence     of uon-
+        tion.                                                              decomposable, consecutive time interva.ls of identical dura-
+                                                                           tion. These intervals are termed chronons. A data. model will
+DBMS          An 2 DBMS supports an c data model.                          t.ypically leave the particular chronon duration unspecified,
+                                                                           to be fixed la.ter by the individua.1 applica.tions, within the
+    The two model-independent terms, data model and                        restrictions posed by the implementation of t,he data. model.
+ DBMS, may he replaced by more specific terms. For ex-
+ample, “data model” may be replaced by 9elational data
+                                                                           3.14          Time         Interval
+model” in “bitemporal da.ta model.”
+    The nouns that have been modified above are not spe-                   Definition
+cific to temporal da.tabases. Nouns specific to t.empora.1                 A tzme mterual is the time between two inst.al1t.s.ln a system
+databases, such as instant, chronon,   interval, element, aad              t,hat supports a time line composed  of chronons,   a.11int.erva.1
+span,  may be modified by “valid-time,” “transaction-time?”                may be represented by a.set of contiguous chronons.
+and “bitemporal.”
+
+                                                                           3.15          Temporal             Element
+3.10          Temporal          as Modifier                                Definition
+Definition                                                                 A temporal             element   is a. finite union of n-dimensiona.l
+                                                                           time   intervals.         Special cases of temporal elements include
+The modifier temporal is used to indicate that the modified
+                                                                           valid-time          elements,    transaction-time   elements.   and   bitempo-
+concept concerns some aspect of time.
+                                                                           rvll elements. They a.re finite unions of valid-time int,ervnls.
+                                                                           transaction-time intervals, and bitemporal intervals, respec-
+-3.11         Temporal          Database                                   tively.
+Definition
+                                                                           Explanation
+.4 temporul        database      supports some aspect of time, not         Observe that tempora.1elements are closed under t.he set t.he-
+counting user-defined          time.
+                                                                           oretic operations of union, intersection and complementa-
+                                                                           tion. Temporal elements a.re often used as t,imesta.mps. A
+3.12          Instant                                                      temporal element may be represented by a set, of chronons.
+
+Definition
+                                                                           3.16          Span
+An instant is a time point on an underlying time axis.
+                                                                           Definition
+Explanation                                                                A spun is a directed dura.tion of time. A duration is a.11
+                                                                           amount of time with known length, but no specific starting
+Various models of time have been proposed in the philosoph-
+                                                                           or ending instants.  For example, the dura.tion “one week”
+ical a.nd logical literature of time. These view time, a.mong
+                                                                           is known to ha.ve a, length of seven da.ys, but can refer t,o
+ot*her things, as discrete, dense, or continuous. Intuitively,
+                                                                           any block of seven consecutive days. A spa.n is either posi-
+the insta.nts in a discrete model of time are isomorphic to the
+                                                                           tive, denoting forwa.rd motion of time, or negat,ive, denoting
+natural numbers, i.e., there is the notion that every instant
+                                                                           backwa.rds motion in time.
+has a unique successor. Instants in the dense model of time
+a,re isomorphic to (either) the real or rational numbers: be-
+tween any two instants there is always another. Continuous                 3.17          Timestamp
+models of time are isomorphic to the real numbers, i.e., both              Definition
+dense and a.lso,unlike the rational numbers, with no “gaps.”               A timestamp      is a time value associated with some ol,ject,,
+   In a data model that supports a time line using chronons                e.g., an a.ttribute value or a tuple. The concept may be spe-
+(isomorphic to the natural numbers or a subset thereof), an                cialized to valid timestamp, transaction timestamp, interval
+instant is represented by a chronon. A single chronon ma,y                 timestamp, instant timestamp, bitempora.l-element times-
+t,herefore represent multiple instants.                                    tamp, etc.
+
+3.13          Chronon                                                      3.18          Lifespan
+Definition                                                                 Definition
+In a dat,a model, a one-dimensional chronon               is a non-        The lifespan    of a database object is the t,ime over which it. is
+decomposable time interval          of some fixed, minimal duration.       defined. The valid-time    lifespan      of a database object. refers t.o
+An n-dimensional chronon is a non-decomposable region in                   the time when the corresponding object exist,s in the mocl-
+n,-dimensiona. time. Important specia.1types of chronons in-               eled rea.lity, whereas the transaction-time        lifespan refers to t,he
+clude valid-time, transaction-time,       and bitemporal chronons.         time when the database object is current, in t,he dat,abase.
+
+             SIGMOD RECORD, Vol. 23, No. 1, March 1994                                                                                     55
+    If the object (aktribute,  t;uple, rela.tion) has a.n associa.ted    when applied to a valid-time    or a. bitemporal       relation,   respec-
+timestamp    then the 1ifespa.n of tJ1a.t ot>ject is the value of the    tively; other opera.tors may always return          a. result. relation of
+t.imesta.mp. If components of an object are timestamped,                 the sa.me t,ype as the a.rguinent. relation.
+then the lifespan of t,he oblect is det.ermined by the particular
+data    model   being   employed.
+                                                                         3.22         Schema       Evolution
+
+3.19        Calendar                                                     Definition
+                                                                         A database   syst,em supports schen~.o ezloltltion if it, permits
+Definition
+                                                                         modification of the database schema. without. the loss of es-
+A calendar provides a human irkerpretation          of time. As          tant da.ta. No support) for previous schemas is required.
+such, calendars ascribe meaning to temporal va.lues where t,he
+particular meaning or int,erpretation    is relevant to the user.
+In particular,   calendars determine the ma.pping between                3.23         Schema      Versioning
+human-meaningful      time values a.nd an underlying time-line.
+                                                                         Definition
+
+Explanation                                                              A database     system accommodates      scl~ema versioning if it
+                                                                         allows the querying of all da.ta, both retrospectively       and
+Calendars are most often cyclic, allowing human-meaningful
+                                                                         prospectively,   through user-definable version interfa.ces.
+time values to be expressed succinctly.   For example, dates
+in the common Gregorian calendar may be expressed in the
+form <month day, year> where each of the fields month,                   Explanation
+day, and year cycle as time passes.                                      While support    for schema versioning implies the support for
+                                                                         schema   evolution, t,he reverse is not true. Support, for schema
+                                                                         versioning requires that a history of changes be maintained
+3.20        Transaction-timeslice              Operator                  to enable the retention of past. schema definitions.
+Definition
+The transaction    timeslice operator may be applied to a.ny
+relation with transaction     time    t,imesta.mps.      It takes as     3.24         Event
+one argument the relation and as a second argument, a.                   Definition
+transaction-time element    whose greatest,     value  must   not, ex-   .411 event is an instantaneous      fact, i.e., somet.hing occurring
+ceed the current transaction       time. It returns the argument,        at a.n instant. An event    is sa.id to occur a.t a. chronon    t if it
+relation reduced in the transaction-time          dimension to just      occurs at any instant. during t.
+those times specified by the transa.ction-time        argument.
+
+Explanation                                                              3.25         Event     Occurrence        Time
+Several types of transaction-timeslice   operators are possible.         Definition
+Some may restrict the type of the time argument to intervals
+                                                                         The event occurrence time of an event, is t.he valid-time
+or instants.  Some operat.ors may, given an instant as time
+                                                                         instant at which the event occurs in t,he rea.l-world.
+argument., return a snapshot relation or a valid-time relation
+when applied to a transaction-time     or a bitemporal  relation,
+respectively; other operators may alwa.ys return a result re-            3.26         Spatiotemporal           as Modifier
+lation of the same type as the argument. rela.tion.
+                                                                         Definition
+                                                                         The modifier spatiotemporul is used to indicat.e that the mod-
+3.21        Valid-timeslice         Operator                             ified concept concerns simultaneous support. of some aspect
+Definition                                                               of time and some aspect of space, in one or more dimensions.
+The valid timeslice operator may be applied to a.ny relation
+with valid time timestamps.   It takes as one argument the
+relation and as a second a.rgument a valid-time    element. It           3.27         Spatial    Quantum
+returns the argument relation reduced in the valid-time di-              Definition
+mension to just those times specified by the valid-time argu-            A spatial quantum (or simply quantum, when the sense is
+ment .                                                                   clear) is the shortest distance (or area or volume) of space
+                                                                         supported by a spatial DBMS-it       is a nondecomposable re-
+Explanation                                                              gion of space. It can be associated with one or more dimen-
+Several types of valid-timeslice operators are possible. Some            sions. A particular unidimensional      quantum is an interval
+may restrict the type of the time argument to intervals            or    of fixed length along a single spatial dimension. A particu-
+instants. Some operators may, given an instant as time a.rgu-            lar three-dimensional  quantum is a fixed-sized, lo&ted cubic
+ment, return a snapshot    relation or a transaction-time relation       volume of space.
+
+                                                                    SIGMOD RECORD, Vol. 23, No. 1, March 1994
+3.28      Spatiotemporal            Quantum                                      4.4        Fixed        Span
+Definition                                                                       Definition
+A spatiotemporul     quantum. (or simply quantum, when the                       A span is fixed if it. possesses the special property       that it,s
+sense is clear) is a. non-decomposable    region in two, three,                  durat,ion is independent of the context.
+or four-space, where one or more of the dimensions are spa-
+tia.1 and the rest, at least one, are temporal.                                  Explanation
+                                                                                 As aa example of a fixed span, “one hour” always, indepen-
+                                                                                 dently of t.he context, has a. duration of GO minutes (dis-
+4      Concepts              of General              Temporal                    counting leap seconds). To see that not a.11spans are fixed,
+       Database            Interest                                              consider “one month,” an example of a, variable    span in the
+                                                                                 Gregorian   calendar. The duration of this span ma.y be any of
+4.1     Absolute       Time                                                      28, 29, 30, and 31 da.ys, depending on the context.
+Definition
+The modifier absolute indicates that, a specific valid time at,                  4.5        Variable           Span
+a given timestamp  granularity is associated with a fact. Such
+                                                                                 Definition
+a time depends neither on the valid time of another fact nor
+on the current time, now.                                                        A span is variable if its dura.tion is dependent on the context,.
+
+ Explanation                                                                     Explanation
+ Examples are: “Mary’s salary was raised on March 30, 1993”                      Any span is either a fixed span or a variable span. An obvious
+ and “Jack was killed on 10/12/1990.”                                            example of a variable span is “one month,” the duration of
+     Notice that absolute times are associated with chronolog-                   which may be any of 28, 29, 30, and 31 days, depending on
+‘ically definite statements only.                                                the context, Disregarding the intricacies of leap seconds, the
+                                                                                 span “one hour” is fixed because it always, independently of
+                                                                                 the context, has a duration of GO minutes.
+4.2     Relative      Time
+Definition
+                                                                                 4.6        Bitemporal              Interval
+The modifier nzlative indicates that the valid time of a fact is
+rela.ted to either the valid time of another fact or the current                 Definition
+time, nozu.                                                                      A &temporal interval is a. region in two-space of valid time
+                                                                                 and transaction    time,    with sides parallel to the a.xes. When
+Explanation                                                                      associated in the database with some fact, it identifies when
+The relationship    between times can be qualitative (before,                    that, fact, recording that something was t.rue in rea.lity dur-
+after, etc.) as well as quantitative       (3 days before, 397 years             ing the specified interval      of valid time, was logically in the
+after, etc.).                                                                    database during the specified interval of transaction time.
+    Examples are: “Mary’s sala.ry was raised yesterday,”            “it              A bitemporal       interval can be represented with a non-
+happened sometime last week, ” “it. happened within 3 days                       empty set of bitemporal chronons.
+of Easter, ” “the Jurassic is sometime after the Triassic,” and
+“the French revolution occurred 397 years after the discovery                    4.7        Spatiotemporal                 Interval
+of America.”
+    Notice that both chronologically          indefinite and definite            A spatiotem.poml interval is a. region in n-space, where a.t
+st,atements can involve relative    times.                                       least one of the axes is a spatial dimension and the remaining
+                                                                                 axes are temporal dimensions, with the region having sides
+                                                                                 that are parallel to a.11axes. When associa.ted in the dat.abase
+4.3     Temporal           Expression                                            with some fact, it identifies when and where tha.t fact was
+Definition                                                                       true.
+A tempoml expression is a synta.ctic construct   used in a                           A spatiotemporal    interval  can be represented by a non-
+query that evaluates to a temporal value, i.e., an instant,                      empty set of spatiotemporal      quanta.
+a time interval, a span, or a temporal element.
+
+                                                                                 4.8        Spatiotemporal                 Element
+Explanation
+All approaches to temporal databases allow relational expres-                    Definition
+sions. Some only allow relational expressions, and thus they                     A spatiotemporal     element consists of a finite union of
+are unisorted.  Some allow relational expressions, temporal                      spatiotemporal            Spatiotemporal
+                                                                                                       intervals.          elements are closed
+expressions, a.nd also possibly boolean expressions. Such ex-                    under the set theoretic operations of union, intersection a.nd
+pressions may be defined through mutual recursion.                               complementation.
+
+          SIGMOD        RECORD,         Vol.   23, No.    1, March        1994                                                          57
+4.9        Snapshot            Equivalent/                                                          Thus the set of tuples in snapshots of z and the set of tuples
+           Weakly         Equivalent                                                                in snapshots of y are required to be identical. This is required
+                                                                                                    only when each tuple has some non-empty snapshot.
+Definition
+Informally,     two tuples are snapshot equivalent or weakly
+quruafent if the snapshots of the tuples at all times axe iden-                                     Explanation
+tical.                                                                                              The concept of value equivalent t,uples has been shaped t,o
+    Let temporal    relation schema R have n time dimen-                                            be convenient when addressing concepts such as coalescing,
+sions, Di, i = 1, . . . , n, and let ri, i = 1, . . . , n be cor-                                   normal   forms,  etc.   The concept is distinct  from related  no-
+responding timeslice operators, e.g., the valid timeslice    and                                    tions of the normal form SGlNF and nzergeable tuples.
+transaction timeslice operators.  Then, formally, tuples t and                                          Phrases such as “having the same visible a.ttribute va.lues”
+y are snapshot equivalent if                                                                        and “ha.ving    duplica.te va.lues” have been used previously.
+
+
+      Vtl E DI . .Vt, E D,,(                                                                        4.13          Coalesce
+                 r;“. (. . (Tt’, (x)) . . .) = rL(.               . . (r/*(y))        . .)) .       Definition
+                                                                                                   The         coalesce          operation      takes as argument        a set of
+Similarly, two relations are snapshot equivalent or weakly
+                                                                                                   value-equivalent               tuples    and returns a single tuple which is
+equivalent if at every instant their snapshots are equal. Snap-                                    snapshot           equivalent       with  the argument set of tuples.
+shot equivalence, or weak equivalence, is a binary relation
+that can be applied to tuples and to relations.
+                                                                                                   Explanation
+                                                                                                   Coalesce is an example of a snapshot-equivalence             preserving
+4.10        Snapshot-Equivalence         Preserving                                       Op-
+                                                                                                   operation        which  reduces the cardinality of a set of argument
+            erator/Weakly      Invariant    Operator                                               tup1es.
+Definition                                                                                              The concept of coalescing has found widespread                use in
+A unary operator        F is snapshot-equivalence     preserving or                                connection with data models where tuples are associat,ed
+,weakly invariant      if relation v is snapshot     equivalent, or                                with interval-valued timestamps.          In such models, two or more
+weakly    equivalent, to P’ implies F(r) is snapshot equivalent,                                   value-equivalent       tuples  with consecutive or overlapping times-
+or weakly equiva.lent, to F(r’).      This definition may be ex-                                   tamps typically are required to be or ma.y be repla.ced by a
+t,ended   to operators that accept two or more argument rela-                                      single, value-equivalent tuple with an interval-va.lued times-
+t.ion inst,ances.                                                                                  tamp which is the union of the timesta.mps of the origina.
+                                                                                                   t~ples.
+
+4.11        Snapshot            Equivalence                  Class/
+            Weak Relation                                                                          4.14           History
+Definition                                                                                         Definition
+A snapshot equzvalence class or weak relation is a set                                             A history is the temporal representation     of an “object” of
+of relation instances that are all snapshot equivalent, or                                         the real world or of a database. Depending on the object.
+weakly   equivalent, to each other.                                                                we can have attribute histories, entity histories, relationship
+                                                                                                   histories, schema histories, transaction histories, etc.
+4.12        Value      Equivalence
+Definition                                                                                         Explanation
+Informally,    two tuples on the same (temporal)            relation                               “History”    is a general concept,, intended in the sense of “train
+schema are value equivalent if they have identical non-                                            of events connected with a person or thing”.
+timestamp attribute values.                                                                             In the realm of temporal       databases,    the concept      of his-
+    To formally define the concept, let temporal relation                                          tory is intended to include multiple time dimensions as
+schema R have n time dimensions, D;, i = 1, . . , n, and let                                       well as the data models.            Thus we can have valid-time
+?, i = 1,. . , n be corresponding       timeslice operators, e.g.,                                 histories,    transaction-time    histories,   bitemporal       histories,
+the valid timeslice  a.nd transaction timeslice  operators.    Then                                user-defined     time histories, etc. However, multi-dimensional
+t,uples 2 and y are value equivalent if                                                            histories can be defined from mono-dimensional               ones (e.g. a.
+                                                                                                   bitemporal history can be seen as the t,ransaction-time                 his-
+      31 E DI . . .3t, E D,+“,(.                  . . (rt’, (z)) . . .) # 0) A                     tory of a valid-time history).
+      31 E DI . . .3s, E Dn(r;“(..                    .(+(y)),      . .) # 0)                           Formally or informally, the term “history”           has been often
+                                                                                                   used in many temporal database papers, also t#oexplain other
+      UVt,EDl...vIt,ED”        rt(..Yg;(z))...)                   =                                terms. For instance, salary history, object history; transac-
+                  U VSlED,..       Vs.,ED,    kn Sn (.   . (Ti,       (y))   . . .)   .            tion history are all expressions used in t,his respect.
+
+           58                                                                                   SIGMOD RECORD, Vol. 23, No. 1, March 1994
+4.15          History-oriented                                        the length of which varies by a. day depending on whether or
+Definition                                                            not. the particular yea.r is a. leap year.
+A temporal       DBMS is said t&ohe history-oraented if:
+                                                                      4.19          Calendric         System
+  1. It supports history unique identifica.tion (e.g. via time-
+     invariant keys, surrogat,es or OIDs):                            Definition
+                                                                      A calendric system is a collection of calendars.     Each ca.l-
+  2. The integrity of histories as fir&-class objects is inherent     enda.r in a ca.lendric system is defined over contiguous and
+     in the model, in the sensethat history-related integrity         non-overlapping intervals    of an underlying time-line. Cal-
+     constraints might be expressed and enforced, and the             endric systems define the human interpretation of time for
+     data manipulation language provides a mechanism (e.g.,           a particular loca.le as different calendars may be employed
+     history va.ria.blesand qua.ntification) for direct reference     during different intervals.
+     t,o olqt-ct-l~isto7~tes;
+
+                                                                      4.20          Physical        Clock
+4.16          History      Equivalent
+                                                                      Definition
+Definition
+                                                                      A physical clock is a physical process coupled with a method
+Two objects are history eguiualent         if their histories   are   of measuring tha.t process. Although the underlying physical
+shapshot   equivalent. History equivalence    is a binary relation    process is continuous, the physical clock measurements are
+that can be applied to objects of any kind (of the real world         discrete, hence a physical clock is discrete.
+or of a database).
+                                                                      Explanation
+Explanation
+                                                                      A physical clock by itself does not measure time; it only
+Unlike value equivalence  which concerns only explicit-
+                                                                      measuresthe process. For instance, the rota.tion of the Earth
+attribute values and completely disregards time, history
+                                                                      measured in so1a.rdays is a. physical clock. Most physical
+equivalence implies a common evolution along with time (im-           clocks a.re based on cyclic physica. processes (such as the
+plicitly assumesequality of timestamps  as well as explicit-          rotation of the Ea.rth).
+a,ttributes values).
+
+                                                                      4.21          Time-line         Clock
+4.17          Temporal           Interpolation
+                                                                      Definition
+Definition
+The derivation of the value of a history a.t. a chronon for which     In the discrete model of time, a. time-line   clock is a set. of
+a value is not explicitly stored ii1 t.he database, is referred       physical clocks coupled with some specification of when each
+                                                                      physical clock is authoritative. Each chronon     in a time-line
+to as ternpoml   interpolatiota.  This derivation is typically
+                                                                      clock is a chronon (or a regu1a.r division of a. chronon) in
+expressed as a function of preceding and/or succeeding (in
+                                                                      an identified, underlying physical clock. The time-line clock
+time) values of the history.
+                                                                      switches from one physical clock to t,he next at a synchroniza.-
+Explanation                                                           tion point. A synchronization point correlates two, distinct
+                                                                      physical clock measurements. The time-line clock must be
+This concept, is important for large hist.ories (in particular,
+                                                                      anchored at, some chronon to a unique physical state of the
+for continuous scientific data) where da.ta is collected only for
+                                                                      universe.
+a subset of the chronons  in the hist,ory, or where all chronons
+contain data, but interpolation is used as a form of com-
+                                                                      Explanation
+pression. The alternative ilame of temporal      derivation  will
+apply if the definition is extended to encompasscaseswhere            A time-line clock glues t,ogether a sequence of physical  clocks
+
+the derivation is not based on interpolation, but on other            to provide a consistent, clear semantics for a discrete time-
+
+computations or rules.                                                line. A time-line clock provides a clear, consistent semantics
+                                                                      for a discret,e time-line by gluing together a.sequenceof phys-
+                                                                      ical clocks. Since the range of most physical clocks is limited,
+4.18          Gregorian           Calendar                            a time-line clock is usually composed of many physical clocks.
+Definition                                                             For instance, a tree-ring clock can only be used to date past,
+The Gregorian   calendar is composed of 12 months, named in           events, and the a.tomic clock can only be used to date event.s
+order, January, February, March, April, May, June, July, Au-          since the 1950s.
+gust, September, October, November, and December. The
+12 months form a yea.r. A year is either 365 or 366 days in
+                                                                      4.22          Time-line          Clock         Granularity
+length, where the extra da.y is used on “leap years.” Leap
+years are defined as yea.rs evenly divisible by 4, with centesi-      Definition
+ma1years being excluded, unlessthat yea.r is divisible by 400.        The time-line         clock   glnnzdarity            is the uniform duration of
+Each month has a fixed number of days, except for February,           each chronon        in t,he time-line       clock.
+
+
+              SIGMOD        RECORD, Vol. 23, No. 1, March 1994                                                                            59
+4.23         Begimhg                                                      4.28     Temporal        Selection
+Definition                                                                Definition
+The time-line supported by any temporal        DBMS is. by ne-            Facts are ext.ract,ed from a. tempora.1 data.base by means of
+cessity, finite and therefore has a smallest aud largest, rep-            tenlpo& selection when the selection predicate involves the
+resentable chronon.      The distinguished va.lue begznning is a          times associa.tedwith t.he fa.ct,s.
+specia.1va.lid-time instant  preceding the sma.llest chronon on               The generic concept of t,emporal selection may be special-
+the valid-time line. Beginning has no transaction-time se-                ized to include valid-time      selection, transaction-time selec-
+mantics.                                                                  tion, and bitemporal     selectzon.   For exa.mple, in valid-time
+                                                                          selection, fa& are selected based on the va.lues of their as-
+                                                                          sociat.ed valid times.
+4.24         Forever
+Definition                                                                4.29     Temporal        Projection
+The distinguished value forever is a.specia.1valid-t,ime instant          Definition
+following the largest. chronon on t-he valid-time line. Forever           In a query or upda.te stat,ement,  temporul prqjection pairs the
+has no transaction-time semantics.                                        computed facts with t*heir associa.ted times, usually derived
+                                                                          from the associated times of t,he underlying facts.
+                                                                              The generic notion of temporal projection may be applied
+4.25         Initiation                                                   to various specific time dimensions. For example, valid-time
+                                                                          projection   associat,eswith derived facts the times at. which
+Definition
+                                                                          they are valid, usually based on t.he valid t.imesof the under-
+The distinguished value initiation,   associated with a. rela-            lying facts.
+tion, denotes the time instant    when a relation was created.
+“Initiation” is a value in the domain of transaction times and            Explanation
+has no valid-time  semantics.                                             While almost all t,empora.lquery languages support temporal
+                                                                          projection, the flexibility of t.hat support varies greatly.
+                                                                             In some languages, temporal projection is implicit and is
+4.26         Timestamp       Interpretation                               based the intersection of the times of t,he underlying facts.
+Definition                                                                Other languages have specia.1constructs to specify t*einporal
+                                                                          projection.
+In the discrete model of time, the tirnestaln.p interpretation
+                                                                             The name has alrea.dy been used ext.ensively in the liter-
+gives the meaning of each timestamp    bit pa.ttern in terms of
+                                                                          ature. It. derives from the retrieve     cla.use in Quel as well
+some time-line clock chronon  (or group of chronons), tha.t is,
+                                                                          as the SELECTclause in SQL. which both serve the purpose
+the time to which each bit pattern corresponds. The times-
+tamp interpretation is a many-to-one function from time-line              of the relational algebra, operator projection, in addition to
+clock chronons to timestamp bit pa.tterns.                                allowing the specification of derived a.ttribute values.
+
+
+                                                                          4.30     Temporal        Natural      Join
+4.27         Timestamp       Granularity                                  Definition
+Definition                                                                A temporal natural join is a. binary operator that generalizes
+In the discrete model of time, the timestamp            granularity  is   the snapshot natura.1 join t,o incorporate one or more time
+the size of each chronon     in a timestamp   interpretation.       For   dimensions. Tuples in a. tempora.1 na.tural join a.re merged
+example, if the timestamp granularity is one second, then                 if t.heir esplicit join attribute values ma.tch, and they a.re
+the duration of each chronon    in the timestamp interpretation           temporally coincident in the given time dimensions. As in
+is one second (and vice-versa).                                           the snapshot natural join, the relation schema resulting from
+                                                                          a temporal natural join is the union of the explicit attribute
+                                                                          values present in both operand schemas, along with one or
+Explanation                                                               more timestamps. The value of a result timestamp         is the
+Each time dimension has a separate timestamp granular-                    temporal intersection of the input time&amps, that is, the
+ity. A time, stored in a database, must be stored in the                  instants  contained in both.
+timestamp granularity regardless of the granula.rity of that
+time (e.g., the valid-time date January lst, 1990 stored in
+                                                                          4.31     Temporal        Dependency
+a database with a valid-time timestamp granularity of a
+second must be stored as a particular second during that                  Definition
+day, perhaps midnight January lst, 1990). If the context                  Let X and Y be sets of explicit attributes of a temporal       rela-
+is clear, the modifier “timestamp” may be omitted, for ex-                tion schema, R. A te@oral      functional dependency,    denoted
+ample, “valid-time timestamp gra.nularity” is equivalent to               X % I’, exists on R if, for all instances r of R, all snapshots
+ “valid-time granularity.”                                                of 1‘sa.tisfy the functional dependency .X -+ Z..
+
+             60                                                       SIGMOD RECORD, Vol. 23, No. 1, March 1994
+    Note that, more specific notions of temporal functional                   object    (tuple,    reMon.    dakbase),  homogeneity is also spe-
+dependency exist, for valid-time,      transaction-time,     bitemporal,      cific to some time dimension, as in *‘temporally homogeneous
+and   spatiotemporal   relations.    Also       observe that using the        in the valid-time       dimension” or “temporally homogeneousin
+template for temporal functional             dependencies,       temporal     the transaction-time        dimension.”
+multivalued dependencies          may be defined in a straight-
+forward mamler.                                                               Explanation
+    Finally, the notions of temporal keys (super, candidate,                  The motivat,ion for homogeneity a.risesfrom the fa.ct. t,ha.t
+primary) follow from the notion of temporal functional de-                    no timeslices of a homogeneous relation produce null va.lues.
+pendency.                                                                     Therefore a homogeneous relational model is the temporal
+                                                                              counterpa.rt of the snapshot relational model wit.hout nulls.
+Explanation                                                                   Cert,ain da.ta models assumetemporal homogeneity. Models
+Temporal functional dependencies are generalizations of con-                  that employ tuple timest.amping rather than attribut,e-va.lue
+ventional functiona. dependencies. In the definition of a tem-                timest.amping are necessarily temporally homogeneous-onl\
+poral functional dependency, a temporal relation is perceived                 temporally homogeneous relations are possible.
+as a collection of snapshot relations. Each such snapshot of
+any extension must satisfy the corresponding     functional de-
+                                                                              4.36     Temporal        Specialization
+pendency.
+                                                                              Definition
+                                                                               Tempo&      specialization    denotes the restriction of the int.er-
+4.32      Temporal         Normal        Form
+                                                                              relationship between        otherwise independent (implicit or es-
+Definition                                                                    plicit) timestamps        in relations. An example is a relaBion
+A pair (R, F) of a temporal relation schema R and a set of                    where facts are always inserted after they were valid in re-
+associated temporal functional dependencies F is in tempo?xd                  ality. In such a relation, the transaction       time would always
+Boyce-&Id    nomaal form (TBCNF) if                                           be after the valid time. Temporal specialization may be ap-
+                                                                              plied to relation schemas, relation insta.nces, a.nd individual
+              VXqY          EF+(Y&~-VX-TR)                                    tuples.
+where F+ denotes the closure of F and X and Y are setasof
+                                                                              Explanation
+attributes of R.
+    Similarly, (R, F) .IS in temporal third normal form (T3NF)                Data models exist where relations are required to be special-
+                                                                              ized, and tempora.1specializations often constit,ute important.
+if for all non-trivial temporal functional dependencies X 4
+                                                                              semantics about temporal relations t,hat mar be utilized for.
+2’ in F+, X is a temporal superkey for R or each attribute
+                                                                              e.g., query optmlization and processing purposes.
+of 2’ is part of a minimal temporal key of R.
+    The definition of temporul fourth normal form (T4NF) is
+similar to that of TBCNF, but. also uses t,emporal multival-                  4.37     Specialized        Bitemporal        Relationship
+ued dependencies.                                                             Definition
+                                                                              A temporal relation schema eshibit,s a specialized           bitern-
+4.33      Time-invariant            Attribute                                 porn1 relationship    if all instances obey some given specia.l-
+Definition                                                                    ized relationship between      the (implicit or explicit) valid and
+                                                                              transaction   times of the stored facts. Individual instances and
+A tim.e-tnuariant attribute is an attribute whose value is con-
+strained to not change over time. In functional terms, it is a                tuples may also exhibit specialized bitempora.1 relationships.
+constant-valued function over time.                                           As the transaction times of t.uples depend on when relations
+                                                                              are updated, updates may a.lso be characterized by special-
+                                                                              ized bitemporal relationships.
+4.34      Time-varying            Attribute
+Definition
+                                                                              4.38     Retroactive        Temporal        Relation
+A time-oarying  attribute is an attribute whose value is not
+constrained to be constant over time. In other words, it may                  Definition
+or may not change over time.                                                  A temporal relation schema including at least valid time is
+                                                                              retroactive if each stored fact of any instance is always va.lid
+                                                                              in the past. The concept may be applied to t.emporal rela.tion
+4.35      Temporally          Homogeneous                                     instances, individual tuples, and to updates.
+Definition
+A temporal tuple is temporally   homogeneous    if the lifespan
+                                                                               4.39    Predictive       Temporal        Relation
+of a.11attribute values within it are identical. A temporal
+relation is said to be temporally homogeneous if its tuples                    Definition
+are temporally homogeneous. A temporal database is said                        A t,emporal relation schema including at least valid time is
+to be temporally homogeneous if all its relations are tempo-                   predictive if each fact of any relation instance is valid in the
+rally homogeneous. In addition to being specific to a type of                  future when it is being stored in the relation. The concept.
+
+          SIGMOD RECORD,                Vol. 23, No. 1, March 1994                                                                   61
+
+                                                             ~_~~           ~_~-~      ~~~.~~~~
+may be applied t,o t,emporal              relation   insta.nces,   individua.1          Partitioning the time-line is a useful ca.pabi1it.y for aggre-
+tuples, aud to updates.                                                             gates in tempora.1 databases.
+                                                                                        One example of &id-time part,itioning is t.o divide t,lle
+4.40          Degenerate           Bitemporal          Relation                     t,ime-line into years, based on the Gregorian ca.lendar. The11
+                                                                                    for ea.chyear, compute the count. of the t.uples which overlap
+Definition                                                                          that. year.
+A bitempora.1 relation schema. is degenerate if updates t.o                             There is no existing term for this concept. There is no
+its relation instances are made immediately when something                          partitioning attribute in valid-time partit,ioning, since t.he
+changes in reality, with the result that the values of the valid                    pa.rtitioning does not depend on a.ttribute va.lues,but iust,ead
+and transaction       times     are identical. The concept may be ap-               on valid- times.
+plied  t*o bitemporal       relation  instances, individual tuples, and                 Valid-time partitioning may occur before or after value
+to updates.                                                                         partitioning.
+
+4.41       Time           Indeterminacy                                             5.2      Dynamic           Valid-time        Partitioning
+Definition                                                                          Definition
+Information that is time indeterminate can be characterized                         In dynamic wlid-time partitioning the valid-t,ime elements
+as “don’t know when” information, or more precisely, “don’t                         used in the partitioning are determined solely frdm t,he
+know ezuctly when” information. The most common kind                                timestamps of the rela,tion.
+of time indeterminacy is valid-time indeterminacy or user-
+defined time indeterminacy. Transaction-time indeterminacy                          Explanation
+is rare because transaction times a.re always known exactly.
+                                                                                    One example of dynamic valid-time        partitioning would be
+                                                                                    to compute the average value of an attribute in a. relation
+Explanation
+                                                                                    (say the salary attribute), for the previous year before the
+Often a. user knows only approximately when an event hap-                           stop-time of each tuple. A technique which could he useclto
+pened, when a.n interval    began a.nd ended, or even t,he du-                      compute this query would be for each t,uple, find all t.uples
+ra,tion of a span. For instance, she may know that an event.                        valid in the previous year before the stop-t,ime of the tupk
+happened     “between  2 PM and 4 PM ,” “on Frida.y,” “some-                        in question, and combine these tuples into a. set.. Finally.
+time last week,” or “around the middle of the month.” She                           compute the average of the salary at.tribute va.lues in each
+ma,y know that a airplane left “on Friday” and arrived “on
+                                                                                    set.
+Sturday.”       Or perhaps, she has information tha,t suggests                         It may seem inappropriate to use valid-t,ime elements     in-
+tha.t a. graduate student takes “four to fifteen” yea.rsto write                    stea.dof intervals, however there is no reason to exclude valid-
+a dissertation. These are examples of time indeterminacy.                           time elements. Perhaps the elements are the int.ervals during
+                                                                                    which the relation is constant.
+5       Concepts               of Specialized               Interest
+                                                                                    5.3      Static       Valid-time        Partitioning
+5.1          Valid-time         Partitioning                                        Definition
+Definition                                                                          In static tdicf-time purtitioniny t,he valid-time elements used
+ Valid-time partitioning is the partit.ioning (in the mathemak-                     are determined solely from fixed points on a, calendar, such
+ical sense) of the valid time-line into valid-time elements.                        as the start of each year.
+For each valid-time element, we associate an interval of the
+valid time-line on which a cumulative aggregate may then be                         Explanation
+applied.                                                                            Computing the ma.ximum salary of employees during each
+                                                                                    month is an example which requires using static valid-t.imr
+Explanation                                                                         pa.rkit,ioning. To compute t*his information, first, divide the
+To compute the aggregate. first partition the time-line into                        time-line into valid-time elements   where each element    rep-
+valid-time elements, then a.ssocia.tean interva.1 with each                         resents a separate month on, say, the Gregorian calendar.
+valid-time element, assemble the tuples valid over each in-                         Then, find the tuples valid over each valid-time element, a.nd
+terval, and finally compute the a.ggregate over each of these                       compute the maximum aggregate over the members of each
+sets. The value at any instant is the value computed over                           set.
+the partitioning element that contains that instant.
+    The reason for the assoctated interval         with ea,ch
+                                                                                    5.4      Valid-time           Cumulative          Aggregation
+tamporal   element is tha.t we wish to perform a partitzon of
+the valid time-line, and not exclude certain queries. If we                         Definition
+exclude computing the aggregate on overlapping intervals,                           In cumulative aggregation, for each valid-time element of
+we exclude queries such as “Find the average salary paid for                        the valid-time partitioning (produced by either dynamic       or
+one year before ea.& hire.” Such queries would be excluded                          static valid-time partitioning), the a,ggregate is applied to a.11
+becausethe one-yea.r intervals before each hire might, over1a.p.                    t,uples associated with that va.lid-time element.
+
+                                                                                 SIGMOD RECORD, Vol. 23, No. 1, March 1994
+    The value of the a.ggregate              at   any   instant   is t,he value       Contributors
+computed    over the part,itioning            element     tha.t conta.ins that
+instant.                                                                              An alpha.betica.1 list.ing of names, afGlia.tions. and e-ma,il ad-
+                                                                                      dresses of t,he contributors               follows.
+Explanation                                                                                J. Clifford,     Information            Systems Dept.., New York [Jni-
+One example        of cumulative    aggregation        would be find the              versity, jclifforais-4.stern.nyu.edu;                              R.. Elnxxsri, Corn-
+total number of employees         who had worked at some point                        puter Science Engineering                 Dept., University           of Texas a.t,Ar-
+for a company.        To compute     this value at t,he end of each                   lington elmasriQcse              . uta. edu; S. Ii. Ga.dia, Computer                        Sci-
+calendar yea.r, then, for each year, define a. va.lid-time          element           ence Dept., Iowa State University,                      gadiaQcs.         iastate.         edu;
+which is valid from the beginning            of t.ime up to the end of                P. Hayes, Beckman             Institute,       PhayesQcs.uiuc.edu;S.Jajo-
+that year. For each va,lid-time       element,      find a.11tuples which             dia., Dept. of Information               & Software.         George Mason Univer-
+overlap tha.t element, and fina.lly, count the nuinber of tuples                      sity, jajodiaQsitevax.                gmu. edu; C. Dyreson, Comput,er Sci-
+in each set.                                                                          ence Dept., University             of Arizona., curtisQcs.                arizona.         edu;
+     Instantaneous    aggregation  may     be considered       to be a de-            F. Grandi,        University         of Bologna,           Italy, f abioQdeis64. -
+generate case of cumulative       aggregation         where the partition             cineca.it;          W. IGfer,              IBn4      Almaden          R.esearch Cen-
+is per chronon     and the associated      interval    is that chronon.               ter, kaef erQalmaden.                ibm. corn N. Iiline,             Computer              Sci-
+                                                                                      ence Dept., University              of Arizona.,        klineQcs.         arizona.         edu;
+                                                                                      N. Lorentzos,          Informatics            La.borat,ory,       Agricultural             Uni-
+5.5      Instantaneous               Aggregation                                      versity of Athens,            eliopQisosun.             ariadne-t          . gr; Y. Mit,-
+Definition                                                                            sopoulos, Informatics             Laborat,ory,        Agricultura.1         University         of
+In instantaneous     aggregation,      for each chronon           on t.he valid       Athens;      A. Montana.ri,           Dip. di Mat,ematica                e Informatica..
+time-line,   the aggregate     is applied   to all tuples         valid at that       Universitb       di Udine, Italy, montanariQuduniv.                           cineca.        it;
+instant.                                                                              D. Nonen,           Computer             Science       Dept.,       Concordia              Uni-
+                                                                                      versity,     Canada,         danielQcs.           concordia.        ca; E. Peressi.
+                                                                                      Dip.      di Ma.tematica            e Informatica,            Universiti          di Udine,
+5.6      Temporal            Modality
+                                                                                      Ita.ly, peressiQudmi5400.                  cineca.      it; B. Pernici,              Dip. di
+Definition                                                                            Ma.tematica         e Informatica..              Universitb        di Udine,             Italy,
+ Temporal      modality      concerns      the wa.y according        to which a       perniciQipmel2           .polimi.         it; J. F. Roddick, School of Com-
+fact originally       associated      with a chronon     or interval   a.t a. given   puter and Information                  Science,      University       of South Aus-
+granularity     distributes      itself over the corresponding           chronons     tralia. roddickQunisa.edu.                   au; N. L. Sarda, Computer                     Sci-
+at finer granularities         or within     the interval at, the same level          ence and Eng. Dept., Indian Instit,ute                         of Technology,           Bom-
+of gra.nularity.                                                                      bay, India, nlsQcse.            iitb.      ernet . in; M. R. Scalas, Univer-
+                                                                                      sity of Bologna,         Italy, ritaQdeis64.cineca.it;                            A. Segev,
+Explanation                                                                           School      of Business            .4dm.        and Computer                Science         Re-
+We distinguish        two basic tempora.1 modalities,        namely some-             search Dept., University                of California.,        segevQcsr          . lb1 . gov;
+times and always.                                                                     R. T. Snodgrass,            Computer             Science Dept.., University                    of
+     The sometimes       temporal     modality sta.tes t.ha.t the relevant            Arizona,      rtsQcs.      arizona.         edu; M. D. Soo, Computer                       Sci-
+fact is true in at least one of the corresponding               chronons       at     ence Dept.,        University          of Arizona.,          SOOQCS . arizona.             edu;
+the finer granularity,      or in at, least one of the chronons                of     A. Tansel,         Bernard          M. Baruch             College,        Cit.?; Univer-
+the interval      in case an interval     is given. For instance:          “The       sity of New York uztbbQcunyvm.                            cuny.edu;           I’. Tiberio,
+light was on yesterday         a,fternoon,”     meaning     that it, was on           University       of Bologna,          Italy, tiberioQdeis64.                  cineca.        it;
+at least for one minute         in the a.fternoon      (assuming      minutes         G. Wiederhold,            ARPA/SISTO                 a,nd %anford               Ilniversity,
+as chronons).                                                                         gioQDARPA.MIL.
+     The always temporal        modality states t,hat the relevant fact
+is true in each corresponding          chronon at the finer granula.rity.
+This is the case, for instance,            of the sentence:       “The shop
+remained       open on a Sunday in April 1990 all the da.y long”
+with respect to the chronon granularity               of hour.
+     This issue is relate to attributes         varying within       t,heir va-
+lidity intervals.
+
+
+5.7       Macro-event
+Definition
+A macro-event     is a wholistic     fact with duration,       i.e., some-
+thing occurring    over an interval     taken   as a whole.      A macro-
+event is said to occur over an interval         I if it occurs over the
+set of contiguous     chronons     representing     I (considered      as a
+whole).
+
+           SIGMOD RECORD, Vol. 23, No. 1, March 1994                                                                                                               63
+ Index
+ absolute    time, 57                                                   spatiotemporal     interval, 57
+                                                                        spatiotemporal     quantum, 57
+ beginning, GO
+                                                                        specialized bitemporal relationship,        61
+ bitemporal interval,        57
+                                                                        sta.tic valid-time partitioning, 62
+ bitempora.1 relation,       54
+                                                                         temporal as modifier, 55
+calendar, 5G
+                                                                         temporal data type, 54
+calendric system,       59
+                                                                         temporal database, 55
+chronon, 55
+                                                                         t.emporal dependency, 60
+coalesce, 58
+                                                                        temporal element, 55
+degenerate bitemporal relation,                    62                   temporal expression, 57
+dynamic valid-time partitioning,                    62                  temporal interpolation,        59
+                                                                        temporal modality, 63
+element, temporal, 55                                                   temporal natural join, GO
+event, $6                                                               temporal normal form, 61
+event occurrence time, 56                                               temporal projection, 60
+                                                                        t,emporal selection, 60
+fixed span, 57                                                          temporal specialization,        61
+forever, 60
+                                                                        t,emporally homogeneous, 61
+granularity, time-line clock, 59                                        time indeterminacy,        62
+granularity, timestamp, 60                                              time interval, 55
+Gregorian calendar, 59                                                  time-invariant    attribute, 61
+                                                                       time-line clock, 59
+history, 58                                                            time-line clock granulaiity, 59
+history equivalent, 59                                                 time-varying     attribute, 61
+history-oriented,  59                                                  timestamp, 55
+homogeneous, temporally,             6I                                time&amp granularity, 60
+                                                                       t,imestamp interpretation,         GO
+initiation, 60                                                         transaction time, 53
+instant, 55                                                            transaction-time       relation, 54
+instantaneous   aggregation,             63                            transaction-timealice        operator, 56
+interval, time, 55
+                                                                       user-defined   time, 54
+lifespan, 55
+                                                                       valid time, 53
+macro-event,     63                                                    valid-time cumulative aggregation,          62
+physical clock, 59                                                     valid-time pa,rtitioning, 62
+predictive temporal      relation,        61                           valid-time relation, 54
+                                                                       valid-timeslice  operator, 56
+quantum,     spatiotemporal,        57                                 value equivalence, 58
+quantum,     spatial, 56                                               variable span, 57
+
+relative time, 57                                                      weak relation, 58
+retroactive temporal         relation,        61                       weakly invariant operator,       58
+                                                                       weakly equivalent, 58
+schema evolution, 56
+schema versioning, 56
+snapshot equivalence class, 58
+snapshot equivalent, 58
+snapshot relation, 54
+snapshot, valid- and transaction-time,       and bitemporal   as
+           modifiers, 54
+snapshot-equivalence     preserving operator, 58
+span, 55
+spatial quantum, 56
+spat,iotemporal as modifier, 56
+spatiotemporal     element, 57
+
+            64                                                     SIGMOD RECORD, Vol. 23, No. 1, March 1994
+

@@ -1,0 +1,12 @@
+{
+  "source_records": 96,
+  "download_routes": 218,
+  "usable_files": 178,
+  "pdf_files": 90,
+  "html_files": 88,
+  "unique_file_hashes": 171,
+  "sources_with_files": 96,
+  "failed_or_incomplete_routes": 40,
+  "total_bytes": 142245051,
+  "note": "Acquisition counts, not independent studies or completed reviews."
+}

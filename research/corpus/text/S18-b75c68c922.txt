@@ -1,0 +1,414 @@
+notitie
+FORUM STANDAARDISATIE 11 december 2019
+Agendapunt 4C Intakeadvies API Design Rules
+
+Nummer: FS-191211.4C
+
+Aan:           Forum Standaardisatie
+Van:           Stuurgroep Open Standaarden
+
+Datum:         11 december 2019
+Versie:        1.1
+
+Bijlagen:      niet van toepassing
+
+
+Advies
+Het Forum Standaardisatie wordt geadviseerd om API Design Rules in procedure te nemen voor
+opname op de ‘pas toe of leg uit’-lijst. Hierbij is een grondig expertonderzoek aangewezen om de
+standaard te toetsen aan de inhoudelijke criteria voor opname op de lijst, en de samenhang met
+andere standaarden op de ‘pas toe of leg uit’-lijst te onderzoeken. In de toelichting hieronder
+wordt dit advies nader onderbouwd.
+
+API Design Rules voldoet aan de basiscriteria om in behandeling genomen te worden voor opname
+op de ‘pas toe of leg uit’-lijst. Vanuit VNG Realisatie, Logius, het ministerie van Binnenlandse
+Zaken en Koninkrijksrelaties en andere organisaties is er sterke behoefte aan bindende afspraken
+over het gebruik van REST API’s. De API Design Rules hebben raakvlakken met andere
+standaarden die al op de lijst open standaarden staan of daarvoor in behandeling zijn, en die
+toepasbaar zijn op het gebruik van RESTful API’s (OAuth, OASv3 en ODATA). Daarnaast heeft de
+opkomst van REST API’s een impact op standaarden op de ‘pas toe of leg uit’-lijst zoals
+Digikoppeling.
+
+Het Forum Standaardisatie wordt daarom geadviseerd om in een expertsessie goed scherp te
+maken welke plek API Design Rules inneemt naast deze standaarden en of het meerwaarde heeft
+om deze standaarden aan te bieden als een set van samenhangende standaarden voor het gebruik
+van API’s.
+
+
+Toelichting
+1. Korte beschrijving van de standaard
+Application Programming Interfaces (API’s) zijn in de moderne informatiesamenleving een veel
+toegepaste en essentiële technologie om moderne applicaties (en databronnen) snel en effectief
+met elkaar te verbinden en eenvoudig informatie uit te wisselen. Organisaties kunnen hiermee
+gebruikers sneller bedienen en gegevensstromen efficiënt laten verlopen. Op dit moment nemen
+RESTful API’s wereldwijd een grote vlucht ten opzichte van webservices en heeft REST zich
+ontwikkeld tot een bepalende standaard voor het realiseren van API’s. 1 Vele kleine en grote
+bedrijven 2 en overheden stellen RESTful API’s beschikbaar en er is uitstekende ondersteuning
+
+1
+    https://rapidapi.com/blog/api-vs-web-service/
+2
+    https://www.programmableweb.com/
+
+
+                                                    1
+vanuit de bepalende programmeertalen (met bijbehorende frameworks), zoals: Python, Java,
+Microsoft C#, PHP. Ook Nederlandse overheden passen RESTful API’s op brede schaal toe (zie
+onder meer de partijen onder “Draagvlak”).
+
+De standaard API Design Rules schrijft een set van regels op het gebied van naamgeving en het
+gebruik van parameters voor waarmee de hele overheid op eenduidige manier RESTful API’s
+(afgekort tot API’s) aan kan bieden. Hiermee wordt bereikt dat de overheid voorspelbaar is en
+ontwikkelaars makkelijk aan de slag kunnen en API’s kunnen consumeren en combineren.
+Overheden die API’s aanbieden worden ontzorgd voor het generieke aspect van API’s aanbieden.
+Ze kunnen zich richten op de aspecten van API ontwerp waar hun data, informatie en
+functionaliteiten toegevoegde waarde bieden.
+
+De API Design Rules zijn als aparte standaard gepubliceerd 3, maar vormen ook een onderdeel van
+de API Strategie voor de overheid 4 van het Kennisplatform APIs 5. Deze bredere API Strategie
+bevat echter een aantal meer informatieve onderdelen (zoals bestuurlijke overwegingen,
+gebruikerswensen en architectuurconcepten) die geen deel uitmaken van de standaard die hier ter
+tafel ligt.
+
+2. Betrokkenen en proces
+Op 15 oktober 2019 heeft Frank Terpstra (Geonovum) de standaard API Design Rules aangemeld
+voor opname de ‘pas toe of leg uit’-lijst. Op 6 november 2019 heeft een intakegesprek
+plaatsgevonden met de indiener. In dit gesprek is onderzocht of de standaard voldoet aan de
+criteria om in procedure genomen te worden. Daarnaast is vooruitgeblikt op de procedure. Dit
+intakeadvies is tot stand gekomen op basis van het intakeonderzoek
+
+3. Voldoet de standaard aan de criteria om in procedure genomen te
+worden?
+API Design Rules voldoet aan alle vier criteria om in behandeling genomen te worden voor opname
+op de ‘pas toe of leg uit’-lijst. Hoe de standaard is getoetst op de vier criteria 6 wordt hieronder
+toegelicht in paragrafen 3.1-3.4.
+
+3.1. Is de standaard toepasbaar voor elektronische gegevensuitwisseling tussen (semi-
+)overheidsorganisaties en bedrijven, tussen (semi-)overheidsorganisaties en burgers of
+tussen (semi-)overheidsorganisaties onderling?
+
+          Ja, API’s zijn van toepassing op koppelingen tussen overheden onderling, overheden en
+          bedrijven en indirect tussen overheden en burgers, bijvoorbeeld via mobiele apps en
+          webapps die aangeboden worden door bedrijven of overheden zelf. Zo gebruikt de app
+          9292 API’s van de NS om routes te berekenen.
+
+          Met deze standaard worden API’s op een eenduidige manier aangeboden. De API Design
+          Rules leggen afspraken vast over de manier waarop de overheid REST API’s structureren
+          en aanbieden. Initiatieven zoals Common Ground, Haal Centraal, developer.overheid.nl en
+          het Kennisplatform API’s geven aan grote behoefte te hebben aan een standaard die deze
+          bindende afspraken beschrijft.
+
+3.2. Is het beoogde functioneel toepassingsgebied en het organisatorisch werkingsgebied
+van de standaard, voldoende breed om substantieel bij te dragen aan de
+interoperabiliteit van de (semi-)overheid?
+
+          Ja, het beoogde functioneel en organisatorisch werkingsgebied zijn breed. API’s zijn over
+          de hele breedte van de overheid inzetbaar voor zeer uiteenlopende applicaties en diensten.
+
+
+
+3
+    https://geonovum.github.io/API-Designrules/
+4
+    https://docs.geostandaarden.nl/api/API-Strategie/
+5
+    https://www.geonovum.nl/themas/kennisplatform-apis
+6
+  Meer informatie over de criteria voor het in procedure nemen van een standaard op de website van het
+Forum Standaardisatie, https://www.forumstandaardisatie.nl/content/toetsen-van-standaarden
+
+
+                                                        2
+3.3. Is het zinvol de standaard op te nemen, gezien het feit dat deze niet al wettelijk
+verplicht is voor het beoogde functioneel toepassingsgebied en organisatorisch
+werkingsgebied?
+
+           Ja, de standaard is niet wettelijk verplicht. De Open data richtlijn 7 stelt het gebruik van
+           API’s vanaf 17 juli 2021 verplicht voor nog nader door de Europese Commissie te bepalen
+           Nederlandse datasets. Deze standaard gaat over hoe de API’s aangeboden moeten worden
+           waarvoor nog geen standaarden wettelijk verplicht zijn.
+
+3.4. Draagt de standaard bij aan de oplossing van een bestaand, relevant
+(interoperabiliteits)probleem en het voorkomen van leveranciersafhankelijkheid?
+
+           Ja, de overheid maakt steeds meer gebruik van API’s. Er is nu veel verschil in hoe de API’s
+           zijn aangeboden. Het is lastig voor ontwikkelaars als elke API van de overheid op een
+           verschillende manier gestructureerd is en REST toepast. Een geüniformeerd aanbod helpt
+           ontwikkelaars om API’s van de overheid te gebruiken.
+
+4. Is er zicht op een positief expertadvies?
+Wanneer het Forum Standaardisatie de standaard in procedure neemt, zal een groep experts de
+standaard gaan toetsen op de vier inhoudelijke criteria 8 voor opname op de lijst. Het Forum
+Standaardisatie neemt geen standaarden in procedure waarvan al vaststaat dat deze in het
+expertonderzoek op tenminste één van de criteria zal stranden. Daarom wordt in dit intakeadvies
+vooruitgeblikt op de vier inhoudelijke criteria.
+
+Het intakeonderzoek heeft geen inhoudelijke criteria gevonden die een positief expertadvies voor
+plaatsing van API Design Rules op de ‘pas toe of leg uit’-lijst in de weg zou kunnen staan.
+
+Dit wordt hieronder toegelicht in paragrafen 4.1-4.4.
+
+4.1. Toegevoegde waarde
+
+
+Waar overheidsorganisaties REST API’s aanbieden hebben API Design Rules aantoonbare
+meerwaarde. Door toepassing van de API Design Rules krijgen API’s een uniformere en
+voorspelbaardere structuur waardoor ontwikkelaars er gemakkelijker en sneller mee kunnen
+werken.
+
+De meerwaarde van de API Design Rules bewees zich onder andere in de prijsvraag voor de beste
+API van de overheid 9, die begin 2019 werd uitgeschreven door het Kennisplatform API’s. De
+onafhankelijke ontwikkelaar die de API’s voor jury testte, concludeerde dat REST API’s die volgens
+de API Design Rules waren aangeboden zeer snel in werkende applicaties konden worden gebruikt.
+
+De baten wegen op tegen de kosten. RESTful API’s hebben namelijk relatief lage kosten en kennen
+goede ondersteuning in de markt. Hierdoor is het gebruik groot. API Design Rules zijn
+laagdrempelig toe te passen, en brengen geen extra kosten met zich mee ten opzichte van het
+bouwen van de API zelf. De standaard zorgt voor minder variatie in de soorten API’s waardoor het
+gebruik nog eenvoudiger wordt en daarmee ook vergroot kan worden.
+
+Er zijn geen onoverkomelijke beveiligings- en privacyrisico’s gevonden. Standaarden voor de
+beveiliging van API’s (in het bijzonder Nederlandse overheidsprofielen voor OAuth en OIDC) zijn in
+behandeling voor plaatsing op de ‘pas toe of leg uit’-lijst of de lijst aanbevolen standaarden.
+
+4.2. Open standaardisatieproces
+
+Op 14 november 2019 heeft de programmaraad Logius toegezegd om API Design Rules officieel
+
+
+
+7
+    https://eur-lex.europa.eu/legal-content/NL/TXT/?qid=1573120424790&uri=CELEX:32019L1024
+8
+  Meer informatie over de inhoudelijke toetsingscriteria op de website van het Forum Standaardisatie,
+https://www.forumstandaardisatie.nl
+9
+    https://www.geonovum.nl/over-geonovum/actueel/kadaster-wint-prijs-beste-api-van-de-overheid
+
+
+                                                            3
+onder beheer van Logius te laten vallen, mits de standaard opgenomen wordt op de ‘pas toe of leg
+uit’-lijst.
+
+Voor Digikoppeling, waarvan het beheermodel het uitgangspunt vormt van het beheermodel voor
+de API Design Rules, heeft Logius bovendien het predicaat ‘Uitstekend Beheer’ ontvangen van het
+Forum Standaardisatie. Het belang van de Nederlandse overheid is voldoende geborgd bij de
+ontwikkeling en het beheer van de standaard via Logius en het kennisplatform API’s 10 waar zes
+overheidspartijen (Geonovum, Bureau Forum Standaardisatie, Kamer van Koophandel, VNG
+Realisatie en het Kadaster) het initiatief voor hebben genomen.
+
+Het specificatiedocument is kosteloos verkrijgbaar en het intellectuele eigendomsrecht is
+onherroepelijk vrijgegeven. 11 Logius volgt een open beheer volgens BOMOS. Documentatie over
+het ontwikkel- en beheerproces zijn via het kennisplatform te raadplegen. 12
+
+De financiering voor de standaard is toegezegd door de programmaraad van Logius, mits de
+standaard opgenomen wordt op dnovembere ‘pas toe of leg uit’-lijst. Het betreft een opdracht voor
+drie jaar die Logius zal ontvangen van het ministerie van Binnenlandse Zaken en
+Koninkrijksrelaties.
+
+De API Design Rules zijn ook ogenomen in de bredere API Strategie voor de overheid 13 van het
+Kennisplatform APIs 14, maar worden als aparte standaard door Logius beheerd. Het kennisplatform
+API’s organiseert kennissessies over de adoptie en implementatie van de standaard, en fungeert
+als aanspreekpunt voor technische informatie.
+
+4.3. Draagvlak
+
+API Design Rules wordt zeer breed door softwareleveranciers ondersteund. In de Nederlandse
+markt staan onder andere Centric, PinkRoccade, Digicosmos, Vicrea en SWIS expliciet achter de
+ontwikkeling en vaststelling van de standaard. Zij hebben het manifest 15 van het kennisplatform
+API’s ondertekend.
+
+Geonovum, VNG, het Kadaster, de Kamer van Koophandel en Logius staan achter het belang van
+het opstellen en vaststellen van deze standaard. Tot slot sluit de standaard aan bij de
+beleidsdoelen van het ministerie van Binnenlandse zaken en Koninkrijksrelaties (BZK). BZK draagt
+bij door de ontwikkeling en adoptie van de standaard mede te financieren en zal straks ook het
+beheer financieren.
+
+Onder andere VNG realisatie en het Kadaster passen de standaard nu al toe. Verschillende API’s
+voldoen al aan deze standaard. In de nieuwsbrief van het kennisplatform zijn ook de links te
+vinden naar deze API’s. 16
+
+      •    Digitaal stelsel omgevingswet(DSO):
+               o    Informatiehuis Ruimte ruimtelijke plannen opvragen API
+               o    Stelselcatalogus muteren API
+               o    Stelselcatalogus opvragen API
+               o    Omgevingsdocument opvragen API
+               o    Omgevingsdocument toepasbaar opvragen API
+               o    Omgevingsdocument presenteren API
+               o    Regels verifiëren API
+               o    Verzoek ophalen API
+               o    Activiteiten bepalen API
+               o    Werkzaamheden bepalen API
+               o    Samengestelde registratie Toepasbare Regels Services API
+               o    Conclusie bepalen API
+
+10
+     https://www.geonovum.nl/themas/kennisplatform-apis
+11
+     https://docs.geostandaarden.nl/api/API-Strategie/
+12
+     https://github.com/Geonovum/KP-APIs
+13
+     https://docs.geostandaarden.nl/api/API-Strategie/
+14
+     https://www.geonovum.nl/themas/kennisplatform-apis
+15
+   https://github.com/Geonovum/KP-APIs-
+Stuurgroep/blob/master/Overige%20stukken/Manifest%20Kennisplatform%20API's.pdf
+16
+     https://us1.campaign-archive.com/?u=cf7440392e44812eb0a1644c7&id=2f4811bf30
+
+
+                                                          4
+               o    Toelichting ophalen API
+               o    Voorschriften bepalen API
+               o    Verzoek indienen API
+               o    Bevoegd gezag bepalen API
+               o    Behandeldienst bepalen API
+               o    Behandeldienst configuratie beheren API
+      •    Kadaster API’s
+               o    BRT API
+               o    BRK-DKK API
+               o    BAG API
+      •    DUO RIO metadata API
+      •    RCE data API
+      •    VNG Zaakgericht werken API’s:
+               o    Catalogi API specificatie
+               o    Zaken API specificatie
+               o    Documenten API specificatie
+               o    Besluiten API specificatie
+               o    Autorisaties API specificatie
+               o    Notificaties API specificatie
+               o    Notificaties API specificatie voor consumers
+      •    Haal centraal:
+               o    BRP-bevragen ingeschreven Persoon
+               o    BRK bevragen Kadastraal Onroerende Zaken
+      •    VNG Open Raads- en Staten informatie
+      •    Ministerie van BZK Basisregistratie Ondergrond Bronhouderportaal BRO API (1.0.0)
+
+Bureau Forum Standaardisatie (BFS) neemt deel aan het Kennisplatform API’s en is betrokken
+geweest bij de redactie van de overkoepelende API Strategie voor de Nederlandse Overheid 17 waar
+de API Design Rules een deel van uitmaken. BFS is echter niet betrokken geweest bij de
+specificatie van de API Design Rules.
+
+4.4. Opname op de lijst bevordert adoptie
+
+API Design Rules is aangemeld voor de ‘pas toe of leg uit’-lijst. De indiener en ondersteunende
+organisaties (VNG, Kadaster, BZK, Logius, DUO, RCE en private partijen) pleiten voor de
+verplichting van een standaard die zorgt voor een uniforme ontsluiting van REST API’s van de
+overheid. Op dit moment groeit het gebruik van REST API’s bij de overheid sterk, en daarmee ook
+het risico van wildgroei en vendor lock-in. Plaatsing van de API Design Rules op de lijst aanbevolen
+standaarden, of publicatie als ‘best practice’ zonder formele status zou niet leiden tot voldoende
+uniformering en openheid van API’s van de overheid.
+
+
+5. Samenhang met andere standaarden op de lijst
+
+API Design Rules sluit aan op de reeds opgenomen standaard OpenAPI Specification (OAS). 18 OAS
+is bedoeld om de functionaliteit van een RESTful API in te zien, te begrijpen en te interpreteren
+zonder aanvullende documentatie, toegang of inspectie. Het wordt daardoor eenvoudiger te
+bepalen wat een API kan en moet doen. API Design Rules sluit daarop aan door ook het aanbieden
+en ontsluiten van RESTful API’s te standaardiseren.
+
+Op de lijst aanbevolen standaarden staat ODATA. 19 ODATA ontsluit meervoudige en statistische
+datasets via één API, dus voor meer generieke data. De indiener heeft overlap met deze standaard
+voorkomen door API Design Rules alleen toe te passen op overheidsinformatie en enkelvoudige
+datasets. Het gaat dan om specifieke sets zoals bij de Basisadministratie Adressen en Gebouwen
+(BAG).
+
+API Design Rules heeft overlap met Digikoppeling. 20 In feite concurreren RESTful API’s (zowel
+binnen de overheid als internationaal) met SOAP gebaseerde standaarden. Zowel nationaal als
+
+17
+     https://docs.geostandaarden.nl/api/API-Strategie/
+18
+     https://www.forumstandaardisatie.nl/standaard/openapi-specification
+19
+     https://www.forumstandaardisatie.nl/standaard/odata
+20
+     https://www.forumstandaardisatie.nl/standaard/digikoppeling
+
+
+                                                              5
+internationaal zijn RESTful API’s de dominante technologie. Dit sluit overigens niet uit dat er
+specifieke toepassingsgebieden zijn waar de SOAP gebaseerde standaarden van Digikoppeling (nu
+nog) een passender oplossing hebben. Dit geldt met name voor transactiegerichte API’s. De
+indiener heeft als functioneel toepassingsgebied voor API Design Rules geformuleerd dat het alleen
+verplicht is wanneer je RESTful API’s wil toepassen. Omdat het functioneel toepassingsgebied van
+de API Design Rules conditioneel is aan het gebruik van REST API’s, heeft het geen conflict met
+het functioneel toepassingsgebied van Digikoppeling.
+
+OAuth 21 is een autorisatiestandaard voor met name webbased applicaties die gegevens
+uitwisselen met behulp van API’s. De standaarden zijn complementair aan elkaar. In de specificatie
+API Design Rules wordt beveiliging nu niet benoemd. In een volgende versie is het voornemen om
+de relatie met OAuth te leggen, waarbij de werkingsgebieden niet aangepast hoeven te worden.
+
+Mogelijke concurrerende standaarden zouden andere ‘ontwerpregels’ voor API kunnen zijn. Binnen
+de overheid is de API strategie van het DSO 22 de bekendste. De API Design Rules zijn volledig
+compatibel met de DSO API strategie en bieden daarnaast als meerwaarde dat ze breder
+toepasbaar zijn binnen de overheid.
+
+Er zijn veel raakvlakken en voor een deel ook overlap met reeds opgenomen standaarden. Daarom
+wordt geadviseerd om met de expertsessie gericht op het opnemen van deze standaard, ook
+scherp te krijgen welke mogelijkheden er zijn om deze standaarden bij elkaar aan te bieden als
+een set van samenhangende standaarden voor het gebruik van API’s. Een vergelijkbare
+samenhang zien we bij de Geo-Standaarden. 23
+
+
+
+6. Welke organisaties ondersteunen deze aanmelding?
+Geonovum, VNG, het Kadaster, de Kamer van Koophandel en Logius staan achter het belang van
+het opstellen en vaststellen van deze standaard. Daarnaast hebben Kadaster, VNG realisatie,
+Rijkswaterstaat, Kennisnet, Gemeente Den Haag, Logius, Geonovum, Dimpact, BKWI, Nationaal
+Archief, Gemeente Amsterdam, gemeente Breda, Koninklijke Bibliotheek en JustID deelgenomen
+aan de werkgroep (API Design Rules) die de standaard heeft opgesteld.
+
+Het opnemen van API Design Rules op de lijst open standaarden is onderdeel van de API Strategie
+voor de Nederlandse overheid. Deze strategie is beschreven in het eerder genoemde manifest van
+het kennisplatform API’s. Andere activiteiten voor het bevorderen van de API strategie is onder
+andere het verbinden van overheidspartijen en -leveranciers die API’s al gebruiken en het
+bevorderen van uitwisseling van kennis en ervaringen. 24
+
+
+7. Use case
+Een goed voorbeeld van gebruik van API’s bij de overheid is de Basisadministratie Adressen en
+Gebouwen (BAG) API. 25 Met de BAG API is gecontroleerde toegang mogelijk tot de BAG-gegevens.
+Hiermee kunnen interfaces worden gemaakt die verschillende datasets met elkaar laten
+communiceren. De BAG API is een RESTful API die voldoet aan de standaard API Design Rules.
+
+De BAG API maakt de Basisregistratie Adressen en Gebouwen veel breder toegankelijk, niet alleen
+voor de geo-wereld en geo-experts, maar voor iedereen. Het stelt gebruikers in staat:
+   •    Eenvoudig adressen en informatie over gebouwen ophalen voor afnemers als
+        woningcorporaties en energiebedrijven
+   •    Adressen en gebouwinformatie cruciaal in veel processen en ook interessant voor
+        bijvoorbeeld de energietransitie (m2 gebouwen)
+   •    Ondersteuning van ontwikkelaars middels goed toegankelijke documentatie, via geo-forum
+        en waar nodig helpdesk
+
+
+21
+     https://www.forumstandaardisatie.nl/standaard/oauth
+22
+     https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/aansluiten/standaarden/api-en-uri-strategie/
+23
+     https://www.forumstandaardisatie.nl/standaard/geo-standaarden
+24
+   https://github.com/Geonovum/KP-APIs-
+Stuurgroep/blob/master/Overige%20stukken/Manifest%20Kennisplatform%20API's.pdf
+25
+     https://bag.basisregistraties.overheid.nl/restful-api?articleid=1927964#
+
+
+                                                                6
+Door het toepassen van REST in combinatie met API Design Rules is de API veel makkelijker en
+eenduidiger te ontsluiten voor ontwikkelaars van derde partijen. Dit laatste is ook gebeurd. In het
+eerste jaar van in gebruik zijn namelijk van deze API kreeg hij meer requests dan de SOAP/XML
+gebaseerde service, die de BAG al had, in de zeven jaar daarvoor. Veel meer afnemers zijn zo
+bereikt en er is veel meer kennis in de markt dan SOAP/XML gebaseerde standaarden die voor
+hetzelfde doel gebruikt kunnen worden.
+
+
+
+
+                                                 7
+

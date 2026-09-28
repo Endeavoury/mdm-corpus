@@ -1,0 +1,283 @@
+  
+
+NEN 3610:2022 nl
+
+                   
+
+                 
+
+                  
+
+        
+U bezoekt onze site met een verouderde browser. Dit kan ervoor zorgen dat de website niet optimaal werkt. Bezoek daarom onze site met een andere browser
+
+  
+
+      
+     Ga naar de inhoud
+
+   Toggle Nav    Toggle Nav   
+
+  
+Log in Toggle Nav 
+Sluiten
+
+Norm kopen           
+Norm ontwikkelen               
+Norm ontwikkelen             
+Een norm ontwikkelen         
+Normcommissielid worden         
+Tarieven normcommissie deelname               
+Normcommissies per thema             
+Arbeid & Veiligheid         
+Bouw         
+Chemie & Materialen         
+Consumentenzaken         
+Elektrotechniek         
+Energie & Distributie         
+Installatie         
+ICT         
+Landbouw & Levensmiddelen         
+Machines en Procesinstallaties          
+Mobiliteit, Transport & Logistiek         
+Managementsystemen         
+Milieu         
+Security         
+Zorg & Welzijn               
+Actuele thema's             
+Circulaire economie         
+Digitale transformatie         
+Energietransitie                   
+Trainingen               
+NEN Trainingen             
+Bedrijfstrainingen         
+E-learnings         
+Leergangen         
+Veelgestelde vragen               
+Trainingen per vakgebied             
+Arbeid & Veiligheid         
+Bouw         
+Elektrotechniek         
+ICT         
+Industrie & Veiligheid         
+Managementsystemen         
+Milieu         
+Zorg & Welzijn                 
+Evenementen           
+Certificatie & keurmerken               
+Over certificatie & keurmerken             
+Het opstellen van certificatieschema’s         
+Het behalen van een certificaat         
+Het toetsen volgens de standaard         
+NEN als schemabeheerder               
+Actueel             
+Certificatencheck         
+Blijf op de hoogte! Aanmelden nieuwsbrief               
+Overzicht certificatieschema's & keurmerken             
+Arbeid & veiligheid         
+Bouw         
+Consumentenzaken         
+Energie & Distributie         
+ICT         
+Installatie         
+Landbouw & levensmiddelen         
+Machines & procesinstallaties         
+Managementsystemen         
+Milieu         
+Zorg & welzijn            
+
+Over               
+Al meer dan 100 jaar             
+Over ons         
+Organisatie         
+Partners         
+Contact         
+Veelgestelde vragen               
+Werken bij NEN             
+Bekijk de vacatures               
+Actueel             
+Nieuws         
+Circulaire economie         
+Digitale transformatie         
+Energietransitie               
+Media & Publicaties             
+Pers & Media         
+Aanmelden e-nieuwsbrieven                   
+Inloggen               
+Inloggen bij een van onze producten             
+NEN Connect         
+Werken met NEN 1010         
+Werken met NEN 3140         
+Webtool Managementsystemen         
+Webtool HKZ         
+Webtool Safety Culture Ladder         
+Wegwijzer CE-markering         
+NEN 2767-4               
+register-login    
+
+Inloggen
+
+E-mailadres 
+
+Wachtwoord 
+
+Inloggen
+Wachtwoord vergeten?
+Please enable Javascript.   
+
+Nieuw bij NEN?
+Maak een account aan           
+
+    Talen NL  
+Talen NL   
+EN     
+
+      
+Taal 
+
+    NL    
+EN     
+
+Zoek
+
+Zoek 
+
+Resultaten voor:  
+Zoek in plaats daarvan naar: 
+
+Anderen zochten op: 
+
+Resultaten   Bekijk alle resultaten Bekijk alle resultaten
+Zoek                   
+
+ 
+
+  Norm   
+
+NEN 3610:2022 nl 
+
+   
+
+NEN 3610 geeft regels voor het eenduidig beschrijven van conceptuele en logische informatiemodellen met locatiegebonden informatie (geo-informatie) met als doel het beschrijven en delen van semantische informatie over sectorale domeinen. De informatiemodellen worden toegepast in een proces van gegevensuitwisseling en/of -publicatie op het web. Het toepassingsgebied beperkt zich tot informatieobjecten die direct (door middel van coördinaten) of indirect (via een geografische identificator zoals bijvoorbeeld een adres) herleidbaar zijn tot een locatie ten opzichte van de aarde (geo-informatie). Herleidbaar betekent dat de locatie als informatie bij de informatieobjecten is geregistreerd.
+
+  Basisinfo   
+ Definitief   | 156 pagina's   
+ Nederlands   Publicatiedatum   
+ 1 jun 2022   Gekoppelde normcommissie   
+ Geo-informatie   Geschiedenis van deze norm   
+
+Vervangt: 
+   NEN 3610:2011 nl    
+   NEN 3610:2011/A1:2016 nl    
+   NEN 3610:2021 Ontw. nl    
+
+Abonnement via NEN Connect
+Met NEN Connect heeft u altijd toegang tot de actuele versie en alle voorgaande versies.Meld u aan   
+
+         
+
+        
+Norm los kopen: 
+Deze publicatie is auteursrechtelijk beschermd en alleen voor eigen gebruik.
+
+    
+ PDF         
+      € 0,00      € 0,00       
+Na aankoop direct te downloaden 
+
+In Winkelwagen   
+     Bekijk inkijkexemplaar     
+
+     Exclusief bij NEN verkrijgbaar   
+     Met zorg samengesteld door een onafhankelijke normcommissie   
+     Mis geen wijzigingen of nieuwe versies met een abonnement   
+
+    
+
+  
+
+ 
+
+Specificaties
+
+Meer informatie 
+StatusDefinitief 
+Gekoppelde normcommissie351240 
+Nederlandse titelBasismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten 
+Engelse titelBasic schema for geo-information - Terms, definitions, relations and general rules for the interchange of information of spatial objects related to the earth 
+TrefwoordenClassificatiesysteem,Codering,Codes,Gebouwen,Informatie,Kaarten (plattegronden),Kartografie,Logicaschema's,Objectidentificatie,Terminologie,Weg- en waterbouwkunde,Woordenlijst,Classification systems,Coding (data conversion),Codes,Buildings,Information,Maps,Cartography,Logic diagrams,Object identifier,Terminology,Civil engineering,Vocabulary,Classificatie,Classificatiesystemen,Codeersystemen,Gebouwdelen,Plattegronden (kaarten),Weerkaarten,Schema's (logica),Identificatie (object),Benamingen,Nomenclatuur,Termen,Civiele techniek,Waterbouw,Weg- en waterbouw,Wegenbouw 
+TaalNederlands 
+Basisnummer3610 
+HerkomstNEN 
+Aantal Pagina's156 
+Publicatiedatum1 jun 2022 
+Norm startdatum/registratiedatum13 jun 2022 
+Norm ICS Codes01.040.93,91.020 
+TypeDefinitieve Norm
+
+Wie hebben er aan deze norm gewerkt?
+
+Normaliseer geo-informatie nationaal én internationaal Bekijk deze normcommissie
+
+ 
+
+      
+
+Over NEN
+
+   Wat is normalisatie?    
+   Werken bij NEN    
+   Nieuws    
+   Pers & Media    
+   NEN E-nieuwsbrieven     
+   Veelgestelde vragen    
+   Partners    
+   Contact    
+
+Mijn NEN
+
+  Inloggen Mijn NEN      
+  Inloggen NEN Connect      
+  Inloggen NEN Documents      
+  Inloggen IEC Collaboration Platform      
+  normontwerpen.nen.nl   
+
+Volg NEN online
+
+          
+
+ 
+
+Contact
+
+ 
+   Bel ons  
+015 2 690 391
+
+ma-vr van 8.30-17.00 uur   
+
+   Stuur ons een mail  
+klantenservice@nen.nl   
+
+   
+
+Vlinderweg 6
+
+2623 AX Delft
+
+    
+
+  
+
+    
+   Algemene voorwaarden     
+   Privacy     
+   Cookies     
+   Disclaimer     
+   Copyright & Auteursrecht     
+  KvK-nr 41150051      
+  BTW-nr NL002814237B01    
+  © 2026 NEN     
+
+        
+Scroll to top  

@@ -1,0 +1,169 @@
+\section{Reference Architecture}
+\label{sec:architecture}
+\subsection{Architectuurstelling en alternatieven}
+De voorgestelde reference architecture operationaliseert P01 en P06: een getypeerde bewijs- en afhankelijkhedengraaf verbindt semantische beschrijvingen met brongebonden gegevens en publicatiecontracten. Zij ordent vijftien logische verantwoordelijkheden als analyseviews; niet alle views vereisen een eigen artefact of actieve voorziening in elke toepassing. Ontologische verdieping, events en AI-consumptie zijn conditioneel. Een fysieke component kan meerdere verantwoordelijkheden vervullen, mits de informatietypen en besluitrechten gescheiden blijven. Evenmin wordt een centrale masterdatabase voorgeschreven.
+
+Drie implementatievarianten zijn verenigbaar met dit voorstel: brongebonden gegevens met een federatieve semantische catalogus; een gedeelde graaf die zowel metadata als geselecteerde records bevat; en conventionele dataopslag met een afzonderlijk semantisch register. Deze varianten worden als ontwerpopties gepresenteerd. Het corpus over kennisgrafen ondersteunt technische afwegingen, maar selecteert geen optimale variant voor deze casus. \citep{L13} Het prototype mag de keuze in de toekomstige evaluatie informeren, maar levert vooraf geen architectuurbewijs.
+
+\subsection{Lagen, componenten en verantwoordelijkheden}
+Tabel~\ref{tab:layers} definieert de componenten C1--C15. De nummering volgt de vereiste lagen, niet een dwingende uitvoeringsvolgorde. Identiteit, temporaliteit, provenance en governance doorsnijden het geheel. Het machineconsumptieniveau gebruikt ook terminologie en context wanneer geen OWL-redenering plaatsvindt.
+
+\begingroup\small
+\begin{longtable}{@{}P{.075\linewidth}P{.24\linewidth}P{.34\linewidth}P{.25\linewidth}@{}}
+\caption{Voorgestelde logische architectuur. Elke rij beschrijft een ontwerpverantwoordelijkheid, geen aangetoonde prototypefunctie.}\label{tab:layers}\\
+\toprule ID & Laag & Component en verantwoordelijkheid & Invoer $\rightarrow$ uitvoer \\ \midrule\endfirsthead
+\toprule ID & Laag & Component en verantwoordelijkheid & Invoer $\rightarrow$ uitvoer \\ \midrule\endhead
+C1 & Authority \& Legal Semantics & Gezags- en toepasselijkheidsregister: bronnen, bevoegdheid, reikwijdte, besluiten en geschillen vastleggen. & Gecontroleerde bronverwijzing $\rightarrow$ versiegebonden gezagsclaim; geen automatisch juridisch oordeel. \\
+C2 & Terminology \& Definitions & Terminologieregister: termen, talen, definities en gebruikscontext beheren. & Bron en taal $\rightarrow$ definitieversie met grondslag en reviewstatus. \\
+C3 & Conceptual Semantics & Begrippen- en mappingregister: concepten, samenhang en conceptuele correspondentie beheren. & Definities $\rightarrow$ getypeerd begrippennetwerk met betwiste relaties. \\
+C4 & Ontology & Conditionele ontologische analyse en, indien nodig, ontologieregister voor categorieën, axioma’s en commitments. & Begrippen en identiteitsanalyse $\rightarrow$ ontologieversie en gemotiveerde modelkeuzen. \\
+C5 & Information Modelling & Modelregister: conceptuele en logische modellen en hun transformaties bewaren. & Begrippen en ontologie $\rightarrow$ MIM-constructies, logische constructies en mappingrapport. \\
+C6 & Metadata and Data Elements & Data-elementregister: betekenis verbinden met representatie, eenheid en domeinen. & Modelattribuut en begrip $\rightarrow$ data-elementversie en decodeerspecificatie. \\
+C7 & Identity & Identifier- en resolutievoorziening: scope, uitgifte, alias en versie-identiteit beheren. & Identiteitsbesluit $\rightarrow$ scoped identifier en resolutiebeleid. \\
+C8 & Temporal Semantics & Historievoorziening: tijdassen, intervalbetekenis en reconstructieregels beheren. & Bronmomenten en correcties $\rightarrow$ geldig-op/bekend-op-selectie. \\
+C9 & Provenance & Bewijs- en afleidingsregister: bronversies, activiteiten, agents en epistemische metadata verbinden. & Bronrecord/afleiding $\rightarrow$ provenancegraaf met bewijsstatus. \\
+C10 & Data Quality and Constraints & Validatie- en meetvoorziening: shapes, toetsconfiguraties en metingen beheren. & Datasetversie en regels $\rightarrow$ validatorrapport en kwaliteitsmetadata. \\
+C11 & Master and Reference Data & Bronadapter en recordpublicatie: entiteiten, records en waardenstelsels verbinden zonder ongeautoriseerde bronmutatie. & Bronversie $\rightarrow$ gepubliceerde recordrepresentatie met terugmeldreferentie. \\
+C12 & Data Product Metadata & Productcatalogus en releasebeheer: eigenaar, doel, contract, afhankelijkheden en catalogusresources beheren. & Goedgekeurde artefactversies $\rightarrow$ reproduceerbaar productmanifest. \\
+C13 & Access and Distribution & Distributieadapter: API’s en representaties volgens gekozen profielen leveren. & Manifest en toegangsbesluit $\rightarrow$ antwoord met versie- en betekenisverwijzingen. \\
+C14 & Change Events & Wijzigings- en terugmeldvoorziening: notificaties, lifecycleovergangen en herstelreferenties beheren. & Vastgestelde verandering $\rightarrow$ event plus opvraagbare wijzigingsinformatie. \\
+C15 & AI Consumption and Machine Interpretation & Consumenteninterface: betekenis, bewijs en beperkingen toegankelijk maken voor applicaties en AI. & Antwoord/context $\rightarrow$ interpreteerbaar pakket met herleidbare uitspraakstatus. \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[font=\small,box/.style={draw,rounded corners,align=center,text width=10.4cm,minimum height=8mm,fill=black!3},flow/.style={-{Latex},thick}]
+\node[box] (a) {C1 Gezag en juridische semantiek};
+\node[box,below=5mm of a] (b) {C2 Terminologie $\leftrightarrow$ C3 Conceptuele semantiek};
+\node[box,below=5mm of b] (c) {C4 Ontologie (optioneel) $\leftrightarrow$ C5 Informatiemodellen $\leftrightarrow$ C6 Data-elementen};
+\node[box,below=5mm of c] (d) {C11 Master-/referentiedata $\leftrightarrow$ C10 Constraints en kwaliteit};
+\node[box,below=5mm of d] (e) {C12 Productmanifest en catalogus};
+\node[box,below=5mm of e] (f) {C13 API en distributie $\leftrightarrow$ C14 Wijzigingen en terugmelding};
+\node[box,below=5mm of f] (g) {C15 Consumenten (AI optioneel)};
+\foreach \s/\t in {a/b,b/c,c/d,d/e,e/f,f/g}\draw[flow] (\s)--(\t);
+\node[draw,align=center,text width=11.8cm,below=8mm of g,fill=blue!4] (cross) {Door alle lagen: C7 Identiteit, C8 Tijd en C9 Provenance.\\Governance, lifecycle en versiebeheer gelden voor iedere component.};
+\draw[flow] (g.east)--++(.55,0)|-(a.east);
+\end{tikzpicture}
+\caption{Voorgestelde logische reference architecture. Pijlen tonen informatieafhankelijkheden en terugkoppeling; zij claimen geen bestaande implementatie of gemeten gedrag.}
+\label{fig:architecture}
+\end{figure}
+
+\subsection{Formele beschrijving van het conceptuele metamodel}
+Het volgende model is een eigen ontwerpspecificatie; de symbolen zijn geen nieuw gepubliceerde standaard. Een SMDP-release wordt gedefinieerd als:
+\[
+\mathcal{P}_v=(G_v,\mathcal{D}_v,\mathcal{S}_v,\mathcal{K}_v,\mathcal{Q}_v,\mathcal{B}_v),
+\]
+waar $G_v$ de semantische verbindingsgraaf is, $\mathcal{D}_v$ verwijzingen naar datasetversies bevat, $\mathcal{S}_v$ diensten en representaties identificeert, $\mathcal{K}_v$ het productcontract beschrijft, $\mathcal{Q}_v$ regels en beschikbare kwaliteitsmetingen bevat en $\mathcal{B}_v$ beheer- en toepasselijkheidsbesluiten vastlegt. Een verwijzing mag naar een externe bron wijzen. Versie $v$ identificeert de release, niet automatisch dezelfde versie voor alle afhankelijke artefacten.
+
+Het gereviseerde graafmodel is $G_v=(N,L,E,\tau,\gamma,\kappa)$, met resourceknopen $N$, literalwaarden $L$ en afzonderlijk geïdentificeerde beweringen/verbindingen $E$. De typering $\tau:N\rightarrow\mathcal{P}(\mathcal{T})$ staat meerdere representatierollen toe. De incidentiefunctie $\gamma:E\rightarrow N\times R\times(N\cup L)$ geeft inhoud en relatietype; $\kappa:E\rightarrow K$ bindt iedere verbinding aan een contextrecord. Twee edges met dezelfde inhoud mogen dus verschillende bronnen, versies en gezagsclaims hebben. Ontbrekende contextwaarden krijgen expliciet de status onbekend; zij verdwijnen niet door samenvoeging van triples. De verzameling typen omvat minimaal:
+\begin{align*}
+\mathcal{T}=\{&\text{Bron, Gezagsclaim, Term, Definitie, Concept, Klasse,}\\
+&\text{Objecttype, Attribuut, DataElementConcept, DataElement,}\\
+&\text{ConceptueelDomein, WaardeDomein, Identifier, Entiteitsreferentie,}\\
+&\text{Record, Bewering, Dataset, Dienst, Distributie, Product,}\\
+&\text{Mapping, Versie, Activiteit, Agent, Regel, Meting, Event, Besluit}\}.
+\end{align*}
+Een \emph{Entiteitsreferentie} is een representatie van de bedoelde domeinreferent; het model pretendeert niet de werkelijkheid zelf op te slaan. Een \emph{Klasse}-rol en een \emph{Concept}-rol blijven onderscheiden. Zij kunnen in een implementatie afzonderlijke identifiers krijgen, of onder expliciet profielbeleid door dezelfde resource worden gedragen; uit meervoudige typering volgt geen ongedocumenteerde model-equivalentie.
+
+De volgende relatiehandtekeningen leggen de centrale typegrenzen vast:
+\begin{align*}
+\operatorname{duidtAan}&:\text{Term}\rightarrow\text{Concept},\\
+\operatorname{definieert}&:\text{Definitie}\rightarrow\text{Concept},\\
+\operatorname{steuntOp}&:\text{Definitie}\rightarrow\text{Bron},\\
+\operatorname{formaliseert}&:\text{Klasse}\rightarrow\text{Concept},\\
+\operatorname{modelleert}&:\text{Objecttype}\rightarrow\text{Concept},\\
+\operatorname{heeftAttribuut}&:\text{Objecttype}\rightarrow\text{Attribuut},\\
+\operatorname{representeert}&:\text{DataElement}\rightarrow\text{DataElementConcept},\\
+\operatorname{beschrijft}&:\text{Record}\rightarrow\text{Entiteitsreferentie},\\
+\operatorname{ontsluit}&:\text{Dienst}\rightarrow\text{Dataset},\\
+\operatorname{omvat}&:\text{Product}\rightarrow(\text{Dataset}\cup\text{Dienst}).
+\end{align*}
+Dit zijn schemahandtekeningen voor relaties, geen totale functies: een term kan contextafhankelijk meerdere concepten aanduiden, en een dataset kan meerdere diensten hebben. Relaties tussen attributen, data-elementconcepten, begrippen en klassen krijgen een Mapping-knoop zodra equivalentie, transformatie of verlies moet worden verantwoord. De relatie \emph{formaliseert} betekent een gemotiveerde formalisatie, niet dat alle juridische nuances behouden zijn.
+
+Een mapping wordt vastgelegd als:
+\[
+ m=(s,v_s,t,v_t,r,c,j,\ell,a,\sigma),
+\]
+met bron $s$, bronversie $v_s$, doel $t$, doelversie $v_t$, relatietype $r$, context $c$, rechtvaardiging $j$, bekend betekenisverlies $\ell$, beoordelaar $a$ en status $\sigma$. Mogelijke relatietypen onderscheiden conceptuele overeenkomst, specialisatie, representatietransformatie en vastgestelde co-identiteit. Zij worden niet allemaal op één bestaande RDF-property afgebeeld. Bij publicatie moet per type worden gekozen of SKOS, OWL, PROV-O of een gemotiveerde uitbreiding past. \citep{S31,S30,S33}
+
+Een bewering krijgt afzonderlijke context:
+\[
+ b=(id_b,s,p,o,\iota_v,\iota_r,z,\pi,\epsilon),
+\]
+waar $id_b$ de afzonderlijke beweringsidentiteit is, $s,p,o$ de inhoud aanduiden, $\iota_v$ het geldigheidsinterval, $\iota_r$ het registratie-interval in systeem $z$, $\pi$ de provenanceverwijzing en $\epsilon$ de epistemische metadata. Publicatie- en eventtijd worden apart toegevoegd aan respectievelijk distributie en event. De bitemporele onderscheiding is gebaseerd op Jensen et al.; OWL-Time en PROV-O zijn representatiekandidaten voor onderdelen van de context. \citep{L14,S37,S33}
+
+De epistemische annotatie is als eigen profiel gedefinieerd door:
+\[
+\epsilon=(k,r_g,m,u,g,e,a),
+\]
+met uitspraaksoort $k$, registratiehandeling $r_g$, productiemethode $m$, onzekerheidsbeschrijving $u$, gezagsgrond $g$, bewijsstatus $e$ en verantwoordelijke $a$. Registratie en afleiding kunnen samen voorkomen. De methode vermeldt bijvoorbeeld menselijke invoer, een berekeningsregel of een geïdentificeerd AI-model; zij maakt geen kansuitspraak. Een AI-methode is niet per definitie een gekalibreerd probabilistisch model. $u$ kan afwezig, onbekend of methodisch beschreven zijn; een getal krijgt alleen een probabilistische interpretatie als die interpretatie is onderbouwd. $g$ onderscheidt wettelijke authenticiteit van ander gezag. $e$ onderscheidt onbeoordeeld, ondersteund, betwist en ingetrokken bewijs. Deze waarden zijn ontwerpkeuzen, geen PROV-O-enumeraties.
+
+Een contextrecord $K$ bindt daarnaast de bronversie, het perspectiefsysteem en relevante model-/mappingversies. Voor bekende tijdsgrenzen wordt de conventie $[begin,einde)$ gekozen. Een open einde en een onbekende grens zijn afzonderlijke toestanden; onbekend is niet oneindig geldig. Een gedeeltelijk geïnterpreteerde relatie kan daardoor geen tweewaardige waarheidsbeslissing afdwingen. De voorlopige controle levert \emph{voldoet}, \emph{schendt} of \emph{onbepaald}; ontbrekende verplichte metadata is een contractschending, maar de inhoudelijke waarheid van het gegeven kan alsnog onbepaald zijn.
+
+\paragraph{Analytisch tegenvoorbeeld, niet uitgevoerd.}
+Neem twee synthetische beweringen $b_1$ en $b_2$ met dezelfde inhoud $(x,p,7)$, maar bron A respectievelijk bron B. Alleen A heeft een beoordeelde gezagsgrond. Dan mogen $id_{b_1}$ en $id_{b_2}$ niet door deduplicatie verdwijnen: gelijkheid van waarde impliceert geen gelijkheid van context. Een latere versie $b_3$ corrigeert A naar waarde 8 met terugwerkende geldigheid. Een bekend-op-vraag vóór de correctieregistratie selecteert de eerdere bronversie; een latere bekend-op-vraag selecteert de correctie voor zover de geldigheidsvraag dat vereist. Deze verwachte uitkomst volgt uit het voorgestelde contract, niet uit een gedraaide prototypequery. Een verdedigbare alternatieve implementatie bewaart dezelfde informatie in relationele bewerings- en contexttabellen.
+
+\subsection{Voorgestelde invarianten}
+De volgende invarianten operationaliseren de requirements en moeten later in constraints en evaluatiescenario’s worden vertaald.
+
+\begin{enumerate}[label=I\arabic*.,leftmargin=1cm]
+\item \textbf{Typegrens.} Geen impliciete gelijkheid tussen term, concept, klasse, modelelement, record en referent. Een overgang vereist een getypeerde relatie (R01/R11).
+\item \textbf{Gezagsbewijs.} Iedere gepubliceerde positieve authenticiteitsclaim verwijst naar een vastgelegde grondslag, toepassingscontext en verantwoordelijkheidsbesluit; ontbreken wordt als onbekend zichtbaar (R02/R08/R23).
+\item \textbf{Identiteit.} Een identifier heeft een beheerde scope en referentsoort. Een wijziging van label of document-URL verandert niet zonder identiteitsbesluit de referent (R03).
+\item \textbf{Historie.} Een correctie creëert een nieuw registratiekennisinterval en bewaart de eerdere versie voor zover het toepasselijke bewaarbeleid dat toestaat. Geldigheid en registratie worden niet uit één ongetypeerd tijdveld afgeleid (R06/R20).
+\item \textbf{Afleiding.} Een afgeleid gegeven verwijst naar invoerversies, activiteit en regel- of modelversie voor zover beschikbaar; ontbrekende noodzakelijke context wordt expliciet als contractafwijking gepubliceerd. Afleiding erft niet automatisch wettelijke authenticiteit (R07/R23).
+\item \textbf{Validatiebereik.} Een validatie-uitkomst vermeldt datasetversie, shapeversie en redeneerconfiguratie. Conformiteit wordt niet als werkelijkheidsbewijs gepubliceerd (R09/R16).
+\item \textbf{Releasebinding.} Een productrelease verwijst naar vastgelegde versies van definities, modellen, mappings, contexten, regels en interfaces, of documenteert expliciet welke afhankelijkheid dynamisch blijft (R10/R13).
+\item \textbf{Wijzigingsbetekenis.} Een event verwijst naar een identificeerbare bron en opvraagbare wijzigingscontext. Ontvangstvolgorde alleen bepaalt niet de geldigheidsvolgorde (R15).
+\end{enumerate}
+Een invariant is niet automatisch in SHACL volledig afdwingbaar. Type- en verwijzingscontroles kunnen vaak als graafconstraints worden voorgesteld; een juridische grondslag of correcte identiteitsbeslissing vergt daarnaast deskundige beoordeling. Dit onderscheid volgt uit de scope van SHACL als graafvalidatie. \citep{S32}
+
+\subsection{Interfaces en informatiestromen}
+De architectuur definieert logische interfacecontracten, geen bestaande endpoints. Tabel~\ref{tab:interfaces} benoemt wat over componentgrenzen moet worden uitgewisseld. Protocolkeuze volgt pas uit toepasselijkheid en implementatiebesluit.
+
+\begin{longtable}{@{}P{.10\linewidth}P{.25\linewidth}P{.56\linewidth}@{}}
+\caption{Voorgestelde interfaces en informatiecontracten.}\label{tab:interfaces}\\
+\toprule Interface & Componenten & Contract \\ \midrule\endfirsthead
+\toprule Interface & Componenten & Contract \\ \midrule\endhead
+IF1 & C1--C6 & Semantische registratie: getypeerde resource, bron, versie, context, reviewstatus en onderlinge mapping; geen automatische publicatie na import. \\
+IF2 & C7--C9 naar alle lagen & Contextresolutie: scoped identifier, versie, tijdas, provenance en epistemische status; ontbrekend bewijs expliciet teruggeven. \\
+IF3 & C11 naar C9/C10/C12 & Bronopname: recordversie, schema, tijdcontext en bronverwijzing; validatierapport blijft afzonderlijk van de inhoud. \\
+IF4 & C10 naar C12 & Vrijgave-informatie: getoetste regels, meetpopulatie, resultaat, openstaande afwijkingen en verantwoordelijke voor acceptatie. \\
+IF5 & C12 naar C13/C15 & Productmanifest: doel, gebruikscondities, datasets/diensten, semantische versies en gepubliceerde kwaliteits- en bewijsbeperkingen. \\
+IF6 & C14 naar C13/C15 & Verandering: eventidentiteit, bronobject, oude/nieuwe versie waar beschikbaar, changetype en herstelverwijzing. \\
+IF7 & C15/C13 naar C14/C1/C11 & Terugmelding: betwiste uitspraak, bewijs, indienerrol, status en bronhouderroute; melding wijzigt niet vanzelf het bronrecord. \\
+\bottomrule
+\end{longtable}
+
+Een voorgestelde publicatiestroom begint met een gecontroleerde definitiebron in C1/C2. C3--C6 leggen vervolgens concept, ontologische keuze, modelconstructie en data-element vast. C11 verbindt bronrecords met deze beschrijvingen; C7--C9 leveren identiteit, tijdcontext en provenance. C10 voert de overeengekomen controles uit. C12 publiceert daarna een manifest op basis van een bevoegd vrijgavebesluit. C13 en C14 leveren representaties en notificaties; C15 maakt de context beschikbaar aan afnemers. Deze volgorde beschrijft een mogelijke gecontroleerde release, geen veronderstelde bestaande workflow.
+
+Een tweede stroom betreft semantische wijziging zonder recordwijziging. Een herziene definitie kan een mapping of shape beïnvloeden terwijl de bronwaarden identiek blijven. De afhankelijkhedengraaf moet dergelijke impact zichtbaar maken. Een derde stroom betreft een retrospectieve correctie: het bronrecord krijgt een nieuwe registratieversie, de geldigheid wordt afzonderlijk bijgewerkt en een event verwijst naar de correctie. Een vierde stroom betreft afleiding: een AI-uitspraak krijgt een eigen activiteit en status en wordt niet zonder besluit teruggeschreven als authentiek brongegeven.
+
+\subsection{Normatieve en afgeleide informatie}
+Normatieve definities en toepasselijke regels worden als brongebonden uitspraken beheerd; de semantische representatie is een interpretatie daarvan wanneer zij niet rechtstreeks door de bevoegde bron is vastgesteld. Een OWL-axioma dat een wettelijke tekst formaliseert, krijgt daarom een verantwoordelijke en een beoordelingsstatus. Een afgeleid record verwijst naar zowel invoer als gebruikte interpretatieversie. De architectuur verplaatst het institutionele gezag niet naar de technische graaf.
+
+Voor machineconsumenten wordt een \emph{interpretatiepakket} voorgesteld: de aangevraagde gegevens met relevante definities, identifiers, model-/mappingversies, provenance, kwaliteitsuitkomsten en epistemische beperkingen. Het pakket hoeft niet alle metadata integraal in elk antwoord te kopiëren; vaste verwijzingen met een afgesproken resolutiecontract zijn een alternatief. Of deze vorm bruikbaar en efficiënt is, moet de evaluatie vaststellen.
+
+\subsection{Governance, lifecycle en versiebeheer}
+De voorgestelde governance onderscheidt de bronverantwoordelijke, begripsbeheerder, model-/mappingbeheerder, producteigenaar en afnemer. Een juridische deskundige beoordeelt gezags- en toepasselijkheidsclaims waar nodig. Functies kunnen organisatorisch samenvallen, maar besluiten en rollen blijven traceerbaar. Deze inrichting is een synthese van registratiebeheer, BOMOS en governance\-onderzoek. \citep{S10,S23,L07}
+
+De lifecycle luidt als ontwerpvoorstel: concept, review, vastgesteld, gepubliceerd, verouderd en ingetrokken. Herziening creëert een nieuwe versie met een relatie tot de vorige; intrekking wordt zichtbaar in resolutie en catalogus. Publicatie vereist een expliciet vrijgavebesluit. Compatibiliteit wordt niet afgeleid uit een versienummer alleen: een definitiewijziging kan semantisch brekend zijn zonder syntactische schemawijziging. Het manifest legt daarom afhankelijkheden en compatibiliteitsbesluiten vast.
+
+Voor een release $v$ definieert het manifest een afhankelijkhedenverzameling $D(v)=\{(a_i,v_i,c_i)\}$ met artefact, gekozen versie en compatibiliteitsbesluit. De evaluatie moet toetsen of dezelfde release daarmee opnieuw kan worden geïnterpreteerd. Waar een dynamische bron geen vaste snapshot toelaat, wordt die beperking gepubliceerd in plaats van reproduceerbaarheid te suggereren. Bewaar- en verwijderbeleid worden afzonderlijk beoordeeld; versiebeheer impliceert geen onbeperkte bewaring van alle gegevens.
+
+\subsection{Minimale realisatie en concurrerende architecturen}
+De minimale realisatie heeft vijf functies: (1) bron- en begripsregistratie, (2) contextbinding bij beweringen, (3) een versiegebonden productmanifest, (4) een distributiecontract en (5) review/validatie van wijzigingen. Deze functies kunnen in één conventionele database en applicatie worden gerealiseerd. C1--C15 zijn views op die functies. C4 vereist alleen een expliciete beoordeling van de ontologische keuze; zonder concrete behoefte hoeft geen zelfstandige ontologie te worden gebouwd. C14 wordt geactiveerd bij notificatievereisten; C15 is een afnemerscontract en geen verplichte AI-voorziening.
+
+\begin{longtable}{@{}P{.23\linewidth}P{.34\linewidth}P{.35\linewidth}@{}}
+\caption{Ontwerpalternatieven; de keuze is nog niet empirisch beslist.}\\
+\toprule Variant & Reden om te onderzoeken & Mogelijke reden voor verwerping \\ \midrule
+A1: conventioneel contextregister & Dezelfde feiten, context en versiehistorie via tabellen, documentverwijzingen en vaste rapporten; sterke eenvoudiger comparator. & Als expliciete koppelingen een vooraf relevante interpretatiewinst leveren die niet even goedkoop met A1 wordt bereikt. \\
+B1: getypeerd contextbindingsprofiel & Expliciete edge-identiteit, mappings en afhankelijkheden; RDF is een mogelijke publicatierepresentatie. & Bij praktische gelijkwaardigheid van A1, hogere beheerkosten of meer fouten door contextselectie. \\
+B2: B1 plus ontologische verdieping & Aanvullende axioma’s of UFO/OntoUML-review bij aangetoonde identiteit-/rolproblemen. & Als detectiewinst de extra analyse- en onderhoudsinspanning niet rechtvaardigt. \\
+\bottomrule\end{longtable}
+
+Bestaand semantisch MDM-werk en kennisgraaftechnieken maken plausibel dat verschillende fysieke realisaties mogelijk zijn. \citep{L18,L13} Zij kiezen de winnaar niet. DPROD is een kandidaat om C12-inhoud te hergebruiken; een nieuw productschema wordt alleen voorgesteld waar de gekozen bron- en taakcontext een aantoonbare aanvulling vraagt. \citep{S51}
+
+Centralisatie wordt onafhankelijk van representatie gekozen. Een centraal besluitpunt kan conflicterende belangen verhullen; federatie kan afhankelijkheden en resolutiestoringen toevoegen. Beide zijn ontwerp-risicoscenario’s, geen gemeten incidenten. C1 registreert daarom het bestaan van geschillen en bevoegde besluiten; het kiest niet automatisch één universele definitie. Voor toegang geldt hetzelfde beginsel: een onbereikbare of ingetrokken bron wordt niet als lege of inhoudelijk onjuiste bron behandeld. Het contract legt vast welke context de afnemer daadwerkelijk mocht ontvangen.

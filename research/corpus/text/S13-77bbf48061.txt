@@ -1,0 +1,1151 @@
+Expertadvies MIM (Metamodel
+voor informatiemodellering)
+
+
+
+
+Datum:                  23 maart 2021
+Versienummer:           1.0
+
+
+
+Opdrachtgever:          Forum Standaardisatie
+                        Postbus 96810
+                        2509 JE Den Haag
+                        070-8887776
+                        info@forumstandaardisatie.nl
+
+
+
+Procedurebegeleiding: Lost Lemon
+Voorzitter expertgroep: Diana Koppenol
+Auteurs:                Arjen Brienen, Jasper Muskiet
+Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+Inhoud
+
+
+1    Samenvatting en advies ....................................................................... 3
+
+2    Doelstelling expertadvies .................................................................... 4
+    2.1   Achtergrond ............................................................................................. 4
+    2.2   Doelstelling expertadvies.................................................................... 4
+    2.3   Doorlopen proces ................................................................................... 4
+    2.4   Vervolg....................................................................................................... 5
+    2.5   Samenstelling expertgroep ................................................................ 5
+    2.6   Leeswijzer ................................................................................................. 6
+
+3    Toelichting standaard ............................................................................ 7
+
+4    Toepassings– en werkingsgebied ................................................... 9
+    4.1   Functioneel toepassingsgebied ......................................................... 9
+    4.2   Organisatorisch werkingsgebied ...................................................... 9
+
+5    Toetsing van standaard aan criteria ........................................... 10
+    5.1   Toegevoegde waarde ......................................................................... 10
+    5.2   Open standaardisatieproces ............................................................ 14
+    5.3   Draagvlak................................................................................................ 17
+    5.4   Opname bevordert adoptie .............................................................. 20
+    5.5   Adoptieactiviteiten............................................................................... 22
+
+
+
+
+                                                                                                                             Pagina 2 van 22
+    Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+1    Samenvatting en advies
+
+
+    Op basis van het expertonderzoek wordt geadviseerd om MIM wel op te
+    nemen op lijst aanbevolen standaarden van het Forum Standaardisatie.
+
+    De expertgroep adviseert om Geonovum het predicaat ‘uitstekend beheer’
+    te geven voor MIM.
+
+    Als functioneel toepassingsgebied wordt geadviseerd:
+
+     MIM kan worden toegepast bij het opstellen en beheren van
+     conceptuele en logische informatiemodellen.
+
+
+
+    Als organisatorisch werkingsgebied wordt geadviseerd:
+
+     Nederlandse overheden (Rijk, provincies, gemeenten en
+     waterschappen) en instellingen uit de (semi-) publieke sector.
+
+
+    Paragraaf 5.5 van dit document beschrijft aanbevelingen van de
+    expertgroep aan het Forum Standaardisatie en het Overheidsbreed
+    Beleidsoverleg Digitale Overheid (OBDO) ten aanzien van de stimulering
+    van adoptie van de standaard.
+
+
+
+
+                                                                             Pagina 3 van 22
+      Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+2     Doelstelling expertadvies
+
+
+
+2.1                   Achtergrond
+
+      De Nederlandse overheid streeft naar betrouwbare gegevensuitwisseling
+      door het gebruik van open standaarden en het voorkomen van vendor
+      lock-in. Het actieplan “Open Overheid”, de Digitale Agenda 2017 en de
+      kabinetsreactie op het Rapport Elias benadrukken dit beleid. Om dit doel
+      te bereiken, onderstrepen het instellingsbesluit van het Forum
+      Standaardisatie, de Generieke Digitale Infrastructuur en de verschillende
+      architectuurkaders het gebruik van open standaarden bij het ontwerpen of
+      inkopen van informatiesystemen.
+
+      Een van de maatregelen om de adoptie van open standaarden te
+      bevorderen is de publicatie en het beheer van een lijst met open
+      standaarden waarvoor een ‘pas toe of leg uit’ verplichting geldt of
+      waarvan het gebruik ‘aanbevolen’ is. Het Overheidsbreed Beleidsoverleg
+      Digitale Overheid (OBDO) besluit welke standaarden op deze lijst worden
+      opgenomen. Het OBDO baseert zich hierbij op expertadviezen, openbare
+      consultaties en adviezen van het Forum Standaardisatie.
+
+2.2              Doelstelling expertadvies
+      Dit document is een expertadvies voor MIM gericht aan het OBDO en
+      Forum Standaardisatie. MIM is aangemeld voor opname op de lijst met
+      open standaarden door Dick Krijtenburg van Geonovum.
+
+      Doel van dit document is om het OBDO te adviseren of MIM in aanmerking
+      komt voor opname op de lijst aanbevolen standaarden, al dan niet onder
+      voorwaarden en of Geonovum in aanmerking komt voor uitstekend
+      beheer.
+
+2.3               Doorlopen proces
+      Voor het opstellen van dit proces is de volgende procedure doorlopen:
+       1. De standaard MIM is in 2018 aangemeld voor de lijst aanbevolen
+          standaarden. Na een expertbijeenkomst is vastgesteld om de opname
+          van de standaard uit te stellen omdat het beheerproces nog
+            onvoldoende geformaliseerd was, en er onzekerheid bestond over de
+            financiering van het beheer. Nu twee jaar later is de standaard
+         opnieuw in procedure gebracht.
+      2. Er is geen nieuw intakeadvies opgesteld, omdat de
+         aandachtsgebieden duidelijk waren uit het vorige intakeadvies en
+         expertadvies. De standaard is wel voorbesproken met de indieners op
+         basis van de criteria voor inbehandelname en met nadruk op de
+         aanbevelingen van het vorige expertadvies.
+      3. De expertgroep van 2019 en nieuwe betrokken zijn uitgenodigd als
+         nieuwe expertgroep voor MIM en er is een voorzitter aangesteld.
+      4. De leden van de expertgroep hebben een voorbereidingsdossier
+         gekregen dat is samengesteld met informatie uit de vorige procedure.
+         Voorafgaand aan de expertbijeenkomst heeft de expertgroep dit
+         voorbereidingsdossier doorgenomen en aandachtspunten
+         geïdentificeerd.
+      5. De expertgroep is op 2 maart 2021 bijeengekomen om de
+         bevindingen in het algemeen en de geïdentificeerde aandachtspunten
+
+                                                                                  Pagina 4 van 22
+      Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+            in het bijzonder te bespreken. Tijdens deze bijeenkomst zijn ook het
+            toepassings- en werkingsgebied vastgesteld.
+
+      Dit expertadvies geeft de uitkomst van de expertgroep weer. De
+      procesbegeleider heeft een concept van dit expertadvies aan de leden
+      van de expertgroep gestuurd met verzoek om commentaar. Na
+      verwerking van reacties uit de expertgroep is het rapport nogmaals
+      toegestuurd aan de experts, afgerond en ter kennisgeving ingediend bij
+      het Bureau Forum Standaardisatie (het secretariaat van het Forum
+      Standaardisatie).
+
+2.4                Vervolg
+      Het Bureau Forum Standaardisatie zal dit expertadvies openbaar maken
+      ten behoeve van een publieke consultatie die plaatsvindt van 8 april tot en
+      met 6 mei 2021. Eenieder kan gedurende de consultatieperiode een
+      reactie geven op dit expertadvies. Na afsluiting van de openbare
+      consultatie koppelt het Bureau Forum Standaardisatie de reacties terug
+      aan de expertgroep.
+
+      Het Forum Standaardisatie stelt met het expertadvies en de relevante
+      inzichten uit de openbare consultatie een advies aan het OBDO op. Het
+      OBDO besluit met dit advies om de standaard wel of niet op de lijst open
+      standaarden te plaatsen.
+
+2.5                Samenstelling expertgroep
+      Het Forum Standaardisatie streeft naar een representatieve expertgroep
+      met een evenwichtige vertegenwoordiging van (toekomstige) gebruikers
+      (zowel publiek als privaat), leveranciers, wetenschappers en andere
+      belanghebbenden. De expertgroep heeft een onafhankelijk voorzitter die
+      de expertgroep leidt en de verantwoordelijkheid neemt voor het
+      expertadvies. Vanwege de coronamaatregelen heeft de bijeenkomst online
+      plaatsgevonden.
+
+      Als onafhankelijk voorzitter is opgetreden Diana Koppenol, directeur van
+      Lost Lemon.
+
+      Arjen Brienen, senior adviseur, en Jasper Muskiet, adviseur bij Lost
+      Lemon, hebben de procedure in opdracht van het Bureau Forum
+      Standaardisatie begeleid.
+
+      Aan de expertbijeenkomst hebben deelgenomen:
+      -   Jos van der Arend (Kennisnet)
+      -   Mick Baggen (Rijkswaterstaat)
+      -   Lennart van Bergen (Kadaster)
+      -   Johan Boer (VNG)
+      -   Koos Boersma (Informatiehuis Water)
+      -   Michel Böhms (TNO)
+      -   Rob van Dort (Kamer van Koophandel)
+      -   Saskia van der Elst (Nationale Politie)
+      -   Joeri van Es (ArchiXL)
+      -   Jan van Grinsven (BKWI)
+      -   Paul Janssen (Geonovum)
+      -   Elly Kampert (Zorginstituut Nederland)
+      -   Ruud Kathmann (Waarderingskamer)
+      -   Merijn Koster (Belastingdienst)
+      -   Dick Krijtenburg (Geonovum, indiener)
+      -   Arjan Loeffen (Armatiek)
+      -   Robert Melskens (VNG Realisatie)
+                                                                                    Pagina 5 van 22
+      Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+      -     Nico Plat (Rijkswaterstaat)
+      -     Fabien Reniers (Zorginstituut Nederland)
+      -     Wijnand van Riel (TNO)
+      -     Hans Sinnige (Stichting Rinis)
+      -     Tonkie Zwaan (BKWI)
+
+      Redouan Ahaloui en Han Zuidweg van het Bureau Forum Standaardisatie
+      waren als toehoorders bij de expertbijeenkomst aanwezig.
+
+2.6                   Leeswijzer
+
+      Hoofdstuk 3 geeft een korte toelichting op de standaard, met name het
+      nut en de werking ervan.
+
+      Hoofdstuk 4 beschrijft het voorgestelde functioneel toepassingsgebied
+      (situaties waarin de standaard functioneel gebruikt moet worden) en
+      organisatorisch werkingsgebied (organisaties die de standaard moeten
+      toepassen).
+
+      Hoofdstuk 5 beschrijft de resultaten van de toetsing van de standaard aan
+      de hand van de criteria voor opname op de lijst open standaarden.
+
+
+
+
+                                                                                  Pagina 6 van 22
+    Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+3   Toelichting standaard
+
+
+    MIM (Metamodel voor Informatiemodellering) dient als gemeenschappelijk
+    vertrekpunt voor het opstellen van conceptuele en logische (zie
+    tekstkader) informatiemodellen, zodat informatiemodellen en de daarop
+    gebaseerde standaarden voor gegevensuitwisseling meer compatibel
+    worden. MIM voorziet enerzijds in duidelijke afspraken over het
+    vastleggen van gegevensspecificaties en biedt anderzijds ruimte aan de
+    verschillende niveaus van modellering.
+
+
+      Conceptueel informatiemodel: modellering van de werkelijkheid binnen het
+      beschouwde domein, v.w.b. informatie daarvan, onafhankelijk van ontwerp van en
+      implementatie in systemen. Het geeft een zo getrouw mogelijke beschrijving van die
+      werkelijkheid waarbij de gebruikte termen in natuurlijke taal geformuleerd worden. Een
+      dergelijk model definieert het ‘wat’: welke ‘concepten’ (‘dingen’) worden onderscheiden
+      (in de beschouwde werkelijkheid), wat betekenen zij, hoe verhouden ze zich tot elkaar
+      en welke informatie (eigenschappen) is daarvan relevant. Het dient als taal waarmee
+      domeinexperts kunnen communiceren met informatie-analisten en verschaft een
+      eenduidige interpretatie van die werkelijkheid ten behoeve van deze communicatie. Een
+      conceptueel informatiemodel wordt dan ook opgesteld voor gebruik door mensen, zodat
+      ‘de business’ en de ICT-specialisten elkaar gaan begrijpen. (ontleend aan: Model Driven
+      Architecture (MDA) Guide; Object Management Group, rev. 2.0, 1-6-2014)
+
+      Logisch Informatiemodel: Beschrijft hoe de, in het conceptuele model onderscheiden,
+      concepten gebruikt worden bij de interactie tussen systemen en hun gebruikers en
+      tussen systemen onderling. Anders gezegd, een model van de representatie van
+      informatie over de werkelijkheid in digitale registraties en in de uitwisseling daartussen.
+      Het gaat hierbij, in tegenstelling tot een conceptueel model, dus veel meer om het ‘hoe’.
+      Het slaat de brug tussen werkelijkheid en systemen maar beschrijft nog niet de
+      implementatie in die systemen. Een dergelijk model wordt in een formele taal
+      beschreven en wordt waar mogelijk gegenereerd vanuit het conceptueel model. Het
+      logisch model wordt opgesteld voor ICT- interoperabiliteit, voor gebruik door met name
+      de ontwerpers, bouwers en beheerders van ICT- voorzieningen. (ontleend aan: Model
+      Driven Architecture (MDA) Guide; Object Management Group, rev. 2.0, 1-6-2014)
+
+
+
+    Bij een gezamenlijke toepassing van MIM worden informatiemodellen
+    beter vergelijkbaar. Aanvullend wordt het mogelijk om op basis daarvan
+    uitwisselstandaarden eenduidiger vast te stellen en zo
+    gegevensuitwisseling te bevorderen. Beschrijving van het metamodel is
+    een randvoorwaarde indien er sprake is van een stelsel van
+    samenhangende informatiemodellen. De beschrijving is noodzakelijk om
+    efficiënt gegevens uit te kunnen wisselen over ketens en organisaties
+    heen.
+
+    Een metamodel is een model van een model. Het definieert een
+    verzameling van modelleerconstructies in de vorm van bouwstenen
+    oftewel modelelementen, met bijbehorende betekenis en bijbehorende
+    afspraken omtrent hoe deze toe te passen. Een informatiemodel kan
+    vervolgens hiermee gemaakt worden. Het metamodel is daarmee de
+    modelleertaal waarin een informatiemodel is uitgedrukt. Deze metataal
+    beschrijft als het ware de grammatica en de syntax van de modelleertaal,
+    en geeft daarmee kaders aan deze informatiemodellen. MIM gaat dus niet
+    over technische informaiemodellen. Het opstellen van het informatiemodel
+    en de keuze van modelelementen is geheel aan de opsteller en
+    domeindeskundigen zelf. Verder is het mogelijk om aanvullende
+    modelelementen te specificeren in een eigen extensie.
+
+
+                                                                                          Pagina 7 van 22
+Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+Figuur 1 Kern MIM
+
+
+In Figuur 1 zijn de kernelementen van MIM weergegeven en zijn de
+basiselementen te zien op basis waarvan een MIM-compatibel
+informatiemodel wordt opgebouwd.
+
+
+
+
+                                                                   Pagina 8 van 22
+      Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+4     Toepassings– en werkingsgebied
+
+
+      De instructie rijksdienst inzake de aanschaf van ICT producten en ICT
+      diensten verplicht overheidsorganisaties om relevante standaarden op de
+      ‘pas toe of leg uit’-lijst uit te vragen en toe te passen bij
+      aanbestedingstrajecten.
+
+      Afhankelijk van de aan te schaffen functionaliteit moet een
+      overheidsorganisatie bepalen welke standaarden op de lijst aanbevolen
+      standaarden relevant zijn. Hiervoor is voor iedere standaard een
+      functioneel toepassingsgebied (in welke situaties is de standaard
+      functioneel van toepassing) en een organisatorisch toepassingsgebied
+      (welke organisaties moeten de standaard gebruiken) beschreven.
+
+      Secties 4.1 en 4.2 geven het advies van de expertgroep voor het
+      functioneel en organisatorisch toepasingsgebied van MIM.
+
+4.1                   Functioneel toepassingsgebied
+
+      De expertgroep adviseert als functioneel toepassingsgebied voor MIM:
+
+      MIM kan worden toegepast bij het opstellen en beheren van conceptuele
+      en logische informatiemodellen.
+
+4.2                   Organisatorisch werkingsgebied
+
+      De expertgroep adviseert om het organisatorisch werkingsgebied van de
+      standaard overeen te laten komen met het werkingsgebied waarop de lijst
+      aanbevolen standaarden van toepassing is, te weten:
+
+      Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen)
+      en instellingen uit de (semi-) publieke sector.
+
+
+
+
+                                                                                Pagina 9 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+5         Toetsing van standaard aan criteria
+
+
+          Het Forum Standaardisatie hanteert vier hoofdcriteria om te bepalen of
+          een standaard in aanmerking komt voor opname op de lijst:
+          1. Heeft de standaard toegevoegde waarde?
+          2. Zijn de standaard en het standaardisatieproces voldoende open?
+          3. Heeft de standaard voldoende draagvlak?
+          4. Is opname op de lijst nodig om de adoptie te bevorderen? 1
+
+          Ieder van deze hoofdcriteria heeft deelcriteria die beschreven staan in het
+          document ‘Toetsingsprocedure en criteria voor lijst
+          met open standaarden voor indieners en experts’, te vinden op de website
+          van het Forum Standaardisatie
+          https://www.forumstandaardisatie.nl/content/toetsen-van-standaarden.
+
+          Dit hoofdstuk beschrijft per criterium het resultaat van de toetsing. Voor
+          de volledigheid is tevens de beschrijving van elk criterium opgenomen.
+
+5.1                         Toegevoegde waarde
+
+          De interoperabiliteitswinst en andere voordelen van adoptie van de
+          standaard wegen overheidsbreed en maatschappelijk op tegen de risico’s
+          en nadelen.
+
+
+
+5.1.1     Is het toepassings- en werkingsgebied van de aanmelding goed
+          gedefinieerd?
+
+5.1.1.1   Is het functioneel toepassingsgebied goed gedefinieerd?
+
+                     Ja, zie paragraaf 4.1.
+
+                     Er is discussie tussen de experts over het verschil (of de
+                     overeenkomsten) tussen conceptuele en logische
+                     informatiemodellen. Dit verschil is voor een aantal experts niet
+                     voldoende duidelijk gedefinieerd. Aangezien technische modellen
+                     wel expliciet uitgesloten worden voor deze standaard, zijn in het
+                     toepassingsgebied wel de termen conceptueel en logisch blijven
+                     staan.
+
+5.1.1.2   Is het organisatorisch werkingsgebied goed gedefinieerd?
+
+                     Ja, zie paragraaf 4.2.
+
+                     Een aantal experts vraagt aandacht voor het feit dat MIM niet
+                     geldt voor eigen (interne) modellen, maar alleen van toepassing is
+                     voor gegevensuitwisseling tussen organisaties. De lijst open
+                     standaarden gaat ook alleen over de gegevensuitwisseling tussen
+                     (semi-)overheidsorganisaties, zoals ook gedefinieerd in het
+                     organisatorisch werkingsgebied.
+
+
+
+          1 Dit criterium is voornamelijk van toepassing op standaarden op de ‘pas toe of leg uit’ lijst, niet voor
+             aanbevolen standaarden.
+                                                                                                                      Pagina 10 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+5.1.1.3   Is de standaard generiek toepasbaar (en niet alleen bedoeld voor
+          gegevensuitwisseling met één of een beperkt aantal specifieke
+          organisaties)? (toelichtende vraag)
+
+                    Ja, MIM is van toepassing op alle (semi)overheidspartijen die
+                    conceptuele of logische informatiemodellen toepassen op de
+                    specificatie van standaarden voor de uitwisseling van gegevens.
+                    De toepassing van MIM beperkt zich niet tot een bepaalde
+                    organisatie of sector.
+
+                    MIM is voortgekomen vanuit het toepassingsgebied geo-
+                    standaarden en basisregistraties. Dit is bijvoorbeeld terug te zien
+                    in het beheerplan (hoofdstuk 3) waarin de geo-standaarden als
+                    basis voor MIM genoemd worden. Hoewel er gestreefd wordt naar
+                    toepassing van MIM over meerdere sectoren heen, moet per
+                    toepassingsgebied geanalyseerd worden in hoeverre MIM daarvoor
+                    bruikbaar is. De experts roepen op de passage in het beheerplan
+                    aan te passen. De beheerorganisatie is het hiermee eens.
+
+5.1.2     Verhoudt de standaard zich goed tot andere standaarden?
+
+5.1.2.1   Kan de standaard naast of in combinatie met reeds opgenomen
+          standaarden worden toegepast (d.w.z. de standaard conflicteert niet met
+          reeds opgenomen standaarden)?
+
+                    Ja, MIM is gebruikt voor de informatiemodellen die ten grondslag
+                    liggen aan de Geo-standaarden en onder de oude naam KKG ook
+                    aan StUF. Deze relaties hebben geen gevolgen voor de toetsing
+                    van MIM.
+
+                    Er bestaat geen andere vergelijkbare standaard op de ‘pas toe of
+                    leg uit’-lijst, op de lijst aanbevolen standaarden of bij standaarden
+                    die aangemeld zijn voor deze lijsten. Wel hangt MIM sterk samen
+                    met al gangbare informatiemodellen. Er zijn wel reeds opgenomen
+                    standaarden (NLCIUS) die niet volgens MIM zijn beschreven, en in
+                    de huidige vorm niet compatibel zijn met MIM. MIM komt hier pas
+                    in beeld als er van die standaard een substantieel gewijzigde
+                    versie wordt uitgebracht (zie ook het functioneel
+                    toepassingsgebied).
+
+5.1.2.2   Biedt de aangemelde standaard meerwaarde boven reeds opgenomen
+          standaarden met een overlappend functioneel toepassings- en
+          organisatorisch werkingsgebied? (Dit kan ook om een nieuwe versie van
+          dezelfde standaard gaan.)
+
+                    Ja, er zijn geen concurrerende of samenhangende standaarden
+                    geïdentificeerd op de lijst van open standaarden.
+
+5.1.2.3   Biedt de aangemelde standaard meerwaarde boven bestaande
+          concurrerende standaarden die in aanmerking zouden kunnen komen voor
+          opname? (toelichtende vraag)
+
+                    Er zijn concurrerende standaarden zoals NEN 2660 en daarnaast
+                    internationale standaarden, zoals 12006-3 en draft standaard CEN
+                    TC442/WG4/TG3 SML. De meeste experts geven na discussie aan
+                    dat er geen bezwaar is om MIM op te nemen op de lijst
+
+                                                                                            Pagina 11 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+                    aanbevolen standaarden, omdat MIM al als volwassen standaard
+                    wordt gezien en in meerdere domeinen al toegepast wordt (zie
+                    ook paragraaf 5.1.3.2). De expertgroep doet een dringende
+                    oproep aan NEN en Geonovum om gezamenlijk de compatibiliteit
+                    tussen deze standaarden te verzorgen en te onderzoeken hoe een
+                    top-level ontologie (ofwel fundamentele ontologie) kan worden
+                    ingepast in MIM.
+
+
+
+5.1.2.4   Is de standaard een internationale standaard of sluit de standaard aan bij
+          relevante internationale standaarden? (toelichtende vraag)
+
+                    Het is geen internationale standaard, maar sluit aan bij ISO11404,
+                    ISO8601, UML 2.5, RDF Concepts and abstract syntax. In
+                    algemene zin is er afstemming met internationale ontwikkelingen
+                    via ISO TC211 Geo-informatie en de INSPIRE richtlijnen.
+
+5.1.3     Wegen de kwantitatieve en kwalitatieve voordelen van adoptie van de
+          standaard, voor de (semi-)overheid als geheel en voor de maatschappij,
+          op tegen de nadelen?
+
+5.1.3.1   Zijn de kosten van implementatie acceptabel en zijn deze kosten bekend
+          en inzichtelijk?
+
+                    Ja. Naar verwachting zijn de implementatiekosten van MIM relatief
+                    hoog voor organisaties die moeten overstappen naar MIM –
+                    voornamelijk vanwege de lange doorlooptijd – maar is dit niet
+                    significant anders dan bij andere implementaties van nieuwe
+                    modellen. De experts verwachten dat de impact van
+                    implementatie van MIM beperkt zal zijn als deze wordt uitgevoerd
+                    als onderdeel van het vernieuwen van het gegevensmodel binnen
+                    het bestaande beheer van deze standaarden. Bovendien
+                    verwachten de experts dat de impact op afgeleide
+                    uitwisselstandaarden beperkt zal zijn. Die impact zal per
+                    informatiemodel vastgesteld moeten worden.
+
+5.1.3.2   Is er een (kwalitatieve) businesscase van de standaard aanwezig?
+
+                    Ja. Geonovum, VNG Realisatie en Kadaster passen MIM toe bij de
+                    door hun beheerde informatiemodellen. Het betreft hier een breed
+                    pakket aan informatiemodellen, bijbehorende uitwisselstandaarden
+                    en in ketens met meerdere koppelvlakken en meerdere partijen.
+                    Een aantal van deze uitwisselstandaarden staat opgenomen op de
+                    ‘pas toe of leg uit’-lijst, waaronder de Geo-standaarden. Verder
+                    wordt MIM onder andere toegepast door:
+               -    Ministerie van BZK: Digitaal Stelsel Omgevingswet
+               -    Ministerie van BZK, TNO en Geonovum: Basisregistratie
+                    Ondergrond
+               -    Ministerie van BZK: Doorontwikkeling in samenhang van de Geo-
+                    basisregistraties
+              -     Waarderingskamer: WOZ
+              -     DUO
+              -     Onderwijsketen
+              -     Nationale Politie
+
+
+
+
+                                                                                         Pagina 12 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+                    MIM zal de uitwisselbaarheid van gegevens tussen overheden
+                    verbeteren doordat de uniformiteit van uitwisselstandaarden wordt
+                    verbeterd. Dit komt doordat modellen beter met elkaar
+                    vergelijkbaar zijn Dit geeft beter inzicht in welke informatie waar
+                    beschikbaar is en of/hoe deze informatie over verschillende
+                    organisaties heen met elkaar verbonden kan worden. Doordat de
+                    modellen op dezelfde wijze opgesteld zijn, wordt het ook
+                    makkelijker om op dezelfde wijze uitwisselstandaarden te
+                    definieren om de beschreven informatie te delen.
+
+5.1.3.3   Is de meerwaarde van de standaard goed inzichtelijk te maken? Wat
+          betekent de standaard voor de (bedrijfs)processen van een organisatie of
+          keten en wat los je met de standaard op?
+
+                    Ja. zonder aanbevolen standaard, ontwikkelt elke partij eigen
+                    informatiemodellen volgens eigen inzichten en afspraken of maken
+                    gebruik van een bestaande taal. Hierdoor zijn modellen moeilijk
+                    vergelijkbaar, kunnen modellen onderling niet goed uitgewisseld
+                    worden en zijn er verschillen in de manier waarop
+                    uitwisselstandaarden worden opgesteld. Toepassing van het
+                    metamodel leidt tot eenduidige interpretatie van de
+                    informatiemodellen en bevordert de uitwisselbaarheid en
+                    hergebruik van deze modellen tussen verschillende partijen,
+                    waardoor gegevensuitwisseling over ketens en organisaties heen
+                    eenduidiger en eenvoudiger wordt. Bovendien maakt uniformering
+                    het eenvoudiger om aan nieuwe tooling te werken.
+
+                    In de MIM-specificatie blijft het model van begrippen 2 buiten
+                    scope. Om tot semantische interoperabiliteit te komen is een
+                    model van begrippen van wezenlijk belang. Wel is in de
+                    specificatie op het niveau van het conceptuele en logische model
+                    bij elk MIM informatie-element een metagegeven ‘begrip’
+                    toegevoegd. Hiermee is de relatie gelegd tussen het informatie-
+                    element en het overeenkomstige begrip uit het begrippenmodel.
+
+5.1.3.4   Zijn de beveiligingsrisico’s aan overheidsbrede adoptie van de standaard
+          acceptabel?
+
+                    Ja, er zijn geen beveiligingsrisico’s geïdentificeerd.
+
+5.1.3.5   Zijn de privacyrisico’s aan overheidsbrede adoptie van de standaard
+          acceptabel?
+
+                    Ja, er zijn geen privacyrisico’s geïdentificeerd.
+
+5.1.4     Conclusie criteria ‘Toegevoegde waarde’
+
+                    De expertgroep concludeert dat MIM wel toegevoegde waarde
+                    heeft als aanbevolen standaard. Een aantal experts geeft aan dat
+                    de verhouding tot andere concurrerende standaarden, zoals
+
+
+
+          2 Model van begrippen: Beschrijft de werkelijkheid binnen het beschouwde domein (de ‘universe of
+             discourse’) d.m.v. de daarin gehanteerde begrippen en hun relaties tot elkaar. Doel is dat de
+             actoren daarbinnen elkaar begrijpen en één taal spreken. Een model van begrippen wordt
+             opgesteld voor gebruik door mensen, met name ‘de business’. De begrippen worden beschreven in
+             een formele taal, een vocabulaire. Een vocabulaire is geen informatiemodel. Begrippen kunnen in
+             meerdere informatiemodellen gebruikt worden.
+                                                                                                               Pagina 13 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+                    NEN2660 potentieel een risico is om interoperabiliteit te
+                    bevorderen.
+
+                    De experts geven als aanvullende adoptieadviezen mee:
+               -    Aan de beheerorganisatie Geonovum om de passage in het
+                    beheerplan over de basis van MIM (geo-standaarden) aan te
+                    passen zodat beter uitgelegd wordt dat MIM breder dan op geo-
+                    standaarden kan worden toegepast.
+               -    Aan NEN en Geonovum een dringende oproep om gezamenlijk
+                    de compatibiliteit tussen deze standaarden te verzorgen en te
+                    onderzoeken hoe een top-level ontologie (ofwel fundamentele
+                    ontologie) kan worden ingepast in MIM.
+               -
+
+5.2                       Open standaardisatieproces
+
+          De ontwikkeling en het beheer van de standaard zijn op een open,
+          onafhankelijke, toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze
+          ingericht.
+
+5.2.1     Is de documentatie voor een ieder drempelvrij beschikbaar?
+
+5.2.1.1   Is het specificatiedocument beschikbaar zonder dat er sprake is van
+          belemmeringen (zoals hoge kosten of lidmaatschapseisen)?
+
+                    Ja, Het specificatiedocument is kosteloos verkrijgbaar via website
+                    van Geo-standaarden.
+
+5.2.1.2   Is de documentatie over het ontwikkel- en beheerproces (bijv. het
+          voorlopige specificatiedocument, notulen en beschrijving van de
+          besluitvormingsprocedure) beschikbaar zonder dat er sprake is van
+          belemmeringen (zoals hoge kosten of lidmaatschapseisen)?
+
+                    Ja, de documentatie is vrij beschikbaar. Het beheerplan met
+                    daarin uitleg over het ontwikkel- en beheerproces is vindbaar via
+                    de website van geonovum. De beschrijving van MIM is eveneens
+                    beschikbaar.
+
+5.2.2     Is het intellectuele eigendomsrecht voor eenieder beschikbaar, zodat de
+          standaard vrij implementeerbaar en te gebruiken is?
+
+5.2.2.1   Stelt de standaardisatieorganisatie het intellectueel eigendomsrecht op de
+          standaard (bijvoorbeeld patenten of licenties) onherroepelijk royalty-free
+          voor eenieder beschikbaar?
+
+                    Ja, dat is beschikbaar en vastgelegd in het rechtenbeleid.
+
+5.2.2.2   Garandeert de standaardisatieorganisatie dat partijen die bijdragen aan de
+          ontwikkeling van de standaard hun intellectueel eigendomsrecht voor
+          (onderdelen van) de standaard onherroepelijk royalty-free voor eenieder
+          beschikbaar stellen?
+
+                    Ja, dit wordt gegarandeerd en is vastgelegd in het rechtenbeleid.
+
+5.2.3     Is de inspraak van eenieder in voldoende mate geborgd?
+
+5.2.3.1   Is het besluitvormingsproces toegankelijk voor alle belanghebbenden
+                                                                                         Pagina 14 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+          (bijv. gebruikers, leveranciers, adviseurs, wetenschappers)?
+
+                    Ja, dit is vastgelegd in het beheerplan en is bijvoorbeeld bij versie
+                    1.1 in november 2019 in de praktijk gebracht.
+
+5.2.3.2   Vindt besluitvorming plaats op een wijze die zoveel mogelijk recht doet
+          aan de verschillende belangen?
+
+                    Ja, dit is vastgelegd in het beheerplan. Nieuwe versies van MIM
+                    bereidt Geonovum voor in samenwerking met de MIM-community.
+                    Daarbij streeft Geonovum naar een unanieme instemming met de
+                    standaard. Dit versterkt het draagvlak en zorgt voor een betere
+                    implementatie van MIM in het werkveld.
+
+                    MIM wordt in GitHub beheerd en daar kunnen ook issues
+                    ingebracht worden.
+
+5.2.3.3   Kan een belanghebbende formeel bezwaar aantekenen tegen de gevolgde
+          procedure?
+
+                    Ja, dit is mogelijk en vastgelegd in het beheerplan.
+
+5.2.3.4   Organiseert de standaardisatieorganisatie regelmatig overleggen met
+          belanghebbenden over doorontwikkeling en beheer van de standaard?
+
+                    Ja, dit is vastgelegd in het beheerplan. Voor MIM is er een
+                    platform waar belanghebbenden Geonovum kunnen benaderen.
+                    Periodiek wordt door de beheerorganisatie daar over gesproken in
+                    een overleggroep van het MIM-beheer (Geonovum als Geo-
+                    platform, het Kadaster en daarnaast Geonovum als beheerder van
+                    MIM).
+
+5.2.3.5   Organiseert de standaardisatieorganisatie een publieke consultatie voordat
+          (een nieuwe versie van) de standaard wordt vastgesteld?
+
+                    Ja, dit is vastgelegd in het beheerplan en ook gebeurd bij MIM 1.1.
+
+5.2.4     Is de standaardisatieorganisatie onafhankelijk en duurzaam?
+
+5.2.4.1   Is de ontwikkeling en het beheer van de standaard belegd bij een
+          onafhankelijke non-profit standaardisatieorganisatie?
+
+                    Ja, de standaard is ontwikkeld in het kader van het DSO-
+                    programma (Digitaal Stelsel Omgevingswet) en wordt beheerd
+                    door Geonovum.
+
+5.2.4.2   Is de financiering van de ontwikkeling en het onderhoud van de standaard
+          voor tenminste drie jaar gegarandeerd?
+
+                    Het opdrachtgeverschap van MIM is per januari 2021 overgegaan
+                    naar het ministerie van Binnenlandse Zaken en Koninkrijksrelaties,
+                    DG Bestuur, Ruimte en Wonen. Met het ministerie is afgesproken
+                    dat Geonovum van de opdrachtgever de intentie verwacht om het
+                    opdrachtgeverschap in elk geval voor een periode van drie jaar
+                    vorm te geven.
+
+
+                                                                                            Pagina 15 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+5.2.5     Is het (versie) beheer van de standaard goed geregeld?
+
+5.2.5.1   Heeft de standaardisatieorganisatie gepubliceerd beleid met betrekking tot
+          (versie)beheer van de standaard? Bij voorkeur is dit beleid ook
+          beschreven in een beheerplan (met o.a. aandacht voor migratie van
+          gebruikers)
+
+                    Ja, Geonovum werkt conform BOMOS. Dit is vastgelegd in het
+                    beheerplan.
+
+5.2.5.2   Is de beheerdocumentatie goed vindbaar en verkrijgbaar?
+
+                    Ja, de beheerdocumentatie is op de website van Geonovum
+                    verkrijgbaar, maar slecht vindbaar. De experts roepen de
+                    beheerorganisatie op om de vindbaarheid van de documentatie
+                    (met name het beheerplan) op de website te verbeteren.
+
+5.2.5.3   Is het belang van de Nederlandse overheid voldoende geborgd bij de
+          ontwikkeling en het beheer van de standaard?
+
+                    Ja, deze standaard zorgt dat informatiemodellen conform dezelfde
+                    afspraken worden gerealiseerd. De standaard wordt ook door en
+                    voor overheidspartijen ontwikkeld. Als opdrachtgever is het
+                    ministerie van Binnenlandse Zaken en Koninkrijksrelaties hier
+                    nauw bij betrokken.
+
+5.2.5.4   Is de vertegenwoordiging van belanghebbenden bij het beheer van de
+          standaard een goede representatie van het werkingsgebied en functioneel
+          toepassingsgebied van de standaard?
+
+                    Ja. Bij behandeling van issues voor een nieuwe versie worden
+                    experts vanuit de MIM-community betrokken. De Github omgeving
+                    van MIM is open en toegankelijk voor iedereen. Daarnaast
+                    organiseert Geonovum periodiek bijeenkomsten waar de MIM-
+                    community voor wordt uitgenodigd.
+
+                    De experts geven aan voldoende signalen te hebben over een
+                    goede vertegenwoordiging, maar merken op dat niet volledig
+                    helder is welke organisaties nu allemaal deel uitmaken van de
+                    MIM-community. De experts roepen daarom de beheerorganisatie
+                    op dit beter inzichtelijk te maken.
+
+5.2.5.5   Is het standaardisatieproces van de standaardisatieorganisatie zodanig
+          goed geregeld dat het Forum zich kan onthouden van aanvullende
+          toetsing bij de aanmelding van een nieuwe versie van de standaard?
+
+                    Ja. De meeste experts vinden dat de standaardisatieorganisatie
+                    goed genoeg georganiseerd is om het predicaat uitstekend beheer
+                    te ontvangen. Een drietal experts staat hier neutraal in. Als
+                    aanbeveling wordt meegegeven dat de beheerorganisatie in het
+                    beheerplan opneemt dat in de MIM community een evenredige
+                    vertegenwoordiging is van stakeholders.
+
+5.2.6     Is er adoptieondersteuning voor de standaard?
+
+5.2.6.1   Is er een toegankelijk aanspreekpunt of organisatie waar meer informatie
+
+                                                                                       Pagina 16 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+          over de standaard is te vinden en op te vragen is?
+
+                    Ja, via de helpdesk: mim@geonovum.nl en de website van
+                    Geonovum.
+
+5.2.6.2   Wordt er ondersteuning gegeven in de adoptie en de implementatie van
+          de standaard?
+
+                    Ja, deze ondersteuning wordt gegeven door Geonovum en is
+                    vastgelegd in het beheerplan.
+
+5.2.7     Conclusie criteria ‘Open standaardisatieproces’
+
+                    De expertgroep concludeert dat de ontwikkeling en het beheer van
+                    MIM wel op een open, onafhankelijke, toegankelijke, inzichtelijke,
+                    zorgvuldige en duurzame wijze zijn ingericht.
+
+                    De expertgroep adviseert om de Geonovum het predicaat
+                    ‘uitstekend beheer’ te geven voor de MIM standaard, mits voldaan
+                    wordt aan onderstaande adoptieadviezen.
+
+                    De experts geven als aanvullende adoptieadviezen mee:
+               -    Aan de beheerorganisatie Geonovum om de vindbaarheid van de
+                    documentatie (met name het beheerplan) op de website te
+                    verbeteren.
+                        o Geonovum heeft ondertussen de website hiervoor
+                           aangepast met het kopje ‘beheer MIM’.
+               -    Aan de beheeroganisatie Geonovum om beter inzichtelijk te
+                    maken welke partijen onderdeel zijn van de MIM-community.
+                        o Geonovum heeft ondertussen de MIM community een
+                           duidelijkere plek gegeven in de documentatie.
+               -    Aan de beheerorganisatie Geonovum om in het beheerplan op te
+                    nemen dat in de MIM community een evenredige
+                    vertegenwoordiging is van stakeholders.
+                         o    Geonovum heeft ondertussen de MIM community een
+                              duidelijkere plek gegeven in de documentatie.
+
+5.3                       Draagvlak
+          Aanbieders en gebruikers moeten voldoende positieve ervaring met de
+          standaard hebben.
+
+5.3.1     Bestaat er voldoende marktondersteuning voor de standaard?
+
+5.3.1.1   Bieden meerdere leveranciers ondersteuning voor de standaard?
+
+                    Er zijn meerdere leveranciers die inhoudelijke ondersteuning voor
+                    MIM kunnen bieden.
+
+                    Voor wat betreft ondersteunende tooling is er voor Enterprise
+                    Architect van Sparx een serviceproduct gemaakt voor het inladen
+                    van een MIM profiel en een toolbox voor het opstellen van MIM-
+                    compatibel informatiemodellen. Daarnaast is er IMvertor een
+                    opensource product dat door Armatiek als SAAS oplossing wordt
+                    aangeboden..
+
+5.3.1.2   Kan een gebruiker de conformiteit van de implementatie van de standaard
+          (laten) toetsen?
+                                                                                         Pagina 17 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+                    Het is wel mogelijk door expertbeoordeling, maar hier is niets
+                    formeel en structureel voor ingericht. Er is een testsuite gemaakt
+                    voor het toetsen van de MIM conformiteit. De test suite is
+                    vooralsnog alleen voor intern gebruik. De IMvertor software tool
+                    biedt een technische MIM validatie. De validatie heeft geen status
+                    binnen het MIM beheer maar helpt het werkveld wel in een juiste
+                    MIM toepassing.
+
+5.3.1.3   Draagt de standaard voldoende bij aan interoperabiliteit zonder dat
+          aanvullende standaardisatieafspraken (zoals lokale profielen) noodzakelijk
+          zijn om de standaard te implementeren of te gebruiken?
+
+                    Ja, de standaard is voldoende gedetailleerd beschreven en
+                    toepasbaar. Het gaat om syntaxische interoperabiliteit en niet
+                    zozeer om semantische interoperabiliteit.
+
+5.3.1.4   Zijn er profielen of voorbeeldimplementaties van de standaard aanwezig
+          en zijn deze vrij te gebruiken?
+
+               Ja, voorbeelden hiervan zijn:
+               - IMBAG
+               - IMKAD
+               - IMBRO
+               - Conceptueel model omgevingswet (CIM-OW)
+               - Informatiemodel vastgoedgebruik (IMVG)
+               - STAM
+               - BRK
+               - BRT
+               - Informatiemodel onderwijs (vanuit edustandaard).
+
+          Een aantal experts adviseert om MIM-profielen laagdrempelig beschikbaar
+          te maken, zodat ook andere partijen geinspireerd raken. De
+          beheerorganisatie geeft aan dit graag te willen door vanuit Github te
+          verwijzen naar MIM-profielen.
+
+5.3.2     Kan de standaard rekenen op voldoende draagvlak?
+
+5.3.2.1   Staan de belangrijkste stakeholders vanuit de overheid voor deze
+          standaard achter de adoptie van de standaard?
+
+                    De standaard is door verschillende stakeholders uit verschillende
+                    domeinen al toegepast (zie ook 5.1.3.2). We zien voldoende
+                    diverse organisaties die hier achter staan, bijvoorbeelde de VNG,
+                    Nationale politie, de onderwijssector en Informatiehuis Water.
+
+                    Zoals aangegeven in paragraaf 5.1.2.3 zijn er concurrerende
+                    standaarden die voor andere domeinen geschikter zijn. De experts
+                    hebben daarom ook opgeroepen aan de beheerorganisaties om de
+                    samenhang en compabiliteit tussen in elk geval NEN en MIM te
+                    organiseren.
+
+5.3.2.2   Staan de overheidsorganisaties die daadwerkelijk worden geraakt door
+          een mogelijke verplichting van de standaard achter het gebruik van de
+          standaard?
+
+
+
+                                                                                         Pagina 18 van 22
+          Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+                    Ja, MIM wordt al breed toegepast door overheidsorganisaties (zie
+                    ook 5.3.2.1). Deze organisaties onderschrijven het gebruik.
+
+                    Voor een aantal domeinen ligt het gebruik van MIM niet voor de
+                    hand vanwege specifieke afspraken en beschikbare modellen in de
+                    eigen sector. Zorginstituut Nederland geeft aan dat ook in het
+                    zorgdomein gewerkt wordt aan interoperabiliteit, maar dat
+                    toepassing van MIM daarvoor niet direct voor de hand ligt in
+                    verband met andere sectorspecifieke architecturen en
+                    standaarden.
+
+5.3.2.3   Wordt de aangemelde versie van de standaard binnen het
+          organisatorische werkingsgebied door meerdere Nederlandse
+          overheidsorganisaties gebruikt?
+
+                    Ja, zoals genoemd in 5.1.3.2, wordt MIM onder andere toegepast
+                    door:
+               -    Ministerie van BZK: Digitaal Stelsel Omgevingswet
+               -    Ministerie van BZK, TNO en Geonovum: Basisregistratie
+                    Ondergrond
+               -    Ministerie van BZK: Doorontwikkeling in samenhang van de Geo-
+                    basisregistraties
+              -     Waarderingskamer: WOZ
+              -     DUO
+              -     Onderwijsketen
+              -     Nationale Politie
+
+5.3.2.4   Wordt een vorige versie van de standaard binnen het organisatorische
+          werkingsgebied door meerdere Nederlandse overheidsorganisaties
+          gebruikt?
+
+                    De vorige versie werd gebruikt door meerdere partijen zoals VNG,
+                    Kadaster en Geonovum. Een voorloper van deze standaard (KKG-
+                    metamodel) was ook in gebruik.
+
+5.3.2.5   Is de aangemelde versie backwards compatible met eerdere versies van
+          de standaard?
+
+                    Deze is vrijwel volledig backwards compatible. De 1.1 versie is
+                    echter een stuk volwassener dan de 1.0 versie. MIM 1.0 is door
+                    een beperkte groep gebruikt en deze organisaties zijn ook
+                    betrokken geweest bij de ontwikkeling naar MIM 1.1.
+
+5.3.2.6   Zijn er voldoende positieve signalen over toekomstige gebruik van de
+          standaard door (semi-)overheidsorganisaties, het bedrijfsleven en
+          burgers?
+
+                    Ja. Er zijn voldoende positieve signalen door het gebruik van MIM
+                    in meerdere verschillende domeinen. De experts geven aan dat
+                    het een belangrijke stap is naar meer interoperabiliteit.
+
+                    Hierbij wordt opgemerkt (zoals ook beschreven in 5.3.2.2) dat
+                    voor een aantal domeinen het gebruik niet direct voor de hand ligt
+                    door het bestaan van concurrerende standaarden. Hiervoor is
+                    afstemming nodig tussen verschillende beheerorganisaties van
+                    standaarden. Dit vindt op informele basis ook al plaats,
+
+                                                                                         Pagina 19 van 22
+        Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+                  bijvoorbeeld tussen NEN en Geonovum. De experts hebben
+                  opgeroepen om dit minder vrijblijvend met elkaar te organiseren.
+
+5.3.3   Conclusie criteria ‘Draagvlak’
+
+                  De experts concluderen dat er wel voldoende draagvlak voor de
+                  standaard MIM.
+
+                  De experts benadrukken het belang om de samenhang en
+                  compatibiliteit te organiseren tussen de verschillende standaarden,
+                  zodat het draagvlak alleen maar vergroot wordt. Dit sluit aan bij
+                  de oproep zoals beschreven in paragraaf 5.1.2.3.
+
+                  De experts geven als aanvullend adoptieadvies mee:
+             -    Aan de beheerorganisatie Geonovum om MIM-profielen
+                  laagdrempelig beschikbaar te maken. De beheerorganisatie geeft
+                  aan dit graag te organiseren.
+                      o Geonovum heeft ondertussen de profielen beschikbaar
+                          gesteld op de website (Implementatie) voor UML.
+                          Daarnaast is de beschrijving voor Linked Data in het MIM-
+                          document opgenomen.
+
+5.4                     Opname bevordert adoptie
+        De opname op de lijst is een geschikt middel om de adoptie van de
+        standaard te bevorderen.
+
+        Met de lijst wil het OBDO de adoptie van open standaarden bevorderen die
+        voldoen aan de voorgaande criteria (toegevoegde waarde,
+        standaardisatieproces en draagvlak).
+        - Met de pas-toe-of-leg-uit lijst beoogt het OBDO
+          standaarden te verplichten als:
+          a. hun huidige adoptie binnen de (semi-)overheid beperkt is;
+          b. opname op de lijst bijdraagt aan de adoptie door te stimuleren
+             (functie = stimuleren).
+        - Met de lijst aanbevolen standaarden beoogt het OBDO
+          standaarden aan te bevelen als :
+          a. hun huidige adoptie binnen de (semi-)overheid reeds hoog is;
+          b. opname op de lijst bijdraagt aan de adoptie door te informeren en
+             daarmee onbedoelde afwijkende keuzes te voorkomen (functie =
+             informeren).
+
+5.4.1   Is opname op de ‘pas toe of leg uit’-lijst het passende middel om de
+        adoptie van de standaard binnen de (semi)overheid te bevorderen?
+
+                  Nee. De standaard kent een aantal concurrerende standaarden op
+                  domeinen, waardoor een aanbevolen status ruimte geeft voor
+                  partijen om hier ook andere keuzes in te maken.
+
+
+
+
+5.4.2   Is opname op de lijst aanbevolen standaarden het passende middel om de
+        adoptie van de standaard binnen de (semi)overheid te bevorderen?
+
+                  Ja. De adoptie van de standaard groeit steeds verder en verspreidt
+                  ook over meerdere domeinen. Opname op de lijst aanbevolen
+                  standaarden helpt deze adoptie verder. De standaard kent een
+                  aantal concurrerende standaarden op domeinen, waardoor een
+                                                                                        Pagina 20 van 22
+        Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+                  aanbevolen status ruimte geeft voor partijen om hier ook andere
+                  keuzes in te maken.
+
+5.4.3   Conclusie criteria ‘Opname bevordert adoptie’
+
+                  De experts kwamen tot de conclusie dat MIM wel voldoet aan de
+                  criteria voor opname op de lijst aanbevolen standaarden.
+
+                  De experts geven voor dit onderdeel geen aanvullend
+                  adoptieadvies mee.
+
+
+
+
+                                                                                    Pagina 21 van 22
+      Expertadvies MIM | Forum Standaardisatie | 23 maart 2021
+
+
+
+
+5.5   Adoptieactiviteiten
+
+      Gebruik van de standaard is het uiteindelijke doel van het Forum
+      Standaardisatie en OBDO. Plaatsing op de pas-toe-of-leg-uit lijst of de lijst
+      aanbevolen standaarden is hiervoor een eerste stap, maar voor het
+      daadwerkelijk adopteren (implementeren en gebruiken) van de standaard
+      is vaak aanvullende actie benodigd. Aanvullend kan Forum
+      Standaardisatie dan ook bijdragen aan adoptie van de standaard door het
+      actief inzetten van adoptie-instrumenten of ondersteunende acties. Welke
+      kansen zijn er om de adoptie te versnellen en welke drempels bestaan er
+      die de adoptie van de standaard hinderen?
+
+      De expertgroep adviseert het Forum Standaardisatie en OBDO om bij de
+      opname op de lijst aanbevolen standaarden de volgende oproepen ten
+      aanzien van de adoptie van MIM te doen:
+           •    Aan de beheerorganisatie Geonovum om de passage in het
+                beheerplan over de basis van MIM (geo-standaarden) aan te
+                passen zodat beter uitgelegd wordt dat MIM breder dan op geo-
+                standaarden kan worden toegepast.
+           •    Aan NEN en Geonovum een dringende oproep om gezamenlijk
+                de compatibiliteit tussen deze standaarden te verzorgen en te
+                onderzoeken hoe een top-level ontologie (ofwel fundamentele
+                ontologie) kan worden ingepast in MIM.
+
+           •    Aan de beheerorganisatie Geonovum om de vindbaarheid van de
+                documentatie (met name het beheerplan) op de website te
+                verbeteren.
+                    o Geonovum heeft ondertussen de website hiervoor
+                        aangepast met het kopje ‘beheer MIM’.
+           •    Aan de beheeroganisatie Geonovum om beter inzichtelijk te
+                maken welke partijen onderdeel zijn van de MIM-community.
+                    o Geonovum heeft ondertussen de MIM community een
+                        duidelijkere plek gegeven in de documentatie.
+           •    Aan de beheerorganisatie Geonovum om in het beheerplan op te
+                nemen dat in de MIM community een evenredige
+                vertegenwoordiging is van stakeholders.
+                    o Geonovum heeft ondertussen de MIM community een
+                        duidelijkere plek gegeven in de documentatie.
+           •    Aan de beheerorganisatie Geonovum om MIM-profielen
+                laagdrempelig beschikbaar te maken. De beheerorganisatie geeft
+                aan dit graag te organiseren.
+                    o Geonovum heeft ondertussen de profielen beschikbaar
+                        gesteld op de website (Implementatie) voor UML.
+                        Daarnaast is de beschrijving voor Linked Data in het MIM-
+                        document opgenomen.
+
+
+
+
+                                                                                      Pagina 22 van 22
+

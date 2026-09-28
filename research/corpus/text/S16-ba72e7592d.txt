@@ -1,0 +1,384 @@
+Intakeadvies DCAT-AP-NL 3.0
+
+ Vergadering:            Forum Standaardisatie woensdag 24 september 2025
+
+ Agendapunt:
+
+ Documentnummer:
+
+ Aan:                    Forum Standaardisatie
+
+ Van:                    Stuurgroep Open Standaarden
+
+ Datum:                  29 augustus 2025
+
+ Versie:                 0.9
+
+ Bijlagen:               geen
+
+ Rechten:                CC0 publieke domein verklaring
+
+
+
+1 Samenvatting en advies
+De Stuurgroep Open Standaarden adviseert het Forum Standaardisatie om de aangemelde
+standaard DCAT-AP-NL 3.0 in procedure te nemen. Een volledig expertonderzoek is
+aangewezen om de standaard te toetsen aan de criteria van het Forum Standaardisatie om de
+standaard te verplichten aan de overheid (via ‘Pas toe of leg uit’-verplichting) of aan te
+bevelen aan de overheid door plaatsing op de lijsten.
+
+Tijdens de expertbijeenkomst en bij het tot stand komen van het expertadvies kan er extra
+aandacht zijn voor de volgende punten:
+
+   •    Hoe verhoudt DCAT-AP-NL zich tot DCAT-AP (Europese profiel) en DCAT?
+   •    De standaard DCAT (versie ‘Recommendation 16-01-2014’) staat op de lijst
+        aanbevolen standaarden van het Forum Standaardisatie. Het Forum Standaardisatie
+        hanteert het principe: een verplichting van een profiel impliceert ook verplichting van
+        de achterliggende standaard. Daardoor komt de vraag naar voren of het verplichten
+        van het Nederlandse applicatieprofiel DCAT-AP-NL 3.0 (een Nederlands profiel op het
+        Europese profiel DCAT AP 3.0) een verwijderingsprocedure van van DCAT (versie
+        ‘recommendation 16-01-2014’) van de lijst aanbevolen standaarden met zich
+        meebrengt.
+   •   Wat zijn de relaties met de functionele toepassingsgebieden van andere metadata-
+       standaarden zoals MDTO (metagegevens voor duurzame toegankelijkheid), TOOI
+       (Thesauri en Ontologieën voor Overheidsinformatie; een kennismodel om
+       overheidsinformatie op uniforme en machineleesbare wijze te beschrijven) en NL-SBB
+       (NL-SBB is een standaard voor het eenduidig en herbruikbaar vastleggen van
+       begrippen in begrippenlijsten, taxonomieën en thesauri).
+   •   Het ontbreekt aan concrete inzichten in de kosten voor organisaties om op basis
+       daarvan te kunnen bepalen of deze acceptabel zijn.
+   •   De indiener heeft tijdens de intake de wens voor het predicaat ‘Uitstekend beheer’
+       uitgeproken voor het beheer van DCAT-AP-NL 3.0. Dit vraagt om extra aandacht bij het
+       beoordelen van het open standaardisatieproces.
+   •   Het is nog onduidelijk of er voldoende leveranciers zijn om de standaard te
+       ondersteunen.
+   •   Zijn er eventuele plannen vanuit de EU om de Europese standaard DCAT-AP 3.0
+       verplicht te stellen en welke consequenties heeft dat voor Nederland, i.h.b. in relatie
+       tot het verplichten van DCAT-AP-NL 3.0 (incl. achterliggende DCAT) via een andere
+       route dan Forum Standaardisatie?
+   •   Is er voldoende draagvlak binnen de verschillende overheidslagen?
+
+In de rest van dit document wordt het advies nader onderbouwd. Hoofdstuk 2 geeft een korte
+uitleg van de standaard. Hoofdstuk 3 beschrijft het proces waarmee dit advies tot stand
+kwam, alsmede de vervolgstappen. Hoofdstuk 4 toetst in hoeverre de standaard voldoet aan
+de criteria om in behandeling genomen te worden door het Forum Standaardisatie. Hoofdstuk
+5 verkent of er inhoudelijke belemmeringen bestaan die een positief expertadvies in de weg
+zouden kunnen staan.
+
+Tot slot wordt er in hoofdstuk 6 een praktijkvoorbeeld gegeven dat Forum Standaardisatie
+kan gebruiken om de maatschappelijke waarde van de standaard te communiceren.
+
+
+2 Korte beschrijving van de standaard
+2.1 Over de standaard
+DCAT-AP-NL 3.0 is een applicatieprofiel op de Europese standaard DCAT-AP 3.0. De
+standaard zorgt ervoor dat informatie over datasets (metadata) op een uniforme manier
+wordt vastgelegd en gedeeld om uitwisseling van metadata tussen verschillende Nederlandse
+datacatalogi uit verschillende domeinen te vergroten. DCAT-AP-NL 3.0 maakt gebruik van
+vaste waardenlijsten zoals voor thema’s en toegangsrestricties om informatieverlies te
+voorkomen en zorgt voor consistente en goed doorzoekbare metadata, ook tussen
+verschillende domeinen en organisaties.
+
+DCAT-AP-NL 3.0 sluit volledig aan op de Europese standaard DCAT-AP 3.0, waardoor ook de
+aansluiting met Europese datacatalogi wordt verbeterd. Het doel van de standaard is om de
+onderlinge uitwisseling van metadata bijvoorbeeld tussen overheidsorganisaties of tussen
+verschillende domeinen zoals gezondheid, mobiliteit en milieu eenvoudiger en
+                                             2 van 9
+betrouwbaarder te maken. De standaard is aanvullend op domein specifieke standaarden
+zoals het Nederlandse profiel op ISO 19115 en zorgt ervoor dat metadata beter vindbaar,
+vergelijkbaar en herbruikbaar wordt, zowel nationaal als internationaal.
+
+2.2 Waarom is deze standaard belangrijk?
+
+Toepassing van DCAT-AP-NL 3.0 draagt bij aan openheid en transparantie van de
+Nederlandse overheid en digitale soevereiniteit (door controle over data-uitwisseling binnen
+nationale en Europese kaders). Momenteel wordt binnen de overheid gewerkt met
+uiteenlopende metadata-standaarden, wat zoekbaarheid en herbruikbaarheid belemmert.
+Door toepassing van DCAT-AP-NL 3.0 en het gebruik van vaste waardenlijsten, bijvoorbeeld
+voor thema’s en toegangsrestricties, ontstaat er meer uniformiteit in metadatering.
+
+Hoewel DCAT-AP 3.0 op Europees niveau niet wettelijk is verplicht, wordt van organisaties
+wel verwacht dat zij hun metadata publiceren gebaseerd op DCAT-AP 3.0 richtlijnen (zie
+paragraaf 4.4 voor toelichting). In Nederland wordt deze impliciete verplichting ondersteund
+via DCAT-AP-NL 3.0. Voldoe je als organisatie aan het DCAT-AP-NL-profiel, dan voldoe je
+tevens aan de Europese vereisten voor Open data en High-Value Datasets.
+
+
+3 Betrokkenen en proces
+Op 8 mei 2025 heeft Geonovum de standaard DCAT-AP-NL 3.0 aangemeld voor plaatsing op
+de ‘Pas toe of leg uit’ lijst. Op 3 juli 2025 heeft een intakegesprek plaatsgevonden met de
+indiener, procedurebegeleider InnoValor Advies en Bureau Forum Standaardisatie. Bij het
+(online) intakegesprek waren de volgende personen aanwezig:
+
+   •   Hoffmann, Niels (Geonovum)
+   •   De Visser, Ine (Geonovum)
+   •   De Jongh, Cigdem (InnoValor Advies B.V.)
+   •   Vermeulen, Claudia (InnoValor Advies B.V.)
+   •   Laagland, Hans (Bureau Forum Standaardisatie)
+   •   Verspaget, Joram (Bureau Forum Standaardisatie)
+
+In dit gesprek is verkend of de standaard DCAT-AP-NL 3.0 voldoet aan de criteria om in
+procedure genomen te worden. Daarnaast is vooruitgeblikt op de toetsingsprocedure. Dit
+intakeadvies is tot stand gekomen op basis van het intakegesprek en aanvullend onderzoek.
+
+
+4 Voldoet de standaard aan de criteria om in procedure
+    genomen te worden?
+DCAT-AP-NL 3.0 voldoet aan alle vier criteria om in behandeling genomen te worden voor
+plaatsing op de ‘Pas toe of leg uit’ lijst. Hoe de standaard is getoetst op de vier criteria wordt
+hieronder toegelicht in paragrafen 4.1-4.4.
+
+
+
+                                              3 van 9
+4.1 Valt de standaard binnen de scope van Forum
+     Standaardisatie?
+Criterium: “Het opnemen van de standaard op de lijst dient in substantiële mate bij te dragen
+aan het bevorderen van de interoperabiliteit, van een toekomstbestendige gegevensopslag
+en/of van een verminderde leveranciersafhankelijkheid.”
+
+Ja, de standaard draagt substantieel bij aan het bevorderen van met name interoperabiliteit
+en toekomstige gegevensopslag door metadata op een uniforme manier te structureren, vast
+te leggen en doorzoekbaar te maken. Het gebruik van vaste waardenlijsten zorgt voor meer
+kwaliteit en vergelijkbaarheid. Hierdoor wordt het eenvoudiger en betrouwbaarder om
+metadata tussen organisaties en domeinen uit te wisselen, aanvullend op bestaande domein
+specifieke standaarden. Toepassing van DCAT-AP-NL 3.0 bevordert interoperabiliteit en
+toekomstbestendige gegevensopslag door betere structurering van metadata, consistente
+vastlegging en eenduidige doorzoekbaarheid. Het gebruik van vaste waardenlijsten verhoogt
+de kwaliteit en vergelijkbaarheid. De standaard maakt de uitwisseling van metadata tussen
+organisaties en domeinen zoals gezondheid, mobiliteit en milieu eenvoudiger en
+betrouwbaarder, en sluit aanvullend aan op bestaande domeinspecifieke standaarden.
+
+4.2 Heeft de standaard een toepassing die binnen de overheid een
+     enkele organisatie of sector overstijgt?
+Criterium: “Het beoogde functioneel toepassingsgebied en het organisatorisch werkingsgebied
+van de standaard dient voldoende breed te zijn en betrekking te hebben op gebruik door de
+(semi-)overheid.”
+
+Ja, het beoogde functioneel toepassingsgebied en het organisatorisch werkingsbied van de
+standaard DCAT-AP-NL 3.0 is voldoende breed om substantieel bij te dragen aan de
+interoperabiliteit van de (semi-)overheid. De toepassing van de standaard overstijgt een
+enkele organisatie of sector, aangezien deze betrekking heeft op het gehele ICT-portfolio van
+de (semi-)overheid.
+
+Dit komt doordat DCAT-AP-NL 3.0 afspraken biedt voor de uniforme beschrijving en
+uitwisseling van metadata over datasets. Daarmee wordt informatie vindbaar, vergelijkbaar
+en herbruikbaar gemaakt over de grenzen van organisaties en domeinen heen, aanvullend op
+bestaande domeinspecifieke standaarden.
+
+4.3 Is de standaard niet al wettelijk verplicht?
+Criterium: “Het uitvragen of gebruiken van de standaard moet niet al verplicht zijn op grond
+van een bestaande (Europees) wettelijke verplichting die gelijk dan wel groter is dan het voor
+de lijst beoogde functioneel toepassingsgebied en het organisatorisch werkingsgebied.”
+
+Ja, DCAT-AP-NL 3.0 is niet al wettelijk verplicht. De onderliggende standaard DCAT-AP 3.0
+heeft ook geen Europees wettelijke verplichting. Wel is er een impliciete Europese
+verplichting van DCAT-AP 3.0: om gestandaardiseerd metadata uit te wisselen tussen
+
+                                           4 van 9
+verschillende dataportalen heeft Europa het DCAT-AP-3.0 ontwikkeld. DCAT-AP-3.0 is
+gebaseerd op de "Data Catalog Vocabulary" (DCAT)-specificatie DCAT-3.0, die wordt
+ontwikkeld door de Dataset Exchange Working Group. Er wordt van organisaties verwacht dat
+zij hun metadata publiceren gebaseerd op DCAT-AP 3.0 richtlijnen. De Nederlandse overheid
+ondersteunt deze Europees impliciete verplichting.
+
+Ten behoeve van de Europese High Value Dataset is de "usage guidelines of DCAT-AP-HVD"
+opgezet, als aanvulling op DCAT-AP. De vereisten uit de "usage guidelines of DCAT-AP-HVD"
+zijn opgenomen in dit Nederlandse profiel, zodat door te voldoen aan het Nederlandse profiel
+tevens aan de Europese vereisten voor Open data en High-Value Datasets kan worden
+voldaan.
+
+Kortom, voldoe je als organisatie aan het DCAT-AP-NL-profiel, dan voldoe je tevens aan de
+Europese vereisten voor Open data en High-Value Datasets. (bron: Metadataprofiel DCAT-AP-
+NL | Geonovum)
+
+4.4 Draagt de standaard bij aan de oplossing van een bestaand,
+     relevant probleem?
+Criterium: “De standaard dient bij te dragen aan de oplossing van een bestaand, relevant
+probleem.”
+
+Ja, DCAT-AP-NL 3.0 draagt bij aan het oplossen van een concreet en relevant probleem. Op
+dit moment gebruiken verschillende overheidsorganisaties uiteenlopende metadata-
+standaarden, wat het lastig maakt om gegevens over domeinen heen te vinden en te
+hergebruiken. Dit belemmert zowel overheden als burgers in het zoeken naar betrouwbare en
+bruikbare data. De verouderde versie van DCAT is aanbevolen aan de overheid in 2016, wat
+betekent dat het gebruik ervan wordt gestimuleerd, hoewel het niet is verplicht. Het
+Nederlandse applicatieprofiel, DCAT-AP-NL 3.0 geeft meer duiding over hoe de Europese
+standaard DCAT-AP 3.0 eenduidig binnen Nederland moet worden toegepast.
+
+Door de implementatie van DCAT-AP-NL 3.0 wordt metadata beter gestructureerd, consistent
+vastgelegd en eenduidig doorzoekbaar. Het gebruik van vaste waardenlijsten, bijvoorbeeld
+voor thema’s en toegangsrestricties, draagt bovendien bij aan hogere kwaliteit en
+vergelijkbaarheid van metadata.
+
+Bovendien sluit de standaard aan op bestaande Nederlandse (deels bij het Forum
+Standaardisatie in procedure zijnde) metadatastandaarden, zoals MDTO, NL-SBB en TOOI.
+Hoewel deze standaarden deels overlappende elementen bevatten op het gebied van
+metagegevens, richten ze zich op andere domeinen en toepassingen. DCAT-AP-NL 3.0
+vervangt deze standaarden niet, maar vult ze aan en draagt bij aan een samenhangend
+metadata-ecosysteem waarin uitwisseling en interoperabiliteit centraal staan.
+
+
+
+
+                                           5 van 9
+5 Is er zicht op een positief expertadvies?
+Ja, er is zicht op een positief expertadvies. Het intakeonderzoek heeft geen inhoudelijke
+criteria gevonden die een positief expertadvies voor plaatsing van DCAT-AP-NL 3.0 op de ‘Pas
+toe of leg uit’- lijst in de weg zou kunnen staan.
+
+Als het Forum Standaardisatie de standaard in procedure neemt, wordt een groep experts
+gevraagd de standaard te toetsen op de vier inhoudelijke criteria voor opname op de ‘Pas toe
+of leg uit’-lijst of de lijst aanbevolen standaarden. Het Forum Standaardisatie neemt geen
+standaarden in procedure waarvan bij aanvang al vaststaat dat deze niet op een positief
+expertadvies kan rekenen. Daarom wordt in dit intakeadvies vooruitgeblikt op de vier
+inhoudelijke criteria. Dit wordt toegelicht in paragrafen 5.1-5.4.
+
+5.1 Toegevoegde waarde
+DCAT-AP-NL 3.0 levert een duidelijke en uitlegbare interoperabiliteitswinst op. Door heldere
+afspraken over het gebruik van DCAT-AP-NL 3.0 in de uitwisseling tussen domeinen wordt
+informatieverlies beperkt en wordt het mogelijk om metadata eenduidig en domein
+overstijgend te doorzoeken. Het Nederlandse profiel legt nadere afspraken vast over gebruik
+van bijvoorbeeld waarde lijsten en sluit zo goed aan bij waar in Nederland behoefte aan is.
+Ook vergroot niet alleen de vindbaarheid van data voor overheden, maar ook voor burgers.
+
+Momenteel wordt binnen de overheid gewerkt met uiteenlopende metadatastandaarden, wat
+zoekbaarheid en herbruikbaarheid belemmert. Door toepassing van DCAT-AP-NL 3.0 en het
+gebruik van vaste waardenlijsten, bijvoorbeeld voor thema’s en toegangsrestricties, ontstaat
+er meer uniformiteit in metadatering. In hoofdstuk 6 wordt een praktijkvoorbeeld uitgewerkt
+dat deze meerwaarde illustreert.
+
+De baten van adoptie wegen zowel maatschappelijk als voor de overheid op tegen de
+mogelijke kosten en risico’s. De conversie van bijvoorbeeld Statistical Data and Metadata
+eXchange (SDMX) naar DCAT-AP-NL 3.0 vindt plaats aan de platformzijde, waardoor de
+implementatielast voor dataleveranciers beperkt blijft. Bovendien is er al een impliciete
+verplichting om datasets van metadata te voorzien. De invoering van DCAT-AP-NL 3.0 bouwt
+daarop voort, zonder extra kosten of lasten. De kwalitatieve en economische voordelen van
+de standaard, zoals verbeterde vindbaarheid, herbruikbaarheid en efficiëntie, wegen daarmee
+ruimschoots op tegen eventuele nadelen.
+
+De standaard overlapt niet en conflicteert niet met bestaande standaarden op de lijsten open
+standaarden van het Forum Standaardisatie. DCAT-AP-NL 3.0 sluit aan op gelijksoortige
+Europese standaarden, zoals DCAT-AP, DCAT-AP-HVD en MobilityDCAT, terwijl de eerder
+opgenomen versie van DCAT dat inmiddels niet meer doet. Daarmee biedt DCAT-AP-NL 3.0
+expliciete meerwaarde.
+
+Er zijn geen concurrerende open standaarden bekend die dezelfde functionele en
+organisatorische scope hebben. Hoewel andere (deels bij het Forum Standaardisatie in
+procedure zijnde) standaarden zoals MDTO, NL-SBB en TOOI ook metadata specificeren,
+
+                                             6 van 9
+richten zij zich op andere domeinen en toepassingsgebieden. De begrippen conform NL-SBB
+en waardelijsten uit TOOI kunnen in de DCAT-AP-NL metadata worden toegepast. DCAT-AP-
+NL 3.0 richt zich op datasets en dataservices. MDTO richt zich op informatieobjecten en hun
+representaties binnen de context van informatiebeheerprocessen. De standaarden overlappen
+in beperkte mate, maar zijn vooral complementair en dragen gezamenlijk bij aan een
+samenhangend metadata-landschap. In deze context is het relevant te noemen dat er
+initiatieven lopen om de relaties tussen bestaande metadata-standaarden aan te scherpen.
+Bureau Forum Standaardisatie is hier ook reeds bij betrokken.
+
+Tot slot brengt DCAT-AP-NL 3.0 naar verwachting geen significante veiligheids- of
+privacyrisico's met zich mee. De standaard vereist geen opname van persoonsgegevens. In
+het profiel wordt expliciet toegelicht wat wel en niet vanuit privacy-oogpunt moet worden
+ingevuld, en er wordt geadviseerd om geen persoonsgegevens op te nemen. Ook zorgt de
+implementatie van DCAT-AP-NL 3.0 voor gestructureerde en zichtbare inhoud van datasets.
+Dit draagt bij aan de bewustwording van eventuele gevoeligheden bij het delen van datasets.
+
+5.2 Open standaardisatieproces
+
+DCAT-AP-NL 3.0 wordt in opdracht van het Ministerie van Binnenlandse Zaken en
+Koninkrijksrelaties (BZK) ontwikkeld en beheerd door Geonovum. Het ministerie heeft het
+beheer voor een periode van drie jaar gegarandeerd. De ontwikkeling en het beheer van de
+standaard verlopen volgens het beheerplan Geostandaarden van Geonovum. Het volledige
+beheerproces en wijzigingsprotocol zijn gedocumenteerd en tegen redelijke voorwaarden
+toegankelijk. De specificatie van DCAT-AP-NL 3.0 is kosteloos beschikbaar, evenals
+aanvullende documentatie over het ontwikkel- en beheerproces, die openbaar wordt gedeeld
+via de GitHub-pagina van Geonovum. In de Github repository zijn ook werkversies,
+besluitvorming, logboeken en de ‘commit history’ inzichtelijk, zodat precies te volgen is welke
+wijzigingen zijn doorgevoerd en op basis waarvan.
+
+Geonovum overlegt elke drie weken met het ministerie over de voortgang van de
+ontwikkeling. Daarnaast nemen overheidsorganisaties zoals Centraal Bureau voor de
+Statistiek (CBS), Rijksinstituut voor Volksgezondheid en Milieu (RIVM), Rijkswaterstaat,
+health-RI, Kadaster, de Vereniging van Nederlandse Gemeenten (VNG) en Logius KOOP deel
+aan een werkgroep die actief betrokken is bij de doorontwikkeling. Deze werkgroep komt
+minimaal één keer per jaar fysiek samen om ervaringen op te halen bij partijen die
+knelpunten ervaren bij de implementatie van de standaard. Ook zijn er eens in de twee tot
+drie weken afstemmomenten met het Federatief Datastelsel (FDS).
+
+De standaard valt onder een Creative Commons Naamsvermelding-GeenAfgeleideWerken
+licentie. Dit betekent dat het mag worden gedeeld en gebruikt, zolang dit ongewijzigd gebeurt
+en met correcte bronvermelding. Meer informatie over DCAT-AP-NL 3.0 en de ondersteuning
+bij adoptie is te vinden op de website van Geonovum.
+
+
+
+
+                                           7 van 9
+5.3 Draagvlak
+Verschillende overheidsorganisaties maken gebruik van DCAT-AP-NL 3.0, zoals RIVM,
+Rijkswaterstaat, het Nationaal GeoRegister (NGR) en het Centraal Bureau voor Statistiek
+(CBS).
+
+Diverse commerciële partijen (zoals Triply, Purple Polar Bear, Analyze en Dat.Mobility)
+werken op het moment aan het implementeren van softwarecomponenten voor Digitale
+Tweelingen waarbij de DCAT-AP-NL 3.0 standaard ook wordt ondersteunt. Meer hierover is te
+lezen in documentatie van Geonovum.
+
+Ook op beleidsniveau is er steun voor de implementatie van DCAT-AP-NL 3.0: Het Federatief
+Datastelsel (FDS) verwijst expliciet naar de gebruikte metadata-standaarden en noemt deze
+in zijn documentatie. En Data.overheid.nl heeft aangegeven DCAT-AP-NL 3.0 te willen
+hanteren.
+
+Eerdere Nederlandse versies van DCAT-AP-NL 3.0 worden nog steeds gebruikt binnen de
+overheid; data.overheid.nl bijvoorbeeld gebruikt een afgeleide versie van DCAT 1 en de API
+van het NGR ondersteunt nog oudere versies. De compatibiliteit tussen de nieuwe en eerdere
+versies wordt daarmee in de praktijk geborgd. Voor een correcte toepassing van de
+transformatie van de oude DCAT1 naar het DCAT-AP-NL 3.0 profiel zijn wel nog aanvullende
+afspraken nodig.
+
+De standaard wordt ondersteund door de belangrijke open source-platforms GeoNetwork en
+Comprehensive Knowledge Archive Network (CKAN). Dit zijn open source producten, maar het
+zijn geen marktpartijen die ondersteuning aan organisaties verschaffen. GeoCat is als
+commerciële partij leverancier van GeoNetwork en is daarmee nauw betrokken bij de
+ondersteuning. Ook heeft de Geografisch Informatie Systeem (GIS) leverancier Esri
+Nederland heeft aangegeven de DCAT-AP-NL 3.0 standaard te willen ondersteunen.
+
+5.4 Opname op de lijst bevordert adoptie
+Om te zorgen voor een goede ontsluiting van Nederlandse metadata naar Europa werkt
+Geonovum samen met Data.overheid.nl en het Nationaal Georegister om DCAT-AP-NL 3.0 te
+implementeren.DCAT-AP 3.0 is een standaard die in de Europese Dataspaces, zoals de
+GreenDeal Dataspace wordt gebruikt. Om de adoptie binnen Dataspaces en bijvoorbeeld de
+European Digital Infrastructure Consortium (EDIC) te bevorderen organiseert Geonovum in
+Nederland een Testbed waarbij de implementatie van DCAT-AP-NL 3.0 expliciet is
+uitgevraagd. Opname op de lijst bevordert een bredere adoptie, vooral bij de organisaties
+waar de beheerder niet regelmatig contact mee heeft. Opname op de lijst geeft ook in
+Europees verband aan dat DCAT-AP-NL een belangrijke standaard is die aansluit op het
+Europese DCAT-AP ecosysteem.
+
+Naast de beheerrol is Geonovum ook nauw betrokken bij het implementeren van catalogi
+zoals het NGR en de ontwikkelingen op het gebied van Dataspaces en Digitale Tweelingen.
+
+
+                                           8 van 9
+Door deze connecties in het werkveld heeft Geonovum een goed beeld van de partijen die de
+standaard implementeren.
+
+
+6 Praktijkvoorbeeld
+In de huidige situatie gebruikt het Nationaal Toegangspunt Mobiliteitsdata (NTM) een andere
+metadata standaard dan het NGR. Deze verschillende metadatabronnen kunnen nu niet op
+een eenvoudige en uniforme wijze worden ontsloten en doorzocht. In het NGR is binnenkort
+de metadata ook conform DCAT-AP-NL 3.0 beschikbaar. Daarmee kan deze metadata ook
+buiten de geodomein eenvoudig en uniform worden doorzocht.
+
+Door in de verschillende domeinen dezelfde DCAT-AP-NL 3.0 standaard toe te passen kan de
+metadata wel in samenhang worden ontsloten zodat een organisatie, zoals een provincie die
+voor ruimtelijke vraagstukken informatie uit de verschillende domeinen nodig heeft, op één
+plek kan gaan zoeken om metadata uit verschillende domeinen te vinden.
+
+
+
+
+                                          9 van 9
+

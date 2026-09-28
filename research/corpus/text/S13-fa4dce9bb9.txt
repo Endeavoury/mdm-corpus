@@ -1,0 +1,260 @@
+Notitie
+FORUM STANDAARDISATIE 12 december 2018
+Agendapunt 3C Intakeadvies MIM
+
+Nummer: FS 181212.3C
+
+Aan:        Forum Standaardisatie
+Van:        Stuurgroep Open Standaarden
+
+Datum:      26 november 2018
+Versie:     1.0
+
+Bijlagen:   niet van toepassing
+
+
+Advies
+Geadviseerd wordt om MIM in procedure te nemen voor opname op de lijst aanbevolen
+standaarden.
+
+Aandachtspunt voor de toetsingsprocedure zijn de garanties over het nog verder in te richten
+beheerproces. Verder is het draagvlak van de standaard nog beperkt en is onduidelijk hoe nog niet
+betrokken organisaties staan tegenover een standaard voor het opstellen van informatiemodellen.
+Het expertonderzoek zal moeten uitwijzen of opname op de lijst met aanbevolen standaarden
+verdere adoptie kan bevorderen.
+
+In de toelichting hieronder wordt dit advies nader onderbouwd.
+
+
+Toelichting
+1. Korte beschrijving van de standaard
+Informatie is een belangrijke motor voor het functioneren van de overheid in Nederland. Steeds
+meer wordt er samengewerkt en uitgewisseld tussen verschillende overheidslagen en instanties.
+Daarom is het van groot belang dat we de gegevens die we gebruiken op dezelfde manier
+interpreteren. Dit vraagt om afspraken over de wijze van beschrijven van gegevens en de manier
+waarop we deze uitwisselen.
+
+Op dit moment is er over ketens heen een veelheid aan standaarden voor gegevensuitwisseling die
+gebaseerd zijn op verschillende informatiemodellen, die door de verschillende semantiek en syntax
+niet compatibel met elkaar zijn.
+
+MIM (Metamodel voor Informatiemodellering) dient als gemeenschappelijk vertrekpunt voor het
+opstellen van informatiemodellen, zodat informatiemodellen en de daarop gebaseerde standaarden
+voor gegevensuitwisseling meer compatibel worden. MIM voorziet enerzijds in duidelijke afspraken
+over het vastleggen van gegevensspecificaties en biedt anderzijds ruimte aan de verschillende
+niveaus van modellering.
+
+Bij een gezamenlijke toepassing van het metamodel MIM worden informatiemodellen beter
+vergelijkbaar en wordt het mogelijk om op basis daarvan gegevens uit te wisselen, centrale
+
+                                                1
+voorzieningen voor semantiek zoals registers en catalogi efficiënt in te richten en algemene tooling
+te ontwikkelen. Beschrijving van het metamodel is een randvoorwaarde indien er sprake is van
+een stelsel van samenhangende informatiemodellen. De beschrijving is noodzakelijk om efficiënt
+gegevens uit te kunnen wisselen over ketens en organisaties heen.
+
+Een metamodel is een model van een model. Het definieert een verzameling van
+modelleerconstructies in de vorm van bouwstenen oftewel modelelementen, met bijbehorende
+betekenis en bijbehorende afspraken omtrent hoe deze toe te passen. Volgens een metamodel
+kunnen informatiemodellen gemaakt worden die op hun beurt weer ten grondslag liggen aan
+standaarden voor de uitwisseling van gegevens. Het metamodel is dus een standaardtaal waarin je
+informatiemodellen op een uniforme manier beschrijft. Deze metataal beschrijft als het ware de
+grammatica en de syntax van de modelleertaal, en geeft daarmee kaders aan deze
+informatiemodellen.
+
+
+
+
+                                                                                 Figuur 1 Kern MIM
+
+In Figuur 1 zijn de kernelementen van MIM weergegeven en zijn de basiselementen te zien op
+basis waarvan een MIM-compatibel informatiemodel wordt opgebouwd.
+
+2. Betrokkenen en proces
+Op 25 oktober 2018 heeft Dick Krijtenburg (Geonovum) de standaard MIM aangemeld voor
+opname de pas-toe-of-leg-uit lijst. Op 13 november 2018 heeft een intakegesprek plaatsgevonden
+met de indiener. In dit gesprek is onderzocht of de standaard voldoet aan de criteria om in
+procedure genomen te worden. Daarnaast is vooruitgeblikt op de procedure. Dit intakeadvies is tot
+stand gekomen op basis van het intakeonderzoek.
+
+
+
+
+                                                 2
+3. Voldoet de standaard aan de criteria om in procedure genomen te
+worden?
+MIM voldoet aan alle vier criteria om in behandeling genomen te worden voor opname op de lijst
+aanbevolen standaarden. Hoe de standaard is getoetst op de vier criteria 1 wordt hieronder
+toegelicht in paragrafen 3.1-3.4.
+
+3.1. Is de standaard toepasbaar voor elektronische gegevensuitwisseling tussen (semi-
+)overheidsorganisaties en bedrijven, tussen (semi-)overheidsorganisaties en burgers of
+tussen (semi-)overheidsorganisaties onderling?
+Ja. MIM is een metamodel standaard die indirect invloed heeft op de elektronische
+gegevensuitwisseling. De standaard bepaalt de manier waarop de informatie-inhoud van
+gegevensuitwisselingsstandaarden wordt gespecificeerd en maakt deze eenduidiger.
+
+3.2. Is het beoogde functioneel toepassingsgebied en het organisatorisch werkingsgebied
+van de standaard, voldoende breed om substantieel bij te dragen aan de
+interoperabiliteit van de (semi-)overheid?
+Ja. MIM is van toepassing op alle (semi)overheidspartijen die informatiemodellen toepassen op de
+specificatie van standaarden voor de uitwisseling van gegevens. De toepassing van MIM beperkt
+zich niet tot een bepaalde organisatie of sector.
+
+3.3. Is het zinvol de standaard op te nemen, gezien het feit dat deze niet al wettelijk
+verplicht is voor het beoogde functioneel toepassingsgebied en organisatorisch
+werkingsgebied?
+Ja. MIM is niet wettelijk verplicht.
+
+3.4. Draagt de standaard bij aan de oplossing van een bestaand, relevant
+(interoperabiliteits)probleem en het voorkomen van leveranciersafhankelijkheid?
+Ja. Nu er nog geen metamodel beschikbaar is, ontwikkelt elke partij eigen informatiemodellen
+volgens eigen standaarden. Hierdoor mist er vaak semantische interoperabiliteit tussen deze
+modellen. Hierdoor zijn de uitwisselstandaarden die gebruik maken van deze informatiemodellen
+niet goed uitwisselbaar. Toepassing van het metamodel leidt tot eenduidige interpretatie van de
+informatiemodellen en bevordert de uitwisselbaarheid van deze modellen tussen verschillende
+partijen. Waardoor gegevensuitwisseling over ketens en organisaties heen eenduidiger en
+eenvoudiger wordt.
+
+4. Is er zicht op een positief expertadvies?
+Wanneer het Forum Standaardisatie de standaard in procedure neemt, zal een groep experts de
+standaard gaan toetsen op de vier inhoudelijke criteria 2 voor opname op de lijst. Het Forum
+Standaardisatie neemt geen standaarden in procedure waarvan al vaststaat dat deze in het
+expertonderzoek op tenminste één van de criteria zal stranden. Daarom wordt in dit intakeadvies
+vooruitgeblikt op de vier inhoudelijke criteria.
+
+Het intakeonderzoek heeft geen inhoudelijke criteria gevonden die een positief expertadvies voor
+plaatsing van MIM op de lijst aanbevolen standaarden in de weg zou kunnen staan.
+
+Dit wordt hieronder toegelicht in paragrafen 4.1-4.4.
+
+
+
+
+1
+  Meer informatie over de criteria voor het in procedure nemen van een standaard op de website van het Forum
+Standaardisatie, https://www.forumstandaardisatie.nl.
+
+2
+  Meer informatie over de inhoudelijke toetsingscriteria op de website van het Forum Standaardisatie,
+https://www.forumstandaardisatie.nl.
+
+                                                              3
+4.1. Toegevoegde waarde
+Met MIM is er een gemeenschappelijk vertrekpunt voor de informatiemodellen die gebruikt worden
+in de specificatie van standaarden voor gegevensuitwisseling. MIM voorziet enerzijds in duidelijke
+afspraken over het vastleggen van gegevensspecificaties en biedt anderzijds ruimte aan de
+verschillende niveaus van modellering.
+
+De interoperabiliteitswinst en andere voordelen wegen op tegen de kosten, de risico’s en nadelen
+van de adoptie van MIM. De interoperabiliteitswinst bij uitwisselstandaarden wordt als een grote
+toegevoegde waarde gezien, aangezien gegevensuitwisseling tussen ketens en
+overheidsorganisaties steeds belangrijker wordt.
+
+Er is nog weinig ervaring met de implementatie van MIM omdat deze pas recent is gepubliceerd.
+Alleen de indieners hebben ervaring met de toepassing van MIM bij de door hun beheerde
+informatiemodellen. Het betreft hier wel een breed pakket aan informatiemodellen en bijbehorende
+uitwisselstandaarden. Een aantal van deze uitwisselstandaarden staat opgenomen op de ‘pas-toe-
+of-leg-uit’-lijst, waaronder StUF en de Geo-standaarden. Naar verwachting zijn de
+implementatiekosten van MIM relatief laag. Compatibiliteit met eerdere versies van MIM is niet aan
+de orde aangezien er geen eerdere versies zijn.
+
+Voor partijen die MIM nog niet toepassen zal de impact groot zijn, aangezien zij hun
+informatiemodellen dienen aan te passen en de daarvan afgeleide uitwisselstandaarden. Op basis
+van deze gewijzigde uitwisselstandaarden dienen softwareleveranciers aanpassingen in applicaties
+te maken. Daarna zal de compatibiliteit van deze uitwisselstandaarden echter wel aanmerkelijk
+zijn verbeterd.
+
+Er zijn nog geen beveiligings- en privacyrisico’s geïdentificeerd.
+
+4.2. Open standaardisatieproces
+MIM wordt beheerd door Geonovum. Het specificatiedocument is kosteloos verkrijgbaar via
+website van Geo-standaarden 3. Het intellectuele eigendomsrecht is onherroepelijk vrijgegeven. Dit
+moet nog wel worden vastgelegd in de documentatie, zoals bij veel opensource licenties
+gebruikelijk is.
+
+Geonovum heeft een beheerplan opgesteld conform BOMOS. Het besluitvormingsproces voor alle
+belanghebbenden is toegankelijk. Geonovum organiseert het consensusproces tussen actieve
+stakeholders en een nationale consultatie.
+
+De standaard is ontwikkeld in het kader van het DSO-programma 4. Binnen dit programma is er
+opdracht en budget voor beheer. Financiering voor periode van 3 jaar of langer is echter nog niet
+ingericht. Partijen werken aan structurele financiering. Hier is echter nog geen uitsluitsel over.
+
+4.3. Draagvlak
+De standaard is nog slechts in beperkte kring bekend en toegepast. Voorlopers van deze standaard
+(KKG-metamodel) worden wel al gebruikt door verschillende partijen. Door de ondersteuning van
+VNG Realisatie en Geonovum bestaat er echter al wel brede toepassing bij gemeenten en het
+ruimtelijk domein. MIM ondersteunt een Model Driven Approach. Vooralsnog is er beperkte
+ondersteuning bij leveranciers.
+
+4.4. Opname op de lijst bevordert adoptie
+Geonovum heeft MIM aanvankelijk aangemeld voor opname op de pas-toe-of-leg-uit lijst, maar
+signaleert zelf dat het draagvlak voor de standaard nog erg beperkt is. In overleg heeft de indiener
+daarom voorgesteld om MIM nu aan te melden voor opname op de lijst aanbevolen standaarden,
+en over drie tot vijf jaar opname op de pas-toe-of-leg-uit lijst te overwegen.
+
+
+
+
+3
+    https://docs.geostandaarden.nl/mim/def-st-mim10-20170614/doc.pdf
+4
+    https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/
+
+                                                              4
+De indiener is wel van mening dat opname op de lijst open standaarden van het Forum
+Standaardisatie nodig is om de standaard binnen de overheid op de radar te krijgen.
+
+5. Samenhang met andere standaarden op de lijst
+MIM is gebruikt voor de informatiemodellen van de Geo-standaarden en StUF. Deze relaties
+hebben geen gevolgen voor de toetsing van MIM.
+
+Er bestaat geen samenhang met een andere standaard op de pas-toe-of-leg-uit lijst, de lijst
+aanbevolen standaarden of standaarden die aangemeld zijn voor deze lijsten. Wel hangt MIM sterk
+samen met al gangbare informatiemodellen.
+
+Gebruik van MIM richt zich daarom op de bouw van nieuwe informatiemodellen en bestaande
+modellen die aan groot onderhoud toe zijn.
+
+6. Welke organisaties ondersteunen deze aanmelding?
+De aanmelding van MIM wordt ondersteund door VNG Realisatie en Kadaster.
+
+Geonovum beheert de standaard en heeft ook een aanspreekpunt ingericht voor vragen over de
+implementatie en adoptie van de standaard.
+
+7. Use case
+Een sector of domein wil interoperabiliteit voor dataverkeer en semantiek realiseren binnen het
+domein en met andere domeinen.
+
+Een voorbeeld hiervan is de toepassing in de openbare ruimte, waar gegevens van verschillende
+bronnen nodig zijn. Het kan hier bijvoorbeeld gaan om informatie over kabels en leidingen,
+groenbeheer, eigendomsverhoudingen en parkeren. Gegevens uit diverse bronnen die
+gecombineerd dienen te worden en waar compatibiliteit belangrijk is.
+
+De gekozen manier is om als standaard voor het berichtenverkeer een objectgericht
+informatiemodel te ontwikkelen met gebruik van UML. De keuze van UML is echter niet genoeg.
+UML dwingt te weinig modelleerregels af om het informatiemodel en afgeleide producten zoals
+implementatieschema’s en vocabulaires te kunnen publiceren die aansluiten bij de werkwijze van
+andere domeinen.
+
+Met de toepassing van MIM zijn er gedetailleerde afspraken over de modelleerconcepten en
+beschrijving van de metadata van modelleerelementen. Dit levert de volgende resultaten op:
+
+   •   Interoperabele manier van beschrijven van vocabulaire en mogelijke opname in een
+       centrale of gedistribueerde catalogus.
+   •   Gestandaardiseerde en model-driven implementatie in implementatie schema’s of andere
+       implementatiespecificatie.
+   •   Betere focus mogelijk op de inhoud in plaats van het proces.
+   •   Betere consultatie van de inhoud.
+   •   Geïntegreerde ontsluiting van semantiek en opname in een stelsel van informatiemodellen.
+
+Deze use case kan geprojecteerd worden op elke kernregistratie die op nationaal niveau een rol
+speelt. Op dit moment wordt ze toegepast op de BRO en de Standaard voor officiële publicaties
+voor de Omgevingswet.
+
+
+
+
+                                                5
+

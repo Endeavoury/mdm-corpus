@@ -1,0 +1,569 @@
+Bus Inf Syst Eng 66(5):643–652 (2024)
+https://doi.org/10.1007/s12599-024-00876-5
+
+ CATCHWORD
+
+
+
+Data products, data mesh, and data fabric
+New paradigm(s) for data and analytics?
+
+Ivo Blohm • Felix Wortmann • Christine Legner • Felix Köbler
+
+
+
+
+Received: 19 June 2023 / Accepted: 19 April 2024 / Published online: 5 June 2024
+ The Author(s) 2024
+
+
+Keywords Data product  Data mesh  Data fabric  Data                 business intelligence tools, which are strongly governed, to
+analytics  Data management  Data-driven innovation                   provide curated, high-quality data to end-users (Watson
+                                                                       2002; Negash 2004). With data lakes and advanced ana-
+                                                                       lytics, this approach has failed to scale and meet the high
+1 Motivation                                                           demand for data from a growing number of analytics use
+                                                                       cases. Not only have data lakes often turned into
+Turning data into action has been a driving theme for                  ‘‘swamps,’’ but data often resides in silos and analysts
+decades (Legner et al. 2020; Chen et al. 2012). However,               waste time finding and accessing relevant data sources
+despite the growing awareness that data-driven innovation              (Giebler et al. 2009). Second, most organizations have
+is key to corporate success, enterprises still struggle to put         assigned data responsibilities to a few experts in central
+data to effective use (Desai et al. 2022). Neither the tech-           groups who are in charge of providing data and supporting
+nological advancements (Abbasi et al. 2016) nor improved               business users. These centralized data teams have become
+data management practices (Legner et al. 2020) have                    bottlenecks to scaling data-driven innovation across the
+resolved the fundamental issues and barriers in leveraging             whole enterprise (Someh et al. 2023). While they are
+data and analytics at the enterprise scale. First, firms have          highly specialized, they often lack business domain
+traditionally focused on building data warehouses and                  knowledge, which makes it difficult to embed data and
+                                                                       analytics in all parts of the organization.
+                                                                          To overcome these ‘‘failure modes of data manage-
+Accepted after one revision by Susanne Strahringer.                    ment’’ (Dehghani 2020), three concepts for using data more
+                                                                       effectively and efficiently have recently emerged: data
+I. Blohm (&)
+                                                                       product, data mesh, and data fabric. These concepts are
+Institute of Information Systems and Digital Business (IWI-
+HSG), University of St. Gallen, Müller-Friedberg-Str. 8,              hotly debated as a paradigm shift in data and analytics
+9000 St. Gallen, Switzerland                                           practice. By defining socio-technical principles beyond the
+e-mail: ivo.blohm@unisg.ch                                             underlying technology stack, they aim to bring scale and
+                                                                       standardization to meet the informational needs of an
+F. Wortmann
+Institute of Technology Management, University of St. Gallen,          increasing number of internal or external data consumers.
+Dufourstrasse 40a, 9000 St. Gallen, Switzerland                        While each of the three concepts emphasizes specific
+e-mail: felix.wortmann@unisg.ch                                        aspects, they also share common themes such as providing
+                                                                       an enterprise-wide focus on data and analytics, a focus on
+C. Legner
+Faculty of Business and Economics (HEC), University of                 decentralized and agile data teams, as well as the effective
+Lausanne, 1015 Lausanne, Switzerland                                   usage of data. However, from an academic perspective, we
+e-mail: christine.legner@unil.ch                                       do not really know whether and how these concepts differ
+                                                                       from each other and whether they really constitute a fun-
+F. Köbler
+Mindfuel GmbH, Römerstraße 18, 80801 Munich, Germany                  damental paradigm shift in data and analytics or just reflect
+e-mail: felix@mindfuel.ai                                              an evolution of existing concepts.
+
+
+                                                                                                                         123
+644                                         I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)
+
+
+   Against this backdrop, this catchword aims to demystify                   term has recently gained popularity with the increasing
+and contrast the three interrelated concepts and to integrate                relevance of data and analytics. Following Hasan and
+them into an overarching framework. Further, we propose a                    Legner (2023), data products are referred to as ‘‘a managed
+research agenda highlighting open questions for the Busi-                    artifact that satisfies recurring information needs and cre-
+ness and Information Systems Engineering community to                        ates value through transforming and packaging relevant
+address the underlying challenges of scaling data and                        data elements into consumable form.’’ This definition and
+analytics in enterprises. This is important for three reasons.               the emerging data product literature emphasize a con-
+First, information systems as well as data and analytics                     sumption view on data, and that products are designed for
+research has mostly focused on technology components                         meeting specific requirements and needs of a distinct group
+and reference architectures (Abbasi et al. 2016), but has so                 of users to achieve a certain goal or, more generally, to
+far fallen short to properly conceptualize an enterprise-                    create value (Hasan and Legner 2023). Data products help
+wide, decentralized, and usage-oriented perspective on data                  to overcome the ad hoc nature of data usage and analytics
+and analytics. Thus, providing an integrated framework                       in business contexts by standardization, scale, and ensuring
+and a related research agenda might advance our general                      domain-specific quality levels (Davis et al. 2020; Araújo
+understanding of the changing nature of data and analytics                   Machado et al. 2022b). In an organizational context, data
+function in organizations, lead to more effective usage of                   products refer to discoverable, understandable, high-qual-
+data, and create data-driven innovation. Second, conceptual                  ity, ready-to-use, and reusable data assets that people can
+clarity is of utmost importance for scientific advancement                   apply to different business challenges (Bode et al. 2023;
+(Podsakoff et al. 2016). Thus, highlighting the common-                      Dehghani 2020; Winter and Hackl 2023). They may range
+alities and differences among the three concepts con-                        from primitive data products, i.e., the mere provision of
+tributes to a better understanding of the next wave of data                  data sets, to more intelligent and insightful products that
+and analytics and might help inform and aggregate future                     include different types of descriptive, predictive, or pre-
+research in this domain. Finally, clarifying these concepts                  scriptive analytics (Davenport et al. 2022) and are tailored
+might help organizations to implement data and analytics                     to various consumption archetypes such as digital apps,
+solutions that fit their requirements more effectively.                      dashboards, or analytical information systems (Desai et al.
+                                                                             2022).
+
+2 Data products, data mesh, and data fabric                                  2.2 Data mesh
+
+In this section, we discuss the three concepts of data                       Bode et al. (2023) define the data mesh as ‘‘a socio-tech-
+products, data mesh, and data fabric. We provide defini-                     nical, decentralized, distributed concept for enterprise data
+tions in Table 1 and more fine-grained conceptualizations                    management.’’ The concept was coined in a series of
+below.                                                                       seminal blog posts by Dehghani (2019, 2020) who defines
+                                                                             four socio-technical design principles to ‘‘move beyond a
+2.1 Data products                                                            monolithic data lake:’’ data-as-a-product, domain-orien-
+                                                                             tation, self-service platforms, and federated computational
+Although a product-centric view on data was already                          governance. These principles draw the attention to feder-
+introduced by researchers from the Massachusetts Institute                   ated architecture, governance, and organizational design,
+of Technology in the late 1990s (Wang et al. 1998), the                      which are neglected in the existing reference frameworks
+
+
+Table 1 Definitions
+Concept       Definition
+
+Data          A data product is a managed artifact that satisfies recurring information needs and creates value through transforming and
+Product       packaging relevant data elements into consumable form (Hasan and Legner 2023)
+Data Mesh     Data mesh is a socio-technical, decentralized, distributed concept for enterprise data management (Bode et al. 2023). It is
+              characterized by the four principles of data-as-a-product, domain orientation, self-service platforms, and federated computational
+              governance (Dehghani 2020)
+Data Fabric   Data fabric is a design concept for attaining reusable data integration services, data pipelines and semantics for flexible and
+              integrated data delivery (Zaidi et al. 2019). It builds on the analysis, creation, and usage of metadata (Priebe et al. 2021; Liu et al.
+              2022) which are modelled as a knowledge graph
+
+
+
+
+123
+I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)                                 645
+
+
+and in linear ways of conceptualizing data value chains                key entities and their relationships across different data
+(Abbasi et al. 2016). The data-as-a-product principle fol-             sources and products (Noy et al. 2019; Hogan et al. 2021).
+lows a paradigm in which data products are considered to               Data cataloging, i.e., the classification and identification of
+be intentionally distributed and connected ‘‘mesh nodes’’              data assets and/or products including the description of
+(Araújo Machado et al. 2022b). It considers data products             data collection and processing (data lineage), reflect the
+as self-contained and consumption-ready data artifacts                 foundation for creating the required metadata (Priebe et al.
+which are orchestrated and implemented within an enter-                2021). The knowledge graph itself is created by means of
+prise-wide data ecosystem. Domain-orientation refers to                conceptual modelling (Ghiran and Buchmann 2019) or
+the idea of decentralizing data ownership so that specific             machine learning (Liu et al. 2022), i.e., active metadata
+business domains/units own and leverage the data that they             according to the Gartner terminology (Beyer 2021; Priebe
+produce and that data is organized according to the pre-               et al. 2021). Finally, the concept implies the creation of
+vailing logic of those domains by agile, autonomous, and               data pipelines for the automated and systematic ingestion,
+product-oriented teams (Bode et al. 2023; Araújo Machado              transformation, cleansing, and integration of data (Macı́as
+et al. 2022b). Self-service platforms reflect data platforms           et al. 2024; Abu Rumman and Al-Abbadi 2023). Summing
+that allow for a technical abstraction of data domains and             up, the data fabric concept introduces a semantic data
+products (Bode et al. 2023; Wider et al. 2023) so that they            virtualization layer that allows for automation in the pro-
+serve as unified access points for finding, understanding,             cesses of managing data products by connecting isolated
+and using data products (Dehghani 2020). Such platforms                data sources.
+ensure interoperability and connectivity as well as pro-
+viding required tools and interfaces (Dehghani 2020).
+Thus, they contain a set of services that remove the com-              3 Towards an integrated framework
+plexity of building and managing data products from a
+lifecycle perspective and avoid replication of technical               The three concepts of data products, data mesh, and data
+efforts (Araújo Machado et al. 2022a; Dehghani 2020;                  fabric share the common goal of helping organizations
+Bode et al. 2023). Finally, federated computational gov-               facilitate data-driven innovation at scale (see Fig. 1). In
+ernance refers to the definition of global governance stan-            the following, we essentialize the three concepts’ core
+dards. It ensures the interoperability and combination of              characteristics, clarify on the overlapping ideas between
+data products as well as policies for decentralized and self-          them, and highlight their inherent perspectives on affording
+sovereign governance by the distributed teams (Wider et al.            data-driven innovation along a continuum from data con-
+2023; Dehghani 2020; Bode et al. 2023). The execution of               sumption to provision. In so doing, we attempt to syn-
+these policies is supported by computational approaches,               thetize the current debate on how data can be put into more
+e.g., specific access servers that manage access control for           effective use in organizations and highlight that all con-
+the different data products including sensitive data (Wider            cepts provide complimentary and required building blocks
+et al. 2023). Beyond these central provisions, the principle           for the changing nature of the organizational data and
+highlights self-sovereign governance by distributed teams,             analytics function. While all these concepts can in principle
+thus attempting to balance centralization and decentral-               be implemented in isolation, we thus believe that their full
+ization (Dehghani 2020).                                               potential can only be reaped in a combined fashion.
+                                                                          In the following, we discuss the framework in detail.
+2.3 Data fabric
+                                                                       3.1 Data-driven innovation at scale
+The data fabric concept is concerned with the more
+effective integration of heterogenous and isolated data                The implicit notion of all three concepts is that they allow
+sources so that data provision in organizations can be                 to make data assets more standardized, combinable, and
+improved (Priebe et al. 2021; Liu et al. 2022; Ghiran and              reusable. As a consequence, organizations might become
+Buchmann 2019; Macı́as et al. 2024). The term originated               more agile and effective in implementing data-driven
+in 2015 and has been strongly propagated by the consulting             innovation (e.g., novel decision-making and business pro-
+agency Gartner (Priebe et al. 2021) who defines it as ‘‘a              cesses or new products and services that are based on data)
+design concept for attaining reusable data integration ser-            due the logic of network effects (Desai et al. 2022; Wider
+vices, data pipelines, and semantics for flexible and inte-            et al. 2023; Dehghani 2019).
+grated data delivery’’ (Zaidi et al. 2019). Pivotal to this
+concept are the analysis, creation, and usage of metadata
+(Priebe et al. 2021; Liu et al. 2022) which are modelled as a
+knowledge graph, i.e., graph-based data models depicting
+
+
+                                                                                                                           123
+646                                       I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)
+
+
+
+
+Fig. 1 Integrating the concepts of data product, data mesh, and data fabric
+
+3.2 Value capture-driven data management – data                          and infrastructure dependencies to facilitate data sharing
+    product                                                              and usage (Wider et al. 2023). Thus, data products are
+                                                                         considered as being vehicles for democratizing data shar-
+The data product literature stresses the consumption of data             ing (Bode et al. 2023). In so doing, the common under-
+and analytics by offering a clear value proposition to data              standing implies the notion of reusability and
+consumers. The implicit notion is that a data product                    standardization of data products so that they can be reused
+manager is in charge for ensuring that the value of data is              and combined by various organizational stakeholders
+captured (Davenport et al. 2022; Desai et al. 2022). The                 (Desai et al. 2022; Dehghani 2020).
+responsibilities of data product managers include devel-
+oping a product strategy and a product roadmap to actively               3.4 Decentralized and federated data architecture –
+promote the usage and monetization of data. By contrast,                     data mesh
+data mesh and data fabric take a different perspective by
+focusing on data sharing and open data accessibility,                    The core idea of the data mesh refers to the creation of
+without emphasizing the necessity to promote the usage of                decentralized and federated data architecture following
+data (e.g., active selling of data products) and the way the             data domains (Priebe et al. 2021). Data is owned and
+value of data is captured (e.g., pricing, terms-of-use). Thus,           managed by decentralized organizational entities, e.g.,
+data consumers are frequently considered as being paying                 autonomous teams, that are closest to the data (Bode et al.
+customers.                                                               2023; Dehghani 2020). These domain teams can use and
+                                                                         manage data based on a self-service platform that relies on
+3.3 Reusable and standardized data products – data                       federated governance which is supported by automatic
+    mesh vs. data product overlap                                        provisions (Woodie 2021; Randall 2021). This perspective
+                                                                         of decentralized ownership and federated governance are
+The idea of data products is also encoded in one of the data             much less pronounced in the data product and fabric con-
+mesh principles, that is, data-as-a-product. Both concepts               cepts (Priebe et al. 2021; Hasan and Legner 2023).
+consider data products as fundamental and self-contained
+logical units (Bode et al. 2023; Dehghani 2020; Winter and
+Hackl 2023). They contain data, metadata, code, policies,
+
+
+
+123
+I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)                               647
+
+
+3.5 Data cataloging and metadata – data mesh vs. data                  paradigm for co-creation between data consumers and
+    fabric overlap                                                     providers. For instance, the concept stresses the systematic
+                                                                       interaction with data consumers, their integration into data
+The common goal of data mesh and data fabric refers to                 product design, data sharing, and self-service platforms –
+making data accessible and interoperable in organizations              all of which are central facets of co-creation.
+to break data silos (Bode et al. 2023). For doing so, both
+concepts emphasize data cataloging and the active creation,
+usage, and analysis of metadata (Woodie 2021; Randall                  4 Implications for business and information systems
+2021; Araújo Machado et al. 2022a, b; Bode et al. 2023;                 engineering
+Beyer 2021). In the data mesh, data catalogs are referred to
+as cross-domain inventories of available data products                 The management of data and analytics has been a core
+(Priebe et al. 2021; Abu Rumman and Al-Abbadi 2023)                    topic in the field of Business and Information Systems
+and a central technology for implementing self-service                 Engineering for decades with research streams related to
+platforms for which accurate and complete metadata is a                data management (Legner et al. 2020) or business intelli-
+core requirement (Joshi et al. 2021; Araújo Machado et al.            gence (Chen et al. 2012). Comparing and integrating the
+2022a). In the data fabric, data catalogs are considered as            three concepts, we can infer a paradigm shift of data and
+the starting point for the automatic creation of metadata              analytics from the provision of data assets using centralized
+which is required for creating a knowledge graph (Priebe               organizational and architectural approaches to facilitating
+et al. 2021). In a similar vein, both concepts introduce the           the usage and consumption of data products at scale. This
+notion of data lifecycle management including the creation,            goes along with a decentralization of the data and analytics
+registration, updating, and deletion of data products in the           function and a distributed approach for data provision,
+data catalog and the knowledge graph.                                  analytics delivery, and the architecture of required systems
+                                                                       (see Table 2).
+3.6 Common infrastructure for data integration – data                      However, it is important to consider the three concepts’
+    fabric                                                             combination and conceptualize the underlying changes on
+                                                                       the continuum from data consumption to provision. Yet, it
+The data fabric basically describes a technology architec-             is too early to say whether they can overcome the existing
+ture and aims at creating a common infrastructure for                  ‘‘failure modes’’ of centralized approaches and lead to
+integrating and orchestrating data (Bode et al. 2023). To              more effective, agile, and scalable data and analytics in
+overcome data silos and bottlenecks of centralized archi-              organizations. We see three interesting avenues for
+tecture, it introduces the concept of the knowledge graph as           research that may help to answer this question (see
+a single, virtualized semantic layer on top of distributed             Table 3).
+data sources. The promise is, that once the knowledge
+graph is created, new data sources can be easily integrated            4.1 The consumption avenue – data product design,
+and linked to all other data asset and products, allowing the              management, and value
+data to be orchestrated more dynamically (i.e., the over-
+arching management of data integration pipelines) (Zaidi               While the idea of data products is gaining traction in
+et al. 2019; Beyer 2021).                                              practice and academia, operationalizing data products and
+                                                                       instantiating systematic data product management is not
+3.7 The continuum of data-driven innovation –                          yet fully understood. Little is known about the effective
+    consumption, co-creation, and provision                            design and development of data products (Fruhwirth et al.
+                                                                       2020) and their integration with already existing agile
+The three interrelated concepts imply different – but                  development practices (Vestues et al. 2022). The progres-
+complementary – perspectives on how data-driven inno-                  sion of (generative) artificial intelligence (AI) might
+vation is afforded at scale in organizations. Data products            change the nature of data products, that might turn into AI
+focus on facilitating the consumption of data and analytics.           products, which may have differences in organizational,
+By contrast, the data fabric implies a provision perspective.          technical, and legal requirements, mechanisms of value
+It attempts to improve data integration as well as automate            creation/capture, or development approaches.
+the creation, provision, and delivery of data and analytics.              In the current academic discussion, the notion of data
+The data mesh concept refers to a set of socio-technical               products is still focusing on the more effective usage of
+design principles for bridging the duality of data con-                data. As data needs to be managed as products with their
+sumption and provision. Given its focus on data democ-                 own lifecycle, a broader perspective is needed. This might
+ratization (Bode et al. 2023) it refers to an architectural            involve studying the changes to existing operating models,
+
+
+                                                                                                                         123
+648                                       I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)
+
+
+Table 2 Shifting perspectives in data and analytics
+Dimensions                          From…                                                           To…
+
+Consumption    Focal Orientation    Curation of high-quality data resources/assets                  Usage of data in innovation and decision-
+                                                                                                    making
+               Analytics Delivery   Use-case-specific delivery of data sets, reports, dashboards,   Standardized data products built for scale
+                                    and analytical applications                                     across an enterprise-wide ecosystem
+Co-Creation    Logic of Value       Business enablement                                             Value co-creation
+               Creation
+               Governance/Locus     Centralized services by IT and/or data and analytics units      Decentralized and federated governance
+               of Control
+Provision      Data Integration     Functional data processing and integration processes (e.g.,     Enterprise-wide semantic layer/knowledge
+                                    Extract-Transform-Load (ETL))                                   graph
+               DataArchitecture     Hub-and-spoke (e.g., Data Warehouse, Data Lake, Data            Decentralized, domain-driven architecture
+                                    Lakehouse)                                                      that includes hub-and-spoke domains
+
+
+
+
+Table 3 Research topics for business and information systems engineering
+Domain                                           Research topics
+
+Consumption: Data Product Design,                Effective design and development of data products and their integration into agile
+Management, and Value                            development approaches
+                                                 Changing nature of data products with the proliferation of (generative) artificial intelligence
+                                                 Management of the data product lifecycle, including new operating models and roles at the
+                                                 intersection of IT, data, and business such as data product managers/domain owners
+                                                 Developing culture and literacy for using and creating data products
+                                                 Capturing the value of data products across different settings
+Co-Creation: Decentralization and                Applicability, transferability, and effective implementation of decentralization principles to
+Democratization of Data and Analytics            data and analytics
+                                                 Integrating data consumers in the design and development of data products, including open
+                                                 innovation and crowdsourcing
+                                                 Managing and governing decentralized value co-creation processes, including the definition
+                                                 of domains and responsibilities/roles at the domain level
+                                                 Design and deployment of self-service platforms for co-creation (e.g., low code/no code
+                                                 development platforms)
+Provision: Automating Data Management and        Data and integration architectures/models for knowledge graphs and enterprise-wide
+Integration                                      semantics
+                                                 Automatic creation of knowledge graphs and semantic models (e.g., based on data profiles
+                                                 and other data characteristics)
+                                                 Standards and rules for (automatically) governing data and data products according to FAIR
+                                                 principles
+                                                 Collaborative, decentralized, and agile data provision and management at the enterprise level
+
+
+
+
+development/deployment processes, roles and organiza-                    established in organizations. When AI will become an
+tional structures, or leadership approaches. As of now, we               integrative part of data products, data products and their
+have only started to gain an understanding of these chan-                development will become even more complex. For
+ges. For instance, research is stressing the importance of               instance, existing development/deployment processes need
+roles such as data product managers/designers or data                    to be adapted for being able to constantly deliver the pro-
+domain owners whose tasks, competencies, and responsi-                   mised customer value, e.g., robust prediction performance
+bilities need to be defined in the context of cross-functional           over time, or keeping pace with today’s highly dynamic
+and agile teams (Vestues et al. 2022) and how end-to-end-                technological developments in the fields of data and AI.
+responsibility and ownership of data products can be                     Thus, these approaches will have to be integrated with
+
+
+123
+I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)                                649
+
+
+existing concepts of machine learning operations (Kreuz-               principles into the domain of data and analytics seems
+berger et al. 2023).                                                   reasonable and consequent.
+    It remains to be shown whether data products can better                However, can they easily be transferred? It is well
+align business value, customer requirements, technical                 known that the benefits of service orientation can come at a
+feasibility, and maintainability than traditional approaches           cost of performance, increased coordination efforts
+to data consumption. Also, although it is a core idea of the           between domains, and less cross-domain collaboration
+concept, we need to better understand how the value of                 (Becker et al. 2011; Feuerlicht 2006). Since cross-domain
+data products can be captured across different settings. For           collaboration and data integration are key to data and
+instance, today’s most successful data products have been              analytics, more research is needed on how to structure the
+developed in the business-to-consumer domain where                     existing data landscapes and define data domains. Fur-
+consumers do not directly pay for their usage, i.e., pro-              thermore, effective data analytics often relies on substantial
+viding attention to advertising and/or personal data.                  amounts of (historical) data, which calls for studying how
+Against that backdrop, it is much less clear how data                  complex data products should be designed and imple-
+products can be commercialized in internal arrangements                mented in a domain-oriented approach. In comparison to
+or business-to-business settings.                                      the data exchanged by conventional microservices, data
+    Finally, the creation and usage of data products rely on a         products often combine datasets from heterogeneous
+vivid data culture that is a rather novel phenomenon                   sources and can be expected to be much larger in size and
+lacking conceptualization and evidence in the academic                 scope. In fact, data products might be delivered via coarse-
+literature (Joshi et al. 2021). More specifically, it is still an      grained microservices. Unfortunately, it is well known
+open question of how organizations can create a culture                from a microservice design that scoping in terms of the
+and mindset to transform their data operations from                    ‘‘right’’ granularity has strong implications for flexibility,
+managing data-related projects with given goals, time-                 scalability, reusability, and costs. Companies have just
+frames, and budgets to managing data products that must                started to decentralize data and analytics, so that, at pre-
+be continuously improved to satisfy informational needs of             sent, it is unclear whether the ideas can really be suc-
+target consumers following a lifecycle perspective. It is              cessfully applied to data and how they must be
+implicitly assumed that employees possess the required                 implemented within different organizational contingencies
+data literacy for being able to leverage data products. The            (Winter and Hackl 2023).
+proposed concepts reflect a socio-technical approach that                  Bringing data and analytics closer to its end-users can be
+refers to a fundamental (techno-) change management                    considered a driving theme behind the decentralization
+process about which we lack an in-depth understanding                  shift. This shift directly implies close interactions with
+(Joshi et al. 2021; Markus 2004; Goedegebuure et al.                   consumers and end-users of data analytics to better
+2023).                                                                 understand their requirements and to create more effective
+                                                                       data products (Dehghani 2020). For achieving that goal,
+4.2 The co-creation avenue – decentralization                          value co-creation frequently goes beyond close interaction
+    and democratization of data and analytics                          and strives for integrating end-users directly into problem-
+                                                                       solving or development processes, e.g., open innovation or
+The core ideas for sharing interoperable and combinable                crowdsourcing. While research has shown that these ideas
+data products on self-service platforms can be seen as the             can be applied to complex data analytics problems effec-
+translation of well-adopted concepts from software devel-              tively (Lakhani et al. 2013), the implications for data
+opment to the data and analytics domain. Similar principles            product development and the effective design of self-ser-
+have been discussed under the names of service-oriented                vice platforms have yet to be explored. For instance, it
+architectures or microservices (Becker et al. 2011; Vom                must be answered whether the design and development of
+Brocke et al. 2009; Wider et al. 2023; Goedegebuure et al.             data products remains a task for professional developers
+2023). These concepts are all based on fundamental socio-              and how end-users as ‘‘data and analytics laymen’’ could or
+technical design principles such as componentization and               should be integrated here. The emergence of low code/no
+modularization, domain-driven design, loose coupling,                  code development platforms or the potentials of generative
+decentralized product ownership, as well as automated                  AI may also change the nature of self-service platforms.
+testing, integration, and delivery. They allow developers to           They might not only serve as a central repository for
+effectively integrate IT-based services into overarching               accessing data products but could also equip end-users with
+value propositions to co-create value with end-users; they             the means to create and publish their own data products.
+have proven themselves over the last decade and are con-                   With decentralizing data and analytics, organizations
+sidered as being state-of-the-art in developing and running            strive towards creating organization-wide ecosystems in
+complex application landscapes. Hence, transferring these              which data can be easily shared, remixed, and augmented
+
+
+                                                                                                                          123
+650                                   I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)
+
+
+to create value and foster innovation. While domain-ori-           would enable novel approaches to data integration and/or
+entation fosters autonomy and business focus, the coordi-          the development, delivery, and maintenance of data prod-
+nation and governance of such decentralized structures for         ucts. However, the implementation of knowledge graphs is
+co-creating value with data and analytics is an open               not free of challenges. Open questions in the field of
+question (Someh et al. 2023). This does not only involve           knowledge graphs, e.g., the management of changing
+technical questions of federated computational (data)              knowledge or knowledge extraction from multiple struc-
+governance and the design of interoperability standards on         tured and unstructured data sources (Noy et al. 2019),
+self-service platforms but also impacts data-driven value          might warrant further research in the domain of data pro-
+creation as such. Future research needs to study network           vision as well.
+effects that may emerge due to the interoperability of data            There is a need to develop infrastructures that define
+products (Wider et al. 2023) as well as coordination               common rules and standards, not only for governing data
+mechanisms to realize a joint value proposition across             but also for data products. For instance, several authors are
+multiple domains and data products, including the align-           calling for a standardized data product definition language
+ment of motives and the creation of compatible incentives.         with which data products can be systematically described
+                                                                   such as web services (Wider et al. 2023; Goedegebuure
+4.3 The provision avenue – automating data                         et al. 2023). Further, future research needs to investigate
+    management and integration                                     how the ideas of federated computational governance can
+                                                                   be implemented and how these approaches can be applied
+While there is agreement on the fundamental aim of data            within volatile and ever-changing business requirements
+provisioning, i.e., easy access to high quality data that is       (Wider et al. 2023; Goedegebuure et al. 2023). In addition,
+integrated across domains, core enablers of effectively            increasing regulation, e.g., the General Data Protection
+automating the provision of integrated data are still to be        Regulation and the AI Act of the European Commission,
+investigated. There is a need for more research on the             might require novel approaches and solutions to facilitate
+future of data and integration architectures (Wider et al.         and automate the enforcement of data privacy, security,
+2023; Goedegebuure et al. 2023; Araújo Machado et al.             and compliance (Vestues et al. 2022). Extending this line
+2022a). While semantic integration and knowledge graphs            of reasoning, self-service platforms may turn into a new
+can satisfy complex information needs and integrate                generation of data catalogs that help make data FAIR
+diverse sources in heterogeneous formats, it is not clear          (findable, accessible, interoperable, and reusable) and
+whether an enterprise-wide semantic layer will comple-             consumable by a wider number of users.
+ment or replace the traditional architectural paradigms that           Finally, more insights are necessary on how collabora-
+rely on strongly governed (conceptual, logical, and physi-         tive data provisioning and management can be facilitated
+cal) data models and data flows. Also, the required level of       between a diverse set of stakeholders such as data engi-
+granularity remains an open question from the provision            neers, data architects, data scientists, data analysts, data
+perspective. The idea of the data fabric implies the creation      product managers, or data consumers. Researchers might
+of knowledge graphs on metadata while the original con-            address self-service platforms that go beyond today’s data
+cept of knowledge graphs has been developed for storing            catalogs and offer novel services that bring the core inno-
+complex relationships for single entities (e.g., product           vations of collaborative software engineering into the
+recommendations for individual customers) more effec-              domain of data management and integration. However,
+tively (Noy et al. 2019). Thus, it remains to be answered          there is no thorough evidence on whether and how these
+whether metadata is rich enough for creating meaningful            tools enable effective data governance or a more collabo-
+semantic knowledge representations. In a similar vein, the         rative or and agile development and maintenance of
+latest data provisioning software comes with sophisticated         metadata, business glossaries, and other forms of data
+data profiling capabilities to examine and analyze existing        documentation.
+data assets that may afford novel opportunities. Also, the
+mesh structure might allow for better tracing of how data is
+used by which parts of the organization. Like the experi-          5 Conclusion
+ences in process mining, in which process models can be
+created from the trace data of using information systems,          Data products, data mesh, and data fabric reflect comple-
+such novel technological affordances might help to close           mentary concepts to foster data-driven innovation at scale
+the gap between target data models and their actual                in organizations. The concepts are promising to make data
+implementation. Future research could further explore how          usage more effective, agile, and scalable by adopting an
+knowledge graphs and semantic integration layers can be            enterprise-wide perspective and emphasizing socio-tech-
+automatedly created (Ye et al. 2022). Such approaches              nical principles. For the field of Business and Information
+
+
+123
+I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)                                            651
+
+
+Systems Engineering this comes with the opportunity to                     Dehghani Z (2019) How to move beyond a monolithic data lake to a
+rejuvenate one of our discipline’s established research                         distributed data mesh. https://martinfowler.com/articles/data-
+                                                                                monolith-to-mesh.html. Accessed 18 Jan 2024
+fields and to develop alternatives to centralized data man-                Dehghani Z (2020) Data mesh principles and logical architecture.
+agement approaches and the technology-centric, linear                           https://martinfowler.com/articles/data-mesh-principles.html.
+conceptualization of data value chains.                                         Accessed 18 Jan 2024
+                                                                           Desai V, Fountaine T, Rowshankish K (2022) A better way to put
+                                                                                your data to work. Harv Bus Rev 100(4):100–107
+                                                                           Feuerlicht G (2006) Enterprise SOA: what are the benefits and
+Funding Open access funding provided by University of St.Gallen.
+                                                                                challenges. In: International conference systems integration,
+                                                                                Prague, pp 36–43
+                                                                           Fruhwirth M, Breitfuss G, Pammer-Schindler V (2020) The data
+Open Access This article is licensed under a Creative Commons                   product canvas: a visual collaborative tool for designing data-
+Attribution 4.0 International License, which permits use, sharing,              driven business models. In: Bled eConference, Bled,
+adaptation, distribution and reproduction in any medium or format, as           pp 515–528. https://aisel.aisnet.org/bled2020/8/
+long as you give appropriate credit to the original author(s) and the      Ghiran A-M, Buchmann RA (2019) The model-driven enterprise data
+source, provide a link to the Creative Commons licence, and indicate            fabric: a proposal based on conceptual modelling and knowledge
+if changes were made. The images or other third party material in this          graphs. Knowledge Science. Engineering and Management.
+article are included in the article’s Creative Commons licence, unless          Springer, Cham, pp 572–583
+indicated otherwise in a credit line to the material. If material is not   Giebler C, Gröger C, Hoos E, Schwarz H, Mitschang B (2009)
+included in the article’s Creative Commons licence and your intended            Leveraging the data lake: current state and challenges. In: 21st
+use is not permitted by statutory regulation or exceeds the permitted           international conference big data analytics and knowledge
+use, you will need to obtain permission directly from the copyright             discovery, Linz, pp 179–188. https://doi.org/10.1007/978-3-
+holder. To view a copy of this licence, visit http://creativecommons.           030-27520-4_13
+org/licenses/by/4.0/.                                                      Goedegebuure A, Kumara I, Driessen SW, Nucci DD, Monsieur G,
+                                                                                Heuvel W-Jvd, Tamburri DA (2023) Data mesh: a systematic
+                                                                                gray literature review. arXiv preprint https://doi.org/10.48550/
+References                                                                      arXiv.2304.01062
+                                                                           Hasan MR, Legner C (2023) Understanding data products: motiva-
+                                                                                tions, definition, and categories. In: European conference on
+Abbasi A, Sarker S, Chiang RH (2016) Big data research in                       information systems, Kristiansand. https://aisel.aisnet.org/
+     information systems: toward an inclusive research agenda.                  ecis2023_rp/229
+     J Assoc Inf Syst 17(2):3. https://doi.org/10.17705/1jais.00423        Hogan A, Blomqvist E, Cochez M, D’amato C, Melo GD, Gutierrez
+Abu Rumman A, Al-Abbadi L (2023) Structural equation modeling                   C, Kirrane S, Gayo JEL, Navigli R, Neumaier S, Ngomo A-CN,
+     for impact of Data Fabric Framework on business decision-                  Polleres A, Rashid SM, Rula A, Schmelzeisen L, Sequeda J,
+     making and risk management. Cogent Bus Manag                               Staab S, Zimmermann A (2021) Knowledge graphs. ACM
+     10(2):2215060. https://doi.org/10.1080/23311975.2023.2215060               Comput Surv 54(4):1–37. https://doi.org/10.1145/3447772
+Araújo Machado I, Costa C, Santos MY (2022a) Advancing data               Joshi D, Pratik S, Rao M (2021) Data governance in data mesh
+     architectures with data mesh implementations. In: De Weerdt J,             infrastructures: the Saxo Bank case study. In: International
+     Polyvyanyy A (eds) Intelligent information systems. CAiSE                  conference on electronic business, Nanjing, pp 599–604. https://
+     2022. Springer, Cham, pp 10–18. https://doi.org/10.1007/978-3-             aisel.aisnet.org/iceb2021/52
+     031-07481-3_2                                                         Kreuzberger D, Kühl N, Hirschl S (2023) Machine learning ppera-
+Araújo Machado I, Costa C, Santos MY (2022b) Data mesh: concepts               tions (MLOps): overview, definition, and architecture. IEEE
+     and principles of a paradigm shift in data architectures. Procedia         Access 11:31866–31879. https://doi.org/10.1109/ACCESS.2023.
+     Comp Sci 196:263–271. https://doi.org/10.1016/j.procs.2021.12.             3262138
+     013                                                                   Lakhani KR, Boudreau KJ, Loh P-R, Backstrom L, Baldwin C,
+Becker A, Widjaja T, Buxmann P (2011) Value potentials and                      Lonstein E, Lydon M, MacCormack A, Arnaout RA, Guinan EC
+     challenges of service-oriented architectures. Bus Inf Syst Eng             (2013) Prize-based contests can provide solutions to computa-
+     3(4):199–210. https://doi.org/10.1007/s12599-011-0167-3                    tional biology problems. Nat Biotechnol 31(7):108–111. https://
+Beyer MA (2021) Data fabric architecture is key to modernizing data             doi.org/10.1038/nbt.2495
+     management and integration. https://www.gartner.com/smarter           Legner C, Pentek T, Otto B (2020) Accumulating design knowledge
+     withgartner/data-fabric-architecture-is-key-to-modernizing-data-           with reference models: insights from 12 years’ research into data
+     management-and-integration. Accessed 18 Jan 2024                           management. J Assoc Inf Syst 21(3):2. https://doi.org/10.17705/
+Bode J, Kühl N, Kreuzberger D, Hirschl S (2023) Data mesh:                     1jais.00618
+     motivational factors, challenges, and best practices. arXiv           Liu K, Yang M, Li X, Zhang K, Xia X, Yan H (2022) M-data-fabric: a
+     preprint https://doi.org/10.48550/arXiv.2302.01713                         data fabric system based on metadata. In: 5th international
+Chen H, Chiang RH, Storey VC (2012) Business intelligence and                   conference on big data and artificial intelligence, Fuzhou,
+     analytics: from big data to big impact. MIS Q 36(4):1165–1188.             pp 57–62. https://doi.org/10.1109/BDAI56143.2022.9862807
+     https://doi.org/10.2307/41703503                                      Macı́as A, Muñoz D, Navarro E, González P (2024) Data fabric and
+Davenport TH, Bean R, Jain S (2022) Why your company needs data-                digital twins: an integrated approach for data fusion design and
+     product managers. https://hbr.org/2022/10/why-your-company-                evaluation of pervasive systems. Inf Fusion 103:102139. https://
+     needs-data-product-managers. Accessed 18 Jan 2024                          doi.org/10.1016/j.inffus.2023.102139
+Davis J, Nussbaum D, Troyanos K (2020) Approach your data with a           Markus ML (2004) Technochange management: using IT to drive
+     product mindset. https://hbr.org/2020/05/approach-your-data-               organizational change. J Inf Technol 19(1):4–20. https://doi.org/
+     with-a-product-mindset. Accessed 18 Jan 2024                               10.1057/palgrave.jit.2000002
+
+
+
+
+                                                                                                                                     123
+652                                          I. Blohm et al.: Data products, data mesh, and data fabric, Bus Inf Syst Eng 66(5):643–652 (2024)
+
+Negash S (2004) Business intelligence. Commun Assoc Inf Syst.                    and its application to service-oriented architectures. Bus Inf Syst
+     https://doi.org/10.17705/1CAIS.01315                                        Eng 1(3):223–233. https://doi.org/10.1007/s12599-009-0046-3
+Noy N, Gao Y, Jain A, Narayanan A, Patterson A, Taylor J (2019)             Wang RY, Lee YW, Pipino LL, Strong DM (1998) Manage your
+     Industry-scale knowledge graphs: lessons and challenges. Com-               information as a product. Sloan Manag Rev 39(4):95
+     mun ACM 62(8):36–43. https://doi.org/10.1145/3331166                   Watson H (2002) Recent developments in data warehousing. Com-
+Podsakoff PM, MacKenzie SB, Podsakoff NP (2016) Recommenda-                      mun Assoc Inf Syst 8:1. https://doi.org/10.17705/1CAIS.00801
+     tions for creating better concept definitions in the organizational,   Wider A, Verma S, Akhtar A (2023) Decentralized data governance
+     behavioral, and social sciences. Org Res Methods                            as part of a data mesh platform: concepts and approaches. In:
+     19(2):159–203. https://doi.org/10.1177/1094428115624965                     IEEE International conference on web services, Chicago. https://
+Priebe T, Neumeier S, Markus S (2021) Finding your way through the               doi.org/10.1109/ICWS60048.2023.00101
+     jungle of big data architectures. In: IEEE international confer-       Winter R, Hackl T (2023) Data mesh at scale. Exploration of current
+     ence on big data, Orlando, pp 5994–5996. https://doi.org/10.                practices in large organizations. University of St. Gallen,
+     1109/BigData52589.2021.9671862                                              Institute of Information Management, St. Gallen
+Randall L (2021) Data fabric vs data mesh: 3 key differences, how           Woodie A (2021) Data mesh vs. data fabric: understanding the
+     they help and proven benefits. https://www.informatica.com/                 differences. https://www.datanami.com/2021/10/25/data-mesh-
+     blogs/data-fabric-vs-data-mesh-3-key-differences-how-they-                  vs-data-fabric-understanding-the-differences/. Accessed 18 Jan
+     help-and-proven-benefits.html. Accessed 18 Jan 2024                         2024
+Someh I, Wixom B, Davern M, Shanks G (2023) Configuring                     Ye H, Zhang N, Chen H, Chen H (2022) Generative knowledge graph
+     relationships between analytics and business domain groups for              construction: a review. In: Proceedings of the conference on
+     knowledge integration. J Assoc Inf Syst 24(2):592–618. https://             empirical methods in natural language processing, Abu Dhabi.
+     doi.org/10.17705/1jais.00782                                                Association for Computational Linguistics. https://doi.org/10.
+Vestues K, Hanssen GK, Mikalsen M, Buan TA, Conboy K (2022)                      48550/arXiv.2210.12714
+     Agile data management in NAV: a case study. In: Stray V et al          Zaidi E, Thoo E, Simoni GD, Beyer M (2019) Data fabrics add
+     (eds) International conference on agile software development,               augmented intelligence to modernize your data integration.
+     Copenhagen, Springer, pp 220–235. https://doi.org/10.1007/978-              https://www.gartner.com/en/documents/3978267. Accessed 18
+     3-031-08169-9_14                                                            Jan 2024
+Vom Brocke J, Sonnenberg C, Simons A (2009) Value-oriented
+     information systems design: the concept of potentials modeling
+
+
+
+
+123
+

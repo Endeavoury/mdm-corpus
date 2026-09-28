@@ -1,0 +1,27 @@
+{
+  "stage": "Submitted manuscript, before critical review and revision",
+  "files": {
+    "paper.tex": "d37bbf923a9a45c381d8b5ececafa2f4e3448b4e1a0a3afe13290440385fb6d5",
+    "paper.pdf": "30f63e8cef4c4fc65b7a7261f409b337fb96b8f924679529ad942d5e4ea218a9",
+    "references.bib": "0ccc96630522b15d66d48ee8dc629054dce58c32ff68b8c1122876c5c9171368",
+    "claims-register.csv": "b78c755bce42749b75bd2ce9ba5afd858e18d9e5aaaaa2358a04cd83015d44f7",
+    "standards-matrix.csv": "44b43a6542d0b3ba9b0e196b5e217d053dcbfe2cd9e916aa8423e3e85454c463",
+    "literature-matrix.csv": "f0b168a12f79c97edbf711bdc5fbb891a9d2cbb7cac8a1acafee36ceb47739d8",
+    "traceability-matrix.csv": "9ff3a09e1de5b609158a121f38c32c8336536361c509ecd55e2aca21a95d5147",
+    "research-design.md": "76a2ed5fdc060a29f29f88341bfac57a4a3f46cd12f56f455423847f10cca522",
+    "proposed-paper-outline.md": "6b6a62e52e444c03e56f3575855debf04c3170e833abe4081d11869efc0ca416",
+    "AGENTS.md": "c4ea102eec1fe69590352caf0b741fe43958829757b243f3ce6e225711869c4b",
+    "sections/architecture.tex": "c1eb6a0e55a88ca45c0a23fb991fa1682d49393d5c626721e0280c2b0b1cc7b3",
+    "sections/case-evaluation.tex": "0b191cb371ebb2a11a9af238d1f56218635c5f9d9e40ead59253ba0425b93394",
+    "sections/context-analysis.tex": "027b6678ea2804d7a6a82045fe272912b5cd574984235a84b6194dd342d3d829",
+    "sections/discussion.tex": "f658e6d47c6a6a8d3ce90ecbf9fd5ac5aec5f5fc3ff56ea8da8632c6862fb414",
+    "sections/introduction.tex": "f15ce3b03d941b4c1605c80c300a072c8feab91712748a5baf4fcc609e65c230",
+    "sections/metrics-table.tex": "e1d025cdb2cb60fc73701cb7bf3c20640e0b3e6bd6678e6b584676ebffa5ec1b",
+    "sections/principles.tex": "a3c2d985fb557c0a909d4f60481fa7ffa03cdb5d6bd5121d6b684323a8c0c849",
+    "sections/requirements-table.tex": "909db73e3324084df5da035898e66b620d30b8c2686de5a1f4a89780e3f30918",
+    "sections/theory.tex": "50a4728799a76754dab5c406b9ac08062237e719d5448a706dbd9be85419e0dc",
+    "sections/traceability-table.tex": "a0190bad6588b6a3e11b34a94655aeb75fb9c450986b89ef1bb2694bf3d85603",
+    "scripts/audit_paper.py": "1fc64d9fc1801472e9d57d3076f98b8caadf7a5260b7ead6736ad0912f6117bd",
+    "scripts/prepare_paper.py": "e7c411c475a937dea4d70ed64c30edc1ed2cce781f7f06be92306296ac189ef7"
+  }
+}

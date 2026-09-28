@@ -1,0 +1,195 @@
+Master Data Management - 1st Edition | Elsevier Shop
+Skip to main content
+
+Books
+Journals
+Browse by subject
+
+Back
+
+Discover Books & Journals by subject
+
+Life Sciences
+Agricultural & Biological Sciences
+Drug Discovery
+Immunology
+Life Sciences
+Microbiology & Virology
+Neuroscience
+Pharmaceutical Sciences
+Pharmacology
+Toxicology
+All
+
+Physical Sciences & Engineering
+Astronomy, Astrophysics, Space Science
+Built Environment
+Chemical Engineering
+Chemistry
+Computer Science
+Earth & Planetary Sciences
+Energy & Power
+Engineering & Technology
+Environmental Sciences
+Mathematics
+Materials Science
+Physics
+All
+
+Social Sciences & Humanities
+Arts & Humanities
+Business, Management & Accounting
+Decision Sciences
+Economics & Finance
+Forensics
+Psychology
+Social Sciences
+All
+
+Health
+Dentistry
+Health Professions
+Medicine
+Nursing & Midwifery
+Veterinary Science & Veterinary Medicine
+All
+
+Search
+
+0 items in shopping cart.  View Cart
+My account
+
+Open main site navigation
+
+Home
+
+Books
+
+Subjects
+
+Computer science
+
+Master Data Management
+
+Master Data Management
+
+1st Edition - September 16, 2008
+
+Latest edition
+
+Author: David Loshin
+
+Language: English
+
+The key to a successful MDM initiative isn’t technology or methods, it’s people: the stakeholders in the organization and their complex ownership of the data that the initiative… Read more 
+
+ End of Summer Sale
+Save up to 30% off
+Bright savings for research, study, and discovery
+
+Shop the summer sale
+
+Description
+
+The key to a successful MDM initiative isn’t technology or methods, it’s people: the stakeholders in the organization and their complex ownership of the data that the initiative will affect.Master Data Management equips you with a deeply practical, business-focused way of thinking about MDM—an understanding that will greatly enhance your ability to communicate with stakeholders and win their support. Moreover, it will help you deserve their support: you’ll master all the details involved in planning and executing an MDM project that leads to measurable improvements in business productivity and effectiveness.
+
+Key features
+
+Presents a comprehensive roadmap that you can adapt to any MDM project 
+Emphasizes the critical goal of maintaining and improving data quality 
+Provides guidelines for determining which data to “master.” 
+Examines special issues relating to master data metadata 
+Considers a range of MDM architectural styles 
+Covers the synchronization of master data across the application infrastructure
+
+Readership
+Data/Information analysts, information and enterprise architects, and data warehouse and systems engineers, and their managers, mostly in Information Technology, plus consultants who do this work for new projects or mergers.
+
+Table of contents
+
+Chapter 1) Introduction: Master Data and Master Data ManagementChapter 2) Business Process Models, Stakeholders, and Participant CoordinationChapter 3) MDM Maturity and the Implementation RoadmapChapter 4) Enterprise Data GovernanceChapter 5) The Value of Data QualityChapter 6) Data Standards and Metadata ManagementChapter 7) Identifying Master Data Chapter 8) Data Modeling Issues for MDMChapter 9) MDM Paradigms and ArchitecturesChapter 10) Data Consolidation and IntegrationChapter 11) Master Data Synchronization – Chapter 12) The Functional Application Services LayerChapter 13) Management Guidelines and Summary
+
+Review quotes
+
+"David gives sound, practical advice for business leaders and managers planning a real implementation. His material covers the key business, operational and technical elements of an enterprise reference data and master data program. He delivers a clear description of the functional and technical solutions that are available to business managers. David provides insights that can help business and technology managers to improve strategic planning, manage organizational change and simplify the operational integration of systems and business processes."—Justin S. Magruder, Vice President, Enterprise Information Strategy & Management, Freddie Mac
+
+"Few people can serve as both an academic and a practitioner. David Loshin is one of those people and he is superbly qualified to bring sense to the topic of master data management. He has brought all his skills and experience together in this book. Anyone that is embarking on a master data management initiative will find this book a great resource, from the initial efforts to understanding the business value of master data to the methodical approach to implementation."—Tony Fisher, President, DataFlux
+
+“With his new book on MDM, David Loshin has created a comprehensive overview of a complex topic that should be one of the top 5 priorities for CIOs: to transform an enterprise through superior management of its critical business data. Much like the SOA market, MDM needs a separate category of best practices to address the hard business problems that can only be solved through better data governance. This book does a wonderful job of posing these challenges and positing some solutions. A must-have guide for those looking to understand the IT and business issues around master data management."—Anurag Wadehra, Senior VP, Marketing & Product Management, Siperian
+
+"Similar to David’s other books on data management; Master Data Management shares a deep understanding of how critical business issues are addressed through the managed integration of emerging technologies. This book provides a full-scale exposition on the benefits and the challenges of master data integration; describes approaches to justify, initiate and design a master data management (MDM) program; and guides the reader in a process to evaluate the numerous methods and solutions to determine the approach that best addresses the organization’s needs. This book delivers the content in the easily read, pragmatic style that has made David Loshin one of the most popular experts for both our business and technology visitors at BeyeNETWORK.com (Business Intelligence Network)."—Ron Powell, Editorial Director, Business Intelligence Network, www.B-eye-NETWORK.com
+
+“Master data management is a new field of endeavor with deep roots in data quality management. As such, there is no better person than David Loshin to help data practitioners not only understand the intricacies of MDM but implement it successfully. This how-to manual birthed from long experience is a must-read for aspiring MDM managers and developers.” —Wayne Eckerson, Director, TDWI Research
+
+"David Loshin continues the important MDM conversation by highlighting the specific technology frameworks and tactics necessary for MDM success. This book offers a spot-on look at the components of MDM—and why enterprise master data should be treated as a core corporate asset."—Jill Dyche, Partner, Baseline Consulting, Author of Customer Data Integration: Reaching a Single Version of the Truth
+
+Product details
+
+Edition: 1
+
+Latest edition
+
+Published: July 28, 2010
+
+Language: English
+
+About the author
+
+DL
+
+David Loshin
+David Loshin is President of Knowledge Integrity, Inc., a company specializing in data management consulting. The author of numerous books on performance computing and data management, including “Master Data Management" (2008) and “Business Intelligence – The Savvy Manager’s Guide" (2003), and creator of courses and tutorials on all facets of data management best practices, David is often looked to for thought leadership in the information management industry.
+
+Affiliations and expertisePresident, Knowledge Integrity Incorporated, Silver Spring, MD, USA
+
+View book on ScienceDirect
+
+Read Master Data Management on ScienceDirect
+
+product
+
+Useful links
+Book awards
+Book bestsellers
+Book imprints
+Book pre-order
+Book series(opens in new tab/window)
+Flexible eBook solutions
+Journal bestsellers
+New book releases
+Student corner(opens in new tab/window)
+
+Quick help
+eBook formats(opens in new tab/window)
+My account(opens in new tab/window)
+Returns & refunds(opens in new tab/window)
+Shipping & delivery(opens in new tab/window)
+Subscriptions & renewals(opens in new tab/window)
+Support & contact(opens in new tab/window)
+Tax exempt orders(opens in new tab/window)
+Withdrawal order
+
+Solutions
+ClinicalKey(opens in new tab/window)
+ClinicalKey AI(opens in new tab/window)
+Embase(opens in new tab/window)
+Evolve(opens in new tab/window)
+Mendeley(opens in new tab/window)
+Knovel(opens in new tab/window)
+Reaxys(opens in new tab/window)
+ScienceDirect(opens in new tab/window)
+
+About
+About Elsevier(opens in new tab/window)
+Careers(opens in new tab/window)
+Newsroom(opens in new tab/window)
+
+(opens in new tab/window)(opens in new tab/window)(opens in new tab/window)(opens in new tab/window)
+
+Copyright © 2026 Elsevier, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+Terms & conditions(opens in new tab/window)
+Privacy policy(opens in new tab/window)
+Accessibility statement(opens in new tab/window)
+Cookie Settings
+Support & contact(opens in new tab/window)

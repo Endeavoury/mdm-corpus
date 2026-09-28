@@ -1,0 +1,827 @@
+
+
+  
+
+    DCAT-AP-NL | Forum Standaardisatie
+
+    
+
+  
+
+    
+      Skip links
+      Overslaan en naar de inhoud gaan
+      Overslaan en naar de hoofdnavigatie gaan
+
+    
+
+    
+
+        
+
+    
+
+        
+
+    
+
+                    
+
+        
+
+                
+
+                    
+
+                            Home
+
+                        
+
+                            
+                                Menu
+
+                        
+
+                    
+
+                        
+
+                            
+
+                                    
+
+        
+
+      
+Hoofdnavigatie
+
+          
+
+                    
+
+                          Introductie
+
+                    
+
+                          Wat zijn standaarden?
+
+                
+
+                          Wat zijn de verplichtingskaders?
+
+                
+
+                          Wat moet ik doen?
+
+                
+
+                          Publicaties
+
+        
+
+              
+
+                          Lijst open standaarden
+
+                    
+
+                          'Pas toe of leg uit'-standaarden
+
+                
+
+                          Aanbevolen standaarden
+
+                
+
+                          Beslisboom 'Pas toe of leg uit'-lijst
+
+                
+
+                          Standaarden aanmelden
+
+        
+
+              
+
+                          Onderwerpen
+
+                    
+
+                          Bestuur en recht
+
+                
+
+                          Bouwen en wonen
+
+                
+
+                          Internationale standaardisatie
+
+                
+
+                          Openbaar en toegankelijk
+
+                
+
+                          Schoon water en beschermde bodem
+
+                
+
+                          Uitwisselingsfundament
+
+                
+
+                          Veilig internet
+
+        
+
+              
+
+                          Metingen
+
+                    
+
+                          Monitor Open Standaarden
+
+                
+
+                          Informatieveiligheidstandaarden
+
+                
+
+                          Zelf meten
+
+        
+
+              
+
+                          Over ons
+
+                    
+
+                          Forumleden
+
+                
+
+                          Medewerkers
+
+                
+
+                          Vergaderingen en stukken
+
+                
+
+                          Contactgegevens
+
+        
+
+              
+
+  
+
+  
+
+                            
+
+                        
+                            Sluit
+
+                    
+
+                    
+
+                        
+
+                                Voer uw zoekterm in
+
+                            
+
+                                Zoeken
+
+                        
+
+                
+
+        
+
+                    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+    
+
+  
+
+  
+
+          
+
+        
+
+    
+
+    
+
+            
+            Kruimelpad
+
+                
+
+                    
+
+                                
+
+      
+
+            
+
+                        Forum Standaardisatie
+
+      
+
+                        Lijst open standaarden
+
+      
+
+              DCAT-AP-NL
+
+  
+
+          
+
+                    
+
+            
+
+    
+
+    
+
+        
+
+                      
+
+    
+
+      
+
+          
+
+    
+24-09-2025: Het Forum Standaardisatie heeft op 24 september 2025 ingestemd met het intakeadvies DCAT-AP-NL versie 3.0 om de standaard in procedure te nemen voor plaatsing op de 'Pas toe of leg uit'-lijst. Een volledig expertonderzoek is aangewezen om de standaard te toetsen aan de criteria voor opname op de lijst. Het onderzoek hiervoor loopt momenteel.
+
+          
+
+    
+
+    
+
+            
+
+DCAT-AP-NL
+
+        
+
+    
+
+      
+
+          
+
+  
+
+          
+
+            
+
+    
+
+      
+
+Inhoudsopgave
+
+          
+
+            
+
+    
+
+      
+
+          
+
+    
+
+Content
+
+    
+
+      
+
+    
+
+    
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Status
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Lijst status
+
+                    
+
+    
+
+        Meer informatie over 
+
+Status
+
+    
+
+    
+
+                    
+
+‘Verplicht ('Pas toe of leg uit’)' betekent dat de standaard verplicht moet worden uitgevraagd en toegepast volgens de Instructie rijksdienst bij aanschaf ICT-diensten of ICT-producten.
+
+‘Aanbevolen’ betekent dat dit een gangbare of opkomende standaard is waarvan het Forum Standaardisatie het gebruik aanbeveelt.
+
+‘In behandeling’ betekent dat de standaard wordt getoetst voor opname op een van de lijsten.
+
+‘Archief’ betekent dat de standaard in het verleden op de lijst heeft gestaan of in behandeling is geweest en nu niet (meer) verplicht of aanbevolen wordt.
+
+            
+
+            
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+In behandeling
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Detailinformatie
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Volledige naam
+
+  
+
+    
+
+                                    
+
+Het Nederlandse applicatieprofiel op DCAT-AP
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Versie
+
+  
+
+    
+
+                                    
+
+3.0
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Specificatiedocument
+
+  
+
+    
+
+                                    
+
+DCAT-AP-NL 3.0
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Beheerorganisatie
+
+  
+
+    
+
+                                    
+
+Geonovum
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Toetsingsinformatie
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Datum van aanmelding
+
+  
+
+    
+
+                                    
+
+08-05-2025
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+                    Intakeadvies
+
+  
+
+    
+
+    20250924-Intakeadvies-DCAT-AP-NL-3.0.pdf
+
+            PDF Document | 201.04 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Expertadvies
+
+  
+
+    
+
+    20260323-Expertadvies-DCAT-AP-NL-versie-3.0.pdf
+
+            PDF Document | 329.71 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Consultatie
+
+  
+
+    
+
+    20260509-verslag-reacties-consultatie-DCAT-AP-NL+bijlage.pdf
+
+            PDF Document | 152.48 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Forumadvies
+
+  
+
+    
+
+    20260617-Forumadvies-DCAT-AP-NL-3.0.pdf
+
+            PDF Document | 186.97 KB
+
+            
+
+  
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+  
+
+  
+
+          
+
+        
+
+    
+
+    
+
+            
+
+                        
+
+      
+
+          
+
+                                    
+Naar boven
+
+Print
+
+Mastodon
+
+Codeplatform
+
+LinkedIn
+
+            
+
+            
+
+    
+
+    
+
+            
+                Standaard Samenwerken
+
+        
+
+    
+
+        
+
+                
+
+        
+
+      
+Voet
+
+          
+
+                          
+
+                        
+Standaarden
+
+                    
+
+                        Lijst open standaarden
+
+                
+
+                        Veelgestelde vragen
+
+        
+
+              
+
+                        
+Organisatie
+
+                    
+
+                        Forum Standaardisatie
+
+                
+
+                        Publicaties  
+
+                
+
+                        Vergaderingen en -stukken
+
+                
+
+                        Contact
+
+        
+
+              
+
+                        
+Over deze site
+
+                    
+
+                        Toegankelijkheid
+
+                
+
+                        Kwetsbaarheid melden
+
+                
+
+                        Cookies
+
+                
+
+                        Copyright
+
+                
+
+                        Open data
+
+                
+
+                        Archief website
+
+        
+
+              
+
+                        
+International
+
+                    
+
+                        Standardisation Forum (English)
+
+                
+
+                        Contact (English)
+
+        
+
+              
+
+  
+
+  
+
+        
+
+  
+
+    
+
+  
+

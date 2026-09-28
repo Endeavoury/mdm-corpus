@@ -1,0 +1,636 @@
+Enterprise Master Data Management: An SOA Approach to Managing Core Information | InformIT
+
+            
+
+                
+
+                
+
+            
+
+        
+
+    
+
+            Home
+            >
+            Store
+
+    
+
+        
+
+            
+
+                
+
+                
+
+                    View Larger Image
+
+            
+
+                
+
+            
+
+            
+
+                
+
+                            
+
+                                Register your product
+                                to gain access to bonus material or receive a coupon.
+
+                
+
+        
+
+            
+
+                Enterprise Master Data Management: An SOA Approach to Managing Core Information
+
+            
+
+                
+
+By Allen Dreibelbis, Eberhard Hechler, Ivan Milman, Martin Oberhofer, Paul van Run, Dan Wolfson
+
+                    Published Jun 5, 2008
+ by                             IBM Press.                                            Part of the IBM Press series.
+
+                
+
+                
+
+                
+
+            
+
+            
+
+                
+
+    
+
+    
+
+eBook    
+
+                    
+Your Price: $46.39
+
+List Price: $57.99
+
+Includes EPUB and PDF
+
+                    About eBook Formats
+
+    
+
+        
+
+            This eBook includes the following formats, accessible from your Account page after purchase:
+
+        
+
+            
+
+                EPUB
+            The open industry format known for its reflowable content and usability on supported mobile devices.
+
+        
+
+            
+
+                PDF
+            The popular standard, used most often with the free Acrobat® Reader® software.
+
+        
+This eBook requires no passwords or activation to read. We customize your eBook by discreetly watermarking it with your name, making it uniquely yours.
+
+            
+
+                Watermarked eBook FAQ
+
+            
+
+                eBook Download Instructions
+
+        
+
+    
+
+                Add to cart
+
+        
+
+    
+
+    
+
+                                                        
+
+                                    
+
+                                
+
+                               
+
+                        
+
+                        
+
+                        
+
+                        
+
+    
+
+        
+            Description
+
+    
+
+    
+
+        
+            Sample Content
+
+    
+
+    
+
+        
+            Updates
+
+    
+
+        
+
+            
+                More Information
+
+        
+
+        
+
+            
+Description
+
+    
+
+Copyright 2008
+
+Edition: 1st
+
+        
+
+            
+eBook            
+
+        
+ISBN-10: 0-13-279972-3
+
+ISBN-13: 978-0-13-279972-0
+
+        
+The Only Complete Technical Primer for MDM Planners, Architects, and Implementers
+
+Companies moving toward flexible SOA architectures often face difficult information management and integration challenges. The master data they rely on is often stored and managed in ways that are redundant, inconsistent, inaccessible, non-standardized, and poorly governed. Using Master Data Management (MDM), organizations can regain control of their master data, improve corresponding business processes, and maximize its value in SOA environments.
+
+Enterprise Master Data Management provides an authoritative, vendor-independent MDM technical reference for practitioners: architects, technical analysts, consultants, solution designers, and senior IT decisionmakers. Written by the IBM® data management innovators who are pioneering MDM, this book systematically introduces MDM’s key concepts and technical themes, explains its business case, and illuminates how it interrelates with and enables SOA.
+
+Drawing on their experience with cutting-edge projects, the authors introduce MDM patterns, blueprints, solutions, and best practices published nowhere else—everything you need to establish a consistent, manageable set of master data, and use it for competitive advantage.
+
+Coverage includes
+
+How MDM and SOA complement each other
+Using the MDM Reference Architecture to position and design MDM solutions within an enterprise
+Assessing the value and risks to master data and applying the right security controls
+Using PIM-MDM and CDI-MDM Solution Blueprints to address industry-specific information management challenges
+Explaining MDM patterns as enablers to accelerate consistent MDM deployments
+Incorporating MDM solutions into existing IT landscapes via MDM Integration Blueprints
+Leveraging master data as an enterprise asset—bringing people, processes, and technology together with MDM and data governance
+Best practices in MDM deployment, including data warehouse and SAP integration
+
+                                    
+
+        
+
+            
+Sample Content
+
+Table of Contents
+
+ Foreword: Ambuj Goyal    xix
+Foreword: Aaron Zornes   xxi
+Preface    xxiii
+Acknowledgments    xxxi
+About the Authors    xxxiii
+
+Chapter 1: Introducing Master Data Management        1
+1.1 Introduction to Master Data Management    1
+1.2 Why an MDM System?    6
+1.3 What Is a Master Data Management System?    12
+1.4 Business Benefits of Managed Master Data   37
+Conclusion   53
+References    53
+
+Chapter 2: MDM as an SOA Enabler           55
+2.1 Overview    55
+2.2 Brief Introduction to SOA    57
+2.3 Information as a Service    83
+2.4 MDM as a Service    86
+Conclusion    90
+References    90
+
+Chapter 3: MDM Reference Architecture         93
+3.1 Definitions and Terms    93
+3.2 Conceptual Architecture Overview    98
+3.3 MDM Conceptual Architecture    106
+3.4 Architecture Principles    110
+3.5 MDM Logical Architecture    114
+3.6 MDM Component Model    119
+3.7 Component Relationship Diagram    139
+3.8 Master Data Management Component Interaction Diagrams    141
+Conclusion    162
+References    166
+
+Chapter 4: MDM Security and Privacy           167
+4.1 Introduction    167
+4.2 Information Risk Management for Master Data    169
+4.3 Security Considerations in MDM    179
+4.4 Logical SOA Security Architecture    187
+4.5 Applying the Security Reference Model to MDM    199
+4.6 Privacy    213
+Conclusion    216
+References    216
+
+Chapter 5: MDM Architecture Patterns           219
+5.1 Introduction to Patterns    219
+5.2 Terminology    221
+5.3 MDM Architecture Patterns Overview    226
+5.4 MDM Hub Patterns    235
+5.5 Information-Focused Application Integration Patterns    259
+5.6 Process-Focused Application Integration Patterns    276
+5.7 Enterprise System Deployment Patterns    285
+5.8 Pattern Selection and Pattern Composition    302
+Conclusion    304
+References    305
+
+Chapter 6: PIM-MDM Solution Blueprints                307
+6.1 Introduction to Master Data Management Solutions Blueprints    307
+6.2 Terms and Definitions    308
+6.3 New Product Introduction (NPI) Solution Blueprint for Consumer Electronics Industry    310
+6.4 Global Data Synchronization Solution Blueprint for Retail    328
+6.5 PIM-RFID Solution Blueprint for Track & Trace    344
+Conclusion    369
+References    369
+
+Chapter 7: CDI-MDM Solution Blueprints                371
+7.1 Introduction    371
+7.2 Master Patient Index Solution Blueprint for Healthcare    372
+7.3 Cross- and Up-Sell Solution Blueprint for Banking & Insurance    390
+7.4 Fraud and Theft Solution Blueprint for Banking and Insurance    410
+7.5 Self-Service Website Solution Blueprint for Telco    424
+Conclusion    437
+References    438
+
+Chapter 8: MDM Integration Blueprints            441
+8.1 Introduction to MDM Integration Blueprints    441
+8.2 Leveraging Data Warehouse (DW) Systems for MDM Integration Blueprint    442
+8.3 SAP Application Integration Blueprint    455
+Conclusion    475
+References    475
+
+Chapter 9: Master Data Management and Data Governance            477
+9.1 Governance    477
+9.2 MDM Project Lifecycle and Data Governance    489
+9.3 Data Stewardship    496
+9.4 Data Quality    496
+Conclusion    507
+References    507
+
+Appendix A: MDM User Roles               509
+A.1 User Roles for Solution Evaluation   510
+A.2 User Roles for Solution Development    511
+A.3 User Roles for Solution Administration and Operation    519
+A.4 The Solution User    528
+A.5 Relations between User Roles    528
+References    532
+
+Appendix B: Software and Solution Offerings for MDM Deployments           533
+B.1 Analytic Services    534
+B.2 Enterprise Application Integration using ESB    534
+B.3 External Data Providers    534
+B.4 Information Integration Services    535
+B.5 Master Data Management Services    535
+B.6 Security   535
+B.7 Track and Trace Solutions    536
+B.8 Links to Relevant Homepages    536
+
+Appendix C: Master Data Management and Regulations         539
+C.1 Introduction   539
+C.2 Regulations    540
+References    558
+
+Appendix D: Standards and Specifications          559
+
+Appendix E: Glossary & Terms            575
+
+Index               599
+
+ 
+
+                        
+
+        
+
+            
+Updates
+
+Submit Errata
+            
+
+    
+
+        
+More Information
+
+        
+
+        
+
+        
+
+    
+
+        
+
+                    
+
+                        
+
+                        
+
+    
+
+        
+
+                
+InformIT Promotional Mailings & Special Offers
+
+                    
+
+                        ⚠
+
+                
+
+                    
+
+                    
+
+                
+
+                    
+
+                        
+
+                
+
+                    
+
+                        
+
+                            I would like to receive exclusive offers and hear about products from InformIT and its family of brands. I can unsubscribe at any time.
+
+                    
+
+                    
+
+                        Email Address
+
+                        
+
+                        
+
+                        
+
+                
+
+    
+
+            
+
+                                    
+
+                                                Corporate, Academic, and Employee Purchases
+
+                                                                                
+
+                        
+
+    
+
+        
+Other Things You Might Like
+
+                
+
+                
+
+                    
+                        Project Management, 3rd Edition (Video Course), 3rd Edition
+
+                
+
+                    
+
+                        By Jeffrey K Pinto
+
+                    
+
+                        Online Video 
+                        $479.99                        
+
+                
+
+            
+
+                
+
+                
+
+                    
+                        Just Enough Data Science and Machine Learning: Essential Tools and Techniques
+
+                
+
+                    
+
+                        By Mark Levene, Martyn Harris
+
+                    
+
+                        eBook 
+                        $38.39                        
+
+                
+
+            
+
+                
+
+                
+
+                    
+                        Just Enough Data Science and Machine Learning: Essential Tools and Techniques
+
+                
+
+                    
+
+                        By Mark Levene, Martyn Harris
+
+                    
+
+                        Book 
+                        $39.99                        
+
+                
+
+        
+
+                        
+
+    
+
+books, eBooks, and digital learning
+
+								
+
+        
+
+            View Your Cart
+
+    
+
+            Join
+            |
+            Sign In
+
+    
+
+							Search
+
+Search
+
+    
+
+        
+              View Your Cart
+
+    
+
+    
+
+        
+            👤 Sign In
+
+    
+
+        Join
+
+							
+Store
+
+										Business & Management
+
+Certification
+
+										Cloud Computing & Virtualization
+
+Data
+Digital Photography
+Engineering
+
+										Graphics & Web Design
+
+										Home & Office Computing
+
+Information Technology
+
+										Mobile Application Development & Programming
+
+Networking
+Open Source
+Operating Systems, Server
+Programming
+Security
+
+										Software Development & Management
+
+Web Development
+Web Services
+Formats
+Books
+eBooks
+Practice Tests
+Software
+Video
+Web Editions
+
+								Deals & Promotions
+
+Video Training
+Imprints
+Addison-Wesley Professional
+Adobe Press
+Cisco Press
+FT Press
+IBM Press
+Microsoft Press Store
+Oracle Press Books
+Peachpit
+Pearson IT Certification
+Que Publishing
+Sams Publishing
+Explore
+About
+Affiliate Program
+Authors
+
+										Chapters & Articles
+
+										Deals & Promotions
+
+Popular Topics
+Product Registration
+
+										Special Offers & Newsletter
+
+Support
+Video Training
+Community
+Press and Media Relations
+Product Review Team
+User Groups
+
+About
+Affiliates
+Cookies
+FAQ
+Legal Notice
+Ordering Information
+Pearson+
+Privacy
+Do Not Sell My Personal Information
+Press
+Promotions
+Support
+Write for Us
+
+					©  2026 Pearson. All rights reserved, including those for text and data mining and training of artificial intelligence and similar technologies.
+

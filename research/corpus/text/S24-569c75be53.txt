@@ -1,0 +1,816 @@
+
+
+  
+
+    MDTO | Forum Standaardisatie
+
+    
+
+  
+
+    
+      Skip links
+      Overslaan en naar de inhoud gaan
+      Overslaan en naar de hoofdnavigatie gaan
+
+    
+
+    
+
+        
+
+    
+
+        
+
+    
+
+                    
+
+        
+
+                
+
+                    
+
+                            Home
+
+                        
+
+                            
+                                Menu
+
+                        
+
+                    
+
+                        
+
+                            
+
+                                    
+
+        
+
+      
+Hoofdnavigatie
+
+          
+
+                    
+
+                          Introductie
+
+                    
+
+                          Wat zijn standaarden?
+
+                
+
+                          Wat zijn de verplichtingskaders?
+
+                
+
+                          Wat moet ik doen?
+
+                
+
+                          Publicaties
+
+        
+
+              
+
+                          Lijst open standaarden
+
+                    
+
+                          'Pas toe of leg uit'-standaarden
+
+                
+
+                          Aanbevolen standaarden
+
+                
+
+                          Beslisboom 'Pas toe of leg uit'-lijst
+
+                
+
+                          Standaarden aanmelden
+
+        
+
+              
+
+                          Onderwerpen
+
+                    
+
+                          Bestuur en recht
+
+                
+
+                          Bouwen en wonen
+
+                
+
+                          Internationale standaardisatie
+
+                
+
+                          Openbaar en toegankelijk
+
+                
+
+                          Schoon water en beschermde bodem
+
+                
+
+                          Uitwisselingsfundament
+
+                
+
+                          Veilig internet
+
+        
+
+              
+
+                          Metingen
+
+                    
+
+                          Monitor Open Standaarden
+
+                
+
+                          Informatieveiligheidstandaarden
+
+                
+
+                          Zelf meten
+
+        
+
+              
+
+                          Over ons
+
+                    
+
+                          Forumleden
+
+                
+
+                          Medewerkers
+
+                
+
+                          Vergaderingen en stukken
+
+                
+
+                          Contactgegevens
+
+        
+
+              
+
+  
+
+  
+
+                            
+
+                        
+                            Sluit
+
+                    
+
+                    
+
+                        
+
+                                Voer uw zoekterm in
+
+                            
+
+                                Zoeken
+
+                        
+
+                
+
+        
+
+                    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+    
+
+  
+
+  
+
+          
+
+        
+
+    
+
+    
+
+            
+            Kruimelpad
+
+                
+
+                    
+
+                                
+
+      
+
+            
+
+                        Forum Standaardisatie
+
+      
+
+                        Lijst open standaarden
+
+      
+
+              MDTO
+
+  
+
+          
+
+                    
+
+            
+
+    
+
+    
+
+        
+
+                      
+
+    
+
+      
+
+          
+
+    
+09-01-2026: Het Forum Standaardisatie besprak op 10 december 2025 het Forumadvies MDTO en het Forumadvies TOOI. Het besloot voor nu geen besluit te nemen over het verplichten (‘Pas toe of leg uit’) van beide standaarden en besluitvorming uit te stellen totdat de genoemde onduidelijkheden in de Forumadviezen zijn opgelost. Het Bureau Forum Standaardisatie (BFS) is op verzoek van het Forum in gesprek met de indieners hierover.
+Hiermee zegt het Forum Standaardisatie nu geen NEE, maar vraagt het conformiteit aan de gestelde inhoudelijke criteria voor plaatsing op de 'Pas toe of leg uit'-lijst. De beoogde functionele toepassingen zijn te relevant om nu via een 'nee' het verplichten aan de overheid ('Pas toe of leg uit') voor onbepaalde tijd stil te leggen.
+Aanvullend vraagt het Forum Standaardisatie aan BFS om het gehele Forumadvies TOOI bij te werken en inhoudelijk te richten op de voorgestelde verplichting (‘Pas toe of leg uit’) van de URI’s uit de (acht) TOOI-registers die worden genoemd in TOOI - Registers 1.0.3 en dus niet heel TOOI.
+Wanneer is vastgesteld dat de genoemde onduidelijkheden zijn opgelost, worden de Forumadviezen in een schriftelijke ronde opnieuw voorgelegd aan het Forum Standaardisatie ter besluitvorming. Er volgt geen nieuwe toetsingsprocedure.
+
+          
+
+    
+
+    
+
+            
+
+MDTO
+
+        
+
+    
+
+      
+
+Inhoudsopgave
+
+          
+
+            
+
+    
+
+      
+
+          
+
+    
+
+Content
+
+    
+
+      
+
+    
+
+    
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Status
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Lijst status
+
+                    
+
+    
+
+        Meer informatie over 
+
+Status
+
+    
+
+    
+
+                    
+
+‘Verplicht ('Pas toe of leg uit’)' betekent dat de standaard verplicht moet worden uitgevraagd en toegepast volgens de Instructie rijksdienst bij aanschaf ICT-diensten of ICT-producten.
+
+‘Aanbevolen’ betekent dat dit een gangbare of opkomende standaard is waarvan het Forum Standaardisatie het gebruik aanbeveelt.
+
+‘In behandeling’ betekent dat de standaard wordt getoetst voor opname op een van de lijsten.
+
+‘Archief’ betekent dat de standaard in het verleden op de lijst heeft gestaan of in behandeling is geweest en nu niet (meer) verplicht of aanbevolen wordt.
+
+            
+
+            
+
+    
+
+                                    
+
+In behandeling
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Detailinformatie
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Volledige naam
+
+  
+
+    
+
+                                    
+
+Metagegevens voor duurzaam toegankelijke overheidsinformatie
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Versie
+
+  
+
+    
+
+                                    
+
+1.0
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Beheerorganisatie
+
+  
+
+    
+
+                                    
+
+Nationaal Archief
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Toetsingsinformatie
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Datum van aanmelding
+
+                    
+
+    
+
+        Meer informatie over 
+
+Datum van aanmelding
+
+    
+
+    
+
+                    
+
+Datum waarop een organisatie de standaard heeft aangemeld voor verplichten aan de overheid ('Pas toe of leg uit') of aanbevelen aan de overheid door plaatsing op een van de lijsten. Als een standaard voldoet aan de criteria om in behandeling genomen te worden, vindt een toetsingsprocedure plaats. Deze duurt ongeveer zeven maanden.
+
+            
+
+            
+
+    
+
+                                    
+
+29-02-2024
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+                    Intakeadvies
+
+  
+
+    
+
+    20240920-intakeadvies-MDTO.pdf
+
+            PDF Document | 225.85 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Expertadvies
+
+  
+
+    
+
+    20250905-expertadvies-MDTO.pdf
+
+            PDF Document | 377.84 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Consultatie
+
+  
+
+    
+
+    20251024-verslag-reacties-consultatie-MDTO.pdf
+
+            PDF Document | 311.36 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Forumadvies
+
+  
+
+    
+
+    20251210-Forumadvies-MDTO.pdf
+
+            PDF Document | 433.15 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Aanvullend onderzoek
+
+  
+
+    
+
+    20260506-aanvullend-onderzoek-mdto.pdf
+
+            PDF Document | 201.86 KB
+
+            
+
+  
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+  
+
+  
+
+          
+
+        
+
+    
+
+    
+
+            
+
+                        
+
+      
+
+          
+
+                                    
+Naar boven
+
+Print
+
+Mastodon
+
+Codeplatform
+
+LinkedIn
+
+            
+
+            
+
+    
+
+    
+
+            
+                Standaard Samenwerken
+
+        
+
+    
+
+        
+
+                
+
+        
+
+      
+Voet
+
+          
+
+                          
+
+                        
+Standaarden
+
+                    
+
+                        Lijst open standaarden
+
+                
+
+                        Veelgestelde vragen
+
+        
+
+              
+
+                        
+Organisatie
+
+                    
+
+                        Forum Standaardisatie
+
+                
+
+                        Publicaties  
+
+                
+
+                        Vergaderingen en -stukken
+
+                
+
+                        Contact
+
+        
+
+              
+
+                        
+Over deze site
+
+                    
+
+                        Toegankelijkheid
+
+                
+
+                        Kwetsbaarheid melden
+
+                
+
+                        Cookies
+
+                
+
+                        Copyright
+
+                
+
+                        Open data
+
+                
+
+                        Archief website
+
+        
+
+              
+
+                        
+International
+
+                    
+
+                        Standardisation Forum (English)
+
+                
+
+                        Contact (English)
+
+        
+
+              
+
+  
+
+  
+
+        
+
+  
+
+    
+
+  
+

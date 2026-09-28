@@ -1,0 +1,486 @@
+
+
+  
+
+     Mapping the evolution of data governance scientific research 
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  
+
+  
+
+  
+
+  
+
+  
+  UPDATE THIS TITLE | IIASA WEBSITE
+
+  
+
+  
+
+ Skip to main content 
+
+  
+
+    
+
+      
+
+          
+
+            
+
+            
+
+              
+
+            
+
+              
+
+Main navigation
+
+				
+
+                  
+
+                    Home
+
+                                   
+
+                    Research
+
+                  
+
+                    Models and data
+
+				  
+
+                    News and Events
+
+					
+
+                    Join us
+
+				
+
+                    About IIASA
+
+                 
+
+              
+
+			  
+
+              
+
+                
+
+                  
+
+                    A
+                    A
+
+                
+
+              
+
+		
+
+  		  
+
+              
+
+                
+
+                  
+
+                      
+
+                      
+
+                        
+
+  					
+
+			
+
+                    
+
+                
+
+            
+
+        
+
+      
+
+        
+
+          
+
+            
+
+            
+
+            
+
+              
+
+                    Home
+
+                
+
+                    Search
+
+                
+
+                    Browse
+
+                
+
+                    Information
+
+                
+
+                    Policies
+
+                
+Login
+Admin
+
+               
+
+            
+
+              
+
+                
+
+Mapping the evolution of data governance scientific research
+
+                
+
+                  
+
+Tools
+ Tools
+ Tools
+
+  
+
+    Dublin Core FP7
+    RefWorks
+    Refer
+    JSON
+    Multiline CSV
+    Dublin Core
+    EP3 XML
+    OpenURL ContextObject in Span
+    Simple Metadata
+    MODS
+    RDF+N3
+    OPENAIRE
+    BibTeX
+    MPEG-21 DIDL
+    ASCII Citation
+    HTML Citation
+    RDF+XML
+    EndNote
+    NMO
+    OpenURL ContextObject
+    RDF+N-Triples
+    Reference Manager
+
+  
+
+  
+
+    
+
+    Hassani, H., Huang, X., & MacFeely, S.
+
+(2025).
+
+    Mapping the evolution of data governance scientific research.
+
+    Data & Policy 7 e51. 10.1017/dap.2025.10014.
+
+    
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+
+    
+
+      
+
+          
+
+            
+
+Preview
+
+              
+
+Text
+
+mapping-the-evolution-of-data-governance-scientific-research.pdf
+ - Published Version
+
+  
+Available under License Creative Commons Attribution.
+
+              Download (4MB)
+
+			  
+			  | Preview
+
+			  
+
+  
+
+              
+
+            
+
+        
+
+    
+
+  
+
+  
+
+  
+
+Abstract
+
+Data governance has emerged as a pivotal area of study over the past decade, yet despite its growing importance, a comprehensive analysis of the academic literature on this subject remains notably absent. This paper addresses this gap by presenting a systematic review of all academic publications on data governance from 2007 to 2024. By synthesizing insights from more than 3500 documents authored by more than 9000 researchers across various sources, this study offers a broad yet detailed perspective on the evolution of data governance research.
+
+  
+
+      Item Type:
+
+        Article
+
+        
+
+      
+
+    
+
+      
+
+      
+
+      
+
+      
+
+      
+
+          Research Programs:
+          Advancing Systems Analysis (ASA)
+Advancing Systems Analysis (ASA) > Cooperation and Transformative Governance (CAT)
+
+      
+
+      
+
+      
+
+      
+
+      
+
+          Depositing User:
+
+Luke Kirwan
+
+        
+
+    
+
+        
+
+          Date Deposited:
+          04 Aug 2025 06:58
+
+      
+
+      
+
+          Last Modified:
+          04 Aug 2025 06:58
+
+      
+
+    
+
+      URI:
+      https://pure.iiasa.ac.at/20795
+
+  
+
+  
+
+  
+
+  
+
+Actions (login required)
+
+    
+
+        
+        View Item
+
+    
+
+  
+
+Altmetric
+ Altmetric
+ Altmetric
+
+View Altmetric information about this item.
+
+CORE (COnnecting REpositories)
+ CORE (COnnecting REpositories)
+ CORE (COnnecting REpositories)
+
+                
+
+              
+
+            
+
+            
+
+        
+
+      
+
+          
+
+            
+
+              
+
+                
+
+                    
+
+Subscribe
+
+Keep up to date with our latest news, events, and other IIASA activities. Sign up. 
+
+                  
+
+                    Submit
+
+                  
+
+                
+
+            
+
+        
+
+          
+
+            
+
+              
+
+Footer menu
+
+                  
+
+                    Careers
+
+                  
+
+                    How to find us
+
+                  
+
+                    Terms of use
+
+                
+
+            
+
+     
+
+International Institute for Applied Systems Analysis (IIASA) | Schlossplatz 1 | A-2361 Laxenburg, Austria
+
+T: (+43 2236) 807 0
+
+                info@iiasa.ac.at
+
+            
+
+          
+
+            
+
+            
+© 2025 International Institute for Applied Systems Analysis (IIASA)
+
+        
+
+    
+
+  
+
+  
+
+    
+
+  

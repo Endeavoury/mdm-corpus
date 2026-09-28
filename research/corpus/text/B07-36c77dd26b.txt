@@ -1,0 +1,558 @@
+                                    Describing Linked Datasets
+     On the Design and Usage of voiD, the “Vocabulary Of Interlinked Datasets”
+                                                         ∗                                   †
+                                    Keith Alexander                   Richard Cyganiak
+                                            Talis Ltd.           DERI, National University of
+                                                                      Ireland, Galway
+                                                             ‡                         §
+                                Michael Hausenblas                        Jun Zhao
+                               DERI, National University of           Department of Zoology,
+                                    Ireland, Galway                    University of Oxford
+
+ABSTRACT                                                         linked data on the Web using bubbles for datasets and arcs
+In this paper we discuss the design and implementation of        between bubbles for the links between these datasets. The
+voiD, the “Vocabulary Of Interlinked Datasets”, a vocabu-        voiD vocabulary, the “Vocabulary Of Interlinked Datasets”,
+lary that allows to formally describe linked RDF datasets.       allows one to describe datasets (the bubbles) and linksets
+We report on use cases for voiD, the current state of the        (the arcs between the bubbles), and in turn enables a num-
+specification and its potential applications in the context of   ber of tasks to be automated in a scalable manner.
+linked datasets.                                                    The remainder of this paper is as follows: in Section 2 we
+                                                                 discuss some use cases that provide the motivation for voiD.
+                                                                 Then, in Section 3 we report on the design of the voiD core
+1.   INTRODUCTION                                                vocabulary and its usage along with other vocabularies such
+   With the growth of the number of linked datasets [12],        as Dublin Core [25]. We describe the publication and the
+automating certain tasks, such as discovery, selection and       consumption of voiD descriptions in Section 4. In Section 5
+optimisation, becomes more and more important. Now, one          we discuss current and potential applications of voiD and
+might argue that URIs and RDF [17] are all one needs to ex-      report on related work in Section 6. We discuss future plans
+plore the linked datasets; follow-your-nose1 , however bears     and conclude in Section 7.
+some inherent problems. The possible links that can be fol-
+lowed from a starting URI raises both performance and trust      2.     USE CASES
+issues. The main reason for these issues lies in the granu-
+larity level of the available descriptions. Additionally, the      In the following we will describe our motivation use cases
+dynamics of the data-sources [13] also has an impact on the      for voiD. In the context of linked data, we basically differ-
+performance of, say, a crawl over a collection of datasets;      entiate between:
+and the reliability of secondary data resources [26].                 • on the one hand linked data publisher (a person or
+   In the early days of linked data (2006 and 2007) [5] the             organisation exposing structured data as RDF on the
+main focus of the community was on publishing data and                  Web and interlink it with other datasets), and
+finding good practices. Now, in the second phase, other
+issues such as usability, quality, performance, reliability of        • linked data consumer on the other hand; these might
+the infrastructure and the data in the linked data ecosystem            be machines, for example using a semantic indexer or
+are increasingly recognized to be important.                            a query engine or, as well, humans, e.g., when using a
+   How can we overcome the limitations of follow-your-nose              Web of Data browser such as Tabulator [4].
+while retaining the self-descriptive momentum and being
+able to exploit available tools, methodologies, etc.? A sim-       It is worth noting that the following use cases are not
+ple yet effective approach is to decrease granularity. Rather    necessarily restricted to the linked data domain.
+than talking about single resources, we talk about something
+which up to now only existed in drawings, such as in the
+                                                                 2.1     Efficient Discovery of Datasets
+LOD cloud2 , which graphically represents the landscape of
+                                                                 2.1.1     Dataset Publisher
+∗keith.alexander@talis.com                                          A dataset publisher might not be identical with the party
+†richard.cyganiak@cyganiak.de                                    who created the raw datasets, but one who publishes them
+‡michael.hausenblas@deri.org                                     onto the Web in a more accessible format. A dataset pub-
+§jun.zhao@zoo.ox.ac.uk                                           lisher wants to be able to publish metadata about the dataset
+1
+                                                                 such that:
+ http://esw.w3.org/topic/FollowLinksForMoreInformation
+2
+ http://www4.wiwiss.fu-berlin.de/bizer/pub/                           • The dataset can be found and aggregated by search
+lod-datasets_2008-09-18.html                                            engine applications, or discovered in relevant searches;
+Copyright is held by the author/owner(s).
+LDOW2009, April 20, 2009, Madrid, Spain.                              • The metadata provides clear licensing information so
+.                                                                       that consumers can know how they can use the data
+      and to whom they should attribute credits for creat-       2.3      Effective Dataset Selection
+      ing/publishing the dataset;                                  A consumer may have discovered several datasets, for ex-
+                                                                 ample as a result of an indexer query. The question then
+   • That consumers can obtain information about access
+                                                                 arises how to select appropriate datasets from this list of
+     interfaces, such as APIs and SPARQL endpoints.
+                                                                 potential candidates. The consumer, either a human or a
+  It is in the best interest of a dataset publisher to provide   query federation engine, might wish to define “appropriate-
+potential users of the data with information that supports       ness” along the following criteria:
+them in accessing and using the dataset.
+                                                                      1. The content of the dataset, that is, what the dataset
+2.1.2    Search Engine Provider                                          mainly is about. Based on some kind of categorisation
+                                                                         scheme a selection could take place;
+   A search engine provider wants to discover detailed de-
+scriptions about datasets efficiently. A crawler has stum-            2. The interlinking to other datasets, that is, to which
+bled upon an individual RDF document on the Web. How                     other datasets and how the dataset is interlinked;
+will it discover metadata that applies to the entire dataset
+and cannot be repeated in every single document? The sim-             3. Vocabularies used in the dataset.
+ple approach of just putting the voiD description online and
+linking it from somewhere on the site does not meet our            The criteria listed above can be understood in terms of
+needs, as it could take the crawler a long time to find the      quality and quantity. For example, one might be interested
+description. It is important that the voiD description is        only in datasets containing foaf:interest links to a certain
+discoverable as soon as the crawler finds the first RDF doc-     other dataset. Or, where the number of links are of inter-
+ument, so that the crawler can use voiD metadata to guide        est, one may specify that only datasets with more than one
+its processing of the data.                                      million links should be taken into account.
+   The Sindice search engine [23] already uses Semantic Site-    2.4      Query Optimisation
+maps [7] to enable discovery and efficient processing of data-
+sets. It seems natural to address the situations above by           With many datasets now on the Web both connectable
+building on Semantic Sitemaps.                                   (through shared vocabulary terms) and connecting (by link-
+                                                                 ing to resources in other datasets), it is naturally desirable
+2.2     Expressing Research Data                                 to query across multiple datasets at once with SPARQL.
+   A developer working together with biologists wants to help       Optimisation of SPARQL queries can be achieved in a
+domain experts to find research data published by their peer     static way. A set of logical rules [22] can be applied to a
+colleagues. These are often produced for a particular exper-     query engine, to calculate all equivalent query plans for a
+iment, for a particular study or publication, or hosted by       given query and then choose the most optimised query plan
+a particular public database. Scientists might know whose        to be executed. To optimise SPARQL queries dynamically,
+datasets they would prefer to access because they often have     i.e., deciding the best execution approach during the exe-
+a clear idea about their content or they trust more on that      cution phase [14], one can use the statistical information
+data provider. When looking for new datasets, they might         about datasets, such as how much information is provided
+search for datasets that provide relevant content (such as in-   about a particular entity or property. This information can
+formation about genes, proteins, or micro-array gene expres-     be used by the query mediator to optimise query plans by,
+sion), that are produced in a right experiment environment,      for example, modifying the order in which a query pattern is
+or that provide additional information that will complement      executed according to the estimated size of data results [8].
+their local experiment results.
+   To find the right dataset and to make this dataset accessi-   3.     VOCABULARY DESIGN
+ble for biologists in a user-facing application, the developer     The Vocabulary of Interlinked Datasets (voiD) [2] is a vo-
+often has to go through the following process:                   cabulary and a set of instructions that enables the discovery
+                                                                 and usage of linked datasets. The principle of the voiD ef-
+   • Locate a dataset that contains information relevant
+                                                                 fort is to use real requirements to guide the scope of the
+     to biologists’ research interests, such as information
+                                                                 design, and to re-use existing vocabularies wherever possi-
+     about a specific organism; or more specifically, ge-
+                                                                 ble instead of creating our own. Therefore, we have kept
+     nomic information about a particular organism;
+                                                                 the creation of new classes and properties under the voiD
+   • Find out how this dataset can be programmatically ac-       namespace (http://rdfs.org/ns/void#) to the minimum.
+     cessed, as an RDF dump, through SPARQL endpoint
+     or any other protocol;
+                                                                 3.1      Datasets
+                                                                   In the following, we will define and explain the basic con-
+   • Find out the licence associated with the dataset, mak-      cepts voiD operates with. A fundamental entity in voiD is
+     ing sure that data are accessible under open-access li-     a dataset.
+     cence or certain attribution;
+                                                                   Definition 1. A dataset is a set of RDF triples that are
+   • Understand the content of the dataset in order to per-      published, maintained or aggregated by a single provider.
+     form an alignment with other datasets. Information
+     about URIs used in the dataset can help one with the          We think of a dataset as a meaningful collection of triples,
+     data identity alignment, schema(s) used in the dataset      that deal with a certain topic, originate from a certain source
+     for data schema alignment, and its links with other         or process, are hosted on a certain server, or are aggregated
+     datasets for assisting data integration.                    by a certain custodian. The term thus has a social dimension
+that is not easy to capture in a formal definition. This dif-        The conceptual model of voiD links is depicted in Fig. 1.
+ferentiates datasets from RDF graphs [17], which are purely       Let us assume there are two datasets. One of them contains
+mathematical constructs. Any arbitrary set of RDF triples         links to the other, that is, it contains RDF triples that con-
+is an RDF graph, by definition, regardless of the triples’ se-    nect resources from both datasets. We model this in voiD
+mantics. Also, typically a dataset is accessible on the Web,      using two instances of void:Dataset, and another dataset
+for example through resolvable HTTP URIs or through a             :LS1 which is a subset of one of the datasets, and declared
+SPARQL endpoint, and it contains sufficiently many triples        to be of type void:Linkset. We define void:Linkset as:
+that there is benefit in providing a concise summary.
+   The ultimate purpose of creating a void:Dataset instance          Definition 3. A linkset LS is a set of RDF triples where
+is that this single resource represents the entire RDF dataset,   for all triples ti = hsi , pi , oi i ∈ LS, the subject is in one
+and thus allows us to make statements about the entire            dataset, i.e. all si are described in DSsrc , and the object is
+dataset within the standard RDF model. The relationship           in another dataset, i.e. all oi are described in DSsink .
+between a void:Dataset instance and the concrete triples             The natural expectation is that both DSsrc and DSsink
+contained in the dataset is established only in an operational    are themselves described in voiD. We note that the triples
+manner: A voiD description usually contains access informa-       ti are often referred to as “interlinking triples”.
+tion, such as the address of a SPARQL endpoint where the
+triples can be accessed.                                          3.2.1    Inline links vs. 3rd-party links
+   We find that most datasets describe a well-defined set of         In voiD we are able to model two different situations: the
+resources. Hence, a dataset can also be seen as a set of de-      classic LOD3 case vs. the 3rd-party case (Fig. 2). In the
+scriptions for certain resources, which often share a common      classic LOD case, the linkset is a subset of one of the two
+URI prefix (such as http://dbpedia.org/resource/).                involved datasets, while in the 3rd-party case a third dataset
+   HTTP URIs have “owners”, due to their use of DNS do-           is involved that actually contains the linkset.
+main names. URI ownership is defined as “a relation be-              Though the 3rd-party cases is not yet widely implemented
+tween a URI and a social entity, such as a person, organisa-      in the context of linked data, this pattern of keeping links
+tion, or specification.”[15] Information about a URI that is      separate from interlinked datasets has been well argued in
+provided by the URI owner is called authoritative informa-        existing research such as found in the Hypertext commu-
+tion. We use this notion to define authoritative datasets:        nity [6]. In LOD, there are already first applications (RKB
+                                                                  explorer, see section 5.1), and it is very likely that such sys-
+   Definition 2. A dataset is authoritative with respect to       tems will evolve over time and grow considerably.
+a certain URI namespace if it contains information about
+resources named by URIs in this namespace, and is published       3.2.2    Interlinking Regarding Directionality
+by the URI owner.                                                    Independent of the former situation, voiD distinguishes
+                                                                  between the non-directed vs. directed cases. In some
+   A straightforward method of publishing authoritative data-     cases one is interested in stating the direction of the in-
+sets is by using resolvable HTTP URIs in the linked data          terlinking (for example with foaf:interest), and in other
+style. The URI owner also configures the server that re-          situations the direction is of no interest (e.g., owl:sameAs),
+sponds when the URI is resolved. Therefore, if resolving          as shown in Fig. 3.
+yields a description of the resource named by the URI, then          In order to express the interlinking as outlined above, voiD
+the data is authoritative.                                        offers the following RDF properties:
+   The notion of authoritative information supports the so-
+cial convention that a URI owner gets to decide what a URI            • void:subset to state where the interlinking triples re-
+identifies. Providing authoritative information is how the              side (read: a dataset :DS has a subset :LS);
+URI owner communicates this decision to the world. Even
+if third parties disagree with that information, they can still       • void:target to declare an interlinking target (for the
+agree that they are talking about the same thing, which                 non-directed case); in the directed case, one can use
+would be much harder without the grounding provided by                  void:subjectsTarget and void:objectsTarget to de-
+the existence of an authoritative source.                               termine the direction (both being sub-properties of
+                                                                        void:target);
+3.2    Linksets                                                       • void:linkPredicate to express the RDF property (type)
+  Besides datasets, voiD also deals with interlinking be-               of the interlinking in a linkset.
+tween datasets. Interlinking in voiD is a first-class citizens,
+hence modelled as a class.                                           We note that it is expected that per RDF predicate a re-
+                                                                  spective instance of void:Linkset could be created, depend-
+                                                                  ing on the needs of an application. Further, one may take
+                                                                  into consideration that due to the modelling of void:target
+                                                                  and its sub-properties, light-weight subsumption inferencing
+                                                                  may be necessary to apply generic queries that will not dis-
+                                                                  tinguish between the directed and non-directed case.
+                                                                     In listing 1 a sample voiD description is depicted describ-
+                                                                  ing the interlinking from DBpedia to DBLP. It is an example
+                                                                  3
+                                                                   LOD ... Linking Open Data datasets, see http://esw.
+                                                                  w3.org/topic/SweoIG/TaskForces/CommunityProjects/
+      Figure 1: Interlinking modelling in voiD.                   LinkingOpenData
+                                                                                    (a) Non-directed case.
+
+
+
+
+      (a) Classic LOD case: Describing the :DBpedia
+      dataset and its contained :DBpedia2DBLP linkset
+
+
+
+
+                                                                                      (b) Directed case.
+
+                                                                       Figure 3: Interlinking regarding direction.
+
+
+                                                                     • foaf:homepage of the dataset’s homepage should be
+                                                                       used, to allow one to connect different descriptions of
+                                                                       the same dataset provided in different places on the
+                                                                       Web. The recommended process in voiD is IFP smush-
+      (b) 3rd-party case: Describing the stand-alone                   ing on foaf:homepage property;
+      :DBpedia2DBLP linkset
+                                                                     • dcterms:subject should be used to categorise a dataset.
+Figure 2: Interlinking regarding authoritative datasets.               For the general case, we recommend the use of a DB-
+                                                                       pedia resource URI (http://dbpedia.org/resource/
+                                                                       XXX) to categorise a dataset, where XXX stands for
+                                                                       the thing which best describes the main topic of what
+for a directed case. The description defines nothing about
+                                                                       the dataset is about. However, DBpedia might not
+who published this voiD description about DBpedia, which
+                                                                       contain concepts for describing some domain specific
+means that it could also be an example for a 3rd-party case.
+                                                                       datasets. For example, there are no exact DBpedia re-
+Further, the listing 2 shows a SPARQL query that is exe-
+                                                                       source URIs for describing that a dataset is about “in
+cuted against listing 1 to search for a dataset that is about
+                                                                       situ hybridisation image”. We hence encourage pub-
+“computer science” and which is linked from DBpedia. The
+                                                                       lishers to describe such datasets using concepts widely
+result yields the dataset :DBLP.
+                                                                       adopted in their own communities, so that they can
+                                                                       not only capture precisely the categorisation of their
+3.3    Reuse of Other Vocabularies                                     datasets but also ensure that these datasets could be
+  In the voiD guide [1] we describe the reuse of other vocab-          connected with other relevant data from their domains;
+ulary terms not directly defined in the core voiD vocabulary
+alongside with voiD. Some important properties from other            • Statistical information represented using the “Statis-
+vocabularies are listed in the following. We note that there           tical Core Vocabulary” (SCOVO)4 [11].
+are many other aspects one may want to choose to describe
+in a dataset. A complete description of recommended usage       3.4     Dataset Licensing
+can be found from the voiD user guide [1].
+                                                                   As stated in Section 2, it is crucial for a data publisher to
+                                                                associate appropriate licensing information with their pub-
+   • Properties from the dcterms namespace for general          lished data, so that potential users of the dataset would
+     metadata, such as the publishing organization and pub-
+                                                                4
+     lishing date of a dataset;                                     http://purl.org/NET/scovo
+1    @prefix    owl : < http :// www . w3 . org / 2 0 0 2 / 0 7 / owl # > .   SCOVO for representing statistics. The main class in SCOVO
+2    @prefix    foaf : < http :// xmlns . com / foaf /0.1/ > .                is the scovo:Item, which records a single number or statis-
+3    @prefix    dc : < http :// purl . org / dc / terms / > .
+4    @prefix    void : < http :// rdfs . org / ns / void # > .
+                                                                              tical value along with so called dimensions. We provide two
+5    @prefix    dbp : < http :// dbpedia . org / r e s o u r c e / > .        types of information for describing statistics:
+6
+7    : DBpedia a void : Dataset ;                                                   • Statistics concerning the whole dataset or linkset, such
+8        foaf : homepage < http :// dbpedia . org / > ;
+9        void : subset : DBpedia2DBLP .                                               as overall triple count or fine-grained statistics, ex-
+10                                                                                    pressing the number of instances of a class or prop-
+11   : DBLP a void : Dataset ;                                                        erty by using different pre-defined dimensions, includ-
+12       foaf : homepage < http :// dblp . l3s . de / d2r / > ;
+13       dc : subject dbp : C o m p u t e r _ s c ie n c e ;
+                                                                                      ing void:numberOfResources, etc.;
+14       dc : subject dbp : Journal ;
+15       dc : subject dbp : Proceedings .                                           • Attributing statistics to a source, recording where a
+16
+17   : DBpedia2DBLP a void : Linkset ;                                                statistical datum stems from.
+18       void : subjectsT arget : DBpedia ;
+19       void : objectsTarget : DBLP ;                                        Listing 4 demonstrates possible statistic information one can
+20       void : linkPredicate owl : sameAs .
+                                                                              publish for their dataset. The current modelling of statistics
+
+          Listing 1: An exemplary voiD description.                           1   : DBpedia a void : Dataset ;
+                                                                              2       void : statItem [
+                                                                              3            rdf : value 20000;
+1    SELECT DISTINCT ? dataset                                                4            scovo : dimension void : n u m b e r O f R e s o u r c es ;
+2    WHERE {                                                                  5            scovo : dimension foaf : Person ;
+3     ? dataset a void : Dataset ;                                            6            dcterms : source < http :// wiki . dbpedia . org / >          ;
+4                dcterms : subject dbp : C o m p u t e r _s c i e n c e .     7       ] .
+5     ? linkset void : s ubjectsT arget : DBpedia ;
+6               void : objectsTarget ? dataset .
+7     }                                                                       Listing 4: Expressing statistics about a dataset in
+                                                                              voiD.
+           Listing 2: An exemplary query on voiD.
+                                                                              in voiD is still experimental. We had to make choices be-
+                                                                              tween (i) a precise usage of scovo through a rather verbose
+ know under which terms they can use it and what attri-                       expression and (ii) creations of shortcuts to express statistics
+ bution they should apply. The dcterms:license property                       needed for describing linked datasets:
+ should be used to to point to the license under which a
+ dataset has been published. Further, to allow automatic                            • Scovo has an implicit assumption that all scovo:Items
+ analysis of datasets, voiD also recommends a set of canoni-                          associated with the dataset they describe share the
+ cal identifiers for well-known licenses [1]. The example be-                         same dimensions. This does not fit well with our re-
+ low states that the DBpedia dataset is published under the                           quirements for being able to mix items of different di-
+ terms of the GNU Free Documentation License.                                         mensions for a dataset. On the other hand, the correct
+                                                                                      Scovo modelling would lead to awkwardly complex and
+                                                                                      verbose notation for simple statistics.
+1    : DBpedia a void : Dataset ;
+2        dcterms : license
+              < http :// www . gnu . org / c o p y l e f t / fdl . html > .         • We encourage the use of classes and properties in places
+                                                                                      where scovo requires an instance of scovo:Dimension.
+                                                                                      This breaks the symmetry of the scovo model. scovo
+ Listing 3: An exemplary voiD description about
+                                                                                      would require us to create a scovo:Dimension for each
+ data license.
+                                                                                      class or property. This would be quite verbose.
+
+    Licensing of datasets is a complex issue. Datasets are col-                  Because of the issues above, queries for statistics informa-
+ lections of facts rather than creative works, and different                  tion using SPARQL can be awkward. It will often require
+ laws apply. Scientists are most cautious about publishing                    a verbose check to make sure that an item has only certain
+ their datasets onto the Web and they might request very                      dimensions and no others.
+ specific or strict policies for sharing their data. Most li-
+ censes such as Creative Commons or the GPL are based on                      3.6       Additional Terms in voiD
+ copyright and are designed to protect creative works, but                       RDF datasets use one or more RDF-Schema vocabularies
+ not databases, and applying them to datasets might not                       or OWL ontologies, hence we provide the void:vocabulary
+ have the desired legal result. Meanwhile, efforts such as                    to list vocabularies used in a dataset. To express technical
+ Open Data Commons [19] and Science Commons [16] are                          features of a dataset, such as formats in which the data is
+ developing dedicated licenses for data.                                      available, one can use void:feature. Further, a SPARQL
+                                                                              endpoint that provides access to a dataset via the SPARQL
+ 3.5        Statistics                                                        protocol can be announced using the void:sparqlEndpoint
+   Of special interest to distributed SPARQL agents will                      property. Listing 5 shows the usage of the terms described
+ be the statistics about the triples available in the dataset,                above. We note that a complete list of the terms is available
+ described with the void:statItem predicate. We adopt                         from the voiD user guide [1].
+1   : DBpedia void : sparqlEn dpoint
+          < http :// dbpedia . org / sparql > ;
+2               void : feature [ dcterms : format
+                      " application / rdf + xml " ; ] ;
+3               void : vocabulary
+                      < http :// xmlns . com / foaf /0.1/ > .
+
+
+          Listing 5: Additional voiD terms usage.
+
+
+
+4.      PUBLICATION AND CONSUMPTION
+  We envision dataset publisher to offer a voiD description
+along with their dataset. A voiD description typically has
+two parts, (i) manually created part (categorisation, vocab-
+ulary, license, etc.), and (ii) automatically generated part,
+mainly regarding statistics.
+                                                                    Figure 4: The voiD discovery-via-sitemaps process.
+  In the following we will discuss the publication process of
+voiD descriptions and their discovery in order to consume
+them.                                                               5.    VOID IN THE WILD
+4.1       Publication                                                  After releasing the first edition of voiD in early 2009, we
+                                                                    have seen a certain community uptake. People and organi-
+   Publishing a voiD file means to physically deploy it on
+                                                                    sations would start using in different areas and for different
+the Web in an RDF serialisation. We have detailed out the
+                                                                    purposes, potentially far beyond what we have envisioned in
+options in the voiD guide [1].
+                                                                    the realm of our own use cases. We report on known usages
+   For dataset that are published as a collection RDF docu-
+                                                                    of voiD in the following and point out potential application
+ments, as commonly seen in the linked data publishing style,
+                                                                    areas.
+one can use a dcterms:isPartOf triple in each document to
+link back to the URI identifying the voiD dataset, as shown         5.1     Existing Applications
+in listing 6. Resolving the dataset URI will answer a voiD
+descriptions about the entire dataset, allowing agents to dis-      5.1.1    Tools for Creating voiD Descriptions
+cover the voiD description when encountering an individual
+                                                                       To boot-strap the process of creating voiD descriptions,
+document from the collection. The intuition behind using
+                                                                    several tools are available: ve, the voiD editor (Fig. 5),
+the dcterms:isPartOf property is that the RDF document
+                                                                    liftSSM5 , an XSLT script able to boot-strap from a Semantic
+contains an RDF graph whose triples are part of the dataset.
+                                                                    Sitemap, and, for creating the quantitative, statistical data,
+                                                                    a new release of the NX parser6 , offering a voiD export for
+1   < http :// dbpedia . org / data / Berlin > dcterms : isPartOf   statistics.
+          : DBpedia .
+                                                                    5.1.2    “Linked Datasets Explorer” (LDE)
+Listing 6: Use backlinks publish voiD description of                  To let user browse and explore a collection of voiD de-
+a dataset.                                                          scriptions, we have developed the LDE demonstrator. Fig. 6
+                                                                    shows the current state of LDE7 which operates on a man-
+                                                                    ually created, so called “seed” set of voiD descriptions.
+  As discussed in [10], we can imagine that voiD descriptions
+are crawled and indexed by semantic search engines (such            5.1.3    RKB explorer
+as Sindice [23] or Yahoo’s search monkey [18]) in order to
+                                                                      The RKB explorer has a voiD site8 which enables querying
+provide a central point of lookup.
+                                                                    and browsing for CRS datasets. Further, the interlinking of
+4.2       Discovery via Sitemaps                                    the RKB sites can be visualised using the underlying voiD
+                                                                    descriptions (Fig. 7).
+  A discovery mechanism for use by RDF-harvesting web
+crawlers (Fig. 4) has been defined as follows:                      5.1.4    Query Federation
+     1. Given a domain name, the client gets the file robots.txt      Only recently Clarck-Parsia announced their voiD sup-
+        and searches for a line that starts with Sitemap:; the      port9 :
+        rest of that line is the URI of a sitemap;                        “There is a touch point with the linked data ef-
+     2. The semantic sitemaps extension to the sitemap pro-               fort, which meant that the new voiD vocabulary
+        tocol defines a <sc:dataset> element that can have a        5
+                                                                      http://rdfs.org/ns/void-guide#sec_4_3_Publishing_
+        <sc:datasetURI> child element. If present, the value        tools
+                                                                    6
+        of that element is a URI that identifies the dataset          http://sw.deri.org/2006/08/nxparser/release/
+        datasetURI;                                                 nxparser-1.1.jar
+                                                                    7
+                                                                      http://ld2sd.deri.org/lde/
+                                                                    8
+     3. The dataset URI datasetURI is dereferenced which              http://void.rkbexplorer.com/
+                                                                    9
+        yields the voiD description of the dataset.                   http://clarkparsia.com/weblog/2009/02/04/
+                                                                    distributed-query-pellet-into-the-void/
+      for describing datasets turns out to be very useful          about a resource. The discovery protocol for XRDS doc-
+      for describing the distributed data sources that             uments given a URI was defined in 2006 as part of Yadis,
+      we query over, including their interrelations.”              focusing on services such as OpenID and OAuth. In early
+                                                                   2008, XRDS-Simple was proposed12 , but is now obsolete.
+  Further, OpenLink plans to release its “Smart SPARQL               Only very recently, the latest draft of “/host-meta” [21]
+Federation capabilities”, based on voiD, soon.                     was proposed. The core of this proposal is a single “well-
+ 5.1.5    Middleware                                               known location”, /host-meta, acting as a directory of the
+                                                                   interesting metadata about a Web site. The format allows
+   OpenLink’s Sponger Middleware uses voiD for generat-            different types of site metadata to be referenced by an URI
+ing linked data from non-RDF data sources such as HTML             or included inline.
+pages. An example10 from http://linkeddata.uriburner.                One could understand the “HTTP Link: header” [20] pro-
+com/ with the voiD description deployed as XHTML+RDFa              posal related to voiD, as it also supports discovery, offering
+is shown in Fig. 8. Further, the statistics maintenance in         metadata about resources by resurrecting a (currently dep-
+their Virtuoso Quad Store is performed based on voiD.              recated) feature of HTTP. This proposal is at the time of
+5.2      Potential Applications                                    writing still under vivid discussion and not yet seen stable.
+                                                                     Regarding federated SPARQL queries, DARQ (Distributed
+   We envision voiD to be applied in many scenarios, some          ARQ) [22] proposes so called “service descriptions” that
+of which we have identified earlier in section 2. Only re-         are able to specify capabilities of a SPARQL endpoints.
+cently, for example, we have started to develop a dataset          The service descriptions enable the DARQ query engine
+ranking algorithm based on voiD descriptions; this is subject      to decompose a query into sub-queries, each of which can
+to more research. One could further apply voiD to DARQ             be answered by an individual service using query rewrit-
+(Distributed ARQ) [22].                                            ing and cost-based query optimisation to speed-up query
+   A totally different application domain is visualisation: for    execution. Further, we note an attempt called “SPARQL
+example, “The Map of Data”11 in Sindice can be generated           Endpoint Description”13 that aimed to allow the announce-
+automatically thanks to voiD.                                      ment of endpoint capabilities and contents, support discov-
+   Ultimately, to be of use, one wants applications that ben-      ery through service directories, and supply browsing and
+efit from voiD. Put in other words, this means that, given         federation hints. Both proposals seem to be not further
+there are applications that consume voiD and offer some            maintained and/or have not reached wide-spread adoption.
+added value, the incentive for publishers to provide voiD            Finally, we note that the W3C Technical Architecture
+descriptions is self-evident. One such application could be        Group (TAG) started to contemplate about “Uniform Ac-
+a sort of dynamic dataset selector which, configured with a        cess to Metadata”14 , basically being a survey regarding the
+specification of the dataset (topics, license, interlinking with   problem of specifying a uniform method for obtaining infor-
+certain other datasets) would at run-time of an application        mation pertaining to a resource without necessarily having
+discover and select appropriate datasets according to the          to parse a representation of the resource.
+search specification.
+
+6.    RELATED WORK                                                 7.   OUTLOOK
+   To the best of our knowledge, no comparable approach               We have released the voiD vocabulary and voiD user guide
+to voiD exists. That is, in the context of the Web of Data,        to linked data communities in January this year. In this re-
+we are not aware of any specification that allows the de-          lease, we have used the use cases presented in section 2 to
+scription of datasets and their interlinking the way voiD          guide the design scope of the voiD vocabulary. Supports
+does. However, we acknowledge previous work of Semantic            for describing the quality, provenance and versions of linked
+Sitemaps [7] and build upon it.                                    datasets are to be addressed in the next release of voiD.
+   In the scope of the Web of Documents, we note that at the       Also, the statistics modelling in the current voiD model is
+time of writing a W3C Working Draft of POWDER (Proto-              still experimental. We are communicating with user com-
+col for Web Description Resources) [3] is available. POW-          munities and the SCOVO team in order to propose a more
+DER aims at providing information about Web resources,             stable modelling in the coming release15 . Additionally we
+such as scope, authoritative information, etc., without re-        will liaison with initiatives such as the “Ontology Metadata
+trieving the resources themselves. POWDER comes in two             Vocabulary” [9] sharing similar goals.
+flavours, (i) as human-legible XML, and (ii) in an RDF ver-           To test and evaluate the usefulness of voiD, we need tools
+sion. It also provides a GRDDL transformation to turn the          that use voiD to support the discovery of datasets or the
+former into the latter. The descriptions can be applied to         SPARQL query federation. Fortunately, semantic query en-
+groups of resources defined via listing of URIs, regular ex-       gines like Sindice and SPARQL query processing systems
+pressions, etc. Several publishing methods are suggested           (like OpenLink) are adopting voiD in their implementations.
+(via HTML <link> in the header, HTTP Link: header or               It is challenging to completely automate the creation of voiD
+using XHTML+RDFa). Especially in the Web of Trust,                 descriptions. We need tools like the NX parser to take as
+POWDER is expected to play a vital role, though imple-
+                                                                   12
+mentation complexity might hinder wide-spread adoption.               http://www.hueniverse.com/hueniverse/2008/03/
+   Further, OASIS’s XRDS (eXtensible Resource Descriptor            putting-xrds-si.html
+                                                                   13
+Sequence) [24] is an XML format for metadata discovery                http://esw.w3.org/topic/SparqlEndpointDescription
+                                                                   14
+                                                                      http://www.w3.org/2001/tag/doc/
+10
+   http://linkeddata.uriburner.com/about/html/http:                 uniform-access-20090205.html
+ //twitter.com/mhausenblas#Dataset                                 15
+                                                                      See     http://code.google.com/p/void-impl/issues/
+11
+   http://sindice.com/map                                           list?can=2&q=milestone:Release2.0forplannedissues.
+much as possible of the heavy lifting for non-technical data   [11] M. Hausenblas, W. Halb, Y. Raimond, L. Feigenbaum,
+publishers as possible.                                             and D. Ayers. SCOVO: Using statistics on the Web of
+                                                                    data. In 6th European Semantic Web Conference
+                                                                    (ESWC2009), Semantic Web in Use Track, 2009.
+Acknowledgements                                               [12] M. Hausenblas, W. Halb, Y. Raimond, and T. Heath.
+Our work has partly been supported by the European Com-             What is the size of the Semantic Web. In Proceedings
+mission under Grant No. 217031, FP7/ICT-2007.1.2, project           of I-Semantics 2008, Graz, Austria, 2008.
+“Domain Driven Design and Mashup Oriented Development          [13] M. Hausenblas, W. Slany, and D. Ayers. A
+based on Open Source Java Metaframework for Pragmatic,              performance and scalability metric for virtual RDF
+Reliable and Secure Web Development” (Romulus)16 , and              graphs. In 3rd Workshop on Scripting for the
+the Joint Information Systems Committee [Project “Fly-              Semantic Web (SFSW07), Innsbruck, Austria, 2007.
+Web”]. The authors would further like to thank (alphabet-      [14] HP Lab. TDB/Optimizer.
+ically): Orri Erling, Hugh Glaser, Olaf Hartig, Tom Heath,          http://jena.hpl.hp.com/wiki/TDB/Optimizer, 25
+Andreas Langegger, Ian Millard, Marc-Alexandre Nolin, Yves          October, 2008. Accessed in March 2009.
+Raimond, Yrjänä Rankka, Francois Scharffe, and Giovanni
+                                                               [15] I. Jacobs and N. Walsh. Architecture of the World
+Tummarello.
+                                                                    Wide Web, Volume One. W3C Recommendation 15
+                                                                    December 2004, W3C Technical Architecture Group
+8.      REFERENCES                                                  (TAG), 2004.
+ [1] K. Alexander, R. Cyganiak, M. Hausenblas, and             [16] J. Klump, R. Bertelmann, J. Brase, M. Diepenbroek,
+     J. Zhao. voiD guide—Using the Vocabulary of                    H. Grobe, H. Höck, M. Lautenschlager, U. Schindler,
+     Interlinked Datasets. Community Draft, voiD working            I. Sens, and J. Wächter. Data publication in the open
+     group, 2009. http://rdfs.org/ns/void-guide/.                   access initiative. Data Science Journal, 5:79–83, 2006.
+ [2] K. Alexander, R. Cyganiak, M. Hausenblas, and             [17] G. Klyne, J. J. Carroll, and B. McBride. RDF/XML
+     J. Zhao. voiD, the “Vocabulary of Interlinked                  Syntax Specification (Revised). W3C
+     Datasets”. Community Draft, voiD working group,                Recommendation, RDF Core Working Group, 2004.
+     2009. http://rdfs.org/ns/void/.                           [18] P. Mika. Microsearch: An interface for semantic
+ [3] P. Archer, K. Smith, and A. Perego. Protocol for Web           search. In Semantic Search, International Workshop
+     Description Resources (POWDER): Description                    located at the 5th European Semamntic Web
+     Resources. W3C Working Draft 14 November 2008,                 Conference (ESWC 2008), volume 334 of CEUR
+     POWDER Working Group, 2008.                                    Workshop Proceedings, pages 79–88. CEUR-WS.org,
+                                                                    2008.
+ [4] T. Berners-Lee, Y. Chen, L. Chilton, D. Connolly,
+     R. Dhanaraj, J. Hollenbach, A. Lerer, and D. Sheets.      [19] P. Miller, R. Styles, and T. Heath. Open data
+     Tabulator: Exploring and analyzing linked data on              commons, a license for open data. In Proceedings of
+     the Semantic Web. In In Proceedings of the 3rd                 the Workshop on Linked Data on the Web
+     International Semantic Web User Interaction                    (WWW2008), 2008.
+     Workshop (SWUI06), Athens, Georgia, USA, 2006.            [20] M. Nottingham. Link relations and HTTP header
+ [5] C. Bizer, T. Heath, K. Idehen, and T. Berners-Lee.             linking. Internet-Draft, 1 December 2008, IETF
+     Linked Data on the Web (LDOW2008). In Linked                   Network Working Group, 2008.
+     Data on the Web Workshop(WWW2008), 2008.                  [21] M. Nottingham and E. Hammer-Lahav. Host
+ [6] L. A. Carr, D. C. DeRoure, W. Hall, and G. J. Hill.            metadata for the Web. Internet-Draft, 10 February
+     The Distributed Link Service: A tool for publishers,           2009, IETF Network Working Group, 2009.
+     authors and readers). In Proceedings of the 4th           [22] B. Quilitz and U. Leser. Querying distributed RDF
+     International World Wide Web Conference: The Web               data sources with SPARQL. In Proceedings of the 5th
+     Revolution), pages 647–656, Boston, USA, 1995.                 European Semantic Web Conference 2008), pages
+ [7] R. Cyganiak, H. Stenzhorn, R. Delbru, S. Decker, and           524–538. Springer, 2008.
+     G. Tummarello. Semantic Sitemaps: Efficient and           [23] G. Tummarello, R. Delbru, and E. Oren. Sindice. com:
+     flexible access to datasets on the Semantic Web. In            Weaving the open linked data. Proceedings of the 6th
+     Proceedings of the 5th European Semantic Web                   International Semantic Web Conference 2007
+     Conference, volume 5021, pages 690–704, Tenerife,              (ISWC2007), 4825:552–565, 2007.
+     Spain, 2008.                                              [24] G. Wachob, D. Reed, L. Chasen, W. Tan, and
+ [8] O. Hartig and R. Heese. The SPARQL query graph                 S. Churchill. Extensible Resource Identifier (XRI)
+     model for query optimization. In Proceedings of the            Resolution Version 2.0. Committee Draft 03 28
+     4th European Semantic Web Conference 2007, pages               February 2008, OASIS eXtensible Resource Identifier
+     564–578, Innsbruck, Austria, 2007.                             (XRI) TC, 2008.
+ [9] J. Hartmann, Y. Sure, P. Haase, R. Palma, and M. del      [25] S. Weibel, A. S. for Information Science, and
+     Carmen Suárez-Figueroa. OMV – Ontology Metadata               Technology. The Dublin Core: A simple content
+     Vocabulary. In C. Welty, editor, ISWC 2005 - In                description model for electronic resources. Bulletin of
+     Ontology Patterns for the Semantic Web, 2005.                  the American Society for Information Science and
+[10] M. Hausenblas. Discovery and usage of linked datasets          Technology, 24(1):9–11, 1997.
+     on the Web of data. In Talis NodMag 4, 2008.              [26] J. Zhao, A. Miles, G. Klyne, and D. Shotton. Linked
+                                                                    data and provenance in biological data webs. Briefings
+16
+     http://www.ict-romulus.eu/                                     in Bioinformatics, 2008.
+       Figure 5: Manual creation of voiD descriptions with ve.
+
+
+
+
+(a) Looking-up datasets.                        (b) Browsing datasets.
+
+              Figure 6: Linked Datasets Explorer (LDE).
+              Figure 7: Visualisation of RKB interlinking.
+
+
+
+
+Figure 8: OpenLink’s instant-voiD-generator for structured HTML pages.
+

@@ -1,0 +1,231 @@
+Data Governance - 2nd Edition | Elsevier Shop
+Skip to main content
+
+Books
+Journals
+Browse by subject
+
+Back
+
+Discover Books & Journals by subject
+
+Life Sciences
+Agricultural & Biological Sciences
+Drug Discovery
+Immunology
+Life Sciences
+Microbiology & Virology
+Neuroscience
+Pharmaceutical Sciences
+Pharmacology
+Toxicology
+All
+
+Physical Sciences & Engineering
+Astronomy, Astrophysics, Space Science
+Built Environment
+Chemical Engineering
+Chemistry
+Computer Science
+Earth & Planetary Sciences
+Energy & Power
+Engineering & Technology
+Environmental Sciences
+Mathematics
+Materials Science
+Physics
+All
+
+Social Sciences & Humanities
+Arts & Humanities
+Business, Management & Accounting
+Decision Sciences
+Economics & Finance
+Forensics
+Psychology
+Social Sciences
+All
+
+Health
+Dentistry
+Health Professions
+Medicine
+Nursing & Midwifery
+Veterinary Science & Veterinary Medicine
+All
+
+Search
+
+0 items in shopping cart.  View Cart
+My account
+
+Open main site navigation
+
+Home
+
+Books
+
+Subjects
+
+Engineering and technology
+
+Data Governance
+
+Data Governance
+How to Design, Deploy, and Sustain an Effective Data Governance Program
+
+2nd Edition - November 8, 2019
+
+Latest edition
+
+Author: John Ladley
+
+Language: English
+
+Managing data continues to grow as a necessity for modern organizations. There are seemingly infinite opportunities for organic growth, reduction of costs, and creation of new pr… Read more 
+
+ End of Summer Sale
+Save up to 30% off
+Bright savings for research, study, and discovery
+
+Shop the summer sale
+
+Description
+
+Managing data continues to grow as a necessity for modern organizations. There are seemingly infinite opportunities for organic growth, reduction of costs, and creation of new products and services. It has become apparent that none of these opportunities can happen smoothly without data governance. The cost of exponential data growth and privacy / security concerns are becoming burdensome. Organizations will encounter unexpected consequences in new sources of risk. The solution to these challenges is also data governance; ensuring balance between risk and opportunity.  
+Data Governance, Second Edition, is for any executive, manager or data professional who needs to understand or implement a data governance program. It is required to ensure consistent, accurate and reliable data across their organization. This book offers an overview of why data governance is needed, how to design, initiate, and execute a program and how to keep the program sustainable. This valuable resource provides comprehensive guidance to beginning professionals, managers or analysts looking to improve their processes, and advanced students in Data Management and related courses. With the provided framework and case studies all professionals in the data governance field will gain key insights into launching successful and money-saving data governance program.
+
+Key features
+
+Incorporates industry changes, lessons learned and new approaches 
+Explores various ways in which data analysts and managers can ensure consistent, accurate and reliable data across their organizations 
+Includes new case studies which detail real-world situations 
+Explores all of the capabilities an organization must adopt to become data driven 
+Provides guidance on various approaches to data governance, to determine whether an organization should be low profile, central controlled, agile, or traditional 
+Provides guidance on using technology and separating vendor hype from sincere delivery of necessary capabilities 
+Offers readers insights into how their organizations can improve the value of their data, through data quality, data strategy and data literacy 
+Provides up to 75% brand-new content compared to the first edition
+
+Readership
+Data analysts, data managers, researchers, and engineers who need to ensure consistent, accurate and reliable data across their company, lab, hospital, etc
+
+Table of contents
+
+1. Prologue – An Executive Overview
+
+2. Introduction
+
+3. Data Literacy and Concepts
+
+4 Overview – A Day in the Life of a data governance program and its capabilities
+
+5. The data governance business case
+
+6. Process overview for deploying data governance
+
+7. Scope and initiation
+
+8. Assess
+
+9. Vision
+
+10. Align and business value
+
+11. Functional design
+
+12. Governing framework design
+
+13. Road map
+
+14. Rollout and sustain
+
+15. Data governance artifacts and tools
+
+16. Final remarks 
+Appendix
+Data Governance Charters Template
+Data Governance Orientation and ongoing knowledge transfer template
+Stakeholder Analysis
+Leadership Alignment Assessment
+Communications Plan
+Training Plan Example
+Post-rollout Checklist
+
+Review quotes
+
+"John Ladley’s latest book is the second edition of his Data Governance book, first published in 2012. If you know the first edition of this book, you’ll certainly appreciate this updated second edition. Reading this book will provide you with a comprehensive overview of why data governance is needed, how to design, initiate, and execute a data governance program, and how to keep the program sustainable. 
+There is a ton of new content in this second edition, including new case studies, updated industry details, and updated coverage of the available data governance tools that can help.The book will be useful to you whether you are a novice or a seasoned professional. At the heart of this book is the framework that Ladley communicates that you can follow to build and maintain successful data governance at your organization. In combination with the use cases that he walks through in the book, you have a powerful guide for launching your data governance program. Useful for both small and large organizations, be sure to pick up a copy of this book if you are charged with any aspect of data management and data governance within your shop."—Data and Technology Today
+
+Product details
+
+Edition: 2
+
+Latest edition
+
+Published: November 8, 2019
+
+Language: English
+
+About the author
+
+JL
+
+John Ladley
+
+John Ladley is one of the leading pioneers in the field of Data Governance and Enterprise Information Management. As a consultant, trainer, and author he has over 30 years of coal-face experience dealing with the people and challenges of putting data to work. John has worked with clients across a range of sectors, bringing pragmatic insights to the management and governance of data as an asset and the leadership of data-related organisation transformation.
+ John is also a founder of the Data Leaders’ Organisation, a collaborative think-tank of industry experts working to promote good practices in data management.
+ John’s books include two editions of Data Governance: How to Design, Deploy, and Sustain an Effective Data Governance Program and Making Enterprise Information Management (EIM) Work for Business: A Guide to Understanding Information as an Asset. John is a regular keynote speaker at data industry conferences worldwide.
+
+Affiliations and expertisePrincipal of IMCue Solutions, Editor of the Data Strategy Journal, USA
+
+View book on ScienceDirect
+
+Read Data Governance on ScienceDirect
+
+product
+
+Useful links
+Book awards
+Book bestsellers
+Book imprints
+Book pre-order
+Book series(opens in new tab/window)
+Flexible eBook solutions
+Journal bestsellers
+New book releases
+Student corner(opens in new tab/window)
+
+Quick help
+eBook formats(opens in new tab/window)
+My account(opens in new tab/window)
+Returns & refunds(opens in new tab/window)
+Shipping & delivery(opens in new tab/window)
+Subscriptions & renewals(opens in new tab/window)
+Support & contact(opens in new tab/window)
+Tax exempt orders(opens in new tab/window)
+Withdrawal order
+
+Solutions
+ClinicalKey(opens in new tab/window)
+ClinicalKey AI(opens in new tab/window)
+Embase(opens in new tab/window)
+Evolve(opens in new tab/window)
+Mendeley(opens in new tab/window)
+Knovel(opens in new tab/window)
+Reaxys(opens in new tab/window)
+ScienceDirect(opens in new tab/window)
+
+About
+About Elsevier(opens in new tab/window)
+Careers(opens in new tab/window)
+Newsroom(opens in new tab/window)
+
+(opens in new tab/window)(opens in new tab/window)(opens in new tab/window)(opens in new tab/window)
+
+Copyright © 2026 Elsevier, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+Terms & conditions(opens in new tab/window)
+Privacy policy(opens in new tab/window)
+Accessibility statement(opens in new tab/window)
+Cookie Settings
+Support & contact(opens in new tab/window)

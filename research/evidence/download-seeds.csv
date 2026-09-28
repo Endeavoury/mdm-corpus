@@ -1,0 +1,47 @@
+﻿source_id,url,category,document_scope,discovered_from
+B01,https://shop.elsevier.com/books/master-data-management/loshin/978-0-12-374225-4,books,landing_page,web discovery 2026-09-08; primary landing page: https://shop.elsevier.com/books/master-data-management/loshin/978-0-12-374225-4
+B01,https://booksite.elsevier.com/samplechapters/9780123742254/Sample_Chapters/02~Chapter_1.pdf,books,publisher_sample_chapter,web discovery 2026-09-08; primary landing page: https://shop.elsevier.com/books/master-data-management/loshin/978-0-12-374225-4
+B02,https://www.informit.com/store/enterprise-master-data-management-an-soa-approach-to-9780132799720,books,landing_page,web discovery 2026-09-08; primary landing page: https://www.informit.com/store/enterprise-master-data-management-an-soa-approach-to-9780132799720
+B02,https://ptgmedia.pearsoncmg.com/images/9780132366250/samplepages/0132366258_Sample.pdf,books,publisher_sample,web discovery 2026-09-08; primary landing page: https://www.informit.com/store/enterprise-master-data-management-an-soa-approach-to-9780132799720
+B03,https://www.mheducation.com/highered/mhp/product/master-data-management-data-governance-2-e.html,books,landing_page,web discovery 2026-09-08; primary landing page: https://www.mheducation.com/highered/mhp/product/master-data-management-data-governance-2-e.html
+B04,https://link.springer.com/book/10.1007/978-3-642-31164-2,books,landing_page,web discovery 2026-09-08; primary landing page: https://link.springer.com/book/10.1007/978-3-642-31164-2
+B05,https://link.springer.com/book/10.1007/3-540-33173-5,books,landing_page,web discovery 2026-09-08; primary landing page: https://link.springer.com/book/10.1007/3-540-33173-5
+B06,https://people.cs.uct.ac.za/~mkeet/OEbook/,books,landing_page,web discovery 2026-09-08; primary landing page: https://people.cs.uct.ac.za/~mkeet/OEbook/
+B06,https://people.cs.uct.ac.za/~mkeet/files/OEbook.pdf,books,open_textbook_2020_not_latest_commercial_edition,web discovery 2026-09-08; primary landing page: https://people.cs.uct.ac.za/~mkeet/OEbook/
+B07,https://kgbook.org/,books,author_hosted_full_html_book,web discovery 2026-09-08; primary landing page: https://kgbook.org/
+B08,https://www.oreilly.com/library/view/data-mesh/9781492092384/titlepage01.html,books,landing_page,web discovery 2026-09-08; primary landing page: https://www.oreilly.com/library/view/data-mesh/9781492092384/titlepage01.html
+B08,https://www.thoughtworks.com/content/dam/thoughtworks/documents/books/bk_data_mesh_excerpt.pdf,books,authorized_book_excerpt,web discovery 2026-09-08; primary landing page: https://www.oreilly.com/library/view/data-mesh/9781492092384/titlepage01.html
+P01,https://www.redbooks.ibm.com/abstracts/sg247956.html,professional,landing_page,web discovery 2026-09-08; primary landing page: https://www.redbooks.ibm.com/abstracts/sg247956.html
+P01,https://www.redbooks.ibm.com/redbooks/pdfs/sg247956.pdf,professional,public_vendor_book,web discovery 2026-09-08; primary landing page: https://www.redbooks.ibm.com/abstracts/sg247956.html
+P02,https://www.redbooks.ibm.com/abstracts/sg248220.html,professional,landing_page,web discovery 2026-09-08; primary landing page: https://www.redbooks.ibm.com/abstracts/sg248220.html
+P02,https://www.redbooks.ibm.com/redbooks/pdfs/sg248220.pdf,professional,public_vendor_book,web discovery 2026-09-08; primary landing page: https://www.redbooks.ibm.com/abstracts/sg248220.html
+L20,https://aisel.aisnet.org/amcis2011_submissions/108/,papers,landing_page,web discovery 2026-09-08; primary landing page: https://aisel.aisnet.org/amcis2011_submissions/108/
+L21,https://vldb.org/pvldb/vol5/p2018_lisegetoor_vldb2012.pdf,papers,proceedings_tutorial_pdf,web discovery 2026-09-08; primary landing page: https://vldb.org/pvldb/vol5/p2018_lisegetoor_vldb2012.pdf
+L22,https://www.vldb.org/pvldb/vol3/R18.pdf,papers,proceedings_pdf,web discovery 2026-09-08; primary landing page: https://www.vldb.org/pvldb/vol3/R18.pdf
+L23,https://arxiv.org/abs/2304.01062,papers,landing_page,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/2304.01062
+L23,https://arxiv.org/pdf/2304.01062,papers,preprint_full_text,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/2304.01062
+L23,https://stefan-driessen.github.io/publication/data-mesh-systematic-grey-literature-study/Data%20Mesh%20-%20Systematic%20Grey%20Literature%20Study.pdf,papers,author_manuscript_not_final_version,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/2304.01062
+L24,https://link.springer.com/article/10.1007/s10257-025-00707-4,papers,landing_page,web discovery 2026-09-08; primary landing page: https://link.springer.com/article/10.1007/s10257-025-00707-4
+L25,https://www.sciencedirect.com/science/article/pii/S0164121225002535,papers,landing_page,web discovery 2026-09-08; primary landing page: https://www.sciencedirect.com/science/article/pii/S0164121225002535
+L26,https://pure.iiasa.ac.at/id/eprint/20795/,papers,landing_page,web discovery 2026-09-08; primary landing page: https://pure.iiasa.ac.at/id/eprint/20795/
+L27,https://doi.org/10.1109/ACCESS.2025.3627855,papers,landing_page,web discovery 2026-09-08; primary landing page: https://doi.org/10.1109/ACCESS.2025.3627855
+L28,https://www.mdpi.com/2076-3417/16/11/5289,papers,landing_page,web discovery 2026-09-08; primary landing page: https://www.mdpi.com/2076-3417/16/11/5289
+L28,https://www.mdpi.com/2076-3417/16/11/5289/pdf,papers,publisher_pdf_candidate,web discovery 2026-09-08; primary landing page: https://www.mdpi.com/2076-3417/16/11/5289
+L29,https://arxiv.org/abs/1905.06397,papers,landing_page,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/1905.06397
+L29,https://arxiv.org/pdf/1905.06397,papers,preprint_full_text,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/1905.06397
+L30,https://arxiv.org/abs/1905.06167,papers,landing_page,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/1905.06167
+L30,https://arxiv.org/pdf/1905.06167,papers,preprint_full_text,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/1905.06167
+L31,https://arxiv.org/abs/2403.09806,papers,landing_page,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/2403.09806
+L31,https://arxiv.org/pdf/2403.09806,papers,preprint_full_text,web discovery 2026-09-08; primary landing page: https://arxiv.org/abs/2403.09806
+M01,https://eprints.whiterose.ac.uk/136633/1/PRISMA_ScR_Manuscript_July6th_clean_1_.pdf,methods,repository_author_manuscript,web discovery 2026-09-08; primary landing page: https://eprints.whiterose.ac.uk/136633/1/PRISMA_ScR_Manuscript_July6th_clean_1_.pdf
+M02,https://pmc.ncbi.nlm.nih.gov/articles/PMC8270366/,methods,landing_page,web discovery 2026-09-08; primary landing page: https://pmc.ncbi.nlm.nih.gov/articles/PMC8270366/
+S52,https://www.iso.org/iso-8601-date-and-time-format.html,standards,official_series_overview_not_full_norm,web discovery 2026-09-08; primary landing page: https://www.iso.org/iso-8601-date-and-time-format.html
+B09,https://shop.elsevier.com/books/data-governance/ladley/978-0-12-815831-9,books,landing_page,web discovery 2026-09-08; primary landing page: https://shop.elsevier.com/books/data-governance/ladley/978-0-12-815831-9
+L08,https://www.inf.ufes.br/~gguizzardi/OFSCM.pdf,papers,author_hosted_thesis,primary venue or author repository of registered work
+L27,https://repositorioaberto.uab.pt/bitstreams/12897f32-bf0e-446e-ae94-2e6bc2a78ac7/download,papers,institutional_repository_paper,primary venue or author repository of registered work
+L01,https://aisel.aisnet.org/cgi/viewcontent.cgi?article=2693&context=misq,papers,venue_download,primary venue or author repository of registered work
+L20,https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1134&context=amcis2011_submissions,papers,venue_download,primary venue or author repository of registered work
+S01,https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/,standards,official_overview_not_book,primary venue or author repository of registered work
+S01,https://dama.org/dmbok2r-infographics/,standards,official_open_figures_landing_page_not_book,primary venue or author repository of registered work
+L13,https://arxiv.org/pdf/2003.02320,papers,author_preprint,primary venue or author repository of registered work
+L16,https://proceedings.neurips.cc/paper_files/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf,papers,proceedings_full_paper,primary venue or author repository of registered work

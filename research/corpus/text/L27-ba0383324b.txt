@@ -1,0 +1,1459 @@
+Received 22 September 2025, accepted 16 October 2025,
+date of publication 31 October 2025, date of current version 11 November 2025.
+Digital Object Identifier 10.1109/ACCESS.2025.3627855
+
+
+
+
+Impact of a Master Data Management Framework
+to Trigger Data Governance Maturity:
+A Systematic Literature Review
+LEONARDO GUERREIRO 1,2 , JOSÉ MARTINS 3,4,5 , MARIA DO ROSÁRIO BERNARDO                                                                       3,6 ,
+
+HENRIQUE MAMEDE2,3,5 , AND FREDERICO BRANCO 1,3
+1 Department of Engineering, School of Sciences and Technology, Universidade de Trás-os-Montes e Alto Douro, 5000-801 Vila Real, Portugal
+2 Department of Science and Technology, Universidade Aberta (UAb), 1269-001 Lisbon, Portugal
+3 INESC TEC—Institute for Systems and Computer Engineering, Technology and Science, 4200-465 Porto, Portugal
+4 School of Technology and Management of Águeda, University of Aveiro, 3750-127 Águeda, Portugal
+5 INOV—INESC Inovação, 1000-029 Lisbon, Portugal
+6 Department of Social Sciences and Management, Universidade Aberta (UAb), 1269-001 Lisbon, Portugal
+
+Corresponding author: Frederico Branco (fbranco@utad.pt)
+This work was supported by the National Funds through FCT—Fundação para a Ciência e a Tecnologia, I.P., under Grant UID/50014/2023.
+
+
+
+
+  ABSTRACT Data governance plays a crucial role for organizations aiming to improve data quality, security,
+  and compliance, yet research reveals ongoing challenges in implementation, maturity, and the practical
+  effectiveness of current frameworks. Despite the availability of numerous concepts, models, and assess-
+  ments, their actual impact and relevance remain fragmented and insufficiently explored. This Systematic
+  Literature Review (SLR) investigates how data governance frameworks influence maturity and identifies the
+  factors that drive their effectiveness. Through the synthesis of existing research, the review aims to clarify
+  the relationship between governance frameworks and maturity levels, highlight operational benefits, and
+  examine implementation challenges, ultimately contributing to both academic understanding and practical
+  advancements in data governance. Analyzing the most relevant studies, the review seeks to uncover the main
+  governance mechanisms, frameworks, and trends shaping this field, with a central question in focus: How
+  can a structured master data management framework improve data governance maturity?.
+
+
+  INDEX TERMS Data governance, data governance maturity level, data governance framework.
+
+
+
+I. INTRODUCTION                                                                                    This Systematic Literature Review (SLR) is designed to
+Data governance plays a crucial role in modern organi-                                          investigate these aspects, guided by the following central
+zations, yet its implementation and effectiveness remain                                        research question:
+subjects of ongoing discussion. As organizations increas-
+ingly rely on data for strategic decision-making, compliance,                                   A. HOW CAN STRUCTURED MASTER DATA MANAGEMENT
+and operational efficiency, several studies have explored                                       FRAMEWORK IMPACT DATA GOVERNANCE MATURITY?
+how governance frameworks contribute to these objectives.
+                                                                                                To address this, the study will approach the main question
+However, key questions remain regarding how structured
+                                                                                                by breaking it down into the following sub questions, better
+governance frameworks impact maturity, what challenges
+                                                                                                explored most below in topic II. (Materials and Methods):
+organizations face, and how different models compare in
+practice.                                                                                           1) What are the most relevant concepts, standards, and
+                                                                                                       models used as references in data management and
+                                                                                                       governance?
+   The associate editor coordinating the review of this manuscript and                              2) Are there standardized organizational data governance
+approving it for publication was Fu Lee Wang              .                                            frameworks?
+                                                  2025 The Authors. This work is licensed under a Creative Commons Attribution 4.0 License.
+190644                                                   For more information, see https://creativecommons.org/licenses/by/4.0/                       VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+   3) What are the most widely used maturity models in data                      meaningful insights into the factors that influence, and the
+       governance?                                                               processes involved in adopting this practice. This study aims
+   4) What are the key antecedents and impacts on gover-                         to contribute to the scientific community by providing a
+       nance maturity?                                                           deeper understanding of Data Governance implementation,
+   Preliminary research showed that data governance is                           utilizing frameworks and measuring the impact on maturity
+becoming an increasingly relevant topic as organizations seek                    levels, while also addressing gaps identified in literature.
+to structure their data management practices in response to                      Additionally, assessing Data Governance maturity and estab-
+evolving business and regulatory demands [1]. The litera-                        lishing key performance indicators (KPIs) are essential for
+ture suggests that data governance is generally perceived as                     evaluating an organization’s progress and effectiveness in
+a set of policies, processes, and structures implemented to                      implementing Data Governance frameworks. Understanding
+ensure data integrity, security, and usability [2]. In relevant                  the antecedents—such as organizational culture, leadership
+studies, organizations often report new challenges, including                    support, and existing data management practices—and the
+difficulties in integrating governance strategies with existing                  impacts of applying a Data Governance framework is crucial
+systems, maintaining compliance across different jurisdic-                       for achieving higher maturity levels. These data and research
+tions, and ensuring governance models remain adaptable to                        approaches are fundamental for thoroughly understanding
+technological advancements [3].                                                  how organizations make decisions and behave regarding
+   Although preliminary research showed that data gover-                         the implementation of Data Governance. In the following
+nance has been widely studied, existing studies tend to focus                    section, we will explore the materials and methods commonly
+on specific aspects such as data quality, metadata manage-                       utilized in this area of study, with a particular focus on frame-
+ment, and security, rather than presenting a comprehensive                       works and measuring maturity levels for data governance [4],
+and standardized approach [4], [5], [6]. Additionally, studies                   [16], [19].
+revealed that there is no clear consensus on which frameworks                       A systematic literature review is meticulously designed
+or maturity models are the most effective in practice, as their                  to gather and analyze empirical data that fulfills established
+applicability varies depending on organizational structure,                      eligibility criteria, aiming to address a well-defined research
+industry, and regulatory landscape [7]. Some research high-                      question. This comprehensive process employs a range of
+lights the role of maturity models as a tool for assessing                       rigorous techniques and standardized procedures to minimize
+governance evolution, yet their definitions, scope, and appli-                   potential biases, ensuring that the outcomes are both credible
+cability remain inconsistent [8], [9].                                           and reliable. By thoroughly synthesizing existing studies,
+   Governance frameworks also vary significantly, with some                      a systematic literature review seeks to provide a robust and
+models prioritizing regulatory compliance and risk manage-                       trustworthy foundation for advancing knowledge and under-
+ment, while others focus on enhancing data-driven decision-                      standing within the relevant field. Through its structured and
+making and aligning governance strategies with business                          methodical approach, it endeavors to uncover meaningful
+objectives [10], [11]. The effectiveness of these frameworks                     patterns, identify gaps in the current literature, and offer
+is often debated, as implementation success depends on                           insightful conclusions that contribute significantly to schol-
+multiple factors, including organizational culture, leader-                      arly discourse [15], [23].
+ship commitment, and existing data management capabilities                          Kitchenham’s methodology, developed by Barbara
+[12], [13].                                                                      Kitchenham, is a systematic and structured framework specif-
+   To gain a deeper understanding of these issues, this SLR                      ically designed for conducting Systematic Literature Reviews
+will systematically analyze existing research on governance                      (SLRs) in the field of software engineering. This method-
+frameworks and maturity models, aiming to identify trends,                       ology encompasses all essential stages of conducting a
+challenges, and gaps in the literature [14], [15]. Rather                        systematic review, from developing well-defined research
+than proposing a new governance framework, this study                            questions to selecting studies, extracting data, assessing
+will examine how different models are applied, assess their                      the quality of evidence, and presenting results in a stan-
+reported benefits and limitations, and explore emerging dis-                     dardized format. By outlining clear research objectives
+cussions on governance maturity [16], [17], [18].                                and formulating specific questions, Kitchenham’s approach
+   By conducting further and deeper analysis, this research                      ensures focused and researchable inquiries. The methodology
+seeks to provide a structured overview of the state-of-the-                      includes developing a detailed review protocol with explicit
+art in data governance, offering insights that can inform                        inclusion and exclusion criteria, comprehensive literature
+both academic discourse and practical governance strategies                      searches across multiple databases, and a rigorous study
+emphasizing the importance of measuring data governance                          selection process involving title, abstract, and full-text screen-
+maturity levels to identify areas for improvement and track                      ing.
+progress.                                                                           Furthermore, Kitchenham’s methodology emphasizes
+                                                                                 thorough quality assessment of the included studies using
+II. MATERIALS AND METHODS                                                        standardized evaluation tools and standardized data extrac-
+Researching Data Governance adoption models requires                             tion through predefined forms to capture essential informa-
+the application of suitable data and methodologies to gain                       tion consistently. The synthesis of findings is conducted in
+
+VOLUME 13, 2025                                                                                                                             190645
+                                                   L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+a coherent manner, employing both qualitative and quanti-                    important to practitioners as well as researchers? - Will it
+tative analyses where applicable. This structured approach                   lead either to changes in current practice or to increased
+promotes methodological rigor, transparency, and repro-                      confidence in the value of current practice? – Will it identify
+ducibility, facilitating replication, critical evaluation, and               discrepancies between commonly held beliefs and reality?
+effective synthesis of evidence. By adhering to Kitchen-                        Hence, based on the topic of study for this SLR the follow-
+ham’s systematic framework, this systematic literature review                ing main question will be our starting point and will guide us
+ensures high quality, reliability, and transparency, making the              through the research:
+results accessible and comprehensible to researchers, practi-                   1) How can a structured master data management frame-
+tioners, and the broader scientific community. Kitchenham’s                  work impact data governance maturity? [ans. III.Results –
+guidelines have been instrumental in advancing knowledge                     maturity level; consequences]
+within software engineering by identifying research gaps                        However, this question is very broad, and answering it
+and providing evidence-based conclusions that inform future                  becomes a very difficult task without breaking it down into
+research and practice [15], [21].                                            smaller questions that can help us understand and clarify the
+   Kitchenham’s methodology for Systematic Literature                        topic in smaller parts, while still allowing us to collectively
+Reviews (SLRs) is renowned for its adaptability across var-                  find an answer to the main question. These questions would
+ious research domains beyond its original application in                     be:
+software engineering. In her foundational works, Kitchenham                     2) What are the most relevant concepts, standards and
+emphasizes the framework’s structured yet flexible nature,                   models used as guides regarding data management and data
+allowing researchers to customize the review process to meet                 governance? [ans. III.Results – definitions; synthesis of stud-
+the specific demands of different fields [21]. This adaptability             ies and key discoveries]
+is facilitated through the clear definition of research ques-                   3) Are there standard organizational data management and
+tions, the establishment of tailored inclusion and exclusion                 government frameworks? [ans. III.Results – reference frame-
+criteria, and the development of comprehensive search strate-                works]
+gies that can be modified to suit diverse disciplines such                      4) What are the most relevant maturity models used in data
+as data governance. By providing a detailed and systematic                   management and governance? [ans. III.Results – maturity
+approach, Kitchenham’s methodology ensures methodologi-                      models overview; maturity level]
+cal rigor and transparency, which are crucial for conducting                    5) What are the antecedents and potential impacts on data
+reliable and reproducible SLRs in any area of study. Conse-                  maturity level? [ans. III.Results – consequences]
+quently, Kitchenham’s methodology was chosen for this SLR
+on the data governance field due to its proven effectiveness                 B. CONDUCTING PHASE
+in facilitating comprehensive reviews, enabling the identifi-                1) REPOSITORY SELECTION
+cation of effective frameworks, and supporting the synthesis                 At the beginning of the research, we formulated a detailed
+of best practices tailored to the unique challenges of data                  search strategy for the records. We prioritized accessing the
+governance.                                                                  content of five designated and renowned repositories and,
+   Methodology selected, planning done, now it’s time to                     when necessary, included pertinent records from additional
+move on to the next phases, and this SLR will lead to the                    relevant sources, which we refer to as others. The specific
+second and third phases of Kitchenham’s guidelines, which                    repositories used are detailed in Table 1.
+represent the conducting and reporting that is in fact the scope
+of this document, as illustrated below in Figure 1.                          TABLE 1. List of online repositories.
+
+
+
+
+                                                                             2) KEYWORD SELECTION
+                                                                             The keywords are fundamental in conducting a Systematic
+                                                                             Literature Review (SLR) as they determine the effective-
+                                                                             ness and comprehensiveness of the search strategy. Careful
+                                                                             selection of relevant keywords ensures that the most perti-
+FIGURE 1. Conceptual Mapping for Guideline [20].
+                                                                             nent studies are identified, accurately reflecting the research
+                                                                             concepts and objectives. Kitchenham [21] emphasizes that
+A. RESEARCH QUESTIONS                                                        keywords should be derived directly from the research ques-
+For Kitchenham [21], the critical issue in any systematic                    tions and the main topics investigated, using terms that
+review is to ask the right question. Is it meaningful and                    capture the essence of the subject matter. Furthermore, search
+
+190646                                                                                                                                  VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+strings play a crucial role in operationalizing the keywords                     and practices that reflect the current challenges and realities
+within the selected databases. Based on the research ques-                       faced by organizations in managing data effectively.
+tions, we elaborate a set of keywords to search in the sources                      However, this temporal delimitation also introduced cer-
+selected above in table 1, then prepared the most common                         tain limitations. As noted by Kitchenham [15], exclusion
+string of searching to be used, represented in sequence by the                   criteria, if not carefully justified, may lead to bias and com-
+following tables 2 and 3.                                                        promise the comprehensiveness of the review. In this case,
+                                                                                 several classical contributions that remain foundational to
+TABLE 2. Keywords used in research.                                              the field were formally excluded. Notably, the works of
+                                                                                 Khatri and Brown and Weber were left outside the selected
+                                                                                 time range, despite their continued influence and essential
+                                                                                 to understanding the foundations of data governance frame-
+                                                                                 works. One of the most influential is the work of Khatri
+                                                                                 and Brown, who made an important distinction between data
+                                                                                 governance and data management. While data management
+                                                                                 focuses on the day-to-day execution of data activities, data
+TABLE 3. Search strings.
+                                                                                 governance is about who has the authority to make decisions
+                                                                                 related to data. This includes defining roles, responsibilities,
+                                                                                 and decision rights within the organization. Their model
+                                                                                 outlines five key areas where decisions need to be clearly
+                                                                                 defined:
+                                                                                    • Data principles, which are the general rules and poli-
+                                                                                       cies that guide how data is handled
+3) PRIMARY INCLUSION/EXCLUSION CRITERIA                                             • Data quality, including who defines what ‘‘quality’’
+In Kitchenham’s guidelines [21] for systematic literature                              means and who ensures that those standards are met
+reviews, primary inclusion and exclusion criteria are essential                     • Metadata, where it’s important to determine who is
+to ensure the selection of relevant and high-quality stud-                             responsible for defining and maintaining the meaning
+ies. Inclusion criteria focus on studies directly addressing                           and structure of data
+research questions, published within a defined timeframe,                           • Data access, which covers who can access specific data
+in reputable sources, and typically in a specific language,                            and under what conditions
+prioritizing empirical research and methodological rigor.                           • Data lifecycle, involving decisions about how long data
+Exclusion criteria eliminate studies that are irrelevant, dupli-                       is kept, when it is archived, and when it should be deleted
+cates, of low quality, inaccessible, or lacking empirical                           This framework is still highly referenced because it helps
+evidence. Together, these criteria streamline the selection                      organizations clearly separate governance from operational
+process to ensure the review is comprehensive, reliable, and                     management and focus on decision-making as the core of
+aligned with its objectives. The screening and exclusion of                      governance.
+articles are vital steps in conducting a Systematic Litera-                         Another important contribution comes from Weber, who
+ture Review (SLR). These processes ensure that only the                          suggested a more flexible approach to data governance.
+most relevant and high-quality studies are included, thereby                     Instead of proposing a single model that fits all organizations,
+enhancing the validity and reliability of the review’s find-                     Weber argued that governance should adapt to each organiza-
+ings. By applying predefined inclusion and exclusion criteria,                   tion’s context. This includes considering factors like company
+researchers can filter out articles that do not directly address                 size, culture, business goals, and regulatory environment.
+the research questions or meet methodological standards.                         For instance, a bank operating under strict regulations might
+Additionally, removing duplicates and excluding studies out-                     require centralized governance, while a tech company work-
+side the review’s scope helps minimize bias and prevent                          ing in a fast-moving environment might benefit from a more
+information overload [21]. This selection of the criteria                        distributed approach.
+was based on the definitions and requirements described                             This idea becomes even more relevant when we look
+respectively in Tables 4 and 5. Defining ideal criteria for a                    at recent frameworks like Data Mesh, which are built on
+Systematic Literature Review (SLR), such as an appropriate                       decentralization, autonomy, and domain-oriented data own-
+time frame, presents a constant methodological challenge—                        ership. These characteristics align well with Weber’s view
+particularly in dynamic fields like data governance, which                       that governance must fit the organization’s reality. Data Mesh
+combines long-standing conceptual foundations with rapidly                       is explored in more detail later in the subsection ‘‘Concep-
+evolving technological innovations and regulatory demands.                       tual Frameworks’’ in Section III – Results. Although these
+In this review, the decision to restrict the temporal scope to                   foundational works were not formally included in the SLR
+the past ten years was intended to prioritize the most recent                    due to the defined temporal range, their conceptual contribu-
+studies that align with contemporary organizational contexts.                    tions remain widely cited in the more recent literature that
+The goal was to focus the analysis on updated frameworks                         was analyzed. As such, they are indirectly present in the
+
+VOLUME 13, 2025                                                                                                                            190647
+                                              L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+theoretical underpinnings of this study and continue to shape              Therefore, these requests could be obtained through the
+much of the modern academic and practical discourse in data             following criteria listed below:
+governance. Abraham et al. [16] also emphasize that overly                 • Last decade only
+restrictive methodological boundaries, particularly temporal               • Publications in English
+ones—can hinder the recognition of theoretical developments                • Non-Duplicated titles/Authors
+and obscure the field’s evolution over time. They advocate for                 • Eliminate articles focused on a specific branch or
+strategies that integrate both historical and emerging perspec-                   company and/or short papers.
+tives to foster a more holistic understanding of the discipline.               • Eliminate NON-RELEVANT matters or subject
+   In summary, while the time frame adopted in this review                        based on title and/or abstract
+was necessary to ensure alignment with present-day chal-
+lenges and innovations in data governance, it is important to
+                                                                        4) SEARCHES CONDUCTION DETAILED
+acknowledge its limitations. Future research efforts should
+                                                                        The study was conducted using two primary methods:
+consider complementing temporally focused reviews with
+                                                                        direct searches within repositories utilizing the ‘‘advanced
+broader historical analyses to fully capture the conceptual
+                                                                        search’’ feature when available, and software used is
+depth and evolution of governance frameworks.
+                                                                        the latest version of Harzing’s Publish or Perish soft-
+                                                                        ware at https://harzing.com. For the latter, a maximum of
+TABLE 4. Inclusion criteria.                                            500 results per keyword was set, focusing on publications
+                                                                        from 2014 to 2024. This approach yielded a total of 2,500
+                                                                        records.
+                                                                           Subsequently, only studies published in English were
+                                                                        selected, then duplicate titles were removed, and all titles
+                                                                        deemed irrelevant to the research, such as those related to
+                                                                        specific branches or companies were excluded. This cleaning
+                                                                        action resulted in a set of 680 papers that would be further
+                                                                        analyzed.
+                                                                           AI-powered tools applied to PDF reading can automate
+                                                                        important phases of the systematic review process, particu-
+                                                                        larly in identifying and extracting data from articles. These
+                                                                        tools significantly reduce the amount of reading required by
+                                                                        providing automated summaries and highlighting the most
+                                                                        relevant sections. At the same time, they maintain or even
+                                                                        increase the accuracy and sensitivity in study selection, allow-
+                                                                        ing human judgment to focus on final decisions, optimizing
+TABLE 5. Preliminary exclusion criteria.                                time and effort [22], [23].
+                                                                           Hence, by utilizing the AI-powered tool AskyourPDF
+                                                                        found at https://askyourpdf.com, the abstracts of each record
+                                                                        were examined in batches, and those addressing identical or
+                                                                        irrelevant topics were discarded prioritizing the most recent
+                                                                        ones. This rigorous filtering process resulted in a preliminary
+                                                                        collection of 341 records detailed in Table 6. This allowed
+                                                                        for a deeper understanding of the studies’ contributions and
+                                                                        ensured that only those providing robust and reliable insights
+                                                                        were included.
+
+                                                                        TABLE 6. Remaining records per repositories.
+
+
+
+
+190648                                                                                                                             VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+5) QUALITY CONTROL DETAILED                                                      observe that the attempt to create something generic, repro-
+In line with Kitchenham’s guidelines [21], some of the key                       ducible, and applicable in various situations and different
+quality criteria that should be considered in an SLR include                     ways is the most prevalent approach in the studies, accounting
+methodological rigor, transparency in data collection and                        for approximately 35.5% of the cases. It is evident that this
+analysis, clarity of research objectives, and consistency in                     is the most prominent and significant characteristic for most
+addressing the research questions. These criteria help in fil-                   of the researchers analyzed. We can also get an idea of the
+tering studies, refining the scope of the review, and ensuring                   distribution of the studies by year in Figure 2, below.
+that the final selection of studies provides reliable answers to
+the research questions. A comprehensive list of these criteria,                  TABLE 9. Records by strongest quality criteria.
+as applied in this review, detailed in Table 7.
+
+TABLE 7. Quality criteria.
+
+
+
+
+                                                                                 FIGURE 2. Distribution of Records publication per year.
+   After applying the quality control criteria listed in table 7
+above, using the AI-Powered tool AskyourPDF a refined
+list of records was selected when all the criteria were met.                       The screening process followed inside the tool Askyour-
+We then could assure the highest standards of scientific rigor                   PDF was structured in this sequence:
+and relevance remained, reducing the records from 341 to 51.                       • Document upload: All retrieved articles were uploaded
+   The distribution of results based on quality criteria, illus-                     to the platform for full-text access and thematic explo-
+trated below in Table 8, helps to highlight which studies                            ration.
+are the most reliable and provide the strongest evidence,                          • Question-driven filtering: Specific questions were used
+ensuring that the final analysis of the review is grounded in                        to assess each article’s relevance to the objectives of this
+high-quality sources. Studies that score lower on essential                          review.
+criteria, such as data validity or bias minimization, may still                    • Exclusion of conceptual duplicates: When multiple
+be included in the analysis but should have less influence                           studies covered the same concepts, only the most com-
+on the overall conclusions. This process, as emphasized by                           prehensive, up-to-date, or methodologically rigorous
+Kitchenham, is crucial for ensuring that the review’s findings                       versions were retained.
+are accurate, trustworthy, and transparent, thereby promoting                      • Removal of studies with limited scope: Articles restricted
+its replicability and external validity of the [15] and [21].                        to a single case, organization, or non-generalizable con-
+                                                                                     text were excluded based on CQ-01 (Generalizability of
+TABLE 8. Records found in the repositories after QA - Final.                         Findings).
+                                                                                   • Application of exclusion criteria: Additional filters
+                                                                                     included:
+                                                                                   • CQ-02 (Contribution to Knowledge): Studies lack-
+                                                                                     ing clear theoretical or empirical contribution were
+                                                                                     removed.
+                                                                                   • CQ-03 (Bias and Limitations): Studies that failed
+                                                                                     to acknowledge their limitations or presented clear
+                                                                                     methodological bias were excluded.
+                                                                                   • CQ-04 (Validity of Conclusions): Studies with weak or
+   Distributing the records based on the most relevant quality                       unsupported conclusions, not clearly grounded in data
+criterion per study, as represented in Table 9 below, we can                         or analysis, were also excluded.
+
+VOLUME 13, 2025                                                                                                                            190649
+                                              L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+  •   Final organization: Remaining articles were organized             TABLE 10. List of records to be extracted.
+      for full-text review, data extraction, and categorization
+      aligned with the core research themes.
+   For record-keeping and historical purposes, Table 10 below
+lists all 51 final studies considered in this research. Addi-
+tionally, Table 11 illustrates the relevance of the most cited
+authors, along with their year of publication and the respec-
+tive number of citations. This ordination by citation helped to
+prioritize the reading and as a basis for ‘‘good to have’’ and
+‘‘must have’’ of the other studies with fewer citations.
+   Briefly and graphically, the whole screening process can
+be represented by Figure 3 below.
+
+
+
+
+FIGURE 3. Screening process summary.
+
+   In conclusion, the meticulous screening process and rig-
+orous quality control, grounded in Kitchenham’s guidelines,
+facilitated a systematic and thorough evaluation of the litera-
+ture. By adhering to this structured methodology, we ensured
+that only the most relevant and high-quality studies were
+incorporated into the review, thereby significantly enhancing
+the credibility and reliability of the findings. This process
+was essential in excluding irrelevant or low-quality studies,
+enabling the review to focus solely on evidence that mean-
+ingfully contributes to addressing the research questions.
+The precision of the screening phase played a critical role
+in minimizing bias, ensuring transparency, and upholding
+a replicable methodology throughout the study. This com-
+prehensive approach laid a solid foundation for deriving
+meaningful and robust discoveries. All this diligent work
+has culminated in the uncovering of valuable insights and
+knowledge, which are presented and further elaborated in
+the following section, Results, where the key findings of this
+extensive review are outlined [21].
+
+
+190650                                                                                                                             VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+TABLE 10. (Continued.) List of records to be extracted.                          TABLE 10. (Continued.) List of records to be extracted.
+
+
+
+
+VOLUME 13, 2025                                                                                                                            190651
+                                                      L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+TABLE 10. (Continued.) List of records to be extracted.                         TABLE 11. Records by citations.
+
+
+
+
+III. RESULTS: SYNTHESIS OF STUDIES AND KEY
+DISCOVERIES
+This systematic exploratory analysis has brought to light the
+most important and relevant concepts regarding data gover-
+nance, its frameworks, applications, and impacts on maturity,
+as well as the most used maturity models and evaluations.
+Additionally, it highlights existing gaps and the vast potential
+of this field to be further explored in search of tools and
+concepts that can support future academic and practical inves-
+tigations.
+   Beginning by addressing the definitions of data governance
+from various perspectives. Data governance encompasses a
+spectrum of definitions and applications, deeply rooted in the
+intricacies of managing an organization’s data assets. This
+essay explores the evolving definitions of data governance,
+emphasizing its importance in maintaining data integrity,
+ensuring compliance, and enhancing organizational perfor-
+mance. With the advent of stringent regulatory requirements
+and the exponential growth of data, the role of data gover-
+nance has become paramount in modern business practices.
+The significance of structured data governance approaches is
+highlighted by the increasing need to address First Nations
+data sovereignty issues, as detailed by [17], which stresses
+the importance of governance frameworks that respect com-
+munity data privacy and ownership.
+   Data governance is traditionally viewed as the systematic
+management of data accessibility, usability, integrity, and
+security in enterprises. Definitions tend to focus on data
+quality, compliance with regulations, and internal policies
+that control data usage. Over the years, the framework has
+expanded from a set of responsibilities and policies to a
+comprehensive program that includes people, processes, and
+technologies [16]. In Table 12 below, we can see those defi-
+nitions across several perspectives.
+   Data governance proved to be traditionally viewed as
+the systematic management of data accessibility, usability,
+integrity, and security in enterprises. Definitions tend to focus
+on data quality, compliance with regulations, and internal
+policies that control data usage. Over the years, the frame-
+work has expanded from a set of responsibilities and policies
+to a comprehensive program that includes people, processes,
+and technologies [16].
+   The Data Governance Reference Frameworks (DGRF)
+or simply Frameworks now often incorporate a multi-
+dimensional approach, involving not just the management
+
+
+190652                                                                                                                                     VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+TABLE 11. (Continued.) Records by citations.                                     TABLE 12. Definitions for data governance perspectives.
+
+
+
+
+                                                                                      involves setting and enforcing data quality standards to
+                                                                                      ensure that organizational data is accurate, complete,
+                                                                                      timely, and consistent. Effective data quality manage-
+                                                                                      ment helps businesses make more reliable decisions and
+                                                                                      improves operational efficiency.
+                                                                                    • Data Security and Privacy: Protecting data from unau-
+                                                                                      thorized access and ensuring compliance with privacy
+                                                                                      laws. This also involves implementing robust access con-
+                                                                                      trols and audit trails to monitor data usage and prevent
+                                                                                      data breaches.
+                                                                                    • Metadata Management: Managing the metadata to
+                                                                                      understand data origins, uses, and transformations.
+                                                                                      Developing a metadata repository to store information
+of data but also the governance of related technologies and                           about data assets is crucial. This includes descriptions
+business processes. This broader perspective helps organi-                            of data sources, data structures, and the relationships
+zations understand and ensure that data governance aligns                             between data elements, which are crucial for effective
+with business objectives, providing clear metrics for data                            data management and usage.
+quality and the evaluation of governance initiatives. The key                       • Data Operations Management: Operational oversight
+elements of a robust data governance framework include [1],                           includes data archiving, backup, and business continuity
+[18], [19] and [26]:                                                                  planning. This element ensures that data remains secure,
+   • Data Quality Management: Ensuring accuracy, time-                                accessible, and reliable over time, supporting opera-
+     liness, completeness, and consistency of data. This                              tional needs and compliance requirements.
+
+VOLUME 13, 2025                                                                                                                            190653
+                                                L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+  •   Regulatory Compliance: Adhering to relevant laws and                pragmatic structure supports deployment in contexts demand-
+      regulations that affect data usage. This includes main-             ing auditability and standardization. Data Mesh has gained
+      taining data in compliance with legal and regulatory                popularity among digitally native and data-driven compa-
+      frameworks, ensuring that the organization meets its                nies, particularly in the technology and software sectors. Its
+      external obligations.                                               scalability, agility, and alignment with DevOps practices and
+                                                                          microservices architectures make it attractive for modern data
+A. CONCEPTUAL FRAMEWORKS                                                  infrastructures [26]. However, its adoption requires signifi-
+In the development of conceptual frameworks for Data                      cant cultural changes and organizational engagement.
+Governance, a comparative understanding of the leading ref-                  Concluding that, in this way, considering its consolidated
+erence models is essential. This subsection explores three                relevance, comprehensive approach, and strong acceptance in
+influential approaches — DAMA-DMBOK, DCAM, and                            both market and academic spheres, DAMA-DMBOK stands
+Data Mesh — comparing them in terms of scope, maturity                    out as the most appropriate central axis for this investigation.
+support, and real-world applicability.                                    Its established structure, which integrates all essential areas
+   In terms of scope, DAMA-DMBOK (Data Management                         of data management, provides a clear, consistent, and widely
+Body of Knowledge), developed by DAMA International,                      recognized methodological foundation.
+provides a comprehensive and structured reference frame-                     Even so, we acknowledge that alternative models such
+work that covers all major areas of data management,                      as DCAM and Data Mesh offer significant and comple-
+including governance, architecture, quality, security, storage,           mentary contributions. DCAM stands out for its practical
+and metadata [1], [30]. It is widely accepted as a foundational           orientation and applicability to maturity and organizational
+standard in both academic and professional environments.                  self-assessment models, being particularly effective in regu-
+DCAM (Data Management Capability Assessment Model),                       latory and compliance-driven environments. Data Mesh, with
+developed by the EDM Council, offers a more pragmatic and                 its focus on decentralization and scalability, is highly aligned
+implementation-oriented approach, emphasizing capabilities,               with digital, agile, and distributed organizations.
+controls, and organizational alignment [51]. It is particu-                  Therefore, although the research is structured based on
+larly designed to support maturity assessments and regulatory             DAMA-DMBOK as the main conceptual reference, the prac-
+compliance in complex organizational settings. Meanwhile,                 tical contributions and distinctive features of DCAM and
+Data Mesh, proposed by Zhamak Dehghani, presents a more                   Data Mesh will be incorporated in future stages, broadening
+organizational and cultural scope, promoting a decentralized              the scope of the analysis and enabling the limitations of the
+data architecture where data ownership is distributed across              main model to be overcome, as illustrated in Figures 4 to 7
+business domains, encouraging self-service data platforms                 [1], [30], [26], and [51].
+and federated governance [26].
+   In terms of maturity support, DAMA-DMBOK provides
+conceptual guidelines that can indirectly support maturity
+assessments by formalizing data management functions.
+Although it does not include a native maturity model, its
+broad adoption enables it to be mapped onto external assess-
+ment frameworks [1], [32]. On the other hand, DCAM was
+explicitly designed as a maturity assessment tool. It includes
+detailed criteria and scoring mechanisms that allow orga-
+nizations to evaluate their current capabilities and define
+developmental roadmaps, especially in regulated sectors [51].
+Data Mesh does not feature a formal maturity model in the
+traditional sense. However, its conceptual principles enable
+agile and incremental evolution of data capabilities. Maturity
+in the context of Data Mesh is assessed based on domain
+autonomy, organizational alignment, and culture rather than
+linear stages [26].
+   In terms of real-world applicability, DAMA-DMBOK is                    FIGURE 4. Overview of data governance framework and models.
+deeply rooted in both industry and academia, serving as
+a foundation for implementing data governance programs                       Despite the various justifications presented above, incor-
+across various sectors. It is used in training, certification, and        porating DAMA DMBOK into data governance practices
+organizational structuring, offering a common vocabulary                  involves aligning data management activities with business
+and structured practices for data professionals [1], [30], [33].          strategies and objectives, as demonstrated by various sectors
+DCAM is widely adopted in the financial services, health-                 showing significant improvements in data handling, com-
+care, and government sectors, where data regulation requires              pliance, and strategic use of data. This integration ensures
+measurable compliance and maturity indicators [51]. Its                   the reliability, consistency, and security of their data assets,
+
+190654                                                                                                                               VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+                                                                                 such as artificial intelligence and machine learning, which
+                                                                                 pose new challenges and opportunities for data management,
+                                                                                 for example.
+                                                                                    The integration of comprehensive data governance frame-
+                                                                                 works into organizational strategy is crucial for building a
+                                                                                 resilient foundation for data management. As organizations
+                                                                                 continue to recognize the strategic value of data, the role of
+                                                                                 data governance as a critical function will expand, further
+                                                                                 embedding its principles into the fabric of organizational
+                                                                                 processes and culture [19].
+FIGURE 5. Best choice by context.
+                                                                                    Data governance frameworks significantly contribute to
+                                                                                 improving the maturity levels of data assets and user
+                                                                                 competencies within an organization. Maturity in data gover-
+                                                                                 nance refers to the extent to which data management practices
+                                                                                 are formalized and integrated into the daily operations and
+                                                                                 strategic planning of an organization. Higher maturity levels
+                                                                                 indicate more sophisticated, predictable, and effective data
+                                                                                 management practices. Assessing the maturity level of data
+                                                                                 governance functions is crucial for identifying gaps and plan-
+                                                                                 ning improvements. By leveraging frameworks such as the
+                                                                                 Stanford Data Governance Model, organizations can system-
+                                                                                 atically enhance their governance practices, thus achieving
+                                                                                 higher maturity levels [27].
+                                                                                    The adoption of data governance within organizations
+                                                                                 is driven by several antecedents, including the need for
+                                                                                 enhanced data quality, security demands, regulatory com-
+                                                                                 pliance, and the strategic use of data for business innova-
+                                                                                 tion [28]. These antecedents set the stage for a comprehensive
+                                                                                 approach to managing an organization’s data assets effec-
+                                                                                 tively.
+                                                                                    The impacts of implementing data governance are pro-
+FIGURE 6. Overview of data governance framework and models.                      found, ranging from improved decision-making and oper-
+                                                                                 ational efficiencies to enhanced compliance and risk man-
+                                                                                 agement. Data governance provides a structured framework
+                                                                                 to capitalize data as a strategic asset, thereby supporting
+                                                                                 business objectives and driving innovation.
+                                                                                    The scope of data governance extends across the entire
+                                                                                 organization, influencing various departments from IT to
+                                                                                 marketing, finance, and operations. It encompasses all
+                                                                                 aspects of data management, including data quality, data
+                                                                                 access, data lifecycle management, and data security.
+                                                                                    Consequently, the successful implementation of data gov-
+                                                                                 ernance leads to several positive outcomes for organizations.
+                                                                                 It enhances the maturity level of data management practices,
+                                                                                 making them more systematic and mature. This transfor-
+                                                                                 mation supports better compliance with data protection
+                                                                                 regulations and improves the overall reliability and value of
+                                                                                 data assets. Organizations become more agile, with the abil-
+FIGURE 7. Pros. & Cons.                                                          ity to respond quickly to market changes and opportunities,
+                                                                                 thereby gaining a competitive edge [28].
+ultimately enhancing overall performance and competitive-                           For instance, among other models cited in the studies the
+ness [1].                                                                        Capability Maturity Model Integration (CMMI) is a widely
+   The landscape of data governance continues to evolve as                       recognized framework designed to assist organizations in
+technology advances and regulatory environments become                           enhancing their processes and overall performance. This is
+more complex. Organizations must adapt their data gover-                         an example of a framework that helps organizations improve
+nance frameworks to accommodate emerging technologies                            their processes and performance and measure the maturity
+
+VOLUME 13, 2025                                                                                                                         190655
+                                              L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+level. It provides a set of best practices for process improve-
+ment across various areas such as software development,
+systems engineering, and project management. CMMI is
+structured into maturity levels, each representing a level of
+organizational process maturity and capability [29]. Crossing
+these maturity levels and their parameters with a standard
+and structured data governance framework, analyzing the
+antecedents and consequences after this implementation is
+the goal and primary question to be answered in this research.
+   In essence, the research and relevant material explored in
+this SLR come to light as the landscape of data governance
+continues to evolve as technology advances and regulatory
+environments become more complex. Organizations must
+adapt their data governance frameworks to accommodate
+emerging technologies such as artificial intelligence and
+machine learning, which pose new challenges and opportu-
+                                                                        FIGURE 9. Sample of Conceptual framework for data governance [16].
+nities for data management.
+   The integration of comprehensive data governance frame-
+works into organizational strategy is crucial for building a               Data governance mechanisms are the tools, processes, and
+resilient foundation for data management. As organizations              structures that organizations use to manage their data assets
+continue to recognize the strategic value of data, the role of          effectively, ensuring data integrity, usability, and compliance
+data governance as a critical function will expand, further             with regulations. As outlined by DAMA (Data Management
+embedding its principles into the fabric of organizational              Association International) [1], these mechanisms are aligned
+processes and culture.                                                  with the principles in the Data Management Body of Knowl-
+   The current state of understanding regarding data gover-             edge (DMBOK), providing a comprehensive framework for
+nance was analyzed based on the compilation of reviewed                 data governance. The mechanisms are categorized into three
+literature. A possible approach, compiling all the studies and          types: structural, procedural, and relational. Structural mech-
+models, could be represented and aligned with the struc-                anisms refer to the organizational roles, responsibilities, and
+ture depicted in Figure 8 and Figure 9, outlining a sample              structures in place to govern data; procedural mechanisms
+of a conceptual framework. Each aspect of this framework                involve the policies, standards, and processes for managing
+is meticulously examined to offer a comprehensive insight.              data; and relational mechanisms focus on fostering collab-
+Initiating the discussion by elaborating on the fundamental             oration and communication among different stakeholders to
+dimension, focusing primarily on governance mechanisms.                 ensure cohesive data management [16].
+Subsequently, delving into the organizational, data, and                   The significance of data governance mechanisms lies in
+domain scopes, elucidating how these aspects interact with              their ability to establish clear guidelines for managing and
+governance mechanisms. Following this, the antecedents that             protecting data. They help mitigate risks such as data mis-
+play a pivotal role in shaping the establishment and con-               use and unauthorized access and ensure that data practices
+figuration of data governance practices. Finally, encapsulate           comply with legal and regulatory requirements [24]. Data
+this section by exploring the consequences, delineating the             stewardship, a key mechanism, involves assigning specific
+various outcomes associated with the implementation of data             individuals or teams’ responsibility for managing data assets,
+governance.                                                             promoting accountability and data quality [9]. By implement-
+                                                                        ing these mechanisms, organizations could decision-making
+                                                                        and enhanced competitiveness [30].
+                                                                           We will delve deeper into what the literature reveals about
+                                                                        the data governance mechanisms presented in Figure 8. This
+                                                                        figure clearly synthesizes the most relevant concepts high-
+                                                                        lighted in this Systematic Literature Review (SLR). The
+                                                                        author, who is the second most cited in Table 11 with 678 cita-
+                                                                        tions, and many other studies, also reference this figure 8.
+                                                                        These mechanisms are frequently cited by authors as the
+                                                                        foundation for the effective management of an organization’s
+                                                                        data governance assets.
+
+                                                                        1) STRUCTURAL MECHANISMS
+                                                                        In DG refers to the organizational frameworks, roles, and
+FIGURE 8. The DAMA wheel [1].                                           policies that support the management and use of data across
+
+190656                                                                                                                             VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+an organization. These mechanisms are foundational ele-                          meeting their data governance objectives [35]. Training pro-
+ments that define how data governance is structured within                       grams are essential to ensure that employees understand
+a business, ensuring that data is managed effectively, accu-                     relevant laws and regulations, and monitoring and evalu-
+rately, and in alignment with the organization’s goals and                       ation processes are necessary to assess the effectiveness
+regulatory requirements [16].                                                    of governance frameworks [36]. Together, these procedural
+   The organizational structure of DG plays a pivotal role                       mechanisms create a structured system for managing data and
+in its effectiveness. A Data Governance Council, composed                        ensuring compliance within an organization [28].
+of senior representatives from different business sectors,
+sets policies and ensures alignment with business strategies.
+These councils determine the scope and approach for govern-                      3) RELATIONAL MECHANISMS
+ing data within the organization. Additionally, clear roles and                  in data governance refer to the interactions, collaboration,
+responsibilities, such as Business Data Stewards and Tech-                       and trust-building between individuals and teams within an
+nical Data Stewards, are critical for ensuring data accuracy,                    organization that facilitate effective data management. These
+security, and proper usage. These roles play a significant                       mechanisms are crucial for fostering cooperation among
+part in managing data compliance and supporting data-driven                      stakeholders, creating a shared understanding of data gover-
+decision-making. The role of data governance is increasingly                     nance principles, and ensuring that data governance policies
+becoming central to organizational success as the digital land-                  are followed consistently across the organization. Unlike
+scape evolves. By integrating robust frameworks, maintaining                     formal procedural or structural mechanisms, relational mech-
+compliance, and leveraging new technologies, businesses                          anisms focus on human interactions and the role of trust,
+can protect their data assets and drive innovation [10], [28]                    feedback, and collaboration in ensuring the smooth operation
+and [31].                                                                        of governance frameworks. They contribute to building cohe-
+                                                                                 sive teams and strengthening relationships that underpin data
+                                                                                 governance efforts [14], [16].
+2) PROCEDURAL MECHANISMS                                                            In a data governance setting, relational mechanisms
+In DG refer to the structured processes, rules, and policies                     emphasize cooperation, communication, and the establish-
+that organizations implement to manage and safeguard their                       ment of trust-based relationships between stakeholders.
+data assets. These mechanisms establish clear procedures                         These mechanisms not only support formal governance pro-
+for data classification, access control, retention, and dele-                    cesses but also enhance them by facilitating continuous
+tion, ensuring that data is handled consistently and securely                    coordination and interaction. Relational mechanisms help
+throughout its lifecycle [16]. Procedural mechanisms facil-                      clarify complex interdependencies within organizations and
+itate collaboration, discussions, and negotiations between                       enable collective action on issues such as data quality and
+stakeholders, encouraging transparency and inclusiveness in                      security [37]. For example, trust-seeking and bonding mecha-
+decision-making processes. They serve as a foundation for                        nisms allow teams to collaborate more effectively by creating
+efficient and effective data management across organizational                    personal or social bonds, which are vital for long-term
+operations, supporting data integrity, security, and regulatory                  success in governance projects. Additionally, reciprocity
+compliance [9] and [12].                                                         mechanisms encourage disciplined actions in data handling
+   The first step in procedural governance involves establish-                   by fostering mutually beneficial interactions between data
+ing data classification and categorization systems, which are                    stakeholders [30].
+foundational for securing and managing data. These systems                          By complementing formal instruments such as policies
+help protect sensitive information and ensure compliance                         and enforcement measures, relational mechanisms enhance
+with governmental standards. Identity management systems                         the overall effectiveness of data governance. These mech-
+(IMS) and data access controls are also key procedural mech-                     anisms are particularly important in ensuring that informal
+anisms, ensuring users only have access to the data necessary                    and formal governance tools work in harmony, leading to
+for their roles [32], [33]. This protects data integrity and                     better organizational performance [35]. As relational mech-
+minimizes risks associated with unauthorized access. Addi-                       anisms help build shared practices and foster collaborative
+tionally, robust data retention and deletion policies play a                     environments, they become a critical part of measuring the
+critical role in procedural governance by reducing unneces-                      success of data governance efforts. Future research in this
+sary data storage and demonstrating a commitment to privacy                      area should focus on developing empirical strategies to assess
+and legal obligations. Effective data retention practices sup-                   the effectiveness of relational mechanisms in business set-
+port both operational efficiency and compliance with ethical                     tings, as understanding their impact remains a relatively
+and legal standards [4], [34]. Another crucial aspect of pro-                    unexplored but essential aspect of data governance [25], [38].
+cedural mechanisms is the establishment of governance roles,                        Data Governance Scope refers to the extent of governance
+such as Chief Data Officers and Data Stewards, who over-                         activities required to manage and utilize an organization’s
+see the implementation of governance policies and ensure                         data assets effectively. It defines the boundaries within which
+their adherence across the organization [31]. These roles                        data management policies, procedures, and responsibilities
+help maintain accountability and guide organizations toward                      operate, ensuring that data quality, security, compliance, and
+
+VOLUME 13, 2025                                                                                                                          190657
+                                               L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+proper utilization are maintained throughout the organiza-                  In conclusion, data governance frameworks must incorpo-
+tion. A clear scope helps prioritize data governance efforts,            rate well-defined data scopes to enhance data management
+align them with business objectives, and allocate resources              practices. These scopes involve a wide range of elements,
+effectively. By setting these parameters, organizations ensure           such as data quality, data lineage, and data distribution, and
+that data governance is tailored to specific needs and chal-             must be tailored to the specific industry or organizational
+lenges [2], [11], [37]. We will explore in detail the data               context. By doing so, organizations -whether operating within
+governance scopes demonstrated in Figure 8.                              a single entity or collaborating across multiple organizations
+                                                                         - can ensure alignment between their data management goals
+                                                                         and operational processes, leading to improved business out-
+4) DATA SCOPE                                                            comes and regulatory compliance [38].
+Data governance involves the practices and technologies used
+to create formal registries of data attributes, such as Master           5) DOMAIN SCOPE
+Data Management (MDM), data quality, and data modeling.                  Defining the domain scope is a crucial first step in any
+One of the key steps in this process is defining the data scope,         data governance initiative. A domain in data governance is
+which determines which data will be governed. While there                typically defined as the unit of data that will be managed
+is no consensus in the literature regarding the terminology              and governed by the system. Domains encompass data and
+or methodology for defining the scope, it is generally agreed            various related artifacts and are managed under consistent
+that the scope should be aligned with the organization’s oper-           policies, ensuring data integrity, security, and governance
+ational, tactical, and strategic goals. However, a standardized          operations. Organizations may define domains based on
+guide for determining this scope is often missing. The scope’s           specific business units, data sources, or functional areas,
+definition plays a critical role in aligning IT and business             ensuring that data management is aligned with the overall
+objectives and ensuring data governance initiatives are com-             goals of the organization [37]. Different organizations may
+prehensive [16]. Data governance can be applied both within              classify domains based on various attributes, such as purpose,
+an organization (intra-organizational) and between organi-               security, or application, depending on their unique needs.
+zations (inter-organizational), expanding its complexity and             In this context, domain scope is integral to ensuring that
+importance depending on the scale of collaboration and data              data policies are applied uniformly across all relevant areas,
+sharing [35].                                                            improving the consistency and reliability of data management
+   In intra-organizational data governance, the focus is on              practices [19].
+managing data within a single entity, ensuring data quality                 Furthermore, domain scope plays a critical role in structur-
+and integrity across departments, aligning data strategies with          ing data governance programs, especially in the classification
+business goals, and ensuring compliance with internal poli-              of data decision domains. Key areas such as data quality,
+cies. The clear definition of roles, such as data stewards, helps        security, architecture, lifecycle, metadata, and storage are
+maintain governance structures that prioritize data accuracy             often considered when defining the scope of a data gov-
+and secure access to sensitive information [39]. On the other            ernance initiative [6]. Broadening the domain scope can
+hand, inter-organizational data governance expands beyond a              enhance governance efforts, but it may also require trade-
+single entity to include external stakeholders such as suppli-           offs, particularly when balancing regulatory compliance with
+ers, partners, and regulatory bodies. This broader governance            operational efficiency. Organizations must also consider
+scope requires mechanisms like standardized data-sharing                 geographical scope and the alignment of data governance
+protocols and service-level agreements (SLAs) to ensure                  services across different regions and business functions to
+secure collaboration between organizations while balancing               ensure a cohesive governance strategy [12]. By focusing
+risks and rewards associated with data handling [9], [40].               on the domain scope, organizations can better manage the
+   Establishing the data scope also includes policies that               complexities of data governance and ensure that all data gov-
+control access to high-quality data, the definition of data              ernance efforts are aligned with business needs and regulatory
+items, and the stakeholders or domains to be governed.                   requirements [9].
+These policies should be applied across different data types,               Additionally, a comprehensive domain scope facilitates
+whether data is stored, in transit, or externally sourced. Data          the alignment of data governance with strategic business
+scope plays an essential role in classifying data as an asset            objectives by ensuring that the framework addresses specific
+and ensuring that organizations treat their data accordingly.            operational needs. It supports the integration of governance
+By properly defining and managing data scope, organizations              policies across various data domains, ensuring that all aspects
+can ensure that they fulfill stakeholder requirements, opti-             of data, from creation to deletion, are managed accord-
+mize business processes, and extract maximum value from                  ing to consistent standards [11]. This includes developing
+their data [11]. This process also involves implementing a               detailed data stewardship roles, establishing data ownership,
+metadata catalog to increase data visibility and value, making           and applying policies related to data privacy, security, and
+data more understandable and accessible across the organiza-             compliance [30]. Moreover, domain scope enables organiza-
+tion, whether it is used internally or shared externally through         tions to define how data will be shared and accessed within
+inter-organizational efforts [25].                                       and between departments, providing the necessary structure
+
+190658                                                                                                                              VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+for both intra-organizational and inter-organizational col-                      analytics, changes in legal regulations such as consumer data
+laboration [39]. It also allows for agility in adapting to                       privacy laws, and evolving market demands [43]. Organiza-
+evolving regulatory requirements and the changing data land-                     tions need to be agile in adapting to these external forces
+scape [41].                                                                      to ensure their data governance strategies remain relevant
+   In conclusion, a well-defined domain scope is critical to                     and effective. However, challenges such as the complexity of
+the success of data governance initiatives. It ensures that data                 managing diverse data types, multi-cloud environments, and
+governance efforts are aligned with organizational objectives,                   delays in information sharing can hinder successful imple-
+supports the management of data across different units or                        mentation [44].
+regions, and facilitates compliance with regulatory standards.                      Internal antecedents, on the other hand, are factors within
+By focusing on the right domain scope, organizations can                         the organization that affect data governance. These include
+enhance their data management practices, improve data qual-                      domain-specific factors like business and data literacy,
+ity and security, and optimize the value they derive from their                  strong leadership, and vision [45]. Organization-specific ele-
+data assets. Ultimately, a clear and comprehensive domain                        ments focus on engagement, commitment, and readiness
+scope sets the foundation for effective and sustainable data                     to address data-related challenges, while personnel-specific
+governance [8] and [42].                                                         factors emphasize valuing data, continuous education, and
+   In the context of Data Governance, antecedents are often                      fostering a data-driven culture [36]. Despite the potential,
+referred to as the drivers, motivators, or factors that lead orga-               challenges such as low internal data literacy, insufficient
+nizations to implement data governance frameworks. These                         leadership support, and underdeveloped data governance
+could include regulatory requirements, business objectives,                      frameworks continue to slow progress in this area [37].
+technological advancements, or the need to mitigate risks                        Addressing both external and internal antecedents is crucial
+associated with data breaches and poor data quality. For                         to overcoming these barriers and implementing effective data
+instance, regulatory compliance is a critical driver, partic-                    governance strategies.
+ularly as more stringent data protection laws such as the
+GDPR have emerged [11]. Similarly, the increasing com-
+plexity and volume of data, along with the demand for                            7) CONSEQUENCES
+high-quality, reliable data for decision-making, are also key                    Data governance is a multi-level field that helps organiza-
+motivators [16]. Essentially, antecedents are the reasons or                     tions manage data complexities and align them with business
+triggers that prompt an organization to adopt structured data                    objectives. A comprehensive data governance model assists
+governance practices [19].                                                       managers in understanding how their actions impact data
+   On the other hand, consequences are typically referred                        across the organization. This framework not only supports
+to as the outcomes, results, or impacts of implementing                          decision-making but also plays a critical role in achieving
+data governance. These may include improved data qual-                           higher levels of governance maturity by ensuring data man-
+ity, enhanced regulatory compliance, better decision-making,                     agement practices are structured and effective [30].
+operational efficiency, or an overall more data-driven culture                      One of the critical aspects of data governance is the under-
+within the organization [12]. For example, organizations that                    standing of control, evaluation, and consequences. These
+have implemented strong data governance frameworks report                        elements define how governance actions affect the organi-
+significant improvements in data consistency, compliance,                        zation’s ability to manage data-related risks, such as data
+and operational efficiency [7]. In addition, effective data gov-                 breaches, compliance failures, and quality issues. Recog-
+ernance can mitigate risks related to data privacy and security,                 nizing the consequences of governance decisions allows
+ultimately safeguarding sensitive information and promoting                      organizations to proactively mitigate risks and implement
+trust among stakeholders [39]. These outcomes reflect the                        remedial measures, ensuring smoother project execution.
+tangible benefits and changes that occur because of proper                       Proper governance also boosts performance, with higher data
+data governance implementation as detailed next.                                 quality leading to better decision-making, efficiency, and
+                                                                                 customer satisfaction [46].
+                                                                                    Consequences play a vital role in the maturity level of
+6) ANTECEDENTS                                                                   data governance. As organizations advance in their gover-
+As mentioned in data governance context, external and inter-                     nance practices, they begin to understand and anticipate the
+nal factors significantly influence its adoption and implemen-                   outcomes of their data management decisions. Mature data
+tation. Despite increased investments in data management,                        governance includes mechanisms for measuring the impact
+challenges such as delays in information consumption, com-                       of governance policies, such as improved data accuracy,
+plexity in managing diverse data types, and the use of                           enhanced security, and regulatory compliance. By focusing
+multi-cloud strategies can hinder the progress of large-scale                    on the consequences, companies can assess the effectiveness
+data governance initiatives [34].                                                of their governance strategies and make data-driven improve-
+   External antecedents refer to factors outside the organiza-                   ments that contribute to continuous growth [47].
+tion that influence the adoption of data governance practices.                      Measuring the consequences of data governance initia-
+These include technological advancements like big data                           tives is essential for tracking progress and ensuring that
+
+VOLUME 13, 2025                                                                                                                          190659
+                                              L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+governance practices are delivering the desired outcomes.               move from ad-hoc and inconsistent practices to more stan-
+Organizations that regularly evaluate the effects of their gov-         dardized and optimized governance structures. This advance-
+ernance decisions can make informed adjustments, ultimately             ment is critical as it ensures that data is managed in line with
+enhancing their governance maturity. By doing so, they can              organizational goals, regulatory requirements, and evolving
+ensure that their data governance framework not only sup-               technological landscapes. Organizations at higher maturity
+ports current business needs but also evolves with future               levels benefit from improved data quality, regulatory compli-
+challenges and opportunities [44], [48].                                ance, and more effective decision-making processes [33].
+                                                                           Another model cited is the Capability Maturity Model
+                                                                        Integration (CMMI) that is by far the most widely used and
+8) MATURITY LEVEL                                                       mentioned maturity model and constantly addressed to assess
+In the context of data governance, assessing maturity is essen-         data governance maturity is appropriate because it offers
+tial to understand how well an organization manages its data            a well-established method for process improvement across
+assets and aligns governance practices with strategic goals.            various domains, including data governance and this is the
+Throughout the literature, several maturity models have been            model to be used as reference but not limited to. CMMI’s
+proposed to support this evaluation. This Systematic Litera-            structured approach to evaluating process capabilities helps
+ture Review (SLR) highlights six models of relevance: DGM2              organizations identify key areas for improvement, making it
+[44], DGCMM [49], CMMI [29], and Stanford Data Gov-                     suitable for managing complex data environments. Its focus
+ernance Model [27]. While all offer valuable contributions,             on continuous improvement aligns with the evolving needs
+the CMMI and DGCMM models were explored in greater                      of data governance, ensuring that organizations can adapt
+depth due to their wide applicability, frequent use in empirical        to changing data landscapes while maintaining control and
+studies, and strong alignment with the research objectives.             compliance [49].
+CMMI is widely known for its structured maturity levels and                This combination of DGCMM and CMMI methodolo-
+focus on continuous process improvement, making it suitable             gies offers organizations a comprehensive toolset to manage,
+for evaluating data governance practices across various orga-           measure, and continuously improve their data governance
+nizational settings [29]. In contrast, DGCMM emphasizes                 practices, contributing to better data-driven outcomes [42].
+organizational capability and the strategic treatment of data,             All the details and comparison between them can be seen
+offering a more tailored approach to diagnosing and enhanc-             in Figures 10 to 13.
+ing data governance effectiveness [49].
+   The decision to concentrate on these two models is also
+supported by their ability to clearly define maturity levels
+and evaluation criteria, which are essential for analyzing the
+impact of structured frameworks on governance maturity.
+Other models, such as DGM2 [44] and Stanford [27], were
+acknowledged but proved to be less adaptable to IT gover-
+nance contexts when compared to CMMI and DGCMM.
+   Therefore, CMMI and DGCMM were identified as offer-
+ing the best combination of theoretical foundation, academic
+relevance, and practical utility in advancing the understand-
+ing and implementation of data governance maturity.
+   In the studies analyzed during the exploration, some matu-
+rity models were mentioned and proved to be relevant in
+this SLR such as the Data Governance Capability Matu-
+                                                                        FIGURE 10. Maturity models overview.
+rity Model (DGCMM) is structured as a process-oriented
+framework designed to evaluate an organization’s ability to
+manage data as a core asset. The model is used to assess                IV. LANDSCAPE: FUTURE RESEARCH PATHWAY
+how well data governance practices are implemented and                  The preceding discussion establishes a theoretical structure
+how these practices evolve over time. Typically, organizations          for data governance, encapsulating a thorough synthesis of
+move through multiple maturity levels, each representing an             studies and key discoveries pertinent to the field thus far.
+increased sophistication in managing data governance tasks.             Stemming from specific elements highlighted in our prior
+The DGCMM allows organizations to identify gaps in their                analysis, it was proposed to have a research roadmap in the
+data governance strategies and implement improvements for               realm of data governance. This future research pathway is
+better management of data quality, security, and usage effi-            delineated into six key dimensions: (I) governance mecha-
+ciency [29].                                                            nisms; (II) scope of data governance; (III) Antecedents to
+   Maturity impacts data governance by providing a struc-               data governance; (IV) Consequences of data governance; (V)
+tured approach to advancing data management capabilities.               the ability to generalize and replicate outcomes; and (VI)
+As organizations progress through the levels of maturity, they          Measuring and evaluating the maturity level possible impacts.
+
+190660                                                                                                                             VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+                                                                                 among executives of the risks associated with poor data
+                                                                                 governance, highlighting the need for strong mechanisms.
+                                                                                 Despite the growing importance of data governance, orga-
+                                                                                 nizations face challenges in balancing stakeholder needs
+                                                                                 and implementing effective governance tools. Advanced
+                                                                                 technologies like machine learning (ML) and artificial intel-
+                                                                                 ligence (AI) require precise data management to avoid biased
+                                                                                 or erroneous outputs. The rise of the Internet of Things (IoT)
+                                                                                 further complicates governance, given the large volumes of
+                                                                                 real-time data that fuel these models.
+                                                                                    Data governance ensures that organizational data is
+                                                                                 effectively managed through clearly defined ownership,
+                                                                                 accountability, and policies. Despite these frameworks,
+                                                                                 increasing security breaches and data-related lawsuits under-
+FIGURE 11. Maturity models key features comparison.
+                                                                                 score the need for comprehensive governance mechanisms.
+                                                                                 Regulatory-driven programs often focus on specific data
+                                                                                 elements, whereas analytics-driven initiatives may govern
+                                                                                 broader data domains. Research is needed to better under-
+                                                                                 stand how the scope of data ownership impacts governance
+                                                                                 success and how decision-making structures can be opti-
+                                                                                 mized.
+                                                                                    The literature also emphasizes the evolving nature of data
+                                                                                 governance, as it must adapt to both internal organizational
+                                                                                 needs and external pressures, such as regulatory changes.
+                                                                                 Governance is increasingly seen as a dynamic, rather than
+FIGURE 12. Maturity models Pros & Cons.
+                                                                                 static, process, calling for ongoing qualitative, quantitative,
+                                                                                 and longitudinal studies to ensure that it remains effective
+                                                                                 in the face of shifting technological and regulatory land-
+                                                                                 scapes [29], [46], [47].
+                                                                                    Integrating AI and ML into data governance frameworks
+                                                                                 is reshaping organizational strategies. AI-driven tools sig-
+FIGURE 13. Maturity models best choice by context.
+                                                                                 nificantly enhance data quality by detecting patterns and
+                                                                                 anomalies in real time, enabling faster and more accurate
+   To further support the ongoing advancement of data gov-                       decision-making. Moreover, ML simplifies compliance by
+ernance, it is critical to foster interdisciplinary collaboration.               automating tasks and ensuring adherence to regulations, thus
+By integrating insights from fields such as information tech-                    reducing associated costs and risks [24], [50].
+nology, business management, and compliance, researchers                            The ability of Real-Time Data Governance to make
+can develop more robust governance frameworks. These                             data-driven decisions instantly is a key differentiator. Real-
+frameworks should not only address current regulatory and                        time data governance allows organizations to continuously
+technological challenges but also anticipate future trends and                   process and analyze data, generating valuable insights that
+disruptions.                                                                     support immediate actions. Since AI and ML models thrive on
+   In conclusion, our analysis not only underscores the                          fresh data, adopting dynamic governance strategies ensures
+importance of a structured approach to data governance but                       these technologies operate using the most current and relevant
+also highlights the necessity for continuous evolution in                        information [38], [50].
+research methodologies. As new technologies emerge and                              Choosing between centralized and decentralized data
+data landscapes become more complex, updating and adapt-                         governance modelsis a strategic decision that affects how
+ing our research agenda will be crucial. This will ensure that                   policies are implemented and enforced. Centralized mod-
+data governance frameworks remain effective and relevant,                        els offer consistency and control, whereas decentralized
+thereby enhancing organizational performance and compli-                         frameworks—such as data mesh—provide flexibility, allow-
+ance in an increasingly data-driven world.                                       ing individual teams to tailor data management to their
+                                                                                 specific needs. A hybrid model may combine the strengths
+A. DATA GOVERNANCE MECHANISMS PATHWAY                                            of both approaches, fostering both innovation and compli-
+In today’s data-driven environment, data governance mech-                        ance [26], [43].
+anisms play a vital role in managing and safeguarding data,                         Incorporating ethical principles into AI ensures respon-
+which is now viewed as one of an organization’s most crucial                     sible use of data, promoting transparency and alignment
+assets. High-profile data breaches have increased awareness                      with societal values. Ethical data governance is essential for
+
+VOLUME 13, 2025                                                                                                                          190661
+                                               L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+maintaining public trust and ensuring that governance prac-              widespread adoption of data governance models within orga-
+tices respect individual and collective rights [17], [43].               nizations [16], [24] and [50].
+   Cloud technology has revolutionized data governance by                   Future investigations should prioritize the development of
+offering scalable solutions that support AI and ML initiatives.          holistic and empirically grounded frameworks that integrate
+Cloud-based platforms allow for the storage, management,                 technological, organizational, ethical, and legal dimensions.
+and processing of large datasets more efficiently, facilitating          Abraham et al. [16] emphasizes the need for unified the-
+faster, AI-driven insights. These platforms also provide robust          oretical foundations capable of addressing the multifaceted
+security features, ensuring data integrity and regulatory com-           challenges posed by modern data environments. This includes
+pliance in a cost-effective manner [11], [24].                           designing adaptable models that cater to a broad range of
+   Organizations are increasingly focusing on key perfor-                industries and governance contexts.
+mance indicators (KPIs) to assess the success of their data                 Another critical direction involves aligning data gov-
+governance strategies. Data quality metrics, cost savings                ernance practices with societal values such as fair-
+from reduced manual processing, and improved compliance                  ness, transparency, and accountability. As highlighted by
+are among the most important Return on Investment (ROI)                  Janssen et al. [50], governance mechanisms must extend
+indicators. Tracking these results not only justifies further            beyond regulatory compliance to ensure ethical oversight,
+investment but also helps ensure that AI efforts remain                  especially in contexts involving AI and automated decision-
+aligned with strategic objectives [19], [45].                            making. This requires rethinking how ethical principles can
+   To further enhance the effectiveness of data governance               be effectively embedded into governance policies and opera-
+mechanisms, future research should explore:                              tional procedures.
+   • Synthetic Data Governance: Investigate the challenges                  Additionally, longitudinal research is needed to understand
+      and opportunities presented by synthetic data use,                 how organizations mature in their governance capabilities
+      especially regarding bias, security, and data integrity            over time. Houser and Bagby [24] advocate for adaptive
+      [24], [38].                                                        models that reflect the ongoing evolution of technologies and
+   • Data Cooperatives: Examine democratic models of data                organizational needs. Such models should serve not only as
+      governance, such as data cooperatives, which enable                assessment tools but also as strategic instruments for guiding
+      individuals to collectively control their information, fos-        continuous improvement in governance practices.
+      tering ethical and sustainable practices [17].                        Comparative analyses of data governance frameworks
+   • Dynamic Consent: Develop approaches that allow indi-                across different sectors and regions also offer promising
+      viduals to manage their data-sharing preferences in real           insights. Benchmarking initiatives, like the one conducted
+      time, increasing transparency and trust [17].                      by Marcucci et al. [25], provide valuable evidence on which
+   • Governance in Multimodal Data Environments: Explore                 models are most effective in specific contexts, and how
+      governance frameworks that integrate diverse data                  lessons learned in one domain can inform practices in
+      sources to better understand human behavior while                  others. These studies support the development of gover-
+      ensuring data quality and ethical handling [50].                   nance approaches that are both context-sensitive and globally
+   • Data Governance for AI: Analyze how data governance                 informed.
+      must adapt to meet AI-specific needs, ensuring that                   Finally, the rapid adoption of emerging technologies such
+      the data used is of high quality, secure, and ethically            as data mesh, blockchain, and edge computing calls for
+      sound [50].                                                        a reexamination of governance paradigms. As shown by
+   These research areas are crucial to developing data gov-              Wider et al. [26], decentralized models introduce new pos-
+ernance frameworks that are resilient, adaptable, and aligned            sibilities and complexities, demanding empirical research to
+with emerging technological and societal demands.                        assess their practical viability and implications for account-
+                                                                         ability, control, and data quality.
+B. SCOPES OF DATA GOVERNANCE PATHWAY
+The scopes span across various disciplines, touching on                  C. ANTECEDENTS AND CONSEQUENCES PATHWAY
+technological, organizational, and ethical aspects. Its impor-           Understanding the antecedents of data governance is becom-
+tance is recognized for fostering better governance practices            ing increasingly critical, as organizations face mounting
+and promoting collaboration among stakeholders, such as                  regulatory pressures, risk exposure, and growing recognition
+policymakers, businesses, and institutions. The need for com-            of data as a core strategic asset. Key factors that trigger the
+prehensive frameworks and roadmaps in data governance is                 adoption of governance frameworks include regulatory obli-
+emphasized, aiming to address the complexity of governing                gations, organizational maturity, market expectations, and
+data in the age of big data and machine learning.                        industry-specific compliance needs. However, as highlighted
+   Despite its potential, data governance research remains               by Abraham et al. [16], research in this area often lacks the-
+fragmented and narrowly focused, often lacking a holistic                oretical depth and empirical consistency, making it difficult
+perspective. The existing literature is highly prescriptive and          to generalize or tailor governance strategies across sectors.
+operational, focusing more on best practices than on con-                Future research should focus on systematically identifying
+ceptual clarity or empirical validation. This has limited the            and categorizing these antecedents through comparative and
+
+190662                                                                                                                              VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+longitudinal studies that consider different organizational                      future research must move toward the empirical validation
+contexts and industry characteristics.                                           of governance models and their real-world impact. This
+   One pressing research avenue involves deepening the                           includes exploring how governance strategies can be better
+understanding of how foundational data governance capa-                          aligned with stakeholder expectations, business models, and
+bilities such as metadata management, data quality, and                          evolving societal demands ensuring that governance prac-
+lineage act as enablers of successful implementation. These                      tices are not only effective but also contextually relevant and
+core components are widely acknowledged in practice but                          sustainable.
+often underexplored in academic literature. As noted by Leg-
+ner et al. [18], there is a need to connect these technical                      D. DG MATURITY MODEL PATHWAY
+dimensions with organizational strategy, ensuring that they                      The development and implementation of data governance
+are not treated in isolation. Research should examine how                        maturity models have become essential for organizations
+the integration of these elements within governance models                       aiming to manage data as a strategic asset. These models
+can drive greater adoption and effectiveness across varying                      serve not only as diagnostic tools but also as roadmaps
+organizational structures.                                                       for aligning governance structures with business objectives.
+   When considering the consequences of data governance,                         At their core, maturity models help organizations understand
+the scope extends far beyond regulatory compliance and                           their current stage of data governance and identify pathways
+risk mitigation. Well-structured governance can drive trans-                     for evolution, integrating aspects such as data quality man-
+formation by enabling data-driven innovation, especially in                      agement, governance structures, and organizational culture.
+customer engagement, digital services, and platform-based                        As highlighted by Mahanti [42], a robust maturity model must
+business models. However, as Janssen et al. [50] point                           connect data quality initiatives with strategic management
+out, evaluating these outcomes is complex and multidi-                           principles, ensuring that improvements in data accuracy and
+mensional. Future studies should employ mixed-methods                            reliability are directly tied to organizational performance.
+research designs to explore how data governance contributes                         A key area of inquiry involves deepening the relation-
+to value creation, improved decision-making, and cost                            ship between data governance and performance indicators,
+optimization—while accounting for moderating variables                           particularly in terms of innovation, process efficiency, and
+such as organizational culture, technological infrastructure,                    competitive advantage. Organizations that operate within
+and external institutional factors.                                              complex ecosystems engaging with regulatory bodies, sup-
+   Another promising line of inquiry involves examining                          pliers, and partners require mature governance capabilities to
+how governance frameworks influence organizational behav-                        support standardized, high-quality data exchanges. As noted
+ior, leadership, and decision rights. As highlighted by                          by Saputra et al. [44], the ability to maintain consis-
+Micheli et al. [47], governance is not merely a techni-                          tent data definitions and practices across departments and
+cal or bureaucratic function; it reflects and shapes power                       stakeholders is a strong indicator of governance maturity.
+relations, accountability mechanisms, and strategic direc-                       Future research should examine how such maturity affects
+tion. Investigating how data governance impacts managerial                       inter-organizational collaboration and digital transformation
+decision-making, team autonomy, and strategic agility can                        outcomes in various sectors.
+offer insights into its transformative role. Future work should                     The use of Key Performance Indicators (KPIs) is central
+also explore the governance-innovation nexus, particularly                       to assessing the effectiveness and progression of data gov-
+how clarity in data stewardship fosters or constrains exper-                     ernance initiatives. KPIs related to data accuracy, timeliness,
+imentation and agility in data-intensive initiatives.                            completeness, and consistency offer quantitative insights into
+   Furthermore, the adoption of data governance affects                          the success of governance programs. Kurniawan et al. [29]
+internal governance models and has implications for cross-                       emphasize that these metrics must be context-aware and
+functional coordination, platform ownership, and ethical                         strategically aligned, guiding both operational improvements
+stewardship of data. These dynamics underscore the need to                       and executive decision-making. However, existing maturity
+approach governance as both a technical architecture and a                       models often lack detailed guidance on selecting and adapt-
+social system. Researchers should explore how governance                         ing KPIs to different organizational environments. Further
+interacts with organizational identity, trust in data, and inter-                empirical research is needed to establish standardized, yet
+departmental collaboration. Such analysis would benefit from                     flexible KPI frameworks that accommodate sector-specific
+case studies and ethnographic research in diverse sectors,                       requirements.
+providing contextual depth to the study of governance con-                          Scoring methodologies embedded in maturity models also
+sequences [16].                                                                  warrant closer examination. While these tools offer structured
+   Lastly, substantial research gaps remain regarding the                        ways to evaluate progress, they risk becoming overly rigid
+systemic outcomes of governance strategies across indus-                         or biased if not properly calibrated. Mahanti [42] warns that
+tries and regulatory environments. Although existing frame-                      poorly designed scoring systems can hinder rather than sup-
+works provide conceptual guidance, their operationalization                      port governance evolution. Future investigations should focus
+is often unclear or inconsistent. As Abraham et al. [16],                        on refining scoring mechanisms to ensure objectivity, com-
+Micheli et al. [47], and Janssen et al. [50] collectively suggest,               parability, and relevance, possibly incorporating AI-based
+
+VOLUME 13, 2025                                                                                                                          190663
+                                              L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+assessment tools or benchmarking databases for dynamic                     Measuring and Maturity Levels: The research emphasized
+evaluation.                                                             the importance of measuring data governance maturity levels
+   Another significant research opportunity lies in study-              to identify areas for improvement and track progress. The
+ing the longitudinal application of maturity models. While              concept of maturity levels helps organizations understand
+many organizations use these models as one-time diagnostic              their current state and set targets for future development.
+tools, there is limited understanding of how maturity evolves           However, the study noted that defining and assessing maturity
+over time and what factors influence sustained governance               remains under-researched and under-theorized. Establishing
+improvements. Studies should adopt longitudinal case study              a scoring methodology to measure the maturity of the Data
+methods to track the lifecycle of data governance programs,             Governance Framework is crucial, as it provides insight
+identifying the enablers and barriers that affect progression           into the data governance maturity and helps set priorities
+through maturity stages. Such research could inform the                 for improvement actions. Common approaches for assessing
+design of adaptive models that evolve in response to organi-            maturity levels, such as the Software Engineering Institute’s
+zational change, technological advancement, and regulatory              model, are vital in the initial phase but often require adapta-
+shifts [44].                                                            tion to fit the specific context of data governance.
+   Finally, the integration of maturity models with broader                Limitations and Future Research: The review identified
+strategic management frameworks—such as the balanced                    several gaps in the current understanding of data governance
+scorecard—presents a valuable direction for inquiry. This               and proposed a future research agenda enriched with critical
+integration can offer a holistic view of how data governance            inquiries for subsequent investigation. It emphasizes the need
+contributes to financial performance, customer satisfac-                for expanding research methodologies to include a broader
+tion, internal processes, and learning and growth. Empirical            and more diverse sample of organizations and stakeholders
+research is needed to test how combined frameworks func-                beyond IT and data management executives. Additionally, the
+tion in practice and whether they produce superior outcomes             integration of quantitative approaches and longitudinal analy-
+compared to standalone data governance assessments [42].                ses could provide deeper insights into the causal relationships
+   In conclusion, while maturity models have become foun-               between governance frameworks, maturity progression, and
+dational in the governance landscape, their refinement and              organizational outcomes.
+contextual adaptation remain open areas of research. Building              Future studies should also explore cross-sectoral compar-
+on the contributions of Mahanti [42], Saputra et al. [44],              isons, particularly examining how governance frameworks
+and Kurniawan et al. [29], future studies must address gaps             perform in industries with distinct regulatory and technologi-
+in scoring logic, KPI integration, strategic alignment, and             cal contexts. By incorporating multidisciplinary perspectives,
+longitudinal validation. Advancing these models is essential            future research can develop more adaptive and resilient mod-
+for organizations seeking to govern data not just effectively,          els capable of addressing both emerging data governance
+but also in ways that are sustainable, strategic, and responsive        challenges and the evolving landscape of digital transforma-
+to change.                                                              tion.
+                                                                           Furthermore, the doctoral research that follows will move
+                                                                        beyond theoretical synthesis to empirically validate the
+V. CONCLUSION                                                           proposed conceptual framework within real organizational
+This systematic literature review (SLR) offers a compre-                environments. This validation phase will employ a mixed
+hensive insight into the domain of data governance, aiming              method design combining case studies, expert evaluations,
+to bridge the gap between academic research and practical               and maturity assessments to test the framework’s applicabil-
+implementation. The study meticulously reviewed over a                  ity, reliability, and impact on data governance performance.
+hundred publications from the past decade, focusing on six              By doing so, the doctoral work will transform the conceptual
+critical dimensions of data governance: governance mech-                model derived from this SLR into an operational, evidence-
+anisms, organizational scope, data scope, domain scope,                 based construct, thereby ensuring methodological continuity
+antecedents, and consequences.                                          and reinforcing the contribution of this study to both aca-
+   Significance and Impact: The findings underscore                     demic and practical domains.
+the increasing importance of structured data governance                    This SLR represents a significant advancement over previ-
+approaches in enhancing organizational performance and                  ously established studies, such as those by Abraham et al. [16]
+ensuring compliance with regulatory requirements. With the              and Nielsen [14], by adopting a more applied, comprehensive,
+exponential growth of data and the advent of stringent regu-            and maturity-oriented approach to data governance. While
+latory frameworks, the role of data governance has become               Abraham et al. propose a conceptual framework based on
+paramount in modern business practices.                                 theoretical dimensions and Nielsen highlights methodologi-
+   Frameworks and Mechanisms: The study highlighted the                 cal fragmentation and the lack of an integrated organizational
+importance of adaptive frameworks and mechanisms in data                perspective, this SLR consolidates and expands these contri-
+governance. These include structural, procedural, and rela-             butions by structuring its systematic literature review around
+tional mechanisms that interact with governance to enhance              governance mechanisms (structural, procedural, relational),
+data management practices within organizations.                         multiple scopes (organizational, data, and domain), and a
+
+190664                                                                                                                             VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+comparative analysis of maturity models, such as DGCMM                           competencies within an organization. Maturity in data gover-
+and CMMI. The study’s key differential lies in its practi-                       nance refers to the extent to which data management practices
+cal orientation: it presents evaluation criteria, performance                    are formalized and integrated into the daily operations and
+indicators (KPIs), and an analysis of the antecedents and                        strategic planning of an organization. Higher maturity levels
+consequences of adopting governance frameworks, offering                         indicate more sophisticated, predictable, and effective data
+a clear methodological path for application and assessment                       management practices.
+in organizational environments. As such, this SLR marks                             For instance, [27] emphasized that assessing the maturity
+an important progression by transforming existing theory                         level of data governance functions is crucial for identifying
+into operational guidelines and a foundation for developing                      gaps and planning improvements. By leveraging frameworks
+replicable, maturity-driven data governance models.                              such as the Stanford Data Governance Model, organizations
+   In conclusion, this SLR synthesizes current knowledge in                      can systematically enhance their governance practices, thus
+the field of data governance, charting a path forward for                        achieving higher maturity levels.
+both academic and corporate exploration. By fostering a                             The adoption of data governance within organizations
+holistic understanding of the effectiveness, challenges, and                     is driven by several antecedents, including the need for
+limitations of data governance, this study lays a foundational                   enhanced data quality, security demands, regulatory com-
+step towards realizing the full potential of data governance,                    pliance, and the strategic use of data for business innova-
+providing all the knowledge and tools needed for the devel-                      tion [28]. These antecedents set the stage for a comprehensive
+opment of next steps.                                                            approach to managing an organization’s data assets effec-
+   The next steps involve the development of a doctoral                          tively.
+thesis focused on proposing a master data management                                The impacts of implementing data governance are pro-
+framework aimed at triggering data governance maturity,                          found, ranging from improved decision-making and oper-
+supported by research and a case study to evaluate its                           ational efficiencies to enhanced compliance and risk man-
+effectiveness. This SLR will serve as a foundational refer-                      agement. Data governance provides a structured framework
+ence, guiding the research by identifying relevant maturity                      to capitalize data as a strategic asset, thereby supporting
+models, frameworks, and key concepts that will shape the                         business objectives and driving innovation.
+proposed framework and its implementation. It will provide                          The scope of data governance extends across the entire
+a structured basis for selecting the most suitable governance                    organization, influencing various departments from IT to
+methodologies and approaches, ensuring a well-grounded                           marketing, finance, and operations. It encompasses all
+and methodologically sound exploration of data governance                        aspects of data management, including data quality, data
+maturity.                                                                        access, data lifecycle management, and data security.
+   Data governance policies and standards are vital for defin-                      Consequently, the successful implementation of data gov-
+ing the roles, responsibilities, and processes that govern data                  ernance leads to several positive outcomes for organizations.
+use. These policies help in creating a culture of accountability                 It enhances the maturity level of data management practices,
+and ensuring that the organization’s data assets are used                        making them more systematic and mature. This transfor-
+effectively and responsibly.                                                     mation supports better compliance with data protection
+   For example, compliance monitoring within data gover-                         regulations and improves the overall reliability and value of
+nance frameworks plays a critical role in risk management by                     data assets. Organizations become more agile, with the abil-
+ensuring that all data practices adhere to legal and regulatory                  ity to respond quickly to market changes and opportunities,
+standards. These practices include regular audits, reviews,                      thereby gaining a competitive edge [28].
+and updates to governance policies as regulatory and business
+environments evolve.                                                             REFERENCES
+   The landscape of data governance continues to evolve as                        [1] DAMA-DMBOK: Data Management Body of Knowledge, DAMA Interna-
+technology advances and regulatory environments become                                tional, Vancouver, WA, USA, 2017.
+more complex. Organizations must adapt their data gover-                          [2] A. G. Carretero, F. Gualo, I. Caballero, and M. Piattini, ‘‘MAMD 2.0: Envi-
+                                                                                      ronment for data quality processes implantation based on ISO 8000–6X
+nance frameworks to accommodate emerging technologies                                 and ISO/IEC 33000,’’ Comput. Standards Interfaces, vol. 54, pp. 139–151,
+such as artificial intelligence and machine learning, which                           Nov. 2017, doi: 10.1016/j.csi.2016.11.008.
+pose new challenges and opportunities for data management.                        [3] V. Morabito, Big Data and Analytics: Strategic and Organizational
+                                                                                      Impacts. Cham, Switzerland: Springer, 2015, doi: 10.1007/978-3-319-
+   The integration of comprehensive data governance frame-                            10665-6.
+works into organizational strategy is crucial for building a                      [4] F. Haneem, N. Kama, N. Taskin, D. Pauleen, and N. A. A. Bakar, ‘‘Deter-
+resilient foundation for data management. As organizations                            minants of master data management adoption by local government
+                                                                                      organizations: An empirical study,’’ Int. J. Inf. Manage., vol. 45, pp. 25–43,
+continue to recognize the strategic value of data, the role of                        Apr. 2019, doi: 10.1016/j.ijinfomgt.2018.10.007.
+data governance as a critical function will expand, further                       [5] IDC. (2014). The Digital Universe of Opportunities. [Online]. Available:
+embedding its principles into the fabric of organizational                            http://www.iotjournaal.nl/wp-content/uploads/2017/01/idc-digital-
+                                                                                      universe-2014.pdf
+processes and culture [16].
+                                                                                  [6] V. Khatri, ‘‘Managerial work in the realm of the digital universe: The role
+   Data governance frameworks significantly contribute to                             of the data triad,’’ Bus. Horizons, vol. 59, no. 6, pp. 673–688, Nov. 2016,
+improving the maturity levels of data assets and user                                 doi: 10.1016/j.bushor.2016.06.001.
+
+VOLUME 13, 2025                                                                                                                                            190665
+                                                            L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+ [7] H. Y. Kim and J. S. Cho, ‘‘Data governance framework for big data                [26] A. Wider, S. Verma, and A. Akhtar, ‘‘Decentralized data governance as part
+     implementation with NPS Case Analysis in Korea,’’ J. Bus. Retail Manage.              of a data mesh platform: Concepts and approaches,’’ in Proc. IEEE Int.
+     Res., vol. 10, no. 12, pp. 36–46, 2018.                                               Conf. Web Services (ICWS), Chicago, IL, USA, Jul. 2023, pp. 746–754,
+ [8] O. B. Nielsen, J. S. Persson, and S. Madsen, ‘‘Why governing data is                  doi: 10.1109/icws60048.2023.00101.
+     difficult: Findings from Danish local government,’’ in Smart Working,            [27] S. A. Wulandari, ‘‘Data governance maturity level at the national archives
+     Living and Organising (IFIP Advances in Information and Communication                 of the republic of Indonesia,’’ Jurnal Penelitian Pos dan Informatika,
+     Technology), A. Elbanna, Y. K. Dwivedi, D. Bunker, and D. Wastell, Eds.,              vol. 10, no. 1, pp. 27–40, Oct. 2020, doi: 10.17933/jppi.v10i1.306.
+     Cham, Switzerland: Springer, 2019, pp. 15–29, doi: 10.1007/978-3-030-            [28] D. Lis, M. Arbter, M. Spindler, and B. Otto, ‘‘An investigation of
+     04315-5_2.                                                                            antecedents for data governance adoption in the rail industry—Findings
+ [9] C. Ballard, ‘‘Information governace principles and practices for a big data           from a case study at Thales,’’ IEEE Trans. Eng. Manag., vol. 70, no. 7,
+     landscape,’’ IMB Corp., Poughkeepsie, NY, USA, Tech. Rep. SG24-8165-                  pp. 2528–2545, Jul. 2023, doi: 10.1109/TEM.2022.3166109.
+     00, 2014.                                                                        [29] D. H. Kurniawan, Y. Ruldeviyani, M. R. Adrian, S. Handayani,
+[10] P. P. Tallon, R. V. Ramirez, and J. E. Short, ‘‘The information artifact in           M. R. Pohan, and R. T. Khairunnisa, ‘‘Data governance maturity assess-
+     IT governance: Toward a theory of information governance,’’ J. Manage.                ment: A case study in IT Bureau of audit board,’’ in Proc. Int. Conf.
+     Inf. Syst., vol. 30, no. 3, pp. 141–178, Dec. 2014, doi: 10.2753/mis0742-             Inf. Manage. Technol., Jakarta, Indonesia, Aug. 2019, pp. 629–634, doi:
+     1222300306.                                                                           10.1109/ICIMTECH.2019.8843742.
+[11] M. Al-Ruithe and E. Benkhelifa, ‘‘Analysis and classification of barriers        [30] A. Ismail, A. I. Suroso, and I. Hermadi, ‘‘Data governance design with the
+     and critical success factors for implementing a cloud data governance                 DAMA-DMBOK framework (Case study: PT. XYZ),’’ Int. J. Res. Rev.,
+     strategy,’’ Proc. Comput. Sci., vol. 113, pp. 223–232, Jan. 2017, doi:                vol. 11, no. 8, pp. 210–221, Aug. 2024, doi: 10.52403/ijrr.20240823.
+     10.1016/j.procs.2017.08.352.                                                     [31] P. Cupoli. (2014). DAMA-DMBOK2 Framework. [Online]. Available:
+[12] P. Brous, P. Herder, and M. Janssen, ‘‘Governing asset management data                https://www.dvbi.ru/portals/0/DOCUMENTS_SHARE/BOOKS/DATA
+     infrastructures,’’ Proc. Comput. Sci., vol. 95, pp. 303–310, Jan. 2016, doi:          %20GOVERNANCE/DAMA-DMBOK2-Framework-v2.pdf
+     10.1016/j.procs.2016.09.339.
+                                                                                      [32] R. P. Brahmantara, D. Y. Hutapea, and Y. Ruldeviyani, ‘‘Evaluation on data
+[13] T. Lillie and S. Eybers, ‘‘Identifying the constructs and agile capabilities          operations management using CMMI and DMBOK: BDPJN case study,’’
+     of data governance and data management: A review of the literature,’’                 in Proc. 9th Int. Conf. Cyber IT Service Manage. (CITSM), Bengkulu,
+     in Locally Relevant ICT Research (Communications in Computer and                      Indonesia, Sep. 2021, pp. 1–6, doi: 10.1109/CITSM52892.2021.
+     Information Science), K. Krauss, M. Turpin, and F. Naude, Eds., Cham,                 9588888.
+     Switzerland: Springer, 2019, pp. 313–326, doi: 10.1007/978-3-030-11235-
+                                                                                      [33] I. F. Ruslan, M. F. Alby, and M. Lubis, ‘‘Applying data governance using
+     6_20.
+                                                                                           DAMA-DMBOK 2 framework: The case for human capital management
+[14] O. Benfeldt, ‘‘A comprehensive review of data governance literature,’’ in
+                                                                                           operations,’’ in Proc. 8th Int. Conf. Ind. Bus. Eng., New York, NY, USA,
+     Proc. IRIS, Mar. 2017, vol. 3, no. 8, pp. 120–133. Accessed: Mar. 17, 2024.
+                                                                                           Sep. 2022, pp. 336–342, doi: 10.1145/3568834.3568866.
+     [Online]. Available: https://aisel.aisnet.org/iris2017/3/
+                                                                                      [34] J. Bao, X. Geng, and P. Yu, ‘‘A data governance model based on data
+[15] B. Kitchenham, ‘‘Guidelines for performing systematic literature reviews
+                                                                                           value analysis under the framework of digital economic,’’ in Proc. 14th
+     in software engineering,’’ Dept. Comput. Sci., Keele University, Keele,
+                                                                                           Int. Conf. Measuring Technol. Mechatronics Autom. (ICMTMA), Jan. 2022,
+     U.K., Tech. Rep. EBSE-2007-01, 2007. [Online]. Available: https://www.
+                                                                                           pp. 994–997, doi: 10.1109/ICMTMA54903.2022.00201.
+     researchgate.net/publication/302924724_Guidelines_for_performing
+     _Systematic_Literature_Reviews_in_Software_Engineering                           [35] J. Akoka and I. Comyn-Wattiau, ‘‘Evaluation of big data governance–
+                                                                                           Combining a multi-criteria approach and systems theory,’’ in Proc. IEEE
+[16] R. Abraham, J. Schneider, and J. vom Brocke, ‘‘Data governance:
+                                                                                           World Congr. Services, vol. 2642, Milan, Italy, Jul. 2019, pp. 398–399, doi:
+     A conceptual framework, structured review, and research agenda,’’
+                                                                                           10.1109/SERVICES.2019.00122.
+     Int. J. Inf. Manage., vol. 49, pp. 424–438, Dec. 2019, doi:
+     10.1016/j.ijinfomgt.2019.07.008.                                                 [36] S. Chanyachatchawan, K. Nasingkun, P. Tumsangthong, P. Chata,
+[17] G. Mecredy, R. Sutherland, and C. Jones, ‘‘First nations data governance,             M. Buranarach, and M. Socharoentum, ‘‘Design and implementation
+     privacy, and the importance of the OCAP principles,’’ Int. J. Population              of a data governance framework and platform: A case study of a
+     Data Sci., vol. 3, no. 4, pp. 1–4, Sep. 2018, doi: 10.23889/ijpds.v3i4.911.           national research organization of Thailand,’’ in Proc. 20th Int. Joint
+                                                                                           Conf. Comput. Sci. Softw. Eng. (JCSSE), Jun. 2023, pp. 202–206, doi:
+[18] C. Legner, T. Pentek, and B. Otto, ‘‘Accumulating design knowledge with
+                                                                                           10.1109/jcsse58229.2023.10201972.
+     reference models: Insights from 12 years’ research into data management,’’
+     J. Assoc. for Inf. Syst., vol. 21, no. 3, pp. 735–770, May 2020, doi:            [37] P. Kaewkamol, ‘‘Data governance framework as initiative for higher edu-
+     10.17705/1jais.00618.                                                                 cational organisation,’’ in Proc. Joint Int. Conf. Digit. Arts, Media Technol.
+[19] P. Bento, M. Neto, and N. Corte-Real, ‘‘How data governance frame-                    ECTI Northern Sect. Conf. Electr., Electron., Comput. Telecommun. Eng.
+     works can leverage data-driven decision making: A sustainable approach                (ECTI DAMT NCON), Jan. 2022, pp. 175–178, doi: 10.1109/ECTIDAMT-
+     for data governance in organizations,’’ in Proc. 17th Iberian Conf.                   NCON53731.2022.9720396.
+     Inf. Syst. Technol. (CISTI). Spain: IEEE, Jun. 2022, pp. 1–5, doi:               [38] K. Bugbee, R. Ramachandran, A. Kaulfus, J. Le Roux, G. Peng,
+     10.23919/cisti54924.2022.9866895.                                                     D. Smith, I. Gurung, A. Acharya, and J. Christman, ‘‘Enabling dynamic
+[20] B. Kitchenham and P. Brereton, ‘‘A systematic review of systematic review             data governance in science: Design, implementation, and future direc-
+     process research in software engineering,’’ Inf. Softw. Technol., vol. 55,            tions of the modern data governance framework,’’ in Proc. IEEE
+     no. 12, pp. 2049–2075, Dec. 2013, doi: 10.1016/j.infsof.2013.07.010.                  Int. Geosci. Remote Sens. Symp., Jul. 2024, pp. 3720–3723, doi:
+[21] B. Kitchenham, ‘‘Procedures for performing systematic reviews,’’                      10.1109/IGARSS53475.2024.10640434.
+     Dept. Comput. Sci., Keele University, Keele, U.K., Tech. Rep. 1353-              [39] S. MacFeely, A. Me, H. Fu, M. Veerappan, M. Hereward, D. Passarelli, and
+     7776, Jul. 2004. Accessed: Jun. 8, 2023. [Online]. Available:                         F. Schüür, ‘‘Towards an international data governance framework,’’ Stat. J.
+     https/citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=                         IAOS, vol. 38, no. 3, pp. 703–710, Sep. 2022, doi: 10.3233/sji-220038.
+     29890a936639862f45cb9a987dd599dce9759bf5                                         [40] N. Alromaih, H. Albassam, and H. Al-Khalifa, ‘‘A proposed check-
+[22] I. J. Marshall and B. C. Wallace, ‘‘Toward systematic review automation:              list for the technical maturity of open government data: An application
+     A practical guide to using machine learning tools in research synthesis,’’            on GCC countries,’’ in Proc. 18th Int. Conf. Inf. Integr. Web-based
+     Systematic Rev., vol. 8, no. 1, p. 163, Dec. 2019, doi: 10.1186/s13643-019-           Appl. Services, New York, NY, USA, Nov. 2016, pp. 494–499, doi:
+     1074-9.                                                                               10.1145/3011141.3011211.
+[23] A. O’Mara-Eves, J. Thomas, J. McNaught, M. Miwa, and S. Ananiadou,               [41] K.-A. Jang and W.-J. Kim, ‘‘A study on attribute index for evaluation of
+     ‘‘Using text mining for study identification in systematic reviews: A sys-            data governance,’’ KIPS Trans. Softw. Data Eng., vol. 6, no. 2, pp. 57–66,
+     tematic review of current approaches,’’ Systematic Rev., vol. 4, no. 1, p. 5,         Feb. 2017, doi: 10.3745/ktsde.2017.6.2.57.
+     Dec. 2015, doi: 10.1186/2046-4053-4-5.                                           [42] R. Mahanti, ‘‘Data governance and data management functions and initia-
+[24] K. Houser and J. W. Bagby, ‘‘Next-generation data governance,’’ SSRN                  tives,’’ in Data Governance and Data Management. Singapore: Springer,
+     Electron. J., vol. 21, pp. 61–106, Mar. 2023, doi: 10.2139/ssrn.4385455.              2021, pp. 83–143, doi: 10.1007/978-981-16-3583-0_3.
+[25] S. Marcucci, N. G. Alarcon, S. G. Verhulst, and E. Wullhorst, ‘‘Mapping          [43] J. Kuzio, M. Ahmadi, K.-C. Kim, M. R. Migaud, Y.-F. Wang, and
+     and comparing data governance frameworks: A benchmarking exercise to                  J. Bullock, ‘‘Building better global data governance,’’ Data Policy, vol. 4,
+     inform global data governance deliberations,’’ 2023, arXiv:2302.13731.                p. e25, Feb. 2022, doi: 10.1017/dap.2022.17.
+
+190666                                                                                                                                                  VOLUME 13, 2025
+L. Guerreiro et al.: Impact of a Master Data Management Framework to Trigger Data Governance Maturity
+
+
+
+
+[44] D. A. Saputra, D. Handika, and Y. Ruldeviyani, ‘‘Data governance matu-            and Technologies Consultant and directly participated in several international
+     rity model (DGM2) assessment in organization transformation of digital            projects. He is also dedicating most of his time to his lectures and research
+     telecommunication company: Case study of PT telekomunikasi Indone-                activities, where he tries to understand the variables and (in)direct impacts
+     sia,’’ in Proc. Int. Conf. Adv. Comput. Sci. Inf. Syst. (ICACSIS), Yogyakarta,    of ICT adoption at individual and firm levels to trigger both businesses and
+     Indonesia, Oct. 2018, pp. 325–330, doi: 10.1109/ICACSIS.2018.8618255.             regions’ digital transformation and to foster the ICT4Development topic.
+[45] J. Lismont, J. Vanthienen, B. Baesens, and W. Lemahieu, ‘‘Defining ana-           He is also a Supervisor for multiple master’s degree dissertations and Ph.D.
+     lytics maturity indicators: A survey approach,’’ Int. J. Inf. Manage., vol. 37,   theses. He has published over 100 articles in indexed journals and event
+     no. 3, pp. 114–124, Jun. 2017, doi: 10.1016/j.ijinfomgt.2016.12.003.
+                                                                                       proceedings.
+[46] A. Duzha, E. Alexakis, D. Kyriazis, L. F. Sahi, and M. A. Kandi, ‘‘From
+     data governance by design to data governance as a service: A transforma-
+     tive human-centric data governance framework,’’ in Proc. 7th Int. Conf.
+     Cloud Big Data Comput., New York, NY, USA, Aug. 2023, pp. 10–20,                                             MARIA DO ROSÁRIO BERNARDO received
+     doi: 10.1145/3616131.3616145.                                                                                the degree in economics, the master’s degree in
+[47] M. Micheli, M. Ponti, M. Craglia, and A. Berti Suman, ‘‘Emerging models                                      applied mathematics to economics and manage-
+     of data governance in the age of datafication,’’ Big Data Soc., vol. 7, no. 2,
+                                                                                                                  ment, and the Ph.D. degree in management from
+     Jul. 2020, Art. no. 205395172094808, doi: 10.1177/2053951720948087.
+                                                                                                                  the Instituto Superior de Economia e Gestão at
+[48] X. Qi, ‘‘Research on enterprise data governance based on knowledge
+     map,’’ in Proc. Int. Conf. Mach. Learn. Big Data Anal. IoT Secur. Privacy,
+                                                                                                                  the University of Lisbon (ISEG-UL). Since 1997,
+     in Advances in Intelligent Systems and Computing. Cham, Switzerland:                                         she has been a Distinguished Faculty Member with
+     Springer, 2020, pp. 581–586, doi: 10.1007/978-3-030-62746-1_85.                                              Universidade Aberta (UAb), teaching undergradu-
+[49] S. N. Asih, R. Nabila, I. H. Ismed, W. R. Fitriani, A. N. Hidayanto, and                                     ate, master’s, and doctoral courses in economics,
+     S. B. Yudhoatmojo, ‘‘Evaluation of data operations management matu-                                          management, and information systems. She has
+     rity level using CMMI in a state-owned enterprise,’’ in Proc. 5th Int.            supervised several master’s dissertations and doctoral theses in these fields.
+     Conf. Comput. Eng. Design (ICCED), Singapore, Apr. 2019, pp. 1–6, doi:            At UAb, she has held several key roles, including a Coordinator of the
+     10.1109/ICCED46541.2019.9161117.                                                  bachelor’s degree in management (2016–2019), the master’s degree in elec-
+[50] M. Janssen, P. Brous, E. Estevez, L. S. Barbosa, and T. Janowski, ‘‘Data          tronic commerce and internet (2014–2015), and the master’s degree in
+     governance: Organizing data for trustworthy artificial intelligence,’’ Gov-       management (2009–2011). She is the Coordinator of the Quality Group of
+     ernment Inf. Quart., vol. 37, no. 3, Jul. 2020, Art. no. 101493, doi:             the Management Section of the DCSG (2012–2014 and since 2020). She
+     10.1016/j.giq.2020.101493.                                                        is also a Faculty Member of the Doctoral Program in Web Science and
+[51] O. Belghith, S. Skhiri, S. Zitoun, and S. Ferjaoui, ‘‘A survey of                 Technology, a joint program between UAb and UTAD. Since 2016, she
+     maturity models in data management,’’ in Proc. IEEE 12th Int. Conf.               has been the Scientific Coordinator of the ‘‘Management and Economics’’
+     Mech. Intell. Manuf. Technol. (ICMIMT), May 2021, pp. 298–309, doi:
+                                                                                       Community of the Open Repository at UAb. Her contributions extend beyond
+     10.1109/ICMIMT52186.2021.9476197.
+                                                                                       the university. She has been a member of the scientific committee for various
+                                                                                       national and international conferences and served on the scientific committee
+                                                                                       for several prestigious journals. She served as the Vice President for the
+                                                                                       Scientific Council (2013–2015) and a member for the Coordinating Council
+                           LEONARDO GUERREIRO received the degree                      of the Department of Social Sciences and Management (2013–2015 and
+                           in management informatics from the Universi-                2019–2020).
+                           dade Nove de Julho, São Paulo, the Postgraduate
+                           degree in IT from the Universidade do Paraná,
+                           Paraná, Brazil, the M.B.A. degree in IT Gover-
+                           nance from SENAC Paraná, Brazil, the master’s in                                     HENRIQUE MAMEDE received the B.Sc. degree
+                           software engineering from the Polytechnic Insti-                                     in computer engineering, the M.Sc. degree in
+                           tute of Setúbal. He is currently pursuing the Ph.D.                                  informatics, and the Ph.D. degree in information
+                           degree in web science and technology with the                                        systems and technologies. He is an Associate Pro-
+                           University of Trás-os-Montes and Alto Douro. His                                     fessor (with Habilitation) with the Department
+Ph.D. thesis focusing in development on data governance field. He has a solid                                   of Sciences and Technology, Portuguese Open
+academic background and a consolidated career experience as a Professor                                         University. He is also an invited Professor with
+and an Instructor in the industry. His academic and professional trajectory is                                  the Information Management School, Nova Uni-
+marked by significant achievements in the fields of information technology                                      versity, Lisbon. He develops his research as an
+and strategic data. He was a Data Processing Technician with ISA, São Paulo,                                    Integrated Senior Researcher with INESC TEC.
+Brazil. In the academic sphere, he has five years of experience as an Assistant        He has published around 100 scientific papers. His research is focused
+Professor in postgraduate courses at renowned institutions in Brazil, taught           on information systems, enterprise engineering, digital transformation, and
+subjects related to data and information. In the industry, he has over two             learning organizations.
+decades of experience working and leading complex and innovative projects
+internationally recognized for tangible results and lasting impact in the field
+of information technology and strategic data. He has published papers in                                        FREDERICO BRANCO is an Assistant Professor
+information systems and technologies.                                                                           with the University of Trás-os-Montes and Alto
+                                                                                                                Douro and a Senior Researcher with the INESC
+                                                                                                                TEC Research Center. He is a Pro-Rector for
+                                                                                                                information systems. He is also involved in sev-
+                            JOSÉ MARTINS is currently an Invited Assis-                                         eral academic works as a project, dissertation, and
+                            tant with the Polytechnic Institute of Bragança                                     thesis Supervisor and continuously participates in
+                            and a member of the INESC TEC Research                                              several research projects. His professional career
+                            Center. During his research career, he has partic-                                  is also directly related to the industry, focusing on
+                            ipated in several research projects. He is part of                                  various planning and implementation projects in
+                            research and development projects aimed at deliv-          information systems, with particular attention to the agri-food, mobility, and
+                            ering innovative solutions for digitally promoting         services sectors. Throughout his career, he has held different senior man-
+                            and developing rural and low-density regions and           agement roles in operations, information systems, and quality management.
+                            their endogenous products. During his profes-              He has published over 120 articles in journals and event proceedings.
+                            sional career, he was a Senior Information Systems
+
+VOLUME 13, 2025                                                                                                                                              190667
+

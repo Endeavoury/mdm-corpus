@@ -1,0 +1,602 @@
+
+
+    
+
+    
+
+    
+
+        Barriers to master data quality
+      -  University of Southern Denmark
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+        
+
+        
+
+    
+
+    
+
+    
+
+Skip to main navigation
+
+    Skip to search
+
+Skip to main content
+
+    
+
+            
+
+                
+
+                    
+                        University of Southern Denmark Home
+
+                    
+
+                
+
+                        
+
+                                
+
+                                    Help & FAQ
+                                      Link opens in a new tab
+
+                            
+
+                        
+
+                                
+
+                                
+
+                                    
+Dansk
+English
+
+                            
+
+                    
+
+                
+
+            
+
+        
+
+                
+
+    
+
+        
+
+            
+
+                
+
+                    Search content at University of Southern Denmark
+
+                
+
+                
+
+                    
+
+                    
+
+            
+
+    
+
+            
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                                
+
+                                    Home
+
+                                
+
+                                        Researchers
+
+                                
+
+                                        Research units
+
+                                
+
+                                        Research output
+
+                                
+
+                                        Activities
+
+                                
+
+                                        Projects
+
+                                
+
+                                        Datasets
+
+                                
+
+                                        Impacts
+
+                                
+
+                                        Press/Media
+
+                                
+
+                                        Prizes
+
+                                
+
+                                        Teaching
+
+                                
+
+                        
+
+                    
+
+            
+
+    
+
+    
+
+    
+
+        
+
+        
+
+        
+
+            
+
+        
+
+    
+
+        
+
+            
+
+Barriers to master data quality
+
+Anders Haug
+, Jan Stentoft Arlbjørn
+
+Faculty of Social Sciences
+Department of Business and Sustainability
+
+            
+
+Research output: Contribution to journal › Journal article › Research › peer-review
+
+        
+
+    
+
+        
+
+                
+
+                    
+
+                        
+
+                                
+
+                        
+
+                        
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+    
+
+    
+
+    
+
+        
+
+                
+
+                    
+
+                        Overview
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+            
+
+    
+
+    
+
+        
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                        
+
+Original languageEnglish
+JournalJournal of Enterprise Information Management
+Volume24
+Issue number3
+Pages (from-to)288-303
+Number of pages16
+ISSN1741-0398
+DOIs
+https://doi.org/10.1108/17410391111122862 
+Publication statusPublished - 2011
+
+                        
+
+                        
+
+                        
+
+                    
+
+                    
+
+                        
+
+Documents & Links
+
+10.1108/17410391111122862
+
+                        
+
+SDU LinkCheck access to the material in SDU Library's search engine
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+            
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+            
+
+                
+
+    
+Cite this
+
+        
+
+                APA
+
+        
+
+                Author
+
+        
+
+                BIBTEX
+
+        
+
+                Harvard
+
+        
+
+                Standard
+
+        
+
+                RIS
+
+        
+
+                Vancouver
+
+        
+
+    
+
+        
+
+                
+Haug, A., & Arlbjørn, J. S. (2011). Barriers to master data quality. Journal of Enterprise Information Management, 24(3), 288-303. https://doi.org/10.1108/17410391111122862
+
+        
+
+                
+Haug, Anders  ; Arlbjørn, Jan Stentoft. / Barriers to master data quality. In: Journal of Enterprise Information Management. 2011 ; Vol. 24, No. 3. pp. 288-303.
+
+        
+
+                
+
+@article{6db32416b8314eda885e7ff42003dba4,
+  title     = "Barriers to master data quality",
+  author    = "Anders Haug and Arlbj{\o}rn, \{Jan Stentoft\}",
+  year      = "2011",
+  doi       = "10.1108/17410391111122862",
+  language  = "English",
+  volume    = "24",
+  pages     = "288--303",
+  journal   = "Journal of Enterprise Information Management",
+  issn      = "1741-0398",
+  publisher = "Emerald Group Publishing",
+  number    = "3",
+}
+
+        
+
+                
+Haug, A & Arlbjørn, JS 2011, 'Barriers to master data quality', Journal of Enterprise Information Management, vol. 24, no. 3, pp. 288-303. https://doi.org/10.1108/17410391111122862
+
+        
+
+                
+Barriers to master data quality. / Haug, Anders; Arlbjørn, Jan Stentoft. 
+In: Journal of Enterprise Information Management, Vol. 24, No. 3, 2011, p. 288-303.
+Research output: Contribution to journal › Journal article › Research › peer-review
+
+        
+
+                
+
+TY  - JOUR
+T1  - Barriers to master data quality
+AU  - Haug, Anders
+AU  - Arlbjørn, Jan Stentoft
+PY  - 2011
+Y1  - 2011
+U2  - 10.1108/17410391111122862
+DO  - 10.1108/17410391111122862
+M3  - Journal article
+SN  - 1741-0398
+VL  - 24
+SP  - 288
+EP  - 303
+JO  - Journal of Enterprise Information Management
+JF  - Journal of Enterprise Information Management
+IS  - 3
+ER  - 
+
+        
+
+                
+Haug A, Arlbjørn JS. Barriers to master data quality. Journal of Enterprise Information Management. 2011;24(3):288-303. doi: 10.1108/17410391111122862
+
+        
+
+        
+
+            
+
+        
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+            
+
+            
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+            
+
+                
+
+                    
+
+                        
+
+                                
+
+                                    
+
+                            
+
+                        
+
+                            
+
+                                Powered by Pure Link opens in a new tab, Scopus Link opens in a new tab & Elsevier Fingerprint Engine™ Link opens in a new tab
+
+                            
+
+                                All content on this site: Copyright © 2026 University of Southern Denmark, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+
+                            
+We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the use of cookies
+
+                            
+
+Log in to Pure   Link opens in a new tab
+
+                            
+
+                        
+
+                        
+
+                            
+
+University of Southern Denmark data protection policy   Link opens in a new tab
+
+                            
+
+                                
+About web accessibility   Link opens in a new tab
+
+                            
+
+                                
+
+                            
+
+                                
+
+                            
+
+                                Report vulnerability   Link opens in a new tab
+
+                        
+
+                        
+
+                
+
+        
+
+            
+
+    
+
+    
+
+    
+
+    
+

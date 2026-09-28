@@ -1,0 +1,173 @@
+Smarter Modeling of IBM InfoSphere Master Data Management Solutions
+
+Skip to main content
+IBM Redbooks 
+
+Browse by Domain
+
+Training
+
+About Redbooks
+focus trapping button
+focus trapping button
+Back
+Browse by Domain
+
+IT Infrastructure
+
+Hybrid Cloud
+
+Storage
+focus trapping button
+focus trapping button
+Back
+Training
+Would you like to join a team writing IBM Redbooks?
+Be an Author
+Digital Badges
+Systems Technical Eventsfocus trapping button
+focus trapping button
+Back
+About Redbooks
+What we do
+Copyright information
+Newsletter
+Contact usfocus trapping button
+focus trapping button
+Back
+IT Infrastructure
+IBM Z
+IBM Z software
+LinuxONE
+Power
+Red Hat
+Spectrum Computingfocus trapping button
+focus trapping button
+Back
+Hybrid Cloud
+Cloud
+Cloud Storage
+Data and AI
+IBM Cloud Paks
+Securityfocus trapping button
+focus trapping button
+Back
+Storage
+Storage hardware
+Storage software
+Storage solutionsfocus trapping button
+focus trapping button
+Back
+Be an Author
+focus trapping button
+focus trapping button
+Back
+Digital Badges
+focus trapping button
+focus trapping button
+Back
+Systems Technical Events
+focus trapping button
+focus trapping button
+Back
+What we do
+focus trapping button
+focus trapping button
+Back
+Copyright information
+focus trapping button
+focus trapping button
+Back
+Newsletter
+focus trapping button
+focus trapping button
+Back
+Contact us
+focus trapping button
+
+IBM Redbooks 
+
+Browse by Domain
+
+IT InfrastructureIBM ZIBM Z softwareLinuxONEPowerRed HatSpectrum Computing
+
+Hybrid CloudCloudCloud StorageData and AIIBM Cloud PaksSecurity
+
+StorageStorage hardwareStorage softwareStorage solutions
+Training
+Be an Author
+Digital Badges
+Systems Technical Events
+About Redbooks
+What we do
+Copyright information
+Newsletter
+Contact us
+
+Open IBM search field
+Clear input
+
+IBM Redbooks
+Smarter Modeling of IBM InfoSphere Master Data Management Solutions
+An IBM  Redbooks publication
+
+ 
+
+Published on 11 July 2012, updated 09 August 2012
+.EPUB (6.4 MB)
+.PDF (10.7 MB)Read in Google Books Order hardcopyShare this page: 
+ 
+
+ 
+
+ISBN-10: 0738436801
+ISBN-13: 9780738436807
+IBM Form #: SG24-7956-00
+Authors:  Jan-Bernd Bracht, Joerg Rehr, Markus Siebert and Rouven Thimm
+
+undefined ...menu icon
+
+Abstract
+
+This IBM® Redbooks® publication presents a development approach for master data management projects, and in particular, those projects based on IBM InfoSphere® MDM Server.
+
+The target audience for this book includes Enterprise Architects, Information, Integration and Solution Architects and Designers, Developers, and Product Managers.
+
+Master data management combines a set of processes and tools that defines and manages the non-transactional data entities of an organization. Master data management can provide processes for collecting, consolidating, persisting, and distributing this data throughout an organization.
+
+IBM InfoSphere Master Data Management Server creates trusted views of master data that can improve applications and business processes. You can use it to gain control over business information by managing and maintaining a complete and accurate view of master data. You also can use InfoSphere MDM Server to extract maximum value from master data by centralizing multiple data domains. InfoSphere MDM Server provides a comprehensive set of prebuilt business services that support a full range of master data management functionality.
+Table of Contents
+
+Part 1. Master data management and model-driven development
+
+Chapter 1. Introduction
+
+Chapter 2. Master data management
+
+Chapter 3. Model-driven development
+
+Part 2. Smarter modeling
+
+Chapter 4. Smarter modeling in practice
+
+Chapter 5. Sources
+
+Chapter 6. The modeling disciplines
+
+Chapter 7. The models
+
+Chapter 8. Mappings and transformations
+
+Chapter 9. Deliverables
+
+Part 3. Planning considerations
+
+Chapter 10. Planning for your master data management project 
+Related publications
+
+A Practical Guide to Managing Reference Data with IBM InfoSphere Master Data Management Reference Data Management Hub
+
+Aligning MDM and BPM for Master Data Governance, Stewardship, and Enterprise Processes
+
+IBM InfoSphere Master Data Management Integration with SaaS Applications using WebSphere Cast Iron Cloud
+

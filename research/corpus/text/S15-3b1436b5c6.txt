@@ -1,0 +1,598 @@
+Intakeadvies TOOI
+
+ Vergadering:           Forum Standaardisatie 2 oktober 2024
+
+ Agendapunt:            3B
+
+ Documentnummer:        FS-20241002.3B
+
+ Aan:                   Forum Standaardisatie
+
+ Van:                   Stuurgroep Open Standaarden
+
+ Datum:                 20 september 2024
+
+ Versie:                1.0
+
+ Bijlagen:              geen
+
+ Rechten:               CC0 publieke domein verklaring
+
+
+
+1 Samenvatting en advies
+De Stuurgroep Open Standaarden adviseert het Forum Standaardisatie om TOOI versie 1.3.4
+in procedure te nemen voor opname op de ‘Pas toe of leg uit’-lijst. Een volledig
+expertonderzoek is aangewezen om de standaard te toetsen aan de criteria voor opname op
+de lijst.
+
+TOOI 1.3.4 is een kennismodel voor het definiëren van een gemeenschappelijke taal
+waarmee data en metadata uitgedrukt kunnen worden. Hierdoor wordt overheidsinformatie
+beter vindbaar, toegankelijk, interoperabel en herbruikbaar.
+
+Tijdens het intakegesprek hebben de indieners van KOOP de wens geuit om de standaard aan
+te melden voor plaatsing op de ‘Pas toe of leg uit’-lijst. Tijdens het intakegesprek zijn de
+diverse criteria besproken. De standaard lijkt kansrijk om in aanmerking te komen voor
+plaatsing op de ‘Pas toe of leg uit’-lijst. Tijdens de expertbijeenkomst en het tot stand komen
+van het expertadvies zal extra aandacht zijn voor de volgende punten:
+
+   •    Is de relatie tussen MDTO (vastleggen van metagegevens voor overheidsinformatie) en
+        TOOI en hun respectievelijke functionele toepassingsgebieden voldoende duidelijk
+        gedefinieerd in het document Relatie MDTO en TOOI?
+   •   Welke praktijkvoorbeelden of bestaande problemen in andere overheidslagen
+       (gemeenten, provincies, uitvoeringsorganisaties) bestaan, die de maatschappelijke
+       meerwaarde van TOOI bekrachtigt om deze problemen te kunnen ondervangen?
+   •   Zijn (de plannen voor het herzien van) het huidige besluitvormingsproces bij het
+       beheer van de standaard (waaronder het betrekken van belanghebbenden in de
+       besluitvorming) voldoende om uiteindelijk te kunnen spreken van een open
+       standaardisatieproces?
+   •   In hoeverre is het versiebeleid voor TOOI voldoende duidelijk voor opname van TOOI
+       op de ‘Pas toe of leg uit’-lijst?
+   •   Staan overheidsorganisaties voor wie een verplichting van de standaard zal gelden
+       achter de standaard?
+   •   In hoeverre zullen de activiteiten van de beheerorganisatie de adoptie van TOOI
+       bevorderen?
+
+In de rest van dit document wordt het advies nader onderbouwd. Hoofdstuk 2 geeft een korte
+uitleg van de standaard. Hoofdstuk 3 beschrijft het proces waarmee dit advies tot stand
+kwam, alsmede de vervolgstappen. Hoofdstuk 4 toetst in hoeverre de standaard voldoet aan
+de criteria om in behandeling genomen te worden door het Forum Standaardisatie. Hoofdstuk
+5 verkent of er inhoudelijke belemmeringen bestaan die een positief expertadvies in de weg
+zouden kunnen staan.
+
+Tot slot wordt er in hoofdstuk 6 een praktijkvoorbeeld gegeven dat Forum Standaardisatie
+kan gebruiken om de maatschappelijke waarde van de standaard te communiceren.
+
+
+2 Korte beschrijving van de standaard
+2.1 Over de standaard
+De Thesauri en Ontologieën voor Overheidsinformatie (TOOI) standaard is een kennismodel,
+zo veel mogelijk gebaseerd op authentieke informatie uit wet- en regelgeving en het
+overheidsdomein, om overheidsinformatie uniform en machineleesbaar te beschrijven. TOOI
+richt zich op semantische interoperabiliteit: het eenduidig beschrijven en persistent
+identificeren van overheidsorganisaties, overheidsinformatie en hun onderlinge relaties. TOOI
+bestaat uit een familie van geversioneerde documenten. Het TOOI-kennismodel dat nu is
+ingediend bestaat uit de 12 documenten van versie 1.3.4 van TOOI.
+
+Het TOOI-kennismodel bestaat uit verschillende onderdelen, die modules worden genoemd.
+Elke module is een separate eenheid die apart wordt beheerd, onderhouden en gepubliceerd.
+Binnen TOOI 1.3.4 worden de modules ingedeeld in vier soorten:
+
+   •   Ontologie - Een ontologie is een conceptueel model uitgedrukt in RDF (de basis voor
+       linked data). Het beschrijft klassen van gegevens en hun eigenschappen en relaties, en
+       bijbehorende bedrijfsregels. Versie 1.3.4 kent de TOOI-ontologie voor
+       overheidsorganisaties en informatieobjecten en de TOOI-ontologie voor waardelijsten.
+
+
+
+                                           2 van 13
+    •   Thesaurus - Een thesaurus is een gestructureerde verzameling begrippen die (onder
+        meer) gebruikt kunnen worden bij het classificeren van objecten in diverse dimensies,
+        zonder die begrippen verder uit te modelleren. Voorbeelden: thema's,
+        documentsoorten, talen.
+    •   Register - Een register is een gegevensverzameling waarin authentieke informatie
+        wordt vastgelegd (gebruikmakend van het semantisch model en thesauri).
+        Voorbeelden: het gemeenteregister, het register zelfstandige bestuursorganen.
+    •   Waardelijst Een waardelijst is een geversioneerde selectie van informatie uit een
+        thesaurus of een register. Voorbeelden zijn de TOOI-waardelijst met de Themaindeling
+        voor Officiële Publicaties (de ‘TOP-lijst’) en de TOOI-waardelijst met gemeenten op
+        peildatum.
+
+TOOI is geen metadatastandaard, in die zin dat TOOI niet voorschrijft welke metadata
+moeten worden gebruikt om bepaalde informatie te beschrijven. TOOI is functioneel echter
+wél bedoeld om als referentiemodel te dienen dat gebruikt kan worden voor de specificatie
+van metadatastandaarden. Als zo'n (functie- of domeinspecifieke) metadatastandaard
+bijvoorbeeld een eigenschap voorschrijft voor 'verantwoordelijke overheidsorganisatie', dan
+kan worden voorgeschreven dat voor de waarde van die eigenschap de TOOI-URI voor die
+organisatie moet worden gebruikt.
+
+TOOI is beschreven in RDF en heeft een uitgewerkte URI-strategie voor alle onderdelen in het
+model. Elke organisatie die overheidsinformatie machineleesbaar semantisch wil beschrijven,
+kan dit doen door middel van de URI's en definities in het model.
+
+TOOI is een standaard om overheidsorganisaties, begrippen en objecten met hun
+eigenschappen en relaties machineleesbaar te identificeren voor informatiesystemen die
+officiële overheidsinformatie publiceren of uitwisselen met andere informatiesystemen.
+
+2.2 Waarom is deze standaard belangrijk?
+TOOI draagt bij aan een betrouwbare en wendbare informatievoorziening binnen de overheid
+en aan een transparante communicatie vanuit de overheid naar burger, bedrijf en
+professional.
+
+•   Betrouwbaar doordat het TOOI-kennismodel voortdurend wordt gevoed met de laatst
+    beschikbare, authentieke informatie.
+•   Wendbaar doordat informatiesystemen de actuele informatie middels URI’s dynamisch
+    kunnen ophalen uit het TOOI-kennismodel.
+•   Transparant doordat alle informatiesystemen van de overheid gebruik kunnen maken van
+    dezelfde informatie in hetzelfde model.
+
+Met TOOI verbetert bijvoorbeeld de volledigheid en nauwkeurigheid van de zoekresultaten op
+officiëlebekendmakingen.nl en de Woo-index, en van de attenderingen aan de burger door
+Berichten over uw Buurt via MijnOverheid.
+
+
+
+
+                                              3 van 13
+TOOI zorgt voor een betere gebruikerservaring van burger, bedrijf en professional, die
+overheidsinformatie uit verschillende bronnen beter kan vinden en in samenhang kan
+begrijpen doordat die bronnen gebruik maken van dezelfde begrippen.
+
+Veel entiteiten en concepten binnen de overheid hebben geen gestandaardiseerde,
+machineleesbare identificatie en definitie, die over de grenzen van systemen en
+beleidsdomeinen bruikbaar zijn. Bijvoorbeeld, het 'ministerie van Justitie en Veiligheid' had
+vroeger andere namen, maar die duiden juridisch hetzelfde ministerie aan. TOOI biedt een
+persistente identificatie aan voor dit ministerie en geeft een beschrijving van de formele en
+naamgevingsgeschiedenis in een formaat dat door software kan worden gebruikt en
+uitgewisseld met andere software.
+
+Het TOOI-kennismodel voorziet in een domeinonafhankelijke semantiek die gebaseerd is op
+authentieke bronnen met wettelijke grondslag. Dit geldt voor de identificatie van
+overheidsorganisaties die rechtstreeks afkomstig zijn uit het Register van
+Overheidsorganisaties (ROO), maar ook voor de begrippen (concepten) in de TOOI-thesauri
+die, voor zover beschikbaar, een verwijzing hebben naar de juridische begrippen in wet- en
+regelgeving. Dit komt de kwaliteit van de informatievoorziening ten goede.
+
+TOOI draagt op die manier bij aan de doelen bij de opgaven 4.1 Verbeteren
+informatiehuishouding voor openbaarheid van bestuur en 4.3 Versterken ICT-organisatie en -
+systemen van het Rijk in de Werkagenda Waardengedreven Digitaliseren van het vorige
+kabinet.
+
+
+3 Betrokkenen en proces
+Op 1 maart 2024 heeft KOOP (onderdeel van Logius) TOOI aangemeld om te toetsen of de
+standaard geschikt is om te verplichten aan de overheid via plaatsing op de 'Pas toe of leg
+uit'-lijst van Forum Standaardisatie. TOOI en de standaard MDTO zijn parallel aangemeld bij
+het Forum op verzoek van Bureau Forum Standaardisatie (BFS) om mogelijke overlap van
+TOOI en MDTO in het functioneel toepassingsgebied zo vroeg mogelijk gedurende de
+vervolgprocedure inzichtelijk te hebben.
+
+Op 25 april 2024 heeft een intakegesprek plaatsgevonden met de indieners,
+procedurebegeleider InnoValor Advies en Bureau Forum Standaardisatie. Bij het online intake
+gesprek waren de volgende personen aanwezig:
+
+   •   Marie-José Hover (KOOP en indiener)
+   •   Hans Overbeek (KOOP)
+   •   Hans Laagland (Bureau Forum Standaardisatie)
+   •   Joram Verspaget (Bureau Forum Standaardisatie)
+   •   Melissa Nijland (InnoValor Advies)
+
+In dit gesprek is onderzocht of TOOI voldoet aan de criteria om in procedure genomen te
+worden. Daarnaast is vooruitgeblikt op de procedure. Dit intakeadvies is tot stand gekomen
+
+
+                                            4 van 13
+op basis van de informatie in het aanmeldformulier, deskresearch en de aanvullende
+informatie uit het intakegesprek.
+
+
+4 Voldoet de standaard aan de criteria om in procedure
+    genomen te worden?
+TOOI voldoet aan alle vier criteria om in behandeling genomen te worden voor plaatsing op
+de ‘Pas toe of leg uit’-lijst. Hoe de standaard is getoetst op de vier criteria wordt hieronder
+toegelicht in paragrafen 4.1-4.4.
+
+4.1 Valt de standaard binnen de scope van Forum
+     Standaardisatie?
+De standaard is toepasbaar voor elektronische gegevensuitwisseling tussen
+(semi-)overheidsorganisaties en bedrijven, tussen (semi-)overheidsorganisaties en burgers of
+tussen (semi-)overheidsorganisaties onderling.
+
+TOOI is een standaard voor semantische interoperabiliteit. TOOI richt zich op het vindbaar,
+toegankelijk, interoperabel en herbruikbaar openbaar maken van eenduidige
+overheidsinformatie aan een breed publiek, en niet op berichtenverkeer tussen burgers of
+bedrijven in het kader van individuele zaken.
+
+4.2 Heeft de standaard een toepassing die een enkele organisatie
+     of sector overstijgt?
+Het beoogde functioneel toepassingsgebied en het organisatorisch werkingsgebied van de
+standaard is voldoende breed om substantieel bij te dragen aan de interoperabiliteit van de
+(semi-)overheid. De functionele toepassing van de standaard overstijgt het organisatorisch
+werkingsgebied van een enkele organisatie of sector.
+
+TOOI is primair bedoeld voor het beschrijven en persistent identificeren van algemene kennis
+over overheidsorganisaties en overheidsinformatie en die niet domein- of organisatiespecifiek
+is. Daardoor is TOOI goed gepositioneerd om bij te dragen aan de interoperabiliteit van de
+gehele overheid. Bijvoorbeeld: met de in TOOI opgenomen thesaurus met
+overheidsbeleidsthema's (TOP-lijst) kunnen informatiebronnen van verschillende
+overheidsorganisaties in samenhang vindbaar gemaakt worden. Wanneer informatiecollecties
+van verschillende organisaties worden verzameld in een centrale voorziening zal de
+ontsluiting van die gezamenlijke collectie eenvoudiger zijn als de bronsystemen dezelfde
+thema-indeling hebben gebruikt.
+
+4.3 Is de standaard al wettelijk verplicht?
+TOOI is niet wettelijk verplicht voor het beoogde functioneel toepassingsgebied en
+organisatorisch werkingsgebied.
+
+
+
+                                            5 van 13
+Op dit moment zijn er geen ontwikkelingen in voorbereiding om TOOI verplicht te stellen,
+maar zijn er wel dwingende voorschriften waarbij TOOI een geschikt middel is om aan die
+voorschriften te voldoen. TOOI biedt een oplossing om te voldoen aan de eisen gesteld in het
+wetsvoorstel voor de Wet implementatie Open data richtlijn, Wet hergebruik van
+overheidsinformatie en de Wet digitale overheid.
+
+4.4 Draagt de standaard bij tot de oplossing van een bestaand
+     probleem?
+Deze standaard draagt bij aan de oplossing van een bestaand en relevant probleem, namelijk
+dat het momenteel niet, of alleen tegen zeer hoge kosten, mogelijk is om grote hoeveelheden
+overheidsinformatie integraal te doorzoeken met een voldoende volledig en nauwkeurig
+resultaat. Hieronder volgt een voorbeeld hiervan.
+
+De doorzoekbaarheid van de Woo-index door de burger wordt hoger op het moment dat er
+eisen en verplichtingen worden gesteld aan de metadata, dit is op dit moment niet het geval
+omdat er, op advies van het AcICT, geen eisen gesteld worden aan de metadata van de
+geïndexeerde informatiecategorieën. Het stellen van eisen aan metadata leidt ertoe dat
+burgers beter toegang hebben tot overheidsinformatie.
+
+De kennis die in TOOI is gemodelleerd kan onder meer de miljoenen documenten, die de
+komende jaren op grond van de Wet open overheid (Woo) actief openbaar moeten worden
+gemaakt, beter vindbaar maken. TOOI schrijft niet voor hóe dat moet gebeuren, maar biedt
+wel het (uitbreidbaar) kennismodel daarvoor. Indien de informatiecollectie van de Woo-index
+in een later stadium van het project op andere wijze (handwerk of slimme algoritmes)
+voorzien moet worden van uniforme metadata, kunnen hiervoor TOOI-velden en -
+waardelijsten worden gebruikt. De standaard die voor de Woo-harvester in ontwikkeling is,
+maakt reeds gebruik van TOOI-elementen.
+
+Zowel leveranciers als de koepelorganisaties VNG, IPO en UvW vragen om standaardisatie
+van eigenschappen en waardelijsten, voor het geval zij die – vrijwillig – willen aanleveren.
+Standaardisatie verlaagt immers de inspanning die nodig is om metadata te verstrekken.
+Voor de koepels zijn de verlaging van de leveranciersafhankelijkheid en de verbeterde
+gebruikerservaring voor de burger die het portaal bezoekt, argumenten voor standaardisatie.
+Dit kan met TOOI worden ingevuld.
+
+
+5 Is er zicht op een positief expertadvies?
+Het intakeonderzoek heeft geen inhoudelijke criteria gevonden die een positief expertadvies
+voor plaatsing van TOOI op de ‘Pas toe of leg uit’-lijst in de weg zouden kunnen staan.
+
+Als het Forum Standaardisatie de standaard in procedure neemt, gaat een groep experts de
+standaard toetsen op de vier inhoudelijke criteria voor opname op de lijst. Het Forum
+Standaardisatie neemt geen standaarden in procedure waarvan bij aanvang al vaststaat dat
+deze niet op een positief expertadvies kunnen rekenen. Daarom wordt in dit intakeadvies
+vooruitgeblikt op de vier inhoudelijke criteria. Dit wordt toegelicht in paragrafen 5.1-5.4.
+                                             6 van 13
+5.1 Toegevoegde waarde
+5.1.1 Verhouding ten opzichte van andere standaarden
+
+TOOI past de volgende linked data standaarden toe die op de lijsten open standaarden van
+het Forum Standaardisatie staan: SKOS (voor linked data en begrippenlijsten), RDF (voor
+publicatie gestructureerde gegevens), RDFS (voor een standaard taal waarmee de structuur
+van gegevens in termen van klassen, eigenschappen en datatypen kan worden beschreven)
+en URI (voor de identificatie van online bronnen van informatie). Tevens wordt er gebruik
+gemaakt van de Geo-standaarden (voor geografische informatie) op de lijst open
+standaarden. Daarnaast maakt TOOI gebruik van andere standaarden zoals Dublin Core
+Metadata Initiative, PROV-O (uitdrukken van PROV datamodel door OWL2), PAV (voor
+traceren herkomst, auteurschap en versiebeheer) en NL-SBB (voor het beschrijven van
+begrippen).
+
+TOOI is compatibel met de volgende standaarden op de lijst open standaarden van het Forum
+Standaardisatie: de Juriconnect-standaarden voor identificatie van juridische informatie
+namelijk BWB, ECLI en JCDR.
+
+TOOI is tegelijkertijd aangemeld met MDTO, de metadatastandaard voor duurzaam
+toegankelijke overheidsinformatie. TOOI en MDTO zijn geen concurrerende standaarden,
+maar zijn juist complementair aan elkaar. MDTO specificeert een syntax, TOOI specificeert
+semantiek en biedt identificatie van overheidsorganisaties en begrippen. In de bijlage Relatie
+MDTO en TOOI, die op de website van standaarden.overheid.nl wordt gepubliceerd, wordt dit
+verder toegelicht. Aandachtspunt voor de expertbijeenkomst is of de relatie tussen TOOI en
+MDTO afdoende beschreven is.
+
+In TOOI zijn links opgenomen naar de Overheidbrede Web Metadata Standaard (OWMS) die
+in het verleden op de ‘Pas toe of leg uit’-lijst stond. Dit helpt om informatie die al is
+uitgedrukt in OWMS, om te zetten naar TOOI.
+
+5.1.2 Kwantitatieve en kwalitatieve voordelen ten opzichte van de nadelen
+
+TOOI is vrij beschikbaar en aan het gebruik van TOOI zijn geen kosten verbonden.
+
+De meerwaarde van het TOOI-kennismodel zit in het beter vindbaar, toegankelijk,
+interoperabel en herbruikbaar maken van officiële overheidsinformatie door gebruik van een
+gemeenschappelijke taal (semantiek). TOOI zorgt voor een betere informatiehuishouding
+binnen de overheid. TOOI zorgt voor een kostenbesparing doordat informatie over
+bijvoorbeeld overheidsorganisaties in TOOI centraal beheerd wordt en dus niet op meerdere
+plekken hoeft te worden bijgehouden. Het onderhouden van informatie op meerdere plaatsen
+kost tijd en kan ten koste gaan van de kwaliteit van die informatie.
+
+De extra kosten om bestaande semantische toepassingen TOOI-compliant te maken zijn
+moeilijker kwantificeerbaar en afhankelijk van de gebruikte upper-ontologies (bestaande
+generiekere standaarden) en semantische componenten in de bestaande toepassing. Een
+
+
+                                             7 van 13
+matching met OWMS en de OWMS-waardelijsten zal deel uitmaken van het TOOI-
+kennismodel, zodat conversie van OWMS naar TOOI soepel kan verlopen.
+
+Concrete business cases zijn:
+
+    •     de TOOI-ontologie voor overheidsorganisaties en de TOOI-registers maken onderdeel
+          uit van het informatiemodel voor Zicht op Nederland (ZoN). ZoN is gericht op
+          datagedreven samenwerken aan de fysieke leefomgeving en koppelt met TOOI de
+          geografische informatie betreffende bestuurlijke grenzen aan de administratieve
+          organisatie van de Nederlandse overheid.
+    •     TOOI-waardelijsten voor organisaties worden gebruikt in het Digitaal Stelsel
+          Omgevingswet (DSO). TOOI is de single source of thruth voor de organisaties die het
+          bevoegd gezag vormen binnen de context van de Omgevingswet.
+    •     de Digitale infrastructuur voor de Woo-index is een TOOI-toepassingsprofiel voor
+          PLOOI. TOOI zorgt voor de integrale doorzoekbaarheid van informatiecollecties van
+          verschillende organisaties en uit verschillende domeinen.
+
+Een aandachtspunt voor de expertbijeenkomst is om te achterhalen wat de
+praktijkvoorbeelden, of bestaande problemen, zijn in de andere overheidslagen (gemeenten,
+provincies, uitvoeringsorganisaties) wat de maatschappelijke meerwaarde van TOOI
+bekrachtigt.
+
+Er zijn geen beveiligings- of privacyrisico’s verbonden aan de adoptie van TOOI.
+
+5.2 Open standaardisatieproces
+
+5.2.1 Onafhankelijkheid en duurzaamheid standaardisatieorganisatie
+
+De ontwikkeling en het beheer van TOOI is belegd bij KOOP, een zelfstandig onderdeel van
+Logius. De Directie Digitale Overheid bij het ministerie van Binnenlandse Zaken en
+Koninkrijksrelaties heeft zich verbonden aan het ontwikkelen en beschikbaar houden van
+TOOI. KOOP heeft bij aanmelding een verklaring van de opdrachtgever overlegd waar dit uit
+blijkt.
+
+5.2.2 Beschikbaarheid documentatie en intellectueel eigendomsrecht
+
+TOOI is kosteloos beschikbaar via een overheidswebsite, onder Creative Commons Attribution
+4.0 International Public License (CC-BY). KOOP ziet erop toe dat bijdragen van partijen aan
+de ontwikkeling van de standaard alleen vrij van kosten en onder dezelfde licentie deel
+kunnen gaan uitmaken van de standaard.
+
+Er zijn geen kosten verbonden aan bijdragen aan de doorontwikkeling van TOOI.
+Documentatie van wijzigingsbeheer is nog in ontwikkeling. Het beheerplan beschrijft hoe dit
+proces wordt ingericht. Alle beschikbare documentatie wordt gepubliceerd.
+
+
+
+
+                                              8 van 13
+5.2.3 Borging inspraak en belangen
+
+Het besluitvormingsproces is tevens beschreven in het TOOI-beheerplan. De specificatie van
+TOOI in de TOOI-documentatie en de besluitvorming over doorontwikkeling wordt publiekelijk
+gedeeld op Gitlab. Eenieder kan daar bevindingen op TOOI indienen bij de beheerorganisatie.
+Op dit moment worden beslissingen nog genomen door de TOOI-redactie en wordt alleen
+verantwoording afgelegd naar de directe opdrachtgever van TOOI. Er zal op korte termijn een
+redactieraad worden ingericht waarin belanghebbenden in de besluitvorming worden
+betrokken. Er is op dit moment geen sprake van openbare consultatie. Er is altijd de
+mogelijkheid om bezwaar te maken tegen de gevolgde procedure.
+
+De besluitvorming rond het uitbrengen van nieuwe versies van TOOI-modules wordt waar
+nodig en voor zover en waar mogelijk afgestemd met belanghebbenden waarbij gestreefd
+wordt naar consensus.
+
+De beheerder organiseert regelmatig rechtstreeks overleg over TOOI met de opdrachtgever
+en de belangrijkste stakeholders in de TOOI-community, zoals het Nationaal Archief en de
+koepelorganisaties. Een dergelijk overleg heeft plaatsgevonden op 6 juni en 14 augustus jl.
+Op 3 oktober 2024 organiseert de beheerder een eerste openbare bijeenkomst voor de
+gehele TOOI-community. De bedoeling is om dat met regelmaat naar behoefte te herhalen en
+ook de leveranciers bij de community te betrekken. Middels een TOOI-nieuwsbrief en
+nieuwsberichten op de KOOP-website houdt de beheerder community-leden op de hoogte van
+ontwikkelingen en bijeenkomsten. De TOOI-community zal worden gebruikt voor publieke
+consultatie van nieuwe versies van de standaard. Daarbij zullen de instructies uit de
+toetsingsprocedure en criteria gevolgd worden.
+
+Aandachtspunt voor de expertbijeenkomst is (het plan voor het herzien van) het huidige
+besluitvormingsproces van de standaard (waaronder het betrekken van belanghebbenden in
+de besluitvorming).
+
+5.2.4 Versiebeheer
+
+Het beleid met betrekking tot versiebeheer op de afzonderlijke onderdelen van TOOI is
+beschreven in het beheerplan van TOOI. TOOI maakt gebruik van semantic versioning,
+waarin backward compatibility centraal staat.
+
+TOOI 1.3.4. kent drie versieaanduidingen, gescheiden door een punt: MAJOR.MINOR.PATCH.
+Hogere MAJOR-versies zijn mogelijk niet backward compatible met lagere MAJOR-versies.
+Hogere MINOR-versies kunnen nieuwe functionaliteit bevatten, maar zijn wel backward
+compatible met lagere MINOR-versies. Hogere PATCH-versies bevatten correcties van
+evidente fouten in lagere PATCH-versies of aanvullingen van niet-functionele aard. Alle
+vastgestelde versies van een module blijven beschikbaar op de webpagina van TOOI. Een
+nieuwe versie dwingt daarmee geen directe overstap af bij de gebruikers, tenzij anders
+(bijvoorbeeld wettelijk) bepaald. TOOI stelt in overleg met de gebruikersraad vast hoe lang
+een oude versie wordt ondersteund en wanneer hij komt te vervallen (obsolete wordt).
+
+
+                                           9 van 13
+TOOI 1.3.4 is een persistente versie die bestaat uit persistente versies van modules. KOOP
+zal (in overleg met de gebruikersraad) afhankelijk van de grootte van de wijzigingen in
+modules bepalen of TOOI als geheel een nieuw versienummer krijgt en of de nieuwe versie
+dusdanig afwijkt van de vorige dat een nieuwe aanmelding bij het Forum Standaardisatie
+nodig is.
+
+Aandachtspunt voor de expertbijeenkomst is in hoeverre het versiebeleid voor TOOI
+voldoende duidelijk is voor opname van TOOI op de ‘Pas toe of leg uit’-lijst.
+
+5.2.5 Adoptieondersteuning
+
+Informatie over TOOI is beschikbaar op de website voor standaarden van overheid.nl en
+mensen kunnen met vragen terecht bij de Servicedesk van KOOP of via
+tooi@koop.overheid.nl. Veel gestelde vragen zullen ook op de FAQ van TOOI worden
+beantwoord.
+
+5.3 Draagvlak
+
+5.3.1 Marktondersteuning en toetsing conformiteit standaard
+
+TOOI-waardelijsten zijn toegepast in de Standaard Officiële Publicaties (STOP-standaard) die
+gebruikt wordt in het Digitaal Stelsel Omgevingswet (DSO). Leveranciers van software die
+STOP implementeren, maken dus gebruik van de inhoud van TOOI-waardelijsten.
+
+Alle leveranciers die aansluiting van bestuursorganen op de Woo-index verzorgen, maken
+hierbij gebruik van de op TOOI gebaseerde metadata in de sitemaps. Hiermee kunnen
+webmasters ervoor zorgen dat zoekmachines weten welke pagina's op hun sites kunnen
+worden doorzocht). Daarin zijn ook verschillende TOOI-waardelijsten voorgeschreven.
+Leveranciers zullen een (kleine) aanpassing moeten doen aan hun systeem om te kunnen
+werken met TOOI-URI’s. Er zijn geen concrete afspraken met leveranciers, maar via de
+toepassing van TOOI gevraagd door een gebruiker worden leveranciers bewogen om de
+TOOI-URI’s op te nemen.
+
+De business rules van de TOOI-ontologie zijn machineleesbaar gespecificeerd (in SHACL) en
+kunnen dus geautomatiseerd worden getoetst.
+
+Aangezien TOOI geen syntax-specificatie kent, is er geen validatietool waarmee een
+willekeurige dataset automatisch gevalideerd kan worden op TOOI-conformiteit. Wel zou er
+gezocht kunnen worden naar het patroon van de URI om zodoende te achterhalen of er
+gebruik wordt gemaakt van TOOI-URI’s.
+
+5.3.2 Voorbeeldprofielen of implementaties
+
+Er zijn voorbeelden van profielen van TOOI:
+
+   •   Van de uitgebreide waardelijst voor 'filetypes' zijn er zowel voor DCAT-AP-DONL als
+       voor de Woo-index beperktere lijsten gemaakt (respectievelijk Filetypes DCAT AP DONL
+       en PLOOI filetypes aansluitvoorwaarden)
+
+                                          10 van 13
+   •   Van de waardelijst met activiteiten die onderwerp kunnen zijn van
+       omgevingsvergunningen en omgevingsmeldingen in publicaties op grond van de Wet
+       elektronische publicaties ('Wep activiteiten volledig') zijn er twee deelverzamelingen
+       gemaakt, één voor mensen en applicaties bij de centrale overheid en één voor mensen
+       en applicaties bij mede-overheden.
+
+Voorbeeldimplementaties zijn onder meer te vinden bij het DSO, die voor de STOP-standaard
+gebruik maakt van de TOOI-waardelijsten, en bij de Woo-index, die voor diverse metadata-
+elementen en de waardelijsten gebruik maakt van TOOI.
+
+Een voorbeeld van een toekomstige implementatie is de standaard voor Samenwerkende
+Catalogi (onderdeel van de GDI) en de Uniforme Productnamenlijst die nu nog
+geïmplementeerd zijn in OWMS, maar binnenkort geheel in TOOI als nieuwe versie zullen zijn
+gemodelleerd.
+
+5.3.3 Draagvlak
+
+Er is draagvlak:
+
+   •   BZK, als opdrachtgever, ziet erop toe dat TOOI wordt toegepast in de eigen collecties
+       met overheidsinformatie op Overheid.nl (Officiële bekendmakingen, Basis
+       wettenbestand, Lokale regelingenbank en DiWoo) en op te nemen in de Informatieve
+       Kern van het Federatief Datastelsel (FDS), dat deel uitmaakt van de Generieke Digitale
+       Infrastructuur (GDI). Het Register van Overheidsorganisaties wordt via een TOOI-API
+       aangesloten op het FDS.
+   •   TOOI wordt toegepast in het Digitaal Stelsel Omgevingswet (DSO). Zie de beschrijving
+       van deze use case in Hoofdstuk 6;
+   •   TOOI wordt toegepast in het informatiemodel van Doorontwikkeling in Samenhang van
+       de GEO-basisregistraties (Dis Geo) om bestuurlijke gebieden te verbinden met
+       openbare lichamen uit de TOOI-registers.
+   •   TOOI wordt ook gebruikt door derden die de ontsluiting van Woo-informatie faciliteren,
+       zoals Woogle van de UvA.
+
+De hiervoor genoemde toepassingen worden gebruikt door een scala aan
+overheidsorganisaties, zowel centraal als decentraal. Zo is KOOP in gesprek met de VNG, IPO
+en UvW over uitbreidingen in de TOOI-ontologie en nieuwe waarden in TOOI-waardelijsten.
+Het is uiteraard te simpel om te stellen dat die organisaties zelf ook TOOI direct toepassen in
+al hun informatiesystemen.
+
+KOOP is rechtsreeks betrokken bij implementatie van TOOI in het DSO, bij ZoN en FDS
+(Federatief Datastelsel, onderdeel van de Generieke Digitale Infrastructuur (GDI)) en levert in
+de betreffende gremia voor stelseloverleg uitleg over de inhoud van TOOI en advies over de
+toepasbaarheid van TOOI op stelselschaal.
+
+Er is nog maar beperkte ervaring met het toepassen van TOOI buiten KOOP. Als partijen
+buiten KOOP daarin geïnteresseerd zijn, zal KOOP bepalen welke ondersteuning er geleverd
+kan worden (zie het beheerplan).
+                                            11 van 13
+Diverse organisaties waaronder het Ministerie van Financiën - Afdeling Begrotingszaken,
+Ministerie van Algemene zaken - Dienst Publiek en Communicatie (DPC), MIDO, Stichting
+RIONED en Kennisplatform CROW onderschrijven de aanmelding om TOOI te verplichten aan
+de overheid.
+
+Een aandachtspunt voor de expertbijeenkomst is of overheidsorganisaties die worden geraakt
+door een verplichting van de standaard achter de standaard staan.
+
+TOOI kan gezien worden als een opvolger van OWMS. OWMS wordt nog steeds
+overheidsbreed toegepast in metadata van webpagina's en door organisaties die hun
+productencatalogus met Samenwerkende Catalogi (een set afspraken over het uitwisselen
+van informatie over producten en diensten van de overheid) beschikbaar stellen. De TOOI-
+ontologie is niet backward compatibel met OWMS. Om conversie van bestaande toepassingen
+van OWMS te ondersteunen, verwijzen de overheidsorganisaties en begrippen in TOOI naar
+de corresponderende organisaties en begrippen in OWMS.
+
+5.4 Opname op de lijst bevordert adoptie
+Plaatsing van de standaard op de ‘Pas toe of leg uit’-lijst kan zorgen voor meer bekendheid
+van de standaard. Overheidsorganisaties moeten de standaard gaan implementeren of
+weloverwogen toelichten waarom ze dit niet doen. TOOI wordt niet voorgeschreven in wet- en
+regelgeving. Er zijn wel dwingende voorschriften om overheidsinformatie vindbaar,
+toegankelijk, interoperabel en herbruikbaar ter beschikking te stellen waarvoor TOOI een
+geschikt middel is.
+
+Op dit moment zijn er geen ontwikkelingen in voorbereiding om TOOI verplicht te stellen,
+maar zijn er wel dwingende voorschriften waar TOOI een geschikt middel is om aan die
+voorschriften te voldoen. TOOI biedt een oplossing om te voldoen aan de eisen aan metadata
+van publicaties gesteld in het wetsvoorstel voor de Wet implementatie Open data richtlijn,
+Wet hergebruik van overheidsinformatie en de Wet digitale overheid.
+
+Opname op de lijst helpt KOOP in het bevorderen van de adoptie en het uitvoeren van de
+daarbij behorende activiteiten. KOOP brengt TOOI onder de aandacht door middel van een
+nieuwsbrief, nieuwsberichten op de KOOP-website, presentaties, community- en
+gebruikersbijeenkomsten (zie 5.2.3) , etc. Via de webpagina voor TOOI wordt de actuele
+stand van zaken en nieuws over TOOI kenbaar gemaakt. TOOI wordt ontwikkeld als
+standaard die zal worden toegepast in de publicatieketen voor officiële bekendmakingen.
+TOOI wordt daarmee in de praktijk getoetst op bruikbaarheid en vrijwel alle
+overheidsorganisaties zullen TOOI metadata gaan aanleveren. Veel informatie wordt
+aangeboden vanuit informatiesystemen die door leveranciers als pakket worden aangeboden.
+De TOOI-URIs zullen naar verwachting in pakketsoftware worden geïmplementeerd, zodat
+overheden kunnen aansluiten op de voorzieningen van KOOP. Verwacht wordt dat dat een
+grote stimulans betekent voor de adoptie van TOOI.
+
+Om een indicatie te krijgen van de mate van adoptie van TOOI zal de beheerder tijdens de
+community-bijeenkomsten bij deelnemers informeren waar zij TOOI toepassen of welke
+
+                                          12 van 13
+plannen voor toepassingen zij nog hebben. Het aantal bijdragen door derden op de publieke
+GitLab-repository van TOOI is een andere indicator voor de adoptie van TOOI. Verder
+onderzoekt de beheerder de mogelijkheden om statistieken te verzamelen van gebruikers van
+de URI-resolver en lezers van de TOOI-specificaties.
+
+Aandachtspunt voor expertbijeenkomst is in hoeverre de activiteiten van de
+beheerorganisatie de adoptie van TOOI zullen bevorderen.
+
+
+6 Praktijkvoorbeeld: TOOI in het DSO
+Bij de ontwikkeling van het Digitaal Stelsel Omgevingswet (DSO) is in het gehele DSO-stelsel
+het gebruik van het in eerste instantie gekozen OIN als identificatie van de juridisch
+verantwoordelijke organisatie vervangen door de TOOI-URI. Leveranciers van plansoftware
+en toepasbare regels hebben de TOOI-waardelijsten (ook gepubliceerd in de Stelselcatalogus
+Omgevingswet) geïmplementeerd in hun producten. De TOOI-registers worden ook
+aangeboden via de Stelselcatalogus Omgevingswet.
+
+In de praktijk blijken er veel verschillen te zijn in de naamgeving van organisaties in de
+diverse registraties waar het DSO voor verschillende doeleinden gebruik van maakt (COR
+voor OIN’s, Handelsregister voor KvK-nummers, TOOI-waardelijsten voor TOOI URI’s). Deze
+verschillen kunnen tot identificatieproblemen leiden. Om deze te minimaliseren is in informele
+samenwerking tussen betrokken partijen (architectuur DSO, het COR, ROO en TOOI) besloten
+dat bij een OIN-registratie van een overheidsorganisatie altijd de TOOI-URI wordt vastgelegd,
+zodat TOOI eenduidig als single source of truth voor de relevante gegevens van de
+betreffende overheidsorganisatie kan worden geraadpleegd: een voorbeeld van adoptie van
+TOOI die leidt tot een daadwerkelijke verbetering van zowel de kwaliteit van de inhoud als
+van de interoperabiliteit.
+
+
+
+
+                                           13 van 13
+

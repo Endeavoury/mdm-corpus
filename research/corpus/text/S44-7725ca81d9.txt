@@ -1,0 +1,2975 @@
+ 
+
+    
+
+    
+    Core Business Vocabulary
+
+    
+
+     
+
+        Copyright © 2024
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+Abstract
+The Core Business Vocabulary is a simplified, reusable and extensible data model that provides a minimum set of classes and properties for
+legal entities, that is, trading bodies that are formally registered with the relevant authority and that appear in
+business registers.
+
+    
+
+        Introduction
+
+    
+	The Core Business Vocabulary provides a minimum set of classes and properties for legal entities, that is, trading bodies that are formally registered with the relevant authority and that appear in business registers.
+
+    
+Status
+
+            This Core Vocabulary has the status SEMIC Recommendation published at 2024-05-06.
+
+        
+
+            Information about the process and the decisions involved in the creation of this specification are consultable at the Changelog.
+
+    
+
+        License
+
+    
+
+	
+             Copyright © 2024 European Union. All material in this repository is published under the license CC-BY 4.0, unless explicitly otherwise mentioned.
+
+    
+
+    
+
+        Terminology
+
+        
+
+            A Core Vocabulary (CV) is a basic, reusable and extensible data specification that captures the fundamental characteristics of an entity in a context-neutral fashion. Its main objective is to provide terms to be reused in the broadest possible context.
+            More information can be found on the SEMIC Style Guide.
+
+        
+This specification uses the following prefixes to shorten the URIs for readibility.
+
+        
+
+PrefixNamespace IRI
+
+            
+cvhttp://data.europa.eu/m8g/     
+
+dcthttp://purl.org/dc/terms/
+
+foafhttp://xmlns.com/foaf/0.1/
+
+legalhttp://www.w3.org/ns/legal#
+
+locnhttp://www.w3.org/ns/locn#
+
+orghttp://www.w3.org/ns/org#
+
+owlhttp://www.w3.org/2002/07/owl#
+
+rdfhttp://www.w3.org/1999/02/22-rdf-syntax-ns#
+
+rdfshttp://www.w3.org/2000/01/rdf-schema#
+
+skoshttp://www.w3.org/2004/02/skos/core#
+
+xsdhttp://www.w3.org/2001/XMLSchema#
+
+        
+
+    
+Overview
+
+    
+
+                
+
+                            This document describes the usage of the following main entities for a correct usage of the Core Vocabulary:
+
+                            |
+			      Accounting Document |
+			      Address |
+			      Contact Point |
+			      Identifier |
+			      Legal Entity |
+
+                        
+
+                            The main entities are supported by:
+
+                            |
+			      Agent |
+			      Document |
+			      Formal Organization |
+			      Organization |
+
+                
+
+                        
+
+                            And supported by these datatypes:
+
+                            | Code | Date | Literal | Text | URI |
+
+                
+
+    
+
+        
+
+        
+
+    
+
+   Main Entities
+
+The main entities are those that form the core of the Core Vocabulary.
+
+   
+
+            
+
+                Accounting Document
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    Financial and non-financial information as a result of an activity of an organisation.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        Accounting documents, might include:
+
+ Financial statements (incl. the list of participating interests, subsidiary undertakings and associated undertakings, their registered office address and proportion of capital held), audit reports. 
+
+ Non-financial statements, management reports and other statements or reports.
+
+ Annual financial reports.
+
+                    
+
+                
+
+                        Properties
+
+                    
+
+                        This specification does not impose any additional requirements to properties for this entity.
+
+                
+
+        
+
+    
+
+   
+
+            
+
+                Address
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A spatial object that in a human-readable way identifies a fixed location.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        An "address representation" as conceptually defined by the INSPIRE Address Representation data type: "Representation of an address spatial object for use in external application schemas that need to include the basic, address information in a readable way.".
+
+The representation of Addresses varies widely from one country's postal system to another. Even within countries, there are almost always examples of Addresses that do not conform to the stated national standard. However, ISO 19160-1 provides a method through which different Addresses can be converted from one conceptual model to another.
+
+This specification was heavily based on the INSPIRE Address Representation data type. It is noteworthy that if an Address is provided using the detailed breakdown suggested by the properties for this class, then it will be INSPIRE-conformant. To this very granular set of properties, we add two further properties:
+
+- full address (the complete address as a formatted string)
+
+- addressID (a unique identifier for the address).
+
+The first of these allows publishers to simply provide the complete Address as one string, with or without formatting. This is analogous to vCard's label property.
+
+The addressID is part of the INSPIRE guidelines and provides a hook that can be used to link the Address to an alternative representation, such as vCard or OASIS xAL.
+
+This class belongs to Core Location Vocabulary
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: address area
+                            , address ID
+                            , administrative unit level 1
+                            , administrative unit level 2
+                            , full address
+                            , locator designator
+                            , locator name
+                            , post code
+                            , post name
+                            , post office box
+                            , thoroughfare
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        address area
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a geographic area that groups Addresses.
+
+                                
+                                    This would typically be part of a city, a neighbourhood or village, e.g. Montmartre. Address area is not an administrative unit.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        address ID
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A globally unique identifier for each instance of an Address.
+
+                                
+                                    The concept of adding a globally unique identifier for each instance of an address is a crucial part of the INSPIRE data spec. A number of EU countries have already implemented an ID (a UUID) in their Address Register/gazetteer, among them Denmark. OASIS xAL also includes an address identifier. It is the address Identifier that allows an address to be represented in a format other than INSPIRE whilst remaining conformant to the Core Vocabulary.
+
+The INSPIRE method of representing addresses is very detailed, designed primarily for use in databases of addresses. Whilst data that is published in full conformance with the INSPIRE data structure can be made available using theCore Location Vocabulary the reverse is not true since the Core Vocabulary allows much greater flexibility.
+
+Many datasets that include address data as one piece of information about something else are likely to have that data in simpler formats. These might be tailored to the specific need of the dataset, follow a national norm, or make use of a standard like vCard.
+
+To provide maximum flexibility in the Core Vocabulary, whilst remaining interoperable with INSPIRE Address Guidelines (which EU Member States are obliged to use), the  Core Location Vocabulary provides the extra property of full address and makes use of INSPIRE's addressID.
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        administrative unit level 1
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of the uppermost level of the address, almost always a country.
+
+                                
+                                    Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'France' or 'FRA' consistently throughout the dataset and avoid mixing the two. The Country controlled vocabulary from the Publications Office can be reused for this.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        administrative unit level 2
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities.
+
+                                
+                                    Values could be a region or province, more granular than level 1.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        full address
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The complete address written as a string.
+
+                                
+                                    Use of this property is recommended as it will not suffer any misunderstandings that might arise through the breaking up of an address into its component parts. This property is analogous to vCard's label property but with two important differences: (1) formatting is not assumed so that, unlike vCard label, it may not be suitable to print this on an address label, (2) vCard's label property has a domain of vCard Address; the fullAddress property has no such restriction. An example of a full address is "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        locator designator
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A number or sequence of characters that uniquely identifies the locator within the relevant scope.
+
+                                
+                                    In simpler terms, this is the building number, apartment number, etc. For an address such as "Flat 3, 17 Bridge Street", the locator is "flat 3, 17".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        locator name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building.
+
+                                
+                                    The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building.
+
+The key difference between a locator designator and a locator name is that the latter is a proper name and is unlikely to include digits. For example, "Shumann, Berlaymont" is a meeting room within the European Commission headquarters for which locator name is more appropriate than locator.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post code
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.
+
+                                
+                                    Post codes are common elements in many countries' postal address systems. One of the many post codes of Paris is for example "75000".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.
+
+                                
+                                    Usually a city, for example "Paris".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post office box
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A location designator for a postal delivery point at a post office, usually a number.
+
+                                
+                                    INSPIRE's name for this is "postalDeliveryIdentifier" for which it uses the locator designator property with a type attribute of that name. This vocabulary separates out the Post Office Box for greater independence of technology. An example post office box number is "9383".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        thoroughfare
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a passage or way through from one location to another.
+
+                                
+                                    A thoroughfare is usually a street, but it might be a waterway or some other feature. For example, "Avenue des Champs-Élysées".
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+   
+
+            
+
+                Contact Point
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    Information (e.g. e-mail address, telephone number) of a person or department through which the user can get in touch with.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The Core Public Organization Vocabulary defines properties for telephone number, e-mail address and opening hours although it is noteworthy that the class is based on schema.org's  ContactPoint  class  that has additional properties that some implementations may find useful.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: contact page
+                            , has email
+                            , has telephone
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        contact page
+
+                                
+
+                                        
+                                            Document
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A web page that could be used to reach out the Contact Point.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has email
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    An electronic address through which the Contact Point can be contacted.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has telephone
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A telephone number through which the Contact Point can be contacted.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Identifier
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A structured reference that identifies an entity.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The Identifier class is based on the UN/CEFACT class of the same name and is defined under the ADMS namespace.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: date of issue
+                            , identifies
+                            , notation
+                            , schema agency
+                            , scheme name
+                            , scheme URI
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        date of issue
+
+                                
+
+                                        
+                                            Date
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The date on which the Identifier was assigned.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        identifies
+
+                                
+
+                                        
+                                            Legal Entity
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The entity that is referenced by the Identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        notation
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A string of characters to uniquely identify a concept.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        schema agency
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of the agency that issued the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        scheme name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Name of the scheme used to construct the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        scheme URI
+
+                                
+
+                                        
+                                            URI
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    URI of the scheme used to construct the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Legal Entity
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A self-employed person, company, or organization that has legal rights and obligations.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        A Legal Entity able to transact business, typically registered with a body able to confer legal status such as a national business register. It is able to trade, is legally liable for its actions, accounts, tax affairs etc. This makes Legal Entities distinct from the concept of organisations or groups. Many organisations exist that are not Legal Entities, yet to the outside world they have staff, hierarchies, locations etc. Other organisations exist that are an umbrella for several Legal Entities (universities are often good examples of this). This vocabulary is concerned solely with registered Legal Entities and does not attempt to cover all possible trading bodies.
+
+                
+
+                    
+                        Subclass of
+
+                             Formal Organization
+
+                        
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: alternative name
+                            , contact point
+                            , has accounting document
+                            , identifier
+                            , legal entity activity
+                            , legal entity status
+                            , legal form type
+                            , legal identifier
+                            , legal name
+                            , registered address
+                            , registration date
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        alternative name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Any name by which a Legal Entity is known, other than their legal name.
+
+                                
+                                    Some jurisdictions recognise concepts such as a trading name or alternative forms of a legal entity's name. The alternative name property can be used to record such names but should not be used to record translations of the primary legal name. Where more than one name exists and where they have equal standing but are expressed in different languages, identify the language used in each of the multiple names.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        contact point
+
+                                
+
+                                        
+                                            Contact Point
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The main contact information of the resource.
+
+                                
+                                    Usually a phone number and e-mail address. Other contact methods may be included, including online contact information, but this is conceptually distinct from the organization's homepage that may or may not provide contact information.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has accounting document
+
+                                
+
+                                        
+                                            Accounting Document
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The accounting document provided by an organisation.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        identifier
+
+                                
+
+                                        
+                                            Identifier
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The unambiguous structured reference for the Legal Entity, which is different from the one denoting its legal status.
+
+                                
+                                    Legal Entities may have any number of identifiers (but only one legal identifier). For example, in many jurisdictions, a business will have one or more tax numbers associated with them which do not, by themselves, confer legal entity status. An individual may be issued with identifiers for everything from social security to club membership. The identifier relationship must not be used to link to the identifier issued by the authority that conferred legal entity status on a business.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        legal entity activity
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The area of work in which the Legal Entity is engaged.
+
+                                
+                                    This is a general term that encompasses all the economic activities carried out by a company during the course of business. The activity of a company should be recorded using a controlled vocabulary. Several such vocabularies exist, many of which map to the UN's ISIC codes. Where a particular controlled vocabulary is in use within a given context, such as SIC codes in the UK, it is acceptable to use these, however, the preferred choice for European interoperability is NACE.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        legal entity status
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Information about the viability of the current position of the legal entity.
+
+                                
+                                    Recording the status of a company presents the same issues as its type. The terms 'insolvent', 'bankrupt' and 'in receivership,' for example, are likely to mean slightly different things with different legal implications in different jurisdictions. Best practice for recording various other status levels is to use the relevant jurisdiction's terms and to identify the controlled vocabulary used.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        legal form type
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The classification of the Legal Entity as a member of a particular group in the context of legal registration.
+
+                                
+                                    To indicate the legal form type of a Legal Entity the Entity Legal Form code list published by the Publications Office of the EU and maintained by GLEIF can be used.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        legal identifier
+
+                                
+
+                                        
+                                            Identifier
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The unambiguous structured reference assigned to the Legal Entity by the legal authority that registered it.
+
+                                
+                                    Legal Entity must have a unique identification number, allowing it to be clearly identified in communication across business registers.
+
+The details of the registration are provided as properties of the Identifier class. The Core vocabulary sets no restriction on the type of legal identifier. In many countries, the business register's identifier is the relevant data point.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        legal name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name under which the Legal Entity is legally registered.
+
+                                
+                                    The legal name is different from the alternative (trade) name which is a pseudonym used by companies that do not operate under their registered company name.
+A business might have more than one legal name, particularly in countries with more than one official language. In such cases, and where the encoding technology allows, the language of the string should be identified.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        registered address
+
+                                
+
+                                        
+                                            Address
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The address at which the Legal Entity is legally registered.
+
+                                
+                                    In almost all jurisdictions, Legal Entities must register a public address. This may or may not be the actual address at which the Legal Entity does its business, it is commonly the address of their lawyer or accountant, but it is the address to which formal communications can be sent. The registered address property points to the Address of the Registered Site. This property can be seen as a shorthand for this property path.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        registration date
+
+                                
+
+                                        
+                                            Date
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The date on which the legal entity has registered in some jurisdiction for regulatory and / or for tax purposes.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   Supportive Entities
+
+The supportive entities are supporting the main entities in the Core Vocabulary. 
+They are included in the Core Vocabulary because they form the range of properties.
+
+   
+
+            
+
+                Agent
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    Entity that is able to carry out action.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        In compliance with the description from FOAF, an Agent is considered as any entity that is able to carry out actions. The Agent class acts as a generic element which can be further specified by implementers for their usages, for example by defining the Person class from the Core Person Vocabulary or Organization from W3C's Organization Ontology as a subclasses of Agent. This Person or Organization can then issue a certain Requirement or be concerned by an Evidence provided.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: head of
+                            , member of
+                            , name
+                            , type
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        head of
+
+                                
+
+                                        
+                                            Organization
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Indicates that a person (or other agent) is the leader or formal head of the Organization.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        member of
+
+                                
+
+                                        
+                                            Organization
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Indicates that an agent (person or other organization) is a member of the Organization with no indication of the nature of that membership or the role played.
+
+                                
+                                    Note that the choice of property name is not meant to limit the property to only formal membership arrangements, it is also intended to cover related concepts such as affiliation or other involvement in the organization. Extensions can specialize this relationship to indicate particular roles within the organization or more nuanced relationships to the organization.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The noun given to the Agent.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        type
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A classification assigned to an Agent.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Document
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A self-contained collection of information in a readable format.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        In alignment with FOAF, there is no distinction between physical and electronic documents, or between copies of a work and the abstraction those copies embody.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                        This specification does not impose any additional requirements to properties for this entity.
+
+                
+
+        
+
+    
+
+   
+
+            
+
+                Formal Organization
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    An Organization which is recognized in the world at large, in particular in legal jurisdictions, with associated rights and responsibilities
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        Examples include a corporation, charity, government or church.
+
+                
+
+                    
+                        Subclass of
+
+                             Organization
+
+                        
+
+                    
+                        Properties
+
+                    
+
+                        This specification does not impose any additional requirements to properties for this entity.
+
+                
+
+        
+
+    
+
+   
+
+            
+
+                Organization
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.
+
+                
+
+                
+
+                        Subclass of
+
+                             Agent
+
+                        
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: has member
+                            , has sub organization
+                            , sub organization of
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has member
+
+                                
+
+                                        
+                                            Agent
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Indicates an agent (person or other organization) who is a member of the subject Organization.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has sub organization
+
+                                
+
+                                        
+                                            Organization
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an organization which is a sub-part or child of this organization.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        sub organization of
+
+                                
+
+                                        
+                                            Organization
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an Organization which contains this Organization.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+    
+
+        
+
+            Datatypes
+
+	The following datatypes are used within this specification.
+
+	
+
+		
+
+		    
+
+		    
+			Class
+
+		    
+			Definition
+
+		
+
+	    
+
+		
+
+                   
+
+		   
+
+                
+
+                        Code
+
+                
+
+                    An idea or notion; a unit of thought.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Date
+
+                
+
+                    Date represents top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day, up to but not including the beginning moment of the next day).  For non-timezoned values, the top-open intervals disjointly cover the non-timezoned timeline, one per day.  For timezoned values, the intervals begin at every minute and therefore overlap.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Literal
+
+                
+
+                    The class of literal values, eg. textual strings and integers.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Text
+
+                
+
+                    The text data type is a combination of a string and a language identifier.
+
+		
+
+                   
+
+		   
+
+                
+
+                        URI
+
+                
+
+                    anyURI represents an Internationalized Resource Identifier Reference (IRI).  An anyURI value can be absolute or relative, and may have an optional fragment identifier (i.e., it may be an IRI Reference).
+
+            
+
+    
+ Examples 
+
+Example Legal Entity
+
+	
+Usage Guidelines
+
+  
+Support for implementation
+
+The following section provides support for implementing the Core Business Vocabulary.
+
+JSON-LD context file
+
+One common technical question is the format in which the data is being exchanged. 
+For conformance with the Core Business Vocabulary, it is not mandatory that this happens in a RDF serialisation, but the exhanged format SHOULD be unambiguously be transformable into RDF.
+For the format JSON, a popular format to exchange data between systems, SEMIC provides a JSON-LD context file. 
+JSON-LD is a W3C Recommendation [[[json-ld11]]] that provided a standard approach to interpret JSON structures as RDF.
+The provided JSON-LD context file can be used by implementers.
+This JSON-LD context is not normative, i.e. other JSON-LD contexts are allowed.
+
+The JSON-LD context file downloadable here.
+
+Validation
+
+To verify if the data is (technically) conformant to the Core Business Vocabulary, the exchanged data can be validated using the provided SHACL shapes. 
+SHACL is a W3C Recommendation to express constraints on a RDF knowledge graph. 
+
+To support the check whether or not a catalogue satisfies the expressed constraints in this Core Vocabulary, the constraints in this specification are expressed using SHACL [[shacl]].
+Each constraint in this specification that could be converted into a SHACL expression has been included.
+As such this collection of SHACL expressions that can be used to build a validation check for data. 
+
+It is up to the implementers to define the validation they expect.
+Each implementation happens within a context, and that context is beyond the SHACL expressions here.
+
+The shapes can be found here.
+
+RDF representation
+The RDF representation of the Core Business Vocabulary is available here.
+
+UML representation
+The UML representation from which the Core Business Vocabulary has been build is available here.
+
+    
+
+Governance
+
+Versioning governance
+All specifications produced in SEMIC will follow the versioning rule described by the SEMIC Style Guide rule 
+PC-R3.
+In case a SEMIC asset is deprecated the asset will remain available through its PURI.
+
+The serialisation will have:
+
+a dct:isReplacedBy referencing the new assets used instead and
+
+ an adms:status  indicating its deprecated status.
+
+Governance requirements for re-used assets
+In order to adhere to the SEMIC Style Guide rule GC-R2
+ a specification should have quality and governance standards for the assets that are being reused.
+
+In order for an asset to be considered for reuse within a SEMIC specification it can be requested by a community member or it requires to adhere to the following requirements:
+
+ The asset is part of a recommendation by a major standards body or an EU institution.
+
+ The asset is actively being maintained.
+
+After being taken into consideration the asset will be validated in three steps:
+
+ Syntax validation will be performed on the relevant artefacts.
+
+ Constraint validation will be performed on the relevant artefacts.
+
+ The PURI will be validated.
+
+Once considered and validated an asset can be adopted if it is approved by the community.
+
+Lexicalisation rules
+
+In order to adhere to the SEMIC Style Guide rule SC-R3 a specification requires formal lexicalisation rules.
+The Style Guide proposes two options either by using RDFS or SKOS lexicalisation.
+
+SEMIC uses and will use the RDFS lexicalisation for all of its specifications. More specifically:
+
+ rdfs:label is used to provide a human-readable version of a resource's name.
+
+ The usage of certain resource can be clarified in a skos:usageNote.
+
+    
+
+ 
+
+	
+Mappings
+    A mapping towards Schema.org can be found here
+
+ 
+
+Quick Reference of Classes and Properties
+
+This section provides a condensed tabular overview of the mentioned classes and properties in this specification.
+The properties are indicated as mandatory, recommended, optional and deprecated. These terms have the following meaning.
+
+Mandatory property: a receiver MUST be able to process the information for that property; a sender MUST provide the information for that property.
+
+Recommended property: a receiver MUST be able to process the information for that property; a sender SHOULD provide the information for that property if it is available.
+
+Optional property: a receiver MUST be able to process the information for that property; a sender MAY provide the information for that property but is not obliged to do so.
+
+Deprecated property: a receiver SHOULD be able to process information about instances of that property; a sender SHOULD NOT provide the information about instances of that property.
+
+	
+
+ClassClass IRIProperty TypePropertyProperty IRI
+
+	
+
+				
+
+						Accounting Document
+
+http://data.europa.eu/m8g/AccountingDocument
+
+						
+
+					
+
+			
+
+				
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								address area 
+
+http://www.w3.org/ns/locn#addressArea
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								address ID 
+
+http://www.w3.org/ns/locn#addressId
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								administrative unit level 1 
+
+http://www.w3.org/ns/locn#adminUnitL1
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								administrative unit level 2 
+
+http://www.w3.org/ns/locn#adminUnitL2
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								full address 
+
+http://www.w3.org/ns/locn#fullAddress
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								locator designator 
+
+http://www.w3.org/ns/locn#locatorDesignator
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								locator name 
+
+http://www.w3.org/ns/locn#locatorName
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post code 
+
+http://www.w3.org/ns/locn#postCode
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post name 
+
+http://www.w3.org/ns/locn#postName
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post office box 
+
+http://www.w3.org/ns/locn#poBox
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								thoroughfare 
+
+http://www.w3.org/ns/locn#thoroughfare
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Agent
+
+http://xmlns.com/foaf/0.1/Agent
+
+								head of 
+
+http://www.w3.org/ns/org#headOf
+
+						
+
+						
+
+								Agent
+
+http://xmlns.com/foaf/0.1/Agent
+
+								member of 
+
+http://www.w3.org/ns/org#memberOf
+
+						
+
+						
+
+								Agent
+
+http://xmlns.com/foaf/0.1/Agent
+
+								name 
+
+http://purl.org/dc/terms/title
+
+						
+
+						
+
+								Agent
+
+http://xmlns.com/foaf/0.1/Agent
+
+								type 
+
+http://purl.org/dc/terms/type
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								contact page 
+
+http://data.europa.eu/m8g/contactPage
+
+						
+
+						
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								has email 
+
+http://data.europa.eu/m8g/email
+
+						
+
+						
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								has telephone 
+
+http://data.europa.eu/m8g/telephone
+
+						
+
+				
+
+		
+
+					
+
+						Document
+
+http://xmlns.com/foaf/0.1/Document
+
+						
+
+					
+
+			
+
+				
+
+						Formal Organization
+
+http://www.w3.org/ns/org#FormalOrganization
+
+						
+
+					
+
+			
+
+				
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								date of issue 
+
+http://purl.org/dc/terms/issued
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								identifies 
+
+http://data.europa.eu/m8g/identifies
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								notation 
+
+http://www.w3.org/2004/02/skos/core#notation
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								schema agency 
+
+http://www.w3.org/ns/adms#schemaAgency
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								scheme name 
+
+http://www.w3.org/2000/01/rdf-schema#label
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								scheme URI 
+
+http://purl.org/dc/terms/conformsTo
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								alternative name 
+
+http://purl.org/dc/terms/alternative
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								contact point 
+
+http://data.europa.eu/m8g/contactPoint
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								has accounting document 
+
+http://data.europa.eu/m8g/hasAccountingDocument
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								identifier 
+
+http://www.w3.org/ns/adms#identifier
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								legal entity activity 
+
+http://www.w3.org/ns/legal#companyActivity
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								legal entity status 
+
+http://www.w3.org/ns/legal#companyStatus
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								legal form type 
+
+http://www.w3.org/ns/legal#companyType
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								legal identifier 
+
+http://www.w3.org/ns/legal#legalIdentifier
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								legal name 
+
+http://www.w3.org/ns/legal#legalName
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								registered address 
+
+http://data.europa.eu/m8g/registeredAddress
+
+						
+
+						
+
+								Legal Entity
+
+http://www.w3.org/ns/legal#LegalEntity
+
+								registration date 
+
+http://data.europa.eu/m8g/registrationDate
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Organization
+
+http://www.w3.org/ns/org#Organization
+
+								has member 
+
+http://www.w3.org/ns/org#hasMember
+
+						
+
+						
+
+								Organization
+
+http://www.w3.org/ns/org#Organization
+
+								has sub organization 
+
+http://www.w3.org/ns/org#hasSubOrganization
+
+						
+
+						
+
+								Organization
+
+http://www.w3.org/ns/org#Organization
+
+								sub organization of 
+
+http://www.w3.org/ns/org#subOrganizationOf
+
+						
+
+				
+
+		
+
+   
+
+    
+
+        
+
+	 
+
+    
+
+    
+
+    
+
+    
+
+    
+
+	
+
+    	
+

@@ -1,0 +1,182 @@
+  DAMA DMBOK Revision - DAMA International®             
+
+We use cookies to improve your experience on our site. Necessary cookies keep the site functional. Analytics cookies help us understand how visitors interact with the site. You can choose which cookies to allow. See our privacy policy and cookie policy for details.
+ Accept All Reject All Customize
+
+ Necessary Required for the site to function. Cannot be disabled.    
+
+ Analytics Help us understand how visitors use the site through anonymized usage data and session recordings.    
+ Save Preferences 🍪 Cookie Settings Skip to content
+
+   
+
+ Value Statement   Trusted Profession   LOGIN   JOIN NOW        
+
+   
+
+      
+
+About DAMA®
+Who We Are
+What is Data Management?
+Nominations and Elections
+Leadership & Governance
+Governance Documents
+
+Awards & Recognition
+Awards
+Lifetime Advisor Emerita
+Fellow Program
+
+Membership
+Why Join DAMA®?
+Find Your Local Chapter
+Join DAMA®/Renew Membership
+Membership FAQ
+Member Discounts & Benefits
+
+Certification
+About CDMP® Certification
+CDMP® Certification Levels
+Exam Information & Pricing
+Certification Pathway
+CDMP® Digital Badge
+CDMP® Renewal & Maintenance
+CDMP® Frequently Asked Questions
+Verify a Certification
+
+Learning & Resources
+
+Registered Education Provider Program (REP)
+List of Registered Education Providers
+DAMA® Data Management Body of Knowledge (DAMA-DMBOK®)
+DAMA-DMBOK® 3.0 Project
+DAMA® Dictionary of Data Management
+Navigating the Labyrinth (Executive Guide)
+Books Referenced in DMBoK
+
+Chapters & Community
+Find a DAMA Chapter (Map/List)
+Presidents’ Council
+Start a DAMA International® Chapter
+Chapter DAMA Days
+Pay If You Pass CDMP® Program (PIYP)
+Speaker Roster & Call for Speakers
+
+Affinity Groups
+DAMA International® Data Executives and Leaders (IDEAL)
+GenAI4DM Affinity Group
+
+Events & Conferences
+Upcoming Events (Conferences, Webinars, Workshops)
+DAMA® Global Conference Calendar
+
+Get Involved
+Committees and Working Groups
+Want to Volunteer?
+
+ 
+   Search 
+
+       
+
+ DAMA DMBOK Revision
+
+Home » DAMA DMBOK Revision
+
+ DAMA DMBOK 2.0 Revision – Maintenance Release
+
+The 2024 Revision of the DAMA-DMBOK 2.0 ®  is a maintenance release. It was undertaken to improve clarity, consistency, and usability without altering the foundational structure, framework, or scope of the DAMA DMBOK ® . This update aligns with DAMA International’s commitment to ensuring that the Body of Knowledge remains accurate, relevant, and accessible for practitioners, educators, and certification candidates.
+This maintenance release includes terminology updates, minor structural refinements, and improved representations, reflecting developments in practice and aligning more closely with the Certified Data Management Professional (CDMP) ®  examination. No material changes were made to the overarching data management framework, knowledge areas, or their definitions.
+Below is a summary of the key improvements included in this revision:
+ Terminology and Structure Enhancements
+Standardized Terminology: Terminology and acronyms have been unified across chapters for consistency.
+Improved Context Diagrams: All 12 diagrams were revised for clarity and better visual understanding.
+Chronological Activity Ordering: Activities within context diagrams are now sequenced to reflect process flow more logically.
+Streamlined Concepts: Content has been reordered and simplified to improve comprehension and navigation.
+ 
+ Data Management Roles
+Data Integration Developer: Replaces the generic "Interface Developer" to better reflect current industry roles.
+Inclusion of Data Scientists: Recognized as key data consumers, especially in analytics and integration.
+Updated Data Owner Definition: Now explicitly defined as a business person accountable for decisions within a domain.
+ 
+ Data Governance Updates
+Terminology Change: “Data governance program” is now referred to as the “data governance function”.
+AI Governance and Ethics: Ethical considerations and governance practices for AI have been integrated.
+Data Asset Valuation: Updated to define data as an “intangible asset” rather than a “non-fungible item”.
+Governance Touchpoints: Now positioned directly under the authority of the data governance function.
+ Data Quality Improvements
+Enhanced Chapter: The Data Quality chapter includes a new appendix for deeper reference.
+Clearer Dimensions: Tables describing data quality dimensions have been refined with examples.
+Cross-Functional Connections: Section six now clearly links data quality to other knowledge areas like:
+Data Modeling
+Master and Reference Data Management
+Metadata Management
+Data Integration and Interoperability
+Data Governance
+ Other Notable Revisions
+Corrections and Typos: Errors and inconsistencies across all chapters have been addressed.
+New Quality Dimension: Currency added as a recognized dimension of data quality.
+Definition of Critical Data Elements: Now explicitly included in the text.
+Appendix Relocation: ISO content and related quality dimension information from Section 1.3.5 moved to an appendix for better reference.
+ 
+
+ © 2026 DAMA International®  |  Site by GrowthZone
+
+   
+
+ Membership & Community
+
+     
+
+Join DAMA - I  
+
+     
+
+Member Login 
+
+     
+
+Find a Local Chapter 
+
+     
+
+Events and Conferences 
+
+ Certification & Standards
+
+     
+
+CDMP Certification 
+
+     
+
+DAMA-DMBOK Guide 
+
+     
+
+CDMP Exam Registration 
+
+     
+
+CDMP Prep Resources 
+
+ Contact & Support
+
+     
+
+Contact Us 
+
+   
+
+info@dama.org
+
+   
+
+2512 East Evergreen Blvd #1023
+Vancouver, WA 98661-4323
+
+ © 2026 DAMA International®.  All Rights Reserved | Privacy Policy | Terms of Use | Cookie Policy | Sitemap
+
+    LinkedIn    Scroll To Top              
+

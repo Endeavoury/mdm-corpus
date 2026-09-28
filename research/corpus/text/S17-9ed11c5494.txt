@@ -1,0 +1,1962 @@
+
+
+  
+
+    Geo-Standaarden | Forum Standaardisatie
+
+    
+
+  
+
+    
+      Skip links
+      Overslaan en naar de inhoud gaan
+      Overslaan en naar de hoofdnavigatie gaan
+
+    
+
+    
+
+        
+
+    
+
+        
+
+    
+
+                    
+
+        
+
+                
+
+                    
+
+                            Home
+
+                        
+
+                            
+                                Menu
+
+                        
+
+                    
+
+                        
+
+                            
+
+                                    
+
+        
+
+      
+Hoofdnavigatie
+
+          
+
+                    
+
+                          Introductie
+
+                    
+
+                          Wat zijn standaarden?
+
+                
+
+                          Wat zijn de verplichtingskaders?
+
+                
+
+                          Wat moet ik doen?
+
+                
+
+                          Publicaties
+
+        
+
+              
+
+                          Lijst open standaarden
+
+                    
+
+                          'Pas toe of leg uit'-standaarden
+
+                
+
+                          Aanbevolen standaarden
+
+                
+
+                          Beslisboom 'Pas toe of leg uit'-lijst
+
+                
+
+                          Standaarden aanmelden
+
+        
+
+              
+
+                          Onderwerpen
+
+                    
+
+                          Bestuur en recht
+
+                
+
+                          Bouwen en wonen
+
+                
+
+                          Internationale standaardisatie
+
+                
+
+                          Openbaar en toegankelijk
+
+                
+
+                          Schoon water en beschermde bodem
+
+                
+
+                          Uitwisselingsfundament
+
+                
+
+                          Veilig internet
+
+        
+
+              
+
+                          Metingen
+
+                    
+
+                          Monitor Open Standaarden
+
+                
+
+                          Informatieveiligheidstandaarden
+
+                
+
+                          Zelf meten
+
+        
+
+              
+
+                          Over ons
+
+                    
+
+                          Forumleden
+
+                
+
+                          Medewerkers
+
+                
+
+                          Vergaderingen en stukken
+
+                
+
+                          Contactgegevens
+
+        
+
+              
+
+  
+
+  
+
+                            
+
+                        
+                            Sluit
+
+                    
+
+                    
+
+                        
+
+                                Voer uw zoekterm in
+
+                            
+
+                                Zoeken
+
+                        
+
+                
+
+        
+
+                    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+    
+
+  
+
+  
+
+          
+
+        
+
+    
+
+    
+
+            
+            Kruimelpad
+
+                
+
+                    
+
+                                
+
+      
+
+            
+
+                        Forum Standaardisatie
+
+      
+
+                        Lijst open standaarden
+
+      
+
+              Geo-Standaarden
+
+  
+
+          
+
+                    
+
+            
+
+    
+
+    
+
+        
+
+                      
+
+    
+
+    
+
+            
+
+Geo-Standaarden
+
+        
+
+    
+
+      
+
+          
+
+  
+
+          
+
+    
+
+    
+
+    
+
+                                    
+
+          
+
+Alle systemen die geografische informatie registreren of uitwisselen hebben baat bij Geo-standaarden. Dit pakket bestaat uit allerlei afspraken om geografische informatie te beschrijven en presenteren. Zoals eenduidige termen en metadataprofielen. De afspraken zorgen ervoor dat we nauwkeurig en betrouwbaar naar objecten verwijzen.
+
+            
+
+                                
+
+  
+
+  
+
+            
+
+    
+
+      
+
+Inhoudsopgave
+
+          
+
+            
+
+    
+
+      
+
+          
+
+    
+
+Content
+
+    
+
+      
+
+    
+
+    
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Status
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Lijst status
+
+                    
+
+    
+
+        Meer informatie over 
+
+Status
+
+    
+
+    
+
+                    
+
+‘Verplicht ('Pas toe of leg uit’)' betekent dat de standaard verplicht moet worden uitgevraagd en toegepast volgens de Instructie rijksdienst bij aanschaf ICT-diensten of ICT-producten.
+
+‘Aanbevolen’ betekent dat dit een gangbare of opkomende standaard is waarvan het Forum Standaardisatie het gebruik aanbeveelt.
+
+‘In behandeling’ betekent dat de standaard wordt getoetst voor opname op een van de lijsten.
+
+‘Archief’ betekent dat de standaard in het verleden op de lijst heeft gestaan of in behandeling is geweest en nu niet (meer) verplicht of aanbevolen wordt.
+
+            
+
+            
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+Verplicht ('Pas toe of leg uit')
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+Functioneel toepassingsgebied
+
+                    
+
+    
+
+        Meer informatie over 
+
+Functioneel toepassingsgebied
+
+    
+
+    
+
+                    
+
+Beschrijft conform de standaard syntaxis de toepassing(en) waarvoor het gebruik van de standaard is verplicht ('Pas toe of leg uit') of wordt aanbevolen (afhankelijk van de lijststatus). 
+
+            
+
+            
+
+    
+
+                                    
+
+Geo-standaarden moeten worden toegepast op de uitwisseling van geografische informatie, waarbij de ruimtelijke dimensie van significant belang is.
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Organisatorisch werkingsgebied
+
+                    
+
+    
+
+        Meer informatie over 
+
+Organisatorisch werkingsgebied
+
+    
+
+    
+
+                    
+
+Benoemt de organisaties waarvoor de verplichting (of aanbeveling) geldt.
+
+            
+
+            
+
+    
+
+                                    
+
+Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de (semi-) publieke sector.
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Europese status
+
+                    
+
+    
+
+        Meer informatie over 
+
+Europese status
+
+    
+
+    
+
+                    
+
+‘Ja’ betekent dat de standaard is erkend door het Multi Stakeholder Platform on ICT Standardisation van de Europese Commissie.
+
+            
+
+            
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+Nee
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Nut en werking
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Typering
+
+  
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+Geografische informatie
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+Nut
+
+  
+
+    
+
+                                    
+
+In Nederland zijn organisaties in verschillende domeinen betrokken bij het registreren en uitwisselen van informatie met een geografische component. Dat wil zeggen: informatie over objecten die gerelateerd zijn aan een locatie op het aardoppervlak. Voorbeelden hiervan zijn kadastrale informatie en informatie over waterhuishouding. Om ervoor te zorgen dat de geo-informatiehuishouding van deze domeinen op elkaar aansluit zodat informatie tussen domeinen uitgewisseld kan worden, zijn afspraken nodig over de te gebruiken standaarden. De Geo-standaarden maken het mogelijk om op een eenduidige manier gegevens met een geografische component uit te wisselen.
+
+Bekijk de video van Geonovum voor meer informatie over het nut van GeoPackage. Dit is een van de standaarden uit de Geo-Standaarden.
+
+ 
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Werking
+
+  
+
+    
+
+                                    
+
+De Geo-standaarden kunnen worden onderverdeeld in twee groepen. De eerste groep bevat standaarden voor het beschrijven van geo-informatie, waaronder informatiemodellen en standaarden voor metadata, uitwisseling en coördinaatreferentiesystemen. Met deze standaarden wordt de geo-informatie (data) zelf beschreven. De tweede groep bevat standaarden voor services, waaronder die voor het serveren van vector-, raster- en sensordata. Met deze standaarden wordt beschreven hoe de data geserveerd wordt.
+
+ 
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Domein
+
+  
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+Uitwisselingsfundament
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+Trefwoorden
+
+  
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+Metadata
+Milieu
+Geo-informatie
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Detailinformatie
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Volledige naam
+
+  
+
+    
+
+                                    
+
+Geo-standaarden
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Versie
+
+  
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+Zie 'Toelichting bij Opname'
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+Specificatiedocument 
+
+  
+
+    
+
+                                    
+
+Nederlands Metadataprofiel op ISO 19115 voor Geografie, versie 2.1.0  (externe link)
+
+Nederlands Metadataprofiel op ISO 19119 voor Services, versie 2.1.0  (externe link)
+
+NEN3610:2022 Basismodel Geo-informatie (externe link)
+
+ISO 19136:2007 Geographic information - Geography Markup Language (GML) (externe link)
+
+GeoPackage 1.3.1
+
+OGC API - Features - Part 1: Core
+
+OGC API - Features - Part 2: Coordinate Reference Systems by Reference
+
+OGC API - Tiles - Part 1: Core
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Beheerorganisatie
+
+  
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+Geonovum
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Toepassing
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Community
+
+                    
+
+    
+
+        Meer informatie over 
+
+Community
+
+    
+
+    
+
+                    
+
+Organisaties waarbij men terecht kan voor adoptieondersteuning, best practices, use cases en/of nadere informatie over de standaard.
+
+            
+
+            
+
+    
+
+                                    
+
+U vindt meer informatie over het beheer van de Geo-standaarden op de website van Geonovum, de beheerorganisatie van de standaarden:
+
+https://www.geonovum.nl/geo-standaarden
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Conformiteitstest
+
+                    
+
+    
+
+        Meer informatie over 
+
+Conformiteitstest
+
+    
+
+    
+
+                    
+
+Hulpmiddelen of processen waarmee producten kunnen worden getest op conformiteit met de standaard.
+
+            
+
+            
+
+    
+
+                                    
+
+Validatie en conformiteitstoets worden gedaan door Geonovum
+
+conformiteitstoets NEN 3610 (Geonovum)
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Praktijkvoorbeelden
+
+  
+
+    
+
+                                    
+
+Kadaster Dataplatform, het platform met betrouwbare geodata
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Toetsingsinformatie
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Toelichting bij opname
+
+  
+
+    
+
+                                    
+
+De Geo-standaarden op de 'Pas toe of leg uit'-lijst van het Forum Standaardisatie bestaan thans uit:
+
+Nederlands metadataprofiel op ISO 19115 voor geografie, versie 2.1.0 (specifiek toepassingsgebied: metadatering van geografische datasets en dataset series)
+
+Nederlands metadata profiel op ISO 19119 voor services, versie 2.1.0 (specifiek toepassingsgebied: metadatering van geografische informatie services)
+
+NEN 3610:2022 (nl) Basismodel Geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten, versie 2022 (specifiek toepassingsgebied: metadatering van geografische datasets en dataset series)
+
+ISO 19136:2007 Geographic information - Geography Markup Language (GML), versie 2007 (geen specifiek toepassingsgebied)
+
+GeoPackage 1.3.1 (specifiek toepassingsgebied: GeoPackage moet worden toegepast voor het aanbieden ten behoeve van lokale opslag van datasets met geografische gegevens)
+
+OGC-API – Features Part 1: Core en Part 2: Coordinate Reference Systems by Reference (specifiek toepassingsgebied: OGC-API - Features Part 1 en Part 2 moeten worden toegepast bij het per REST API aanbieden voor derden van geografische object-informatie)
+
+OGC-API – Tiles - Part 1: Core (specifiek toepassingsgebied: OGC-API – OGC-API – Tiles Part 1 moet worden toegepast bij het per REST API aanbieden voor derden van geografische informatie als verbeelding)
+
+NB. Het predicaat 'uitstekend beheer' is niet van toepassing op:
+
+GeoPackage
+
+ISO 19136:2007
+
+NEN 3610:2022
+
+OGC-API – Features Part 1: Core en Part 2: Coordinate Reference Systems by Reference
+
+OGC-API – Tiles - Part 1: Core
+
+... omdat deze standaarden niet beheerd worden door Geonovum.
+
+Op 1 februari 2024 stemde het OBDO in met het blijven verplichten van NEN 3610 aan de overheid in versie 2022 nl.
+
+Op 19 september 2024 stemde het OBDO in met het verplichten van OGC-API – Features Part 1: Core en Part 2: Coordinate Reference Systems by Reference en OGC-API – Tiles - Part 1: Core door plaatsing op de 'pas toe of leg uit'-lijst en het aanbevelen van Nederlands WFS profiel 1.1 op ISO 19142 voor Web Feature Services 2.0, versie 1.1 (WFS) en Nederlands profiel op ISO 19128 Geographic information - Web Map Server Interface (WMS) door plaatsing op de lijst aanbevolen standaarden.
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Uitstekend beheer
+
+                    
+
+    
+
+        Meer informatie over 
+
+Uitstekend beheer
+
+    
+
+    
+
+                    
+
+‘Ja’ betekent dat een nieuwe versie van de standaard na aanmelding op de lijst wordt overgenomen zonder aanvullende toetsing door het Forum Standaardisatie.
+
+‘Nee’ betekent dat een nieuwe versie van de standaard na aanmelding eerst door het Forum Standaardisatie wordt getoetst voordat de huidige versie op de lijst door de nieuwe versie kan worden vervangen.
+
+            
+
+            
+
+    
+
+    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+      
+
+Ja voor deze standaard
+
+    
+
+  
+
+  
+
+          
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Intake  
+
+  
+
+    
+
+    Intake-nieuwe-versie-Geo-standaarden-een-aanvraag-uitstekend-beheer.pdf
+
+            PDF Document | 239.72 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Expertadvies 
+
+  
+
+    
+
+    140731Expertadvies-geo-standaarden-v1.0.pdf
+
+            PDF Document | 404.41 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Consultatie  
+
+  
+
+    
+
+    141015-Overzicht-reacties-consultatieronde-geo-standaarden-v1.0.pdf
+
+            PDF Document | 408.88 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Forumadvies 
+
+  
+
+    
+
+    141028-Forumadvies-Geo-standaarden-v1.0.pdf
+
+            PDF Document | 236.29 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Intake 
+
+  
+
+    
+
+    FS-190612.4A_Intakeadvies_GeoPackage.pdf
+
+            PDF Document | 105.78 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Expertadvies 
+
+  
+
+    
+
+    Expertadvies-standaard-GeoPackage-versie-1.0_0.pdf
+
+            PDF Document | 367.32 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Forumadvies  
+
+  
+
+    
+
+    Forumadvies-GeoPackage.pdf
+
+            PDF Document | 148.4 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Nieuwe versie 
+
+  
+
+    
+
+    NL-metadataprofiel-ISO-19115-geografie-versie-2.0.0.pdf
+
+            PDF Document | 146.76 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Nieuwe versie 
+
+  
+
+    
+
+    Aanmeldingen_nieuweversie210Metadataprofiel19119.pdf
+
+            PDF Document | 45.21 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Nieuwe versie: 2.1.0 Nederlands Metadataprofiel op ISO 19115
+
+  
+
+    
+
+    Aanmelding_nieuwe versie 2.1.0 Metadataprofiel 19115.pdf
+
+            PDF Document | 342.92 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Intakeadvies
+
+  
+
+    
+
+    20230208-Intakeadvies-NEN-3610-versiewijziging.pdf
+
+            PDF Document | 328.96 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Expertadvies
+
+  
+
+    
+
+    20230920-Expertadvies-NEN-3610-versiewijziging.pdf
+
+            PDF Document | 488.84 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Forumadvies
+
+  
+
+    
+
+    20231213-Forumadvies-NEN-3610-versiewijziging.pdf
+
+            PDF Document | 218.12 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Intakeadvies
+
+  
+
+    
+
+    20230927-Intakeadvies-Geo-standaarden-wijzigingen.pdf
+
+            PDF Document | 304.13 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Expertadvies
+
+  
+
+    
+
+    20240412-Expertadvies-Geo-standaarden-generatiewissel.pdf
+
+            PDF Document | 559.21 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Consultatie
+
+  
+
+    
+
+    20240619-verslag-reacties-consultatie-geo-standaarden-generatiewissel.pdf
+
+            PDF Document | 114.19 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Expertadvies
+
+  
+
+    
+
+    20240412-Expertadvies-GeoPackage-versiewijziging.pdf
+
+            PDF Document | 325.38 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Consultatie
+
+  
+
+    
+
+    20240619-verslag-reacties-consultatie-geopackage-versiewijziging.pdf
+
+            PDF Document | 100.31 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Forumadvies
+
+  
+
+    
+
+    20240619-forumadvies-geo-standaarden-generatiewissel.pdf
+
+            PDF Document | 436.76 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Forumadvies
+
+  
+
+    
+
+    20240619-forumadvies-geopackage-versiewijziging.pdf
+
+            PDF Document | 187.58 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+Datum van aanmelding
+
+                    
+
+    
+
+        Meer informatie over 
+
+Datum van aanmelding
+
+    
+
+    
+
+                    
+
+Datum waarop een organisatie de standaard heeft aangemeld voor verplichten aan de overheid ('Pas toe of leg uit') of aanbevelen aan de overheid door plaatsing op een van de lijsten. Als een standaard voldoet aan de criteria om in behandeling genomen te worden, vindt een toetsingsprocedure plaats. Deze duurt ongeveer zeven maanden.
+
+            
+
+            
+
+    
+
+                                    
+
+28-04-2014
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Datum van besluit
+
+                    
+
+    
+
+        Meer informatie over 
+
+Datum van besluit
+
+    
+
+    
+
+                    
+
+Datum waarop het Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) of een van zijn voorgangers heeft besloten de standaard op de lijst te plaatsen.
+
+            
+
+            
+
+    
+
+                                    
+
+09-12-2014
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Overig
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Waarvoor geldt de verplichting
+
+  
+
+    
+
+                                    
+
+De verplichting geldt bij de investering in een systeem voor de uitwisseling van geografische informatie.
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Advies aan beheerder
+
+  
+
+    
+
+                                    
+
+Lees meer over standaarden op de website van Geonovum.
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+  
+
+  
+
+          
+
+        
+
+    
+
+    
+
+            
+
+                        
+
+      
+
+          
+
+                                    
+Naar boven
+
+Print
+
+Mastodon
+
+Codeplatform
+
+LinkedIn
+
+            
+
+            
+
+    
+
+    
+
+            
+                Standaard Samenwerken
+
+        
+
+    
+
+        
+
+                
+
+        
+
+      
+Voet
+
+          
+
+                          
+
+                        
+Standaarden
+
+                    
+
+                        Lijst open standaarden
+
+                
+
+                        Veelgestelde vragen
+
+        
+
+              
+
+                        
+Organisatie
+
+                    
+
+                        Forum Standaardisatie
+
+                
+
+                        Publicaties  
+
+                
+
+                        Vergaderingen en -stukken
+
+                
+
+                        Contact
+
+        
+
+              
+
+                        
+Over deze site
+
+                    
+
+                        Toegankelijkheid
+
+                
+
+                        Kwetsbaarheid melden
+
+                
+
+                        Cookies
+
+                
+
+                        Copyright
+
+                
+
+                        Open data
+
+                
+
+                        Archief website
+
+        
+
+              
+
+                        
+International
+
+                    
+
+                        Standardisation Forum (English)
+
+                
+
+                        Contact (English)
+
+        
+
+              
+
+  
+
+  
+
+        
+
+  
+
+    
+
+  
+

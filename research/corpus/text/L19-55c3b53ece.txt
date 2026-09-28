@@ -1,0 +1,992 @@
+
+
+    
+
+        
+
+            
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+    
+
+    
+
+    
+
+    
+
+        
+                A Data Quality Model for Master Data Repositories
+
+        
+
+                
+
+            
+
+        
+
+    
+
+    
+
+                    
+
+        
+
+    
+
+        
+
+            
+
+    
+
+    
+
+    
+
+        
+
+        
+
+                    
+
+                            
+
+        
+
+        
+
+            
+
+            
+
+                                                                                        
+
+            
+
+                        Login
+                        Register
+
+                    
+
+    
+
+    
+
+    
+
+        
+
+                
+
+Home
+
+        
+Issues
+
+        Volume 34, Issue 4 (2023)
+
+    
+
+A Data Quality Model for Master Data Rep ...
+
+        
+
+        
+
+    
+
+        
+
+            
+
+                
+
+                    
+                        Informatica
+
+                
+
+        
+
+            
+
+                    
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+                                            
+                            Information
+
+                                            
+                            Submit your article
+
+                                            
+                            For Referees
+
+                                            
+                            Help
+
+                                            
+                            ATTENTION!
+
+                                                        
+
+        
+
+            
+
+                            
+
+            
+
+                    
+
+    
+
+        
+
+    
+
+        
+
+            
+
+                    Article info
+
+                                    
+
+                        Full article
+
+                
+
+                                    
+
+                        Cited by
+
+                                
+
+                    
+                        More
+
+                    
+
+                        Article info
+                                                    Full article
+
+                        
+                                                Cited by
+
+                
+
+        
+
+            
+
+            
+
+    
+
+        
+
+    
+
+    
+
+                    
+
+                
+
+            
+
+            
+
+    
+
+    
+
+    
+
+        
+A Data Quality Model for Master Data Repositories        
+
+    
+
+    
+
+            
+
+    
+
+    
+
+        Volume 34, Issue 4 (2023), pp. 795–824
+
+    
+
+    
+
+            
+            Fernando Gualo
+
+                                             
+
+                    
+
+                                        
+
+                    
+         
+
+            Ismael Caballero
+
+                                    
+
+                    
+
+                            
+
+                
+
+                        
+
+         
+
+            Moisés Rodríguez
+
+                                             
+
+                    
+
+                                        
+
+                    
+         
+
+            Mario Piattini
+
+                                             
+
+                    
+
+                                        
+
+                    
+         
+
+    
+
+    
+
+        
+
+            
+
+                Authors
+
+                 
+
+                    
+
+            
+
+                
+
+                    Placeholder
+
+            
+
+                Close
+
+        
+
+    
+
+    https://doi.org/10.15388/23-INFOR534
+
+    
+
+    
+
+                    Pub. online: 6 November 2023
+                    
+        Type: Research Article
+            
+
+            Open Access
+
+            
+
+    
+
+    
+
+    
+
+        
+
+                        
+
+                Received
+1 May 2023
+
+                                                
+
+                Accepted
+1 October 2023
+
+                                    
+
+                Published
+6 November 2023
+
+                    
+
+        
+
+                    
+
+        
+
+            
+
+        
+
+            Abstract
+
+                
+Master data has been revealed as one of the most potent instruments to guarantee adequate levels of data quality. The main contribution of this paper is a data quality model to guide repeatable and homogeneous evaluations of the level of data quality of master data repositories. This data quality model follows several international open standards: ISO/IEC 25012, ISO/IEC 25024, and ISO 8000-1000, enabling compliance certification. A case study of applying the data quality model to an organizational master data repository has been carried out to demonstrate the applicability of the data quality model.
+
+            
+
+    
+
+        
+
+        
+
+                    
+
+        
+
+            
+
+        
+
+            References
+
+ 
+
+Allen, M., Cervo, D. (Eds.) (2015). Multi-Domain Master Data Management: Advanced MDM and Data Governance in Practice. Morgan Kaufmann, Boston, USA. 978-0-12-800835-5. https://doi.org/10.1016/B978-0-12-800835-5.09993-0.
+
+ 
+
+Alonso, V., Santos, J.V., Pinto, M., Ferreira, J., Lema, I., Lopes, F., Freitas, A. (2020). Problems and barriers during the process of clinical coding: a focus group study of Coders’ perceptions. Journal of Medical Systems, 44(3), 62. https://doi.org/10.1007/s10916-020-1532-x.
+
+ 
+
+Benkherourou, C., Bourouis, A. (2022). A framework for improving data quality throughout the MDM implementation process. In: Proceedins of the 2nd International Conference on Industry 4.0 and Artificial Intelligence (ICIAI 2021). Atlantis Press International B.V., Amsterdam, Netherlands, pp. 164–169. 978-94-6239-528-2. https://doi.org/10.2991/aisr.k.220201.029.
+
+ 
+
+Berson, A., Dubov, L. (2011). Master Data Management and Data Governance, 2nd ed. McGraw-Hill Education, USA. 978-0-07-174458-4.
+
+ 
+
+Caballero, I., Gualo, F., Rodríguez, M., Piattini, M. (2022). BR4DQ: a methodology for grouping business rules for data quality evaluation. Information Systems, 109, 102058. https://doi.org/10.1016/j.is.2022.102058.
+
+ 
+
+Cleven, A., Wortmann, F. (2010). Uncovering four strategies to approach master data management. In: Proceedings of the 43rd Hawaii International Conference on System Sciences, pp. 1–10. https://doi.org/10.1109/HICSS.2010.488.
+
+ 
+
+Dahlberg, T., Heikkilä, J., Heikkilä, M. (2011). Framework and research agenda for master data management in distributed environments. In: Proceedings of IRIS 2011, TUCS Lecture Notes, Vol. 15, pp. 82–90. 978-952-12-2648-9.
+
+ 
+
+Dreibelbis, A., Hechler, E., Milman, I., Oberhofer, M., Run, P.v., Wolfson, D. (2008). Enterprise Master Data Management: An SOA Approach to Managing Core Information. IBM Press/Pearson plc, London, UK. 978-0-13-236625-0.
+
+ 
+
+Fan, W., Geerts, F., Ma, S., Tang, N., Yu, W. (2013). Data Quality Problems beyond Consistency and Deduplication. In: Tannen, V., Wong, L., Libkin, L., Fan, W., Tan, W.-C., Fourman, M. (Eds.), In Search of Elegance in the Theory and Practice of Computation: Essays Dedicated to Peter Buneman. Lecture Notes in Computer Science. Springer, Berlin, Heidelberg, pp. 237–249. 978-3-642-41660-6. https://doi.org/10.1007/978-3-642-41660-6_12.
+
+ 
+
+Gartner, I. (2021). Magic Quadrant™ for Master Data Management Solutions. https://www.informatica.com/magic-quadrant-MDM.html.
+
+ 
+
+Gualo, F., Caballero, I., Rodriguez, M. (2020). Towards a software quality certification of master data-based applications. Software Quality Journal, 28(3), 1019–1042. https://doi.org/10.1007/s11219-019-09495-w.
+
+ 
+
+Gualo, F., Rodriguez, M., Verdugo, J., Caballero, I., Piattini, M. (2021). Data quality certification using ISO/IEC 25012: industrial experiences. Journal of Systems and Software, 176, 110938. https://doi.org/10.1016/j.jss.2021.110938.
+
+ 
+
+Haneem, F., Ali, R., Kama, N., Basri, S. (2017). Resolving data duplication, inaccuracy and inconsistency issues using Master Data Management. In: Proceedings of the 2017 International Conference on Research and Innovation in Information Systems (ICRIIS), pp. 1–6. https://doi.org/10.1109/ICRIIS.2017.8002453.
+
+ 
+
+Haneem, F., Kama, N., Taskin, N., Pauleen, D., Abu Bakar, N.A. (2019). Determinants of master data management adoption by local government organizations: an empirical study. International Journal of Information Management, 45, 25–43. https://doi.org/10.1016/j.ijinfomgt.2018.10.007.
+
+ 
+
+Hüner, K.M., Schierning, A., Otto, B., Österle, H. (2011). Product data quality in supply chains: the case of Beiersdorf. Electronic Markets, 21(2), 141–154. https://doi.org/10.1007/s12525-011-0059-x.
+
+ 
+
+Ibrahim, A., Mohamed, I., Satar, N.S.M. (2021). Factors influencing master data quality: a systematic review. International Journal of Advanced Computer Science and Applications, 12(2). https://doi.org/10.14569/IJACSA.2021.0120224.
+
+ 
+
+ISO (2009). ISO 8000-110:2009. Data quality — Part 110: Master data: Exchange of characteristic data: Syntax, semantic encoding, and conformance to data specification. (Data Quality) [International Standard]. ISO. https://www.iso.org/standard/51653.html.
+
+ 
+
+ISO (2011). ISO/TS 8000-150:2011. Data quality — Part 150: Master data: Quality management framework (Data Quality) [International Standard]. ISO. https://www.iso.org/standard/54579.html.
+
+ 
+
+ISO (2016a). ISO 8000-100:2016. Data quality — Part 100: Master data: Exchange of characteristic data: Overview. (Data Quality) [International Standard]. ISO. https://www.iso.org/standard/62392.html.
+
+ 
+
+ISO (2016b). ISO 8000-120:2016. Data quality — Part 120: Master data: Exchange of characteristic data: Provenance. (Data Quality) [International Standard]. ISO. https://www.iso.org/standard/62393.html.
+
+ 
+
+ISO (2016c). ISO 8000-130:2016. Data quality — Part 130: Master data: Exchange of characteristic data: Accuracy. (Data Quality) [International Standard]. ISO. https://www.iso.org/standard/62394.html.
+
+ 
+
+ISO (2016d). ISO 8000-140:2016. Data quality — Part 140: Master data: Exchange of characteristic data: Completeness. (Data Quality) [International Standard]. ISO. https://www.iso.org/standard/62395.html.
+
+ 
+
+ISO (2018). ISO 8000-115:2018. Data quality — Part 115: Master data: Exchange of quality identifiers: Syntactic, semantic and resolution requirements. (Data Quality) [International Standard]. ISO. https://www.iso.org/standard/70095.html.
+
+ 
+
+ISO (2019). ISO 8000-116:2019. Data quality — Part 116: Master data: Exchange of quality identifiers: Application of ISO 8000-115 to authoritative legal entity identifiers. (Data Quality) [International Standard]. ISO. https://www.iso.org/standard/75117.html.
+
+ 
+
+ISO/IEC (2008). ISO/IEC 25012:2008. Software engineering — Software product Quality Requirements and Evaluation (SQuaRE) — Data quality model. [International Standard]. ISO/IEC. https://www.iso.org/standard/35736.html.
+
+ 
+
+ISO/IEC (2011). ISO/IEC 25040:2011. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Evaluation process. [International Standard]. ISO/IEC. https://www.iso.org/standard/35765.html.
+
+ 
+
+ISO/IEC (2015). ISO/IEC 25024:2015. Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Measurement of data quality. [International Standard]. ISO/IEC. https://www.iso.org/standard/35749.html.
+
+ 
+
+Li, S.-H., Chen, J.-L., Yen, D.C., Lin, Y.-H. (2013). Investigation on auditing principles and rules for PDM/PLM system implementation. Computers in Industry, 64(6), 741–753. https://doi.org/10.1016/j.compind.2013.04.007.
+
+ 
+
+Loshin, D. (2010). Master Data Management. Morgan Kaufmann, San Francisco, USA. 978-0-08-092121-1.
+
+ 
+
+Merino, J. (2017). I25k: Environment for the Evaluation and Certification of the Quality of Data Products. PhD thesis, University of Castilla-La Mancha.
+
+ 
+
+Ofner, M.H., Otto, B., Österle, H. (2012). Integrating a data quality perspective into business process management. Business Process Management Journal, 18(6), 1036–1067. https://doi.org/10.1108/14637151211283401.
+
+ 
+
+Otto, B. (2015). Quality and value of the data resource in large enterprises. Information Systems Management, 32(3), 234–251. https://doi.org/10.1080/10580530.2015.1044344.
+
+ 
+
+Otto, B., Ebner, V., Hüner, K. (2010). Measuring master data quality: findings from a case study. In: AMCIS 2010 Proceedings. https://aisel.aisnet.org/amcis2010/454.
+
+ 
+
+Piedrabuena, F., González, L., Ruggia, R. (2015). Enforcing Data Protection Regulations within e-Government Master Data Management Systems. In: Proceedings of the 17th International Conference on Enterprise Information Systems (ICEIS 2015), ICEIS 2015, Vol. 3. SCITEPRESS – Science and Technology Publications, Lda, Setubal, PRT, pp. 316–321. 978-989-758-098-7. https://doi.org/10.5220/0005458003160321.
+
+ 
+
+Rivas, B., Merino, J., Caballero, I., Serrano, M., Piattini, M. (2017). Towards a service architecture for master data exchange based on ISO 8000 with support to process large datasets. Computer Standards & Interfaces, 54, 94–104. https://doi.org/10.1016/j.csi.2016.10.004.
+
+ 
+
+Runeson, P., Höst, M. (2009). Guidelines for conducting and reporting case study research in software engineering. Empirical Software Engineering, 14(2), 131–164. https://doi.org/10.1007/s10664-008-9102-8.
+
+ 
+
+Runeson, P., Host, M., Rainer, A., Regnell, B. (2012). Case Study Research in Software Engineering: Guidelines and Examples. John Wiley & Sons, New Jersey. 978-1-118-10435-4.
+
+ 
+
+Santos, J.V., Novo, R., Souza, J., Lopes, F., Freitas, A. (2021). Transition from ICD-9-CM to ICD-10-CM/PCS in Portugal: an heterogeneous implementation with potential data implications. Health Information Management Journal, 52(2), 128–131. https://doi.org/10.1177/18333583211027241.
+
+ 
+
+Silvola, R., Jaaskelainen, O., Kropsu-Vehkapera, H., Haapasalo, H. (2011). Managing one master data – challenges and preconditions. Industrial Management & Data Systems, 111(1), 146–162. https://doi.org/10.1108/02635571111099776.
+
+ 
+
+Talburt, J.R. (Ed.) (2011). Entity Resolution and Information Quality. Elsevier, Boston, USA. 978-0-12-381973-4. https://doi.org/10.1016/B978-0-12-381972-7.00016-6.
+
+ 
+
+Valencia-Parra, Á., Parody, L., Varela-Vaca, Á.J., Caballero, I., Gómez-López, M.T. (2021). DMN4DQ: when data quality meets DMN. Decision Support Systems, 141, 113450. https://doi.org/10.1016/j.dss.2020.113450.
+
+ 
+
+Vilminko-Heikkinen, R., Pekkola, S. (2017). Master data management and its organizational implementation: an ethnographical study within the public sector. Journal of Enterprise Information Management, 30(3), 454–475. https://doi.org/10.1108/JEIM-07-2015-0070.
+
+ 
+
+Wand, Y., Wang, R.Y. (1996). Anchoring Data Quality Dimensions in Ontological Foundations. Communications of the ACM, 39(11), 86–95. https://doi.org/10.1145/240455.240479.
+
+        
+
+    
+
+        
+
+        
+
+            
+
+        
+
+            Biographies
+
+                
+
+Gualo Fernando
+
+https://orcid.org/0000-0002-7800-7902
+
+fgualo@dqteam.es
+
+F. Gualo holds PhD and MSc degrees in computer science from the University of Castilla-La Mancha. He is currently the founder and CEO of the spin-off of the University of Castilla-La Mancha DQTeam. He is a Certified Information System Auditor (CISA) for the Information System Audit and Control Association (ISACA) since 2017 and a Software Engineering Auditor for AENOR since 2018. He has been a part of the ALARCOS Research Group since 2015. His research interests include master data management and data quality
+
+Caballero Ismael
+
+https://orcid.org/0000-0002-5189-1427
+
+Ismael.Caballero@uclm.es
+
+I. Caballero received his MSc and PhD degrees in computer science from the University of Castilla-La Mancha (Spain) in 2004. He has worked as an associate professor in the Information Systems and Technologies Department at UCLM since 2001, and he was appointed as a training head of the spin-off DQTeam in 2017. Caballero holds CISA certification from ISACA in 2016 and CDO-1 certification by UALR-MIT since 2017. He is currently a member of ISO TC184/SC4, a project editor of several parts of the ISO 8000-60 series development project, and an ISO 8000-62 project editor. His research interests are focused on data quality management and data governance.
+
+Rodríguez Moisés
+
+https://orcid.org/0000-0003-2155-7409
+
+mrodriguez@aqclab.es
+
+M. Rodríguez received the MSc and PhD degrees in computer science from the University of Castilla-La Mancha. He is currently the CEO of AQCLab, the first accredited laboratory for software quality assessment using ISO/IEC 25000. He is a Certified Information System Auditor (CISA) and a Chief Auditor for AENOR in Software Engineering and R&D&I. He is a professor at the Escuela Superior de Informática of the University of Castilla-La Mancha and a part of the ALARCOS Research Group. His research interests include software processes, products, and data quality.
+
+Piattini Mario
+
+https://orcid.org/0000-0002-7212-8279
+
+Mario.Piattini@uclm.es
+
+M. Piattini received the MSc and PhD degrees in computer science from the Technical University of Madrid (UPM). He is a Certified Information System Auditor for the ISACA (Information System Audit and Control Association). He is a full professor at the Escuela Superior de Informática of the University of Castilla-La Mancha. He leads the ALARCOS research group, and his research interests are software engineering and information system quality.
+
+            
+
+    
+
+        
+
+        
+
+            
+
+            
+            Full article
+
+        
+
+                Cited by
+
+            
+
+        
+            Download
+
+        
+
+                    PDF
+
+                                        
+                    XML
+
+                    
+
+    
+
+            Citation
+
+        
+
+            
+
+            
+
+        
+
+        
+
+        
+
+    
+
+        
+
+            
+
+            
+            Full article
+
+        
+
+                Cited by
+
+            
+
+        
+            Download
+
+        
+
+                    PDF
+
+                                        
+                    XML
+
+                    
+
+    
+
+            Citation
+
+        
+
+            
+
+            
+
+        
+
+            
+
+        
+
+        
+
+        
+
+        
+
+                    
+
+        
+
+    
+Copyright
+© 2023 Vilnius University
+
+            
+
+            
+
+    
+
+    Open access article under the CC BY license.
+
+    
+
+    
+Keywords
+            master data management
+            data quality certification
+            master data quality
+            ISO 8000-100 series
+            ISO/IEC 25012
+            ISO/IEC 25024
+
+    
+
+    
+
+    
+Funding
+
+            The following projects and grants have partially funded this research: Industrial PhD (Ref.: DIN2018-009705), funded by the Spanish Ministry of Science, Innovation and Universities; ADAGIO (SBPLY/21/180501/000061) – Alarcos’ Data Governance framework and systems generation, funded by the Department of Education, Culture and Sports of the Junta de Comunidades de Castilla La Mancha, Spain, and the Fondo Europeo de Desarrollo Regional FEDER; and AETHER-UCLM: A smart data holistic approach for context-aware data analytics focused on Quality and Security project (Spanish Ministry of Science and Innovation, PID2020-112540RB-C42)
+
+    
+
+    
+
+    
+
+        
+Metrics
+
+                since January 2020
+
+            
+
+    
+
+        
+
+                                                
+
+                        2040
+
+                        
+Article info
+views
+
+                                                    
+
+                        1260
+
+                        
+Full article
+views
+
+                                                        
+
+                    946
+
+                    
+PDF
+downloads
+
+                                        
+
+                    195
+
+                    
+XML
+downloads
+
+                    
+
+    
+
+    
+
+        
+
+            
+
+                Export citation
+
+                    
+
+            
+
+                Copy and paste formatted citation
+
+                
+
+                    Formatted citation
+
+                        Placeholder
+
+                
+
+                    Citation style
+
+                                                    
+                                AMS -- Americal Mathematical Society
+
+                                                    
+                                APA -- American Psychological Association 6th ed.
+
+                                                    
+                                Chicago -- The Chicago Manual of Style 17th ed.
+
+                                            
+
+                
+                Download citation in file
+
+                    Export format
+
+                                                    
+                                BibTeX
+
+                                                    
+                                RIS
+
+                                            
+
+            
+
+                Download
+                Close
+
+        
+
+    
+
+    
+
+        
+
+                
+
+                Share
+
+        
+
+            
+
+            
+
+                    
+
+                    RSS
+
+            
+
+        
+
+        
+
+            To top
+
+    
+
+            
+
+            
+
+    
+
+        
+
+            
+
+                                    
+
+                        
+INFORMATICA
+
+Online ISSN: 1822-8844
+
+Print ISSN: 0868-4952
+
+Copyright © 2023 Vilnius University
+
+                    
+
+                        
+
+About
+
+About journal
+
+                    
+
+                        
+For contributors
+
+OA Policy
+
+Submit your article
+
+Instructions for Referees
+
+ 
+
+ 
+
+                    
+
+                        
+Contact us
+
+Institute of Data Science and Digital Technologies
+
+Vilnius University
+
+Akademijos St. 4
+
+08412 Vilnius, Lithuania
+
+Phone: (+370 5) 2109 338
+
+E-mail: informatica@mii.vu.lt
+https://informatica.vu.lt/journal/INFORMATICA
+
+                    
+
+        
+
+    
+
+        
+
+                        Powered by PubliMill
+                                     • 
+                        Privacy policy
+
+    
+
+        
+
+        
+
+        
+
+        
+
+    
+
+    
+
+    
+
+        
+

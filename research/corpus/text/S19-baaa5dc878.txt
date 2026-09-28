@@ -1,0 +1,1221 @@
+Forum Standaardisatie
+
+
+
+
+Expertadvies OpenAPI Specification 3.0
+
+
+Datum   22 februari 2018
+Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+Colofon
+
+
+
+
+Projectnaam               Expertadvies OAS 3.0
+Versienummer              V1.0
+Organisatie               Forum Standaardisatie
+                          Postbus 96810
+                          2509 JE Den Haag
+                          forumstandaardisatie@logius.nl
+
+
+Auteur(s)                 Douwe Horst (Verdonck Klooster & Associates)
+                          Ruud Boot (Verdonck Klooster & Associates)
+
+Onafhankelijk             Ruud Boot (Verdonck Klooster & Associates)
+voorzitter
+
+
+
+
+                                                                         Pagina 2 van 23
+Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+Inhoud
+
+
+Colofon .......................................................................................... 2
+
+Inhoud ........................................................................................... 3
+
+Samenvatting en Forumadvies ....................................................... 4
+
+1    Doelstelling expertadvies ......................................................... 8
+
+    1.1   Achtergrond ........................................................................... 8
+
+    1.2   Doelstelling expertadvies ......................................................... 8
+
+    1.3   Doorlopen proces ................................................................... 8
+
+    1.4   Vervolg ................................................................................. 9
+
+    1.5   Samenstelling expertgroep ...................................................... 9
+
+    1.6   Toelichting OAS 3.0 ................................................................ 9
+
+    1.7   Leeswijzer ........................................................................... 12
+
+2    Toepassings– en werkingsgebied ........................................... 13
+
+    2.1   Functioneel toepassingsgebied ............................................... 13
+    2.2   Organisatorisch werkingsgebied ............................................. 13
+
+3    Toetsing van standaard aan criteria ....................................... 14
+
+    3.1   Toegevoegde waarde ............................................................ 14
+
+    3.2   Open standaardisatieproces ................................................... 17
+
+    3.3   Draagvlak ............................................................................ 20
+
+    3.4   Opname bevordert adoptie .................................................... 22
+
+
+
+
+                                                                                                        Pagina 3 van 23
+Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+ Samenvatting en Forumadvies
+
+
+
+Advies aan het Forum
+
+Als functioneel toepassingsgebied wordt geadviseerd:
+
+OAS moet worden toegepast op het beschrijven/specificeren van een
+REST API.
+
+
+
+Als organisatorisch werkingsgebied wordt geadviseerd:
+
+Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen)
+en instellingen uit de (semi-) publieke sector.
+
+
+
+Waarom is opname belangrijk?
+OAS is een belangrijke standaard voor het uniform
+beschrijven/specificeren van REST APIs. Binnen de overheid zien we het
+gebruik en aanbieden van API’s groeien. Zo wordt bijvoorbeeld de
+gegevensuitwisseling binnen het Digitaal Stelsel Omgevingswet
+grotendeels op REST API’s gebaseerd. Daarnaast zijn er verschillende
+overheden die hun databronnen ontsluiten via REST API’s, zoals het
+Kadaster, KvK en de gemeente Amsterdam. Deze toename in het
+aanbieden van REST API’s vraagt ook om meer uniformiteit in het
+aanbieden van REST API’s. Daarom is de OpenAPI Specification ingediend.
+
+Tijdens de expertbijeenkomst zijn een aantal redenen geïnventariseerd
+waarom de standaard van toegevoegde waarde is en waarom deze
+opgenomen moet worden op de lijst:
+        1. het opnemen van OAS op de lijst zorgt voor meer aandacht
+            voor API’s binnen de overheid. En stimuleert daarmee het
+            publiceren van REST API’s;
+        2. OAS zorgt voor harmonisering van verschillende
+            beschrijvingen van REST API’s en zorgt voor meer uniformiteit
+            en verbeteringen in het bouwen, aanpassen en koppelen op
+            REST API’s;
+        3. door de uniformering gaat de kwaliteit en snelheid aan de
+            gebruikskant omhoog;
+        4. testen voor de gebruiker of het werkt gaat makkelijker;
+        5. door het opleggen van OAS wordt het makkelijker om aan te
+            sluiten op overheidsproducten en overheidsdata voor een
+            gebruiker als dit verloopt via een REST API;
+        6. OAS wordt wereldwijd gebruikt hierdoor ontstaat de
+            mogelijkheid van hergebruik van ervaringen en tooling, zowel
+            binnen de overheid als ook vanuit de internationale
+            community;
+        7. het wegnemen van een drempel voor de implementatie en het
+            gebruik van REST API’s voor softwareontwikkelaars en –
+            leveranciers (minder leveranciersafhankelijkheid) doordat
+            sneller inzichtelijk is wat een REST API kan en moet doen.
+
+
+
+
+                                                                            Pagina 4 van 23
+Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+Waar gaat het inhoudelijk over?
+API’s zijn de koppelvlakken van de moderne internetplatformen zoals
+Amazon, Facebook en Google en wat dichter bij huis Bol.com en Funda.
+Deze API’s zijn vaak gebaseerd op het REST architectuurprincipe. Dit
+principe gaat er o.a. van uit dat aansluiten zo makkelijk mogelijk moet
+zijn zodat zoveel mogelijk gebruikers kunnen aansluiten op de diensten
+van de organisatie. Ook binnen de overheid worden REST API’s steeds
+meer toegepast om onderling gegevens uit te wisselen en datasets te
+bevragen.
+
+Om REST API’s uniform te beschrijven is de de standaard OpenAPI
+Specification (OAS) ontwikkeld. Deze standaard specificeert welke
+functionaliteit een koppelvlak (de REST API) aanbiedt. Het specificeert niet
+welke implementatie of dataset er achter die REST API schuilgaat. Het
+geeft een programmeertaal-onafhankelijke beschrijving van een REST API
+(weergegeven in een YAML- of JSON-indeling).
+
+Met OAS kunnen zowel mensen als machines de functionaliteit van een
+REST API inzien, begrijpen en interpreteren, zonder dat er toegang tot de
+broncode, aanvullende documentatie of analyse van netwerkverkeer
+vereist is. OAS zorgt ervoor dat een client (mens of machine) met
+minimale programmatuur in staat is om met de REST API te
+communiceren zonder dat er voorafgaand uitvoerig onderzocht of
+gespeculeerd moet worden hoe de REST API precies werkt. Dit vermindert
+de implementatietijd van de client (reductie van ‘time to first successful
+call’) en zorgt voor minder implementatiekosten en lagere foutmarges.
+Hierdoor is voor derden (d.w.z. een softwareontwikkelaar dan wel een
+geautomatiseerd systeem) gemakkelijker en sneller inzichtelijk wat een
+REST API doet en hoe deze bevraagd moet worden. Een voorbeeld hiervan
+is Digitoegankelijk (EN 301 549 met WCAG 2.0). Om bestaande tooling
+(zoals gegenereerde REST API documentatie) aan
+toegankelijkheidsrichtlijnen te laten voldoen is er een eigen implementatie
+nodig. Als deze implementatie voor de meest gangbare OAS werkt hoeft
+dit slechts eenmalig uitgevoerd en onderhouden te worden.
+
+Hoe is het proces verlopen?
+Dit expertadvies geeft de uitkomst van de expertgroep weer. De
+procesbegeleider heeft een concept van dit expertadvies aan de leden van
+de expertgroep gestuurd met verzoek om commentaar. Na verwerking
+van reacties uit de expertgroep is het rapport nogmaals toegestuurd aan
+de experts, afgerond en ingediend bij het Bureau Forum Standaardisatie
+(het secretariaat van het Forum Standaardisatie) ten behoeve van de
+openbare consultatie.
+
+Vervolg
+Het Bureau Forum Standaardisatie zal dit expertadvies openbaar maken
+ten behoeve van een openbare consultatie die plaatsvindt van 23 februari
+tot 23 maart 2018. Eenieder kan gedurende de consultatieperiode een
+reactie geven op dit expertadvies. Na afsluiting van de openbare
+consultatie koppelt het Bureau Forum Standaardisatie de reacties terug
+aan de expertgroep.
+
+Het Forum Standaardisatie stelt met het expertadvies en de relevante
+inzichten uit de openbare consultatie een advies aan het Overheidsbreed
+Beleidsoverleg Digitale Overheid (OBDO) op. Het OBDO besluit met dit
+advies om de standaard wel of niet op de lijst open standaarden te
+plaatsen.
+
+
+
+                                                                               Pagina 5 van 23
+Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+Hoe scoort de standaard op de toetsingscriteria?
+
+Toegevoegde waarde
+De toegevoegde waarde is aanwezig. De implementatiekosten zijn
+bescheiden. In het geval van een REST API heeft de standaard een
+meerwaarde doordat de standaard manier van beschrijven bij alle REST
+API’s kan worden toegepast. De functionele reikwijdte is minder groot
+(alleen specificatie functionaliteit koppelvlak) dan sommige vergelijkbare
+standaarden (zoals OData), maar toch is de beschrijving van de standaard
+altijd leidend in plaats van de beschrijving van die andere standaarden
+(vervang een deel beschrijving OData met beschrijving van OAS).
+
+Open standaardisatieproces
+Het standaardisatieproces is voldoende open. Documentatie en het proces
+rondom beheer is toegankelijk. Het community initiatief vraagt alleen om
+een meer proactieve houding van de belanghebbenden (gebruikers,
+softwareontwikkelaars etc.) aangezien de vorm van communicatie via
+digitale interactie op de site van de standaard verloopt. Bij andere
+initiatieven wordt dit nieuws bijvoorbeeld gedeeld met belanghebbenden
+via andere mediums.
+
+Draagvlak
+Uit de experttoets komt naar voren dat er voldoende vertrouwen is in het
+draagvlak voor de standaard. Er is al ondersteuning vanuit meerdere
+grote overheidsorganisaties en meerdere organisaties hebben aangegeven
+gebruik te gaan maken van de standaard. Er wordt nog niet veel gebruik
+gemaakt van deze versie van de standaard, er is wel gebruik van de
+vorige versie. volgens de experts zijn de positieve signalen over
+toekomstig gebruik ruim aanwezig. En zijn er weinig technologische,
+organisatorische of financiële beperkingen om over te gaan op de nieuwe
+versie van de standaard. Tijdens de openbare consultatie kunnen
+aanvullingen worden gegeven op het gebruik van de standaard.
+
+Opname bevordert de adoptie
+De opname zal het gebruik van de standaard stimuleren aangezien de
+criteria van toegevoegde waarde, open standaardisatieproces en
+toekomstig gebruik voldoende positief zijn.
+
+Welke additionele adviezen zijn er ten aanzien van de adoptie van de
+standaard?
+De expertgroep geeft de volgende aanbevelingen mee aan het OBDO ter
+bevordering van het gebruik van OAS 3.0::
+    1. Oproep is dat alle partijen uit het OBDO (specifiek ook Logius,
+       veiligheidsketen en zorgsector) participeren in het Kennisplatform
+       API’s. Dat is opgezet door Geonovum in samenwerking met KvK,
+       Kadaster, VNG Realisatie en Forum Standaardisatie. Onderdeel
+       van dit kennisplatform zou een overheidsbrede API strategie zijn
+       gebaseerd op de DSO API strategie.
+       De basis voor de API strategie moet een kennisbundeling zijn uit
+       verschillende initiatieven van nauw verwante standaarden. Deze
+       kennisbundeling moet bestaan uit een nieuw te ontwikkelen profiel
+       dat toepasbaar is op een set nauw verwante standaarden. Een
+       voorbeeld is om Oauth en OAS in samenhang te beschouwen om
+       te zorgen dat de standaarden beter op elkaar worden afgestemd.
+       Een voor de hand liggende partij voor beheer is bijvoorbeeld
+       Logius. Ook het actief implementeren bij de GDI is hier onderdeel
+       van.
+                                                                             Pagina 6 van 23
+Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+     2. Oproep aan partijen die de standaard gaan gebruiken en
+        toepassen om deze ook als ‘best practice’ via de website van het
+        Forum Standaardisatie te publiceren.
+     3. Oproep aan KOOP (data.overheid.nl) dat wanneer er sprake is van
+        een dataset met een web service of een REST API, deze volgens
+        OAS te beschrijven. KOOP wordt door de experts gezien als een
+        belangrijke partij ter bevordering van het gebruik en daarom
+        wordt een specifieke oproep gedaan.
+     4. Oproep aan beheerorganisaties van standaarden, applicaties en
+        gegevenssets om bij het beschrijven van een REST API OAS toe te
+        passen. Het Bureau Forum Standaardisatie moet hier de
+        beheerorganisaties actief in stimuleren door ze hier op te wijzen.
+     5. Een oproep aan het OBDO om actief deel te nemen in de
+        ontwikkeling van de standaard.
+
+
+
+
+                                                                             Pagina 7 van 23
+      Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+1     Doelstelling expertadvies
+
+
+
+1.1   Achtergrond
+      De Nederlandse overheid streeft naar betrouwbare gegevensuitwisseling
+      door het gebruik van open standaarden en het voorkomen van vendor
+      lock-in. Om dit doel te bereiken, onderstrepen het instellingsbesluit van
+      het Forum Standaardisatie, de Generieke Digitale Infrastructuur en de
+      verschillende architectuurkaders het gebruik van open standaarden bij het
+      ontwerpen of inkopen van informatiesystemen.
+
+      Een van de maatregelen om de adoptie van open standaarden te
+      bevorderen is de publicatie en het beheer van een lijst met open
+      standaarden waarvoor een ‘pas toe of leg uit’-verplichting geldt of
+      waarvan het gebruik ‘aanbevolen’ is. Het OBDO besluit welke standaarden
+      op deze lijst worden opgenomen. Het OBDO baseert zich hierbij op
+      expertadviezen, openbare consultaties en adviezen van het Forum
+      Standaardisatie.
+
+1.2   Doelstelling expertadvies
+      Dit document is een expertadvies over de standaard OpenAPI
+      Specification 3.0 (hierna: OAS) gericht aan het OBDO en Forum
+      Standaardisatie. OAS 3.0 is aangemeld voor opname op de lijst met open
+      standaarden door Dimitri van Hees van het Kadaster.
+
+      Doel van dit document is te toetsen of OAS 3.0 voldoet aan de
+      toetsingscriteria en het OBDO te adviseren of OAS 3.0 in aanmerking
+      komt voor opname op de lijst met open standaarden als ‘pas toe of leg
+      uit’-standaard, al dan niet onder voorwaarden.
+
+1.3   Doorlopen proces
+      Voor het opstellen van dit document is de volgende procedure doorlopen:
+       1. De procesbegeleider heeft op 15 november 2017 een intakegesprek
+          gevoerd met de indiener. Tijdens de intake is de standaard getoetst
+          op criteria voor het in procedure nemen en is een eerste inschatting
+          gemaakt van de het kansrijk zijn van de procedure.
+       2. Op basis van de intake heeft het Forum Standaardisatie op 13
+          december 2017 besloten de standaard in procedure te nemen. Hierop
+          volgend is een expertgroep samengesteld en een voorzitter
+          aangesteld.
+       3. De leden van de expertgroep hebben een voorbereidingsdossier
+          gekregen dat is samengesteld met informatie uit de aanmelding en
+          het intake onderzoek. Voorafgaand aan de expertbijeenkomst heeft
+          de expertgroep dit voorbereidingsdossier doorgenomen en
+          aandachtspunten geïdentificeerd.
+       4. De expertgroep is op 8 februari 2018 bijeengekomen om de
+          bevindingen in het algemeen en de geïdentificeerde aandachtspunten
+          in het bijzonder te bespreken. Tijdens deze bijeenkomst zijn ook het
+          toepassings- en werkingsgebied vastgesteld.
+
+       Dit expertadvies geeft de uitkomst van de expertgroep weer. De
+       procesbegeleider heeft een concept van dit expertadvies aan de leden
+       van de expertgroep gestuurd met verzoek om commentaar. Na
+       verwerking van reacties uit de expertgroep is het rapport nogmaals
+       toegestuurd aan de experts, afgerond en ingediend bij het Bureau Forum
+                                                                                  Pagina 8 van 23
+      Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+      Standaardisatie (het secretariaat van het Forum Standaardisatie) ten
+      behoeve van de publieke consultatieronde.
+
+1.4   Vervolg
+      Het Bureau Forum Standaardisatie zal dit expertadvies openbaar maken
+      ten behoeve van een openbare consultatie die plaatsvindt van 23 februari
+      tot 23 maart 2018. Eenieder kan gedurende de consultatieperiode een
+      reactie geven op dit expertadvies. Na afsluiting van de openbare
+      consultatie koppelt het Bureau Forum Standaardisatie de reacties terug
+      aan de expertgroep.
+
+      Het Forum Standaardisatie stelt met het expertadvies en de relevante
+      inzichten uit de openbare consultatie een advies aan het OBDO op. Het
+      OBDO besluit met dit advies om de standaard wel of niet op de lijst open
+      standaarden te plaatsen.
+
+1.5   Samenstelling expertgroep
+      Het Forum Standaardisatie streeft naar een representatieve expertgroep
+      met een evenwichtige vertegenwoordiging van (toekomstige) gebruikers
+      (zowel publiek als privaat), leveranciers, wetenschappers en andere
+      belanghebbenden. De expertgroep heeft een onafhankelijk voorzitter die
+      de expertgroep leidt en de verantwoordelijkheid neemt voor het
+      expertadvies.
+
+      Als onafhankelijk voorzitter is opgetreden Ruud Boot, adviseur bij
+      Verdonck, Klooster & Associates.
+
+      Douwe Horst, adviseur bij Verdonck, Klooster & Associates, heeft de
+      procedure in opdracht van het Bureau Forum Standaardisatie begeleid.
+
+      Aan de expertbijeenkomst hebben deelgenomen:
+         - André Batenburg (Provincie Zuid-Holland)
+         - Dick Krijtenburg (Geonovum)
+         - Jascha Gregorowitsch (Enable-u)
+         - Marcel van den Brink (KvK)
+         - Peter Leijnse (Logius)
+         - Ronald Ossendrijver (CBS)
+         - Sheila Ghosh (KvK)
+         - Dimitri van Hees (Kadaster)
+
+      Alexander Henket (Nictiz) en Frans van der Zande (RCE) hebben vooraf
+      aan de expertbijeenkomst input aangeleverd, maar hebben niet
+      deelgenomen aan de expertbijeenkomst.
+      Han Zuidweg en Lancelot Schellevis van het Bureau Forum
+      Standaardisatie waren als toehoorder bij de expertbijeenkomst aanwezig.
+
+1.6   Toelichting OAS 3.0
+
+      Over API’s en REST API’s
+
+      Application Programming Interfaces (API’s) zijn in de huidige
+      informatiesamenleving een veel toegepaste en essentiële technologie om
+      moderne applicaties (en databronnen) snel en effectief met elkaar te
+      verbinden en eenvoudig informatie uit te wisselen. Organisaties kunnen
+      hiermee gebruikers snel bedienen en gegevensstromen efficiënt laten
+      verlopen. Een voorbeeld van waar een API wordt aangeboden is voor de
+      gegevens van het KNMI. Via de Weer API van het KNMI kan de afnemer
+                                                                                 Pagina 9 van 23
+Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+makkelijk de actuele data gebruiken bijvoorbeeld voor toepassing in een
+app, website of monitoringsysteem.
+
+Een API vormt zo feitelijk de externe toegangspoort tot een applicatie of
+een dataset zoals voor internetplatformen zoals Amazon, Facebook en
+Google en wat dichter bij huis Bol.com en Funda. Externe systemen
+kunnen via deze toegangspoort op een gestructureerde manier connectie
+maken om informatie uit te wisselen. Uiteraard altijd binnen de restricties
+die vooraf voor de API zijn vastgesteld. Voor softwareontwikkelaars is het
+gebruik van API’s daarom van groot voordeel omdat zij hiermee
+applicaties eenvoudig en snel met elkaar kunnen verbinden en laten
+samenwerken. API’s zorgen er dus voor dat applicaties gemakkelijk met
+elkaar kunnen communiceren.
+
+Deze API’s zijn vaak gebaseerd op het REST architectuurprincipe. REST
+(representational state transfer) is een techniek die veel gebruikt wordt
+om API’s, bereikbaar via het Internet, te structureren en te
+implementeren. Dit principe gaat er o.a. van uit dat aansluiten zo
+makkelijk mogelijk moet zijn zodat zoveel mogelijk gebruikers kunnen
+aansluiten op de diensten van de organisatie. Ook binnen de overheid
+worden REST API’s steeds meer toegepast om onderling gegevens uit te
+wisselen en datasets te bevragen. Een voorbeeld hiervan waar veel REST
+API’s zijn te vinden is api.data.amsterdam.nl waar een overzicht van
+OpenAPI documentatie is te vinden. De OpenAPI Specification is
+ondersteunend aan REST API’s.
+
+Over OpenAPI Specification
+
+REST API is weliswaar een veel toegepaste en essentiële technologie om
+moderne applicaties met elkaar te laten communiceren, maar dit betekent
+niet dat daarmee het gebruik en de ontwikkeling van REST API’s
+gestandaardiseerd is. REST API’s worden in de praktijk op verschillende
+manieren gestructureerd en beschreven. Daardoor moeten
+softwareontwikkelaars de structuur van een REST API eerst verkennen en
+doorgronden voor ze deze kunnen gebruiken. Dit kost tijd. Het gebruik
+van REST API’s is daardoor minder efficiënt dan wanneer er een standaard
+beschrijvingswijze wordt gebruikt.
+Een REST API is zo effectief als de bijbehorende documentatie van de
+structuur. De documentatie moet gemakkelijk te begrijpen zijn. De
+meeste softwareontwikkelaars zullen eerst de documenten doornemen
+voordat ze starten met de implementatie. Wanneer de documentatie
+onduidelijk is of niet volgens een breed gebruikte standaard is opgesteld,
+dan vormt dit een drempel voor softwareontwikkelaars (of
+softwareleveranciers).
+
+
+
+
+                                                                              Pagina 10 van 23
+Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+Toelichting OAS 3.0 in relatie tot andere standaarden/technieken
+
+Om REST API’s uniform te beschrijven is de standaard OpenAPI
+Specification (OAS) ontwikkeld. Deze standaard specificeert welke
+functionaliteit een koppelvlak (de REST API) aanbiedt. Het specificeert niet
+welke implementatie of dataset er achter die REST API schuilgaat. Het
+geeft een programmeertaal-onafhankelijke beschrijving van een REST API
+(weergegeven in een YAML- of JSON-indeling) .
+
+
+
+
+Toepassingen OAS 3.0
+
+Met OAS kunnen zowel mensen als machines de functionaliteit van een
+REST API inzien, begrijpen en interpreteren, zonder dat er toegang tot de
+broncode, aanvullende documentatie of analyse van netwerkverkeer
+
+                                                                               Pagina 11 van 23
+      Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+      vereist is. OAS zorgt ervoor dat een client (mens of machine) met
+      minimale programmatuur in staat is om met de REST API te
+      communiceren zonder dat er voorafgaand uitvoerig onderzocht of
+      gespeculeerd moet worden hoe de REST API precies werkt. Dit vermindert
+      de implementatietijd van de client (reductie van ‘time to first successful
+      call) en zorgt voor minder implementatiekosten en lagere foutmarges.
+      Hierdoor is voor derden (d.w.z. een softwareontwikkelaar dan wel een
+      geautomatiseerd systeem) gemakkelijker en sneller inzichtelijk wat een
+      REST API kan en moet doen. Een voorbeeld hiervan is Digitoegankelijk
+      (EN 301 549 met WCAG 2.0). Om bestaande tooling (zoals gegenereerde
+      REST API documentatie) aan toegankelijkheidsrichtlijnen te laten voldoen
+      is er een eigen implementatie nodig. Als deze implementatie voor de
+      meest gangbare OAS werkt hoeft dit slechts eenmalig uitgevoerd en
+      onderhouden te worden.
+
+      Relatie met andere standaarden
+
+      De standaard is complementair aan Oauth 2.0 (in procedure voor de
+      status ‘pas toe of leg uit’ op de lijst), OData 4.0 en JSON (status
+      ‘aanbevolen’ op de lijst). Oauth is een standaard voor het autoriseren van
+      het gebruik van REST APIs en is daarmee complementair aan OAS 3.0.
+
+      OData wordt gebruikt voor het structureren en bevragen van REST API’s.
+      OAS 3.0 is complementair aan OData omdat een deel van hetgeen met
+      Odata wordt beschreven is te vervangen door OAS met een verwijzing
+      naar de meer specifieke beschrijving in Odata. Complementair betekent
+      dus dat het niet in de weg zit, maar ook dat OAS op zichzelf niet tot
+      harmonisatie van OData gebruik zal leiden. Vanuit de andere kant bezien
+      betekent dit voor datastructuren dat deze ook anders kunnen worden
+      beschreven en dat OAS niet altijd de behoefte dekt. Indien nodig is binnen
+      OAS makkelijk naar aanvullende standaarden te verwijzen. OAS maakt
+      gebruik van de standaard JSON.
+
+      Er zijn geen ‘concurrerende’ standaarden voor OAS 3.0 geïdentificeerd die
+      in aanmerking komen voor opname op de lijst. OAS 3.0 verenigt de
+      standaarden OAS 2.0 (beter bekend onder de naam Swagger 2.0) en
+      REST API Modeling Language (RAML) en neemt daardoor de concurrentie
+      tussen de eerdere versie 2.0 en RAML weg. Het gebruik van WSDL en
+      SOAP is een andere manier om een interface (API) te realiseren. Een
+      WSDL/SOAP gebaseerde interface is geen REST interface waardoor er
+      geen directe relatie is met OAS. Ditzelfde geldt voor GraphQL, een
+      losstaand protocol dat momenteel erg in opmars is.
+
+1.7   Leeswijzer
+      Hoofdstuk 2 beschrijft de het functioneel toepassingsgebied (situaties
+      waarin de standaard functioneel gebruikt moet worden) en het
+      organisatorisch werkingsgebied (organisaties die de standaard moeten
+      toepassen).
+
+      Hoofdstuk 3 beschrijft de resultaten van de toetsing van de standaard aan
+      de hand van de criteria voor opname op de lijst open standaarden.
+
+
+
+
+                                                                                   Pagina 12 van 23
+      Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+2     Toepassings– en werkingsgebied
+
+
+      De instructie rijksdienst inzake de aanschaf van ICT-producten en ICT-
+      diensten verplicht overheidsorganisaties om relevante standaarden op de
+      ‘pas toe of leg uit’-lijst te vragen en toe te passen bij
+      aanbestedingstrajecten.
+
+      Afhankelijk van de aan te schaffen functionaliteit moet een
+      overheidsorganisatie bepalen welke standaarden op de ‘pas toe of leg uit’-
+      lijst relevant zijn. Hiervoor is voor iedere standaard een functioneel
+      toepassingsgebied (in welke situaties is de standaard functioneel van
+      toepassing) en een organisatorisch toepassingsgebied (welke organisaties
+      moeten de standaard gebruiken) beschreven.
+
+      Secties 2.1 en 2.2 geven het advies van de expertgroep voor het
+      functioneel toepassingsgebied en het organisatorisch werkingsgebied van
+      OAS.
+
+2.1   Functioneel toepassingsgebied
+      De expertgroep adviseert als functioneel toepassingsgebied voor OAS:
+
+      OpenAPI Specification moet worden toegepast op het
+      beschrijven/specificeren van een REST API.
+
+2.2   Organisatorisch werkingsgebied
+      De expertgroep adviseert om het organisatorisch werkingsgebied van de
+      standaard overeen te laten komen met het werkingsgebied waarop de ‘pas
+      toe of leg uit’-verplichting van toepassing is, te weten:
+
+      Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen)
+      en instellingen uit de (semi-) publieke sector.
+
+
+
+
+                                                                                   Pagina 13 van 23
+          Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+3         Toetsing van standaard aan criteria
+
+
+          Het Forum Standaardisatie hanteert vier hoofdcriteria om te bepalen of
+          een standaard in aanmerking komt voor opname op de lijst:
+          1. Heeft de standaard toegevoegde waarde?
+          2. Zijn de standaard en het standaardisatieproces voldoende open?
+          3. Heeft de standaard voldoende draagvlak?
+          4. Is opname op de lijst nodig om de adoptie te bevorderen? 1
+
+          Ieder van deze hoofdcriteria heeft deelcriteria die beschreven staan in het
+          document “Toetsingsprocedure en criteria voor lijst met open standaarden
+          voor indieners en experts”, te vinden op de website van het Forum
+          Standaardisatie https://www.forumstandaardisatie.nl/content/toetsen-
+          van-standaarden.
+
+          Dit hoofdstuk beschrijft per criterium het resultaat van de toetsing. Voor
+          de volledigheid is tevens de beschrijving van elk criterium opgenomen.
+
+3.1       Toegevoegde waarde
+
+          De interoperabiliteitswinst en andere voordelen van adoptie van de
+          standaard wegen overheidsbreed en maatschappelijk op tegen de risico’s
+          en nadelen.
+
+
+
+3.1.1     Is het toepassings- en werkingsgebied van de aanmelding goed
+          gedefinieerd?
+
+3.1.1.1   Is het functioneel toepassingsgebied goed gedefinieerd?
+          Zie §2.1.
+
+3.1.1.2   Is het organisatorisch werkingsgebied goed gedefinieerd?
+          Zie §2.2.
+
+3.1.1.3   Is de standaard generiek toepasbaar (en niet alleen bedoeld voor
+          gegevensuitwisseling met één of een beperkt aantal specifieke
+          organisaties)? (toelichtende vraag)
+          Ja, de standaard is generiek toepasbaar. Elke organisatie die werkt met
+          REST API’s kan de standaard gebruiken.
+
+3.1.2     Verhoudt de standaard zich goed tot andere standaarden?
+
+3.1.2.1   Kan de standaard naast of in combinatie met reeds opgenomen
+          standaarden worden toegepast (d.w.z. de standaard conflicteert niet met
+          reeds opgenomen standaarden)?
+          Ja, de standaard is complementair aan Oauth 2.0 (in procedure voor de
+          status ‘pas toe of leg uit’ op de lijst), OData 4.0 en JSON (status
+          ‘aanbevolen’ op de lijst). Oauth is een standaard voor het autoriseren van
+          het gebruik van REST APIs en is daarmee complementair aan OAS 3.0.
+          OData wordt gebruikt voor het structureren en bevragen van REST API’s.
+          OAS 3.0 is complementair aan OData omdat een deel van hetgeen met
+
+
+          1
+              Dit criterium is voornamelijk van toepassing op standaarden op de ‘pas toe of leg uit’-lijst, niet voor
+              aanbevolen standaarden.
+                                                                                                                        Pagina 14 van 23
+          Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+          Odata wordt beschreven is te vervangen door OAS met een verwijzing
+          naar de meer specifieke beschrijving in Odata. Complementair betekent
+          dus dat het niet in de weg zit, maar ook dat OAS op zichzelf niet tot
+          harmonisatie van OData gebruik zal leiden. Vanuit de andere kant bezien
+          betekent dit voor datastructuren dat deze ook anders kunnen worden
+          beschreven en dat OAS niet altijd de behoefte dekt. Indien nodig is binnen
+          OAS makkelijk naar aanvullende standaarden te verwijzen. OAS maakt
+          gebruik van de standaard JSON.
+
+3.1.2.2   Biedt de aangemelde standaard meerwaarde boven reeds opgenomen
+          standaarden met een overlappend functioneel toepassings- en
+          organisatorisch werkingsgebied? (Dit kan ook om een nieuwe versie van
+          dezelfde standaard gaan.)
+          Ja, er zijn geen standaarden opgenomen met overlap binnen deze
+          werkingsgebieden.
+
+3.1.2.3   Biedt de aangemelde standaard meerwaarde boven bestaande
+          concurrerende standaarden die in aanmerking zouden kunnen komen voor
+          opname? (toelichtende vraag)
+          Ja, er zijn geen concurrerende standaarden voor OAS 3.0 geïdentificeerd
+          die in aanmerking komen voor opname op de lijst. OAS 3.0 verenigt de
+          standaarden OAS 2.0 (beter bekend onder de naam Swagger 2.0) en
+          REST API Modeling Language (RAML) en neemt daardoor de ‘concurrentie’
+          tussen de eerdere versie 2.0 en RAML weg. Het gebruik van WSDL en
+          SOAP is een andere manier om een interface (API) te realiseren. Een
+          WSDL/SOAP gebaseerde interface is geen REST interface waardoor er
+          geen directe relatie is met OAS. Ditzelfde geldt voor GraphQL, een
+          losstaand protocol dat momenteel in opmars is. Er wordt geen verplichting
+          gesteld voor REST API’s maar voor het gebruik van OAS indien het gaat
+          om REST API’s.
+
+3.1.2.4   Is de standaard een internationale standaard of sluit de standaard aan bij
+          relevante internationale standaarden? (toelichtende vraag)
+          Ja, de standaard is een internationale standaard. Met OpenAPI
+          Specification 3.0. lijkt de internationale markt te hebben gekozen voor
+          één standaard. Voorheen waren er meerdere specificaties in de markt. De
+          OpenAPI Specification 3.0 is - naast een doorontwikkeling qua
+          functionaliteiten - feitelijk een integratie van versie 2.0 met de
+          alternatieve/ concurrerende standaard RAML van API tooling
+          softwareontwikkelaar Mulesoft.
+
+3.1.3     Wegen de kwantitatieve en kwalitatieve voordelen van adoptie van de
+          standaard, voor de (semi-)overheid als geheel en voor de maatschappij,
+          op tegen de nadelen?
+
+3.1.3.1   Zijn de kosten van implementatie acceptabel en zijn deze kosten bekend
+          en inzichtelijk?
+          De daadwerkelijke kosten om gebruik te gaan maken van deze standaard
+          zijn vooralsnog niet inzichtelijk. De tooling is vrij toegankelijk via de open
+          source community en de vorige versies OAS 2.0 en RAML zijn compatibel
+          met deze standaard. Als men van RAML naar OAS overgaat dan kunnen
+          andere tools gebruikt worden. Wel moet rekening worden gehouden met
+          mogelijke aanloopkosten indien ervoor gekozen wordt ook bestaande
+          beschrijvingen van REST API’s over te zetten naar OAS 3.0. Bestaande
+          beschrijvingen hoeven volgens het ‘pas toe of leg uit’ beleid niet meteen
+
+
+                                                                                           Pagina 15 van 23
+          Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+          overgezet te worden. Dat wil zeggen dat het niet verplicht is om alles over
+          te zetten. Alleen bij nieuwe investeringen.
+          De experts geven aan dat de kosten met name zitten in mensuren en niet
+          in licentiekosten voor het ontwikkelen van een REST API, net zozeer voor
+          het toepassen van de OAS.
+
+          Er wordt aangegeven dat de implementatiekosten van OAS lager zijn dan
+          bij alternatieve standaarden. Er kan wel gesteld worden dat de kosten van
+          het maken van een OAS slechts een fractie zijn van de kosten van het
+          implementeren van de REST API die het beschrijft.
+
+3.1.3.2   Is er een (kwalitatieve) businesscase van de standaard aanwezig?
+          Nee, er is geen business case opgesteld van implementatie van de
+          standaard. Voor de afnemers zullen de kosten wel afnemen omdat ze
+          REST API’s op een meer uniforme manier kunnen bevragen. Het is
+          aannemelijk dat het gebruik van OAS voor de gebruiker van een REST API
+          een kostenbesparing oplevert ten opzichte van een situatie waarin OAS
+          niet beschikbaar is. In dat laatste geval moet de gebruiker de REST API
+          eerst ontdekken en analyseren voor deze gebruikt kan worden. Met OAS
+          weet een gebruiker direct wat de REST API doet en hoe deze aangeroepen
+          moet worden.
+
+3.1.3.3   Is de meerwaarde van de standaard goed inzichtelijk te maken? Wat
+          betekent de standaard voor de (bedrijfs)processen van een organisatie of
+          keten en wat los je met de standaard op?
+          Ja, tijdens de expertbijeenkomst zijn een aantal redenen geïnventariseerd
+          waarom de standaard van toegevoegde waarde is en waarom deze
+          opgenomen moet worden op de lijst:
+                   1. het opnemen van OAS op de lijst zorgt voor meer aandacht
+                       voor API’s binnen de overheid. En stimuleert daarmee het
+                       publiceren van REST API’s;
+                   2. OAS zorgt voor harmonisering van verschillende
+                       beschrijvingen van REST API’s en zorgt voor meer uniformiteit
+                       en verbeteringen in het bouwen, aanpassen en koppelen op
+                       REST API’s;
+                   3. door de uniformering gaat de kwaliteit en snelheid aan de
+                       gebruikskant omhoog;
+                   4. testen voor de gebruiker of het werkt gaat makkelijker;
+                   5. de implementatie is als gevolg van de beschrijvingen ook
+                       meer gestandaardiseerd;
+                   6. door het opleggen van OAS wordt het makkelijker om aan te
+                       sluiten op overheidsproducten en overheidsdata voor een
+                       gebruiker als dit verloopt via een REST API;
+                   7. OAS wordt wereldwijd gebruikt hierdoor ontstaat de
+                       mogelijkheid van hergebruik van ervaringen en tooling, zowel
+                       binnen de overheid als ook vanuit de internationale
+                       community;
+                   8. het wegnemen van een drempel voor de implementatie en het
+                       gebruik van REST API’s voor softwareontwikkelaars en –
+                       leveranciers (minder leveranciersafhankelijkheid) doordat
+                       sneller inzichtelijk is wat een REST API kan en moet doen.
+
+3.1.3.4   Zijn de beveiligingsrisico’s aan overheidsbrede adoptie van de standaard
+          acceptabel?
+          Ja, want de toepassing van de standaard heeft geen impact vanuit
+          beveiligingsrisico’s omdat de standaard de beschrijving van REST API
+          betreft en niet de feitelijke implementatie. Beveiliging gaat bijvoorbeeld
+          via TLS verbindingen of via OAUTH authenticatie.
+
+                                                                                        Pagina 16 van 23
+          Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+3.1.3.5   Zijn de privacyrisico’s aan overheidsbrede adoptie van de standaard
+          acceptabel?
+          Ja, idem conform §3.1.3.4.
+
+3.1.4     Conclusie criteria ‘Toegevoegde waarde’
+
+          De toegevoegde waarde is aanwezig. De implementatiekosten zijn
+          bescheiden. In het geval van een REST API heeft de standaard een
+          meerwaarde doordat de standaard manier van beschrijven bij alle REST
+          API’s kan worden toegepast. De functionele reikwijdte is minder groot
+          (alleen specificatie functionaliteit koppelvlak) dan sommige vergelijkbare
+          standaarden (zoals OData), maar toch is de beschrijving van de standaard
+          altijd leidend in plaats van de beschrijving van die andere standaarden
+          (vervang een deel beschrijving OData met beschrijving van OAS).
+
+3.2       Open standaardisatieproces
+
+          De ontwikkeling en het beheer van de standaard zijn op een open,
+          onafhankelijke, toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze
+          ingericht.
+
+3.2.1     Is de documentatie voor een ieder drempelvrij beschikbaar?
+
+3.2.1.1   Is het specificatiedocument beschikbaar zonder dat er sprake is van
+          belemmeringen (zoals hoge kosten of lidmaatschapseisen)?
+          Ja, het specificatiedocument is zonder kosten of lidmaatschap beschikbaar
+          op https://github.com/OAI/OpenAPI-
+          Specification/blob/master/versions/3.0.1.md. Ook is er meer informatie te
+          vinden op de website van de beheerorganisatie:
+          https://www.openapis.org
+
+3.2.1.2   Is de documentatie over het ontwikkel- en beheerproces (bijv. het
+          voorlopige specificatiedocument, notulen en beschrijving van de
+          besluitvormingsprocedure) beschikbaar zonder dat er sprake is van
+          belemmeringen (zoals hoge kosten of lidmaatschapseisen)?
+          Ja, documentatie over het ontwikkel- en beheerproces is onder de titel
+          ‘participation’ zonder belemmeringen beschikbaar op
+          https://github.com/OAI/OpenAPI-Specification
+
+3.2.2     Is het intellectuele eigendomsrecht voor eenieder beschikbaar, zodat de
+          standaard vrij implementeerbaar en te gebruiken is?
+
+3.2.2.1   Stelt de standaardisatieorganisatie het intellectueel eigendomsrecht op de
+          standaard (bijvoorbeeld patenten of licenties) onherroepelijk royalty-free
+          voor eenieder beschikbaar?
+          Ja, het is een open community initiatief waarbij dit is afgesproken in het
+          gepubliceerde beleid. Zie https://www.apache.org/licenses/LICENSE-
+          2.0.html
+
+3.2.2.2   Garandeert de standaardisatieorganisatie dat partijen die bijdragen aan de
+          ontwikkeling van de standaard hun intellectueel eigendomsrecht voor
+          (onderdelen van) de standaard onherroepelijk royalty-free voor eenieder
+          beschikbaar stellen?
+          Ja, dit is onderdeel van het open community initiatief. Zie
+          https://www.apache.org/licenses/LICENSE-2.0.html
+
+
+                                                                                        Pagina 17 van 23
+          Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+3.2.3     Is de inspraak van eenieder in voldoende mate geborgd?
+
+3.2.3.1   Is het besluitvormingsproces toegankelijk voor alle belanghebbenden
+          (bijv. gebruikers, leveranciers, adviseurs, wetenschappers)?
+          Ja, het besluitvormingsproces is beschreven en toegankelijk voor alle
+          belanghebbenden op https://www.openapis.org/participate/how-to-
+          contribute/governance
+
+3.2.3.2   Vindt besluitvorming plaats op een wijze die zoveel mogelijk recht doet
+          aan de verschillende belangen?
+          Ja, er zijn duidelijke afspraken waarbij voldoende ruimte is om ieders
+          belangen mee te nemen in de besluitvorming.
+
+3.2.3.3   Kan een belanghebbende formeel bezwaar aantekenen tegen de gevolgde
+          procedure?
+          Ja, er is een klachtenprocedure beschreven. Dit verloopt via de Technical
+          Steering Committee. Zie https://www.openapis.org/participate/how-to-
+          contribute/governance#TDC
+
+3.2.3.4   Organiseert de standaardisatieorganisatie regelmatig overleggen met
+          belanghebbenden over doorontwikkeling en beheer van de standaard?
+          Ja, overleggen zijn in diverse groepen ondergebracht. Daarnaast gebeurt
+          dit ook digitaal door live contact.
+
+3.2.3.5   Organiseert de standaardisatieorganisatie een publieke consultatie voordat
+          (een nieuwe versie van) de standaard wordt vastgesteld?
+          Er is niet beschreven dat er sprake is van een publieke consultatie. Er is
+          beschreven dat er een proces is op basis van stemmen dat niet
+          vergelijkbaar is met een publieke consultatie. Er is hiermee als
+          buitenstaander de mogelijkheid om input te leveren dan wel commentaar
+          te geven. Er worden draft specificaties uitgegeven. Daar kan men op
+          reageren. Het wordt vervolgens gedeeld op Github. Daarmee is het niet
+          eenzelfde vorm als een openbare consultatie maar is wel iedereen in de
+          gelegenheid om te reageren.
+
+3.2.4     Is de standaardisatieorganisatie onafhankelijk en duurzaam?
+
+3.2.4.1   Is de ontwikkeling en het beheer van de standaard belegd bij een
+          onafhankelijke non-profit standaardisatieorganisatie?
+          Ja, De standaard wordt beheerd door het Open Api Initiative. Dit is een
+          open community opgezet door de Linux Foundation waarbij het beheer en
+          de ontwikkeling gebaseerd is op een open online dialoog met een
+          community van gebruikers die via een kiessysteem kunnen meebepalen
+          over de prioritering van issues. Zie
+          https://www.openapis.org/news/blogs/2016/07/you-can-get-involved-
+          creating-openapi-specification-and-heres-how
+
+          Een open community initiatief dat opgezet is door belanghebbenden die
+          een grote waarde zien in de standaardisatie van de manier waarop REST
+          API’s worden beschreven. OAI werd opgericht en wordt ondersteund door
+          verschillende grote internationale bedrijven zoals Google, IBM en Microsoft
+          en API-tooling softwareontwikkelaars zoals SmartBear Software. In 2017
+          is ook Mulesoft (grote API leverancier) toegetreden tot dit initiatief.
+
+3.2.4.2   Is de financiering van de ontwikkeling en het onderhoud van de standaard
+          voor tenminste drie jaar gegarandeerd?
+
+
+                                                                                        Pagina 18 van 23
+          Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+          Ja, maar het gaat om een community initiatief en dat is een andere vorm
+          van financiering. Een open community initiatief heeft als consequentie dat
+          het beheer niet duurzaam geïnstitutionaliseerd is en dat er daardoor geen
+          garantie bestaat voor de continuïteit van het beheer in de toekomst. Dit
+          brengt ook risico’s met zich mee voor de vrije toegang tot documentatie
+          op de lange termijn. Om dit te voorkomen moet het gebruik van de
+          standaard gaan toenemen. Overigens verwachten de experts niet dat de
+          financiering van de ontwikkeling en het onderhoud van de standaard
+          binnen drie jaar komt te vervallen. Het is een internationale standaard
+          waar grote partijen gebruik van maken of gebruik van gaan maken.
+
+3.2.5     Is het (versie) beheer van de standaard goed geregeld?
+
+3.2.5.1   Heeft de standaardisatieorganisatie gepubliceerd beleid met betrekking tot
+          (versie)beheer van de standaard? Bij voorkeur is dit beleid ook
+          beschreven in een beheerplan (met o.a. aandacht voor migratie van
+          gebruikers)
+          Ja, er is gepubliceerd beleid van het beheer van de standaard. Zie:
+          https://github.com/OAI/OpenAPI-
+          Specification/blob/master/DEVELOPMENT.md
+
+3.2.5.2   Is de beheerdocumentatie goed vindbaar en verkrijgbaar?
+          Ja, de beheerdocumentatie is op de site van de standaard direct aan te
+          klikken.
+
+3.2.5.3   Is het belang van de Nederlandse overheid voldoende geborgd bij de
+          ontwikkeling en het beheer van de standaard?
+          Ja, de Nederlandse overheid kan zelf deelnemen aan de ontwikkeling en
+          het beheer van de standaard. Het is niet bekend of en hoe de Nederlandse
+          overheid deelneemt in de ontwikkeling en het beheer van de standaard.
+          Het is een internationale standaard waarbij de standaard
+          grensoverschrijdend geschikt gemaakt wordt.
+
+3.2.5.4   Is de vertegenwoordiging van belanghebbenden bij het beheer van de
+          standaard een goede representatie van het werkingsgebied en functioneel
+          toepassingsgebied van de standaard?
+          Ja, iedereen kan hier onderdeel van zijn.
+
+3.2.5.5   Is het standaardisatieproces van de standaardisatieorganisatie zodanig
+          goed geregeld dat het Forum zich kan onthouden van aanvullende
+          toetsing bij de aanmelding van een nieuwe versie van de standaard?
+          Ja, het standaardisatieproces is naar internationale normen ingericht.
+
+3.2.6     Is er adoptieondersteuning voor de standaard?
+
+3.2.6.1   Is er een toegankelijk aanspreekpunt of organisatie waar meer informatie
+          over de standaard is te vinden en op te vragen is?
+          Ja, het aanspreekpunt is de Linux Foundation. Er zijn verschillende
+          werkgroepen geformeerd waar men terecht kan. Zo is er bijvoorbeeld de
+          Technical Steering Committe (TSC) dat vier leden bevat als
+          aanspreekpunt.
+
+3.2.6.2   Wordt er ondersteuning gegeven in de adoptie en de implementatie van
+          de standaard?
+          Ja, er zijn diverse voorbeelden van implementaties en hulpmiddelen zoals
+          richtlijnen beschikbaar via de site.
+
+                                                                                       Pagina 19 van 23
+          Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+3.2.7     Conclusie criteria ‘Open standaardisatieproces’
+          Het standaardisatieproces is voldoende open. Documentatie en het proces
+          rondom beheer is toegankelijk. Het community initiatief vraagt alleen om
+          een meer proactieve houding van de belanghebbenden (gebruikers,
+          softwareontwikkelaars etc.) aangezien de vorm van communicatie via
+          digitale interactie op de site van de standaard verloopt. Bij andere
+          initiatieven wordt dit nieuws bijvoorbeeld gedeeld met belanghebbenden
+          via andere media.
+
+3.3       Draagvlak
+          Aanbieders en gebruikers moeten voldoende positieve ervaring met de
+          standaard hebben.
+
+3.3.1     Bestaat er voldoende marktondersteuning voor de standaard?
+
+3.3.1.1   Bieden meerdere leveranciers ondersteuning voor de standaard?
+          Ja, OAS werd opgericht en wordt ondersteund door verschillende grote
+          internationale bedrijven zoals Google, IBM en Microsoft en API-tooling
+          softwareontwikkelaars zoals SmartBear Software. In 2017 zijn ook
+          Mulesoft (grote API leverancier), WSO2 en CA Technologies toegetreden
+          tot dit initiatief. Er is een ‘implementations’ map op Github waar actief een
+          uitgebreide lijst van implementatie wordt bijgehouden.
+
+3.3.1.2   Kan een gebruiker de conformiteit van de implementatie van de standaard
+          (laten) toetsen?
+          Ja, er zijn online validators beschikbaar. Een voorbeeld hiervan is
+          https://editor.swagger.io. Hiermee kan de conformiteit van de schema’s
+          getoetst worden. Het is een minimale oplossing maar wel voldoende voor
+          het toetsen van conformiteit.
+
+3.3.1.3   Draagt de standaard voldoende bij aan interoperabiliteit zonder dat
+          aanvullende standaardisatieafspraken (zoals lokale profielen) noodzakelijk
+          zijn om de standaard te implementeren of te gebruiken?
+          Ja, er hoeven geen aanvullende standaardisatieafspraken te worden
+          gemaakt.
+
+3.3.1.4   Zijn er profielen of voorbeeldimplementaties van de standaard aanwezig
+          en zijn deze vrij te gebruiken?
+          Ja er zijn voorbeeld interface beschrijvingen in te zien op
+          https://github.com/OAI/OpenAPI-
+          Specification/tree/master/examples/v3.0. Ook worden via het Open
+          Stelsel voor Derden (binnen het deelprogramma Digitaal Stelsel
+          Omgevingswet) voorbeelden van DSO API’s en templates met best
+          practices gedeeld.
+
+3.3.2     Kan de standaard rekenen op voldoende draagvlak?
+
+3.3.2.1   Staan de belangrijkste stakeholders vanuit de overheid voor deze
+          standaard achter de adoptie van de standaard?
+          Ja, de belangrijke stakeholders en aanbieders van REST API’s van de
+          overheid staan achter adoptie van de standaard. Versie 3.0 is recent
+          gepubliceerd (juli 2017). Het gebruik van en de ervaring met deze versie
+          is daarom beperkt, zeker bij de Nederlandse overheden. OAS v3.0 wordt
+          toegepast door het Kadaster, de Kamer van Koophandel (mee bezig),
+          Gemeente Amsterdam (gaat over tot implementatie van OAS 3.0) en de
+          Rijksdienst voor Cultureel Erfgoed (RCE) voor haar REST API's. Ook
+          onderzoekt VNG Realisatie de mogelijke toepassing van de standaard. In
+                                                                                          Pagina 20 van 23
+          Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+          het Deelprogramma Digitaal Stelsel Omgevingswet (API-Strategie) wordt
+          het gebruik van OAS 2.0 of 3.0 voorgesteld. Verder ondersteunen
+          Rijkswaterstaat, DUO, SURFnet en Geonovum de aanmelding van OAS
+          3.0.
+
+3.3.2.2   Staan de overheidsorganisaties die daadwerkelijk worden geraakt door
+          een mogelijke verplichting van de standaard achter het gebruik van de
+          standaard?
+          Ja, dit is in lijn met §3.3.2.1.
+
+3.3.2.3   Wordt de aangemelde versie van de standaard binnen het
+          organisatorische werkingsgebied door meerdere Nederlandse
+          overheidsorganisaties gebruikt?
+          Ja, het gebruik is nog minimaal maar in ieder geval Kadaster, RCE en de
+          KvK. Meerdere andere organisaties denken over te stappen op de
+          standaard. Er was ook discussie over welke versie nu op de lijst moet
+          worden opgenomen, aangezien bijvoorbeeld versie 3.1 binnenkort in
+          gebruik wordt genomen. Er is hierbij afgesproken dat de
+          standaardprocedure vanuit het Forum Standaardisatie wordt gevolgd. Als
+          de nieuwe versie er is wordt gekeken of er grote wijzigingen in zijn
+          opgenomen. Als dit het geval is wordt er wel een nieuwe toets uitgevoerd.
+          Als de wijzigingen beperkt zijn dan wordt de nieuwe versie gehanteerd op
+          de lijst eventueel met een toelichting.
+
+3.3.2.4   Wordt een vorige versie van de standaard binnen het organisatorische
+          werkingsgebied door meerdere Nederlandse overheidsorganisaties
+          gebruikt?
+          Ja, bijvoorbeeld CBS, de KvK en de Gemeente Amsterdam.
+
+3.3.2.5   Is de aangemelde versie backwards compatible met eerdere versies van
+          de standaard?
+          Ja, versie 2.0 is volledig opgenomen in versie 3.0. Daarmee is alle
+          functionaliteit van de vorige versie te gebruiken in de nieuwe versie.
+          Met OAS 3.0 zijn oudere specificaties OAS 2.0 en RAML forwards
+          compatible. Hierdoor zijn documenten van versie 2.0 eenvoudig
+          (automatisch) te transformeren naar versie 3.0. Zie:
+          https://www.openapis.org/blog/2017/07/26/the-oai-announces-the-
+          openapi-specification-3-0-0. Een document van versie 3.0 kan echter niet
+          gebruikt worden in tools die tot en met versie 2.0 ondersteunen.
+
+3.3.2.6   Zijn er voldoende positieve signalen over toekomstige gebruik van de
+          standaard door (semi-)overheidsorganisaties, het bedrijfsleven en
+          burgers?
+          Ja, als er REST API’s aangeboden worden dan zien organisaties OAS 3.0
+          volgens de experts als meerwaarde.
+
+3.3.3     Conclusie criteria ‘Draagvlak’
+          Uit de experttoets komt naar voren dat er voldoende vertrouwen is in het
+          draagvlak voor de standaard. Er is al ondersteuning vanuit meerdere
+          grote overheidsorganisaties en meerdere organisaties hebben aangegeven
+          gebruik te gaan maken van de standaard. Er wordt nog niet veel gebruik
+          gemaakt van versie 3.0 van de standaard, er is wel gebruik van de vorige
+          versie 2.0 en RAML. Versie 3.0 is compatibel met deze oudere
+          specificaties. Volgens de experts zijn de positieve signalen over
+          toekomstig gebruik ruim aanwezig. En zijn er weinig technologische,
+          organisatorische of financiële beperkingen om over te gaan op de nieuwe
+
+                                                                                      Pagina 21 van 23
+        Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+        versie van de standaard. Tijdens de openbare consultatie kunnen
+        aanvullingen worden gegeven op het gebruik van de standaard.
+
+3.4     Opname bevordert adoptie
+        De opname op de lijst is een geschikt middel om de adoptie van de
+        standaard te bevorderen.
+
+        Met de lijst wil het OBDO de adoptie van open standaarden bevorderen die
+        voldoen aan de voorgaande criteria (toegevoegde waarde,
+        standaardisatieproces en draagvlak).
+        - Met de “pas toe of leg uit”-status beoogt het OBDO
+          standaarden te verplichten als:
+          a. hun huidige adoptie binnen de (semi-)overheid beperkt is;
+          b. opname op de lijst bijdraagt aan de adoptie door te stimuleren
+             (functie = stimuleren).
+        - Met de aanbevolen standaarden beoogt het OBDO
+          standaarden aan te bevelen als:
+          a. hun huidige adoptie binnen de (semi-)overheid reeds hoog is;
+          b. opname op de lijst bijdraagt aan de adoptie door te informeren en
+             daarmee onbedoelde afwijkende keuzes te voorkomen (functie =
+             informeren).
+
+3.4.1   Is “pas toe of leg uit” het passende middel om de adoptie van de
+        standaard binnen de (semi)overheid te bevorderen?
+
+        Ja, dit is het passende middel om de adoptie van de standaard te
+        bevorderen. Met name het gebruik van de standaard moet gaan toenemen
+        en opname met ‘pas toe of leg uit’ heeft juist dat tot belangrijkste doel.
+
+3.4.2   Is de status “aanbevolen” het passende middel om de adoptie van de
+        standaard binnen de (semi)overheid te bevorderen?
+
+        Zie §3.4.1.
+
+3.4.3   Conclusie criteria ‘Opname bevordert adoptie’
+
+        De opname zal het gebruik van de standaard stimuleren aangezien de
+        criteria van toegevoegde waarde, open standaardisatieproces en
+        toekomstig gebruik voldoende positief zijn.
+
+
+
+
+                                                                                     Pagina 22 van 23
+        Expertadvies OAS 3.0| Forum Standaardisatie | 22 februari 2018
+
+
+
+
+3.4.4   Adoptieactiviteiten
+
+        Gebruik van de standaard is het einddoel van het Forum Standaardisatie
+        en OBDO. Plaatsing op de lijst met open standaarden is hiervoor een
+        goede stap, maar voor het daadwerkelijk adopteren (implementeren en
+        gebruiken) van de standaard is vaak aanvullende actie benodigd.
+        Aanvullend kan Forum Standaardisatie dan ook bijdragen aan adoptie van
+        de standaard door het actief inzetten van adoptie-instrumenten of
+        ondersteunende acties. Welke kansen zijn er om de adoptie te versnellen
+        en welke drempels bestaan er die de adoptie van de standaard hinderen?
+
+        De expertgroep adviseert het OBDO om bij de opname op de lijst voor
+        ‘pas toe of leg uit’ de volgende oproepen ten aanzien van de adoptie van
+        OAS 3.0 te doen:
+            1. Oproep is dat alle partijen uit het OBDO (specifiek ook Logius,
+                veiligheidsketen en zorgsector) participeren in het Kennisplatform
+                API’s. Dat is opgezet door Geonovum in samenwerking met KvK,
+                Kadaster, VNG Realisatie en Forum Standaardisatie. Onderdeel
+                van dit kennisplatform zou een overheidsbrede API strategie zijn
+                gebaseerd op de DSO API strategie.
+                De basis voor de API strategie moet een kennisbundeling zijn uit
+                verschillende initiatieven van nauw verwante standaarden. Deze
+                kennisbundeling moet bestaan uit een nieuw te ontwikkelen profiel
+                dat toepasbaar is op een set nauw verwante standaarden. Een
+                voorbeeld is om Oauth en OAS in samenhang te beschouwen om
+                te zorgen dat de standaarden beter op elkaar worden afgestemd.
+                Een voor de hand liggende partij voor beheer is bijvoorbeeld
+                Logius. Ook het actief implementeren bij de GDI is hier onderdeel
+                van.
+            2. Oproep aan partijen die de standaard gaan gebruiken en
+                toepassen om deze ook als ‘best practice’ via de website van het
+                Forum Standaardisatie te publiceren.
+            3. Oproep aan KOOP (data.overheid.nl) dat wanneer er sprake is van
+                een dataset met een web service of een REST API het volgens
+                OAS te beschrijven. KOOP wordt door de experts beschouwd als
+                een belangrijke partij ter bevordering van het gebruik en daarom
+                wordt een specifieke oproep gedaan.
+            4. Oproep aan beheerorganisaties van standaarden, applicaties en
+                gegevenssets om bij het beschrijven van een REST API OAS toe te
+                passen. Het Bureau Forum Standaardisatie moet hier de
+                beheerorganisaties actief in stimuleren door ze hier op te wijzen.
+            5. Een oproep aan het OBDO om actief deel te nemen in de
+                ontwikkeling van de standaard.
+
+
+
+
+                                                                                     Pagina 23 van 23
+

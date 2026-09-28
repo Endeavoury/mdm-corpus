@@ -1,0 +1,224 @@
+  DAMA® Data Management Body of Knowledge (DAMA-DMBOK®) - DAMA International®             
+
+We use cookies to improve your experience on our site. Necessary cookies keep the site functional. Analytics cookies help us understand how visitors interact with the site. You can choose which cookies to allow. See our privacy policy and cookie policy for details.
+ Accept All Reject All Customize
+
+ Necessary Required for the site to function. Cannot be disabled.    
+
+ Analytics Help us understand how visitors use the site through anonymized usage data and session recordings.    
+ Save Preferences 🍪 Cookie Settings Skip to content
+
+   
+
+ Value Statement   Trusted Profession   LOGIN   JOIN NOW        
+
+   
+
+      
+
+About DAMA®
+Who We Are
+What is Data Management?
+Nominations and Elections
+Leadership & Governance
+Governance Documents
+
+Awards & Recognition
+Awards
+Lifetime Advisor Emerita
+Fellow Program
+
+Membership
+Why Join DAMA®?
+Find Your Local Chapter
+Join DAMA®/Renew Membership
+Membership FAQ
+Member Discounts & Benefits
+
+Certification
+About CDMP® Certification
+CDMP® Certification Levels
+Exam Information & Pricing
+Certification Pathway
+CDMP® Digital Badge
+CDMP® Renewal & Maintenance
+CDMP® Frequently Asked Questions
+Verify a Certification
+
+Learning & Resources
+
+Registered Education Provider Program (REP)
+List of Registered Education Providers
+DAMA® Data Management Body of Knowledge (DAMA-DMBOK®)
+DAMA-DMBOK® 3.0 Project
+DAMA® Dictionary of Data Management
+Navigating the Labyrinth (Executive Guide)
+Books Referenced in DMBoK
+
+Chapters & Community
+Find a DAMA Chapter (Map/List)
+Presidents’ Council
+Start a DAMA International® Chapter
+Chapter DAMA Days
+Pay If You Pass CDMP® Program (PIYP)
+Speaker Roster & Call for Speakers
+
+Affinity Groups
+DAMA International® Data Executives and Leaders (IDEAL)
+GenAI4DM Affinity Group
+
+Events & Conferences
+Upcoming Events (Conferences, Webinars, Workshops)
+DAMA® Global Conference Calendar
+
+Get Involved
+Committees and Working Groups
+Want to Volunteer?
+
+ 
+   Search 
+
+       
+
+ DAMA® Data Management Body of Knowledge (DAMA-DMBOK®)
+
+Home » Learning & Resources » DAMA® Data Management Body of Knowledge (DAMA-DMBOK®)
+
+ 
+
+Master the World of
+Data Management
+ The DAMA-DMBOK® is the globally recognized framework for data management. Published by DAMA International®, it gives professionals and organizations the principles, practices, and functions they need to build, scale, and govern data programs that deliver real results.
+What's New in the 2nd Edition
+Expanded data ethics coverage
+Updated content on data governance
+New insights into data integration & interoperability
+Enhanced focus on emerging technologies     Order the DAMA-DMBOK® 
+
+Available In
+
+       Italian 
+       Spanish 
+       Portuguese (BR) 
+
+       French 
+       Turkish 
+       Dutch 
+  Arabic 
+
+ 
+
+ DAMA-DMBOK® Revision is not an exhaustive inventory of everything a data professional should know, but rather a curated and structured subset of knowledge that forms the foundation of the discipline. It reflects a consensus-based view of generally accepted knowledge in data management, defining the scope and boundaries of the profession while remaining flexible enough to evolve with technological and methodological advancements.
+As businesses become increasingly data-driven, the need for a well-defined approach to managing data has never been greater. DAMA-DMBOK® helps organizations structure, govern, and optimize their data assets, ensuring alignment with business strategy, regulatory compliance, and emerging technologies such as artificial intelligence, machine learning, and cloud computing.
+
+ Why is DAMA-DMBOK® Important?
+
+DAMA-DMBOK® serves as a universal reference for data professionals, enabling organizations to establish and maintain effective, standardized data management practices across industries.
+Standardization:
+ Establishes a common language and a structured framework for data management professionals worldwide.
+ Governance & Compliance:
+ Provides guidance on data security, privacy, and regulatory adherence in an increasingly complex data landscape.
+ Strategic Alignment:
+ Helps organizations integrate data management into business objectives, ensuring data is treated as a valuable strategic asset.
+ Operational Efficiency:
+ Outlines key functions, roles, and methodologies to ensure data is effectively managed, maintained, and leveraged for business success.
+ Foundation for Certification & Education:
+ Provides the knowledge base for CDMP® certification and other educational programs, helping professionals advance their careers.
+ Adaptability & Evolution:
+ Unlike rigid standards, DAMA-DMBOK® is designed to evolve over time, reflecting new technologies, methodologies, and industry best practices.
+
+ What DAMA-DMBOK® is Not
+
+While DAMA-DMBOK® is a comprehensive guide to best practices, it is important to clarify its boundaries and intended role within the data management profession:
+Not a Prescriptive Standard:
+ DAMA-DMBOK® defines principles and best practices but does not prescribe specific tools, technologies, or methodologies. Organizations must adapt its guidance to their unique environments.
+ Not a Regulation or Compliance Mandate:
+ While it aligns with governance and compliance principles, it is not a legally binding framework but rather a reference to help organizations meet regulatory requirements.
+ Not a Technology Manual:
+ DAMA-DMBOK® is vendor-neutral and does not promote specific software, platforms, or technical implementations.
+ Not an Exhaustive Knowledge Repository:
+ It does not aim to catalog everything a data professional should know, but instead focuses on defining core competencies and best practices.
+ Not a Certification Program:
+ While DAMA-DMBOK® serves as the foundational knowledge base for the CDMP® and other certifications, it is not a certification or training program itself.
+ Not a One-Size-Fits-All Approach:
+ Organizations and professionals must interpret and apply DAMA-DMBOK®’s guidance based on their unique data challenges, industry needs, and maturity levels.
+DAMA-DMBOK® is a living, evolving guide that sets the foundation for professional knowledge in data management. It is designed to complement industry certifications, accreditation programs, and educational curricula, ensuring that data professionals stay informed, skilled, and adaptable in an ever-changing data landscape.
+
+   Creative Commons License Images 
+
+ You May Also Be Interested In…
+
+  DAMA Dictionary of Data Management 
+
+  Navigating the Labyrinth 
+
+  CDMP Professional Certification 
+
+  Registered Education Provider Training 
+
+  Books Referenced in DMBOK v2 
+
+ DAMA-DMBOK® Evergreening Project
+
+In 2024 DAMA launched the DAMA DMBOK® 2.0 Revision, which introduced . See the Frequently Asked Questions for further information.
+The DAMA-DMBOK® 3.0 project started in 2025 is an evergreening initiative aimed at modernizing the Data Management Body of Knowledge to reflect the rapidly evolving data landscape. This effort seeks to incorporate emerging disciplines while refining existing knowledge areas to align with current industry practices and technological advancements. By enhancing the framework's accessibility and usability, the project aspires to maintain its status as the authoritative guide for data management professionals worldwide. Central to this initiative is global collaboration, engaging practitioners, academics, educators, and organizations across diverse industries and regions to ensure the standard remains practical, relevant, and universally applicable.
+
+ © 2026 DAMA International®  |  Site by GrowthZone
+
+   
+
+ Membership & Community
+
+     
+
+Join DAMA - I  
+
+     
+
+Member Login 
+
+     
+
+Find a Local Chapter 
+
+     
+
+Events and Conferences 
+
+ Certification & Standards
+
+     
+
+CDMP Certification 
+
+     
+
+DAMA-DMBOK Guide 
+
+     
+
+CDMP Exam Registration 
+
+     
+
+CDMP Prep Resources 
+
+ Contact & Support
+
+     
+
+Contact Us 
+
+   
+
+info@dama.org
+
+   
+
+2512 East Evergreen Blvd #1023
+Vancouver, WA 98661-4323
+
+ © 2026 DAMA International®.  All Rights Reserved | Privacy Policy | Terms of Use | Cookie Policy | Sitemap
+
+    LinkedIn    Scroll To Top              
+

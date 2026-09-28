@@ -1,0 +1,1160 @@
+
+
+   
+
+      standaarden.overheid.nl | Downloads
+
+      
+
+      
+
+   
+
+      
+Direct naar content
+
+         
+
+            
+Menu
+
+U bent hier:standaarden.overheid.nl
+
+            
+
+         
+
+Primaire navigatie
+
+               
+
+Andere sites binnen Overheid.nl
+
+                  
+Home
+
+TOOI
+
+UPL
+
+DiWoo
+
+OWMS
+
+STOP
+
+Juriconnect
+
+DCAT
+
+Over standaarden
+               Andere sites binnen Overheid.nl
+
+         
+
+      
+
+         
+
+            
+
+               
+Berichten over uw Buurt
+
+Zoals vergunningen, bouwplannen en lokale regelgeving.
+
+                  
+Rondom uw woonadres
+
+Rondom een zelfgekozen adres
+
+            
+
+               
+Dienstverlening
+
+Zoals belastingen, uitkeringen en subsidies.
+
+                  
+Naar dienstverlening
+
+            
+
+               
+Beleid & regelgeving
+
+Officiële publicaties van de overheid.
+
+                  
+Naar beleid & regelgeving
+
+            
+
+               
+Contactgegevens overheden
+
+Adressen en contactpersonen van overheidsorganisaties.
+
+                  
+Naar overheidsorganisaties
+
+            
+
+      
+
+         
+
+            
+
+               
+U bent hier:
+
+                  
+TOOI
+
+Downloads
+
+            
+
+      
+
+         
+
+            
+
+                  
+
+TOOI
+
+Documentatie
+
+Versies
+
+TOOI-1.3.4 voor Forum
+
+TOOI-1.4.0 Release Candidate
+
+                                 
+
+                           
+
+Catalogus
+
+SPARQL-endpoint
+
+Waardelijsten
+
+Work
+
+Expression
+
+Item
+
+                                 
+
+                           
+
+Beheerplan
+
+Downloads
+
+Veelgestelde vragen
+
+Agenda
+
+3 oktober 2024
+
+14 augustus 2024
+
+6 juni 2024
+
+                           
+
+Nieuwsbrief
+
+29 juli 2026
+
+8 september 2025
+
+11 oktober 2024
+
+27 augustus 2024
+
+2 mei 2024
+
+                           
+
+                     
+
+               
+
+            
+
+               
+TOOI-Downloads
+
+De inhoud van het kennismodel van TOOI is vastgelegd in RDF, verdeeld over verschillende
+                  modules met ontologien, thesauri en registers. De data van elke module zal als RDF beschikbaar gesteld worden, zodat
+                  u de ruwe data kunt gebruiken in uw eigen toepassing. Nog niet alle modules zijn in
+                  RDF beschikbaar, maar daar wordt aan gewerkt.
+
+De meeste toepassingen zullen de inhoud van TOOI willen afnemen in de vorm van waardelijsten.
+
+Merk op dat de ongeversioneerde grafen semantisch gelijk zijn aan de laatste geversioneerde
+                  variant van de graaf.
+
+TOOI-ontologie
+
+De documentatie van de TOOI-ontologie is hier te vinden.
+
+                  
+
+                     
+
+                        
+                        Versie
+
+                        Link
+
+                        Datum
+
+                        Opmerking
+
+                     
+
+                  
+
+                     
+
+                        
+                        actueel
+
+                        tooiont.ttl
+
+                        4 juli 2025
+
+                        Ongeversioneerd
+
+                     
+
+                        
+                        v1.6.2
+
+                        tooiont-1.6.2.ttl
+
+                        4 juli 2025
+
+                        
+
+                     
+
+                        
+                        v1.6.1
+
+                        tooiont-1.6.1.ttl
+
+                        17 juni 2025
+
+                        
+
+                     
+
+                        
+                        v1.6.0
+
+                        tooiont-1.6.0.ttl
+
+                        15 mei 2025
+
+                        
+
+                     
+
+                        
+                        v1.5.0
+
+                        tooiont-1.5.0.ttl
+
+                        20 september 2024
+
+                        
+
+                     
+
+                        
+                        v1.4.1
+
+                        tooiont-1.4.1.ttl
+
+                        18 juni 2024
+
+                        
+
+                     
+
+                        
+                        v1.4.0
+
+                        tooiont-1.4.0.ttl
+
+                        14 maart 2024
+
+                        
+
+                     
+
+                        
+                        v1.3.1
+
+                        tooiont-1.3.1.ttl
+
+                        26 januari 2024
+
+                        
+
+                     
+
+                        
+                        v1.3.0
+
+                        tooiont-1.3.0.ttl
+
+                        26 oktober 2023
+
+                        
+
+                     
+
+                        
+                        v1.2.0
+
+                        tooiont-1.2.0.ttl
+
+                        27 juli 2023
+
+                        
+
+                     
+
+                        
+                        v1.1.2
+
+                        tooiont-1.1.2.ttl
+
+                        29 juni 2023
+
+                        
+
+                     
+
+                        
+                        v1.1.1
+
+                        tooiont-1.1.1.ttl
+
+                        24 april 2023
+
+                        
+
+                     
+
+                        
+                        v1.0
+
+                        tooiont_v1.0.ttl
+
+                        25 maart 2021
+
+                        Initiële versie
+
+                     
+
+               
+TOOI-geo-ontologie
+
+De documentatie van de TOOI-geo-ontologie is hier te vinden.
+
+                  
+
+                     
+
+                        
+                        Versie
+
+                        Link
+
+                        Datum
+
+                        Opmerking
+
+                     
+
+                  
+
+                     
+
+                        
+                        actueel
+
+                        tooigeo.ttl
+
+                        4 juli 2025
+
+                        Ongeversioneerd
+
+                     
+
+                        
+                        v1.0.1
+
+                        tooigeo-1.0.1.ttl
+
+                        4 juli 2025
+
+                        
+
+                     
+
+                        
+                        v1.0.0
+
+                        tooigeo-1.0.0.ttl
+
+                        18 juni 2025
+
+                        Initiële versie
+
+                     
+
+               
+TOOI-waardelijstontologie
+
+De documentatie van de TOOI-waardelijstontologie is hier te vinden.
+
+                  
+
+                     
+
+                        
+                        Versie
+
+                        Link
+
+                        Datum
+
+                        Opmerking
+
+                     
+
+                  
+
+                     
+
+                        
+                        actueel
+
+                        tooiwl.ttl
+
+                        1 juli 2026
+
+                        Ongeversioneerd
+
+                     
+
+                        
+                        v1.2.0
+
+                        tooiwl-1.2.0.ttl
+
+                        1 juli 2026
+
+                        
+
+                     
+
+                        
+                        v1.1.4
+
+                        tooiwl-1.1.4.ttl
+
+                        4 juli 2025
+
+                        
+
+                     
+
+                        
+                        v1.1.3
+
+                        tooiwl-1.1.3.ttl
+
+                        17 juni 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.2
+
+                        tooiwl-1.1.2.ttl
+
+                        12 maart 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.1
+
+                        tooiwl-1.1.1.ttl
+
+                        20 december 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.0
+
+                        tooiwl-1.1.0.ttl
+
+                        13 juni 2023
+
+                        
+
+                     
+
+                        
+                        v1.0
+
+                        tooiwl_v1.0.ttl
+
+                        25 maart 2021
+
+                        Initiële versie
+
+                     
+
+               
+Meer uitleg over de modules vindt u in de documentatie van TOOI.
+
+De documentatie van de TOOI-thesauri is hier te vinden.
+
+tooikern
+
+De documentatie van tooikern is hier te vinden.
+
+Merk op dat de inhoud van tooikern dagelijks kan veranderen. Daarom wordt tooikern niet bij elke verandering opnieuw gereleaset. De onderstaande downloads zijn dus
+                  een snapshot van de stand van zaken op de datum van publicatie van de betreffende
+                  versie.
+
+                  
+
+                     
+
+                        
+                        Versie
+
+                        Link
+
+                        Datum
+
+                        Opmerking
+
+                     
+
+                  
+
+                     
+
+                        
+                        actueel
+
+                        tooikern.ttl
+
+                        7 juli 2025
+
+                        Ongeversioneerd
+
+                     
+
+                        
+                        v1.6.0
+
+                        tooikern-1.6.0.ttl
+
+                        7 juli 2025
+
+                        
+
+                     
+
+                        
+                        v1.5.1
+
+                        tooikern-1.5.1.ttl
+
+                        17 juni 2025
+
+                        
+
+                     
+
+                        
+                        v1.5.0
+
+                        tooikern-1.5.0.ttl
+
+                        15 mei 2025
+
+                        
+
+                     
+
+                        
+                        v1.4.2
+
+                        tooikern-1.4.2.ttl
+
+                        20 juni 2024
+
+                        
+
+                     
+
+                        
+                        v1.4.1
+
+                        tooikern-1.4.1.ttl
+
+                        6 maart 2024
+
+                        
+
+                     
+
+                        
+                        v1.4.0
+
+                        tooikern-1.4.0.ttl
+
+                        22 januari 2024
+
+                        
+
+                     
+
+                        
+                        v1.0.1
+
+                        tooikern-1.0.1.ttl
+
+                        1 juni 2023
+
+                        
+
+                     
+
+                        
+                        v1.0
+
+                        tooikern_v1.0.ttl
+
+                        1 april 2021
+
+                        Initiële versie
+
+                     
+
+               
+tooixtrn
+
+De documentatie van tooixtrn is hier te vinden.
+
+                  
+
+                     
+
+                        
+                        Versie
+
+                        Link
+
+                        Datum
+
+                        Opmerking
+
+                     
+
+                  
+
+                     
+
+                        
+                        actueel
+
+                        tooixtrn.ttl
+
+                        2 juli 2025
+
+                        Ongeversioneerd
+
+                     
+
+                        
+                        v1.1.3
+
+                        tooixtrn-1.1.3.ttl
+
+                        2 juli 2025
+
+                        
+
+                     
+
+                        
+                        v1.1.2
+
+                        tooixtrn-1.1.2.ttl
+
+                        26 juni 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.1
+
+                        tooixtrn-1.1.1.ttl
+
+                        11 maart 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.0
+
+                        tooixtrn-1.1.0.ttl
+
+                        29 januari 2024
+
+                        
+
+                     
+
+                        
+                        v1.0.1
+
+                        tooixtrn-1.0.1.ttl
+
+                        20 juni 2023
+
+                        
+
+                     
+
+                        
+                        v1.0
+
+                        tooixtrn_v1.0.ttl
+
+                        1 april 2021
+
+                        Initiële versie
+
+                     
+
+               
+tooitop
+
+De documentatie van tooitop is hier te vinden.
+
+                  
+
+                     
+
+                        
+                        Versie
+
+                        Link
+
+                        Datum
+
+                        Opmerking
+
+                     
+
+                  
+
+                     
+
+                        
+                        actueel
+
+                        tooitop.ttl
+
+                        2 juli 2025
+
+                        Ongeversioneerd
+
+                     
+
+                        
+                        v1.1.5
+
+                        tooitop-1.1.5.ttl
+
+                        2 juli 2025
+
+                        
+
+                     
+
+                        
+                        v1.1.4
+
+                        tooitop-1.1.4.ttl
+
+                        20 juni 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.3
+
+                        tooitop-1.1.3.ttl
+
+                        11 maart 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.2
+
+                        tooitop-1.1.2.ttl
+
+                        29 januari 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.1
+
+                        tooitop-1.1.1.ttl
+
+                        19 juni 2023
+
+                        
+
+                     
+
+                        
+                        v1.1
+
+                        tooitop_v1.1.ttl
+
+                        1 april 2021
+
+                        30 januari 2020 - Suggesties SDU verwerkt; vastgesteld door Redactieraad BWB
+
+                     
+
+                        
+                        v1.0
+
+                        tooitop_v1.0.ttl
+
+                        1 april 2021
+
+                        Initiële versie
+
+                     
+
+               
+tooiwep
+
+De documentatie van tooiwep is hier te vinden.
+
+                  
+
+                     
+
+                        
+                        Versie
+
+                        Link
+
+                        Datum
+
+                        Opmerking
+
+                     
+
+                  
+
+                     
+
+                        
+                        actueel
+
+                        tooiwep.ttl
+
+                        30 juni 2025
+
+                        Ongeversioneerd
+
+                     
+
+                        
+                        v1.2.4
+
+                        tooiwep-1.2.4.ttl
+
+                        30 juni 2025
+
+                        
+
+                     
+
+                        
+                        v1.2.3
+
+                        tooiwep-1.2.3.ttl
+
+                        26 juni 2024
+
+                        
+
+                     
+
+                        
+                        v1.2.2
+
+                        tooiwep-1.2.2.ttl
+
+                        11 maart 2024
+
+                        
+
+                     
+
+                        
+                        v1.2.1
+
+                        tooiwep-1.2.1.ttl
+
+                        29 januari 2024
+
+                        
+
+                     
+
+                        
+                        v1.1.1
+
+                        tooiwep-1.1.1.ttl
+
+                        20 juni 2023
+
+                        
+
+                     
+
+                        
+                        v1.1
+
+                        tooiwep_v1.0.ttl
+
+                        1 april 2021
+
+                        Volgorde rubrieken mbv sh:order; plansoort afwijkvergunning verwijderd
+
+                     
+
+                        
+                        v1.0
+
+                        tooiwep_v1.0.ttl
+
+                        1 april 2021
+
+                        Initiële versie
+
+                     
+
+               
+tooibwb
+
+De documentatie van tooibwb is hier te vinden.
+
+                  
+
+                     
+
+                        
+                        Versie
+
+                        Link
+
+                        Datum
+
+                        Opmerking
+
+                     
+
+                  
+
+                     
+
+                        
+                        actueel
+
+                        tooibwb.ttl
+
+                        1 juli 2025
+
+                        Ongeversioneerd
+
+                     
+
+                        
+                        v1.0.5
+
+                        tooibwb-1.0.5.ttl
+
+                        1 juli 2025
+
+                        
+
+                     
+
+                        
+                        v1.0.4
+
+                        tooibwb-1.0.4.ttl
+
+                        18 juni 2024
+
+                        
+
+                     
+
+                        
+                        v1.0.3
+
+                        tooibwb-1.0.3.ttl
+
+                        5 maart 2024
+
+                        
+
+                     
+
+                        
+                        v1.0.2
+
+                        tooibwb-1.0.2.ttl
+
+                        18 januari 2024
+
+                        
+
+                     
+
+                        
+                        v1.0.1
+
+                        tooibwb-1.0.1.ttl
+
+                        19 juni 2023
+
+                        
+
+                     
+
+                        
+                        v1.0
+
+                        tooibwb_v1.0.ttl
+
+                        1 april 2021
+
+                        Initiële versie
+
+                     
+
+            
+
+      
+
+         
+
+            
+
+               
+
+                  
+
+Over deze website
+
+Contact
+
+English
+
+Help
+
+Zoeken
+
+               
+
+                  
+
+Informatie hergebruiken
+
+Privacy en cookies
+
+Toegankelijkheid
+
+Sitemap
+
+Kwetsbaarheid melden
+
+               
+
+                  
+
+Open data
+
+Linked Data Overheid
+
+PUC Open Data
+
+               
+
+                  
+
+MijnOverheid.nl
+
+Rijksoverheid.nl
+
+Ondernemersplein
+
+Werkenbijdeoverheid.nl
+
+               
+
+         
+
+   

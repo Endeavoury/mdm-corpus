@@ -1,0 +1,95 @@
+                                                                 Forum Standaardisatie
+
+                                                                 Wilhelmina v Pruisenweg 104
+                                                                 2595 AN Den Haag
+                                                                 Postbus 84011
+                                                                 2508 AA Den Haag
+                                                                 www.forumstandaardisatie.nl
+
+
+
+
+Aan:        Forum Standaardisatie
+Van:        Bureau Forum Standaardisatie
+Datum:      15-10-2014                           Versie   1.0
+Betreft:    Overzicht reacties consultatieronde geo-
+            standaarden
+Bijlagen:   - Reactie Esri Nederland
+
+
+
+
+                                                                Pagina 1 van 3
+Reactie Esri Nederland                                                                  Datum
+                                                                                        15 oktober 2014
+
+
+
+Van: Marcel de Rink [ ]
+Verzonden: vrijdag 22 augustus 2014 17:39
+Aan: Rick van Rooijen
+Onderwerp: RE: Consultatie geo-standaarden
+
+Beste heer van Rooijen,
+
+Excuses voor het niet eerder kunnen beantwoorden van de email. Ik (en collega’s)
+heb de stukken zeker gelezen (ik heb de eerdere profiel vanuit Ravi namelijk ook
+zelf opgesteld) en ik heb achteraf nog wel de volgende opmerkingen. We hebben
+dit niet eerder gedaan, omdat we ten tijde van de vaststelling van deze profielen al
+in geruime mate ondersteund hebben en deze dus afgestemd zijn.
+
+De vraag richt zich daarom meer op de context. Deze versies van de metadata
+profielen worden al een aantal jaren toegepast. De onderstaande punten geven de
+context weer:
+    - versie 1.3 van het Nederlandse metadataprofiel voor geografie stamt uit
+      juli 2011. Indertijd hebben veel organisaties (waaronder Esri)
+      deelgenomen in het vormgeven van dit profiel,
+    - versie 1.2 van het Nederlandse metadataprofiel voor services stamt uit
+      september 2011. Ook hier heeft een goede discussie plaats gevonden.
+      Er is echter ook een nieuwere versie beschikbaar (1.2.1) die hier dus
+      niet meegenomen is,
+    - De status van beide profielen bij Geonovum is “faseert uit”,
+
+    1. Wat is de reden om een standaard met de status “faseert uit” op de “pas
+       toe of leg uit” lijst te zetten?
+    2. Waarom is de meest recente versie van het profiel voor metadata voor
+       services (versie 1.2.1.) niet meegenomen?
+
+Bovenstaande vind ik erg verwarrend en geen garantie voor duurzaamheid (in
+interoperabiliteit). Ik denk dat het wenselijk is om doelstellingen te benoemen waar
+deze profielen heen ontwikkelen voor een goede duurzame inbedding van de
+standaarden in organisaties en software. Personen die niet veel bij standaarden
+betrokken zijn, zullen dit denk ik niet snappen. Ik zou namelijk al groot voorstander
+geweest zijn om dit uit te voeren in oktober 2011. Waarom nu pas in 2014?
+
+Indien u hierover telefonisch contact wilt hebben is dit tevens prima. Goed
+weekend.
+
+Met vriendelijke groet,
+
+Marcel de Rink
+business consultant/accountmanager
+Rijksoverheid
+                                                                  Understanding our world.
+T: [ ]
+M: [ ]
+E: [ ]
+
+
+                                                                                        Pagina 2 van 3
+   ArcGIS in Nederland                            @esrinederland              Datum
+                                                                              15 oktober 2014
+
+disclaimer                                                                    esri.nl
+
+
+
+
+Verschillende datasets en ready-to-use services in ArcGIS. Meer informatie:
+www.esri.nl/arcgis-content
+
+
+
+
+                                                                              Pagina 3 van 3
+

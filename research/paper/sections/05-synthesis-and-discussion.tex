@@ -1,0 +1,73 @@
+\section{Synthese: een conceptueel overzicht van de literatuur}
+De hoofdbevinding is een onderscheid tussen gegevens, representaties, beheer en gebruik. Masterdata organiseren herbruikbare beschrijvingen van relevante entiteiten; identity management ondersteunt verwijzing; kwaliteit adresseert geschiktheid; governance regelt verantwoordelijkheden; metadata en semantiek ondersteunen interpretatie; product- en distributiemechanismen organiseren het aanbod. Deze relaties vormen een eigen synthese van de besproken bronnen en geen nieuwe implementatiearchitectuur. \parencite{L20,L19,L07,S08,S47,L12}\claim{RC62}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[node distance=7mm,box/.style={draw,rounded corners,align=center,text width=11.4cm,minimum height=10mm,font=\small},flow/.style={-{Latex},thick}]
+\node[box,fill=black!4] (a) {Institutionele context en governance\\doel, bevoegdheid, verantwoordelijkheid en gebruik};
+\node[box,below=of a] (b) {Betekenis en representatie\\termen, definities, concepten, ontologieën, modellen en metadata};
+\node[box,below=of b] (c) {Gegevensbeheer en lifecycle\\identiteit, records, matching, kwaliteit, historie en herkomst};
+\node[box,below=of c] (d) {Aanbod en consumptie\\datasets, dataproducten, interfaces, events, applicaties en AI};
+\draw[flow] (a)--(b);\draw[flow] (b)--(c);\draw[flow] (c)--(d);
+\draw[flow] (d.east)--++(.6,0)|-(a.east);
+\end{tikzpicture}
+\caption{Synthesemodel van de literatuur. De pijlen staan voor analytische afhankelijkheden en terugkoppeling; niet voor verplichte componenten of een gevalideerde architectuur.}
+\end{figure}
+
+Drie gevolgtrekkingen zijn centraal. Ten eerste kunnen dezelfde gegevens verschillende rollen hebben: een masterdatarecord kan deel uitmaken van een dataset en via een dataproduct worden aangeboden. Ten tweede zijn verschillende vormen van correctheid te onderscheiden: een schema kan geldig zijn terwijl een referentkoppeling onjuist is. Ten derde moet centrale of federatieve inrichting over meerdere assen worden beoordeeld; plaatsing van data bepaalt niet automatisch gezag of betekenis. Deze gevolgtrekkingen ordenen het corpus zonder één technologie als noodzakelijk te verklaren. \parencite{S47,L12,L22,S32,L24}\claim{RC63}
+
+\subsection{Gedeelde accenten en controverses}
+In meerdere geselecteerde bronnen keren organisatiebrede afstemming, gegevenskwaliteit en verantwoordelijkheid terug. Dat ondersteunt een voorzichtige convergentieclaim binnen dit corpus, geen statistisch vastgestelde consensus van het vakgebied. Op het niveau van definities, patronen en roltermen blijft variatie bestaan. Die variatie kan ontstaan door een ander toepassingsdomein, een ander beschouwingsniveau of een andere publicatiedoelstelling. \parencite{L05,L07,L20,P01}\claim{RC64}
+
+Vier spanningen verdienen nadere analyse: uniforme voorkeurswaarden versus legitieme contextverschillen; centrale coördinatie versus domeinautonomie; expliciete semantiek versus modelleer- en onderhoudsinspanning; en kwaliteitscertificering versus feitelijke bruikbaarheid voor een specifieke afnemer. Dit zijn door de synthese geformuleerde spanningsvelden. De paper claimt niet dat de bronnen hierover een georganiseerd debat met twee vaste kampen vormen. \parencite{L19,L20,L23,L13}\claim{RC65}
+
+\section{Research Gaps en open vragen}
+Een hiaat in de lokale verzameling is niet hetzelfde als een wetenschappelijke lacune. De volgende agenda onderscheidt vragen die inhoudelijk uit vergelijking volgen van vragen waarvoor vooral extra bronverwerving nodig is. Alle lacuneclaims blijven voorlopig: zij moeten worden ingeperkt wanneer aanvullend werk het vermeende tekort al adresseert.
+
+\begin{longtable}{@{}P{.08\linewidth}P{.37\linewidth}P{.47\linewidth}@{}}
+\toprule ID & Open vraag & Type en onderbouwing \\\midrule\endfirsthead
+\toprule ID & Open vraag & Type en onderbouwing \\\midrule\endhead
+RG01 & Hoe zijn capability-taxonomieën vergelijkbaar zonder bronverschillen te verliezen? & Synthesevraag door uiteenlopende granulariteit in \textcite{L20,L05,P01}; geen bewezen afwezigheid van alle mappings. \\
+RG02 & Wanneer levert expliciete semantische formalisering extra waarde boven goed begrips- en metadatabeheer? & Conditionele effectvraag; vroege semantische MDM en kennisgraafliteratuur selecteren geen universeel optimale diepte. \parencite{L18,L13} \\
+RG03 & Hoe verhouden MDM-patronen en federatieve governance zich onder gelijke taak- en kostendefinities? & Vergelijkingsvraag; labels en abstractieniveaus verschillen. \parencite{L20,L23,L24} \\
+RG04 & Hoe worden identiteit, provenance en institutioneel gezag gezamenlijk geïnterpreteerd? & Integratievraag tussen verschillende constructies; nog geen aangetoond wereldwijd ontbreken van oplossingen. \parencite{L21,S33,S25} \\
+RG05 & Welke tijds- en mappinginformatie blijft behouden bij bron- en modelwijzigingen? & Contextgebonden integratievraag vanuit temporele begrippen en metadatamodellen. \parencite{L14,S08,S13} \\
+RG06 & Welke effecten heeft contextmetadata bij AI-consumptie van masterdata? & Empirische vervolgbehoefte; RAG- en xLP-resultaten zijn niet zonder meer overdraagbaar. \parencite{L16,L31} \\
+RG07 & Wat schrijven volledige toepasselijke ISO/NEN-teksten precies voor? & Toegangslacune van deze review; geen inhoudelijke tekortkoming van de normen. \\
+RG08 & Hoe volledig zijn de dekking van FDS, semantic layers, data contracts en AI-agents? & Corpuslacune; gerichte uitbreiding en primaire passagecontrole nodig. \\
+\bottomrule
+\end{longtable}
+Deze agenda draagt claim RC66: zij identificeert onderzoeksvragen en bewijsgrenzen, niet acht reeds bewezen nieuwe research gaps.\claim{RC66}
+
+\section{Discussie}
+\subsection{Theoretische bijdrage en alternatieve interpretaties}
+De bijdrage is een brongebonden ordening die concepten, capabilities en standaardfuncties verbindt. De paper ontwerpt geen nieuw MDM-product en pretendeert geen nieuwe algemene MDM-theorie. Haar bruikbaarheid ligt in het voorkomen van ongedocumenteerde gelijkstellingen: een identifier wordt geen bewijs van identiteit, een kwaliteitsregel geen waarheidsgarantie en een dataproduct geen nieuw authentiek register.
+
+Een alternatieve lezing is dat de besproken ontwikkelingen vooral bestaande disciplines hernoemen. De aanwezigheid van productdenken en business semantics in vroege MDM-literatuur ondersteunt dat tegenargument gedeeltelijk. Een andere lezing is dat nieuwe technologie de uitvoerbaarheid en schaal van bestaande ideeën verandert. De knowledge graph- en RAG-literatuur maakt technische variatie aannemelijk, maar de huidige review bepaalt niet hoeveel daarvan werkelijk additionele MDM-waarde oplevert. Beide verklaringen blijven dus mogelijk, afhankelijk van de afgebakende capability en context. \parencite{L20,L18,L13,L16}\claim{RC67}
+
+Een derde verklaring voor integratieproblemen is onvoldoende governance of gebrekkige uitvoering van reeds beschikbare standaarden. Dan is een nieuw vocabulaire niet de primaire oplossing. Omgekeerd kunnen bestaande modellen onvoldoende expliciete verbindingen bieden voor een specifieke taak. De analyse moet daarom onderscheid maken tussen ontbrekende specificatie, ontbrekende toepassing, onjuiste mapping en onvoldoende empirisch bewijs. De huidige synthese biedt categorieën voor dat onderscheid, geen algemene diagnose van de Nederlandse overheid. \parencite{L07,S14,S08}\claim{RC68}
+
+\subsection{Praktische betekenis}
+Voor organisaties biedt de review een manier om vragen te ordenen voordat een platform of patroon wordt gekozen: welke entiteiten zijn relevant, welke betekenisverschillen zijn legitiem, wie mag beslissen, welke uitkomsten gelden als kwaliteit en welke representaties moeten worden verbonden? Het antwoord kan verschillende combinaties van organisatorische maatregelen en technische voorzieningen opleveren. Een capability-taxonomie hoort daarmee een gesprek en analyse te ondersteunen, niet automatisch een maximaal pakket aan productfuncties te legitimeren.
+
+Voor de Nederlandse context is vooral het onderscheid tussen bronverantwoordelijkheid, publicatieverantwoordelijkheid en afgeleid gebruik relevant. Een dataset of product kan informatie bundelen zonder de status van de onderliggende registraties te vervangen. Dat is een analytische toepassing van de besproken begripsgrenzen, geen juridisch oordeel over een specifieke verwerking. \parencite{S25,S47,S51}
+
+\section{Beperkingen en threats to validity}
+\textbf{Selectie en dekking.} Het corpus begon met een ontwerpgerichte selectie en is via gerichte webzoekacties uitgebreid. Selectiebias, beschikbaarheidsbias, zoekmachinerangorde en taalkeuze kunnen de synthese beïnvloeden. De studie heeft geen databasebrede dekking of theoretische verzadiging vastgesteld. Extra downloads verminderen deze beperkingen niet automatisch.
+
+\textbf{Bronkwaliteit en onafhankelijkheid.} Boeken, normen, academische studies, preprints en leveranciersdocumenten ondersteunen verschillende claimtypen. Leveranciersliteratuur is herkenbaar gescheiden, maar vormt voor sommige technische functies een belangrijke bron. Voor die functies ontbreekt soms onafhankelijke vergelijkende onderbouwing. Meerdere bronnen kunnen hetzelfde werk herhalen; documentaantallen mogen daarom niet als onafhankelijk bewijs worden opgeteld.
+
+\textbf{Constructvaliditeit.} De eigen capability-clusters en begripsafbakening kunnen auteursverschillen oversimplificeren. De taxonomie is niet door onafhankelijke beoordelaars gevalideerd. Een expliciete rolvergelijking vermindert terminologische ambiguïteit in de paper, maar bewijst niet dat de voorgestelde categorieën in elke organisatie passend zijn.
+
+\textbf{Toegang en versie.} Officiële catalogi geven geen toegang tot alle norminhoud. Sommige auteursversies bevatten afwijkende jaaraanduidingen of voorlopige publicatiegegevens. De bibliografie vermeldt daarom de gebruikte representatie. Webpagina's en lijststatussen zijn tijdgebonden; de peildatum is geen permanente garantie van actualiteit.
+
+\textbf{Interpretatie en AI-ondersteuning.} Tekstextractie kan tabellen, accenten of paginagrenzen verkeerd weergeven. De AI-ondersteunde analyse kan relaties te snel generaliseren of tegenbewijs missen. Het passage- en claims-register biedt een auditspoor, maar externe vakinhoudelijke controle en waar nodig juridisch-inhoudelijke beoordeling blijven nodig.
+
+\textbf{Externe geldigheid.} Er is geen onderzoek uitgevoerd naar een organisatiepopulatie, een werkende stelselketen of consumentprestaties. Conclusies betreffen de gelezen bronnen. De paper kan geen kostenbesparing, kwaliteitswinst, adoptiegraad of verbeterde AI-interpretatie voor een praktijkcontext vaststellen.
+
+\section{Conclusie}
+Binnen het onderzochte corpus verschijnt MDM als een combinatie van entiteitsgericht gegevensbeheer, organisatorische verantwoordelijkheid en technische ondersteuning. Masterdata, referentiedata, metadata, datasets en dataproducten beschrijven verschillende aspecten en kunnen in één aanbod samenkomen. Architectuurpatronen verschillen niet alleen in plaatsing van gegevens, maar ook in schrijfverantwoordelijkheid en afstemming.
+
+De bronvergelijking rechtvaardigt geen algemene claim dat semantiek of productdenken ontbreekt in eerdere MDM-benaderingen. Beide komen al in vroege bronnen voor. De betekenis van nieuwe ontwikkelingen moet daarom worden onderzocht op het niveau van concrete mechanismen, toepassingsvoorwaarden en aantoonbare resultaten. Standaarden verdelen verantwoordelijkheden over terminologie, modellen, metadata, kwaliteit, provenance, aanbod en distributie; hun combinatie vraagt expliciete interpretatie zonder dat daaruit vanzelf een nieuwe architectuur volgt.
+
+De wetenschappelijke opbrengst van deze versie is een controleerbare conceptuele synthese en een begrensde onderzoeksagenda. Verdere corpusuitbreiding, onafhankelijke beoordeling en waar passend empirisch onderzoek moeten vaststellen welke verbindingen praktisch waardevol zijn en waar bestaande kennis al voldoende is. Een prototype vormt geen grondslag voor deze conclusies en is in deze onderzoeksfase niet onderzocht.

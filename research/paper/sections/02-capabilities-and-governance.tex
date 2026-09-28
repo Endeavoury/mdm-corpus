@@ -1,0 +1,89 @@
+\section{MDM-capabilities en lifecycle}
+Een capability wordt hier opgevat als een vermogen om een terugkerende beheertaak uit te voeren. Dat vermogen kan mensen, afspraken en software omvatten. De term wordt gebruikt om bronnen vergelijkbaar te maken, niet om te suggereren dat iedere auteur dezelfde taxonomie hanteert. Otto en Ofner beschrijven requirements op strategisch en functioneel niveau; het MDQM-referentiemodel organiseert systeemfuncties; de IBM-publicatie beschrijft implementatie- en modelleeractiviteiten. Hun granulariteit verschilt. \parencite{L20,L05,P01}\claim{RC09}
+
+De onderstaande taxonomie groepeert brononderbouwde functies. Zij is niet gerangschikt naar volwassenheid en bevat geen universele aanschaflijst. Brede labels als observability en data product management zijn herkenbaar als hedendaagse ordening van eerder beschreven taken, niet als bewijs dat die taken pas recent ontstonden.
+
+\begin{longtable}{@{}P{.19\linewidth}P{.43\linewidth}P{.30\linewidth}@{}}
+\caption{Capability-taxonomie als synthese, met bron- en reikwijdtegrenzen.}\label{tab:capabilities}\\
+\toprule Cluster & Functies & Bronbasis en begrenzing \\\midrule\endfirsthead
+\toprule Cluster & Functies & Bronbasis en begrenzing \\\midrule\endhead
+Governance & Eigenaarschap, stewardship, escalatie, workflow en goedkeuring. & \textcite{L20,L07}; rol- en besluitrechten zijn organisatieafhankelijk. \\
+Identiteit & Identifierbeheer, entity resolution, matching en deduplicatie. & \textcite{L21,L29,S38}; een identifier is geen matchingalgoritme. \\
+Consolidatie & Survivorship, samenvoeging, herstel van onjuiste samenvoeging en verrijking. & \textcite{P01,L22}; herstel als analytische foutafhandeling, niet overal gelijk benoemd. \\
+Structuur & Hiërarchieën, relaties, reference data en datamodellering. & \textcite{P01,L19,S13}; technisch en domeininhoudelijk beheer onderscheiden. \\
+Kwaliteit & Profilering, business rules, validatie en kwaliteitsmeting. & \textcite{L19,S32,S34}; formele geldigheid is slechts één kwaliteitsaspect. \\
+Betekenis & Metadata management, begripsbeheer en semantische mappings. & \textcite{S08,S14,L18}; formalisering is een mogelijke uitwerking. \\
+Verandering & Versioning, history, provenance en lineage. & \textcite{L14,S33,L20}; verschillende tijd- en herkomstvragen. \\
+Beveiliging & Security, access control en rolgebonden toegang. & \textcite{L20,S21}; standaardscope bepaalt welk deel wordt ondersteund. \\
+Distributie & Publicatie, synchronisatie, API management en eventing. & \textcite{P02,S19,S22}; interfaces zijn geen volledige governance. \\
+Gebruiksbeheer & Gebruiksmonitoring, auditinformatie en productbeschrijving. & \textcite{L20,S51}; geen generiek gevalideerd observabilitymodel afgeleid. \\
+\bottomrule
+\end{longtable}
+
+Het lifecyclepad identificeren, registreren, valideren, matchen, consolideren, verrijken, goedkeuren, publiceren, distribueren, wijzigen, historiseren en archiveren/verwijderen dient als analysekader. Niet iedere bron schrijft deze volgorde voor. Matching kan bijvoorbeeld vóór registratie in een hub gebeuren, of later tijdens herstel. Beheer is cyclisch waar correcties nieuwe validatie, publicatie en beoordeling vereisen. Dat is een procesmatige synthese van de beschreven activiteiten, geen nieuw normatief lifecyclemodel. \parencite{L20,P01,P02}\claim{RC10}
+
+\begin{longtable}{@{}P{.21\linewidth}P{.31\linewidth}P{.40\linewidth}@{}}
+\toprule Fasegroep & Verantwoordelijkheidsvraag & Te onderzoeken metadata, kwaliteit en ondersteuning \\\midrule
+Identificeren/\allowbreak registreren & Wie bepaalt welke referent en bron worden bedoeld? & Identifiers, broncontext en registratievoorwaarden; invoer- en validatiefuncties. \\
+Valideren/\allowbreak matchen & Wie stelt regels en beslisdrempels vast? & Regelversie, matchbewijs en foutcategorieën; algoritme en menselijke beoordeling. \\
+Consolideren/\allowbreak verrijken & Wie mag voorkeurswaarden of relaties vaststellen? & Selectieregels, herkomst en onzekerheid; survivorship en herstelmogelijkheid. \\
+Goedkeuren/\allowbreak publiceren & Wie neemt het vrijgavebesluit? & Besluit, versie, doelgroep en beperkingen; workflow en publicatiecontract. \\
+Distribueren/\allowbreak wijzigen & Wie ontvangt welke verandering? & Interface, wijzigingstype en afhankelijkheden; synchronisatie en notificatie. \\
+Historiseren/\allowbreak afsluiten & Welke toestand moet behouden of verwijderd worden? & Tijdassen, bewaarbeleid en aantoonbare intrekking; historie- en archieffuncties. \\
+\bottomrule
+\end{longtable}
+Deze fasevragen zijn eigen vergelijkingsvragen voor corpusanalyse. Zij mogen niet als empirisch aangetoonde standaardwerkwijze van alle MDM-organisaties worden gelezen.
+
+\section{Bestaande MDM-architectuurpatronen}
+Architectuurtermen zijn niet consistent tussen bronnen. Otto en Ofner onderscheiden central system, leading system, repository en peer-to-peer. De IBM-modelleerpublicatie noemt external reference, registry, coexistence en centralized. Deze namen classificeren deels andere eigenschappen: locatie van gegevens, aanwijzing van een leidend systeem en organisatie van synchronisatie. Een namenlijst alleen levert daarom geen betrouwbare patroonmapping. \parencite{L20,P01}\claim{RC11}
+
+\begin{longtable}{@{}P{.17\linewidth}P{.33\linewidth}P{.42\linewidth}@{}}
+\caption{Vergelijking op schrijfverantwoordelijkheid en gegevensplaatsing; geen universele patroonstandaard.}\\
+\toprule Patroonlabel & Kern van de beschrijving & Afweging en begrenzing \\\midrule\endfirsthead
+\toprule Patroonlabel & Kern van de beschrijving & Afweging en begrenzing \\\midrule\endhead
+Registry & Verwijzingen en identiteitskoppelingen; gegevens blijven in bronsystemen. & Beperkt kopiëren; beantwoording kan bronbeschikbaarheid en resolutie vragen. Virtuele deduplicatie verwijdert bronduplicaten niet. \\
+Consolidation & Samenbrengen voor een geïntegreerde representatie of analyse. & Een uniforme afnamevorm is mogelijk; terugkoppeling naar bronnen volgt niet automatisch. \\
+Coexistence & Gegevens bestaan zowel lokaal als in een hub; synchronisatie is nodig. & De IBM-bron laat bronnen als primair gelden. De term alleen bewijst dus geen tweezijdig schrijfgezag. \\
+Centralized / transactional & Onderhoud van masterdata verschuift naar een leidende centrale voorziening. & Gecoördineerde mutatie; organisatorische overdracht van beheer moet worden geregeld. ``Transactional'' betreft hier masterdatamutaties. \\
+Federated / peer-to-peer & Beheer en afstemming over meerdere organisatorische of technische eenheden. & Lokale autonomie en gezamenlijke afspraken moeten worden onderscheiden; peer-to-peer is niet vanzelf een volledig federatief governancemodel. \\
+\bottomrule
+\end{longtable}
+De beschrijvingen zijn gebaseerd op \textcite{P01,L20,L23}; de aangegeven gevolgen zijn architectuurinterpretaties, geen gemeten rangorde. De specifieke betekenis van coexistence in de IBM-bron is een voorbeeld van waarom brongebonden definities behouden moeten blijven.
+
+Voor een vergelijking zijn minstens acht assen relevant: doel, gegevensplaatsing, write authority, eigenaarschap, synchronisatiemechanisme, zichtbaarheidsvertraging, distributie en betekenisafstemming. Een patroonlabel bepaalt geen consistency model in formele zin. Evenmin volgen latency of schaalbaarheid uit het woord ``federatief''. Zulke eigenschappen vereisen een concrete implementatie, werkbelasting en meetdefinitie. De huidige bronnen maken een algemeen prestatieranglijstje niet mogelijk. \parencite{P01,P02,L24}\claim{RC12}
+
+\section{Identity en Entity Resolution}
+Entity resolution onderzoekt of verschillende records naar dezelfde referent verwijzen. Getoor en Machanavajjhala plaatsen deze vraag op het raakvlak van onder meer databases, machine learning en informatieontsluiting. Een vergelijking van tekens is daarbij slechts een mogelijke stap. Blocking beperkt kandidaten, matching beoordeelt overeenkomsten en een daaropvolgend besluit bepaalt welke koppeling of clustering wordt aanvaard. \parencite{L21,L29,L30}\claim{RC13}
+
+Een identifier werkt binnen een gekozen naamgevings- en uitgiftecontext. URI/IRI-specificaties en publicatieadviezen regelen aspecten van identificatie en verwijzing, maar beslissen niet of twee administratieve registraties dezelfde domeinentiteit bedoelen. Daarom moeten identifiergelijkheid, recordgelijkheid en referentidentiteit afzonderlijk worden geanalyseerd. De juridische of institutionele betekenis van de referent kan bovendien per domein verschillen. \parencite{S38,S39,L08}\claim{RC14}
+
+Survivorship betreft de keuze van te gebruiken waarden wanneer bronnen verschillen. Een matchbesluit zegt nog niet welke waarde voor welk doel moet gelden. Evenzo kan een samenvoeging achteraf onjuist blijken. Een split kan een correctie van een cluster zijn, maar in een domein ook een verandering van het object zelf beschrijven. Deze twee betekenissen zijn analytisch te onderscheiden; een productfunctie met de naam ``split'' zegt niet welke ervan wordt ondersteund. \parencite{P01,L22,L08}\claim{RC15}
+
+De keuze van evaluatiemaatstaf is inhoudelijk relevant. Menestrina et al. laten zien dat entity-resolutionmaten dezelfde uitkomsten verschillend kunnen rangschikken. Pairwise- en clustermaatstaven beschrijven niet noodzakelijk dezelfde foutkosten. Voor publieke toepassingen kan een onterechte samenvoeging andere gevolgen hebben dan een gemiste koppeling; die asymmetrie is een te expliciteren toepassingskeuze, geen in deze paper gemeten overheidsuitkomst. \parencite{L22}\claim{RC16}
+
+\section{Data Quality}
+Datakwaliteit omvat meer dan juistheid van afzonderlijke waarden. Het consumentenperspectief van Wang en Strong en de vergelijking van kwaliteitsdimensies bij Gualo et al. maken duidelijk dat verschillende doelen en contexten verschillende beoordelingsaspecten vragen. Gualo et al. ontwikkelen een model met standaardaanknopingspunten en demonstreren toepassing in een repositorycasus. Hun studie ondersteunt het bestaan van een operationalisering; zij bewijst geen universele geschiktheid voor ieder MDM-domein. \parencite{L15,L19}\claim{RC17}
+
+In deze analyse wordt validiteit gebruikt voor voldoen aan een gekozen regel of domein, volledigheid voor dekking van vereiste gegevens, consistentie voor het ontbreken van relevante tegenstrijdigheden, actualiteit voor temporele bruikbaarheid en juistheid voor overeenkomst met de bedoelde werkelijkheid of gezaghebbende beoordelingsgrond. Deze beknopte omschrijvingen zijn vergelijkingsconventies. Zij vervangen niet de afzonderlijke definities in ISO/IEC 25012 of andere bronnen. \parencite{S12,L19}\claim{RC18}
+
+ISO 8000 behandelt onder meer masterdata-uitwisseling en semantische codering. ISO/IEC 25012 positioneert een datakwaliteitsmodel, terwijl DQV een vocabulaire biedt om kwaliteitsmetingen en context te beschrijven. SHACL ondersteunt controle van een datagraaf tegen vastgelegde shapes. Deze functies vullen elkaar aan, maar een geslaagde shapevalidatie toont niet dat een adres, identiteit of bevoegdheidsclaim feitelijk correct is. Dat laatste is een analytische gevolgtrekking uit de verschillende toetsobjecten. \parencite{S02,S03,S12,S32,S34}\claim{RC19}
+
+De studie van Gualo et al. verwijst ook naar ISO/IEC 25024. Dit is een gemotiveerde uitbreidingsroute voor nader onderzoek naar meting, geen in deze paper onafhankelijk gelezen norm. Over de conformiteit met dat document worden daarom geen eigen uitspraken gedaan. Dezelfde terughoudendheid geldt wanneer een academische bron een normtitel of deelnummer onnauwkeurig weergeeft: het artikel vervangt dan niet de officiële normregistratie. \parencite{L19}
+
+\section{Governance en Stewardship}
+De officiële DAMA-DMBOK-pagina documenteert de herziene editie van dit professionele kenniswerk. Omdat de volledige boektekst niet is geraadpleegd, gebruikt deze paper DAMA-DMBOK niet als bewijs voor een uitputtende capability- of rol-taxonomie. Die beperking onderscheidt het professionele referentiekader van de inhoudelijk gebruikte artikelen en boekfragmenten. \parencite{S01}
+
+Governance betreft in de review van Abraham et al. de uitoefening van gezag en controle over gegevensbeheer. De auteurs onderscheiden meerdere dimensies en mechanismen; hun conceptueel overzicht geeft geen enkel verplicht organisatiemodel. Voor MDM impliceert dit dat kwaliteit, toegang en betekenis ook besluitrechten en verantwoordelijkheden vereisen. De organisatorische taak kan niet worden afgeleid uit de opslaglocatie alleen. \parencite{L07,L20} De recente review van Guerreiro et al. stelt het verband tussen MDM-frameworks en governancevolwassenheid centraal. De auteurs plaatsen empirische validatie van hun conceptuele kader echter expliciet in vervolgonderzoek. Hun synthese wordt hier daarom gebruikt als verwant overzichtswerk, zonder er een causaal aangetoond effect van MDM op volwassenheid aan te ontlenen. \parencite{L27}\claim{RC20}
+
+\begin{longtable}{@{}P{.20\linewidth}P{.38\linewidth}P{.34\linewidth}@{}}
+\toprule Rolterm & Te analyseren verantwoordelijkheid & Bewijsgrens \\\midrule
+Data owner & Beslissen over doelen, gebruik en verantwoord beheer. & Terminologie en mandaat verschillen per organisatie. \\
+Data steward & Operationele coördinatie van kwaliteit, betekenis en issues. & Geen automatisch juridisch eigendom. \\
+Custodian & Technische zorg voor opslag, bescherming en beschikbaarstelling. & Vergelijkingsrol; niet overal als aparte functie gedefinieerd. \\
+Domain owner & Afbakening en afstemming binnen een gegevensdomein. & In federatieve benaderingen aan domeinorganisatie gerelateerd. \\
+Product owner & Verantwoordelijkheid voor een beheerd aanbod aan afnemers. & Productverantwoordelijkheid verleent geen automatisch brongezag. \\
+\bottomrule
+\end{longtable}
+Deze rolvergelijking ordent verantwoordelijkheidsvragen uit MDM-, governance- en dataproductliteratuur; zij is geen gezamenlijke definitie van alle bronnen. Vooral custodian en domain owner vragen verdere bronvergelijking voordat een uniforme rol-taxonomie kan worden gesteld. \parencite{L20,L07,L23,S51}\claim{RC21}
+
+Governancevormen kunnen gecentraliseerde besluitvorming, gedelegeerde domeinverantwoordelijkheid en gezamenlijke regels combineren. BOMOS behandelt beheer van standaarden; het is daarmee relevant voor de afspraken waarop MDM steunt, maar geen volledige vervanging van organisatiebrede data governance. Het beheer van een standaard en het beheer van een gegevensverzameling hebben verschillende objecten en bevoegdheden. \parencite{S23,L07}\claim{RC22}

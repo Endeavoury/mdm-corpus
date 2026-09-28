@@ -1,0 +1,71 @@
+\section{Metadata en Data Elements}
+Metadata verbinden een gegevensrepresentatie met informatie over betekenis, vorm of beheer. ISO/IEC 11179 adresseert metadataregistratie en maakt onderscheid tussen conceptuele en representatiegerichte constructies. Binnen het dossier is vooral het onderscheid tussen data-elementconcept en waardedomein relevant. De beschikbare officiële scope-informatie ondersteunt deze positionering, maar geen volledige beoordeling van alle modelclausules. De catalogus vermeldt bij ISO/IEC 11179-3:2023 tevens Amendment 1:2026 over item mappings; de inhoud daarvan is niet geanalyseerd. \parencite{S07,S08,S09,S10}\claim{RC23}
+
+Een technisch veld met een naam en datatype bepaalt niet zelfstandig welke eigenschap van welk object wordt weergegeven. Een beschrijving kan daarnaast een definitie, context, eenheid, toegestane waarden en bronverwijzing nodig hebben. Welke daarvan noodzakelijk zijn, hangt af van de concrete interpretatietaak. Dit is een synthese van terminologie- en metadatawerk; geen eis dat iedere waarde alle context steeds in dezelfde payload moet meedragen. \parencite{S11,S08,S14}\claim{RC24}
+
+Metadataregistries en datacatalogi hebben aanpalende, maar verschillende analyse-eenheden. Een metadataregistry kan dataspecificaties registreren; DCAT beschrijft onder meer datasets, distributies en dataservices. Een catalogusbeschrijving van een dataset is dus niet vanzelf een volledige beschrijving van ieder data-element. Omgekeerd geeft een verzameling elementdefinities nog geen compleet overzicht van het beschikbare aanbod. De grens is niet exclusief: ISO/IEC 11179-33 adresseert zelf datasetregistratie, inclusief kwaliteits- en herkomstmetadata. Er is dus daadwerkelijke overlap op datasetniveau; een tegenstelling tussen de gehele ISO/IEC 11179-serie en catalogisering zou te sterk zijn. \parencite{S08,S09,S47}\claim{RC25}
+
+\section{Semantiek en Begrippen}
+Een term is een aanduiding; een definitie beschrijft de afbakening van het bedoelde begrip. ``Begrip'' en ``concept'' kunnen vertaalvarianten zijn, maar bronnen kunnen ze ook op verschillende manieren in hun model gebruiken. De analyse behandelt ze daarom als afzonderlijke labels waarvan de relatie per bron wordt vastgesteld. Zij poneert niet vooraf dat begrip en concept twee universeel verschillende ontologische categorieën vormen. \parencite{S11,S13,S31}\claim{RC26}
+
+SKOS biedt een model voor begrippenstelsels, labels en relaties. NL-SBB specificeert beschrijvingen van begrippen en werkt de relatie met informatiemodellen en begrippenbeheer uit. MIM behandelt verschillende beschouwingsniveaus en modelconstructies. Het zijn daarmee deels complementaire instrumenten, met expliciet beschreven raakvlakken. NL-SBB is niet eenvoudigweg overbodig omdat SKOS bestaat, en MIM is niet hetzelfde soort artefact als een afzonderlijk begrippenstelsel. \parencite{S31,S14,S13}\claim{RC27}
+
+Een belangrijk tegenargument tegen een te scherpe oud/nieuw-tegenstelling komt uit het MDM-corpus zelf. Loshin bespreekt al uiteenlopende definities van gedeelde bedrijfsconcepten. Otto en Ofner noemen business semantics management en contextafhankelijke masterdata. Expliciete bedrijfsbetekenis is dus aantoonbaar onderdeel van sommige eerdere MDM-benaderingen. De resterende vraag is welke mate van formalisering en uitvoerbare koppeling wordt bereikt, niet of betekenis ooit onderwerp van MDM was. \parencite{B01,L20}\claim{RC28}
+
+\subsection{Semantic false agreement}
+Als twee systemen hetzelfde label gebruiken, kan hun schijnbare overeenstemming een verschillende afbakening verhullen. Omgekeerd kunnen verschillende labels hetzelfde bedoelen. Hier wordt \emph{semantic false agreement} gebruikt als analytische aanduiding van zulke onterecht aangenomen overeenstemming, niet als nieuw empirisch vastgesteld fenomeen of uniforme term van alle bronnen. De probleembeschrijving bij Loshin en de afzonderlijke label- en conceptconstructies in SKOS geven aanknopingspunten. \parencite{B01,S31}\claim{RC29}
+
+Het onderscheid tussen syntactische, structurele en semantische interoperabiliteit helpt dit te analyseren. Syntactische overeenstemming betreft de leesbare representatie; structurele overeenstemming de ordening en modelrelaties; semantische overeenstemming de interpretatie. Organisatorische afstemming en juridische toepasselijkheid voegen andere voorwaarden toe. EIF onderscheidt juridische, organisatorische, semantische en technische interoperabiliteit; de uitsplitsing van syntaxis en structuur is hier een nadere analytische ordening binnen de technische en semantische bespreking, niet een letterlijke vijfdelige EIF-classificatie. \parencite{S43}\claim{RC30}
+
+\section{Ontologie en Conceptual Modelling}
+Een ontologische analyse onderzoekt welke categorieën en identiteitscriteria een model veronderstelt. In Guizzardi's werk worden dergelijke grondslagen gebruikt om structurele conceptuele modellen te beoordelen. Een objecttype dat bijvoorbeeld een rol representeert, kan andere identiteitsvoorwaarden hebben dan een type dat een zelfstandig object bedoelt. Het model maakt dus aannames over de referenten; deze aannames verdwijnen niet doordat het diagram technisch correct is. \parencite{L08}\claim{RC31}
+
+UFO en OntoUML zijn relevant als ontologische grondslag respectievelijk modelleer\-benadering. OntoClean biedt een aanvullende manier om taxonomische beslissingen te beoordelen. Het zijn geen automatisch noodzakelijke voorzieningen voor ieder MDM-programma. OntoUML is bovendien geen Nederlandse overheidsstandaard. De afweging betreft de concrete modelleervraag, beschikbare expertise en gevolgen van foutieve categorie- of identiteitskeuzen. \parencite{S40,S41,L10}\claim{RC32}
+
+Een ontologische klasse, MIM-objecttype, modelattribuut en data-element worden niet zonder mapping gelijkgesteld. Tegelijk verbiedt SKOS niet algemeen dat dezelfde resource ook als OWL-klasse wordt gebruikt. Een verantwoord onderscheid betreft hier de representatierol en interpretatieregels, niet een universele verplichting tot disjuncte resourceverzamelingen. \parencite[§3.5.1]{S31}\parencite{S13,S08}\claim{RC33}
+
+\subsection{Knowledge graphs en Semantic Web}
+RDF biedt een graafgebaseerde representatie; RDFS en OWL voegen verschillende semantische beschrijvingsmogelijkheden toe. JSON-LD biedt een JSON-gebaseerde representatie van linked data, terwijl SPARQL querymogelijkheden voor RDF adresseert. Deze bouwstenen kunnen samen worden gebruikt zonder dat zij één verplicht opslagproduct of één centrale database voorschrijven. \parencite{S28,S29,S30,S35,S36}\claim{RC34}
+
+SMDM is een concreet antecedent: Wang et al. beschrijven virtuele RDF-toegang tot relationele masterdata, ontologieën, mappings en redeneerondersteuning. Dat ondersteunt de mogelijkheid van semantische uitbreiding van MDM en weerspreekt de nieuwheid van die combinatie als zodanig. De demonstratie onderbouwt geen algemene kosten-batenuitspraak voor alle organisaties of hedendaagse AI-toepassingen. \parencite{L18}\claim{RC35}
+
+De kennisgraafliteratuur bespreekt uiteenlopende vormen van schema, identiteit, context en gevolgtrekking. Een knowledge graph is daarom geen garantie dat begrippen onderling zijn geharmoniseerd of gezagsclaims zijn gecontroleerd. Een foutieve mapping kan ook in een formeel valide graaf bestaan. Deze beperking volgt uit het onderscheid tussen representatie en de juistheid van de gemodelleerde inhoud. \parencite{L13,S32}\claim{RC36}
+
+\section{Provenance, Lineage en Temporaliteit}
+PROV-O onderscheidt entiteiten, activiteiten en agents en biedt relaties voor onder meer gebruik, generatie en afleiding. Daarmee kan herkomst in samenhang worden beschreven. Lineage wordt in deze paper gebruikt voor de gevolgde gegevens- en transformatieketen; provenance omvat daarnaast de context waarin zulke relaties worden verantwoord. Dit is een praktische werkafbakening, geen claim dat alle auteurs dezelfde terminologische grens hanteren. \parencite{S33}\claim{RC37}
+
+Herkomst is niet hetzelfde als waarheid of bevoegdheid. Een bekende agent kan een onjuist gegeven produceren; een goed gedocumenteerde bewerking kan een inferentie opleveren die niet als authentiek brongegeven mag worden behandeld. Deze onderscheidingen zijn een conceptuele synthese van provenance en stelselverantwoordelijkheden. De aanwezigheid van een PROV-relatie bewijst niet zelfstandig de juridische grond van een uitspraak. \parencite{S33,S25}\claim{RC38}
+
+Valid time betreft wanneer een feit geldt in de gemodelleerde werkelijkheid; transaction time wanneer het als actuele databasekennis is opgeslagen. De temporele databaseglossary maakt dit onderscheid expliciet. Een registratiecontext moet daarnaast aangeven op welk systeem een registratiemoment betrekking heeft. Het moment waarop een afnemer een record ontvangt is niet automatisch het transactiemoment van de bron. \parencite{L14}\claim{RC39}
+
+OWL-Time adresseert temporele representatie, ISO 8601 datum- en tijdnotatie. Geen van beide kiest op zichzelf het beleid voor retroactieve correcties, versie-identiteit of bewaring. Die grens is relevant bij de interpretatie van historische masterdata: gelijke datumvelden betekenen nog geen gelijke tijdssemantiek. De IBM-bron behandelt geldigheidsintervallen en technische wijzigingshistorie bovendien al als verschillende aspecten van een MDM-model. \parencite{S37,S52,P01}\claim{RC40}
+
+\section{Het standaardenlandschap}
+\subsection{Documentsoorten en normatieve reikwijdte}
+Het corpus bevat normen, technische specificaties, vocabularia, ontologieën, metamodellen, beheerhandreikingen, principes en wetgeving. Deze classificaties vormen verschillende assen. Een ontologie kan als W3C Recommendation zijn gepubliceerd; een metamodel kan een Nederlandse standaard zijn. FAIR is geen ISO-norm en de Interoperable Europe Act is geen vocabulaire. Zulke verschillen bepalen welke conclusies de bron kan ondersteunen. \parencite{S30,S13,L11,S42}\claim{RC41}
+
+Het verschil tussen een normatieve passage en empirisch bewijs blijft eveneens essentieel. Een publicatie kan voorschrijven hoe gegevens worden uitgewisseld zonder te meten hoeveel interpretatiefouten daarmee verdwijnen. De aanwezigheid van een normatieve eis is geen effectstudie. Deze paper analyseert daarom toepassingsgebied en constructies afzonderlijk van claims over gerealiseerde voordelen.
+
+\begin{longtable}{@{}P{.19\linewidth}P{.35\linewidth}P{.38\linewidth}@{}}
+\caption{Cross-standard analyse: complementaire taken en de grenzen van de verbinding.}\label{tab:landscape}\\
+\toprule Niveau / vraag & Relevante instrumenten & Aansluiting en grens \\\midrule\endfirsthead
+\toprule Niveau / vraag & Relevante instrumenten & Aansluiting en grens \\\midrule\endhead
+Terminologie & ISO 704, NL-SBB, SKOS & Begripsbeschrijving en begrippenrelaties; nog geen volledig logisch recordschema. \\
+Ontologische analyse & UFO, OntoUML, OntoClean; OWL voor formalisering & Categorieën en axioma's; geen algemeen bewijs van noodzaak of optimale modellering. \\
+Informatie\-modellen & MIM, NEN 3610, SEMIC Core Vocabularies & Modelconstructies en domeinhergebruik; mapping naar eigen begripscontext blijft nodig. \\
+Metadata\-registratie & ISO/IEC 11179 & Betekenis en representatie van dataspecificaties; niet hetzelfde als een datasetcatalogus. \\
+Masterdata\-kwaliteit & ISO 8000, ISO/IEC 25012 & Uitwisseling en kwaliteitsdimensies; volledige toepasselijke normtekst nodig voor clausuleanalyse. \\
+Regels en metingen & SHACL, DQV & Graafvalidatie en kwaliteitsbeschrijving; geen garantie van feitelijke juistheid. \\
+Herkomst en tijd & PROV-O, OWL-Time, ISO 8601 & Herkomststructuur, tijdsrelaties en notatie; gezag en historiebeleid niet automatisch bepaald. \\
+Aanbod en producten & DCAT, DCAT-AP, DCAT-AP-NL, DPROD & Catalogusresources en productbeschrijving; geen uniforme definitie van ieder data-element. \\
+Distributie & OpenAPI, REST API Design Rules, Digikoppeling, FSC & Interfaces en uitwisseling; betekenisafstemming vraagt aanvullende afspraken. \\
+Wijzigingen & NL GOV CloudEvents & Eventbeschrijving en notificatie; geen volledige definitie van de domeinverandering. \\
+Beheer en context & BOMOS, MDTO, EIF, overheidskaders & Standaardbeheer, duurzame toegankelijkheid en interoperabiliteit; verschillende beheerobjecten. \\
+\bottomrule
+\end{longtable}
+De tabel is eigen synthese van de afzonderlijke bronposities; de appendix identificeert documentversies en beperkingen. Het is geen lijst van gezamenlijk verplichte componenten.\claim{RC42}
+
+\subsection{Overlap, mappings en hiaten}
+Drie relaties moeten uit elkaar worden gehouden. Ten eerste kan een profiel een bestaande standaard nader invullen, zoals DCAT-AP en DCAT-AP-NL rond DCAT. Ten tweede kunnen documenten verschillende aspecten van dezelfde resource beschrijven, zoals DQV en PROV-O voor kwaliteitsmetadata en hun herkomst. Ten derde kan een verbinding een onderzoekersmapping zijn, bijvoorbeeld tussen een lokaal begrip en een ontologische klasse. Alleen de eerste twee zijn door de genoemde standaarden rechtstreeks gepositioneerd; de derde vergt afzonderlijke rechtvaardiging. \parencite{S47,S45,S16,S34,S33,S31}\claim{RC43}
+
+Het ontbreken van een onderwerp in één standaard is niet vanzelf een hiaat. OpenAPI hoeft niet alle institutionele identiteitscriteria te formaliseren om een bruikbare interfacespecificatie te zijn. Een inhoudelijke lacune ontstaat pas ten opzichte van een gemotiveerde behoefte én de gezamenlijk onderzochte dekking. Evenzo bewijst overlap geen redundantie: NL-SBB beschrijft ook gebruiks- en beheerafspraken die niet uit de loutere aanwezigheid van SKOS volgen. \parencite{S19,S14,S31}\claim{RC44}

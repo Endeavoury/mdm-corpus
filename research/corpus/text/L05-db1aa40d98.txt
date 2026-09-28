@@ -1,0 +1,1662 @@
+
+
+    
+
+        
+
+        
+
+        
+
+            
+
+        
+
+        Toward a functional reference model for master data quality management | Information Systems and e-Business Management | Springer Nature Link
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+            
+
+    
+
+    
+
+    
+
+    
+
+        
+
+        
+
+        
+
+        
+
+    
+
+    
+
+        
+
+        
+
+    
+
+            
+
+    
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+    
+
+    
+
+        
+
+        
+
+        
+
+            
+
+        
+
+        
+
+            
+
+    
+
+            
+
+            
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+    
+
+    
+
+    
+
+        
+
+        
+
+    Skip to main content
+
+    
+
+    
+
+    
+
+        
+
+            
+
+                    
+
+                    
+
+            
+
+        
+
+                
+
+        Log in
+
+            
+
+    
+
+    
+
+            
+
+                
+
+                   
+
+                            
+                        Menu
+
+                
+
+                
+
+                    
+
+                            Find a journal
+
+                    
+
+                            Publish with us
+
+                    
+
+                            Track your research
+
+                    
+
+                
+
+                    
+
+                            
+
+                                    
+                                Search
+
+                        
+
+                    
+
+                        
+
+                            
+
+                                    
+
+                                Saved research
+
+                        
+
+                            
+
+ 
+
+   
+
+  Cart
+
+ 
+
+                        
+
+                
+
+        
+
+    
+
+    
+
+    
+
+        
+
+                
+
+                    
+
+        
+
+                
+
+                        Home
+
+                                
+
+                    
+
+                    
+
+                        Information Systems and e-Business Management
+
+                                
+
+                    
+
+                    
+
+                        Article
+
+                
+
+        
+
+                    
+Toward a functional reference model for master data quality management
+
+                    
+
+        
+Original Article
+
+    
+
+                        
+
+                            Published: 18 June 2011
+
+                    
+
+                        
+
+                            Volume 10, pages 395–425 (2012)
+
+                        
+
+                            Cite this article
+
+                    
+
+                    
+
+                        
+
+                            
+
+                            
+
+        
+
+            
+
+            Save article
+
+        
+
+            
+                View saved research
+
+            
+
+        
+
+                        
+
+                
+
+                    
+
+                            
+
+                                
+
+                            
+                            Information Systems and e-Business Management
+
+                        
+
+                                Aims and scope
+
+                            
+
+                        
+
+                                Submit manuscript
+
+                            
+
+                    
+
+            
+
+    
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+Boris Otto1, 
+Kai M. Hüner1 & 
+Hubert Österle1 
+
+    
+
+                        
+
+                            
+
+            
+
+                    
+
+                        
+                    3228 Accesses
+
+            
+
+                
+
+                    
+
+                        
+                    42 Citations
+
+            
+
+                
+
+                        
+
+                            
+                        9 
+                                Altmetric
+
+                    
+
+            
+
+            
+
+                    
+
+                        
+Explore all metrics 
+
+                        
+
+                
+
+        
+
+                        
+
+                        
+
+    
+
+    
+
+                        
+
+                
+
+                
+
+                    
+
+Abstract
+
+The quality of master data has become an issue of increasing prominence in companies. One reason for that is the growing number of regulatory and legal provisions companies need to comply with. Another reason is the growing importance of information systems supporting decision-making, requiring master data that is up-to-date, accurate and complete. While improving and maintaining master data quality is an organizational task that cannot be encountered by simply implementing a suitable software system, system support is mandatory in order to be able to meet challenges efficiently and make for good results. This paper describes the design process toward a functional reference model for master data quality management (MDQM). The model design process spanned several iterations comprising multiple design and evaluation cycles, including the model’s application in a participative case study at consumer goods manufacturer Beiersdorf. Practitioners may use the reference model as an instrument for the analysis, design and implementation of a company’s MDQM system landscape. Moreover, the reference model facilitates evaluation of software systems and supports company-internal and external communication. From a scientific perspective, the reference model is a design artifact; hence it represents a theory for designing information systems in the area of MDQM.
+
+                    
+
+                    
+
+                    
+
+                            
+
+                                    
+
+                                        
+
+                                        
+
+                                            This is a preview of subscription content, log in via an institution
+
+                                        
+
+                                         to check access.
+
+                                
+
+                        
+
+                        
+
+                                
+
+                                        
+Access this article
+
+                                            
+
+                                                    
+                                                        Log in via an institution
+
+                                                            
+
+                                                    
+
+                                            
+
+                                        
+
+                                                
+
+ 
+
+ 
+
+  
+
+   
+
+    
+Subscribe and save
+
+     
+
+      
+
+       
+
+       
+       Springer+
+
+      
+from €37.37 /Month
+
+     
+
+Starting from 10 chapters or articles per month
+
+Access and download chapters and articles from more than 300k books and 2,500 journals
+
+Cancel anytime
+
+     View plans 
+
+       
+
+    
+
+Buy Now
+
+   
+
+    
+
+     
+
+      Buy article PDF 39,95 €
+
+    
+
+Price includes VAT (Netherlands)
+
+    
+Instant access to the full article PDF.
+
+  
+
+  
+
+ 
+
+  
+Institutional subscriptions 
+
+     
+
+ 
+
+                                            
+
+                                    
+
+                            
+
+                        
+
+                            
+Fig. 1
+
+Fig. 2
+
+Fig. 3
+
+Fig. 4
+
+Fig. 5
+
+Fig. 6
+
+                        
+
+                    
+
+                        
+
+                    
+
+        
+
+                
+Similar content being viewed by others
+
+                    
+
+                            
+
+                                    
+
+                                
+
+                                    
+
+                                        Data Quality Management and Measurement
+
+                                    
+
+                                        Chapter
+
+                                         © 2019
+
+                                
+
+                        
+
+                        
+
+                            
+
+                                    
+
+                                
+
+                                    
+
+                                        The data quality improvement plan: deciding on choice and sequence of data quality improvements
+
+                                    
+
+                                        Article
+
+                                         14 January 2017
+
+                                
+
+                        
+
+                        
+
+                            
+
+                                    
+
+                                
+
+                                    
+
+                                        Data Quality Management: An Overview of Methods and Challenges
+
+                                    
+
+                                        Chapter
+
+                                         © 2021
+
+                                
+
+                        
+
+                
+
+        
+
+        
+
+                    
+
+                        
+
+        
+Explore related subjects
+        Discover the latest articles, books and news in related subjects, suggested using machine learning.
+
+        
+
+                Building Information Modeling
+
+        
+
+                Business Process Management
+
+        
+
+                Data integration
+
+        
+
+                Data Engineering
+
+        
+
+                Information Model
+
+        
+
+                Model Theory
+
+        
+
+                Data Quality Assessment in Information Systems
+
+        
+
+    
+
+                    
+
+                        
+
+                    
+
+                    
+
+                    
+
+Notes
+
+See http://cdq.iwi.unisg.ch/.
+
+References
+
+Alur N, Joseph R, Mehta H, Nielsen JT, Vasconcelos D (2007) IBM WebSphere information analyzer and data quality assessment. IBM, Armonk
+
+                    Google Scholar 
+
+Baskerville RL (1997) Distinguishing action research from participative case studies. J Syst Inf Technol 1(1):24–43. doi:10.1108/13287269780000733
+
+Article 
+
+                    Google Scholar 
+
+Batini C, Scannapieco M (2006) Data quality. Concepts, methodologies and techniques. Springer, Berlin
+
+                    Google Scholar 
+
+Batini C, Cappiello C, Francalanci C, Maurino A (2009) Methodologies for data quality assessment and improvement. ACM Comput Surv 41(3):1–52. doi:10.1145/1541880.1541883
+
+Article 
+
+                    Google Scholar 
+
+BEA (2006) BEA AquaLogic™ data services platform. BEA Systems, Inc, San Jose
+
+Becker J, Rosemann M, Schütte R (1995) Grundsätze ordnungsmäßiger Modellierung (Guidelines for orderly modeling). Wirtschaftsinformatik 37(5):435–445
+
+                    Google Scholar 
+
+Becker J, Algermissen L, Delfmann P, Knackstedt R (2002) Referenzmodellierung (Reference modeling). Das Wirtschaftsstudium (WISU) 30(11):1392–1395
+
+                    Google Scholar 
+
+Becker J, Holten R, Knackstedt R, Niehaves B (2004) Epistemologische Positionierungen in der Wirtschaftsinformatik am Beispiel einer konsensorientierten Informationsmodellierung (Epistemological positionings in IS using the example of a consensus-oriented information modeling). In: Frank U (ed) Wissenschaftstheorie in Ökonomie und Wirtschaftsinformatik (The Theory of Science in Economics and IS). Deutscher Universitäts-Verlag, Wiesbaden, pp 335–366
+
+                    Google Scholar 
+
+Beiersdorf (2009) Annual report 2009. Beiersdorf AG, Hamburg
+
+                    Google Scholar 
+
+Burnett K, Ng KB, Park S (1999) A comparison of the two traditions of metadata development. J Am Soc Inf Sci 50(13):1209–1217. doi:10.1002/(SICI)1097-4571(1999)50:13<1209:AID-ASI6>3.3.CO;2-P
+
+Article 
+
+                    Google Scholar 
+
+Butler D (2007) MDM as a foundation for SOA. Oracle Corporation, Redwood Shores
+
+                    Google Scholar 
+
+Deloitte (2009) Telecommunications predictions—TMT trends 2009. Deloitte Touche Tohmatsu, London
+
+                    Google Scholar 
+
+Dreibelbis A, Hechler E, Milman I, Oberhofer M, van Run P, Wolfson D (2008) Enterprise master data management: an SOA approach to managing core information. Pearson Education, Boston
+
+                    Google Scholar 
+
+English LP (1999) Improving data warehouse and business information quality, 1st edn. Wiley, New York
+
+                    Google Scholar 
+
+Eppler MJ, Helfert M (2004) A classification and analysis of data quality costs. In: Chengalur-Smith S, Long J, Raschid L, Seko C (eds) Proceedings of the 9th international conference on information quality, Cambridge, pp 311–325
+
+Fettke P, Loos P (2004) Referenzmodellierungsforschung (Reference modeling research). Wirtschaftsinformatik 46(5):331–340
+Article 
+
+                    Google Scholar 
+
+Fettke P, Loos P (2007) Perspectives on reference modeling. In: Fettke P, Loos P (eds) Reference modeling for business systems analysis. Idea Group, Hershey, pp 1–21
+
+                    Google Scholar 
+
+Frank U (2007) Evaluation of reference models. In: Fettke P, Loos P (eds) Reference modeling for business systems analysis. Idea Group, Hershey, pp 118–139
+
+                    Google Scholar 
+
+Frank U, Schauer C, Wigand RT (2008) Different paths of development of two information systems communities: a comparative study based on peer interviews. Commun AIS 22(21):319–412
+
+                    Google Scholar 
+
+Friedman T (2009) Q&A: common questions on data integration and data quality from Gartner’s MDM summit. Gartner, Inc, Stamford
+
+                    Google Scholar 
+
+Gregor S (2006) The nature of theory in information systems. MIS Q 30(3):611–642
+
+                    Google Scholar 
+
+Heilig L, Karch S, Pfennig R, Hofmann C (2006) SAP NetWeaver master data management. SAP Press, Bonn
+
+                    Google Scholar 
+
+Heinrich B, Henneberger M, Leist S, Zellner G (2009) The process map as an instrument to standardize processes: design and application at a financial service provider. Inf Syst e-Bus Manage J 7(1):81–102. doi:10.1007/s10257-007-0064-y
+
+Article 
+
+                    Google Scholar 
+
+Hevner AR, March ST, Park J, Ram S (2004) Design science in information system research. MIS Q 28(1):75–105
+
+                    Google Scholar 
+
+Hüner K, Schierning A, Otto B, Österle H (2011) Product data quality in supply chains: the case of Beiersdorf. Electron Mark 21(2):141–154. doi:10.1007/s12525-011-0059-x
+
+                    Google Scholar 
+
+IBM (2005) IBM completes acquisition of Ascential software. IBM Corporation, Armonk
+
+IBM (2006) IBM information server version 8.0: information server introduction. IBM Corporation, Armonk
+
+                    Google Scholar 
+
+Karel R (2006) Introducing master data management. Forester Research, Cambridge
+
+                    Google Scholar 
+
+Khatri V, Brown CV (2010) Designing data governance. Commun ACM 53(1):148–152. doi:10.1145/1629175.1629210
+
+Article 
+
+                    Google Scholar 
+
+Kokemüller J (2009) Stammdatenmanagementsysteme 2009 (Master data management systems 2009). Fraunhofer-Verlag, Stuttgart
+
+                    Google Scholar 
+
+Lee YW, Pipino LL, Funk JD, Wang RY (2006) Journey to data quality. MIT Press, Cambridge
+
+                    Google Scholar 
+
+Lehmann H (2003) An object-oriented architecture model for international information systems? J Glob Inf Manage 11(3):1–18
+Article 
+
+                    Google Scholar 
+
+Leser U, Naumann F (2007) Informationsintegration: Architekturen und Methoden zur Integration verteilter und heterogener Datenquellen (Information integration: architectures and methods for integrating distributed and heterogeneous data sources). dpunkt, Heidelberg
+
+                    Google Scholar 
+
+Loshin D (2001) Enterprise knowledge management: the data quality approach. Morgan Kaufmann, San Diego
+
+                    Google Scholar 
+
+Loshin D (2008) Master data management. Morgan Kaufmann, Burlington
+
+                    Google Scholar 
+
+MA DA (2009) The DAMA guide to the data management body of knowledge. Technics Publications, Bradley Beach
+
+                    Google Scholar 
+
+March ST, Smith GF (1995) Design and natural science research on information technology. Decis Support Syst 15:251–266
+Article 
+
+                    Google Scholar 
+
+Marco D (2000) Building and managing the meta data repository. A full lifecycle guide. Wiley, New York
+
+                    Google Scholar 
+
+McCann D (2010) If you build it…. CFO 26(3):29–31
+
+                    Google Scholar 
+
+Morgan DL, Krueger RA (1993) When to use focus groups and why? In: Morgan DL (ed) Successful focus groups. Sage, Newbury Park, pp 3–19
+
+                    Google Scholar 
+
+Nunamaker JF, Chen M, Purdin TDM (1991) Systems development in information systems research. J Manage Inf Syst 7(3):89–106
+
+                    Google Scholar 
+
+Otto B, Hüner K (2009) Functional reference architecture for corporate master data management. Institute of Information Management, University of St. Gallen, St. Gallen
+
+                    Google Scholar 
+
+Otto B, Hüner K, Österle H (2009) Unternehmensweite Stammdatenqualität (Corporate master data quality). ERP Manage 2009(3):19–21
+
+                    Google Scholar 
+
+Peffers K, Tuunanen T, Rothenberger MA, Chatterjee S (2008) A design science research methodology for information systems research. J Manage Inf Syst 24(3):45–77. doi:10.2753/MIS0742-1222240302
+
+Article 
+
+                    Google Scholar 
+
+Price R, Shanks G (2005) A semiotic information quality framework: development and comparative analysis. J Inf Technol 20(2):88–102. doi:10.1057/palgrave.jit.2000038
+
+Article 
+
+                    Google Scholar 
+
+Pula EN, Stone M, Foss B (2003) Customer data management in practice: an insurance case study. J Database Mark 10(4):327–341. doi:10.1057/palgrave.jdm.3240122
+
+Article 
+
+                    Google Scholar 
+
+Radcliffe J, White A (2009) Key issues for master data management, 2009. Gartner Research, Stamford
+
+                    Google Scholar 
+
+Redman TC (1996) Data quality for the information age. Artech House, Boston
+
+                    Google Scholar 
+
+Reid R, Fraser-King G, Schwaderer WD (2007) Data lifecycles: managing data for strategic advantage. Wiley, Chichester
+
+                    Google Scholar 
+
+Rosemann M, Schütte R (1999) Multiperspektivische Referenzmodellierung (Multi-perspective Reference Modeling). In: Becker J, Rosemann M, Schütte R (eds) Referenzmodellierung—State-of-the-Art und Entwicklungsperspektiven (Reference Modeling—State of the Art and Development Perspectives). Physica, Heidelberg, pp 22–44
+
+                    Google Scholar 
+
+Saaksvuori A, Immonen A (2008) Product lifecycle management, 3rd edn. Springer, Berlin
+Book 
+
+                    Google Scholar 
+
+SAP (2007a) SAP NetWeaver—technology map edition 2007. SAP AG. http://www50.sap.com/businessmaps/004F8486F21E4522943507897144041B.htm. Accessed 19 Jan 2011
+
+SAP (2007b) SAP to acquire business objects in friendly takeover. SAP AG, Walldorf
+
+                    Google Scholar 
+
+SAP (2008) SAP library—SAP NetWeaver master data management (MDM). SAP. http://help.sap.com/saphelp_mdm550/helpdata/en/43/D7AED5058201B4E10000000A11466F/frameset.htm. Accessed 19 Feb 2009
+
+SAP (2011) SAP ERP—SAP solution map. SAP AG. http://www.sap.com/global/scripts/jump_frame.epx?content=/businessmaps/82087E7A8EB94E1F885C5A1F62C789FB.htm&CloseLabel=Fenster schliessen. Accessed 8 Feb 2011
+
+Scheer A-W (1992) Architecture of integrated information systems—foundations of enterprise modelling. Springer, Berlin
+Book 
+
+                    Google Scholar 
+
+Scheer A-W (1997) Wirtschaftsinformatik: Referenzmodelle für industrielle Geschäftsprozesse (Information systems: reference models for industrial business processes), 2nd edn. Springer, Berlin
+
+                    Google Scholar 
+
+Scheer A-W (2001) ARIS—Modellierungsmethoden, Metamodelle, Anwendungen (ARIS—Modeling Methods, Meta-models, Applications). Springer, Berlin
+
+                    Google Scholar 
+
+Scheer A-W, Thomas O, Adam O (2005) Process modeling using event-driven process chains. In: Dumas M, van der Aalst W, ten Hofstede AHM (eds) Process-aware information systems: bridging people and software through process technology. Wiley, Hoboken, pp 119–145
+Chapter 
+
+                    Google Scholar 
+
+Schelp J, Winter R (2007) Towards a methodology for service construction. In: Proceedings of the 40th Hawaii international conference on systems sciences (HICSS-40). Los Alamitos. doi:10.1109/HICSS.2007.565
+
+Schemm JW (2008) Zwischenbetriebliches Stammdatenmanagement: Lösungen für die Datensynchronisation zwischen Handel und Konsumgüterindustrie (Cross-company master data management: Solutions for data synchronisation between retailers and consumer goods manufacturers). Springer, Berlin
+
+                    Google Scholar 
+
+Schütte R (1998) Grundsätze ordnungsmässiger Referenzmodellierung: Konstruktion konfigurations- und anpassungsorientierter Modelle (Guidelines of reference modeling: Design of configuration- and adaptation-oriented models). Gabler, Wiesbaden
+
+                    Google Scholar 
+
+Shankaranarayanan G, Cai Y (2006) Supporting data quality management in decision-making. Decis Support Syst 42(1):302–317. doi:10.1016/j.dss.2004.12.006
+
+Article 
+
+                    Google Scholar 
+
+Simon HA (1998) The sciences of the artificial. MIT Press, Cambridge
+
+                    Google Scholar 
+
+Sinha PR, Whitman LE, Malzahn D (2004) Methodology to mitigate supplier risk in an aerospace supply chain. Supply Chain Manage Int J 9(2):154–168. doi:10.1108/13598540410527051
+
+Article 
+
+                    Google Scholar 
+
+Smith HA, McKeen JD (2008) Developments in practice XXX: master data management: salvation or snake oil? Commun AIS 23(4):63–72
+
+                    Google Scholar 
+
+TIBCO (2008) Managing master data with TIBCO collaborative information manager: a technical overview. TIBCO software Inc., Palo Alto
+
+Tozer G (1999) Metadata management for information control and business success. Artech House, Boston
+
+                    Google Scholar 
+
+vom Brocke J (2007) Design principles for reference modeling: reusing information models by means of aggregation, specialisation, instantiation, and analogy. In: Fettke P, Loos P (eds) Reference modeling for business systems analysis. Idea Group, Hershey, pp 47–75
+
+                    Google Scholar 
+
+Wand Y, Wang RY (1996) Anchoring data quality dimensions in ontological foundations. Commun ACM 39(11):86–95. doi:10.1145/240455.240479
+
+Article 
+
+                    Google Scholar 
+
+Wang RY (1998) A product perspective on total data quality management. Commun ACM 41(2):58–65. doi:10.1145/269012.269022
+
+Article 
+
+                    Google Scholar 
+
+Wang RY, Strong DM (1996) Beyond accuracy: what data quality means to data consumers. J Manage Inf Syst 12(4):5–34
+
+                    Google Scholar 
+
+Weber K, Otto B, Österle H (2009) One size does not fit all—a contingency approach to data governance. ACM J Data Inf Q 1(1):Art. 4
+
+                    Google Scholar 
+
+White A (2008) Governance of master data starts with the master data life cycle. Gartner Research, Stamford
+
+                    Google Scholar 
+
+White A, Radcliffe J (2008) Vendor guide: master data management. Gartner Research, Stamford
+
+                    Google Scholar 
+
+White A, Newman D, Logan D, Radcliffe J (2006) Mastering master data management. Gartner Research, Stamford
+
+                    Google Scholar 
+
+Yen BK (2004) Pulling it all together. Financ Exec 20(6):60–62
+
+                    Google Scholar 
+
+Download references
+
+Acknowledgments
+
+The research presented in this paper is a result of the Competence Center Corporate Data Quality (CC CDQ) at the Institute of Information Management at the University of St. Gallen. The CC CDQ is a consortium research project and part of the research program Business Engineering at the University of St. Gallen (BE HSG).
+
+Author information
+
+Authors and Affiliations
+
+Institute of Information Management, University of St. Gallen, Müller-Friedberg-Str. 8, 9000, St. Gallen, Switzerland
+Boris Otto, Kai M. Hüner & Hubert Österle
+Authors
+Boris Otto
+
+View author publications
+
+Search author on:PubMed Google Scholar
+Kai M. Hüner
+
+View author publications
+
+Search author on:PubMed Google Scholar
+Hubert Österle
+
+View author publications
+
+Search author on:PubMed Google Scholar
+Corresponding author
+Correspondence to
+                Boris Otto.
+
+Appendix
+
+Appendix
+1.1 Focus group details
+Table 4 lists the participants of a focus group interview of the MDM working group of the German-speaking SAP User Group, taking place on November 25, 2008, in St. Leon-Rot, Germany. The focus group interview started at 9:45 and ended at 12:15. After an introduction of 45 min about the context, motivation and current work progress, the first version of the reference model was presented to the 17 focus group participants. The presentation comprised a model overview analogous to Fig. 3 as well as a detailed view of all six function groups. The participants were asked for their feedback with regard to completeness, consistency, usefulness, and correctness of the model. The focus group interview was recorded and transcribed.
+Table 4 Participants of focus group A
+Full size table
+
+Table 4 shows the participants of focus group B, which was part of a regular workshop of the CC CDQ. The focus group took place on December 3, 2008, in Munich, Germany, and involved 12 participants. The focus group was not specifically set up on the topic of MDQM functionalities, but was aiming at short-term and medium-term research activities in the field of corporate data management. The participants were asked to name and explain three short-term (for the first 18 months) and one mid-term (18–24 months) research priorities. After that a moderated discussion identified seven focus topics, of which one was the Functional Reference Model for MDQM.
+Table 5 shows the participants of focus group C, which was part of an “in-depth workshop” on corporate data quality management. The focus group took place from 15:45 to 16:45 on February 9, 2009, in Cologne, Germany. The focus group was set up and conducted analogous to focus group A. The results were documented on a flip-chart.
+Table 5 Participants of focus group B
+Full size table
+
+Table 6 shows the participants of focus group D, which was part of a regular workshop of the CC CDQ which formed the context of this work. It took place between 10:30 and 11:30 on February 18, 2009, in St. Gallen, Switzerland. The focus group was set up and conducted analogous to focus groups A and C. The results were documented on flip-charts (Table 7).
+Table 6 Participants of focus group C
+Full size table
+
+Table 7 Participants of Focus group D
+Full size table
+
+1.2 Case study details
+The case study at Beiersdorf uses interviews for data collection. Table 6 gives details on the six interviews conducted (Table 8).
+Table 8 Case study interviews
+Full size table
+
+1.3 Functional details of the reference model
+Table 9 describes all 72 sub-functions of the reference model.
+Table 9 Complete reference model overview
+Full size table
+
+Rights and permissions
+
+Reprints and permissions
+
+About this article
+
+Cite this article
+Otto, B., Hüner, K.M. & Österle, H. Toward a functional reference model for master data quality management.
+                    Inf Syst E-Bus Manage 10, 395–425 (2012). https://doi.org/10.1007/s10257-011-0178-0
+Download citation
+
+Received: 13 August 2010
+
+Revised: 08 February 2011
+
+Accepted: 08 June 2011
+
+Published: 18 June 2011
+
+Issue date: September 2012
+
+DOI: https://doi.org/10.1007/s10257-011-0178-0
+
+Share this article
+Anyone you share the following link with will be able to read this content:Get shareable link
+
+Sorry, a shareable link is not currently available for this article.
+
+Copy shareable link to clipboard
+
+                            Provided by the Springer Nature SharedIt content-sharing initiative
+
+Keywords
+Data quality management
+Master data management
+Design science research
+Reference model
+
+                    
+
+                    
+
+        
+Profiles
+
+            
+
+                    Boris Otto
+
+                        
+
+                                
+                            View author profile
+
+                    
+
+            
+
+    
+
+                
+
+            
+
+    
+
+        
+
+            
+
+            
+
+                    
+
+                
+
+            
+
+                
+
+            
+
+                
+
+                    
+
+                    
+
+                        
+
+                                
+
+                                    
+Access this article
+
+                                    
+
+                                            
+
+                                                
+                                                    Log in via an institution
+
+                                                        
+
+                                                
+
+                                        
+
+                                    
+
+                                        
+
+ 
+
+ 
+
+  
+
+   
+
+    
+Subscribe and save
+
+     
+
+      
+
+       
+
+       
+       Springer+
+
+      
+from €37.37 /Month
+
+     
+
+Starting from 10 chapters or articles per month
+
+Access and download chapters and articles from more than 300k books and 2,500 journals
+
+Cancel anytime
+
+     View plans 
+
+       
+
+    
+
+Buy Now
+
+   
+
+    
+
+     
+
+      Buy article PDF 39,95 €
+
+    
+
+Price includes VAT (Netherlands)
+
+    
+Instant access to the full article PDF.
+
+  
+
+  
+
+ 
+
+  
+Institutional subscriptions 
+
+     
+
+ 
+
+                                    
+
+                            
+
+                    
+
+                        
+
+    
+
+        
+Advertisement
+
+        
+
+                    
+
+                    
+
+                
+
+        
+
+            
+
+    
+
+    
+
+    
+
+    
+
+            
+Search
+
+                
+
+                        Search by keyword or author
+
+                            
+
+                                
+
+                                
+                                Search
+
+                        
+
+                
+
+        
+
+    
+
+Navigation
+
+            
+
+                   
+                        Find a journal
+
+                
+
+                
+
+                   
+                        Publish with us
+
+                
+
+                
+
+                   
+                        Track your research
+
+                
+
+        
+
+    
+
+		
+Footer Navigation
+
+			
+
+	
+
+		
+
+			
+Discover content
+
+				
+
+Journals A-Z
+
+					
+Books A-Z
+
+					
+Subjects A-Z
+
+			
+
+		
+
+			
+Publish with us
+
+				
+
+Journal finder
+
+					
+Publish your research
+
+					
+Language editing
+
+					
+Open access publishing
+
+			
+
+		
+
+			
+Products and services
+
+				
+
+Our products
+
+					
+Librarians
+
+					
+Societies
+
+					
+Partners and advertisers
+
+			
+
+		
+
+			
+Our brands
+
+				
+
+Springer
+
+					
+Nature Portfolio
+
+					
+BMC
+
+					
+Palgrave Macmillan
+
+					
+Apress
+
+					
+Discover
+
+			
+
+		
+
+			
+
+	
+
+Corporate Navigation
+
+			
+
+					
+
+						Your privacy choices/Manage cookies
+
+				
+
+				
+
+					
+						Your US state privacy rights
+
+					
+
+			
+
+					
+						Accessibility statement
+
+					
+
+			
+
+					
+						Terms and conditions
+
+					
+
+			
+
+					
+						Privacy policy
+
+					
+
+			
+
+					
+						Help and support
+
+					
+
+			
+
+					
+						Legal notice
+
+					
+
+			
+
+					
+						Cancel contracts here
+
+					
+
+			
+
+	
+
+		
+
+			
+
+					
+
+						
+
+							
+							188.91.186.3
+
+						
+Not affiliated
+
+				
+
+			
+
+					
+
+			
+
+© 2026 Springer Nature
+
+	
+
+    
+

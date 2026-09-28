@@ -1,0 +1,95 @@
+Versiewijziging Digikoppeling onder Uitstekend
+beheer
+ Datum:                 13 mei 2026
+
+ Versie:                1.0
+
+ Bijlagen:              geen
+
+
+
+1 Samenvatting
+Het Overheidsbrede Overleg Digitale Overheid (OBDO) blijft Digikoppeling in de nieuwe versie
+release 21 april 2026 verplichten aan de overheid (‘Pas toe of leg uit’). In de rest van dit
+document wordt deze handhaving nader onderbouwd. Hoofdstuk 2 geeft een korte uitleg van
+het belang van de standaard. Hoofdstuk 3 beschrijft het proces waarmee deze handhaving tot
+stand kwam.
+
+
+2 Korte beschrijving van de standaard
+
+2.1 Over de standaard
+Digikoppeling is de standaard voor veilige gegevensuitwisseling tussen overheidsorganisaties.
+De standaard beschrijft logistieke afspraken over de manier waarop berichten uitgewisseld
+moeten worden, bijvoorbeeld als bevraging of als melding. Digikoppeling maakt het mogelijk
+om zeer grote bestanden uit te wisselen. Ook specificeert Digikoppeling hoe de uit te wisselen
+gegevens beveiligd worden. Digikoppeling gaat niet over de inhoud van berichten.
+
+Overheidsorganisaties moeten gebruik maken van Digikoppeling indien hun systemen
+gegevens moeten uitwisselen met onderdelen van de Generieke Digitale Infrastructuur (GDI),
+zoals de Basisregistraties.
+
+
+2.2 Waarom is deze standaard belangrijk?
+Digikoppeling maakt veilige gegevensuitwisseling tussen overheden mogelijk. De standaard
+beschrijft afspraken om gegevens juist te adresseren, leesbaar en uitwisselbaar te maken en
+veilig en betrouwbaar te verzenden. Digikoppeling wordt onder andere gebruikt om op een
+veilige manier aan te sluiten op basisregistraties.
+
+
+                                             1 van 3
+2.3 Wat is het functioneel toepassingsgebied van de standaard?
+Het functioneel toepassingsgebied is:
+
+“Digikoppeling moet worden toegepast bij digitale gegevensuitwisseling die plaatsvindt met
+voorzieningen die onderdeel zijn van de GDI, waaronder de basisregistraties, of die
+sectoroverstijgend is. De verplichting geldt voor gegevensuitwisseling tussen systemen
+waarbij er noodzaak is voor tweezijdige authenticatie.
+
+Geautomatiseerde gegevensuitwisseling tussen informatiesystemen op basis van NEN3610 is
+uitgesloten van het functioneel toepassingsgebied.”
+
+De versiewijziging is geen aanleiding voor het aanpassen van het functioneel
+toepassingsgebied voor de ‘Pas toe of leg uit’-registratie van Digikoppeling.
+
+
+2.4 Wat is er nieuw in de gewijzigde versie?
+Het Digikoppeling REST-API profiel is bijgewerkt voor verwijzing naar de nieuwe versies van
+FSC (2.0) en NLGov REST API Design Rules (2.1). De Digikoppeling Beveiligingstandaarden
+en voorschriften zijn wat betreft de XML signing parameters aangepast aan de laatste NCSC-
+richtlijnen. Ook is TLS 1.3 aangepast naar zeer aanbevolen, dit in verband met de
+voorbereiding op Post Quantum Cryptografie waarvan verwacht wordt dat algoritmen het
+eerst beschikbaar zullen komen voor TLS versie 1.3.
+
+Op de pagina Digikoppeling release 21 april 2026 staat gedetailleerde release-informatie met
+een overzicht van alle aanpassingen.
+
+
+3 Betrokkenen en proces
+Op 7 mei 2026 heeft Logius bij het Bureau van het Forum Standaardisatie deze standaard in
+de nieuwe versie release 21 april 2026 aangemeld om te blijven verplichten aan de overheid
+via plaatsing op de ‘Pas toe of leg uit’-lijst.
+
+Het OBDO heeft Logius voor deze standaard op 24 mei 2018 het predicaat ‘Uitstekend
+beheer’ toegekend. Dit betekent dat de nieuwe versie van deze standaard niet wordt getoetst
+(mits de nieuwe versie hetzelfde functioneel toepassingsgebied heeft als de versie die reeds
+op de lijst staat). De beheerorganisatie voldoet volledig aan het criterium ‘Open
+standaardisatieproces’. Het Forum Standaardisatie heeft het vertrouwen uitgesproken dat in
+het beheerproces alle mogelijke belangen die spelen rondom de standaard zorgvuldig worden
+afgewogen.
+
+Het Bureau Forum Standaardisatie heeft op 13 mei 2026 geconstateerd dat de wijzigingen in
+de nieuwe versie van de standaard geen dusdanige impact heeft dat een separate
+toetsingsprocedure nodig is.
+
+
+                                                  2 van 3
+Forum Standaardisatie ziet in de aangeleverde gegevens geen reden een toetsingsprocedure
+te starten voor de versiewijziging. Het OBDO blijft de standaard Digikoppeling in de nieuwe
+versie release 21 april 2026 verplichten aan de overheid (‘Pas toe of leg uit’).
+
+
+
+
+                                            3 van 3
+

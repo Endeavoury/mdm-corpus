@@ -1,0 +1,776 @@
+
+
+    
+
+    
+
+    
+
+        Master data quality barriers: An empirical investigation
+      -  University of Southern Denmark
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+        
+
+        
+
+    
+
+    
+
+    
+
+Skip to main navigation
+
+    Skip to search
+
+Skip to main content
+
+    
+
+            
+
+                
+
+                    
+                        University of Southern Denmark Home
+
+                    
+
+                
+
+                        
+
+                                
+
+                                    Help & FAQ
+                                      Link opens in a new tab
+
+                            
+
+                        
+
+                                
+
+                                
+
+                                    
+Dansk
+English
+
+                            
+
+                    
+
+                
+
+            
+
+        
+
+                
+
+    
+
+        
+
+            
+
+                
+
+                    Search content at University of Southern Denmark
+
+                
+
+                
+
+                    
+
+                    
+
+            
+
+    
+
+            
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                                
+
+                                    Home
+
+                                
+
+                                        Researchers
+
+                                
+
+                                        Research units
+
+                                
+
+                                        Research output
+
+                                
+
+                                        Activities
+
+                                
+
+                                        Projects
+
+                                
+
+                                        Datasets
+
+                                
+
+                                        Impacts
+
+                                
+
+                                        Press/Media
+
+                                
+
+                                        Prizes
+
+                                
+
+                                        Teaching
+
+                                
+
+                        
+
+                    
+
+            
+
+    
+
+    
+
+    
+
+        
+
+        
+
+        
+
+            
+
+        
+
+    
+
+        
+
+            
+
+Master data quality barriers: An empirical investigation
+
+Anders Haug
+, Jan Stentoft Arlbjørn
+, Frederik Zachariassen
+, Jakob Schlichter
+
+Department of Business and Sustainability
+
+            
+
+Research output: Contribution to journal › Journal article › Research › peer-review
+
+        
+
+    
+
+        
+
+                
+
+                    
+
+                        
+
+                                
+
+                        
+
+                        
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+    
+
+    
+
+    
+
+        
+
+                
+
+                    
+
+                        Overview
+
+                
+
+                    
+
+                        
+
+                            Fingerprint
+
+                    
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+            
+
+    
+
+    
+
+        
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+Abstract
+
+Purpose - The development of IT has enabled organizations to collect and store many times more data than they were able to just decades ago. This means that companies are now faced with managing huge amounts of data, which represents new challenges in ensuring high data quality. The purpose of this paper is to identify barriers to obtaining high master data quality. Design/methodology/approach - This paper defines relevant master data quality barriers and investigates their mutual importance through organizing data quality barriers identified in literature into a framework for analysis of data quality. The importance of the different classes of data quality barriers is investigated by a large questionnaire study, including answers from 787 Danish manufacturing companies. Findings - Based on a literature review, the paper identifies 12 master data quality barriers. The relevance and completeness of this classification is investigated by a large questionnaire study, which also clarifies the mutual importance of the defined barriers and the differences in importance in small, medium, and large companies. Research limitations/ implications - The defined classification of data quality barriers provides a point of departure for future research by pointing to relevant areas for investigation of data quality problems. The limitations of the study are that it focuses only on manufacturing companies and master data (i.e. not transaction data). Practical implications - The classification of data quality barriers can give companies increased awareness of why they experience data quality problems. In addition, the paper suggests giving primary focus to organizational issues rather than perceiving poor data quality as an IT problem. Originality/value - Compared to extant classifications of data quality barriers, the contribution of this paper represents a more detailed and complete picture of what the barriers are in relation to data quality. Furthermore, the presented classification has been investigated by a large questionnaire study, for which reason it is founded on a more solid empirical basis than existing classifications.
+
+Original languageEnglish
+JournalIndustrial Management & Data Systems
+Volume113
+Issue number2
+Pages (from-to)234-249
+Number of pages16
+ISSN0263-5577
+DOIs
+https://doi.org/10.1108/02635571311303550 
+Publication statusPublished - 2013
+
+                        
+
+                        
+
+                        
+
+Keywords
+Classification
+Data management
+Data quality
+Data quality barriers
+Denmark
+Enterprise data
+Information quality
+Manufacturing industries
+Master data
+
+                    
+
+                    
+
+                        
+
+Documents & Links
+
+10.1108/02635571311303550
+
+                        
+
+SDU LinkCheck access to the material in SDU Library's search engine
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+            
+
+        
+
+                
+
+                    
+
+                        
+
+                            
+                            Fingerprint
+
+                        
+                            Dive into the research topics of 'Master data quality barriers: An empirical investigation'. Together they form a unique fingerprint.
+
+                    
+
+                    
+
+                            
+
+    
+
+            
+            Questionnaire Study
+            Computer Science
+            100%
+
+    
+
+    
+
+                        
+
+    
+
+            
+            Data Quality
+            Social Sciences
+            100%
+
+    
+
+    
+
+                        
+
+    
+
+            
+            Data Analysis
+            Computer Science
+            33%
+
+    
+
+    
+
+                        
+
+    
+
+            
+            Transaction Data
+            Computer Science
+            33%
+
+    
+
+    
+
+                        
+
+    
+
+            
+            Literature Review
+            Computer Science
+            33%
+
+    
+
+    
+
+                        
+
+    
+
+            
+            Danish
+            Social Sciences
+            6%
+
+    
+
+    
+
+                        
+
+    
+
+            
+            Literature Reviews
+            Social Sciences
+            6%
+
+    
+
+    
+
+                        
+
+    
+
+            
+            Data Processing
+            Social Sciences
+            6%
+
+    
+
+    
+
+                        
+
+                    
+
+                        
+
+                            
+                                View full fingerprint
+
+                            
+
+                    
+
+            
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+            
+
+                
+
+    
+Cite this
+
+        
+
+                APA
+
+        
+
+                Author
+
+        
+
+                BIBTEX
+
+        
+
+                Harvard
+
+        
+
+                Standard
+
+        
+
+                RIS
+
+        
+
+                Vancouver
+
+        
+
+    
+
+        
+
+                
+Haug, A., Arlbjørn, J. S., Zachariassen, F., & Schlichter, J. (2013). Master data quality barriers: An empirical investigation. Industrial Management & Data Systems, 113(2), 234-249. https://doi.org/10.1108/02635571311303550
+
+        
+
+                
+Haug, Anders  ; Arlbjørn, Jan Stentoft ; Zachariassen, Frederik et al. / Master data quality barriers : An empirical investigation. In: Industrial Management & Data Systems. 2013 ; Vol. 113, No. 2. pp. 234-249.
+
+        
+
+                
+
+@article{0aa7f45d0cb64ab7bb7d1657823338c7,
+  title     = "Master data quality barriers: An empirical investigation",
+  abstract  = "Purpose - The development of IT has enabled organizations to collect and store many times more data than they were able to just decades ago. This means that companies are now faced with managing huge amounts of data, which represents new challenges in ensuring high data quality. The purpose of this paper is to identify barriers to obtaining high master data quality. Design/methodology/approach - This paper defines relevant master data quality barriers and investigates their mutual importance through organizing data quality barriers identified in literature into a framework for analysis of data quality. The importance of the different classes of data quality barriers is investigated by a large questionnaire study, including answers from 787 Danish manufacturing companies. Findings - Based on a literature review, the paper identifies 12 master data quality barriers. The relevance and completeness of this classification is investigated by a large questionnaire study, which also clarifies the mutual importance of the defined barriers and the differences in importance in small, medium, and large companies. Research limitations/ implications - The defined classification of data quality barriers provides a point of departure for future research by pointing to relevant areas for investigation of data quality problems. The limitations of the study are that it focuses only on manufacturing companies and master data (i.e. not transaction data). Practical implications - The classification of data quality barriers can give companies increased awareness of why they experience data quality problems. In addition, the paper suggests giving primary focus to organizational issues rather than perceiving poor data quality as an IT problem. Originality/value - Compared to extant classifications of data quality barriers, the contribution of this paper represents a more detailed and complete picture of what the barriers are in relation to data quality. Furthermore, the presented classification has been investigated by a large questionnaire study, for which reason it is founded on a more solid empirical basis than existing classifications.",
+  keywords  = "Classification, Data management, Data quality, Data quality barriers, Denmark, Enterprise data, Information quality, Manufacturing industries, Master data",
+  author    = "Anders Haug and Arlbj{\o}rn, \{Jan Stentoft\} and Frederik Zachariassen and Jakob Schlichter",
+  year      = "2013",
+  doi       = "10.1108/02635571311303550",
+  language  = "English",
+  volume    = "113",
+  pages     = "234--249",
+  journal   = "Industrial Management \& Data Systems",
+  issn      = "0263-5577",
+  publisher = "Emerald Group Publishing",
+  number    = "2",
+}
+
+        
+
+                
+Haug, A, Arlbjørn, JS, Zachariassen, F & Schlichter, J 2013, 'Master data quality barriers: An empirical investigation', Industrial Management & Data Systems, vol. 113, no. 2, pp. 234-249. https://doi.org/10.1108/02635571311303550
+
+        
+
+                
+Master data quality barriers: An empirical investigation. / Haug, Anders; Arlbjørn, Jan Stentoft; Zachariassen, Frederik et al. 
+In: Industrial Management & Data Systems, Vol. 113, No. 2, 2013, p. 234-249.
+Research output: Contribution to journal › Journal article › Research › peer-review
+
+        
+
+                
+
+TY  - JOUR
+T1  - Master data quality barriers
+T2  - An empirical investigation
+AU  - Haug, Anders
+AU  - Arlbjørn, Jan Stentoft
+AU  - Zachariassen, Frederik
+AU  - Schlichter, Jakob
+PY  - 2013
+Y1  - 2013
+N2  - Purpose - The development of IT has enabled organizations to collect and store many times more data than they were able to just decades ago. This means that companies are now faced with managing huge amounts of data, which represents new challenges in ensuring high data quality. The purpose of this paper is to identify barriers to obtaining high master data quality. Design/methodology/approach - This paper defines relevant master data quality barriers and investigates their mutual importance through organizing data quality barriers identified in literature into a framework for analysis of data quality. The importance of the different classes of data quality barriers is investigated by a large questionnaire study, including answers from 787 Danish manufacturing companies. Findings - Based on a literature review, the paper identifies 12 master data quality barriers. The relevance and completeness of this classification is investigated by a large questionnaire study, which also clarifies the mutual importance of the defined barriers and the differences in importance in small, medium, and large companies. Research limitations/ implications - The defined classification of data quality barriers provides a point of departure for future research by pointing to relevant areas for investigation of data quality problems. The limitations of the study are that it focuses only on manufacturing companies and master data (i.e. not transaction data). Practical implications - The classification of data quality barriers can give companies increased awareness of why they experience data quality problems. In addition, the paper suggests giving primary focus to organizational issues rather than perceiving poor data quality as an IT problem. Originality/value - Compared to extant classifications of data quality barriers, the contribution of this paper represents a more detailed and complete picture of what the barriers are in relation to data quality. Furthermore, the presented classification has been investigated by a large questionnaire study, for which reason it is founded on a more solid empirical basis than existing classifications.
+AB  - Purpose - The development of IT has enabled organizations to collect and store many times more data than they were able to just decades ago. This means that companies are now faced with managing huge amounts of data, which represents new challenges in ensuring high data quality. The purpose of this paper is to identify barriers to obtaining high master data quality. Design/methodology/approach - This paper defines relevant master data quality barriers and investigates their mutual importance through organizing data quality barriers identified in literature into a framework for analysis of data quality. The importance of the different classes of data quality barriers is investigated by a large questionnaire study, including answers from 787 Danish manufacturing companies. Findings - Based on a literature review, the paper identifies 12 master data quality barriers. The relevance and completeness of this classification is investigated by a large questionnaire study, which also clarifies the mutual importance of the defined barriers and the differences in importance in small, medium, and large companies. Research limitations/ implications - The defined classification of data quality barriers provides a point of departure for future research by pointing to relevant areas for investigation of data quality problems. The limitations of the study are that it focuses only on manufacturing companies and master data (i.e. not transaction data). Practical implications - The classification of data quality barriers can give companies increased awareness of why they experience data quality problems. In addition, the paper suggests giving primary focus to organizational issues rather than perceiving poor data quality as an IT problem. Originality/value - Compared to extant classifications of data quality barriers, the contribution of this paper represents a more detailed and complete picture of what the barriers are in relation to data quality. Furthermore, the presented classification has been investigated by a large questionnaire study, for which reason it is founded on a more solid empirical basis than existing classifications.
+KW  - Classification
+KW  - Data management
+KW  - Data quality
+KW  - Data quality barriers
+KW  - Denmark
+KW  - Enterprise data
+KW  - Information quality
+KW  - Manufacturing industries
+KW  - Master data
+U2  - 10.1108/02635571311303550
+DO  - 10.1108/02635571311303550
+M3  - Journal article
+SN  - 0263-5577
+VL  - 113
+SP  - 234
+EP  - 249
+JO  - Industrial Management & Data Systems
+JF  - Industrial Management & Data Systems
+IS  - 2
+ER  - 
+
+        
+
+                
+Haug A, Arlbjørn JS, Zachariassen F, Schlichter J. Master data quality barriers: An empirical investigation. Industrial Management & Data Systems. 2013;113(2):234-249. doi: 10.1108/02635571311303550
+
+        
+
+        
+
+            
+
+        
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+            
+
+            
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+            
+
+                
+
+                    
+
+                        
+
+                                
+
+                                    
+
+                            
+
+                        
+
+                            
+
+                                Powered by Pure Link opens in a new tab, Scopus Link opens in a new tab & Elsevier Fingerprint Engine™ Link opens in a new tab
+
+                            
+
+                                All content on this site: Copyright © 2026 University of Southern Denmark, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+
+                            
+We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the use of cookies
+
+                            
+
+Log in to Pure   Link opens in a new tab
+
+                            
+
+                        
+
+                        
+
+                            
+
+University of Southern Denmark data protection policy   Link opens in a new tab
+
+                            
+
+                                
+About web accessibility   Link opens in a new tab
+
+                            
+
+                                
+
+                            
+
+                                
+
+                            
+
+                                Report vulnerability   Link opens in a new tab
+
+                        
+
+                        
+
+                
+
+        
+
+            
+
+    
+
+    
+
+    
+
+    
+

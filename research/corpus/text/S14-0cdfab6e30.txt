@@ -1,0 +1,738 @@
+Expertadvies NL-SBB
+
+ Aan:                    Forum Standaardisatie
+
+ Van:                    InnoValor Advies
+
+ Datum:                  22 november 2024
+
+ Versie:                 1.0
+
+ Bijlagen:               geen
+
+
+
+1 Advies
+De experts die betrokken waren bij het expertonderzoek adviseren om NL-SBB te verplichten
+aan de overheid (‘Pas toe of leg uit’-verplichting) via plaatsing op de 'Pas toe of leg uit'-lijst
+van Forum Standaardisatie.
+
+Het voorgestelde functioneel toepassingsgebied voor NL-SBB is:
+
+        NL-SBB moet worden toegepast bij het beschrijven van begrippen in een
+        begrippenlijst, taxonomie of thesaurus met als doel deze begrippen eenduidig
+        en herbruikbaar vast te leggen.
+
+De standaard voor het beschrijven van begrippen (NL-SBB) geeft aan hoe begrippen in een
+begrippenlijst, taxonomie of thesaurus eenduidig worden beschreven. NL-SBB biedt een kader
+voor het vastleggen van begrippen. Het begrippenkader ‘vangt’ de betekenis van een begrip.
+NL-SBB ondersteunt uitleg in begrijpelijke taal (B1 niveau) en de verwijzing naar de
+(juridische) grondslag van een begrip in een geschreven bron of een bron op het internet
+(zoals wetten.nl).
+
+Geonovum heeft het verzoek ingediend in aanmerking te komen voor het predicaat
+‘uitstekend beheer’ voor de NL-SBB standaard. Daarmee hoeven de toekomstige versies van
+NL-SBB in principe niet weer getoetst te worden. De experts hebben het vertrouwen
+uitgesproken in het open standaardisatieproces van Geonovum om het predicaat ‘uitstekend
+beheer’ toe te kennen.
+
+Tijdens de intakefase van de standaard is een aantal punten benoemd die in dit
+expertonderzoek nader zijn bekeken:
+   -   Wat is de samenhang tussen NL-SBB en begripsdefinities/begripsbepalingen in
+       wetgeving?
+   -   Is er voldoende draagvlak bij de overheid voor het toepassen van de standaard?
+   -   Is er de verwachting dat er vanuit de markt ondersteuning en opleidingen zullen
+       worden aangeboden voor het toepassen van NL-SBB?
+
+In de rest van dit document wordt dit advies nader onderbouwd. Hoofdstuk 2 geeft een korte
+beschrijving van het nut en de mogelijkheden van de standaard. Hoofdstuk 3 beschrijft het
+proces waarmee dit advies tot stand kwam, alsmede de vervolgstappen. Hoofdstuk 4 geeft de
+samenstelling van de expertgroep weer. Hoofdstuk 5 documenteert hoe de experts de
+standaard beoordelen tegen de criteria voor opname op de lijst.
+
+Tenslotte geeft hoofdstuk 6 aanvullende adviezen van de experts aan het Forum
+Standaardisatie en het Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) om de
+adoptie van de standaard te stimuleren.
+
+
+
+
+                                          2 van 16
+2 Korte beschrijving van de standaard
+2.1 Over de standaard
+De standaard voor het beschrijven van begrippen (NL-SBB) geeft aan hoe begrippen in een
+begrippenlijst, taxonomie of thesaurus eenduidig worden beschreven. NL-SBB biedt een kader
+voor het vastleggen van begrippen. Het begrippenkader ‘vangt’ de betekenis van een begrip.
+Er is aandacht voor uitleg in begrijpelijke taal (B1-niveau) en de verwijzing naar de
+(juridische) grondslag van een begrip in een geschreven bron of een bron op het internet
+(zoals wetten.nl).
+
+De standaard is zo opgezet dat een begrippenkader volgens NL-SBB als linked data kan
+worden gepubliceerd. Daarbij wordt gebruik gemaakt van met name SKOS en Linked Data,
+maar kan ook los daarvan gebruikt worden. Daarmee kunnen organisaties los van het niveau
+van de door hen gebruikte technologie de standaard toepassen als eerste stap op weg naar
+semantische interoperabiliteit.
+
+2.2 Waarom is deze standaard belangrijk?
+Het toepassen van NL-SBB helpt om de betekenis van begrippen die de overheid gebruikt in
+begrijpelijk Nederlands te kunnen uitleggen. De betekenis en grondslag van gegevens is van
+groot belang voor het kunnen begrijpen en goed kunnen interpreteren van die gegevens. Dit
+geldt voor (semi-)overheidsorganisaties onderling, maar zeker ook voor burgers en bedrijven.
+Bij verantwoorde gegevensuitwisseling hoort een duidelijke bijsluiter met de context en
+betekenis van de gegevens.
+
+De standaard draagt tevens bij aan een betere samenwerking tussen overheden door het
+standaardiseren van afspraken rondom het gebruik van basisregistraties en
+berichtenuitwisseling tussen overheden. Hierdoor wordt het mogelijk om de overheid als één
+overheid te benaderen. Mede door de standaard kunnen overheden een integrale aanpak en
+dienstverlening aanbieden. Burgers en bedrijven hebben hier baat bij doordat hun vraag
+beter beantwoord kan worden.
+
+Met NL-SBB is er daarnaast zicht op waar gebruikte begrippen hun oorsprong vinden in wet-
+en regelgeving. Daarmee is ook de rechtmatigheid van het handelen naar deze begrippen
+geborgd. Hierdoor kunnen bronnen ook op een later moment herleid worden en kan
+nagezocht worden dat handelingen correct zijn uitgevoerd.
+
+Met recente ontwikkelingen zoals generatieve Artificial Intelligence (AI) via large language
+models (LLM’s) is het beter dat de overheid zelf begrippen vastlegt in plaats van dat AI (via
+LLM’s) definities samenstelt (‘verzint’). Dit leidt tot meer betrouwbare overheidsinformatie en
+betere informatievoorziening.
+
+
+
+
+                                           3 van 16
+3 Betrokkenen en proces
+Op 22 november 2023 heeft het Kadaster NL-SBB aangemeld voor het verplichten aan de
+overheid (‘Pas toe of leg uit’-verplichting) via plaatsing op de 'Pas toe of leg uit'-lijst van
+Forum Standaardisatie.
+
+Op woensdag 10 april 2024 heeft een intakegesprek plaatsgevonden met de indiener, de
+procedurebegeleider InnoValor Advies en Bureau Forum Standaardisatie. In dit gesprek is
+onderzocht of NL-SBB voldoet aan de criteria om in procedure genomen te worden. De
+resultaten van het onderzoek zijn vastgelegd in het intakeadvies. Op basis van dit
+intakeadvies heeft het Forum Standaardisatie op 19 juni 2024 besloten de aanmelding in
+procedure te nemen.
+
+Hierop volgend heeft de procedurebegeleider in overleg met de indiener en Bureau Forum
+Standaardisatie een expertgroep samengesteld en een voorzitter aangesteld.
+
+De leden van de expertgroep hebben een voorbereidingsdossier gekregen dat is
+samengesteld met informatie uit de aanmelding en het intake-onderzoek. Voorafgaand aan
+de expertbijeenkomst heeft de expertgroep dit voorbereidingsdossier doorgenomen en
+aandachtspunten geïdentificeerd.
+
+De expertgroep is op 17 oktober bijeengekomen om de bevindingen in het algemeen en de
+geïdentificeerde aandachtspunten in het bijzonder te bespreken. Tijdens deze bijeenkomst
+zijn ook het toepassings- en werkingsgebied vastgesteld. Dit expertadvies geeft de uitkomst
+van de expertgroep weer.
+
+Het Bureau Forum Standaardisatie publiceert dit expertadvies ter openbare consultatie op
+internetconsultatie.nl. Na afsluiting van de openbare consultatie koppelt het Bureau Forum
+Standaardisatie de reacties terug aan de expertgroep. Indien nodig kan dit aanleiding geven
+tot een aanvullend expertonderzoek.
+
+Het Forum Standaardisatie formuleert op basis van het expertadvies, reacties uit de openbare
+consultatie en inzichten van de leden van het Forum Standaardisatie zelf een advies aan het
+Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO). Het OBDO besluit om het advies
+wel of niet over te nemen.
+
+
+4 Samenstelling van de expertgroep
+Forum Standaardisatie streeft naar een representatieve expertgroep met een evenwichtige
+publiek-private vertegenwoordiging van (toekomstige) gebruikers, leveranciers,
+wetenschappers en andere belanghebbenden. De expertgroep heeft een onafhankelijke
+voorzitter die de expertbijeenkomst leidt.
+
+Aan de expertbijeenkomst hebben deelgenomen:
+
+      -   Jesse Bakker (Kadaster – Indiener)
+                                          4 van 16
+        -   André van Brussel (ICTU)
+        -   Danny Greefhorst (Bureau MIDO)
+        -   Joop van der Heiden (Rijksdienst voor het Cultureel Erfgoed)
+        -   Karima Lakbila (Immigratie- en Naturalisatiedienst)
+        -   Mariette Lokin (Hooghiemstra & Partners)
+        -   Hans Sinnige (Stichting RINIS)
+        -   Frank Terpstra (Geonovum)
+        -   Jan Willem van Veen (ArchiXL)
+
+Als onafhankelijk voorzitter is opgetreden Claudia Vermeulen, Managing Partner bij InnoValor
+Advies. Ruud Kosman, Managing Partner bij InnoValor Advies, heeft de procedure in opdracht
+van het Bureau Forum Standaardisatie begeleid.
+
+Joram Verspaget, Hans Laagland en Reindert Gerding van het Bureau Forum Standaardisatie
+waren als toehoorder bij de expertbijeenkomst aanwezig.
+
+
+5 Toetsing op inhoudelijke criteria
+Het Forum Standaardisatie hanteert vier hoofdcriteria om te bepalen of een standaard in
+aanmerking komt voor verplichten aan de overheid (‘Pas toe of leg uit’-verplichting) via
+plaatsing op de 'Pas toe of leg uit'-lijst van Forum Standaardisatie:
+
+   1. Heeft de standaard toegevoegde waarde?
+   2. Zijn de standaard en het standaardisatieproces voldoende open?
+   3. Heeft de standaard voldoende draagvlak?
+   4. Bevordert opname van de standaard op de ‘Pas toe of leg uit’-lijst de adoptie?
+
+Ieder van deze hoofdcriteria heeft deelcriteria die beschreven staan op de website van het
+Forum Standaardisatie. Dit hoofdstuk beschrijft per criterium het resultaat van de toetsing.
+
+5.1 Toegevoegde waarde
+Met dit criterium wordt bepaald of het toepassingsgebied van de standaard duidelijk is, of
+deze zich goed verhoudt tot andere standaarden die al dan niet op de lijst staan, of de
+standaard een duidelijke meerwaarde heeft en of deze opweegt tegen eventuele risico’s en
+nadelen.
+
+5.1.1       Waardering van het criterium criteria ‘Toegevoegde waarde’
+
+De experts komen tot de conclusie dat NL-SBB voldoet aan het criterium ‘toegevoegde
+waarde’. Deze conclusie wordt in de volgende paragrafen toegelicht.
+
+5.1.2       Is het toepassings- en werkingsgebied van de aanmelding goed
+            gedefinieerd?
+
+5.1.2.1 Is het functioneel toepassingsgebied goed gedefinieerd?
+
+Het voorgestelde functioneel toepassingsgebied voor NL-SBB op de ‘Pas toe of leg uit’-lijst is:
+
+                                             5 van 16
+        NL-SBB moet worden toegepast bij het beschrijven van begrippen in een
+        begrippenlijst, taxonomie of thesaurus met als doel deze begrippen eenduidig
+        en herbruikbaar vast te leggen.
+
+De experts oordelen dat dit functioneel toepassingsgebied voldoende duidelijk is en het
+verplichte gebruik van de standaard eenduidig beschrijft.
+
+5.1.2.2 Is het organisatorisch werkingsgebied goed gedefinieerd?
+
+Het voorgestelde organisatorisch werkingsgebied voor NL-SBB op de ‘Pas toe of leg uit’ lijst
+is:
+
+        Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en
+        instellingen uit de (semi-)publieke sector.
+
+Dit is het gangbare organisatorisch werkingsgebied voor standaarden op de ‘Pas toe of leg
+uit’-lijst van het Forum Standaardisatie.
+
+Het beoogde functioneel toepassingsgebied en het organisatorisch werkingsgebied van de
+standaard is voldoende breed om substantieel bij te dragen aan de interoperabiliteit van de
+(semi-)overheid. De functionele toepassing van de standaard overstijgt het organisatorisch
+werkingsgebied van een enkele organisatie of sector.
+
+5.1.2.3 Is de standaard generiek toepasbaar (en niet alleen bedoeld voor
+         gegevensuitwisseling met één of een beperkt aantal specifieke
+         organisaties)?
+
+Ja, de standaard kan over de grenzen van organisaties of sectoren gebruikt worden en is niet
+alleen bedoeld voor gegevensuitwisseling binnen één organisatie of sector. Het vastleggen
+van begrippen is essentieel om samen te kunnen werken tussen organisaties en domeinen en
+bevordert ook machineleesbare verwerking van gegevens.
+
+5.1.3    Verhoudt de standaard zich goed tot andere standaarden?
+
+5.1.3.1 Kan de standaard naast of in combinatie met reeds opgenomen standaarden
+         worden toegepast?
+
+Ja, de standaard kan worden toegepast in combinatie met de SKOS-standaard van de ‘Pas
+toe of leg uit’-lijst van het Forum Standaardisatie. NL-SBB verhoogt de eenduidigheid in
+SKOS gepubliceerde begrippen en hun eigenschappen, zoals hun definitie, uitleg en
+toelichting. Daarmee wordt het eenvoudiger om begrippen uit andere begrippenkaders
+naadloos over te nemen. SKOS is een generieke standaard. NL-SBB is een set van meer
+specifieke afspraken over hoe begrippen eenduidig moeten worden beschreven.
+
+Daarnaast is NL-SBB ook in andere contexten toepasbaar, waarmee bijvoorbeeld organisaties
+die nog niet de stap richting linked data hebben gemaakt al wel qua inhoud en structuur
+interoperabele beschrijvingen kunnen maken. In NL-SBB zitten ook elementen die geen
+relatie met de SKOS-standaard hebben, denk aan concepten zoals grondslag of begrijpelijke
+taal.
+                                            6 van 16
+Daarnaast is er een samenhang met het de MIM-standaard (Metamodel Informatie
+Modellering) van de lijst aanbevolen standaarden van het Forum Standaardisatie. MIM
+onderkent vier niveaus van modellen van kennis, informatie en gegevens:
+
+•   Niveau 1: Model van begrippen
+•   Niveau 2: Conceptueel informatiemodel
+•   Niveau 3: Logisch informatie- of gegevensmodel
+•   Niveau 4: Fysiek of technisch gegevens- of datamodel
+
+NL-SBB kan worden gezien als een invulling van niveau 1. MIM kent voor modelelementen die
+op niveau 2 of 3 worden uitgedrukt een verwijzing naar begrippen.
+
+Tot slot zien de experts ook een link met DCAT van de lijst aanbevolen standaarden, een
+metastandaard die datasets van op het internet gepubliceerde gegevenscatalogi beschrijft.
+NL-SBB kan hierbij van toegevoegde waarde zijn in het beter vindbaar maken van datasets
+door deze te voorzien van begrippen.
+
+5.1.3.2 Biedt de aangemelde standaard meerwaarde boven reeds opgenomen
+         standaarden met een overlappend functioneel toepassings- en
+         organisatorisch werkingsgebied?
+
+Ja, de enige standaard met overlappend functioneel toepassings- en organisatorisch
+werkingsgebied is de SKOS-standaard. NL-SBB verhoogt de eenduidigheid in SKOS
+gepubliceerde begrippen en hun eigenschappen, zoals hun definitie, uitleg en toelichting.
+Daarmee wordt het eenvoudiger om begrippen uit andere begrippenkaders naadloos over te
+nemen. SKOS is een generieke standaard. NL-SBB is een set van meer specifieke afspraken
+over hoe je dergelijke beschrijvingen eenduidig en begrijpelijk (taalniveau B1) maakt.
+Nederlandse woorden worden met NL-SBB gestandaardiseerd en herleidbaar vastgelegd.
+Daarnaast is deze standaard ook in andere contexten toepasbaar, waarmee bijvoorbeeld
+organisaties die nog niet de stap richting linked data hebben gemaakt al wel qua inhoud en
+structuur interoperabele beschrijvingen kunnen maken. De stap naar publicatie op het
+internet is dan slechts een technische.
+
+5.1.3.3 Biedt de aangemelde standaard meerwaarde boven bestaande
+         concurrerende standaarden die in aanmerking zouden kunnen komen voor
+         opname?
+
+Ja, NL-SBB biedt meerwaarde boven bestaande concurrerende standaarden, doordat NL-SBB
+beter aansluit in de context van de overheid. NL-SBB is aanvullend op bijvoorbeeld ISO
+25964 (Thesauri for information retrieval) met voor de overheid essentiële elementen zoals
+uitleg in begrijpelijke taal en verbinding met de juridische grondslag.
+
+5.1.3.4 Is de standaard een internationale standaard of sluit de standaard aan bij
+         relevante internationale standaarden?
+
+Internationaal is er nog geen standaard zoals de NL-SBB. Wel bouwt de standaard voort op
+internationale standaarden zoals SKOS en gebruikt het standaarden zoals ISO 25964 als
+bouwblokken. Aspecten uit de ISO 25964 voor thesauri wordt aangevuld met voor de
+                                        7 van 16
+overheid essentiële elementen als uitleg in begrijpelijke taal en verbinding met de juridische
+grondslag.
+
+5.1.4    Wegen de voordelen van de standaard op tegen de nadelen?
+
+5.1.4.1 Zijn de kosten van implementatie acceptabel en zijn deze kosten bekend en
+         inzichtelijk?
+
+Ja, de kosten, risico’s en nadelen wegen op tegen de baten van de adoptie van NL-SBB. Een
+expliciete beschrijving van de door de (semi-)overheid gebruikte begrippen met een uitleg in
+begrijpelijke taal en verbinding met de (juridische) grondslag is randvoorwaarde voor een
+toegankelijke en betrouwbare overheid, en juist hiervoor zorgt NL-SBB. De waarde daarvan is
+niet als zodanig in geld uit te drukken.
+
+NL-SBB maakt het eenvoudiger om begrippen uit andere begrippenkaders naadloos over te
+nemen. Dit levert kwaliteitswinst op en bespaart uren aan inzet om begrippen klaar te maken
+voor aanlevering aan een catalogus.
+
+Door good practices via deze standaard te delen en door een markt die op basis van deze
+open standaarden middelen kan ontwikkelen om begrippen te beheren en te publiceren, kan
+deze standaard per saldo tot een kostenbesparing leiden, zowel voor organisaties die
+begrippenkaders willen publiceren als voor de overheid als geheel en voor de maatschappij
+die deze begrippen (her)gebruiken.
+
+5.1.4.2 Is er een (kwalitatieve) businesscase van de standaard aanwezig?
+
+Ja, NL-SBB draagt bij aan verhoogde toegankelijkheid en betrouwbaarheid. NL-SBB zorgt
+voor eenduidige beschrijvingen van begrippen in begrijpelijke taal (B1-niveau) met verwijzing
+naar de (juridische) grondslag. NL-SBB bevordert de efficiënte publicatie en uitwisseling van
+begrippen. Dit bespaart tijd en middelen doordat aparte export- en vertaalslagen tussen
+begrippencatalogi overbodig worden. Ter illustratie, de Basisregistratie Ondergrond (BRO)
+kent grofweg driemaal zoveel begrippen als alle andere basisregistraties bij elkaar. Deze
+worden momenteel gepubliceerd op definities.geostandaarden.nl en op stelselcatalogus.nl. Nu
+kennen beide een ander aanleverformaat waardoor er jaarlijks veel uren in (deels
+handmatige) conversie gaan zitten. Met de adoptie van NL-SBB kunnen straks deze begrippen
+geautomatiseerd in één formaat aan beide voorzieningen aangeleverd worden, hetgeen veel
+inspanning scheelt.
+
+NL-SBB bevordert toegankelijkheid door begrijpelijke taal en juridische onderbouwing te
+bieden en bespaart kosten door efficiëntere processen en minder foutgevoelige
+communicatie. Daarnaast stimuleert NL-SBB een open markt waarin leveranciers oplossingen
+kunnen ontwikkelen die aansluiten bij de overheidsbehoeften.
+
+5.1.4.3 Is de meerwaarde van de standaard goed inzichtelijk te maken?
+
+Deze standaard draagt bij aan de oplossing van een bestaand en relevant probleem. Op
+allerlei plekken worden begrippen gepubliceerd door de overheid. Dat zijn vaak soortgelijke
+begrippen, maar dan net op een andere manier beschreven. Een samenhangende en
+                                           8 van 16
+interoperabele begrippencatalogus is alleen bruikbaar als de catalogus eenduidig beschreven
+is, iets wat nu vaak niet het geval is. NL-SBB zorgt niet dat deze verschillen worden
+weggenomen, maar maakt deze inzichtelijk.
+
+Bovendien is het bij de publicatie van begrippen efficiënter als die begrippen eenmalig
+gepubliceerd kunnen worden. Dat zorgt ervoor dat de begrippen hergebruikt kunnen worden
+zonder dat een aparte export- en vertaalslag tussen begrippencatalogi nodig is. Een
+dergelijke export kost dagen aan tijd om te realiseren. Als het dagen duurt om begrippen aan
+te leveren aan andere organisaties, kunnen organisaties ervoor kiezen om het niet te doen.
+Met NL-SBB kan er sneller gedeeld worden, waardoor er een grotere kans is dat organisaties
+wel begrippen delen. Dit is op dit moment het geval, bijvoorbeeld bij het inlezen van de
+stelselcatalogus of bij de samenhangende catalogus voor het gehele Digitaal Stelsel
+Omgevingswet (DSO). Als iedereen dezelfde begrippen beschrijft is een dergelijke vertaalslag
+niet meer nodig.
+
+Tevens ondersteunt eenduidige beschrijving en vastlegging van begrippen de mogelijkheid
+om bij ontwikkeling van nieuw beleid en wetgeving aan te sluiten bij bestaande begrippen en
+contexten.
+
+Met NL-SBB wordt een open standaard geboden die marktpartijen kunnen ondersteunen om
+middelen te ontwikkelen waarmee begrippen op een eenduidige, semantisch interoperabele
+manier kunnen worden beschreven en gepubliceerd.
+
+5.1.4.4 Zijn de beveiligingsrisico’s aan overheidsbrede adoptie van de standaard
+         acceptabel?
+
+Niet van toepassing. De experts hebben geen kennis van veiligheidsrisico’s die het gebruik
+van deze standaard met zich mee zou kunnen brengen.
+
+5.1.4.5 Zijn de privacyrisico’s aan overheidsbrede adoptie van de standaard
+         acceptabel?
+
+Niet van toepassing. De experts hebben geen kennis van privacyrisico’s die het gebruik van
+deze standaard met zich mee zou kunnen brengen.
+
+5.2 Open standaardisatieproces
+Met dit criterium wordt bepaald of het beheer en de (door)ontwikkeling van de standaard op
+een open, toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze zijn ingericht.
+
+5.2.1    Waardering van het criterium criteria ‘open standaardisatieproces’
+
+De experts komen tot de conclusie dat NL-SBB voldoet aan het criterium ‘open
+standaardisatieproces’. Deze conclusie wordt in de volgende paragrafen toegelicht.
+
+Ook spreken de experts het vertrouwen uit in het open standaardisatieproces om het
+predicaat ‘uitstekend beheer’ toe te kunnen kennen.
+
+
+
+                                           9 van 16
+5.2.2    Is de documentatie voor een ieder drempelvrij beschikbaar?
+
+5.2.2.1 Is het specificatiedocument zonder belemmeringen beschikbaar?
+
+Ja, het specificatiedocument staat op een vrij toegankelijke webpagina. Alle documentatie
+over het ontwikkel- en beheerproces is beschikbaar via een openbare github repository.
+
+5.2.2.2 Is de documentatie over het ontwikkel- en beheerproces beschikbaar
+         zonder dat er sprake is van belemmeringen?
+
+Ja, het beheerproces is transparant en het besluitvormingsproces van Geonovum is
+toegankelijk. Geonovum voert het beheer op de standaard. Geonovum kent hiervoor een
+standaard (op BOMOS gebaseerd) proces voor het beheer van standaarden dat voorziet in
+inspraak via werkgroepen, open ontwikkeling en consultatie van standaarden, en
+mogelijkheid tot het indienen van wijzigingsvoorstellen en formeel bezwaar maken. De
+huidige werkgroep van auteurs van de standaard kent een brede vertegenwoordiging van de
+overheid en blijft bestaan voor de doorontwikkeling en inhoudelijk beheer van de standaard.
+Geonovum verzorgt het secretariaat voor het beheer van de standaard. Geonovum heeft
+algemeen beleid met betrekking tot versiebeheer. Een beheerplan en de beheerdocumentatie
+zijn beschikbaar. Dit algemene beleid is ook van toepassing op NL-SBB.
+
+5.2.3    Is het intellectuele eigendomsrecht voor eenieder beschikbaar, zodat
+         de standaard vrij implementeerbaar en te gebruiken is?
+
+5.2.3.1 Stelt de standaardisatieorganisatie het intellectueel eigendomsrecht op de
+         standaard onherroepelijk royalty-free voor eenieder beschikbaar?
+
+Het intellectueel eigendomsrecht op de standaard is royalty-free beschikbaar voor eenieder
+onder Creative Commons attribution 4.0 international public license. Hierin is tevens te
+vinden dat partijen die bijdragen aan de ontwikkeling van de standaard hun intellectueel
+eigendomsrecht royalty-free voor eenieder ter beschikking stellen.
+
+5.2.3.2 Garandeert de standaardisatieorganisatie dat partijen die bijdragen aan de
+         ontwikkeling van de standaard hun intellectueel eigendomsrecht voor
+         (onderdelen van) de standaard onherroepelijk royalty-free voor eenieder
+         beschikbaar stellen?
+
+Zie 5.2.3.1.
+
+5.2.4    Is de inspraak van eenieder in voldoende mate geborgd?
+
+5.2.4.1 Is het besluitvormingsproces toegankelijk voor alle belanghebbenden?
+
+Ja, Geonovum kent hiervoor een standaard (op BOMOS gebaseerd) proces voor het beheer
+van standaarden. Deze voorziet in inspraak via werkgroepen, open ontwikkeling en
+consultatie van standaarden, en mogelijkheid tot het indienen van wijzigingsvoorstellen.
+
+
+
+
+                                          10 van 16
+5.2.4.2 Vindt besluitvorming plaats op een wijze die zoveel mogelijk recht doet aan
+         de verschillende belangen?
+
+Ja, het besluitvormingsproces is gebaseerd op consensus. De huidige standaard is inhoudelijk
+vastgesteld binnen de governance van de GDI. Dat wil zeggen dat de Programmeringstafel
+Gegevensuitwisseling en de Architectuurraad Digitale Overheid positief geadviseerd hebben
+aan de programmeringsraad GDI. De programmeringsraad GDI heeft mandaat van het OBDO
+om standaarden vast te stellen en heeft dit dan ook gedaan op 10 oktober 2024. Volgende
+versies zullen ook via de governance van de GDI worden vastgesteld. Deze governance-
+structuur kent brede vertegenwoordiging vanuit stakeholders in de e-overheid.
+
+5.2.4.3 Kan een belanghebbende formeel bezwaar aantekenen tegen de gevolgde
+         procedure?
+
+Ja, dit kan via de helpdesk die bezwaren en klachten doorzet naar de Programmaraad
+Geonovum. Deze ziet toe op het goed functioneren van het standaardenbeheer bij
+Geonovum.
+
+5.2.4.4 Organiseert de standaardisatieorganisatie regelmatig overleggen met
+         belanghebbenden over doorontwikkeling en beheer van de standaard?
+
+Ja, iedere zes weken komen de leden van de werkgroep van de auteurs van de standaard
+bijeen. In deze werkgroep is een brede vertegenwoordiging van de belanghebbenden
+vertegenwoordigd. Werkprocessen zijn open en transparant. Het belang van de Nederlandse
+overheid is geborgd via de governance van het MIDO. Daarnaast informeert en betrekt
+Geonovum de community via de website en de verschillende nieuwsbrieven over
+ontwikkelingen rond de standaard.
+
+5.2.4.5 Organiseert de standaardisatieorganisatie een openbare consultatie voordat
+         (een nieuwe versie van) de standaard wordt vastgesteld?
+
+Ja, nieuwe versies worden volgens de principes van semantic versioning beheerd: een x-
+wijziging (deze wijzigingen veranderen de structuur van de standaard) of een y-wijziging (dit
+zijn wijzigingen die niet de structuur veranderen) worden in een openbare consultatie
+getoetst. Toetsing van een z-wijziging (in feite oplossingen van technische fouten of
+verbeteringen van technische aard door redactionele verduidelijkingen op typefouten, punten,
+komma’s met een eventuele extra uitleg) vindt plaats door middel van een (beperkte)
+consultatie met stakeholders.
+
+Geonovum kent hiervoor een standaard (op BOMOS gebaseerd) proces voor het beheer van
+standaarden. Deze voorziet in inspraak via werkgroepen, open ontwikkeling en consultatie
+van standaarden en de mogelijkheid tot het indienen van wijzigingsvoorstellen en formeel
+bezwaar maken. De huidige werkgroep is een brede vertegenwoordiging van de overheid en
+blijft bestaan voor de doorontwikkeling en inhoudelijk beheer van de standaard.
+
+
+
+
+                                          11 van 16
+5.2.5    Is de standaardisatieorganisatie onafhankelijk en duurzaam?
+
+5.2.5.1 Is de ontwikkeling en het beheer van de standaard belegd bij een
+         onafhankelijke non-profit standaardisatieorganisatie?
+
+Ja, Geonovum is een onafhankelijke non-profit-stichting.
+
+5.2.5.2 Is de financiering van de ontwikkeling en het onderhoud van de standaard
+         voor tenminste drie jaar gegarandeerd?
+
+Ja, het ministerie van BZK heeft de toezegging gedaan voor de financiering voor het beheer
+van de standaard voor drie jaar te zorgen. Vertegenwoordiging van het Forum
+Standaardisatie heeft de opdrachtbrief van het ministerie van BZK, waarin de benodigde
+garanties zijn vastgelegd, ingezien.
+
+5.2.6    Is het (versie) beheer van de standaard goed geregeld?
+
+5.2.6.1 Heeft de standaardisatieorganisatie gepubliceerd beleid met betrekking tot
+         (versie)beheer van de standaard?
+
+Ja, Geonovum heeft algemeen beleid met betrekking tot versiebeheer. Een beheerplan en de
+beheerdocumentatie zijn beschikbaar.
+
+5.2.6.2 Is de beheerdocumentatie goed vindbaar en verkrijgbaar?
+
+Ja, een beheerplan en de beheerdocumentatie zijn beschikbaar via de website van
+Geonovum.
+
+5.2.6.3 Is het belang van de Nederlandse overheid voldoende geborgd bij de
+         ontwikkeling en het beheer van de standaard?
+
+Ja, NL-SBB is onderdeel van de GDI-architectuur domein gegevensuitwisseling. Daarmee is
+geborgd dat deze in de programmering van de GDI in beeld blijft.
+
+5.2.6.4 Is de vertegenwoordiging van belanghebbenden bij het beheer van de
+         standaard een goede representatie van het werkingsgebied en functioneel
+         toepassingsgebied van de standaard?
+
+Ja, Geonovum kent hiervoor een standaard (op BOMOS gebaseerd) proces voor het beheer
+van standaarden dat voorziet in inspraak via werkgroepen, open ontwikkeling en consultatie
+van standaarden en de mogelijkheid tot het indienen van wijzigingsvoorstellen.
+
+De werkgroep (een brede groep betrokkenen die de standaard heeft opgesteld) zal blijven
+bestaan in de vorm van een werkgroep die zich bezighoudt met de doorontwikkeling en het
+beheer van de standaard volgens de beheerprocessen van Geonovum.
+
+
+
+
+                                         12 van 16
+5.2.6.5 Is het standaardisatieproces van de standaardisatieorganisatie zodanig
+         goed geregeld dat het Forum zich kan onthouden van aanvullende toetsing
+         bij de aanmelding van een nieuwe versie van de standaard?
+
+Ja, de experts zijn het erover eens dat de Geonovum in aanmerking komt voor het predicaat
+‘uitstekend beheer’.
+
+Geonovum kent voor het beheer van standaarden een (op BOMOS gebaseerd) proces voor
+het beheer van standaarden, dat voorziet in inspraak via werkgroepen, open ontwikkeling en
+consultatie van standaarden en de mogelijkheid tot het indienen van wijzigingsvoorstellen en
+formeel bezwaar maken. Daarnaast is het belang van de overheid geborgd via de governance
+van het MIDO. Dit proces is ook van toepassing op het beheer van de NL-SBB-standaard.
+
+Geonovum heeft eerder voor een aantal andere door Geonovum beheerde standaarden op de
+‘Pas toe of leg uit’-lijst het predicaat ‘uitstekend beheer’ van het Forum Standaardisatie
+gekregen.
+
+5.2.7    Is er adoptieondersteuning voor de standaard?
+
+5.2.7.1 Is er een toegankelijk aanspreekpunt of organisatie waar meer informatie
+         over de standaard is te vinden en op te vragen is?
+
+Ja, Geonovum is aanspreekpunt.
+
+5.2.7.2 Wordt er ondersteuning gegeven in de adoptie en de implementatie van de
+         standaard?
+
+Ja, de verwachting is dat er vanuit de markt ook opleidingen zullen ontstaan. In het
+beheerplan 2024 worden de adoptie activiteiten van Geonovum beschreven. Met name het
+verzamelen van implementatie ervaringen en publiceren van best practices op basis daarvan.
+Het beheerplan voor 2025 is nog niet vastgesteld, maar voor nu is de verwachting dat daarin
+extra aandacht komt voor het gebruik van tooling (zowel specifieke tooling voor de standaard
+als het toepassen van generieke linked data tools op de NL-SBB). Daarnaast wordt er gewerkt
+aan de relatie tussen stelselcatalogus, data.overheid.nl en developer.overheid.nl en de rol die
+NL-SBB hierin kan spelen. Tot slot wordt de mogelijkheid bekeken om over NL-SBB
+gezamenlijk met de MIM-standaard een fysiek evenement te organiseren.
+
+5.3 Draagvlak
+Met dit criterium wordt bepaald of de opname van de standaard op de ‘Pas toe of leg uit’-lijst
+of lijst aanbevolen standaarden op voldoende breed draagvlak kan rekenen binnen de
+overheid. Een voorwaarde hierbij is ook dat er voldoende marktondersteuning voor de
+standaard bestaat en dat het marktaanbod evenwichtig is (dus geen
+leveranciersafhankelijkheid in de hand werkt).
+
+5.3.1    Waardering van het criterium criteria ‘draagvlak’
+
+De experts komen tot de conclusie dat NL-SBB voldoet aan het criterium ‘draagvlak’. Deze
+conclusie wordt in de volgende paragrafen toegelicht.
+                                         13 van 16
+5.3.2    Bestaat er voldoende marktondersteuning voor de standaard?
+
+5.3.2.1 Bieden meerdere leveranciers ondersteuning voor de standaard?
+
+Ja, maar beperkt. Er is één leverancier die implementatie volledig ondersteunt en er zijn er in
+ieder geval drie leveranciers bekend die de standaard kunnen inrichten in hun product(en).
+Over het algemeen betreft het een kleine markt in Nederland.
+
+5.3.2.2 Kan een gebruiker de conformiteit van de implementatie van de standaard
+         (laten) toetsen?
+
+Ja, er is een SHACL specificatie beschikbaar. Hiermee kan de conformiteit van implementaties
+worden getoetst. Forum Standaardisatie beveelt het gebruik van SHACL aan. SHACL staat
+daarom op de lijst aanbevolen standaarden van het Forum standaardisatie.
+
+5.3.2.3 Draagt de standaard voldoende bij aan interoperabiliteit zonder dat
+         aanvullende standaardisatieafspraken (zoals lokale profielen) noodzakelijk
+         zijn om de standaard te implementeren of te gebruiken?
+
+Ja, de standaard is direct te gebruiken en is een aanvullende standaardisatieafspraak op
+bijvoorbeeld SKOS en ISO25964.
+
+5.3.2.4 Zijn er profielen of voorbeeldimplementaties van de standaard aanwezig en
+         zijn deze vrij te gebruiken?
+
+Ja, het Kadaster deelt kennis rond begrippencatalogus op website van het Kadaster, wat kan
+worden gezien als een voorbeeldimplementatie. Daarnaast dienen de ervaringen van
+Geonovum met het NEN3610 conceptbibliotheek ook als voorbeeld. Voor de taxonomie voor
+het Zorgeloos Vastgoed afsprakenstelsel wordt ook gewerkt met NL-SBB. Hierin hebben
+publieke en private partijen een rol in het creëren van een interoperabele taxonomie. Andere
+voorbeelden zijn onder andere Kennisnet / onderwijsbegrippen (onderwijsbegrippen.nl),
+Waterschap HDSR (Begrippen HDSR), Waterschap Limburg (Begrippen Waterschap Limburg)
+en CROW (CROW begrippen).
+
+5.3.3    Kan de standaard rekenen op voldoende draagvlak?
+
+5.3.3.1 Staan de belangrijkste stakeholders vanuit de overheid voor deze standaard
+         achter de adoptie van de standaard?
+
+Ja, de standaard is ontwikkeld in een werkgroep met vertegenwoordigers van Logius,
+Kadaster, Informatiehuis Water (IHW), Nationale politie, Dienst Uitvoering Onderwijs (DUO),
+Kennisnet, CROW, Geonovum, Koninklijke Notariële Beroepsorganisatie (KNB). Daarnaast is
+vanuit de NORA (expertgroep gegevensmanagement) en de GDI (architectuurwerkgroep
+gegevensuitwisseling) geuit dat dit een gewenste standaard is. Voor de Interbestuurlijke
+Datastrategie (IBDS) en het Federatief Datastelsel is deze standaard gewenst. BZK draagt
+zorg voor de financiering van het beheer van de standaard. Daarnaast is de NL-SBB-
+standaard vastgesteld door de Programmeringsraad GDI (PGDI).
+
+
+
+                                          14 van 16
+5.3.3.2 Staan de overheidsorganisaties die worden geraakt door een verplichting
+         van de standaard achter het verplichte gebruik van de standaard?
+
+Ja, de expertgroep is van mening dat er geen zwaarwegende belemmeringen in de weg staan
+om deze standaard te verplichten aan de overheid.
+
+5.3.3.3 Wordt de aangemelde versie van de standaard binnen het organisatorische
+         werkingsgebied door meerdere Nederlandse overheidsorganisaties
+         gebruikt?
+
+Ja, de volgende organisaties maken gebruik van NL-SBB: Kadaster, Geonovum, BZK / NORA,
+OCW / ROSA, Kennisnet / onderwijsbegrippen, Waterschap Hunze & Aa’s, Waterschap HDSR,
+Waterschap Limburg, CROW.
+
+5.3.3.4 Wordt een vorige versie van de standaard binnen het organisatorische
+         werkingsgebied door meerdere Nederlandse overheidsorganisaties
+         gebruikt?
+
+Nee, dit is de eerste versie.
+
+5.3.3.5 Is de aangemelde versie backwards compatible met eerdere versies van de
+         standaard?
+
+Zie 5.3.3.4.
+
+5.3.3.6 Zijn er voldoende positieve signalen over toekomstige gebruik van de
+         standaard door (semi-)overheidsorganisaties, het bedrijfsleven en burgers?
+
+Ja, de standaard is ontwikkeld in een werkgroep met vertegenwoordigers van Logius,
+Kadaster, Informatiehuis Water (IHW), Nationale politie, Dienst Uitvoering Onderwijs (DUO),
+Kennisnet, CROW, Geonovum, Koninklijke Notariële Beroepsorganisatie (KNB), Skemu en
+ArchiXL. De Interbestuurlijke Datastrategie (IBDS) ondersteunt de standaard. Er is minder
+zicht op voorgenomen gebruik door provincies en gemeentes. Dit is een aandachtspunt.
+
+5.4 Opname op de lijst bevordert adoptie
+Verplichten van NL-SBB aan de overheid (‘Pas toe of leg uit’) via plaatsing op de 'Pas toe of
+leg uit'-lijst van Forum Standaardisatie zal zorgen voor meer bekendheid van de standaard.
+Door verplichting moeten overheidsorganisaties de standaard implementeren of
+weloverwogen toelichten waarom ze dit niet doen.
+
+De plannen van Geonovum voor het bevorderen van de adoptie zijn als volgt. Allereerst ligt
+de nadruk op implementatieondersteuning, onder andere door het inrichten van de helpdesk
+en adoptie van de standaard. Zo stimuleert Geonovum deelnemers in (overheidsbrede)
+programma's zoals het Federatief Datastelsel of Stelsel van Metadatastandaarden bij het
+toepassen van de standaard. Geonovum blijft de huidige werkgroep faciliteren en uitbouwen
+tot gebruikersoverleg en het zoeken van verdere verankering van de standaard, bijvoorbeeld
+in de NORA. Waar nodig en op aangeven van het gebruikersoverleg zal Geonovum de
+standaard verder verbeteren, bijvoorbeeld op het gebied van versiebeheer van waardelijsten
+                                          15 van 16
+en andere generieke zaken. Door gewenste verbeteringen in het gebruikersoverleg te
+agenderen zorgt Geonovum ervoor dat de belangen van stakeholders geborgd zijn.
+Geonovum zet twee adviseurs standaarden in met kennis van semantiek, linked data en
+informatiemodellering.
+
+Geonovum zal de werkgroep periodiek vragen wie de standaard gebruikt en hoe die wordt
+toegepast. Mocht er een gebruikersgroep komen, dan kunnen dezelfde vragen gesteld
+worden. Op dit moment is er geen andere manier om gebruikersgegevens te achterhalen.
+
+Een aandachtspunt dat door de experts wordt benoemd is om de samenhang tussen NL-SBB
+en begripsdefinities/begripsbepalingen in wetgeving te duiden, evenals de hierbij behorende
+relatie tot de Aanwijzingen voor de regelgeving (Ar). Experts bevelen aan om dit op te nemen
+in de volgende versie.
+
+
+6 Adviezen bij opname van de standaard
+De experts geven het Forum Standaardisatie de volgende adviezen bij de opname van NL-
+SBB op de ‘Pas toe of leg uit’-lijst:
+
+      -   Aan Geonovum om de samenhang tussen SKOS en NL-SBB in 2025 helder te
+          communiceren (welke standaard wanneer van toepassing is) ter bevordering van de
+          adoptie en ter verduidelijking voor inkopers;
+      -   Aan Geonovum en Bureau Forum Standaardisatie om bij aanmelding van een
+          nieuwe versie van NL-SBB (al dan niet onder ‘uitstekend beheer’) de mogelijk
+          veranderende verhouding tussen en NL-SBB en (toekomstige) aanpalende
+          standaarden op de lijst open standaarden van Forum Standaardisatie (waaronder
+          SKOS en MIM in beeld te brengen. Hierbij dient te worden bekeken welke
+          consequenties deze nieuwe versie kan hebben voor deze standaarden;
+      -   Aan Geonovum om in de eerstvolgende versie van de NL-SBB expliciet op te
+          nemen, en daarvoor met experts in kaart te brengen, hoe de standaard zich
+          verhoudt tot de Aanwijzingen voor de Regelgeving en de daarin geldende criteria en
+          werkwijzen voor totstandkoming van begrippen in wet- en regelgeving;
+      -   Aan Geonovum om in de eerstvolgende versie van NL-SBB de verhouding tot de
+          begripsdefinities/begripsbepalingen in wetgeving nader te duiden, waarbij specifiek
+          ook aandacht is voor hergebruik bij nieuwe wetgeving of wijziging van wetgeving,
+          van bestaande begrippen, en de meerwaarde van NL-SBB hierin.
+
+
+
+
+                                          16 van 16
+

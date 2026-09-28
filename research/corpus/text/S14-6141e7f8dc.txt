@@ -1,0 +1,795 @@
+Verslag reacties consultatie NL-SBB verplichten
+
+
+Aan:                      Forum Standaardisatie
+
+Van:                      Bureau Forum Standaardisatie
+
+Datum:                    23 december 2024
+
+Versie:                   1.0
+
+Bijlage:                  n.v.t.
+
+
+1. Inleiding
+Dit verslag bevat de openbare reacties uit de openbare consultatie NL-SBB verplichten van
+het Forum Standaardisatie van 22 november tot en met 20 december 2024 op
+internetconsultatie.nl.
+
+De consultatie is onderdeel van de toetsing van het Forum Standaardisatie of de standaard
+NL-SBB geschikt is om te verplichten aan de overheid (‘Pas toe of leg uit’-verplichting).
+
+In deze openbare consultatie kon men reageren op het advies van de experts die betrokken
+waren bij het expertonderzoek voor deze toetsing. Dit expertadvies maakte deel uit van de
+openbare consultatie.
+
+In de openbare consultatie zijn zes reacties ontvangen, te weten van dr ir P.E. Wisse,
+Interprovinciale vakgroep Datamanagement (Duo-vz IPV Datamanagement M.N. Ruiter),
+Gemeente Rotterdam (J Stedehouder) en twee anonieme reacties (waarvan één niet ter
+publicatie). In het volgende hoofdstuk zijn de antwoorden van de respondenten op
+chronologische volgorde een-op-een en ongewijzigd overgenomen van de Pagina reacties van
+de consultatie, minus de niet-openbare anonieme reactie.
+2. Reacties uit de openbare consultatie
+2.1. Reactie van Gemeente Rotterdam (J Stedehouder)
+Rotterdam
+
+Datum: 5 december 2024
+
+2.1.1.       Vraag 1
+
+Geef hier indien gewenst uw reactie op het advies van de experts om NL-SBB te verplichten
+aan de overheid (‘Pas toe of leg uit’-verplichting) via plaatsing op de 'Pas toe of leg uit'-lijst
+van Forum Standaardisatie.
+
+“Vanuit de gemeente Rotterdam onderschrijven wij de plaatsen van NL-SBB op de 'pas toe of
+leg uit'-lijst. We zien het als een waardevolle bouwsteen in het verbeteren van
+gegevensuitwisseling. Vraagtekens zijn wel over welke incentives organisaties hebben om
+compliance aan deze standaard te realiseren.”
+
+2.1.2.       Vraag 2
+
+Geef hier indien gewenst uw reactie op het voorgestelde functioneel toepassingsgebied.
+
+“Geen aanvullende opmerkingen. Het functionele toepassingsgebied is helder en geeft ons
+voldoende beeld over waar we ons moeten inzetten om aan de standaard te voldoen.”
+
+2.1.3.       Vraag 3
+
+Geef hier indien gewenst uw reactie op het verzoek van indiener en beheerder van de
+standaard Geonovum om in aanmerking te komen voor het predicaat ‘uitstekend beheer'.
+
+“Het lijkt ons prima om het predicaat 'uitstekend beheer' te verlenen aan Geonovum voor
+deze standaard. We kennen Geonovum als een goede organisatie voor het beheer en
+doorontwikkelen van standaarden, met een transparant proces.”
+
+2.1.4.       Vraag 4
+
+Geef hier indien gewenst uw reactie op het geformuleerde nut en de geformuleerde
+mogelijkheden van het gebruik van NL-SBB voor en door de overheid (hoofdstuk 2, paragraaf
+2 van het expertadvies).
+
+“Het nut is wat ons betreft heel helder. Als overheid wil men zelf grip houden op betrouwbare
+IV (zeker in de huidige wereld van algoritmen) en betere herleidbaarheid van begrippen naar
+wet- en regelgeving. De bevordering van de machineleesbaarheid, het semantisch beter
+vindbaar maken van datasets en het verminderen van conversieslagen tussen verschillende
+begrippenformaten spreken voor zich. Mooi dat er vooruitgekeken wordt met
+publicatiemogelijkheden als Linked Data. Het is in elk geval belangrijk om de samenhang
+tussen deze standaard, SKOS en MIM niveau 1 goed te (blijven) beschrijven”
+
+
+
+                                             2 van 14
+2.1.5.       Vraag 5
+
+Geef hier indien gewenst uw reactie op het doorlopen proces van het expertadvies (hoofdstuk
+3 van het expertadvies).
+
+“Geen aanvullende opmerkingen. Het proces komt gedegen over.”
+
+2.1.6.       Vraag 6
+
+Geef hier indien gewenst uw reactie op de samenstelling van de expertgroep (hoofdstuk 4
+van het expertadvies).
+
+“De expertgroep is wat ons betreft voldoende breed en inhoudelijk deskundig samengesteld.”
+
+2.1.7.       Vraag 7
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “toegevoegde waarde” (hoofdstuk 5 van het expertadvies).
+
+“We onderschrijven de opmerkingen over de kosten ten opzichte van de voordelen. Het
+toepassen van deze standaard is randvoorwaardelijk voor veel andere stappen die we moeten
+zetten om gegevensuitwisseling te vereenvoudigen en te verbeteren. Kwalitatief levert dit
+zeker voordelen op, maar het is lastig te kwantificeren.
+
+Zie verder onze opmerkingen bij vraag 4”
+
+2.1.8.       Vraag 8
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “open standaardisatieproces” (hoofdstuk 5 van het expertadvies).
+
+“Geen aanvullende opmerkingen. Geonovum heeft dit prima op orde.”
+
+2.1.9.       Vraag 9
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “draagvlak” (hoofdstuk 5 van het expertadvies).
+
+“Wat ons betreft is het draagvlak voldoende aangetoond. We onderschrijven de wenselijkheid
+van deze standaard voor het IBDS en FDS. Een zorg blijft de beperkte marktadoptie, maar
+gezien de omvang van de markt is dat te verwachten. Het is een risico dat wellicht op een
+andere manier gemitigeerd moet worden, bijvoorbeeld een Common Ground - oplossing als
+tijdige (en voldoende volwassen) marktadoptie uitblijft.”
+
+2.1.10.      Vraag 10
+
+Geef hier indien gewenst uw reactie op de aanvullende adoptieadviezen bij het verplichten
+van NL-SBB door plaatsing op de ‘Pas toe of leg uit’-lijst (hoofdstuk 6 van het expertadvies).
+
+“Geen aanvullende opmerkingen”
+
+
+
+                                           3 van 14
+2.1.11.      Vraag 11
+
+Geef hier indien gewenst uw aanvullend commentaar aan het Forum Standaardisatie en
+Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) in verband met de inhoud van dit
+expertadvies en/of het gevolgde proces.
+
+“Geen verder commentaar. Complimenten voor het advies.”
+
+2.2. Reactie van Interprovinciale vakgroep Datamanagement
+(Duo-vz IPV Datamanagement M.N. Ruiter)
+Den Haag
+
+Datum: 9 december 2024
+
+2.2.1.       Vraag 1
+
+Geef hier indien gewenst uw reactie op het advies van de experts om NL-SBB te verplichten
+aan de overheid (‘Pas toe of leg uit’-verplichting) via plaatsing op de 'Pas toe of leg uit'-lijst
+van Forum Standaardisatie.
+
+“Dit is een goed idee. Wel een aanvullende opmerking: ISO is een commerciële partij die geld
+vraagt voor toegang tot informatie. Dit maakt dat toegang onder restricties is. Dit geldt
+overigens voor alle verplichte ISO/NEN normen”
+
+2.2.2.       Vraag 2
+
+Geef hier indien gewenst uw reactie op het voorgestelde functioneel toepassingsgebied.
+
+[geen reactie]
+
+2.2.3.       Vraag 3
+
+Geef hier indien gewenst uw reactie op het verzoek van indiener en beheerder van de
+standaard Geonovum om in aanmerking te komen voor het predicaat ‘uitstekend beheer'.
+
+“Geonovum is een goede partij.”
+
+2.2.4.       Vraag 4
+
+Geef hier indien gewenst uw reactie op het geformuleerde nut en de geformuleerde
+mogelijkheden van het gebruik van NL-SBB voor en door de overheid (hoofdstuk 2, paragraaf
+2 van het expertadvies).
+
+“Eens, bij de laatste alinea kan worden toegevoegd dat bij samenwerking rondom begrippen
+hier ook controle over gehouden moet worden en geen generatieve AI ingezet moet worden.”
+
+
+
+
+                                             4 van 14
+2.2.5.       Vraag 5
+
+Geef hier indien gewenst uw reactie op het doorlopen proces van het expertadvies (hoofdstuk
+3 van het expertadvies).
+
+[geen reactie]
+
+2.2.6.       Vraag 6
+
+Geef hier indien gewenst uw reactie op de samenstelling van de expertgroep (hoofdstuk 4
+van het expertadvies).
+
+“ArchiXL is mede auteur van de standaard en biedt de enige momenteel geïmplementeerde
+marktoplossing. Zij kunnen niet zonder belangenverstrengeling in het expertteam zitten.”
+
+2.2.7.       Vraag 7
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “toegevoegde waarde” (hoofdstuk 5 van het expertadvies).
+
+“voor het organisatorisch werkingsgebied dient duidelijk te zijn dat daar waar de genoemde
+partijen de standaard toepassen deze ook door samenwerkingspartners geadopteerd moet
+worden (anders bevordert de standaard niet direct samenwerking rondom geharmoniseerde
+begrippen tussen organisaties)”
+
+2.2.8.       Vraag 8
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “open standaardisatieproces” (hoofdstuk 5 van het expertadvies).
+
+[geen reactie]
+
+2.2.9.       Vraag 9
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “draagvlak” (hoofdstuk 5 van het expertadvies).
+
+“Er wordt aangegeven dat er op dit moment maar één leverancier is. En dit is tevens een lid
+van de expertgroep. Vraagteken ontstaat hoeveel draagvlak er is onder leverancies en of er
+volledig open source gewerkt wordt. Er wordt geschreven dat het een kleine markt is. Op dit
+moment misschien. Maar als alle overheden betrokken moeten worden, dan zijn dit
+uiteindelijk heel veel partijen. Een vendorlock-in moet voorkomen worden.”
+
+2.2.10.      Vraag 10
+
+Geef hier indien gewenst uw reactie op de aanvullende adoptieadviezen bij het verplichten
+van NL-SBB door plaatsing op de ‘Pas toe of leg uit’-lijst (hoofdstuk 6 van het expertadvies).
+
+“Als NL-SBB een verplichte standaard wordt, maakt dat SKOS impliciet ook een verplichte
+standaard omdat NL-SBB bovenop SKOS is gebouwd en het doel van SKOS en NL-SBB
+hetzelfde zijn. Bij opname van NL-SBB als verplichte standaard is er weinig aanvullend nut
+
+                                           5 van 14
+om SKOS nog als standaard te verplichten. Dit is vooral om het aantal standaarden in de lijst
+niet te groot te maken. NL-SBB/SKOS zouden samen onder 1 item genoemd kunnen worden,
+net als NL GOV Assurnace profile for OAth 2.0”
+
+2.2.11.      Vraag 11
+
+Geef hier indien gewenst uw aanvullend commentaar aan het Forum Standaardisatie en
+Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) in verband met de inhoud van dit
+expertadvies en/of het gevolgde proces.
+
+“1. Er mag meer informatie komen over juridische begrippen zoals copyright en creative
+commons toepassingen (wanneer wel of niet). Hier is weinig tot niets van terug te zien in de
+standaard maar er staat wel dat er juridische onderbouwing geboden wordt. Waar zit dan
+deze juridische onderbouwing in? Verder zijn we benieuwd naar hoe dit aansluit op de andere
+juridische standaarden zoals Juriconnect en JCDR. Uitgekeken moet worden dat we niet de
+inhoud van begrippen (juridische begrippen) in de standaard zelf willen beschrijven.
+Juridische begrippen zoals copyright is één toepassingsgebied van NL-SBB, maar zo zijn er
+tientallen anderen.
+
+2. Het is een feit dat begrippen in de loop van de tijd veranderen. Bijvoorbeeld bij nieuwe
+inzichten of nieuwe problemen die onderzocht worden. Niet alleen moet geregeld worden dat
+huidige begrippen gebruikt worden, ook moet ingeregeld worden dat de begrippen kunnen
+evolueren en veranderen (en misschien wel verwijderd worden) in de loop van de tijd. Er is
+dus een visie en strategie nodig op de "levenscyclus" van de begrippen: hiervan is niets of
+veel te weinig terug te vinden in de tekst. Dit is een inhoudelijke tekortkoming van de huidige
+versie van de NL-SBB. Het expert-advies zegt hier niets over.”
+
+2.3. Reactie van Anoniem namens KvK
+Utrecht
+
+Datum: 18 december 2024
+
+2.3.1.       Vraag 1
+
+Geef hier indien gewenst uw reactie op het advies van de experts om NL-SBB te verplichten
+aan de overheid (‘Pas toe of leg uit’-verplichting) via plaatsing op de 'Pas toe of leg uit'-lijst
+van Forum Standaardisatie.
+
+“In de basis deelt KVK het idee om een standaard te hebben voor de overheid om het proces
+van gegevensuitwisseling (inclusief de betekenis van begrippen) eenvoudiger te maken. KVK
+ziet echter nog te veel ruimte voor interpretatie om dit doel te bereiken. KVK vindt het
+daarom nog te vroeg om de standaard te adopteren; laat staan te verplichten.
+
+
+
+In de antwoorden op vragen 7 t/m 11 wordt deze zienswijze kort nader uiteengezet. Een
+bijgevoegd document bevat bovendien een aantal aanvullende opmerkingen.”
+
+                                             6 van 14
+2.3.2.      Vraag 2
+
+Geef hier indien gewenst uw reactie op het voorgestelde functioneel toepassingsgebied.
+
+[geen reactie]
+
+2.3.3.      Vraag 3
+
+Geef hier indien gewenst uw reactie op het verzoek van indiener en beheerder van de
+standaard Geonovum om in aanmerking te komen voor het predicaat ‘uitstekend beheer'.
+
+[geen reactie]
+
+2.3.4.      Vraag 4
+
+Geef hier indien gewenst uw reactie op het geformuleerde nut en de geformuleerde
+mogelijkheden van het gebruik van NL-SBB voor en door de overheid (hoofdstuk 2, paragraaf
+2 van het expertadvies).
+
+[geen reactie]
+
+2.3.5.      Vraag 5
+
+Geef hier indien gewenst uw reactie op het doorlopen proces van het expertadvies (hoofdstuk
+3 van het expertadvies).
+
+[geen reactie]
+
+2.3.6.      Vraag 6
+
+Geef hier indien gewenst uw reactie op de samenstelling van de expertgroep (hoofdstuk 4
+van het expertadvies).
+
+[geen reactie]
+
+2.3.7.      Vraag 7
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “toegevoegde waarde” (hoofdstuk 5 van het expertadvies).
+
+“Het standaardiseren van begripsomschrijvingen is evident van toegevoegde waarde omdat
+daarmee de gegevensuitwisseling binnen de Rijksoverheid eenvoudiger wordt.”
+
+2.3.8.      Vraag 8
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “open standaardisatieproces” (hoofdstuk 5 van het expertadvies).
+
+“NL-SBB is openbaar beschikbaar via de website github.com. Het beheerproces en de
+doorontwikkeling van de standaard blijven echter onvermeld in deze bron. Deze komen alleen
+tot uitdrukking in het adviesdocument van Forum Open Standaarden.
+
+
+
+                                          7 van 14
+In het advies wordt verder aangegeven dat ‘de kosten, risico’s en nadelen opwegen tegen de
+baten van de adoptie van NL-SBB’. Maar het is niet duidelijk hoe deze afweging gemaakt is
+zonder alle overheidsinstanties te bevragen naar wat implementatie van deze standaard
+vraagt aan inspanning. Ook ontbreekt een lijst van risico’s en nadelen van de implementatie
+van de standaard.”
+
+2.3.9.       Vraag 9
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “draagvlak” (hoofdstuk 5 van het expertadvies).
+
+“Zoals ook hierboven onder vraag 1 aangegeven erkent KVK de toegevoegde waarde van het
+standaardiseren van begrippen voor een stelsel van basisregistraties of federatief datastelsel.
+Maar doordat er veel ruimte is voor interpretatie in deze standaard ziet KVK op dit moment
+slechts beperkte meerwaarde.”
+
+2.3.10.      Vraag 10
+
+Geef hier indien gewenst uw reactie op de aanvullende adoptieadviezen bij het verplichten
+van NL-SBB door plaatsing op de ‘Pas toe of leg uit’-lijst (hoofdstuk 6 van het expertadvies).
+
+“Gezien de hierboven en in de bijlage gemaakte opmerkingen is het de vraag of het niet te
+vroeg is om NL-SBB op te nemen op de ‘Pas toe of leg uit’-lijst. KVK vindt het beter te
+wachten totdat er meer organisaties buiten het geografische domein de standaard ook
+daadwerkelijk toepassen en er een vorm van consensus is over hoe de standaard toe te
+passen.”
+
+2.3.11.      Vraag 11
+
+Geef hier indien gewenst uw aanvullend commentaar aan het Forum Standaardisatie en
+Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) in verband met de inhoud van dit
+expertadvies en/of het gevolgde proces.
+
+[geen reactie]
+
+2.4. Reactie van dr ir P.E. Wisse
+Voorburg
+
+Datum: 19 december 2024
+
+2.4.1.       Vraag 1
+
+Geef hier indien gewenst uw reactie op het advies van de experts om NL-SBB te verplichten
+aan de overheid (‘Pas toe of leg uit’-verplichting) via plaatsing op de 'Pas toe of leg uit'-lijst
+van Forum Standaardisatie.
+
+“Ook NL-SBB (Standaard voor Beschrijven van Begrippen) zou eerder zeer sterk àfgeraden
+moeten worden. De veronderstellingen kloppen immers domweg niet. Er wordt nog steeds
+abusievelijk met alsmaar averechtse gevolgen van uitgegaan dat nota bene uitvoering van
+                                             8 van 14
+(overheids)bemoeienis valt te verdelen over onderling vergaand gescheiden zgn domeinen
+(lees ook: sectoren).
+
+Zo’n indeling kan weliswaar zinvol zijn om verantwoording politiek engszins overzichtelijk en
+daarmee werkbaar te krijgen, maar strikt doortrekken van zulk onderscheid naar uitvoering is
+onzin. Het gaat inderdaad verder mis als – medewerkers van – de zgn primair
+verantwoordelijke organisaties de valse illusie blijven koesteren dat elk begrip ènkelvoudig
+eenduidig en als zodanig algemeen geldig, nou ja, beperkt tot het veronderstelde domein in
+kwestie, kan worden bepaald.
+
+In de tekst van het voorstel voor NL-SBB staat herhaaldelijk de term ‘context’ vermeld. In
+meerdere gevallen wordt het feitelijk als synoniem van ‘domein’ resp. ‘begrippenkader’
+gebruikt. En omdat elk begrip per domein enkelvoudig gevormd gedacht is, geldt context
+daar kennelijk nog als iets ànders dan begrip. De oplossing als het ware door-de-domeinen-
+heen bestaat eruit om 1. context mede tot ònderdeel van èlk teken te verklaren en 2. de
+nogal impliciet veronderstelde gelijkstelling van context met domein op te heffen en te
+vervangen door willekeurig schaalbare opvatting van context.
+
+Dat is overigens niets nieuws. Van wat ik later Metapatroon (Engels: Metapattern) genoemd
+heb, heb ik in 1991 een eerste formele structuurschets opgesteld. Forum Standaardisatie
+(FS) heeft later Metapatroon als stelselmatig bemeten modelleermethode gunstig beoordeeld,
+zie o.a. het rapport Semantiek op stelselschaal: issues en oplossingsrichtingen (Bureau
+Forum Standaardisatie, 19 juni 2009) waaraan ik intensief meegewerkt heb.”
+
+2.4.2.       Vraag 2
+
+Geef hier indien gewenst uw reactie op het voorgestelde functioneel toepassingsgebied.
+
+“Het zgn functionele toepassingsgebied moet dynamiek van willekeurige betekenissen
+betreffen. Daarvoor is ook NL-SBB principieel òngeschikt, zoals hierboven beknopt
+aangegeven staat.”
+
+2.4.3.       Vraag 3
+
+Geef hier indien gewenst uw reactie op het verzoek van indiener en beheerder van de
+standaard Geonovum om in aanmerking te komen voor het predicaat ‘uitstekend beheer'.
+
+“Geonovum heeft MIM (Metamodel voor InformatieModellen) op stelselmatig ondeugdelijke
+veronderstellingen gebaseerd. Met NL-SBB als – in enkele opzichten – vervolg er op, is daar
+helaas niets aan veranderd. Wie er voorzieningen voor informatieverkeer mee ontwerpt,
+onthoudt gebruikers samenhang volgens wèrkelijke begripsmatige variëteit. En beheer blijft
+uiteraard chaotisch.”
+
+2.4.4.       Vraag 4
+
+Geef hier indien gewenst uw reactie op het geformuleerde nut en de geformuleerde
+mogelijkheden van het gebruik van NL-SBB voor en door de overheid (hoofdstuk 2, paragraaf
+2 van het expertadvies).
+
+                                           9 van 14
+“Er is geen maatschappelijk nut, integendeel. Aparte overheidsorganisaties blijven principiële
+verwevenheid van maatschappelijk verkeer ontkennen. Daar blijven politieke affaires van
+komen, allemaal ook nutteloos zolang er geen lessen uit volgen voor beheersing van
+stelselmatige verwevenheid. Domeinspecifieke begrippenkaders zijn een dood spoor.”
+
+2.4.5.       Vraag 5
+
+Geef hier indien gewenst uw reactie op het doorlopen proces van het expertadvies (hoofdstuk
+3 van het expertadvies).
+
+“Er blijkt voor advies niemand te zijn geraadpleegd met kennis van en ervaring met
+eenduidige uitdrukking van verschijnselen die nota bene door-de-schalen-heen door –
+dynamiek van – wederzijdse afhankelijkheid (lees ook: interdependentie) gekenmerkt zijn.
+Een overwegend tèchnisch georiënteerd advies valt als antwoord op een begripsmatige vraag,
+en zelfs over open bereik van variëteit, niet serieus te nemen.
+
+Terzake èchte deskundigen zijn er overigens nog steeds niet of nauwelijks. Daarin voorzien
+verdient daarom ook voor FS voorrang; met een aanzet heeft FS reeds pakweg vijftien jaar
+geleden geholpen.”
+
+2.4.6.       Vraag 6
+
+Geef hier indien gewenst uw reactie op de samenstelling van de expertgroep (hoofdstuk 4
+van het expertadvies).
+
+“Zie 5. voor kritiek op “de samenstelling van de expertgroep.””
+
+2.4.7.       Vraag 7
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “toegevoegde waarde” (hoofdstuk 5 van het expertadvies).
+
+““De toetsing op hoofdlijnen” gaat meteen al grondig mank aan de opgegeven
+ònstelselmatige opvattingen. Dat maakt de oordelen irrelevant en aanbevelingen schadelijk
+die eruit opgemaakt zijn.”
+
+2.4.8.       Vraag 8
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “open standaardisatieproces” (hoofdstuk 5 van het expertadvies).
+
+“Een zgn standaardisatieproces voor wat slechts zinvol begrijpelijk is als maatschappelijke
+opgaven, is allesbehalve open, zolang er op zoiets als inhoud slechts deelnemers met een
+overwegend digitaal-technische oriëntatie bij betrokken raken. Dat is helaas – wederom –
+met NL-SBB overduidelijk aan de orde.”
+
+2.4.9.       Vraag 9
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “draagvlak” (hoofdstuk 5 van het expertadvies).
+
+                                          10 van 14
+“Voor verantwoorde beoordeling “draagvlak” behoren uiteraard met voorrang voor- en
+nadelen voor daadwerkelijke gebruikers als deelnemers aan informatieverkeer te tellen. Gaan
+zij over betere voorzieningen ervoor beschikken mede dankzij wat als deze standaard
+voorgesteld is? Nee. De dynamiek van begripsmatige variëteit blijft veronachtzaamd.”
+
+2.4.10.      Vraag 10
+
+Geef hier indien gewenst uw reactie op de aanvullende adoptieadviezen bij het verplichten
+van NL-SBB door plaatsing op de ‘Pas toe of leg uit’-lijst (hoofdstuk 6 van het expertadvies).
+
+“Geen standaard, dus géén adoptie ervan, klaar.”
+
+2.4.11.      Vraag 11
+
+Geef hier indien gewenst uw aanvullend commentaar aan het Forum Standaardisatie en
+Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) in verband met de inhoud van dit
+expertadvies en/of het gevolgde proces.
+
+“Wat er door en via FS zoal voor standaardisatie wordt ondernomen, lijdt aan de ernstige
+misvatting dat nadruk kan blijven op afzonderlijke middelen; door èlk middel te voorzien van
+overeenkomstige koppelvlakken zou ‘als vanzelf’ bevorderlijke samenhang resulteren.
+
+Voor de feitelijke schaal inclusief variëteit is die insteek echter allang achterhaald. Dat laat
+zich ruwweg o.a. met – fysieke – gebouwde omgeving vergelijken. Een huis is zoiets als een
+woonvoorziening. Maar met alsmaar meer huizen, èlk apart opgetrokken, gaat de
+verzameling huizen als stèlsel leef- met daarvoor tevens benodigde verkeersvoorzieningen
+tekortschieten. Er komt een insteek bij. En met zulk stedelijk ontwerp worden dan
+voorwaarden gesteld waar o.a. huizen aan moeten voldoen. Zeg ook maar dat de relevante
+standaarden ‘in’ het stedelijk plan verwerkt zijn.
+
+Zo moet er dringend een ontwerp zijn voor digitale infrastructuur voor informatieverkeer.
+Dus, niet afwachten wie zich met een voorstel voor een standaard meldt, maar zo’n integraal
+plan opstellen en daarmee aangeven wàt de nodige en voldoende standaarden zijn. Anders
+blijft het modderen.”
+
+
+
+
+2.5. Reactie van vanuit provincie Zuid-Holland (A Batenburg)
+Datum: 20 december 2024
+
+2.5.1.       Vraag 1
+
+Geef hier indien gewenst uw reactie op het advies van de experts om NL-SBB te verplichten
+aan de overheid (‘Pas toe of leg uit’-verplichting) via plaatsing op de 'Pas toe of leg uit'-lijst
+van Forum Standaardisatie.
+
+
+
+                                             11 van 14
+“Hieronder reageert een groep betrokken medewerkers vanuit de provincie Zuid-Holland op
+enkele van de vragen (de vragen 7, 9 en 11). Deze groep omarmt het voorstel om NL-SBB te
+gaan stimuleren en gebruiken.”
+
+2.5.2.       Vraag 2
+
+Geef hier indien gewenst uw reactie op het voorgestelde functioneel toepassingsgebied.
+
+[geen reactie]
+
+2.5.3.       Vraag 3
+
+Geef hier indien gewenst uw reactie op het verzoek van indiener en beheerder van de
+standaard Geonovum om in aanmerking te komen voor het predicaat ‘uitstekend beheer'.
+
+[geen reactie]
+
+2.5.4.       Vraag 4
+
+Geef hier indien gewenst uw reactie op het geformuleerde nut en de geformuleerde
+mogelijkheden van het gebruik van NL-SBB voor en door de overheid (hoofdstuk 2, paragraaf
+2 van het expertadvies).
+
+[geen reactie]
+
+2.5.5.       Vraag 5
+
+Geef hier indien gewenst uw reactie op het doorlopen proces van het expertadvies (hoofdstuk
+3 van het expertadvies).
+
+[geen reactie]
+
+2.5.6.       Vraag 6
+
+Geef hier indien gewenst uw reactie op de samenstelling van de expertgroep (hoofdstuk 4
+van het expertadvies).
+
+[geen reactie]
+
+2.5.7.       Vraag 7
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “toegevoegde waarde” (hoofdstuk 5 van het expertadvies).
+
+“In paragraaf 5.1.4.1 staat: “NL-SBB maakt het eenvoudiger om begrippen uit andere
+begrippenkaders naadloos over te nemen. Dit levert kwaliteitswinst op en bespaart uren aan
+inzet om begrippen klaar te maken voor aanlevering aan een catalogus.” Is dat laatste één
+catalogus of zijn het meerdere catalogi? En ondersteunt de standaard in dat laatste geval het
+handhaven van de onderlinge consistentie tussen de catalogi?
+
+In paragraaf 5.1.4.2 staat: “Dit bespaart tijd en middelen doordat aparte export- en
+vertaalslagen tussen begrippencatalogi overbodig worden.” Dit is je zelf rijk rekenen. Dit
+
+                                          12 van 14
+werkt pas wanneer op overheidsniveau regievoering plaatsvindt over de begrippencatalogi
+heen.
+
+Het voorbeeld van de BRO gaat ook niet over een besparing over beleidsdomeinen heen maar
+over een verkeerd ontwerp van de catalogus aan de geo kant. Het is dan een besparing in het
+dubbel uitgeven van geld aan de systeemkant van een geo catalogi, en niet een besparing
+door begripharmonisatie.
+
+In paragraaf 5.1.4.3 staat: “Een samenhangende en interoperabele begrippencatalogus is
+alleen bruikbaar als de catalogus eenduidig beschreven is, iets wat nu vaak niet het geval is.”
+Dit draagt bij aan het zichtbaar maken van de dialecten van de beschrijvingen van begrippen.
+Dit draagt niet bij aan het harmoniseren van die dialecten. De inspanning voor de
+harmonisatie is vele malen groter dan het zichtbaar maken van de dialecten. De echte
+business case vraagt om een veel grotere inspanning die alleen middels deze standaard niet
+geleverd wordt. Als je dat op een rij zet dan pakt de business case heel anders (naar
+verwachting negatief) uit. Wees daarom bescheiden in het formuleren van de reikwijdte van
+de businesscase voor deze standaard.
+
+In paragraaf 5.1.4.3 staat: “Tevens ondersteunt eenduidige beschrijving en vastlegging van
+begrippen de mogelijkheid om bij ontwikkeling van nieuw beleid en wetgeving aan te sluiten
+bij bestaande begrippen en contexten.” Als je de dialecten handhaaft en het keuzeprobleem
+daarin niet oplost dan blijft dit bij een wensgedachte.
+
+In paragraaf 5.1.4.4 resp. 5.1.4.5 staat: “Beveiligingsrisico’s resp. Privacyrisico’s : Niet van
+toepassing. De experts hebben geen kennis van veiligheidsrisico’s resp. privacyrisico’s die het
+gebruik van deze standaard met zich mee zou kunnen brengen.” Is het ontbreken van kennis
+voldoende motivatie om dit tot ‘Niet van toepassing' te verklaren?”
+
+2.5.8.       Vraag 8
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “open standaardisatieproces” (hoofdstuk 5 van het expertadvies).
+
+[geen reactie]
+
+2.5.9.       Vraag 9
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriteria “draagvlak” (hoofdstuk 5 van het expertadvies).
+
+“In paragraaf 5.3.3.6 staat “Er is minder zicht op voorgenomen gebruik door provincies en
+gemeentes. Dit is een aandachtspunt.” Dit vinden we jammer. Provincie Zuid-Holland werkt
+in interprovinciaal verband aan het opzetten van een federatief stelsel van woordenboeken.
+Voor standaardisatie van begrippen is het opnemen van NL-SBB een belangrijke katalysator.
+Dat in de expertgroep provincies (en gemeenten) gemist zijn, is daarom een gemis.”
+
+
+
+
+                                            13 van 14
+2.5.10.      Vraag 10
+
+Geef hier indien gewenst uw reactie op de aanvullende adoptieadviezen bij het verplichten
+van NL-SBB door plaatsing op de ‘Pas toe of leg uit’-lijst (hoofdstuk 6 van het expertadvies).
+
+[geen reactie]
+
+2.5.11.      Vraag 11
+
+Geef hier indien gewenst uw aanvullend commentaar aan het Forum Standaardisatie en
+Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) in verband met de inhoud van dit
+expertadvies en/of het gevolgde proces.
+
+“Op de pagina’s 1-2 staan de volgende vragen geformuleerd:
+
+- Wat is de samenhang tussen NL-SBB en begripsdefinities/begripsbepalingen in wetgeving?
+
+- Is er voldoende draagvlak bij de overheid voor het toepassen van de standaard?
+
+- Is er de verwachting dat er vanuit de markt ondersteuning en opleidingen zullen worden
+aangeboden voor het toepassen van NL-SBB?
+
+De tweede vraag is in paragraaf 5.3 beantwoord. De eerste vraag is niet beantwoord. De
+aanbeveling in het expert-advies is dit in de volgende versie op te nemen. Het antwoord op
+de derde vraag lijkt te zijn gebaseerd op de veronderstelling dat Geonovum “de markt” is. Die
+indruk wordt bevestigd door het concept beheerplan van Geonovum. Het expert-advies geeft
+aan dat er beperkte leveranciersondersteuning is in “de markt”. Advies is de eerste en de
+derde vraag te herformuleren en het bijbehorende antwoord daarop aan te passen.”
+
+
+
+
+                                          14 van 14
+Memo
+Aan:
+Van:             KVK
+Onderwerp:       Reactie op internetconsultatie NL-SBB
+Kenmerk:
+Datum:           december 2024
+
+
+
+1. Algemeen
+In de basis deelt KVK het idee om een standaard te hebben voor de overheid om het proces van
+gegevensuitwisseling (inclusief de betekenis van begrippen) eenvoudiger te maken. KVK ziet echter nog te veel
+ruimte voor interpretatie om dit doel te bereiken. KVK vindt het daarom nog te vroeg om de standaard te
+adopteren; laat staan te verplichten.
+
+2. Opmerkingen
+KVK heeft een aantal opmerkingen bij de standaard:
+ Het is niet duidelijk wanneer aan de standaard wordt voldaan. De omschrijving geeft aan dat de standaard
+    bedoeld is voor het beschrijven van begrippen in een begrippenkader, maar verderop in de omschrijving
+    gaat het over begrippen in een begrippenlijst of taxonomie of thesaurus. Het zou helpen als er een soort
+    van minimum lijst is van elementen is die men altijd moet opnemen in de standaard. Dit minimum zou dan
+    een begrippenlijst genoemd kunnen worden. Vervolgens kan men dan kiezen de lijst aan te vullen met
+    gespecificeerde elementen om tot een taxonomie of thesaurus te komen.
+ Het is niet duidelijk wie of wat nu een begrippenkader definieert. Dit heeft tot gevolg dat het niet duidelijk
+    is of een relatie een semantische relatie is of een harmonisatierelatie.
+ Met betrekking tot de taxonomie, thesaurus en harmonisatierelaties valt op dat de beschrijving bij de
+    relaties tot meerdere interpretaties kan leiden. Ook worden er vele variaties genoemd om de relaties
+    tussen begrippen te duiden, maar hierin zit overlap en eveneens ruimte voor interpretatie. Bij pogingen
+    om aan te hand van de genoemde voorbeelden en voorbeeldwebsites een eenduidige betekenis af te
+    leiden van de relaties, is gebleken dat de implementatie divers is. Het doel voor een betere
+    gegevensuitwisseling binnen de overheid lijkt daarmee niet te worden bereikt.
+ Het aantal relaties zelf zou sterk vereenvoudigd kunnen worden:
+          o wordt gebruikt in: voor verwijzing naar wetgeving, documentatie, formulieren, producten uit de
+              omgeving van het begrippenkader
+          o is gerelateerd aan: voor verwijzingen tussen begrippen die aanvullende betekenissen laten zien,
+              maar ook de bestaansafhankelijkheid dat een begrip alleen dan kan bestaan als de andere
+              begrippen óók bestaan.
+ De relatie tussen boven- en onderliggende begrippen lijkt heel strikt te zijn; goed toepasbaar bij situaties
+    waarin het ook (redelijk) duidelijk is. In de context van het Handelsregister is dit niet altijd zo expliciet
+    duidelijk. Vanuit BW2-perspectief is een besloten vennootschap (BV) bijvoorbeeld een rechtspersoon,
+    maar op basis van de definitie van een BV zou de rechtsvorm ook als bovenliggend begrip kunnen worden
+    beschouwd.
+ De harmonisatierelatie ‘is vrijwel overeenkomstig’ is in de praktijk niet te gebruiken, want het is daarmee
+    onmogelijk vast te leggen wat precies de overeenkomst of het verschil is. Het (economische) begrip
+    onderneming in het Handelsregister komt bijvoorbeeld (vrijwel) overeen met het (fiscale) begrip
+
+
+
+
+1/3
+      onderneming van de Belastingdienst. Maar wat dan precies de overeenkomst is (en wat dus niet), is nu
+      juist van groot belang.
+     Op basis van de ‘direct duidelijk’-deal is “uitleg” als label voor ‘de definitie in eenvoudige taal’ wellicht iets
+      te zwak qua beeldvorming. De website ishetb1.nl suggereert “betekenis” als label voor “uitleg”; dat lijkt
+      beter te passen.
+     Er ontbreekt informatie over hoe om te gaan met versiebeheer en eigenaarschap van de begrippen (de
+      diverse “notities” bieden (te) veel ruimte voor eigen interpretatie. En voor een standaard is het goed om
+      versienummer, versiedatum, etc. op te nemen)
+     Er ontbreekt de mogelijkheid om bij een begrip aan te geven in welke gebruikscontext(en) deze gebruikt
+      kan worden. In het Handelsregister zijn er bijvoorbeeld diverse contexten van de gebruiker (notaris, jurist,
+      ondernemer, burger), als ook diverse contexten t.a.v. het proces (registreren, verstrekken van gegevens,
+      correspondentie, machine-to-machine koppeling, etc.)
+     Er ontbreekt de mogelijkheid om een bestaansafhankelijke relatie aan te brengen. Bijvoorbeeld een fiets
+      heeft minimaal twee wielen nodig. Relaties kunnen nu alleen hiërarchisch worden vastgelegd.
+     Er ontbreekt de mogelijkheid om historie te behouden. Het is functioneel in het model altijd terug te
+      kunnen naar een ‘oude’ definitie, bijvoorbeeld omdat gegevens nog kunnen zijn verzameld en verwerkt in
+      de context van een ‘oude’ definitie. Het kan immers zijn dat gegevens niet meer onder een nieuwe
+      definitie passen, maar dat ze op het moment van de ‘oude’ definitie wel geldig waren. Daarnaast kunnen
+      begrippen komen te vervallen.
+     De verwijzing naar wetgeving voor een begrip zit nu verstopt in het model onder ‘bronverwijzing’ en de
+      relatie met de voorgeschreven standaard schrijfwijze voor een verwijzing ontbreekt. Voor gebruik binnen
+      de overheid is de relatie met wetgeving cruciaal en deze mag dus ook explicieter opgenomen worden.
+     Het zou voor de standaard goed zijn om een praktisch voorbeeld te hebben van hoe NL-SBB en MIM
+      (Metamodel Informatie Modellering) met elkaar samenhangen en hoe zij elkaar aanvullen. Dit zou ook aan
+      MIM toegevoegd kunnen worden.
+     is de consequentie van het opleggen van NL-SBB als standaard dat daarmee SKOS (Simple Knowledge
+      Organization System; een gegevensmodel om duidelijke lijsten met termen en begrippen op te stellen)
+      komt te vervallen? Of hoe gaan deze twee naast elkaar bestaan?
+
+3. Toegevoegde waarde
+Het standaardiseren van begripsomschrijvingen is evident van toegevoegde waarde omdat daarmee de
+gegevensuitwisseling binnen de Rijksoverheid eenvoudiger wordt.
+
+4. Open standaardisatieproces
+NL-SBB is openbaar beschikbaar via de website github.com. Het beheerproces en de doorontwikkeling van de
+standaard blijven echter onvermeld in deze bron. Deze komen alleen tot uitdrukking in het adviesdocument
+van Forum Open Standaarden.
+
+In het advies wordt verder aangegeven dat ‘de kosten, risico’s en nadelen opwegen tegen de baten van de
+adoptie van NL-SBB’. Maar het is niet duidelijk hoe deze afweging gemaakt is zonder alle overheidsinstanties te
+bevragen naar wat implementatie van deze standaard vraagt aan inspanning. Ook ontbreekt een lijst van
+risico’s en nadelen van de implementatie van de standaard.
+
+5. Draagvlak
+Zoals hierboven onder ‘1. Algemeen’ aangegeven erkent KVK de toegevoegde waarde van het standaardiseren
+van begrippen voor een stelsel van basisregistraties of federatief datastelsel. Maar doordat er veel ruimte is
+voor interpretatie in deze standaard ziet KVK op dit moment slechts beperkte meerwaarde.
+
+
+
+
+2/3
+6. Plaatsing op de ‘Pas toe of leg uit’-lijst
+Gezien de hierboven gemaakte opmerkingen is het de vraag of het niet te vroeg is om NL-SBB op te nemen op
+de ‘Pas toe of leg uit’-lijst. KVK vindt het beter te wachten totdat er meer organisaties buiten het geografische
+domein de standaard ook daadwerkelijk toepassen en er een vorm van consensus is over hoe de standaard toe
+te passen.
+
+
+
+
+3/3
+

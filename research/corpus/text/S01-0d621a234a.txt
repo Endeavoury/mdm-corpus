@@ -1,0 +1,230 @@
+  DAMA-DMBOK® - DAMA International®             
+
+We use cookies to improve your experience on our site. Necessary cookies keep the site functional. Analytics cookies help us understand how visitors interact with the site. You can choose which cookies to allow. See our privacy policy and cookie policy for details.
+ Accept All Reject All Customize
+
+ Necessary Required for the site to function. Cannot be disabled.    
+
+ Analytics Help us understand how visitors use the site through anonymized usage data and session recordings.    
+ Save Preferences 🍪 Cookie Settings Skip to content
+
+   
+
+ Value Statement   Trusted Profession   LOGIN   JOIN NOW        
+
+   
+
+      
+
+About DAMA®
+Who We Are
+What is Data Management?
+Nominations and Elections
+Leadership & Governance
+Governance Documents
+
+Awards & Recognition
+Awards
+Lifetime Advisor Emerita
+Fellow Program
+
+Membership
+Why Join DAMA®?
+Find Your Local Chapter
+Join DAMA®/Renew Membership
+Membership FAQ
+Member Discounts & Benefits
+
+Certification
+About CDMP® Certification
+CDMP® Certification Levels
+Exam Information & Pricing
+Certification Pathway
+CDMP® Digital Badge
+CDMP® Renewal & Maintenance
+CDMP® Frequently Asked Questions
+Verify a Certification
+
+Learning & Resources
+
+Registered Education Provider Program (REP)
+List of Registered Education Providers
+DAMA® Data Management Body of Knowledge (DAMA-DMBOK®)
+DAMA-DMBOK® 3.0 Project
+DAMA® Dictionary of Data Management
+Navigating the Labyrinth (Executive Guide)
+Books Referenced in DMBoK
+
+Chapters & Community
+Find a DAMA Chapter (Map/List)
+Presidents’ Council
+Start a DAMA International® Chapter
+Chapter DAMA Days
+Pay If You Pass CDMP® Program (PIYP)
+Speaker Roster & Call for Speakers
+
+Affinity Groups
+DAMA International® Data Executives and Leaders (IDEAL)
+GenAI4DM Affinity Group
+
+Events & Conferences
+Upcoming Events (Conferences, Webinars, Workshops)
+DAMA® Global Conference Calendar
+
+Get Involved
+Committees and Working Groups
+Want to Volunteer?
+
+ 
+   Search 
+
+       
+
+ DAMA-DMBOK®
+
+Home » DAMA-DMBOK®
+
+You may reference DAMA-DMBOK concepts, frameworks, and terminology in consulting work and client presentations with proper attribution.
+
+ ✓ Some DAMA materials, including certain diagrams contained in DAMA-DMBOK, specify that they are available under a Creative Commons License and may be used for non-commercial purposes with proper attribution. Be sure to review the specific DAMA materials you plan to use to determine whether a Creative Commons License applies and, if so, that your use complies and includes proper attribution. 
+ ✓ For DAMA's copyrighted materials not subject to a Creative Commons License, you may use limited portions for non-commercial purposes (e.g., education) under the "fair use" doctrine so long as only a small portion of DAMA's material is used, your use does not harm the market for DAMA's original work, and you include proper attribution to DAMA. 
+ ✓  You may use personal copies of DAMA-DMBOK for professional development. 
+
+The DAMA International DAMA-DMBOK® Version 2 Revised has an amazing series of images and diagrams that have been updated and added to since DAMA-DMBOK®1. The most popular of these images were the context diagrams, so DAMA International has decided to provide the public downloadable images for these - negating the need to rebuild them.
+These are provided via a Creative Commons License. If you are interested in using other content from the DAMA-DMBOK®, please contact DAMA International at Info@dama.org to request details of our licensing policies.
+All images below may be downloaded  by right-clicking the image, then choosing "save image as."
+
+   
+
+Select DAMA-DMBOK® images by DAMA International are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
+You can download these and share them with others as long as you credit DAMA International. 
+View License Deed | View Legal Code
+These png format infographics may not be changed or have the copyright notation removed
+Publications must include the approved bibliographic citation for the second edition, revised:
+DAMA International. The DAMA Guide to the Data Management Body of Knowledge (DAMA-DMBOK2R). 2nd ed, revised. Sedona, AZ: Technics Publications, LLC, 2024.
+
+ THE WHEEL DIAGRAMS
+
+The DAMA-DMBOK® would not be the same without a wheel diagram. So click on the heading above to get your Wheel images. Do look further though, at the Evolved Wheel. This is the DAMA International evolved image of what Data Management looks like and how all these functions interact together.
+
+ 
+
+ 
+
+ THE CONTEXT DIAGRAMS
+
+ Data Handling Ethics
+
+ 
+
+ Data Governance and Stewardship
+
+ 
+
+ Data Architecture
+
+ 
+
+ Data Modeling and Design
+
+ 
+
+ Data Storage and Operations
+
+ 
+
+ Data Security
+
+ 
+
+ Data Integration and Interoperability
+
+ 
+
+ Document and Content Management
+
+ 
+
+ Reference and Master Data
+
+ 
+
+ Data Warehousing and Business Intelligence
+
+ 
+
+ Metadata Management
+
+ 
+
+ Data Quality Management
+
+ 
+
+ Big Data and Data Science
+
+ 
+
+ Data Management Maturity Assessment
+
+ 
+
+ © 2026 DAMA International®  |  Site by GrowthZone
+
+   
+
+ Membership & Community
+
+     
+
+Join DAMA - I  
+
+     
+
+Member Login 
+
+     
+
+Find a Local Chapter 
+
+     
+
+Events and Conferences 
+
+ Certification & Standards
+
+     
+
+CDMP Certification 
+
+     
+
+DAMA-DMBOK Guide 
+
+     
+
+CDMP Exam Registration 
+
+     
+
+CDMP Prep Resources 
+
+ Contact & Support
+
+     
+
+Contact Us 
+
+   
+
+info@dama.org
+
+   
+
+2512 East Evergreen Blvd #1023
+Vancouver, WA 98661-4323
+
+ © 2026 DAMA International®.  All Rights Reserved | Privacy Policy | Terms of Use | Cookie Policy | Sitemap
+
+    LinkedIn    Scroll To Top              
+

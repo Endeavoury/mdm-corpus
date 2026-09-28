@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "source_records": 96,
+  "download_routes": 218,
+  "validated_files": 184,
+  "usable_files": 178,
+  "pdf_files": 90,
+  "local_links_checked": 359,
+  "checks": [
+    "CSV structure",
+    "unique source IDs",
+    "source references",
+    "local file existence",
+    "SHA-256 matches",
+    "PDF parseability",
+    "local HTML links",
+    "JavaScript syntax"
+  ],
+  "not_checked": [
+    "scholarly content correctness",
+    "full-text identity for all linked documents",
+    "current standards conformance",
+    "review completeness"
+  ]
+}

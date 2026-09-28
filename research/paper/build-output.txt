@@ -1,0 +1,194 @@
+note: Running TeX ...
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 19: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 20: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 23: invalid constant used : monospace
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 42: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 43: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 46: invalid constant used : sans-serif
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 68: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 69: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 72: invalid constant used : serif
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 88: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 89: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 92: invalid constant used : emoji
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 108: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 109: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 112: invalid constant used : math
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 120: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 121: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 124: invalid constant used : system-ui
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 132: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 133: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 136: invalid constant used : cursive
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 144: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 145: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 148: invalid constant used : fantasy
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 156: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 157: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 160: invalid constant used : ui-sans-serif
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 168: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 169: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 172: invalid constant used : ui-serif
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 180: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 181: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 184: invalid constant used : ui-monospace
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 192: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 193: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 196: invalid constant used : ui-rounded
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 204: invalid attribute 'xsi:nil'
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 205: invalid constant used : 
+Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 208: invalid constant used : fangsong
+Fontconfig warning: "/etc/fonts/conf.d/48-spacing.conf", line 14: invalid constant used : monospace
+Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 10: invalid constant used : serif
+Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 18: invalid constant used : sans-serif
+Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 26: invalid constant used : monospace
+Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 34: invalid constant used : emoji
+Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 42: invalid constant used : math
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 19: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 20: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 23: invalid constant used : monospace
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 42: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 43: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 46: invalid constant used : sans-serif
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 68: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 69: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 72: invalid constant used : serif
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 88: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 89: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 92: invalid constant used : emoji
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 108: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 109: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 112: invalid constant used : math
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 120: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 121: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 124: invalid constant used : system-ui
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 132: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 133: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 136: invalid constant used : cursive
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 144: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 145: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 148: invalid constant used : fantasy
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 156: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 157: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 160: invalid constant used : ui-sans-serif
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 168: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 169: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 172: invalid constant used : ui-serif
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 180: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 181: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 184: invalid constant used : ui-monospace
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 192: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 193: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 196: invalid constant used : ui-rounded
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 204: invalid attribute 'xsi:nil'
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 205: invalid constant used : 
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-guessfamily.conf", line 208: invalid constant used : fangsong
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/48-spacing.conf", line 14: invalid constant used : monospace
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/49-sansserif.conf", line 10: invalid constant used : serif
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/49-sansserif.conf", line 18: invalid constant used : sans-serif
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/49-sansserif.conf", line 26: invalid constant used : monospace
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/49-sansserif.conf", line 34: invalid constant used : emoji
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/49-sansserif.conf", line 42: invalid constant used : math
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1642) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 2903) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1173) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 2285) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1097) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 6910) in paragraph at lines 23--24
+warning: sections/01-method-and-concepts:35: Underfull \hbox (badness 2334) in paragraph at lines 34--35
+warning: sections/02-capabilities-and-governance:59: Underfull \hbox (badness 1577) in paragraph at lines 58--59
+warning: sections/02-capabilities-and-governance:75: Underfull \hbox (badness 1292) in paragraph at lines 74--75
+warning: sections/03-semantics-and-standards:3: Underfull \hbox (badness 2343) in paragraph at lines 2--3
+warning: sections/03-semantics-and-standards:7: Underfull \hbox (badness 5245) in paragraph at lines 6--7
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 1394) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 1189) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 2088) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 4013) in paragraph at lines 23--24
+warning: sections/04-context-and-developments:49: Underfull \hbox (badness 2846) in paragraph at lines 48--49
+warning: sections/04-context-and-developments:49: Underfull \hbox (badness 5260) in paragraph at lines 48--49
+warning: sections/05-synthesis-and-discussion:47: Underfull \hbox (badness 1009) in paragraph at lines 46--47
+warning: sections/claims-table:58: Underfull \hbox (badness 1082) in paragraph at lines 58--58
+warning: mdm-overzicht.tex:42: Underfull \hbox (badness 1571) in paragraph at lines 41--42
+warning: mdm-overzicht.tex:44: Underfull \hbox (badness 2050) in paragraph at lines 44--44
+warning: mdm-overzicht.tex:44: Underfull \hbox (badness 4608) in paragraph at lines 44--44
+note: Running BibTeX on mdm-overzicht.aux ...
+note: Rerunning TeX because bibtex was run ...
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1642) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 2903) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1173) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 2285) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1097) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 6910) in paragraph at lines 23--24
+warning: sections/01-method-and-concepts:35: Underfull \hbox (badness 2334) in paragraph at lines 34--35
+warning: sections/02-capabilities-and-governance:59: Underfull \hbox (badness 1577) in paragraph at lines 58--59
+warning: sections/02-capabilities-and-governance:75: Underfull \hbox (badness 1292) in paragraph at lines 74--75
+warning: sections/03-semantics-and-standards:3: Underfull \hbox (badness 2343) in paragraph at lines 2--3
+warning: sections/03-semantics-and-standards:7: Underfull \hbox (badness 5245) in paragraph at lines 6--7
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 1394) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 1189) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 2088) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 4013) in paragraph at lines 23--24
+warning: sections/04-context-and-developments:49: Underfull \hbox (badness 2846) in paragraph at lines 48--49
+warning: sections/04-context-and-developments:49: Underfull \hbox (badness 5260) in paragraph at lines 48--49
+warning: sections/05-synthesis-and-discussion:47: Underfull \hbox (badness 1009) in paragraph at lines 46--47
+warning: sections/claims-table:58: Underfull \hbox (badness 1082) in paragraph at lines 58--58
+warning: mdm-overzicht.tex:42: Underfull \hbox (badness 1571) in paragraph at lines 41--42
+warning: mdm-overzicht.tex:44: Underfull \hbox (badness 2050) in paragraph at lines 44--44
+warning: mdm-overzicht.tex:44: Underfull \hbox (badness 4608) in paragraph at lines 44--44
+note: Rerunning TeX because "mdm-overzicht.aux" changed ...
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1642) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 2903) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1173) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 2285) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1097) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 6910) in paragraph at lines 23--24
+warning: sections/01-method-and-concepts:35: Underfull \hbox (badness 2334) in paragraph at lines 34--35
+warning: sections/02-capabilities-and-governance:59: Underfull \hbox (badness 1577) in paragraph at lines 58--59
+warning: sections/02-capabilities-and-governance:75: Underfull \hbox (badness 1292) in paragraph at lines 74--75
+warning: sections/03-semantics-and-standards:3: Underfull \hbox (badness 2343) in paragraph at lines 2--3
+warning: sections/03-semantics-and-standards:7: Underfull \hbox (badness 5245) in paragraph at lines 6--7
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 1394) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 1189) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 2088) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 4013) in paragraph at lines 23--24
+warning: sections/04-context-and-developments:49: Underfull \hbox (badness 2846) in paragraph at lines 48--49
+warning: sections/04-context-and-developments:49: Underfull \hbox (badness 5260) in paragraph at lines 48--49
+warning: sections/05-synthesis-and-discussion:47: Underfull \hbox (badness 1009) in paragraph at lines 46--47
+warning: sections/claims-table:58: Underfull \hbox (badness 1082) in paragraph at lines 58--58
+warning: mdm-overzicht.tex:42: Underfull \hbox (badness 1571) in paragraph at lines 41--42
+warning: mdm-overzicht.tex:44: Underfull \hbox (badness 2050) in paragraph at lines 44--44
+warning: mdm-overzicht.tex:44: Underfull \hbox (badness 4608) in paragraph at lines 44--44
+note: Rerunning TeX because "mdm-overzicht.run.xml" changed ...
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1642) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 2903) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1173) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 2285) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 1097) in paragraph at lines 23--24
+warning: mdm-overzicht.tex:24: Underfull \hbox (badness 6910) in paragraph at lines 23--24
+warning: sections/01-method-and-concepts:35: Underfull \hbox (badness 2334) in paragraph at lines 34--35
+warning: sections/02-capabilities-and-governance:59: Underfull \hbox (badness 1577) in paragraph at lines 58--59
+warning: sections/02-capabilities-and-governance:75: Underfull \hbox (badness 1292) in paragraph at lines 74--75
+warning: sections/03-semantics-and-standards:3: Underfull \hbox (badness 2343) in paragraph at lines 2--3
+warning: sections/03-semantics-and-standards:7: Underfull \hbox (badness 5245) in paragraph at lines 6--7
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 1394) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 1189) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 2088) in paragraph at lines 23--24
+warning: sections/03-semantics-and-standards:24: Underfull \hbox (badness 4013) in paragraph at lines 23--24
+warning: sections/04-context-and-developments:49: Underfull \hbox (badness 2846) in paragraph at lines 48--49
+warning: sections/04-context-and-developments:49: Underfull \hbox (badness 5260) in paragraph at lines 48--49
+warning: sections/05-synthesis-and-discussion:47: Underfull \hbox (badness 1009) in paragraph at lines 46--47
+warning: sections/claims-table:58: Underfull \hbox (badness 1082) in paragraph at lines 58--58
+warning: mdm-overzicht.tex:42: Underfull \hbox (badness 1571) in paragraph at lines 41--42
+warning: mdm-overzicht.tex:44: Underfull \hbox (badness 2050) in paragraph at lines 44--44
+warning: mdm-overzicht.tex:44: Underfull \hbox (badness 4608) in paragraph at lines 44--44
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: Writing `research/paper/mdm-overzicht.bbl` (66.744140625 KiB)
+note: Writing `research/paper/mdm-overzicht.log` (42.0849609375 KiB)
+note: Writing `research/paper/mdm-overzicht.aux` (37.837890625 KiB)
+note: Writing `research/paper/mdm-overzicht.run.xml` (2.580078125 KiB)
+note: Writing `research/paper/mdm-overzicht.toc` (3.7880859375 KiB)
+note: Writing `research/paper/mdm-overzicht.out` (8.5302734375 KiB)
+note: Writing `research/paper/mdm-overzicht.blg` (266 B)
+note: Writing `research/paper/mdm-overzicht.pdf` (173.4677734375 KiB)
+note: Writing `research/paper/mdm-overzicht-blx.bib` (341 B)

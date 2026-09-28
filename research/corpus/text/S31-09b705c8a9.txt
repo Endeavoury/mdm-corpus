@@ -1,0 +1,794 @@
+Aanmelding van een nieuwe standaard voor de ‘pas toe of leg uit’-lijst
+
+
+
+Voor dit type aanmelding geldt dat alle criteria van toepassing zijn en alle vragen beantwoord
+dienen te worden. U wordt als eerst gevraagd uw persoonsgegevens en de basisinformatie van de
+standaard te geven. Vervolgens dienen de criteriavragen beantwoord te worden. De criteria vallen
+uiteen in criteria voor inbehandelname en inhoudelijke criteria.
+
+
+
+
+0. Persoonsgegevens indiener & relatie tot standaard
+
+Deze gegevens worden door het Forum gebruikt om met u in contact te kunnen treden. De
+gegevens worden vertrouwelijk behandeld.
+
+
+
+0.      Persoonsgegevens en relatie tot de standaard
+
+0.1     Naam:
+        …
+
+0.2     Organisatie:
+
+        Platform Linked Data Nederland
+
+0.3     Functie:
+        …
+
+0.4     Telefoonnummer:
+        …
+0.5     E-mailadres
+        …
+
+0.6     Welke relatie bestaat er tussen uw organisatie en de standaard?
+
+        Het platform Linked Data Nederland is een levendige community die kennis en ervaring deelt
+        rond het maken, beheren en toepassen van Linked (Open) Data. Door de (technisch) inhoudelijke
+        kennis in te zetten in toepassingscases levert het platform een innovatieve bijdrage aan
+        toepassingen met Linked (Open) Data in Nederland. Het open en toegankelijke platform verbindt
+        mensen uit overheid en bedrijfsleven, en biedt daarnaast hulpmiddelen om aan de slag te gaan met
+        Linked Data. SKOS is een centraal element in de familie van Linked Data standaarden.
+
+
+
+
+0.7     Zijn er (andere) overheidsorganisaties die de aanmelding van deze standaard
+        ondersteunen?
+
+        Nog niet. (W3C is bereid te ondersteunen maar de indiener wil eerst overleg met het
+        Forum over de vraag of dit handig is. Daarnaast wordt verwacht dat de organisaties achter
+        Platform Linked Data Nederland steun zullen verlenen.)
+I. Basisinformatie aanmelding standaard
+De basisinformatie van de standaard vormt de basis voor de toetsing tegen de criteria. Probeer hier
+zo volledig mogelijk in te zijn.
+
+
+1.      Basisinformatie standaard(en)
+        (In geval van een set van standaarden, meerdere malen invullen)
+1.1     Volledige naam van de standaard
+
+        Simple Knowledge Organization System
+
+
+
+1.2     Verkorte naam van de standaard
+
+        SKOS
+
+1.3     Versie van de standaard, vaststellingsdatum en status
+
+        W3C Recommendation 18 August 2009
+
+1.4     Oudere en aanstaande versies van de standaard inclusief (verwachte) publicatiedata en
+        ondersteuningsstatus
+
+               Een volledig overzicht van de historie: http://www.w3.org/2004/02/skos/history
+               Een vroege versie van de standard is de 2nd W3C Public Working Draft 2
+                November 2005.
+               De direct aan de huidige voorafgaande versie is W3C Proposed Recommendation
+                15 June 2009.
+               Er worden op dit moment geen nieuwe versies van de standaard verwacht.
+               De errata-notice is laatstelijk in 2013 vernieuwd (SKOS Simple Knowledge
+                Organization System Reference Errata, 31-7-2013)
+
+1.5     Naam en vindplaats specificatiedocument (bij voorkeur URL of bijvoegen bij aanmelding)
+
+
+        SKOS Simple Knowledge Organization System Reference
+
+        http://www.w3.org/TR/skos-reference
+
+1.6     Naam van de standaardisatieorganisatie
+
+        W3C
+
+1.7     Kosten van deelname aan het standaardisatieproces (bijv. voor lidmaatschap)
+
+        Kosteloos
+1.8     Kosten voor het verkrijgen van het specificatiedocument
+
+        Kosteloos
+1.9     Andere standaarden die genoemd worden in het specificatiedocument van de standaard
+
+
+
+                                                                                       Pagina 2 van 14
+             OWL Web Ontology Language Reference (http://www.w3.org/TR/owl-ref)
+             Resource Description Framework (RDF): Concepts and Abstract Syntax
+              (http://www.w3.org/TR/rdf-concepts/)
+             RDF/XML Syntax Specification (Revised) (http://www.w3.org/TR/rdf-syntax-
+              grammar/)
+             RDF Vocabulary Description Language 1.0: RDF Schema
+              (http://www.w3.org/TR/rdf-schema/)
+             SPARQL Query Language for RDF (http://www.w3.org/TR/rdf-sparql-query/)
+             Turtle - Terse RDF Triple Language (http://www.w3.org/TeamSubmission/turtle/)
+             XML Schema Part 2: Datatypes Second Edition
+              (http://www.w3.org/TR/xmlschema-2/)
+             ISO 25964
+
+1.10   Hoe werkt de standaard?
+       (graag op een bondige en voor een buitenstaander duidelijke manier beschrijven hoe de
+       standaard werkt en wat deze mogelijk maakt)
+
+       SKOS is een uitwisselbaar gegevensmodel voor het delen en linken van systemen voor
+       kennisrepresentatie via het Web.
+
+       Veel systemen voor kennisrepresentatie zijn gegrondvest op eenzelfde conceptueel kader.
+       Voorbeelden zijn thesauri, taxonomieën, begrippenwoordenboeken, classificatieschema’s
+       en systemen voor trefwoordtoekenning. Ze worden vaak gebruikt in vergelijkbare
+       applicaties. SKOS maakt de overeenkomstige structuurelementen expliciet volgens een
+       generieke standaard. Doordat SKOS voortbouwt op de standaarden RDF, RDFS en OWL
+       (zie hierboven) zijn de kennisrepresentaties bruikbaar voor computerprogramma’s
+       (“machine readable”) en kunnen deze uitgewisseld worden tussen applicaties en
+       gepubliceerd worden op het Web.
+
+       Het gebruik van SKOS is belangrijk om de volgende redenen:
+
+             Kennismanagement: actoren krijgen beter toegang tot begrippenapparaten binnen
+              en buiten de eigen organisatie
+             Verbeterde ICT-ondersteuning: ICT-systemen kunnen direct gevoed worden met
+              referentiegegevens uit thesauri in plaats van eigen set referentiegegevens te
+              creëren
+             Verbeterde semantische interoperabiliteit bij gegevensuitwisseling: doordat
+              begrippenapparaten van de diverse partijen betrokken bij gegevensuitwisseling
+              bruikbaar zijn voor computers (“machine readable”), kunnen deze geanalyseerd,
+              vergeleken en “vertaald” worden
+
+       SKOS bouwt voort op de Linked Data standaarden (RDF, RDFS, OWL). Naarmate de LD-
+       standaarden breder toegepast worden en de hoeveelheid op LD-gebaseerde standaarden
+       toeneemt, ontstaan er steeds meer toepassingsmogelijkheden voor SKOS-gebaseerde
+       vocabulaires. SKOS-vocabulaires zullen in toenemende mate het hart vormen van
+       semantische interoperabiliteit.
+
+
+
+2.     Toepassings- en werkingsgebied van opname
+2.1    Wat is het beoogde functioneel toepassingsgebied voor de standaard?
+
+       De toepassing van SKOS is verplicht bij publicatie van een vocabulaire op het Web
+       wanneer één of meerdere van de volgende punten van toepassing zijn:
+
+             Het vocabulaire is een thesaurus voor het ontsluiten van content-items zoals
+              bedoeld de standaard ISO 25964
+             De publicatie heeft tot doel het jargon zoals gebruikt in een organisatie of domein
+              te ontsluiten zodat derden de terminologie kunnen vergelijken met hun eigen
+              terminologie ter verbetering van de interoperabiliteit in algemene zin
+
+       De toepassing van SKOS wordt aangemoedigd in alle andere gevallen waarin vocabulaires
+       worden gepubliceerd en alle gevallen waarin ontologieën worden gedefinieerd die van
+
+                                                                                      Pagina 3 van 14
+        niet-geformaliseerde waardelijsten (“authoritative lists”)
+
+        In brede zin is het toepassingsgebied van SKOS het beschikbaar maken van een
+        Knowledge Organisation System (KOS). Onder het begrip KOS vallen
+        begrippenwoordenboeken, classificatielijsten, definitielijsten, waardenlijsten,
+        trefwoordtoekenningssystemen, thesauri, taxonomieën en andere systemen voor
+        kennisrepresentatie.
+
+        Deze vocabulaires worden vaak gebruikt voor kennismanagement en kennisontsluiting, en
+        zijn als zodanig te vinden op Websites die grote hoeveelheden content beschikbaar
+        maken.
+        Een interessant geval wordt gevormd door waardelijsten. Zulke vocubulaires zijn vaak
+        onderdeel van een interoperabiliteitsstandaard. Een voorbeeld is de waardelijst voor
+        mogelijke waardes van het attribuut “economische activiteit” van een geregistreerde
+        organisatie, zoals in het voorbeeld van het Registered Organization Vocabulary (ROV, zie
+        het antwoord op vraag III.1.1.4). Voor nieuwe interoperabiliteitsstandaarden geldt dan
+        ook dat deze in toenemende mate op SKOS gebaseerd zullen worden.
+
+        SKOS dwingt NIET af dat elke waardelijst gepubliceerd wordt volgens SKOS. Alleen
+        wanneer een organisatie een waardelijst wenst te beschouwen als een KOS, en alleen
+        wanneer de organisatie deze als een KOS beschikbaar wil maken op het Web (hetzij
+        binnen de eigen organisatie of het WWW), kan gebruik van de standaard aangeraden
+        worden volgens het “pas toe of leg uit”-principe.
+
+        Een specifiek voorbeeld van de wijze waarop SKOS kan bijdragen aan het beter gebruik
+        van waardelijsten in een bestaande interoperabiliteitsstandaard, zonder impact op de
+        standaard zelf, is het initiatief van de Oostenrijkse Geologische Dienst om de INSPIRE-
+        waardelijsten als een KOS beschikbaar te maken, volgens de SKOS-standaard. Zie
+        III.1.2.3.
+
+        SKOS is ook geen concurrerende standaard in relatie tot OWL. Het referentiedocument
+        legt dat in detail en met grote precisie uit. Kort gezegd komt het erop neer dat
+        waardenlijsten in OWL onderdeel zijn van een geformaliseerd kennissysteem, terwijl SKOS
+        van toepassing is op niet-geformaliseerde kennissystemen.
+
+
+2.2     Wat is het beoogde organisatorisch werkingsgebied voor de standaard?
+        (hoeft alleen ingevuld te worden als de standaard op de ‘pas toe of leg uit’ –lijst is
+        opgenomen)
+
+        Het beoogde organisatorische werkingsgebied voor de standaard is zeer breed. Bijna alle
+        Nederlandse overheidsorganisaties maken gebruik van metadata om hun producten en
+        diensten vindbaar te maken. Al deze organisaties kennen begrippenwoordenboeken,
+        classificatielijsten, definitielijsten, trefwoordtoekenningssystemen, thesauri, taxonomieën
+        en andere kennisrepresentaties en wisselen informatie uit waarbij van deze kennis gebruik
+        gemaakt wordt.
+
+
+
+
+II. Criteria voor inbehandelname
+De criteria voor inbehandelname worden gebruikt tijdens de intake om te bepalen of een
+aanmelding correct is en binnen de scope van de lijsten valt. U kunt voor het beantwoorden van
+deze vraag de tekstvlakken bij de betreffende criteriavragen gebruiken.
+
+Criteria: De aanmelding is correct en valt binnen scope van de lijsten, d.w.z. de standaard:
+           - Is toepasbaar voor elektronische gegevensuitwisseling tussen en met (semi-
+              )overheidsorganisaties;
+           - Draagt binnen het beoogde opnamegebied substantieel bij aan de interoperabiliteit
+              van de (semi-)overheid;
+           - Is niet reeds wettelijke verplicht.
+
+
+
+
+                                                                                           Pagina 4 van 14
+1.          Valt de aangemelde standaard binnen de scope van de lijsten?
+1.1         Is de standaard toepasbaar voor elektronische gegevensuitwisseling tussen (semi-)
+            overheidsorganisaties en bedrijven, tussen (semi-)overheidsorganisaties en burgers of
+            tussen (semi-)overheidsorganisaties onderling?
+
+            Ja. De standaard is specifiek voor bedoeld om elektronische gegevensuitwisseling te
+            verbeteren voor die gevallen waarin het gegevensmodel geen geformaliseerd
+            kennismodel is in de zin van OWL. Bijvoorbeeld: in alle gevallen van informatie-
+            uitwisseling tussen partijen waarbij afspraken gemaakt worden over waardenlijsten
+            heeft de standaard heeft de standaard een duidelijke toegevoegde waarde.
+
+            SKOS staat op de Comply or Explain lijst van de Britse overheid:
+            http://www.w3.org/2012/04/openstandards
+
+
+1.2         Is het beoogde functioneel toepassingsgebied en het organisatorisch werkingsgebied
+            van de standaard, voldoende breed om substantieel bij te dragen aan de
+            interoperabiliteit van de (semi-)overheid?
+
+            Ja. De standaard biedt toegevoegde waarde op het gebied van semantische
+            interoperabiliteit. De standaard wordt zeer breed gebruikt, zowel op Europees als op
+            mondiaal niveau.
+
+1.3         Is het zinvol de standaard op te nemen, gezien het feit dat deze niet al wettelijk
+            verplicht is voor het beoogde functioneel toepassingsgebied en organisatorisch
+            werkingsgebied?
+
+            Ja.
+
+
+
+
+III. Inhoudelijke criteria
+
+De inhoudelijke criteria worden gebruikt voor het expertonderzoek om te adviseren over het al dan
+niet opnemen van de standaard op één van de lijsten. U kunt voor het beantwoorden van deze
+vragen de tekstvlakken bij de betreffende criteriavragen gebruiken. De vragen dienen beantwoord
+te worden met Ja, Nee of Onbekend en altijd te worden voorzien van een toelichting op het
+antwoord.
+
+III. Inhoudelijke criteria
+
+1. Inhoudelijk criterium: Toegevoegde waarde
+Criterium: De interoperabiliteitswinst en andere voordelen van adoptie van de standaard wegen
+overheidsbreed en maatschappelijk op tegen de risico’s en nadelen.
+
+Vragen:
+
+1.1       Verhoudt de standaard zich goed tot andere standaarden?
+1.1.1     Kan de standaard naast of in combinatie met reeds opgenomen standaarden worden
+          toegepast (d.w.z. de standaard conflicteert niet met reeds opgenomen standaarden)?
+
+          Ja. Er is geen sprake van conflicten met reeds opgenomen standaarden.
+
+          Voor standaarden die waardelijsten bevatten, zoals INSPIRE, SMEF en SBR, geldt dat
+          toepassing van SKOS een ondersteunende werking heeft. Zie III.1.2.3.
+
+1.1.2     Biedt de aangemelde standaard meerwaarde boven reeds opgenomen standaarden met
+          een overlappend functioneel toepassings- en organisatorisch werkingsgebied? (Dit kan ook
+          om een nieuwe versie van dezelfde standaard gaan.)
+
+
+
+
+                                                                                           Pagina 5 van 14
+        Ja. Er zijn geen standaarden opgenomen met een overlappend werkingsgebied.
+
+
+
+
+1.1.3   Biedt de aangemelde standaard meerwaarde boven bestaande concurrerende standaarden
+        die in aanmerking zouden kunnen komen voor opname?
+
+        Ja. De standaard overlapt met ISO 25964, die echter alleen op conceptueel niveau van
+        toepassing is en dus niet op zichzelf leidt tot beschikbaarheid op een voor computers
+        bruikbare manier.
+
+        SKOS is ook geen concurrerende standaard in relatie tot OWL. Het referentiedocument
+        legt dat in detail en met grote precisie uit. Kort gezegd komt het erop neer dat
+        vocabulaires in OWL onderdeel zijn van een geformaliseerd kennissysteem, terwijl SKOS
+        van toepassing is op niet-geformaliseerde kennissystemen. OWL en SKOS sluiten naadloos
+        op elkaar aan.
+
+1.1.4   Is de standaard een internationale standaard of sluit de standaard aan bij relevante
+        internationale standaarden?
+
+        Ja. De standaard maakt deel uit van de brede familie standaarden die door W3C beheerd
+        wordt en dus wereldwijd toepasbaar zijn.
+
+        SKOS bouwt voort op de Linked Data standaarden (RDF, RDFS, OWL). Naarmate de LD-
+        standaarden breder toegepast worden en de hoeveelheid op LD-gebaseerde standaarden
+        toeneemt, ontstaan er steeds meer toepassingsmogelijkheden voor SKOS-gebaseerde
+        vocabulaires. SKOS-vocabulaires zullen in toenemende mate het hart vormen van
+        semantische interoperabiliteit.
+
+        Op EU-niveau is het gebruik van SKOS een voorwaarde om te kunnen voldoen aan
+        bijvoorbeeld de semantische standaarden uit het ISA-programma (Interoperability
+        Solutions for European Public Administrations). Voorbeelden zijn Registrered Organisation
+        Vocabulary (ROV), Asset Description Metadata Schema (ADMS) en Application Profile for
+        Data Portals in Europe (DCAT-AP). Het Publication Office van de Europese Commissie
+        piubliceert een groot aantal waardenlijsten in SKOS met omschrijvingen in 23 talen, zie
+        http://publications.europa.eu/mdr/authority/
+
+        Het gebruik van SKOS is zeer wijdverbreid, zowel binnen als buiten Europa, en zowel
+        binnen overheden als in de commerciële wereld.
+
+
+        Het is verder van groot belang te onderkennen dat SKOS een aanvulling is op RDF, RDFS
+        en OWL en daar op voortbouwt. Het is dus niet zo dat opname van SKOS op de PTOLU-
+        lijst het gebruik van SKOS zou afdwingen waar het gebruik RDF, RDFS en OWL zonder
+        toepassing van SKOS meer voor de hand zou liggen. SKOS is specifiek bedoeld voor het in
+        “machine-readable” vorm beschikbaar maken van een KOS, niet om willekeurige welke
+        ontologie in vast te leggen. Het SKOS-referentiedocument adresseert dit punt expliciet in
+        de Preambule aan de hand van voorbeelden.
+
+
+1.1.5   Draagt de standaard voldoende bij aan interoperabiliteit zonder dat aanvullende
+        standaardisatieafspraken (zoals lokale profielen) noodzakelijk zijn?
+
+        Ja. Er zijn geen aanvullende standaardisatieafspraken (zoals lokale profielen) noodzakelijk
+        voor het effectief inzetten van SKOS.
+
+
+
+
+                                                                                        Pagina 6 van 14
+III. Inhoudelijke criteria: 1. Toegevoegde waarde (vervolg)
+
+
+
+
+1.2     Wegen de kwantitatieve en kwalitatieve voordelen van adoptie van de standaard,
+        voor de (semi-)overheid als geheel en voor de maatschappij, op tegen de
+        nadelen?
+1.2.1   Draagt de adoptie van de standaard bij aan de oplossing van een bestaand, relevant
+        interoperabiliteitsprobleem?
+
+        Ja. Het publiceren van thesauri en taxonomieën door overheidsorganisaties gebeurt thans
+        vaak in de vorm van documenten die niet bruikbaar zijn in computerprogramma’s. Zo
+        wordt de SBI-lijst, dat is de classificatielijst van economische activiteiten, door de Kamer
+        van Koophandel gepubliceerd in de vorm van een PDF-document. Voor applicaties die dit
+        vocabulaire gebruiken dient dan een digitale tabel gemaakt te worden met de elementen
+        uit de SBI-lijst. Soms zijn dergelijke vocabulaires beschikbaar in een XML-formaat die
+        geen semantische standaard volgt. Om deze bruikbaar te maken moet een conversie
+        uitgevoerd worden. Een voorbeeld is de Justitiethesaurus van het WODC
+
+        Een voorbeeld dat elders in dit document genoemd wordt is de Justitiethesaurus van het
+        WODC. Deze wordt uitgewisseld met de Politieacademie en met de Raad voor de
+        Kinderbescherming. Het uitwisselingsformaat is niet SKOS maar een proprietary format
+        van een CMS-leverancier. Alleen organisaties met een CMS van deze leverancier kunnen
+        de thesaurus hergebruiken. Dat is een verspilling van publieke middelen. Zoals
+        uiteengezet bij de beschrijving van het functioneel toepassingsgebied zou adoptie van de
+        standaard in de PTOLU-lijst dergelijke verspilling in de toekomst voorkomen.
+
+
+        Het gebruik van SKOS ondersteunt de volgende doelstellingen:
+
+               Kennismanagement: actoren krijgen beter toegang tot begrippenapparaten binnen
+                en buiten de eigen organisatie
+               Verbeterde ICT-ondersteuning: ICT-systemen kunnen direct gevoed worden met
+                referentiegegevens uit thesauri in plaats van eigen set referentiegegevens te
+                creëren
+               Verbeterde semantische interoperabiliteit bij gegevensuitwisseling: doordat
+                begrippenapparaten van de diverse partijen betrokken bij gegevensuitwisseling
+                bruikbaar zijn voor computers (“machine readable”), kunnen deze geanalyseerd,
+                vergeleken en “vertaald” worden
+
+1.2.2   Draagt de standaard bij aan het voorkomen van een vendor lock-in
+        (leveranciersafhankelijkheid)?
+
+        Ja. In de huidige situatie worden systemen voor kennisrepresentatie veelal beschikbaar
+        gemaakt volgens leveranciers-specifieke formaten.
+        Een voorbeeld dat elders in dit document genoemd wordt is de Justitiethesaurus van het
+        WODC. Deze wordt uitgewisseld met de Politieacademie en met de Raad voor de
+        Kinderbescherming. Het uitwisselingsformaat is niet SKOS maar een proprietary format
+        van een CMS-leverancier. Alleen organisaties met een CMS van deze leverancier kunnen
+        de thesaurus hergebruiken. Organisaties in het domein die geen gebruik maken van een
+        CMS van deze leverancier kunnen de thesaurus niet gebruiken en moeten dus zelf
+        investeren in het maken van een thesaurus, of de thesaurus overtypen. Dat is een
+        verspilling van publieke middelen. Zoals uiteengezet bij de beschrijving van het
+        functioneel toepassingsgebied zou adoptie van de standaard in de PTOLU-lijst dergelijke
+        verspilling in de toekomst voorkomen.
+
+1.2.3   Wegen de overheidsbrede en maatschappelijke baten voor de informatievoorziening en de
+        bedrijfsvoering op tegen de kosten?
+
+
+                                                                                         Pagina 7 van 14
+Ja. De invoering van SKOS is zeer laagdrempelig. Er zijn vele tools beschikbaar, zowel
+gratis in het Open Source domein als in het commerciële domein. Een overzicht van tools
+is te vinden in Wikipedia:
+http://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System
+
+
+
+Voor nieuw op te stellen interoperabiliteitsstandaarden geldt dat het van belang is om het
+gebruik van SKOS daarin zoveel mogelijk te bevorderen. Zo kan optimaal aangesloten
+worden op Europese en wereldwijde semantische standaarden, zoals de semantische
+standaarden uit het ISA-programma (Interoperability Solutions for European Public
+Administrations) (zie het antwoord op vraag 1.1.4).
+
+Voor bestaande interoperabiliteitsstandaarden zoals SETU, StUF en XBRL geldt dat deze
+ongemoeid gelaten kunnen worden. Wel is het mogelijk mbv SKOS op laagdrempelige
+wijze, zonder ook maar iets aan de standaarden zelf te wijzigen, een
+begrippenwoordenboek te publiceren dat waardenlijsten en andere (deel-)vocabulaires die
+binnen de standaard worden gebruikt verklaart en eventueel vertaalt naar andere
+(Europese) talen. Op termijn kan een dergelijk op SKOS-gebaseerd
+begrippenwoordenboek de leverancier worden van waardenlijsten binnen de standaard in
+kwestie. Kortom, voor bestaande standaarden levert de introductie van SKOS geen kosten
+op, wel mogelijkheden voor een stapsgewijze migratie op de lange termijn.
+
+Een praktijkvoorbeeld van hoe dit werkt is het initiatief van de Oostenrijkse geologische
+dienst. De INSPIRE-standaard stelt het gebruik van een groot aantal waardenlijsten
+verplicht. Deze waardenlijsten zijn primair beschikbaar in PDF, dus als ongestructureerde
+tekst. Applicaties die de standaard toepassen worden geacht de waardenlijsten te
+implementeren. De Oostenrijkse geologische dienst heeft een SKOS-gebaseerde thesaurus
+gepubliceerd waarin de waardenlijsten opgenomen zijn, met definities, verklarende tekst
+en vertalingen naar termen die binnen het Oostenrijkse werkveld gebruikelijk zijn. Zie
+http://resource.geolba.ac.at. Applicaties kunnen de waardenlijsten direct toepassen.
+Gebruikers krijgen bruikbare informatie over betekenis en gebruik. De termen kunnen
+gelinked worden aan termen in andere (SKOS-gebaseerde) thesauri op het Web. Op deze
+wijze kan de invoering van SKOS het gebruik van bestaande standaarden voor
+interoperabiliteit ondersteunen en daardoor van toegevoegde waarde zijn.
+
+Inmiddels heeft de organizatie die INSPIRE beheert ervoor gekozen om de waardelijsten
+zelf eveneens in SKOS te publiceren. Zie http://inspire.ec.europa.eu/codelist/. De nu
+volgende stap is dat Oostenrijkse en de autoritatieve lijst gelinked worden. De
+Oostenrijkse geologische dienst is deze stap thans aan het voorbereiden.
+
+Voor bestaande thesauri en begrippenwoordenboeken op het Web geldt dat deze
+ongemoeid kunnen blijven. Wel zal de introductie van SKOS op de “Pas Toe of Leg Uit
+Lijst” bevorderen dat nieuwe thesauri en begrippenwoordenboeken volgens SKOS opgezet
+worden. Ook zal dit bevorderen dat bestaande thesauri en begrippenwoorden op de
+langere termijn stap voor stap gemigreerd zullen worden naar SKOS. Een goed moment
+om een dergelijke stap zonder extra kosten te maken is de introductie van een nieuw
+Content Management Systeem voor de Website die de thesaurus of het woordenboek
+publiceert. Wanneer van het CMS geeist wordt dat deze SKOS ondersteunt kan de
+migratie eenvoudig uitgevoerd worden. Een voorbeeld dat elders in dit document genoemd
+wordt is de Justitiethesaurus van het WODC. Deze wordt uitgewisseld met de
+Politieacademie en met de Raad voor de Kinderbescherming. Het uitwisselingsformaat is
+niet SKOS maar een proprietary format van een CMS-leverancier. Alleen organisaties met
+een CMS van deze leverancier kunnen de thesaurus hergebruiken. Dat is een verspilling
+van publieke middelen. Zoals uiteengezet bij de beschrijving van het functioneel
+toepassingsgebied zou adoptie van de standaard in de PTOLU-lijst dergelijke verspilling in
+de toekomst voorkomen.
+
+Zoals eerder uiteengezet: SKOS dwingt NIET af dat elk vocabulaire gepubliceerd wordt
+volgens SKOS. Alleen wanneer een organisatie een vocabulaire wenst te beschouwen als
+een KOS, en alleen wanneer de organisatie deze als een KOS beschikbaar wil maken op
+het Web (hetzij binnen de eigen organisatie of het WWW), kan gebruik van de standaard
+
+
+                                                                               Pagina 8 van 14
+        aangeraden worden volgens het “pas toe of leg uit”-principe.
+
+1.2.4   Zijn de beveiligingsrisico’s aan overheidsbrede adoptie van de standaard acceptabel?
+
+        Ja. SKOS wordt gebruikt om openbare gegevens te publiceren. De betreffende tools
+        voegen geen significante “attack surfaces” toe.
+
+
+
+1.2.5   Zijn de privacyrisico’s aan overheidsbrede adoptie van de standaard acceptabel?
+
+        Ja. SKOS wordt in de meeste gevallen gebruikt om openbare gegevens te publiceren.
+
+
+
+
+2. Inhoudelijk criterium: Open standaardisatieproces
+Criterium: De ontwikkeling en het beheer van de standaard zijn op een open, onafhankelijke,
+toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze ingericht.
+
+
+
+Vragen:
+2.1     Is de documentatie voor eenieder drempelvrij beschikbaar?
+2.1.1   Is het specificatiedocument beschikbaar zonder dat er sprake is van onacceptabele
+        belemmeringen (zoals te hoge kosten en te hoge lidmaatschapseisen)?
+
+        Nee. Het specificatiedocument is gratis beschikbaar: http://www.w3.org/TR/skos-
+        reference
+
+2.1.2   Is de documentatie over het ontwikkel- en beheerproces (bijv. het voorlopige
+        specificatiedocument, notulen en beschrijving besluitvormingsprocedure) beschikbaar
+        zonder dat er sprake is van onacceptabele belemmeringen (zoals te hoge kosten en te
+        hoge lidmaatschapseisen)?
+
+        Ja. Deelname aan het beheerproces is kosteloos. Zie http://www.w3.org/2004/02/skos/
+
+
+
+
+2.2     Is het intellectuele eigendomsrecht voor eenieder beschikbaar, zodat de
+        standaard vrij implementeerbaar en te gebruiken is
+2.2.1   Stelt de standaardisatieorganisatie het intellectueel eigendomsrecht op de standaard
+        m.b.t. bijvoorbeeld eventuele patenten- onherroepelijk royalty-free voor eenieder
+        beschikbaar?
+
+        Ja, het is een openbare W3C-standaard in het publieke domein.
+
+
+
+
+                                                                                       Pagina 9 van 14
+2.2.2    Garandeert de standaardisatieorganisatie dat partijen die bijdragen aan de ontwikkeling
+         van de standaard hun intellectueel eigendomsrecht onherroepelijk royalty-free voor
+         eenieder beschikbaar stellen?
+
+         Ja, zie http://www.w3.org/2004/02/skos/development
+
+
+
+
+2.3      Is de inspraak van eenieder in voldoende mate geborgd?
+2.3.1    Is het besluitvormingsproces toegankelijk voor alle belanghebbenden (bijv. gebruikers,
+         leveranciers, adviseurs, wetenschappers)?
+
+         Ja, zie http://www.w3.org/2004/02/skos/development
+
+
+2.3.2    Vindt besluitvorming plaats op een wijze die zoveel mogelijk recht doet aan de
+         verschillende belangen?
+
+         Ja, zie http://www.w3.org/2004/02/skos/development
+
+
+2.3.3    Kan een belanghebbende formeel bezwaar aantekenen tegen de gevolgde procedure?
+
+         Ja, zie http://www.w3.org/2004/02/skos/development
+
+
+
+
+III.    2. Inhoudelijk criterium: Open standaardisatieproces (vervolg)
+
+Let op: ook de grijs gemarkeerde vragen dienen positief beantwoord te worden wil een organisatie
+in aanmerking komen voor de status uitstekend beheerproces.
+
+
+2.3.4    Organiseert de standaardisatieorganisatie regelmatig overleggen met belanghebbenden
+         over doorontwikkeling en beheer van de standaard?
+
+         Ja, zie http://www.w3.org/2004/02/skos/development
+
+2.3.5    Organiseert de standaardisatieorganisatie een publieke consultatie voordat (een nieuwe
+         versie van) de standaard wordt vastgesteld? Zie ook bijlage 3 uit de toetsingsprocedure
+         en criteria.
+
+         Ja, zie http://www.w3.org/2004/02/skos/development
+
+
+
+
+2.4      Is de standaardisatieorganisatie onafhankelijk en duurzaam?
+2.4.1    Is de ontwikkeling en het beheer van de standaard belegd bij een onafhankelijke non-
+         profit standaardisatieorganisatie?
+
+         Ja, zie http://www.w3.org/2004/02/skos/development
+
+
+2.4.2    Is de financiering van de ontwikkeling en het onderhoud van de standaard voor tenminste
+         drie jaar gegarandeerd?
+
+         Ja, zie http://www.w3.org/2004/02/skos/development
+
+
+                                                                                          Pagina 10 van 14
+2.5       Is het (versie) beheer van de standaard goed geregeld?
+2.5.1     Heeft de standaardisatieorganisatie gepubliceerd beleid met betrekking tot versiebeheer
+          van de standaard? (met o.a. aandacht voor migratie van gebruikers)
+
+          Ja, zie http://www.w3.org/2004/02/skos/development
+
+2.5.2     Is het standaardisatieproces van de standaardisatieorganisatie zodanig goed geregeld dat
+          het Forum zich kan onthouden van aanvullende toetsing bij de aanmelding van een
+          nieuwe versie van de standaard?
+
+          Ja, zie http://www.w3.org/2004/02/skos/development
+
+2.5.3     Is het belang van de Nederlandse overheid voldoende geborgd bij de ontwikkeling en het
+          beheer van de standaard?
+
+          Ja. De Nederlandse overheid kan desgewenst kosteloos participeren in het beheer van de
+          standaard.
+2.5.4     Is de vertegenwoordiging van belanghebbenden bij het beheer van de standaard een
+          goede representatie van het werkingsgebied en functioneel toepassingsgebied van de
+          standaard?
+
+          Ja. De leden van de werkgroep die de standaard heeft opgesteld zijn opgesomd in:
+          http://www.w3.org/2006/07/SWD/. Het beheer wordt geregeld door de W3C zelf.
+
+
+
+
+III. Inhoudelijke criteria
+
+3. Inhoudelijk criterium: Draagvlak
+Criterium: Aanbieders en gebruikers hebben voldoende positieve ervaring met de standaard.
+
+Vragen:
+
+3.1       Bestaat er voldoende marktondersteuning voor de standaard?
+3.1.1     Bieden meerdere leveranciers ondersteuning voor de standaard?
+
+          Ja, zie de lijst op http://www.w3.org/2001/sw/wiki/SKOS en
+          http://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System
+
+3.1.2     Kan een gebruiker de conformiteit van de implementatie van de standaard (laten)
+          toetsen?
+
+          Ja, er zijn validatieservices beschikbaar, zie http://www.w3.org/2004/02/skos/validation
+
+
+
+3.2       Kan de standaard rekenen op voldoende draagvlak?
+3.2.1     Wordt de aangemelde versie van de standaard binnen het organisatorische
+          werkingsgebied door meerdere organisaties gebruikt?
+
+          Ja, de standaard wordt breed gedragen. Voorbeelden van SKOS thesauri gepubliceerd
+          door publieke organisaties binnen de Nederlandse overheid:
+
+                OWMS (http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten)
+                Thesaurus voor Zorg en Welzijn (http://www.thesauruszorgenwelzijn.nl/diensten
+                 %20trefwoorden.htm)
+
+
+                                                                                        Pagina 11 van 14
+                 Thesaurus van Brandweer Nederland (in opbouw)
+                 Instituut voor Beeld en Geluid
+                 Rijksdienst voor Cultureel Erfgoed
+                 Stichting Bibliotheken
+
+        Voorbeelden van SKOS-thesauri gepubliceerd door publieke organisaties binnen de (semi-)
+        overheid buiten Nederland:
+
+                 EuroVoc (http://eurovoc.europa.eu/)
+                 AGROVOC (http://aims.fao.org/agrovoc)
+                 GEMET (http://www.eionet.europa.eu/gemet/en/themes/)
+                 SWED (http://www.tdwg.org/biodiv-networks/networks-database/view-
+                  project/37/)
+                 http://publications.europa.eu/mdr/authority/
+                 http://inspire.ec.europa.eu/codelist/
+                 Library of Congress Subject Headings (http://www.loc.gov/aba/)
+                 GeoNames (http://www.geonames.org/)
+                 Geologische Bundesanstalt (http://resource.geolba.ac.at/)
+                 European Innovation Partnerships (Europese Commissie)
+                  (http://ec.europa.eu/environment/water/innovationpartnership/)
+                 Centre for Ecology and Hydrology (http://www.ceh.ac.uk/)
+                 Renewable energy and energy efficiency partnership (REEEP)
+                  (http://www.reeep.org/)
+                 Art and Architecture Thesaurus
+                  (http://www.getty.edu/research/tools/vocabularies/aat/)
+                 British Museum, Staatliche Museen zu Berlin, e.v.a
+
+        SKOS staat op de Comply or Explain lijst van de Britse overheid:
+        http://www.w3.org/2012/04/openstandards
+
+        Voorbeelden van SKOS-thesauri gepubliceerd door commerciële organisaties:
+
+                 WKD Arbeitsrechtthesaurus & Gerichtsthesaurus
+                  (http://vocabulary.wolterskluwer.de/)
+                 Roche
+                 Health Direct Australia
+                 Biogen IDEC
+                 Daimler
+                 Credit Suisse
+                 Pearson
+                 The Pokémon Company
+
+3.2.2   Wordt een vorige versie van de standaard binnen het organisatorische werkingsgebied
+        door meerdere organisaties gebruikt?
+
+        Nee
+
+
+3.2.3   Is de aangemelde versie backwards compatible met eerdere versies van de standaard?
+
+        Nvt
+
+
+3.2.4   Zijn er voldoende positieve signalen over toekomstige gebruik van de standaard door
+        (semi-)overheidsorganisaties, het bedrijfsleven en burgers?
+
+        Ja. Het aantal SKOS-thesauri op het Web neemt snel toe, zoals hierboven bij vraag 3.2.1
+        uiteengezet. Het is bovendien een standaard waarop voortgebouwd wordt door een
+        groeiende set standaarden die interoperabiliteit tussen overheden regelen op Europees
+        niveau (zie http://ec.europa.eu/isa)
+
+        SKOS staat op de Comply or Explain lijst van de Britse overheid:
+        http://www.w3.org/2012/04/openstandards
+
+
+                                                                                    Pagina 12 van 14
+III. Inhoudelijke criteria
+
+4. Inhoudelijk criterium: Opname bevordert adoptie
+Criterium: De opname op de lijst is een geschikt middel om de adoptie van de standaard te
+bevorderen.
+
+Toelichting lijsten:
+a. Met de lijsten wil het College de adoptie van open standaarden bevorderen die voldoen aan de
+   voorgaande criteria (open standaardisatieproces, toegevoegde waarde, draagvlak);
+b. Met de ‘pas toe of leg uit’-lijst beoogt het College dit soort standaarden verplichten als:
+        1. hun huidige adoptie binnen de (semi-)overheid beperkt is;
+        2. opname op de lijst bijdraagt aan de adoptie door te stimuleren o.b.v. het ‘PToLU; -
+           regime. (functie=stimuleren).
+c. Met de lijst met gangbare standaarden beoogt het College dit soort standaarden aan te bevelen
+   als:
+        1. hun huidige adoptie binnen de (semi-)overheid reeds hoog is;
+        2. opname op de lijst bijdraagt aan de adoptie door te informeren en daarmee onbedoelde
+           afwijkende keuzes te voorkomen. (functie=informeren)
+
+Vragen:
+
+4.1        Opname op de lijst bevordert de adoptie van de standaard.
+4.1.1      Is de “pas toe of leg uit”-lijst het passende middel om de adoptie van de standaard
+           binnen de (semi)overheid te bevorderen?
+
+           Ja. SKOS en de familie van standaarden waar SKOS deel van uitmaakt is nog maar
+           weinig bekend binnen de Nederlandse overheid. Opname in de “pas toe of leg uit”-
+           lijst zal een belangrijke stimulans zijn om deze kennisachterstand in te lopen. Adoptie
+           van de standaard is niet moeilijk en hoeft niet veel te kosten, zoals uiteengezet in het
+           antwoord op vraag 1.2.3). Adoptie zal de bekendheid van de standaard vergroten en
+           het bewustwordingsproces met betrekking tot de noodzaak van semantische
+           interoperabiliteit versnellen.
+
+           Ook voorkomt adoptie onbedoelde afwijkende keuzes.
+
+4.1.2      Is de lijst met gangbare open standaarden het passende middel om de adoptie van
+           de standaard binnen de (semi)overheid te bevorderen?
+
+           Nee, dit ontbeert het effect van “stok achter de deur”.
+
+
+
+
+                                                                                        Pagina 13 van 14
+Verzending
+
+
+Als u het aanmeldingsformulier zo volledig mogelijk heeft ingevuld, dan kunt u deze
+als bijlage versturen naar forumstandaardisatie@logius.nl
+
+Gebruikt u dan als onderwerp: "Aanmelding standaard".
+Na ontvangst van het formulier ontvangt u binnen 5 dagen een ontvangstbevestiging per e-mail.
+
+Bedankt voor uw aanmelding.
+
+
+
+
+                                                                                      Pagina 14 van 14
+

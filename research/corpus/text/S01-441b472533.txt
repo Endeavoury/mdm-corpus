@@ -1,0 +1,963 @@
+Publications >> Books Referenced in DMBoK v2
+Click the categories below to explore books referenced in DAMA's DMBOK.
+
+01 Data Management
+
+               AUTHOR                                                        TITLE                                                               PUBLISHER                        YEAR
+Adelman, Sid, Larissa Moss, and Majid
+                                        Data Strategy                                                                     Addison-Wesley Professional. Print.                     2005
+Abai
+Aiken, Peter and Billings, Juanita      Monetizing Data Management                                                      Technics Publishing, LLC. Print.                          2014
+Aiken, Peter and Harbour, Todd          Data Strategy and the Enterprise Data Executive                                 Technics Publishing, LLC. Print.                          2017
+                                        Total Information Risk Management: Maximizing the Value of Data and Information
+Borek, Alexander et al.                                                                                                 Morgan Kaufmann, Print.                                   2013
+                                        Assets.
+Brackett, Michael                       Data Resource Design: Reality Beyond Illusion.                                  Technics Publishing, LLC. Print.                          2014
+Chisholm, Malcolm and Roblyn-Lee,
+                                        Definitions in Data Management: A Guide to Fundamental Semantic Metadata          Design Media. Print.                                    2008
+Diane
+Devlin, Barry                           Business Unintelligence                                                           Technics Publishing, LLC. Print.                        2013
+                                         Improving Data Warehouse and Business Information Quality: Methods For
+English, Larry                                                                                                            John Wiley and Sons. Print.                             1999
+                                        Reducing Costs And Increasing Profits
+Fisher, Tony                            The Data Asset: How Smart Companies Govern Their Data for Business Success        Wiley, Print. Wiley and SAS Business Ser.               2009
+                                        Data and Reality: A Timeless Perspective on Perceiving and Managing Information
+Kent, William                                                                                                             Technics Publications, LLC Print.                       2012
+                                        in Our Imprecise World. 3d ed.
+                                                                                                                          Langdon Street Press (a division of Hillcrest Publishing
+Kring, Kenneth L.                       Business Strategy Mapping - The Power of Knowing How it All Fits Together                                                                  2009
+                                                                                                                          Group, Inc.) Print.
+                                        Data-ism: The Revolution Transforming Decision Making, Consumer Behavior, and
+Loh, Steve                                                                                                                 HarperBusiness, Print.                              2015
+                                        Almost Everything Else
+Loshin, David                           Enterprise Knowledge Management: The Data Quality Approach.                        Morgan Kaufmann, Print.                             2001
+                                        "A Generic Framework for Information Management." Prima Vera Working Paper
+Maes, R.                                                                                                                                                                       1999
+                                        99-02
+McGilvray, Danette                      Executing Data Quality Projects: Ten Steps to Quality Data and Trusted Information Morgan Kaufmann, Print.                             2008
+                                        Information Management: Strategies for Gaining a Competitive Advantage with
+McKnight, William                                                                                                          Morgan Kaufmann, Print. The Savvy Manager's Guides. 2013
+                                        Data
+Olson, Jack E.                          Data Quality: The Accuracy Dimension                                               Morgan Kauffmann, Print.                            2003
+Redman, Thomas                          Data Driven: Profiting from Your Most Important Business Asset                Harvard Business Review Press. Print.                                                              2008
+Redman, Thomas                          Data Quality: The Field Guide.                                                Digital Press, Print.                                                                              2001
+Reid, Roger, Gareth Fraser-King, and W.
+                                        Data Lifecycles: Managing Data for Strategic Advantage.                       Wiley, Print.                                                                                      2007
+David Schwaderer
+Rockley, Ann and Charles Cooper         Managing Enterprise Content: A Unified Content Strategy. 2nd ed               New Riders, Print. Voices That Matter.                                                             2012
+                                        Measuring Data Quality for Ongoing Improvement: A Data Quality Assessment     Morgan Kaufman, The Morgan Kaufmann Series on
+Sebastian-Coleman, Laura                                                                                                                                                                                                 2013
+                                        Framework                                                                     Business Intelligence. Print.
+Simsion, Graeme                         Data Modeling: Theory and Practice                                            Technics, LLC, Print.                                                                              2001
+                                        Data Crush: How the Information Tidal Wave is Driving New Business
+Surdak, Christopher                                                                                                   AMACOM                                                                                             2014
+                                        Opportunities.
+Waclawski, Janine                       Organization Development: A Data Driven Approach to Organizational Change     Pfeiffer, Print.                                                                                   2001
+                                        Show Me the Proof: Tools and Strategies to Make Data Work for the Common Core
+White, Stephen                                                                                                        Advanced Learning Press, 2nd Ed Print.                                                             2011
+                                        State Standards.
+
+02 Data Handling Ethics
+
+                                                       AUTHOR                                                                                    TITLE                                   PUBLISHER                      YEAR
+                                                                                                                                                                          Oxford University Press, Print. Fundamentals
+Blann, Andrew                                                                                                                    Data Handling and Analysis                                                            2015
+                                                                                                                                                                          of Biomedical Science
+                                                                                                                                 Ethics of Big Data: Balancing Risk and
+Davis, Kord                                                                                                                                                               O'Reilly Media, Print.                        2012
+                                                                                                                                 Innovation
+                                                                                                                                 Federal Trade Commission Report
+Federal Trade Commission, US (FTC)                                                                                               Protecting Consumer Privacy in an Era of
+                                                                                                                                 Rapid Change
+GDPR REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016
+on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and
+repealing Directive 95/46/EC (General Protection Regulation).
+                                                                                                                                 Data Ethics: The New Competitive
+Hasselbalch, Gry and Pernille Tranberg                                                                                                                                    Publishare                                    2016
+                                                                                                                                 Advantage
+Huff, Darrell                                                                                                                    How to Lie with Statistics               Norton, Print.                                1954
+Johnson, Deborah G.                                                                                                              Computer Ethics 4th ed.                  Pearson, Print.                               2009
+                                                                                                                                 European Security, Terrorism and
+                                                                                                                                                                          Palgrave Macmillan, Print. Palgrave Studies
+Kaunert, C. and S. Leonard, eds                                                                                                  Intelligence: Tackling New Security                                                    2013
+                                                                                                                                                                          in European Union Politics
+                                                                                                                                 Challenges in Europe
+                                                     Statistical Methods for Handing          Chapman and Hall/CRC Chapman and
+Kim, Jae Kwan and Jun Shao                                                                                                                  2013
+                                                     Incomplete Data.                         Hall/CRC Texts in Statistical Science
+                                                     A Guide to Handing Data Unising
+Lake, Peter                                          Hadoop: An exploration of Hadoop,        Peter Lake                                    2015
+                                                     Hive, Pig, Sqoop and Flume
+                                                     Social Media Communication: Concepts,
+Lipschultz, Jeremy Harris                                                                     Routledge, Print.                             2014
+                                                     Practices, Data, Law and Ethics
+                                                                                              Create Space Independent Publishing
+Mayfield, M.I.                                       On Handing the Data                                                                    2015
+                                                                                              Platform, Print.
+                                                     Information Hiding in Communication      Wiley-IEEE Press Print. IEEE Press Series on
+Mazurczyk, Wojciech et al.                           Networks: Fundamentals. Mechanisms, Information and Communication Networks             2016
+                                                     and Applications                         Security
+                                                     Multivariate Analysis of Data in Sensory Elsevier Science, Print. Data Handling
+Naes, T. and E. Risvik eds                                                                                                                  1996
+                                                     Science Volunte 16                       Science and Techlology (Book 16)
+                                                     Fundamentals and Analytical
+                                                                                              Elsevier, Print. Data Handling in Science and
+Olivieri, Alejandro C. et al, eds                    Applications of Multi-way Calibration                                                  2015
+                                                                                              Technology (Book 29)
+                                                     Volume 29
+                                                     Data Science for Business: What you
+Provost, Foster and Tom Fawcett                      need to know aobut data mining and data- O'Reilly Media, Print.                        2013
+                                                     analytic thinking
+Quinn Michael J.                                     Ethics for the Information Age 6th ed    Pearson, Print.                               2014
+                                                     Handling Qualitative Data: A Practical
+Richards, Lyn                                                                                 SAGE Publications Ltd., Print.                2014
+                                                     Guide 3Pap/Psc ed
+                                                     Thomas on Data Breach: A Practical
+Thomas, Liisa M                                      Guide to Handling Data Breach            LegalWorks, Print.                            2015
+                                                     Notifications Worldwide
+                                                     The Visual Display of Quantitative
+Tufte, Edward R.                                                                              Graphics Pr., Print.                          2001
+                                                     Information 2nd ed.
+                                                     Data Mining: Practical Machine Learning Morgan Kaufmann, Print. Series in Data
+Witten, Ian Hl, Eibe Frank and Mark A Hall                                                                                                  2011
+                                                     Tools and Techniques 3rd ed.             Management Systems
+
+03 Data Governance
+
+                 AUTHOR                      TITLE                                               PUBLISHER                                 YEAR
+Adelman, Sit, Larissa Moss and Majid
+                                       Data Strategy                                                       Addison-Wesley Professional, Print.                         2005
+Abai
+Anderson, Dean and Anderson, Linda
+                                       Beyond Change Management                                            Pfeiffer                                                    2012
+Ackerson
+Avramov, Lucien and Maurizio           The Policy Driven Data Center with ACI: Architecture, Concepts and
+                                                                                                           Cisco Press, Print. Networking Techology                    2014
+Portolani                              Methodology
+                                       HIPAA Privacy and Security Compliance - Simplified: Practical Guide
+Brzezinski, Roert                                                                                          CreateSpace Independent Publishing Platform, Print.         2014
+                                       for Healthcare Providers and Practice Managers
+                                       IT Governance: Implementing Frameworks and Standards for the
+Calder, Alan                                                                                               IT Governance Publishing, Print.                            2009
+                                       Coprporate Governance of IT
+Chisholm, Malcolm and Roblyn-Lee,      Definitions in Data Management: A guide to Fundamental Semantic
+                                                                                                           Design Media, Print.                                        2008
+Diane                                  Metadata
+                                       CIO Best Practices: Enabling Strategic Value with Information
+Cokens, Gary et al.                                                                                        Wiley, Print.                                               2010
+                                       Technology, 2nd Ed.
+DeHaes, Steven and Wim Van             Enterprise Governance of Information Technology: Achieving
+                                                                                                           Springer, Print. Management for Professionals               2015
+Grembergen                             Alignment and Value, Featuring COBIT 5 2nd ed.
+DiStefano, Robert S.                   Asset Data Integrity Is Serious Business                            Industrial Press, Inc., Print.                              2010
+Doan, AnHai, Alon Halevy and Zachary
+                                     Principles of Data Integration                                            Morgan Kaufmann, Print.                                 2012
+Ives
+                                     The Data Asset: How Smart Companies Govern Their Data for
+Fisher, Tony                                                                                                   Wiley, Print.                                           2009
+                                     Business Success
+                                     Performing Information Governance: A Step-by-step Guide to Making
+Giordano, Anthony David                                                                                        IBM Press, Print. IBM Press                             2014
+                                     Information Governance Work
+Hiatt, Jeff and Creasey, Timothy     Change Management: The People Side of Change                              Prosci                                                  2012
+                                     Metrics 2.0: Creating Scorecard for High-Performance Work Teams
+Huwe, Ruth A.                                                                                                  Praeger, Print.                                         2010
+                                     and Organizations
+                                     Data Governance: How to Design, Deploy and Sustain an Effective           Morgan Kaufmann, Print. The Morgan Kaufmann Series on
+Ladley, John                                                                                                                                                           2012
+                                     Data Governance Program                                                   Business Intelligence
+Marz, Nathan and James Warren        Big Data: Principles and best practices of scalable realtime data systems Manning Publications, Print.                            2015
+                                     Executing Data Quality Projects: Ten Steps to Quality Data and Trusted
+McGilvray, Danette                                                                                             Morgan Kaufmann, Print.                                 2008
+                                     Information
+                                     Best Practices in Data Cleaning: A Complete Guide to Everything You
+Osborne, Jason W.                                                                                              SAGE Publications, Inc, Print.                          2013
+                                     Need to Do Before and After Collecting Your Data
+Plotkin, David                       Data Stewardship, 2nd Edition                                             Elsevier, Print.                                        2020
+Razavi, Behzad                         Principles of Data Conversion System Design                           Wiley-IEEE Press, Print.                                   1994
+Redman, Thomas C.                      Data Driven: Profiting from Your Most Important Business Asset        Harvard Business Review Press, Print                       2008
+                                       The Regulatory Compliance Matrix: Regulation of Financial Services,
+Reinke, Guido                          Information and Communication Technology, and Generally Related       GOLD RUSH Publishing, Print. Regulatory Compliance.        2015
+                                       Matters
+Seiner, Robert S.                      Non-Invasive Data Governance                                          Technics Publications, LLC, Print                          2014
+                                       Implementing IT Governance: A Practical Guide to Global Best
+Selig, Gad                                                                                                   Van Haren Publishing, Print. Best Practice                 2008
+                                       Practices in IT Management
+Smallwood, Robert F.                   Information Governance: Concepts, Strategies, and Best Practices      Wiley, Print. Wiley CIO                                    2014
+                                       Selling Information Governance to the Business: Best Practices by
+Soares, Sunil                                                                                                McPress, Print.                                            2011
+                                       Industry and Job Function
+                                       The Governance, Risk and Compliance Handbook: Technology,
+Tarantino, Anthony                                                                                           Wiley, Print.                                              2008
+                                       Finance, Environmental, and International Guidance and Best Practices
+                                       The Governance, Complance and Risk KPI Disctionary: 130-Key
+The KPI Institute and Aurel Brudan, ed                                                                       CreateSpace Independent Publishing Platform, Print.        2015
+                                       Performance Indicator Definitions
+
+04 Data Architecture
+
+                  AUTHOR                                                    TITLE                                                      PUBLISHER                         YEAR
+Ahlemann, Frederik, Eric Stettiner, Marcus    Stategic Enterprise Architecture Management: Challenges, Best
+                                                                                                              Springer, Print. Management for Professionals             2012
+Messerschmidt, and Christine Legner, eds      Practices, and Future Developments
+Bernard, Scott A                              An Introduction to Enterprise Architecture, 2nd Ed              Authorhouse, Print.                                       2005
+Brackett, Michael H.                          Data Sharing Using a Common Data Architecture                   John Wiley and Sons, Print.                               1994
+Carbone, Jane                                 IT Architecture Toolkit                                         Prentice Hall, Print.                                     2004
+                                              Building Enterprise Information Architectures: ReEngineering
+Cook, Melissa                                                                                                 Prentice Hall, Print.                                     1996
+                                              Information Systems
+                                              Enterprise Architecture Made Simple Using the Ready, Set, Go
+Edvinsson, Hakan and Lottie Aderinne                                                                          Technics Publications, LLC, Print.                        2013
+                                              Approach to Achieving Information Centricity.
+Fong, Joseph                                  Information Systems Reengineering and Integration, 2nd ed.      Springer, Print.                                           2003
+Gane, Chris and Trish Sarson                  Structured Systems Analysis: Tools and Techniques               Prentice Hall, Print.                                      1979
+Harrison, Rachel                              TOGAF Version 8.1.1 Enterprise Edition - Study Guide            The Open Group. 2nd ed. Van Haren Publishing, Print. TOGAF 2007
+Hoberman, Steve, Donna Burbank, and Chris     Data Modeling for the Business: A Handbook for Aligning the
+                                                                                                              Technics Publications, LLC, Print.                        2009
+Bradley                                       Business with IT using High-Level Data Models
+Hoogervorst, Jan A.P.                         Enterprise Governance and Enterprise Engineering                Springer, Print. The Enterpise Engineer Ser.              2009
+Inmon, W.H., John A Zachman, and Johathan G. Data Stores, Data Warehousing and the Zachman Framework
+                                                                                                                McGraw-Hill, Print.                                        1997
+Geiger                                       Managing Enterprise Knowledge
+                                             Enterprise Architecture at Work: Modeling, Communication and
+Lankhorst, Marc                                                                                                 Spring, Print.                                             2005
+                                             Analysis
+Martin, James and Joe Leben                  Strategic Information Planning Methodologies, 2nd ed               Prentice Hall, Print.                                      1989
+                                             Business Model Generation: A Handbook for Visionaries, Game
+Osterwalder, Alexander and Yves Pigneur                                                                         Wiley, Print.                                              2010
+                                             Changers, A Challengers
+Perks, Col and Tony Beveridge                Guide to Enterprise IT Architecture                                Springer, Print. Springer Professional Computing           2003
+Poole, John, Dan Chang, Douglas Tolbert, and
+                                             Common Warehouse Metamodel                                         Wiley, Print. OMG (Book 17).                               2001
+David Mellor
+                                             Indentity and Security: A Common Architecture and Framework
+Radhakrishnan, Rakesh                                                                                           futuretext, Print.                                         2007
+                                             For SOA and Network Convergence
+Ross, Jeanne W., Peter Weill, and David
+Robertson
+                                             How to Survive in the Jungle of Enteprise Architecture
+Schekkerman, Jaap                            Frameworks: Creating or Choosing an Enteprise Architecture         Trafford Publishing, Print.                                2006
+                                             Framework
+                                             Enterprise Architecture Planning: Developing a Blueprint for Data,
+Spewak, Steven and Seven C. Hill                                                                                A Wiley-QED Publications, Print.                           1993
+                                             Applications and Technology, 2nd ed
+                                             Information Systems Transformation: Architecture-Driven
+Ulrich, William M. and Philip Newcomb                                                                           Morgan Kaufmann, Print. The MK/OMG Press                   2010
+                                             Modernization Case Studies
+
+05 Data Modeling and Design
+
+                AUTHOR                                                   TITLE                                                         PUBLISHER                            YEAR
+                                            Agile Database Techniques: Effective Strategies for the Agile
+Ambler, Scott                                                                                                Wiley and Sons, Print.                                        2003
+                                            Software Developer
+Avison, David and Christine Cuthbertson     A management Approach to Database Applications                   McGraw-Hill Publishing Co., Print. Information systems ser.   2002
+Blaha, Michael                              UML Database Modeling Workbook                                   Technics Publication, LLC Print.                              2013
+Brackett, Michael H                         Data Resource Design: Reality Beyond Illusion.                   Technics Publication, LLC Print.                              2012
+                                            Data Resource Integration: Understanding and Resolving a
+Brackett, Michael H                                                                                          Technics Publications, LLC, Print.                            2012
+                                            Disparate Data Resource
+                                            Data Resource Simplesity: How Organizations Choose Data
+Brackett, Michael H                                                                                          Technics Publications, LLC, Print.                            2011
+                                            Resource Success or Failure
+Bruce, Thomas A                            Designing Quality Databases with IDEFIX Information Models       Dorset House, Print.                                         1991
+                                           Building the Agile Database: How to Build a Successful
+Burns, Larry                                                                                                Technics Publications, LLC, Print.                           2011
+                                           Application Using Agile Without Sacrificing Data Management
+Carlis, John and Joseph Maguire            Mastering Data Modeling - A User-Driven Approach                 Addison-Wesley Professional, Print.                          2000
+                                           "A Relational Model of Data for Large Shared Data Banks"
+Codd, Edward F                                                                                                                                                           Jun-70
+                                           Communications of the ACM, 13, No. 6
+                                           The DAMA Dictionary of Data Management 2nd Edition: Over
+DAMA International                                                                                          Technics Publications, LLC, Print.                           2011
+                                           2,000 Terms Defined for IT and Business Professionals 2nd ed
+                                           UML Requirements Modeling for Business Analysts: Steps to
+Daoust, Norman                                                                                              Technics Publications, LLC, Print.                           2012
+                                           Modeling Success
+Date, C.J.                                 An Introduction to Database Systems 8th ed.                      Addison Wesley, Print.                                       2003
+Date, C.J. and Hugh Darwen                 Database, Types and the Relational Model. 3rd ed                 Addison Wesley, Print.                                       2006
+                                           The Relational Database Dictionary: A Comprehensive Glossary of
+Date, Chris J.                                                                                              O'Reilly Media, Print.                                       2006
+                                           Relational Terms and Concepts, with Illustrative Examples
+Dorsey, Paul                               Enterprise Data Modeling Using UML                               McGraw-Hill Osborne Media, Print.                            2009
+                                           Enterprise Architecture Made Simple: Using the Ready, Set, Go
+Edvinsson, Hakan and Lottie Aderinne                                                                        Technics Publications, LLC, Print.                           2013
+                                           Approach to Achieving Information Centricity.
+Fleming, Candace C. and Barbara Von Halle The Handbook of Relational Database Design.                       Addison Wesley, Print.                                       1989
+                                           The Nimble Elephant: Agile Delivery of Data Models Using a
+Giles, John                                                                                                 Technics Publications, LLC, Print.                           2012
+                                           Pattern-based Approach.
+                                           Data Modeling 152 Success Secrets - 152 Most Asked Questions
+Golden Charles                                                                                              Emereo Publishing, Print. Success Secrets                    2015
+                                           on Data Modeling - What You Need to Know
+Halpin, Terry, Ken Evans, Pat Hallock, and                                                                  Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+                                           Database Modeling with Microsoft Visio for Enterprise Architects                                                              2003
+Bill McLean                                                                                                 Management Systems.
+                                                                                                            Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+Halpin, Terry                              Information Modeling and Relational Databases                                                                                 2001
+                                                                                                            Management Systems.
+                                           Information Modeling and Relational Databases: From Conceptual Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+Halpin, Terry                                                                                                                                                            2001
+                                           Analysis to Logical Design                                       Management Systems.
+                                                                                                            Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+Harrington, Jan L                          Relational Database Design Clearly Explained 2nd ed                                                                           2002
+                                                                                                            Management Systems.
+                                                                                                            Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+Hay, David C.                              Data Model Patterns: A Metadata Map                                                                                           2006
+                                                                                                            Management Systems.
+Hay, David C.                              Enterprise Model Patterns: Describing the World (UML Version) Technics Publicastions, LLC, Print.                             2011
+Hay, David C.                              Requirements Analysis from Business Views to Architecture        Prentice Hall, Print.                                        2002
+Hay, David C.                              UML and Data Modeling: A Reconciliation                         Technics Publications, LLC, Print.                             2011
+                                           Database Design for Mere Mortals: A Hands-On Guide to
+Hernandez, Michael J.                                                                                      Addison-Wesley Professional, Print.                            2003
+                                           Relational Database Design. 2nd ed
+Hoberman, Steve, Donna Burbank, Chris      Data Modeling for the Business: A Handbook for Aligning the
+                                                                                                           Technics Publications, LLC, Print.                             2009
+Bradley, et al.                            Business with IT using High-Level Data Models
+Hoberman, Steve                            Data Model Scorecard                                            Technics Publications, LLC, Print.                             2015
+Hoberman, Steve                            Data Modeling Made Simple with ER/Studio Data Architect         Technics Publications, LLC, Print.                             2013
+                                           Data Modeling Made Simple: A Practical Guide for Business and
+Hoberman, Steve                                                                                            Technics Publications, LLC, Print.                             2009
+                                           IT Professionals. 2nd ed
+Hoberman, Steve                            Data Modeling Master Class Training Manual. 7th ed              Technics Publications, LLC, Print.                             2017
+                                           The Data Modeler's Workbench. Tools and Techniques for
+Hoberman, Steve                                                                                            Wiley, Print.                                                  2001
+                                           Analysis and Design
+Hoffer, Jeffrey A., Joey F. George, and
+                                           Modern Systems Analysis and Design 7th ed                       Prentice Hall, Print.                                          2013
+Joseph S Valacich
+                                             A Guide to the Business Analysis Body of Knowledge (BABOK
+IIBA and Kevin Brennan                                                                                     International Institute of Business Analysis, Print.           2009
+                                             Guide)
+                                             Data and Reality: A Timeless Perspective on Perceiving and
+Kent, William                                                                                              Technics Publications, LLC, Print.                             2012
+                                             Managing Information in Our Imprecise World. 3rd ed
+Krogstie, John, Terry Halpin, and Keng Siau, Information Modeling Methods and Methodologies: Advanced      Idea Group Publishing, Print. Advanced Topics in Database
+                                                                                                                                                                          2005
+eds.                                         Topics in Database Research                                   Research
+                                             Super Charge Your Data Warehouse: Invaluable Data Modeling
+Linstedt, Dan                                                                                              Amazon Digital Services. Data Warehouse Architecture Book 1.   2012
+                                             Rules to Implement Your Data Vault
+                                                                                                           Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+Muller, Robert J.                          Database Design for Smarties: Using UML for Data Modeling                                                                      1999
+                                                                                                           Management Systems.
+Newton, Judith J. and Daniel Wahl, eds.    Manual for Data Administration                                  NIST Special Publications, Print.                              1993
+                                           Practical Issues in Database Management: A Reference for The
+Pascal, Fabian                                                                                             Addison-Wesley Professional, Print.                            2000
+                                           Thinking Practitioner
+Reingruber, Michael, C. and William W.     The Data Modeling Handbook: A Best-Practice Approach to
+                                                                                                           Wiley, Print.                                                  1994
+Gregory                                    Building Quality Data Models.
+Riordan, Rebecca M.                        Designing Effective Database Systems.                           Addison-Wesley, Print.                                         2005
+                                           Database Systems: Design, Implementation, and Management 7th
+Rob, Peter and Carlos Coronel                                                                              Cengage Learning, Print.                                       2006
+                                           ed
+Schmidt, Bob                               Data Modeling for Information Professionals                     Prentice Hall, Print.                                          1998
+                                             The Data Model Resource Book, Volume 3: Universal Patterns for
+Silverston, Len and Paul Agnew                                                                              Wiley, Print.                                                2008
+                                             Data Modeling
+                                             The Data Model Resource Book, Volume 1: A Library of
+Silverston, Len                                                                                             Wiley, Print.                                                2001
+                                             Universal Data Models for All Enterprises. Rev. ed
+                                             The Data Model Resource Book, Volume 2: A Library of Data
+Silverston, Len                                                                                             Wiley, Print.                                                2001
+                                             Models for Specific Industries. Rev. ed.
+Simsion, Graeme C. and Graham C.             Data Modeling Essentials 3rd ed                                Morgan Kaufmann, Print.                                      2004
+Simsion, Graeme                              Data Modeling: Theory and Practice                             Technics Publications, LLC, Print.                           2007
+                                                                                                            Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+Teorey, Toby, et al.                         Database Modeling and Design: Logical Design, 4th ed.                                                                       2010
+                                                                                                            Management Systems.
+                                             Entity-Relationship Modeling Foundations of Database
+Thalheim, Bernhard                                                                                          Springer, Print.                                             2000
+                                             Technology
+Watson, Richard T.                           Data Management: Databases and Organizations, 5th ed           Wiley, Print.                                                2005
+
+06 Data Storage and Operations
+
+               AUTHOR                                                      TITLE                                                        PUBLISHER                         YEAR
+Armistead, Leigh                           Information Operations Matters: Best Practices                      Potomac Books, In., Print.                                2010
+Dunham, Jeff                               Database Performance Tuning Handbook                                McGraw-Hill, Print                                        1998
+Dwivedi, Himanshu                          Securing Storage: A Practical Guide to SAN and NAS Security         Addison-Wesley Professional, Print.                       2005
+                                           Information Storage and Management: Storing, Managing, and
+EMC Educatioal Services, ec                Protecting Digital Information in Classic, Virtualized, and Cloud   Wiley, Print.                                             2012
+                                           Environments.
+Finn, Aidan et al.                         Microsoft Private Cloud Computing                                   Sybex, Print.
+Finn, Aidan                                Mastering Hyper-V Deployment                                        Sybex, Print.                                             2010
+Fitzsimmons, James A. and Mona J.          Service Management: Operations, Strategy, Information Technology
+                                                                                                               Irwin/McGraw-Hill Print with CDROM                        2007
+Fitzsimmons                                6th ed
+Gallagher, Simon, et al.                   Vmware Private Cloud Computing with vCloud Director                 Sybex, Print.                                             2013
+Hitachi Data Systems Academy               Storage Concepts: Storing and Managing Digital Data Volume 1        HDS Academy, Hitachi Data Systems, Print.                 2012
+Hoffer, Jeffrey, Mary Prescott, and Fred
+                                           Modern Database Management 7th Edition                              Prentice Hall, Print.                                     2004
+McFadden
+Khalil, Mostafa                            Storage Implementation in vSphere 5.0                             Vmware Press, Print.                                        2012
+                                           Data Storage Backup and Replication: Effective Data Management to
+Kotwal, Nitin                                                                                                Nitin Kotwal, Amazone Digital Serices, LLC                  2015
+                                           Ensure Optimum Performance and Business Continuity
+                                         Database Processing: Fundamentals, Design, and Implementation 19th
+Kroenke, D.M.                                                                                               Pearson Prentice Hall, Print.                        2005
+                                         Edition
+                                         Vmware vSphere Performance: Designing CPU, Memory, Storage,
+Liebowitz, Matt et al.                                                                                      Sybex, Print.                                        2014
+                                         and Networking for Performance-Intensive Workloads
+Matthews, Jeanna N.                      Running Xen: A Hands-On Guide to the Art of Birtualization         Prentice Hall, Print.                                2008
+Mattison, Rob                            Understanding Database Management Systems 2nd Edition              McGraw-Hill, Print                                   1998
+McNamara, Micahel J.                     Scale-Out Storage: The Next Frontier in Enterprise Data Management FriesenPress, Kindle.                                2014
+                                         Database Administration: The Complete Guide to Practices and
+Mullins, Craig S.                                                                                           Addison-Wesley, Print.                               2002
+                                         Procedures
+                                         Intelligent Database Tools and Applications: Hyperinformation
+Parsaye, Kamran and Mark Chignell                                                                           John Wiley and Sons, Print                           1993
+                                         Access, Data Quality, Visualization, Automatic Discovery
+                                         Practical Issues in Database Management: A Reference for The
+Pascal, Fabian                                                                                              Addison-Wesley, Print.                               2000
+                                         Thinking Practitioner
+                                         Moving Media Storage Technologies: Applications and Workflows
+Paulsen, Karl                                                                                               Focal Press, Print                                   2011
+                                         for Video and Media Server Platforms
+Piedad, Flloy, and Michael Hawkins       High Availability: Design, Techniques and Processes                Prentice Hall, Print.                                2001
+                                         Database Systems: Design, Implementation, and Management 7th
+Rob, Peter, and Carolos Coronel                                                                             Course Technology, Print.                            2006
+                                         Edition
+                                         NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot
+Sadalage, Pramod J., and Martin Fowler                                                                      Addison-Wesley, Print. Addison-Wesley Professional   2012
+                                         Persistence
+                                         Virtualization Fundamentals: Understanding Techniques and Designs
+Santana, Gustavo A.                      for Highly Efficient Data Centers with Cisco Nexus, UCS, MDS, and Cisco Press, Print. Fundamentals                      2013
+                                         Beyond
+Schulz, Greg                             Cloud and Virtual Data Storage Networking                          Auerbach Publications, Print.                        2011
+Simitci, Huseyin                         Storage Network Performance Analysis                               Wiley, Print.                                        2003
+Tran, Duc A.                             Data Storage for Social Networks: A Socially Aware Approach        Springer, Print. Springer Briefs in Optimization     2013
+                                         Storage Networks Explained Basics and Application of Fibre Channel
+Troppens, Ulf, et al.                                                                                       Wiley, Print.                                        2009
+                                         SAN, NAS, iSCSI, InfiniBand and FCoE
+                                         Vmware vCloud Architecture Toolkit (vCAT): Technical and
+Vmware                                                                                                      Vmware Press, Print.                                 2013
+                                         Operational Guidance for Cloud Success.
+Wicker, Stephen B.                       Error Control Systems for Digital Communication and Storage        US ed Prentice-Hall, Print.                          1994
+                                         Core Data: Data Storage and Management for iOS, OS X, and iCloud
+Zarra, Marcus S.                                                                                            Pragmatic Bookshelf, Print. Pragmatic Programmers    2013
+                                         2nd ed
+07 Data Security
+
+              AUTHOR                                             TITLE                                                             PUBLISHER                                YEAR
+                                  The Basics of Information Security: Understanding the Fundamentals
+Andress, Jason                                                                                       Syngress, Print.                                                      2011
+                                  of InfoSecin Theory and Practice
+                                  IT Governance: An International Guide to Data Security and
+Calder, Alan, and Steve Watkins                                                                      Krogan Page, Print.                                                   2012
+                                  ISO27001/ISO27002, 5th Eed
+                                  The Emergence of Personal Data Protection as a Fundamental Right Springer, Print. Law, Governanceand Technology Series/Issues in Privacy
+Fuster, Gloria Gonzalez                                                                                                                                                    2014
+                                  of the EU                                                          and Data Protection
+                                  IT Security Metrics: A Practical Framework for Measuring Security
+Hayden, Lance                                                                                        McGraw-Hill Osborne Media, Print.                                     2010
+                                  and Protecting Data
+                                  Blue Team Handbook: Incident Response Edition: A condensed field
+Murdoch, Don GSE                                                                                     CreateSpace Independent Publishing Platform, Print.                   2014
+                                  guide for the Cyber Security Incident Responder. 2nd ed.
+Ray, Dewey E                      The IT professional's merger and acquisition handbook              Cognitive Diligence                                                   2012
+Schlesinger, David                The Hidden Corporation: A Data Management Security Novel           Technics Publications, LLC, Print.                                    2011
+Singer, P.W. and Allan Friedman   Cybersecurity and Cyberwar: What Everyone Needs to Know            Oxford University Press, Print. What Everyone Needs to Know           2014
+                                  Certified Information Privacy Professional Study Guide: Pass the
+Watts, John                                                                                          CreateSpace Independent Publishing Platform, Print.                   2014
+                                  IAPP,s Certification Foundation Exam with Ease!
+Williams, Branden R., Anton       PCI Compliance: Understand and Implement Effective PCI Data
+                                                                                                     Syngress, Print.                                                      2014
+Chuvakin Ph.D                     Security Standard Complance 4th ed.
+
+08 Data Integration and Interoperability
+
+              AUTHOR                                             TITLE                                                          PUBLISHER                                   YEAR
+                                  The Basics of Information Security: Understanding the Fundamentals
+Andress, Jason                                                                                       Syngress, Print.                                                      2011
+                                  of InfoSecin Theory and Practice
+                                  IT Governance: An International Guide to Data Security and
+Calder, Alan, and Steve Watkins                                                                      Krogan Page, Print.                                                   2012
+                                  ISO27001/ISO27002, 5th Eed
+                                  The Emergence of Personal Data Protection as a Fundamental Right Springer, Print. Law, Governanceand Technology Series/Issues in Privacy
+Fuster, Gloria Gonzalez                                                                                                                                                    2014
+                                  of the EU                                                          and Data Protection
+                                  IT Security Metrics: A Practical Framework for Measuring Security
+Hayden, Lance                                                                                        McGraw-Hill Osborne Media, Print.                                     2010
+                                  and Protecting Data
+                                  Blue Team Handbook: Incident Response Edition: A condensed field
+Murdoch, Don GSE                                                                                     CreateSpace Independent Publishing Platform, Print.                   2014
+                                  guide for the Cyber Security Incident Responder. 2nd ed.
+Ray, Dewey E                       The IT professional's merger and acquisition handbook              Cognitive Diligence                                                   2012
+Schlesinger, David                 The Hidden Corporation: A Data Management Security Novel           Technics Publications, LLC, Print.                                    2011
+Singer, P.W. and Allan Friedman    Cybersecurity and Cyberwar: What Everyone Needs to Know            Oxford University Press, Print. What Everyone Needs to Know           2014
+                                   Certified Information Privacy Professional Study Guide: Pass the
+Watts, John                                                                                           CreateSpace Independent Publishing Platform, Print.                   2014
+                                   IAPP,s Certification Foundation Exam with Ease!
+Williams, Branden R., Anton        PCI Compliance: Understand and Implement Effective PCI Data
+                                                                                                      Syngress, Print.                                                      2014
+Chuvakin Ph.D                      Security Standard Complance 4th ed.
+
+09 Document and Content Management
+
+        AUTHOR                                                           TITLE                                                                     PUBLISHER                    YEAR
+Boiko, Bob                 Content Management Bible. 2nd ed                                                                  Wiley, Print.                                      2004
+                           Metadata for Content Management: Designing taxonomy, metadata policy and workflow to make
+Diamond, David                                                                                                               CreateSpace, Print.                                2016
+                           digital content systems better for users.
+Hedden, Heather            The Accidental Taxonomist                                                                         Information Today, Inc, Print.                     2010
+                                                                                                                             Chandos Publishing, Print. Chandos Knowledge
+Lambe, Patrick             Organizing Knowledge: Taxonomies, Knowledge and Organisational Effectiveness                                                                         2007
+                                                                                                                             Management
+                                                                                                                             Springer, Print. Data Centric Systems and
+Liu, Bing                  Web Data Mining: Exploring Hyperlinks, Contents, and Usage Data 2nd ed                                                                               2011
+                                                                                                                             Applications
+Nichols Kevin             Enterprise Content Strategy: A Project Guide                                                       XML Press, Print.                                  2015
+Read, Judith and Mary Lea                                                                                                    Cengage Learning, Print. Advanced Office Systems
+                          Records Management 9th ed                                                                                                                             2015
+Ginn                                                                                                                         and Procedures
+Rockley, Ann and Charles
+                          Managing Enterprise Content: A Unified Content Strategy 2nd ed                                     New Riders, Print. Voices That Matter              2012
+Cooper
+Smallwood, Robert F.      Information Governance: Concepts, Strategies, and Best Practices                                   Wiley, Print. Wiley CIO                            2014
+
+10 Reference and Master Data
+
+              AUTHOR                                               TITLE                                                           PUBLISHER                                    YEAR
+                                    Structures for Organizing Knowledge: Exploring Taxonomies,
+Abbas, June                                                                                            Neal-Schuman Publishers, Print                                       2010
+                                    Ontologies, and Other Schema
+Abernethy, Kenneth and J. Thomas    Explorring the Digital Domain: An Introduction to Computers and
+                                                                                                                                                                            2004
+Allen                               Information Fluency 2nd ed, Print.
+                                   Multi-Domain Master Data Management: Advanced MDM and Data
+Allen Mark and Dalton Cervo                                                                          Morgan Kaufmann, Print.                                        2015
+                                   Governance in Practice
+                                                                                                     Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+Bean, James                        XML for Data Architects: Designing for Reuse and Integration                                                                     2003
+                                                                                                     Management Systems
+                                    Master Data Management and Customer Data Integration for a Global
+Berson, Alex and Larry Dubov                                                                            McGraw-Hill, Print.                                         2007
+                                    Enterprise
+Brackett, Michael                   Data Sharing Using a Common Data Architecture                       Wiley, Print. Wiley Professional Computing                  1994
+Cassell, Kay Ann and Uma Hiremath Reference and Information Services: An Introduction 3rd ed            ALA Neal-Schuman, Print.                                    2012
+                                    Master Data Management in Practice: Achieving True Customer
+Cervo, Dalton and Mark Allen                                                                            Wiley, Print.                                               2011
+                                    MDM
+                                    Managing Reference Data in Enterprise Databases: Binding Corporate Morgan Kaufmann, Print. The Morgan Kaufmann Series in Data
+Chisholm, Malcolm                                                                                                                                                   2000
+                                    Data to the Wider World                                             Management Systems
+                                    Enterprise Master Data Management: An SOA Approach to Managing
+Dreibelbis, Allen, et al                                                                                IBM Press, Print.                                           2008
+                                    Cor Inforamtion
+Dyche, Jill and Evan Levy           Customer Data Integration: Reaching a Single Version of the Truth.  John Wiley and Sons, Print.                                 2006
+Effingham, Nikk                     An Introduction to Ontology                                         Polity, Print.                                              2013
+                                    Enterprise Architecture for Integration: Rapid Delivery Methods and Artech House Print on Demand, Print Artech House Mobile
+Finkelstein, Clive                                                                                                                                                  2006
+                                    Techniques.                                                         Communications Library
+                                    Fundamentals of Government Information: Mining, Finding,
+Forte, Eric J., et al.                                                                                  Neal-Schuman Publishers, Print.                             2011
+                                    Evaluating, and Using Government Resources
+Hadzic, Fedja, Henry Tan, Tharam S.
+                                    Mining of Data with Complex Structures                              Sprinter, Print Studies in Computational Intelligence       2013
+Dillon
+                                    Organising Knowledge: Taxonomies, Knowledge and Organisational
+Lambe, Patrick                                                                                          Chandos Publishing, Print. Chandos Knowledge Management     2007
+                                    Effectiveness
+Loshin David                        Enterprise Knowledge Management: The Data Quality Approach          Morgan Kaufmann, Print. The MK/OMG Press                    2008
+Menzies, Tim et al.                 Sharing Data and Models in Software Engineering                     Morgan Kaufmann, Print.                                     2014
+Millett, Scott and Nick Tune        Patterns, Principles, and Practices of Domain-Driven Design         Wrox, Print                                                 2015
+Steward, Darin L.                   Building Enterprise Taxonomies                                      Mokita Press, Print                                         2011
+Talburt, John and Yinle Zhou        Entity Information Management Lifecycle for Big Data                Mortan Kauffman, Print                                      2015
+Talburt, John                       Entity Resolution and Information Quality                           Morgan Kaufmann, Print.                                     2011
+
+11 Data Warehousing and Business Intelligence
+
+                 AUTHOR                                                  TITLE                                                     PUBLISHER                         YEAR
+                                                Mastering Data Warehouse Aggregates: Solutions for Star Schema
+Adamson, Christopher                                                                                           John Wiley and Sons, Print.                                    2006
+                                                Performance
+Adelman, Sid and Larissa T. Moss                Data Warehouse Project Management                              Addison-Wesley Professional, Print.                            2000
+Adelman, Sid, Larissa T. Moss, and Majid
+                                                Data Strategy                                                       Addison-Wesley Professional, Print.                       2005
+Abai
+Adelman, Sit, et al.                            Impossible Data Warehouse Situations: Solutions from the Experts    Addison-Wesley, Print.                                    2002
+Aggarwal, Charu                                 Data Mining: The Textbook                                           Springer, Print.                                          2015
+Biere, Mike                                     Business Intelligence for the Enterprise                            IBM Press, Print                                          2003
+                                                The New Era of Enterprise Business Intelligence: Using Analytics
+Biere, Mike                                                                                                         IBM Press, Print. IBM Press                               2010
+                                                to Achieve a Gloval Competitive Advantage
+Brown, Meta S.                                  Data Mining for Dummies                                             For Dummies, Print. For Dummies                           2014
+Chorianopoulos, Antonios                        Effective CRM using Preductive Analytics                            Wiley, Print.                                             2016
+                                                Data Mining Explained: A Manager's Guide to Customer Centric
+Delmater, Rhonda and Monte Hancock Jr.                                                                              Digital Press, Print.                                     2001
+                                                Business Intelligence
+Dyche, Jill. E-Data                             Turning Data Into Information With Data Warehousing                 Addison-Wesley, Print.                                    2000
+                                                Performance Dashboards: Measuring, Monitoring, and Managing
+Eckerson, Wayne W.                                                                                                  Wiley, Print.                                             2005
+                                                Your Business
+                                                                                                                    Morgan Kaufmann, Print. The Morgan Kaufmann Ser in Data
+Han, Jiawei, Micheline Kamber and Jian Pei      Data Mining: Concepts and Techniques 3rd ed.                                                                                  2011
+                                                                                                                    Management Systems
+Hastie, Trevor, Robert Tibshirani, and Jerome   The Elements of Statistical Learning: Data Mining, Inference, and
+                                                                                                                    Springer, Print. Springer Series in Statistics            2011
+Friedman                                        Prediction 2nd ed.
+Hill, Thomas, and Paul Lewicki                  Statistics: Methods and Applications                                Statsoft, Inc., Print.                                    2005
+                                                Successful Business Intelligence: Unlock the Value of BI and Big
+Howson, Cindi                                                                                                       McGraw-Hill Osborne Media, Print.                         2013
+                                                Data 2nd ed.
+Imhoff, Claudia, Lisa Loftis, and Jonathan G.   Building the Customer-Centric Enteprise: Data Warehousing
+                                                                                                                    John Wiley and Sons, Print.                               2011
+Geiger                                          Techniques for Supporting Customer Relationship Management
+Imahoff, W.H., Claudia Imhoff, and Ryan
+                                              The Corporate Information Factory 2nd ed                              John Wiley and Sons, Print.                               2000
+Sousa
+Inmon, W.H., Claudia Imhoff, and Ryan Sousa The Corporate Information Factory, 2nd ed.                              John Wiley and Sons, Print.                               2000
+Inmon, W.H., and Krish Krishnan               Building the Unstructured Data Warehouse                              Technics Publications, LLC., Print.                       2011
+Josey, Andrew                                 TOGADF Version 9.1 Enterprise Edition: An Introduction                The Open Group, Kindle. Open Group White Paper            2011
+Kaplan, Robert S and David P. Norton          The Balanced Scorecard: Translating Strategy into Action              Harvard Business Review Press, Kindle.                    1996
+                                              The Data Warehouse Toolkit: The Difinitive Guide to Dimentional
+Kimball, Ralph, and Margy Ross                                                                                      Wiley, Print.                                             2013
+                                              Modeling 3rd ed.
+Kimball, Ralph, et al.                        The Data Warehouse Lifecycle Toolkit. 2nd ed.                    Wiley, Print.                                 2008
+                                              Data Mining Techniques: For Marketing, Sales, and Customer
+Linoff, Gordon S. and Michael J.A. Berry                                                                       Wiley, Print.                                 2011
+                                              Relationship Management 3rd ed.
+Lublinsky, Boris, Kevin T. Smith, and Alexey
+                                              Professional Hadoop Solutions                                    Wrox, Print.                                  2013
+Yakubovich
+Malik, Shadan                                 Enteprise Dashboards: Design and Best Practices for IT           Wiley, Print.                                 2005
+                                              Business Intelligence Roadmap: The Complete Project Lifecycle
+Moss, Larissa T., and Shaku Atre                                                                               Addison-Wesley Professional, Print.           2003
+                                              for Decision-Support Applications
+                                              Data Warehousing Fundamentals: A Comprehensive Guide for IT
+Ponniah, Paulraj                                                                                               Wiley-Interscience, Print.                    2001
+                                              Professionals
+                                              Data Science for Business: What you need to know about data
+Provost, Foster and Tom Fawcett                                                                                O'Reilly Media, Print.                        2013
+                                              mining, data-analytic thinking
+Reeves, Laura L.                              A Manager's Guide to Data Warehousing                            Wiley, Print.                                 2009
+                                              Mining the Social Web: Data Mining Facebook, Twitter, LinkedIn,
+Russell, Matthew A.                                                                                            O'Reilly Media, Print                         2013
+                                              Google+, GitHub, and More 2nd ed.
+                                              The Data Model Resource Book Volume 3: Universal Patterns for
+Silverston, Len, and Paul Agnew                                                                                Wiley, Print.                                 2008
+                                              Data Modeling
+                                              Modern Enterprise Business Ingelligence and Data Management: A
+Simon, Alan                                                                                                    Morgan Kaufmann, Print.                       2014
+                                              Roadmap for IT Directors, Managers, and Architects
+Thomsen, Erik, OLAP                           Solutions: Building Multidimensional Information Systems 2nd ed. Wiley, Print.                                 2002
+Vitt, Elizabeth, Michael Luckevich and Stacia
+                                              Business Intelligence                                            Microsoft Press, Print. Developer Reference   2008
+Misner
+Wremble, Robert and Christian Koncilia        Data Warehouses and Olap: Concepts, Architectures and Solutions IGI Global, Print.                             2006
+
+12 Metadata Management
+
+              AUTHOR                                                TITLE                                                             PUBLISHER               YEAR
+Aiken, Peter                         Data Reverse Engineering: Slaying the Legacy Dragon                                                                     1995
+Foreman, John W. Data Smart          Using Data Science to Transform Information into Insight              Wiley, Print.                                     2013
+Loshin, David                        Enterprise Knowledge Management: The Data Quality Approach            Morgan Kaufmann                                   2001
+                                     Building and Managing the Meta Data Repository: A Full Lifecycle
+Marco, David                                                                                               Wiley, Print.                                     2000
+                                     Guide
+Milton, Nicholas Ross,               Knowledge Acquisition in Practice: A Step-by-step Guide               Springer, Print. Decision Engineering             2007
+                                        Metadata Best Practices adn Guidelines: Current Implementation and
+Park, Jung-ran, ed                                                                                              Routledge, Print.                                              2014
+                                        Future Trends
+Pomerantz, Jeffrey                      Metadata                                                                The MIT Press, Print. The MIT Press Essential Knowledge ser.   2015
+                                        Data and Goliath: The Hidden Battles to Collect Your Data and Control
+Schneier, Bruce                                                                                                 W.W. Norton and Company, Print.                                2015
+                                        Your World
+Tannenbaum, Adrienne                    Implementing a Corporate Repository: The Models Meet Reality            Wiley, Print. Wiley Professional Computing                     1994
+Warden, Pete                            Big Data Glossary                                                       O'Reilly Media, Print.                                         2011
+Zeng, Marcia Lei and Jian Quin          Metadata 2nd ed                                                         ALA Neal-Schuman, Print                                        2015
+
+13 Data Quality
+
+                    AUTHOR                                                    TITLE                                                       PUBLISHER                                 YEAR
+Batini, Carlo, and Monica Scannapieco               Data Quality: Concepts, Methodologies and Techniques       Springer, Print.                                                    2006
+                                                    Data Resource Quality: Turning Bad Habits into Good
+Brackett, Michael H.                                                                                           Addison-Wesley, Print.                                              2000
+                                                    Practices
+Deming, W Edwards                                   Out of the Crisis                                          The MIT Press, Print.                                               2000
+                                                    Improving Data Warehouse and Business Information
+English, Larry                                                                                                 John Wiley and Sons, Print.                                         1999
+                                                    Quality: Methods For Reducing Costs and Increasing Profits
+                                                    Information Quality Applied: Best Practices for Improving
+English, Larry                                                                                                 Wiley Publishing, Print.                                            2009
+                                                    Business Information Processes, and Systems
+Fisher, Craig, Eitel Lauria, Shobha Chengalur-                                                                 M.I.T. Information Quality Program Publications, Print. Advances in
+                                                    Introduction to Information Quality                                                                                            2006
+Smith and Richard Wang                                                                                         Information Quality Book Ser.
+                                                    Requirements by Collaboration: Workshops for Defining
+Gottesdiener, Ellen                                                                                            Addison-Wesley Professional, Print.                                 2002
+                                                    Needs
+                                                    Unearthing Business Requirements: Elicitation Tools and
+Haas, Kathleen B. and Rosemary Hossenlopp                                                                      Management Concepts, Inc.
+                                                    Techniques
+Huang, Kuan-Tsae, Yank W. Lee and Richard Y.
+                                                    Quality Information and Knowledge                           Prentice Hall, Print.                                           1999
+Wang
+Jugulum, Rajesh                                     Competing with High Quality Data                            Wiley, Print.                                                   2014
+Lee, Yang W., Leo L. Pipino, James D. Funk and
+                                                    Journey to Data Quality                                     The MIT Press, Print.                                           2006
+Richard Y. Wang
+                                                    Enterprise Knowledge Management: The Data Quality
+Loshin, David                                                                                                   Morgan Kaufmann, Print.                                         2001
+                                                    Approach
+Loshin, David                                       Master Data Management                                      Morgan Kaufmann, Print.                                         2009
+Maydanchik, Arkady                            Data Quality Assessment                                    Technics Publications, LLC, Print.                         2007
+                                              Bad Data Handbook: Cleaning Up the Data So You Can Get
+McCallum, Ethan                                                                                          O'Reilly                                                   2012
+                                              Back to Work 1st Edition
+                                              Executing Data Quality Projects: Ten Steps to Quality Data
+McGilvray, Danette                                                                                       Morgan Kaufmann, Print.                                    2008
+                                              and Trusted Information
+                                              "The Value of Using the Dimensions of Data Quality"
+Myers, Dan                                                                                                                                                          Aug-13
+                                              Information Management
+Olson, Jack E.                                Data Quality: The Accuracy Dimension                       Morgan Kaufmann, Print.                                    2003
+Redman, Thomas                                Data Quality: The Field Guide                              Digital Press, Print.                                      2001
+                                              Mastering the Requirements Process: Getting Requirements
+Robertson, Suzanne and James Robertson                                                                   Addison-Wesley Professional, Print.                        2012
+                                              Right, 3rd ed
+                                              Measuring Data Quality for Ongoing Improvement: A Data Morgan Kaufmann, Print. The Morgan Kaufmann Series on Business
+Sebastian-Coleman, Laura                                                                                                                                            2013
+                                              Quality Assessment Framework                               Intelligence
+                                              Qualidade de Dados em Gerenciamento de Clientes (CRM e
+Tavares, Rossano                              Tecnologia da Informacao (Data Quality: Mangement of       Sao Paulo: Catalise, Print.                                2006
+                                              Customers and Information Technology)
+Witt, Graham                                  Writing Effective Business Rules: A Practical Method       Morgan Kaufmann, Print.                                    2012
+
+14 Big Data and Data Science
+
+                 AUTHOR                                                 TITLE                                                          PUBLISHER                    YEAR
+Abate, Robert, Peter Aiken and Joseph    Integrating Enterprise Applications Utilizing A Services
+                                                                                                              John Wiley and Sons, Print.                         1997
+Burke                                    Based Architecture
+                                         Big Data Marketing: Engage Your Customers More Effectively and
+Arthur, Lisa                                                                                                  Wiley, Print.                                       2013
+                                         Drive Value
+                                         Big Data at Work: Dispelling the Myths, Uncovering the
+Davenport, Thomas H.                                                                                          Harvard Business Review Press, Print.               2014
+                                         Opportunities
+                                         Data Science and Big Data Analytics: Discovering, Analyzing,
+EMC Education Services, ed                                                                                    Wiley, Print.                                       2015
+                                         Visualizing and Presenting Data
+                                         Data Architecture: A Primer for the Data Scientist; Big Data, Data
+Inmon, W.H. and Dan Linstedt                                                                                  Morgan Kaufmann                                     2014
+                                         Warehouse and Data Vault, 1st Edition
+                                         Data Science at the Command Line: Facing the Future with Time-
+Jannsens, Jeroen                                                                                              O'Reilly Media, Print.                              2014
+                                         Tested Tools
+                                            The Data Revolution: Big Data, Open Data, Data Infrastructues and
+Kitchin, Rob                                                                                                      SAGE Publications Ltd, Print.                                 2014
+                                            Their Consequences
+                                                                                                                  Morgan Kaufmann, Print. The Morgan Kaufmann Series on
+Krishnan, Krish                             Data Warehousing in the Age of Big Data                                                                                              2013
+                                                                                                                  Business Ingelligence
+Lake, Peter and Robert Drake                Information Systems Management in the Big Data Era                    Springer, Print. Advanced Information and Knowledge Processing 2015
+                                            Big Data Analytics: From Stategic Planning to Enteprise Integration
+Loshin, David                                                                                                     Morgan Kaufmann, Print.                                       2013
+                                            with Tools, Techniques, NoSQL, and Graph
+Lublinsky, Borris, Kevin T. Smith, Alexey
+                                            Professional Hadoop Solutions                                         Wrox, Print.                                                  2013
+Yakubovich
+                                            Pragmatic Enterprise Architecture: Strategies to Transofrm
+Luisi, James                                                                                                     Morgan Kaufmann, Print.                                        2014
+                                            Inforamtion Systems in the Era of Big Data
+                                            Big Data: Principles and best practices of scalable realtime data
+Marz, Nathan and James Warren                                                                                    Manning Publications, Print.                                   2014
+                                            systems
+McCandless, David                           Information is Beautiful                                             Collins, Print.                                                2012
+                                            Data Science for Business: Waht you need to know about data mining
+Provost, Foster and Tom Fawcett                                                                                  O'Reilly Media, Print.                                         2013
+                                            and data-analytic thinking
+Sathi, Arvind                               Big Data Analytics: Distruptive Technologies for Changing the Game McPress, Print.                                                  2013
+                                            Big Data Application Architecture Q & A: A Problem - Solution
+Sawant, Nitin and Himanshu Shah                                                                                  Apress, Print. Expert's Voice in Big Data                      2013
+                                            Approach
+                                            Numbers and Nerves: Information, Emotion, and Meaning in a World
+Slovic, Scott, Paul Slovic, eds                                                                                  Oregon State University Press, Print.                          2015
+                                            of Data
+                                            Meaning from Data: Statistis Made Clear (The Great Courses, Parts 1
+Starbird, Michael                                                                                                The Teaching Company, Print.                                   2006
+                                            and 2)
+Tufte, Edward R.                            The Visual Display of Quantitative Information 2nd ed.               Graphics Pr., Print.                                           2001
+                                            Data Virtualization for Business Intelligence Systems: Revolutioning Morgan Kaufmann, Print. The Morgan Kaufmann Series on
+van der Lans, Rick                                                                                                                                                              2012
+                                            Data Integration for Data Warehouses                                 Business Ingelligence
+                                            Think Bigger: Developing a Successful Big Data Stragegy for Your
+van Rijmenam, Mark                                                                                               AMACOM, Print.                                                 2014
+                                            Business
+
+15 Data Management Maturity Assessment
+
+             AUTHOR                                                TITLE                                                               PUBLISHER                                 YEAR
+Afflerbach, Peter                    Essential Readings on Assessment                                       International Reading Association, Print.                           2010
+                                     IQM-CMM: Information Quality Management Capability Maturity         Vieweb+Teubner Verlag, Print. Ausgezeichnete Arbeiten zur
+Baskarada, Sasa                                                                                                                                                           2009
+                                     Model                                                               Informationsqualitat
+                                     The Process Improvement Handbook: A Blueprint for Managing
+Boutros, Tristan and Tim Purdie                                                                          McGraw-Hill Education, Print.                                    2013
+                                     Change and Increasing Organizational Performance
+Crawford, J. Kent                    Project Management Maturity Model. 3rd ed                           Auerbach Publications, Print. PM Solutions Research              2014
+Freund, Jack and Jack Jones          Measuring and Managing Information Risk: A FAIR Approach            Butterworth-Heinemann, Print.                                    2014
+                                     Big Data Governance: Modern Data Management Principles for
+Ghavami, Peter PhD                                                                                       CreateSpace Independent Publishing Platform, Print.              2015
+                                     Hadoop, NoSQL and Big Data Analytics
+Honeysett, Sarah                     Limited Capability - The Assessment Phase                           Amazon Digital Service LLC., Social Inseciruty Book 3.           2013
+                                     Information Technology Project Management: Providing Measurable
+Marchewka, Jack T.                                                                                       Wiley, Print.                                                    2016
+                                     Organizational Value 5th ed.
+Persse, James R.                     Implementing the Capability Maturity Model                          Wiley, Print.                                                    2001
+Saaksvuori, Antti                    Product Management Maturity Assessment Framework                    Sirrus Publishing Ltd., Print.                                   2015
+Van Haren Publishing                 IT Capability Maturity Framework IT-CMF                             Van Haren Pub, Print.                                            2015
+
+16 Data Management Organization and Role Expectations
+
+                          AUTHOR                                                    TITLE                                                     PUBLISHER                    YEAR
+                                                         Monetizing Data Management: Finding the Value in your
+Aiken, Peter and Juanita Billings                                                                                      Technics Publications, LLC, Print.                 2013
+                                                         Organizations's Most Important Asset
+                                                         The Case for the Chief Data Officer: Recasting the C-Suite to
+Aiken, Peter and Michael M. Gorman                                                                                     Morgan Kaufmann, Print.                            2013
+                                                         Leverage Your Most Valuable Asset
+Anderson, Carl                                           Creating a Data-Driven Organization                           O'Reilly Media, Print.                             2015
+                                                         Big Data Marketing: Engage your Customers More
+Arthur, Lisa                                                                                                           Wiley, Print.                                      2013
+                                                         Effectively and Drive Value
+                                                         Stakeholder Analysis - Simple Steps to Win, Insights and
+Blokdijik, Gerard                                                                                                      Complete Publishing, Print.                        2015
+                                                         Opportunities for Maxing Out Success
+                                                         Total Information Risk Management: Maximizing athe Value
+Borek, Alexander et al.                                                                                                Morgan Kaufmann, Print.                            2013
+                                                         of Data and Information Assets
+                                                         Preventing Litigation: An Early Warning System to Get Big
+Brestoff, Nelson E. and William H. Inmon                                                                               Business Expert Press, Print.                      2015
+                                                         Value OUt of Big Data
+                                                         Analytics: A Value-Driven Approach to Business Intelligence Addison-Wesley Professional, Print. Agile Software
+Collier, Ken W. Agile                                                                                                                                                     2011
+                                                         and Data Warehousing                                          Development Ser.
+                                                          Big Data, Data Mining, and Machine Learning: Value
+Dean, Jared                                                                                                            Wiley, Print. Wiley and SAS Business Ser.             2014
+                                                          Creation for Business Leaders and Practitioners
+                                                          Analytics Across the Enterprise: How IBM Realizes Business
+Dietrich Brenda L., Emily C. Plachy and Maureen F. Norton                                                              IBM Press, Print.                                     2014
+                                                          Value from Big Data and Analytics
+Freeman, R. Edward                                        Stategic Management: A Stakeholder Approach                  Cambridge Univeristy Press, Print.                    2010
+                                                          Data Fluency: Empowering Your Organization with Effective
+Gemignani, Zach, et al.                                                                                                Wiley, Print.                                         2014
+                                                          Data Communication
+                                                          The Science of Succesful Organizational Change: How
+Gibbons, Paul                                             Leaders Set Strategy, Change Behavior, and Create an Agile Pearson FT Press, Print.                                2015
+                                                          Culture
+                                                          Diagnosing Organizations: Methods, Models, and Processes SAGE Publications, Inc. Print. Applied Social Research
+Harrison, Michael I.                                                                                                                                                         2004
+                                                          3rd ed.                                                      Methods (Book 8)
+                                                                                                                       Harvard Business Review Press, Print. HBR's 10 Must
+Harvard Business Review, John P. Kotter et al.            HBR's 10 Must Reads on Change Management                                                                           2011
+                                                                                                                       Reads.
+                                                          Organization Theory: Modern Symblicm and Postmodern
+Hatch, Mary Jo and Ann L. Cunliffe                                                                                     Oxford Unveristy Press, Print.                        2013
+                                                          Perspectives 3rd ed.
+Hiatt, Jeffrey and Timothy Creasey: Change Management:
+                                                           Change Management: The People Side of Change                Prosci Learning Center Publications, Print.           2012
+The People Side of Change
+                                                          Information-Driven Business: How to Manage Data and
+Hillard, Robert                                                                                                        Wiley, Print.                                         2010
+                                                          Information for Maximum Advantage
+                                                          The Fractal Organization: Creating sustainable organizations
+Hoverstadt, Patrick                                                                                                    Wiley, Print.                                         2009
+                                                          with the Viable System Model
+                                                          Successful Business Intelligence: Unlock the Value of BI and
+Howson, Cindi                                                                                                          Mcgraw-Hill Osborne Media, Print.                     2013
+                                                          Big Data 2nd ed.
+                                                          Designing Your Organization: Using the STAR Model to
+Kates, Amy and Jay R. Galbraith                                                                                        Jossey-Bass, Print.                                   2007
+                                                          Solve 5 Critical Design Challenges
+                                                          Bridging OrganizationDesign and Performance:Five Ways to
+Kesler, Gregory and Amy Kates                                                                                          Jossey-Bass, Print.                                   2015
+                                                          Activate a Global Operation Model
+                                                          Lean Change Management: Innovative practices for managing
+Little, Jason                                                                                                          Happy Melly Express, Print.                           2014
+                                                          organizational change
+National Renewable Energy Laboratory                      Stakeholder Analysis Methodlogies Resource Book              BiblioGov, Print.                                     2012
+Prokscha, Susanne                                         Practical Guide to Clinical Data Management, 2nd ed          CRC Press, Print.                                     2006
+                                                          Big Data MBA: Driving Business Strategies with Data
+Schmarzo, Bill                                                                                                         Wiley, Print.                                         2015
+                                                          Science
+Soares, Sunil                                             The Chief Data Officer Handbook for Data Governance          McPress, Print.                                       2015
+                                                     The Value of Business Analytics: Identifying the Path to
+Stubbs, Evan                                                                                                       Wiley, Print.                                                2011
+                                                     Profitability
+Tompkins, Jonathan R.                                Organization Theory and Public Management                     Wadsworth Publishing, Print.                                 2004
+                                                     The Oxford Handbook of Organization Theory: meta-
+Tsoukas, Haridimos and Christian Knudsen, eds                                                                      Oxford UniversityPress, Print. Oxford Handbooks.             2005
+                                                     theoretical Perspectives
+                                                     Creating Value with Big Data Analytics: Making Smarter
+Verhoef, Peter C., Edwin Kooge and Natasha Walk                                                                    Routledge, Print.                                            2016
+                                                     Marketing Decisions
+                                                                                                                   John Catt Educational Ltd., Print. Effective International
+Willows, David and Brian Bedrick, eds                Effective Management for Schools                                                                                           2012
+                                                                                                                   Schools Ser.
+
+17 Data Management and Organizational Change Management
+
+                     AUTHOR                                                    TITLE                                               PUBLISHER                                     YEAR
+                                                  The Change Leader's Roadmap and Beyond Change
+Ackerman Anderson, Linda and Dean Anderson                                                                  Pfeiffer, Print.                                                    2010
+                                                  Management Two Book Set 2nd ed
+                                                  Beyond Change Management: How to Achieve Breakthrough
+Ackerman, Anderson, Linda Dean Anderson                                                                     Pfeiffer, Print.                                                    2010
+                                                  Results Thorugh Conscous Change Leadership 2nd ed
+                                                  The Change Leader Roadmap: How to Navigate Your
+Ackerman Anderson, Linda, Dean Anderson                                                                     Pfeiffer, Print.                                                    2010
+                                                  Organization's Transformation 2nd ed
+Barksdale, Susan and Teri Lund                    10 Steps to Successful Strategic Planning                 ASTD, Print. 10 Steps.                                              2006
+                                                  Mastering Communication at Work: How to Lead, Manage, and
+Becker, Ethan F. and Jon Wortmann                                                                           McGraw-Hill, Print.                                                 2009
+                                                  Influence
+                                                  Changemaking: Tactics and resources for managing
+Bevan, Richard                                                                                              CreateSpace Independent Publishing Platform, Print.                 2011
+                                                  organizational change
+                                                  The Snowball Effect: Communication Techniques to Make You
+Bounds, Andy                                                                                                Capstone, Print.                                                    2013
+                                                  Unstoppable
+Bridges, William                                  Managing Transitions: Making the Most of Change           Da Capo Lifelong Books, Print.                                      2009
+Center for Creative Leadership (CCL), Talula
+                                                  Communicating Your Vision                                     Pfeiffer, Print.                                                2007
+Cartwright and David Baldwin
+                                                  People Skills for Business: Winning Social Skills That Put You
+Contreras, Melissa                                                                                               CreateSpace Independent Publishing Platform, Print.            2013
+                                                  Ahead of The Competition
+                                                  Franklin Covey Style Guide: For Business and Technical
+Covey, Stephen R.                                                                                                FT Press, Print.                                               2012
+                                                  Communication, 5th ed.
+                                         The 7 Habits of Highly Effective People: Powerful Lessons in
+Covey, Stephen R.                                                                                       Simon and Schuster, Print.                               2013
+                                         Personal Change
+                                         Agile Change Management: A Practical Framework for
+Franklin, Melanie                                                                                       Kogan Page, Print.                                       2014
+                                         Successful Change Planning and Implementation
+                                         Power of Communication: The Skills to Build Trust, Inspire
+Garcia, Helio Fred                                                                                      FT Press, Print.                                         2012
+                                         Loyalty, and Lead Effectively
+Godin, Seth and Malcolm Gladwell         Unleashing the Ideavirus                                       Hachette Books                                           2001
+                                                                                                        Harvard Business Review Press, Print. Harvard Business
+Harvard Business School Press            Business Communication                                                                                                  2003
+                                                                                                        Essentials.
+                                         HBR's 10 Must Reads on Change Management                       Harvard Business Review Press, Print.                    2011
+Hiatt, Jeffrey, and Timothy Creasey      Change Management: The People Side of Change                   Prosci Learning Center Publications, Print.              2012
+                                         The Change Handbook: The Definitive Resource on Today's
+Holman, Peggy, Tom Devane, Steven Cady                                                                  Berrett-Koehler Publishers, Print.                       2007
+                                         Best Methods for Engaging Whole Systems 2nd ed
+                                         How to book of Interpersonal Communication: Improve Your
+Hood, J H.                                                                                              WordCraft Global Pty Limited, Print. "How to" Books      2013
+                                         Relationships. Vol 3.
+Jones, Phil                              Communicating Strategy                                         Ashgate, Print.                                          2008
+Kotter, John P.                          Leading Change                                                 Harvard Business Review Press, Print.                    2012
+Locker, Kitty, and Stephen Kaczmarek     Business Communication: Building Critical Skills 5th ed.       McGraw-Hill/Irwin, Print.                                2010
+                                                                                                        Harvard Business Review Press, Print. Harvard Business
+Luecke, Richard                          Managing Change and Transition                                                                                          2003
+                                                                                                        Essentials
+Rogers, Everett M.                       Diffusion of Innovations 5th ed                                Free Press, Print.                                       2003
+

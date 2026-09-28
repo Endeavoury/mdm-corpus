@@ -1,0 +1,43 @@
+\babel@toc {dutch}{}\relax 
+\contentsline {section}{\numberline {1}Inleiding}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Onderzoeksvraag en deelvragen}{4}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Onderzoeksmethode}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Reviewstrategie en corpus}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Selectie, extractie en analyse}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Definitie van Master Data}{5}{section.3}%
+\contentsline {section}{\numberline {4}Ontwikkeling en theoretische perspectieven}{6}{section.4}%
+\contentsline {section}{\numberline {5}Masterdata versus gerelateerde dataconcepten}{6}{section.5}%
+\contentsline {section}{\numberline {6}MDM-capabilities en lifecycle}{7}{section.6}%
+\contentsline {section}{\numberline {7}Bestaande MDM-architectuurpatronen}{9}{section.7}%
+\contentsline {section}{\numberline {8}Identity en Entity Resolution}{10}{section.8}%
+\contentsline {section}{\numberline {9}Data Quality}{11}{section.9}%
+\contentsline {section}{\numberline {10}Governance en Stewardship}{11}{section.10}%
+\contentsline {section}{\numberline {11}Metadata en Data Elements}{12}{section.11}%
+\contentsline {section}{\numberline {12}Semantiek en Begrippen}{13}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Semantic false agreement}{13}{subsection.12.1}%
+\contentsline {section}{\numberline {13}Ontologie en Conceptual Modelling}{13}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Knowledge graphs en Semantic Web}{14}{subsection.13.1}%
+\contentsline {section}{\numberline {14}Provenance, Lineage en Temporaliteit}{14}{section.14}%
+\contentsline {section}{\numberline {15}Het standaardenlandschap}{15}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Documentsoorten en normatieve reikwijdte}{15}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Overlap, mappings en hiaten}{16}{subsection.15.2}%
+\contentsline {section}{\numberline {16}Nederlandse overheidscontext}{16}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Stelsel van Basisregistraties}{16}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Nederlandse modellen, begrippen en metadata}{17}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Versie, lijststatus en toepasselijkheid}{17}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Federatief Datastelsel en Europese kaders}{17}{subsection.16.4}%
+\contentsline {section}{\numberline {17}Masterdata en Data Products}{18}{section.17}%
+\contentsline {section}{\numberline {18}Masterdata en federatieve data-architecturen}{18}{section.18}%
+\contentsline {section}{\numberline {19}API-first, events en data contracts}{18}{section.19}%
+\contentsline {section}{\numberline {20}Masterdata en AI}{19}{section.20}%
+\contentsline {section}{\numberline {21}Synthese: een conceptueel overzicht van de literatuur}{19}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Gedeelde accenten en controverses}{20}{subsection.21.1}%
+\contentsline {section}{\numberline {22}Research Gaps en open vragen}{20}{section.22}%
+\contentsline {section}{\numberline {23}Discussie}{21}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Theoretische bijdrage en alternatieve interpretaties}{21}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}Praktische betekenis}{22}{subsection.23.2}%
+\contentsline {section}{\numberline {24}Beperkingen en threats to validity}{22}{section.24}%
+\contentsline {section}{\numberline {25}Conclusie}{23}{section.25}%
+\contentsline {section}{\numberline {A}Brongebonden traceability}{23}{appendix.A}%
+\contentsline {section}{\numberline {B}Geselecteerde standaarddocumenten en bewijsgrenzen}{26}{appendix.B}%
+\contentsline {section}{\numberline {C}Reproduceerbaarheid en onderzoeksbestanden}{28}{appendix.C}%

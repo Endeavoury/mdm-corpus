@@ -1,0 +1,518 @@
+Verslag reacties consultatie NL GOV profile for
+CloudEvents verplichten (standaard voor betere
+gegevensuitwisseling)
+
+
+Aan:                       Forum Standaardisatie
+
+Van:                       Bureau Forum Standaardisatie
+
+Datum:                     15 augustus 2025
+
+Versie:                    1.0
+
+Bijlage:                   n.v.t.
+
+
+1. Inleiding
+Dit verslag bevat de openbare reacties uit de openbare consultatie NL GOV profile for
+CloudEvents verplichten (standaard voor betere gegevensuitwisseling) van het Forum
+Standaardisatie van 24 juni tot en met 5 augustus 2025 op internetconsultatie.nl.
+
+De consultatie is onderdeel van de toetsing van het Forum Standaardisatie of NL GOV profile
+for CloudEvents geschikt is om te verplichten aan de overheid (‘Pas toe of leg uit’).
+
+In deze openbare consultatie kon men reageren op het advies van de experts die waren
+betrokken bij het expertonderzoek voor deze toetsing. Dit expertadvies maakte deel uit van
+de openbare consultatie.
+
+In de openbare consultatie zijn twee reacties ontvangen. In het volgende hoofdstuk is het
+antwoord van de respondent een-op-een en ongewijzigd overgenomen van de Pagina reacties
+van de consultatie.
+2. Reacties uit de openbare consultatie
+2.1. Reactie van meldpunt Fraude (Diana GJ Niens)
+Plaats: Ommen
+
+Datum: 4 juli 2025
+
+2.1.1.        Vraag 1
+
+Geef hier indien gewenst uw reactie op het advies van de experts om NL GOV profile for
+CloudEvents te verplichten aan de overheid (‘Pas toe of leg uit’) via plaatsing op de 'Pas toe
+of leg uit'-lijst van Forum Standaardisatie (hoofdstuk 1 van het expertadvies).
+
+“Beste,
+
+
+Dit is nu een typisch voorbeeld van een regeling die er niet mag komen, zonder duidelijk
+aanvoerbaren en heldere eisen die rechtsgeldig zijn.
+Deze regeling zou kunnen werken als eenieder zich aan de regels en de wet zou houden. Het
+probleem is dat witte boorden criminaliteit alles tegenwoordig vergoelijkt, en recht praat wat
+in feite krom is.
+Het probleem is dat van alles wordt toegepast, maar er niets wordt uitgelegd.
+Data over burgers wordt met iedereen gedeeld die een mooie prijs op tafel legt.
+Dit is illegaal en tevens onwettig. Elke burger heeft het volste recht om te weten welke data
+en wie het gedeeld wordt VOOR het gedeeld wordt. Bovendien behoort ten aller tijden om
+toestemming gevraagd te worden.
+Dat is iets dat nu bijna nooit gebeurt. Dit tast mensenrechten aan.”
+
+2.1.2.        Vraag 2
+
+Geef hier indien gewenst uw reactie op het voorgestelde functioneel toepassingsgebied
+(hoofdstuk 1 van het expertadvies).
+
+
+Is de betekenis van registers in het functioneel toepassingsgebied voor u voldoende duidelijk?
+Bent u bekend met een definitie die als autoratief wordt gezien door organisaties binnen het
+organisatorisch toepassingsgebied?
+
+“Betreft: Bezwaar tegen het automatisch autoritatief verklaren van standaarden zonder
+burgerlijke zeggenschap
+
+Als burger maak ik bezwaar tegen het eenzijdig verplicht stellen van een technische
+standaard voor gegevensuitwisseling (zoals CloudEvents) zonder dat daarbij fundamenteel
+wordt gewaarborgd dat de burger zelf de baas blijft over zijn of haar persoonsgegevens.
+
+Een autoritatieve standaard voor datastromen tussen overheden betekent in de praktijk dat
+data sneller, vaker en zonder bewuste toestemming van de burger worden uitgewisseld. Dat
+lijkt efficiënt, maar het ondermijnt het grondrecht op privacy als er geen duidelijke kaders
+zijn over:
+                                           2 van 11
+* wie toegang heeft tot die data,
+* waarvoor ze worden gebruikt,
+* En of de burger daarin keuzevrijheid heeft. Het probleem ligt niet in standaardisatie op zich,
+maar in het vooronderstellen van vertrouwen zonder enige tegenmacht of inzagerecht voor
+burgers.
+
+Daarom stel ik dat:
+
+1. Geen enkele gegevensuitwisseling standaard autoritatief mag zijn, tenzij de burger
+daarvoor uitdrukkelijk toestemming heeft gegeven.
+2. Elke CloudEvent-gebaseerde datastroom waarin persoonsgegevens voorkomen, moet een
+duidelijke opt-out-mogelijkheid bieden.
+3. Standaarden mogen pas verplicht gesteld worden als ethische, juridische én
+maatschappelijke toetsing heeft plaatsgevonden, met burgers aan tafel, niet alleen
+technische experts.
+
+Een overheid die stelt dienstbaar te zijn aan haar burgers, moet eerst en vooral de
+soevereiniteit van het individu respecteren, ook digitaal.”
+
+2.1.3.        Vraag 3
+
+Geef hier indien gewenst uw reactie op het geformuleerde nut en de geformuleerde
+mogelijkheden van het gebruik van NL GOV profile for CloudEvents voor en door de overheid
+(hoofdstuk 2, paragraaf 2 van het expertadvies).
+
+“niet doen”
+
+2.1.4.        Vraag 4
+
+Geef hier indien gewenst uw reactie op het doorlopen proces van het expertadvies (hoofdstuk
+3 van het expertadvies).
+
+“Iedereen kan zich een expert noemen.
+Deze titel betekend niets als er belangen mee gemoeid gaan.”
+
+2.1.5.        Vraag 5
+
+Geef hier indien gewenst uw reactie op de samenstelling van de expertgroep (hoofdstuk 4
+van het expertadvies).
+
+“Idem als hierboven.”
+
+2.1.6.        Vraag 6
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriterium “toegevoegde waarde” (hoofdstuk 5, paragraaf 1 van het expertadvies).
+
+
+Extra aandacht wordt gevraagd voor de genoemde business case voor het in gebruik nemen
+van NL GOV profile for Cloudevents.
+
+
+                                            3 van 11
+“Wie heeft echt gekeken en gecheckt of de toetsing op de juiste manier heeft
+plaatsgevonden?”
+
+2.1.7.       Vraag 7
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriterium “open standaardisatieproces” en op het advies om aan Logius het predicaat
+'Uitstekend beheer' toe te kennen voor NL GOV profile for Cloudevents (hoofdstuk 5,
+paragraaf 2 van het expertadvies).
+
+“In deze tijd zegt de term uitstekend beheer helemaal niets.
+Aan alle kanten worden mensenrechten geschonden door mensen die claimen experts te
+zijn.”
+
+2.1.8.       Vraag 8
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriterium “draagvlak” (hoofdstuk 5, paragraaf 3 van het expertadvies).
+
+“Er is geen draagvlak van de burger..”
+
+2.1.9.       Vraag 9
+
+Staan de belangrijkste stakeholders vanuit de overheid voor deze standaard achter de
+adoptie van de standaard? (vraag 5.3.3.1 van het expertadvies)
+
+“Het woord stakeholder zegt alles.
+
+Zodra financiële belangen gemoeid gaan met een standaard, dan kan je er van uit gaan dat
+de standaarden alleen hoofdstukken bevatten waarbij de stakeholders er altijd financieel
+gewin uit halen.”
+
+2.1.10.      Vraag 10
+
+Staan de overheidsorganisaties die worden geraakt door een verplichting van de standaard
+achter het verplichte gebruik van de standaard? (vraag 5.3.3.2 van het expertadvies)
+
+“nee”
+
+2.1.11.      Vraag 11
+
+Kent u volwaardig geïmplementeerde (live) toepassingen van NL GOV profile for CloudEvents
+en de onderliggende CloudEvents standaard binnen het organisatorisch toepassingsgebied die
+niet reeds in het expertadvies benoemd zijn? (naar aanleiding van vraag 5.3.3.4 van het
+expertadvies)
+
+“Voor een realistische beoordeling van nut, noodzaak en volwassenheid van deze standaard
+acht ik het van belang dat:
+
+
+1. Namen van organisaties waar het profiel daadwerkelijk in productie draait, publiek worden
+gedeeld.
+                                          4 van 11
+2. Casussen of pilotprojecten inzichtelijk worden gemaakt — inclusief doel, reikwijdte, en
+eerste uitkomsten.
+3. Objectieve indicatoren zoals volumes, foutafhandeling, en gebruikerservaringen worden
+benoemd om het publieke vertrouwen in deze standaard te versterken.
+
+
+Zonder deze informatie is het lastig om de claim van toepasbaarheid, effectiviteit of
+proportionaliteit van deze standaard binnen het organisatorisch toepassingsgebied inhoudelijk
+te toetsen.
+
+
+Gegevensuitwisseling binnen de overheid raakt fundamentele burgerrechten, en vereist
+daarom maximale zorgvuldigheid en transparantie in de implementatiefase.”
+
+2.1.12.       Vraag 12
+
+Zijn er voldoende positieve signalen over toekomstige gebruik van de standaard door (semi-
+)overheidsorganisaties, het bedrijfsleven en burgers? (vraag 5.3.3.6 van het expertadvies)
+
+“Voor zover openbaar beschikbaar, zijn er onvoldoende aantoonbare en onderbouwde
+signalen dat er breed draagvlak of enthousiasme bestaat onder (semi-)overheidsorganisaties,
+laat staan onder het bedrijfsleven of burgers.
+
+Waar technische gemeenschappen en ICT-afdelingen mogelijk positief zijn over de
+interoperabiliteit van de standaard, ontbreekt het vooralsnog aan:
+
+Concrete intentieverklaringen van grote overheidsorganisaties;
+
+Publiek toegankelijke roadmaps met adoptieplanning;
+
+Participatie van maatschappelijke stakeholders (zoals burgerrechtenorganisaties of
+burgerpanels);
+
+En, belangrijk: bewustwording of betrokkenheid van burgers zelf.
+
+
+
+Een standaard die zulke diepgaande implicaties heeft voor digitale infrastructuur en
+gegevensverwerking mag niet worden opgelegd zonder maatschappelijk draagvlak. Het is
+zorgwekkend dat burgers — als primaire belanghebbenden bij gegevensstromen — in deze
+discussie vrijwel niet zichtbaar zijn.
+
+Mijn advies is daarom om het proces van besluitvorming uit te stellen totdat er sprake is van
+aantoonbare acceptatie én actieve participatie vanuit ten minste:
+
+1. Eindgebruikers (burgers);
+
+2. Rechtsprekende en toezichthoudende instanties;
+
+3. Representatieve (semi-)overheidsorganisaties buiten de ICT-hoek.”
+
+
+
+
+                                           5 van 11
+2.1.13.      Vraag 13
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriterium “opname op de lijst bevordert adoptie” (hoofdstuk 5, paragraaf 4 van het
+expertadvies).
+
+“De stelling dat opname van het NL GOV profile for CloudEvents op de lijst van verplichte
+open standaarden automatisch adoptie zal bevorderen, is naar mijn mening te optimistisch,
+onvoldoende onderbouwd en beleidsmatig risicovol.
+
+
+In de toetsing ontbreekt een fundamenteel onderscheid tussen:
+
+
+- Technische haalbaarheid (ja, de standaard kán bijdragen aan interoperabiliteit);
+- Maatschappelijke of bestuurlijke bereidheid tot implementatie (waarvoor nog nauwelijks
+bewijs bestaat).
+
+
+Zonder aantoonbaar draagvlak, realistische planning of robuuste monitoringinfrastructuur
+leidt verplichte opname eerder tot:
+* Papieren adoptie (formeel omarmen, feitelijk negeren);
+* Beheerslast voor kleine organisaties;
+* Een flinke toename van niet transparante gegevensuitwisseling zonder burgerzeggenschap.
+
+
+Opname op een lijst zou het eindpunt van een participatief en breed gedragen
+acceptatieproces moeten zijn — geen beleidsinstrument om dat proces af te dwingen.
+Ik pleit daarom voor uitstel van opname totdat:
+
+
+1. Een heldere juridische en ethische impactanalyse is uitgevoerd;
+2. Burgerbelangen structureel zijn ingebed in de governance;
+3. Er bewijs is van succesvolle, vrijwillige implementaties met positieve en op waarheid
+beruste uitkomstmetingen.”
+
+2.1.14.      Vraag 14
+
+Geef hier indien gewenst uw reactie op de aanvullende adoptieadviezen bij verplichting van
+NL GOV profile for CloudEvents door plaatsing op de ‘Pas toe of leg uit’-lijst (hoofdstuk 6 van
+het expertadvies).
+
+“De aanvullende adoptieadviezen bij een eventuele verplichtstelling van het NL GOV profile
+for CloudEvents zijn op zichzelf logisch vanuit technisch en organisatorisch perspectief, maar
+missen een maatschappelijke, juridische en democratische verankering.
+
+
+
+Er wordt veel nadruk gelegd op implementatiesupport, communicatie met beheerders, en
+technische ondersteuning. Dat is noodzakelijk, maar wel ruim onvoldoende.
+
+Wat ontbreekt in deze adoptieadviezen is:
+                                            6 van 11
+1. Een participatiestructuur voor burgers:
+Geen enkele vorm van gegevensuitwisseling mag worden “geoptimaliseerd” zonder dat
+burgers invloed kunnen uitoefenen op wat, wanneer en met welk doel er over hen wordt
+gecommuniceerd of gekoppeld. Een standaard zonder burgerzeggenschap is maatschappelijk
+onhoudbaar.
+
+2. Juridische toetsing op proportionaliteit en AVG-risico’s:
+De adoptieadviezen zouden alleen geloofwaardig zijn als ze gepaard gaan met onafhankelijke
+toetsing op privacy-impact, transparantie, en misbruikrisico’s. Die toets ontbreekt simpelweg.
+
+3. Een exit-strategie of opschortingsmechanisme:
+Er is geen voorziening voor het scenario waarin de standaard negatieve of onvoorziene
+maatschappelijke gevolgen heeft. Elke verplichting moet gepaard gaan met een helder
+mechanisme voor bijstelling, bezwaar of opschorting.
+
+De huidige adoptieadviezen wekken de indruk dat de standaard vooral top-down wordt
+uitgerold, terwijl vertrouwen en adoptie juist groeien bij bottom-up participatie. Dat vergt een
+andere houding: dienend, transparant en toetsbaarheid.”
+
+2.1.15.       Vraag 15
+
+Geef hier indien gewenst uw aanvullend commentaar aan het Forum Standaardisatie en
+Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) in verband met de inhoud van dit
+expertadvies en/of het gevolgde proces.
+
+“Ik heb alles wel gezegd.
+Gewoon niet doen.”
+
+
+
+2.2. Reactie van RvIG (C Dingemanse)
+Plaats: Den Haag
+
+Datum: 5 augustus 2025
+
+2.2.1.        Vraag 1
+
+Geef hier indien gewenst uw reactie op het advies van de experts om NL GOV profile for
+CloudEvents te verplichten aan de overheid (‘Pas toe of leg uit’) via plaatsing op de 'Pas toe
+of leg uit'-lijst van Forum Standaardisatie (hoofdstuk 1 van het expertadvies).
+
+“Ons team BRP API van de RvIG heeft nogmaals naar de standaard gekeken. Wij omarmen
+cloud events volledig, maar hebben toch nog een aantal vragen over het NL GOV profile.
+Omdat wij op dit moment bezig zijn 'BRP Gebeurtenissen en Notificaties” te realiseren,
+hebben we nu een iets beter beeld dan we een paar maanden geleden ten tijde van de
+expertgroep bijeenkomst. Mogelijk kunnen we onderstaande punten beter n.a.v. de eerste
+implementatie-ervaringen van ons en anderen gezamenlijk verbeteren/doorontwikkelen in
+een nieuwe versie van de standaard.
+
+                                             7 van 11
+• Omdat de constraints bij de type attribuut niet expliciet zijn gespecificeerd kunnen zij op
+verschillende manieren worden geïnterpreteerd, waardoor zij elkaar mogelijk tegenspreken.
+Bijvoorbeeld:
+o constraints 'MUST be Reverse Domain name notation' en 'Names of organizations SHOULD
+NOT be used'. Een domeinnaam heeft vaak de naam van een organisatie. 'nl.brp' is mogelijk
+de gewenste prefix voor onze events, maar deze domeinnaam is eigendom van
+domeinenbank.
+• de constraint 'SHOULD change when a CloudEvent's data changes in a backwardly-
+incompatible way' of de constraint 'if versioning is used semantic versioning SHOULD be used'
+zou niet nodig moeten zijn. Als semantic versioning wordt toegepast, dan zou een
+backwardly-incompatible data change leiden tot het verhogen van de major versie. En als de
+data change leidt tot een andere betekenis, dan moet een andere event type worden
+gespecificeerd. Voorbeelden:
+o verhuizing en emigratie
+o verhuizing.binnengemeentelijk en verhuizing.buitenland
+
+
+• Is constraint 'MAY be specified by adding as a suffix' niet inherent aan constraint 'MUST be
+Reverse domain name notation'? Hoe zou de event type naam
+'nl.brp.verhuizing.binnengemeentelijk' eruitzien als suffixing niet wordt toegepast?
+
+
+Vervolg reactie: zie functioneel toepassingsgebied.”
+
+2.2.2.       Vraag 2
+
+Geef hier indien gewenst uw reactie op het voorgestelde functioneel toepassingsgebied
+(hoofdstuk 1 van het expertadvies).
+
+
+Is de betekenis van registers in het functioneel toepassingsgebied voor u voldoende duidelijk?
+Bent u bekend met een definitie die als autoratief wordt gezien door organisaties binnen het
+organisatorisch toepassingsgebied?
+
+“geen commentaar op het functionele toepassingsgebied: eens met voorstel.
+
+
+Vervolg reactie:
+
+
+• Het is niet duidelijk of de voorbeelden (laatste 4 bullet points) voorbeelden zijn van de
+'Names of organizations SHOULD NOT be used...' constraint of van CloudEvents-NL
+constraints voor de type attribuut. Verder wordt niet gemeld of de gegeven voorbeelden
+goede of slechte voorbeelden zijn. Als het voorbeelden zijn van slechte type waarden, dan
+zou het voor begrip helpen om een goede voorbeeld toe te voegen en om wat betere uitleg
+bij toe te voegen. Bijv. niet nl.vng.zgw.zaken.status.create maar nl.vng.zgw.bezwaar-
+ingediend of nl.vng.zgw.melding-kapotte-straatverlichting-ingediend, want zgw is de TLA voor
+Zaakgericht Werken dus is het redundant om zaken nogmaals in de event type op te nemen.
+
+                                            8 van 11
+Bovendien kan een zaak om verschillende redenen worden gecreëerd, bijv. omdat een
+bezwaar is ingediend of omdat melding is gemaakt van een kapotte straatverlichting.
+
+
+Vragen:
+• Binnen 'BRP Gebeurtenissen en Notificaties' is een Notificatie de uitgeklede variant van een
+Gebeurtenis. Heeft de Notificatie voor de verplichte attributen dezelfde waarde als de
+gerelateerde Gebeurtenis? Krijgt een Notificatie een andere id waarde en type waarde? Bijv.
+'GeboorteAangegeven' voor de Gebeurtenis en 'GeboorteAangegevenNotificatie' voor de
+Notificatie.”
+
+2.2.3.          Vraag 3
+
+Geef hier indien gewenst uw reactie op het geformuleerde nut en de geformuleerde
+mogelijkheden van het gebruik van NL GOV profile for CloudEvents voor en door de overheid
+(hoofdstuk 2, paragraaf 2 van het expertadvies).
+
+“eens met voorstel”
+
+2.2.4.          Vraag 4
+
+Geef hier indien gewenst uw reactie op het doorlopen proces van het expertadvies (hoofdstuk
+3 van het expertadvies).
+
+“geen commentaar”
+
+2.2.5.          Vraag 5
+
+Geef hier indien gewenst uw reactie op de samenstelling van de expertgroep (hoofdstuk 4
+van het expertadvies).
+
+“geen commentaar”
+
+2.2.6.          Vraag 6
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriterium “toegevoegde waarde” (hoofdstuk 5, paragraaf 1 van het expertadvies).
+
+
+Extra aandacht wordt gevraagd voor de genoemde business case voor het in gebruik nemen
+van NL GOV profile for Cloudevents.
+
+“geen reactie”
+
+
+
+2.2.7.          Vraag 7
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriterium “open standaardisatieproces” en op het advies om aan Logius het predicaat
+'Uitstekend beheer' toe te kennen voor NL GOV profile for Cloudevents (hoofdstuk 5,
+paragraaf 2 van het expertadvies).
+
+                                           9 van 11
+“geen reactie”
+
+2.2.8.       Vraag 8
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriterium “draagvlak” (hoofdstuk 5, paragraaf 3 van het expertadvies).
+
+“geen reactie”
+
+2.2.9.       Vraag 9
+
+Staan de belangrijkste stakeholders vanuit de overheid voor deze standaard achter de
+adoptie van de standaard? (vraag 5.3.3.1 van het expertadvies)
+
+“geen reactie”
+
+2.2.10.      Vraag 10
+
+Staan de overheidsorganisaties die worden geraakt door een verplichting van de standaard
+achter het verplichte gebruik van de standaard? (vraag 5.3.3.2 van het expertadvies)
+
+“geen reactie”
+
+2.2.11.      Vraag 11
+
+Kent u volwaardig geïmplementeerde (live) toepassingen van NL GOV profile for CloudEvents
+en de onderliggende CloudEvents standaard binnen het organisatorisch toepassingsgebied die
+niet reeds in het expertadvies benoemd zijn? (naar aanleiding van vraag 5.3.3.4 van het
+expertadvies)
+
+“geen reactie”
+
+2.2.12.      Vraag 12
+
+Zijn er voldoende positieve signalen over toekomstige gebruik van de standaard door (semi-
+)overheidsorganisaties, het bedrijfsleven en burgers? (vraag 5.3.3.6 van het expertadvies)
+
+“Ja”
+
+2.2.13.      Vraag 13
+
+Geef hier indien gewenst uw reactie op de resultaten van de toetsing op hoofdlijnen van
+hoofdcriterium “opname op de lijst bevordert adoptie” (hoofdstuk 5, paragraaf 4 van het
+expertadvies).
+
+“geen reactie”
+
+2.2.14.      Vraag 14
+
+Geef hier indien gewenst uw reactie op de aanvullende adoptieadviezen bij verplichting van
+NL GOV profile for CloudEvents door plaatsing op de ‘Pas toe of leg uit’-lijst (hoofdstuk 6 van
+het expertadvies).
+
+
+                                           10 van 11
+“geen reactie”
+
+2.2.15.     Vraag 15
+
+Geef hier indien gewenst uw aanvullend commentaar aan het Forum Standaardisatie en
+Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO) in verband met de inhoud van dit
+expertadvies en/of het gevolgde proces.
+
+“geen reactie”
+
+
+
+
+                                          11 van 11
+

@@ -1,0 +1,493 @@
+Aanvullend onderzoek Digikoppeling met
+Federated Service Connectivity (FSC)
+
+ Aan:                   Forum Standaardisatie
+
+ Van:                   Innovalor Advies B.V.
+
+ Datum:                 28 oktober 2025
+
+ Versie:                1.0
+
+ Bijlagen:              geen
+
+
+
+1 Advies
+De experts die betrokken waren bij het aanvullend onderzoek adviseren om – gebaseerd op
+de vragen in dit aanvullend onderzoek - de status ‘Pas toe of leg uit’ toekennen aan de
+nieuwe versie van Digikoppeling (release 30/1/2025), met daarin opgenomen de standaard
+Federated Service Connectivity (FSC) in het Digikoppeling REST-API profiel.
+
+Logius is beheerder - met het predicaat Uitstekend beheer - van Digikoppeling welke op de
+‘Pas toe of leg uit’-lijst staat van Forum Standaardisatie. Logius heeft de nieuwe versie van de
+standaard aan het bureau van het Forum Standaardisatie gemeld. Omdat de wijzigingen van
+Digikoppeling met FSC substantieel zijn, heeft het bureau besloten om naar enkele aspecten
+aanvullend onderzoek te laten doen om zeker te zijn van het voldoen aan de criteria
+‘Uitstekend beheer’. In de rest van dit document wordt dit onderzoek en advies nader
+onderbouwd.
+
+Hoofdstuk 2 geeft een korte beschrijving van het nut en belang van de toevoeging van FSC
+aan de ‘Pas toe of leg uit’-lijst. Hoofdstuk 3 beschrijft het proces waarmee dit advies tot stand
+kwam, alsmede de vervolgstappen. Hoofdstuk 4 geeft de samenstelling van de expertgroep
+weer. Hoofdstuk 5 documenteert hoe de experts de standaard beoordelen tegen de criteria
+voor opname op de lijst.Tot slot geeft hoofdstuk 6 aanvullende adviezen van de experts aan
+het Forum Standaardisatie om de adoptie van de standaard te stimuleren.
+2 Korte beschrijving voor aanvullend onderzoek
+2.1 Over de standaard
+Digikoppeling is de standaard voor veilige gegevensuitwisseling tussen overheidsorganisaties.
+De standaard beschrijft logistieke afspraken over de manier waarop berichten moeten worden
+uitgewisseld, bijvoorbeeld als bevraging of als melding. Digikoppeling maakt het mogelijk om
+zeer grote bestanden uit te wisselen. Ook specificeert Digikoppeling hoe de uit te wisselen
+gegevens worden beveiligd. Digikoppeling gaat niet over de inhoud van berichten. De
+standaard beschrijft afspraken om gegevens juist te adresseren, leesbaar en uitwisselbaar te
+maken en veilig en betrouwbaar te verzenden. Overheidsorganisaties hebben Digikoppeling
+nodig indien hun systemen gegevens moeten uitwisselen met onderdelen van de Generieke
+Digitale Infrastructuur (GDI), zoals de Basisregistraties. Logius heeft het predicaat
+‘Uitstekend Beheer’ voor de registratie Digikoppeling op de ‘Pas toe of leg uit’-lijst.
+
+Digikoppeling bestaat uit een viertal koppelvlakspecificaties, waaronder REST API voor API’s.
+Op basis van het vernieuwingsvoorstel voor ‘Digikoppeling voor API’s’ van VNG Realisatie en
+RINIS, is een wijzigingsvoorstel ingebracht om FSC (door) te ontwikkelen en toe te voegen
+aan Digikoppeling REST API profiel. De FSC standaard beschrijft hoe op een uniforme wijze
+koppelingen te maken en te beheren zijn. FSC is een op basis van BOMOS door Logius
+beheerde standaard.
+
+De Programmeringsraad GDI (PGDI) heeft op 12 december 2024 ingestemd met het
+opnemen van FSC in Digikoppeling REST API profiel (Digikoppeling REST API profiel heet
+formeel Digikoppeling Koppelvlakstandaard REST API).
+
+2.2 Waarom is deze toevoeging aan de standaard belangrijk?
+FSC uniformeert de wijze waarop koppelingen worden gerealiseerd, waardoor deze
+beheersbaar, veilig en betrouwbaar zijn. Het maakt ze eenvoudiger beheersbaar, doordat ze
+eenvoudig en snel kunnen worden gerealiseerd, gewijzigd, gecontroleerd of opgeheven.
+Daarnaast worden aanvullende waarborgen gerealiseerd voor de veiligheid en
+betrouwbaarheid van data. Denk aan het automatiseren van controles op basis van beleids-
+en toegangsregels, gebaseerd op transparantie zodat ook achteraf helder is waarom bepaalde
+gegevens gebruikt zijn en bepaalde beslissingen genomen zijn. FSC beschrijft op uniforme
+wijze hoe koppelingen tussen systemen tot stand komen en beheerd worden, door de
+volgende aspecten te standaardiseren:
+
+•   Hoe de identiteit van een organisatie wordt bepaald en vertrouwd.
+•   Hoe een autorisatie om te mogen koppelen met een API wordt gegeven, geweigerd en
+    ontnomen.
+•   Hoe organisaties in een netwerk de API’s en elkaar kunnen vinden.
+•   Hoe een verbinding naar een API veilig wordt opgezet.
+•   De inhoud van logregels en wanneer deze moeten worden weggeschreven.
+                                                2
+•   Hoe een intermediair namens een andere organisatie een API kan consumeren en/of
+    publiceren.
+
+FSC voegt ook een directory waarin API’s gepubliceerd en gevonden kunnen worden toe aan
+Digikoppeling. Ook maakt de standaard het mogelijk om toegang tot een API te beheren met
+digitale contracten en zorgt het voor uniforme logging rondom verzoeken aan een API. Ten
+slotte maakt de standaard delegatie mogelijk en biedt het hiermee duidelijkheid over hoe een
+organisatie namens een andere organisatie mag handelen.
+
+
+3 Betrokkenen en proces
+Op 10 maart 2025 heeft Logius Digikoppeling met FSC aangemeld voor opname op de ‘Pas
+toe of leg uit’-lijst van het Forum Standaardisatie. Logius kent het predicaat ‘Uitstekend
+Beheer’ voor de elk van de vier koppelvlakstandaarden die samen de standaard
+‘Digikoppeling’ vormen. Digikoppeling staat reeds op de ‘Pas toe of leg uit’-lijst van Forum
+Standaardisatie. De wijzigingen van Digikoppeling met FSC is substantieel waardoor de
+aanvullende toetsing van procedure noodzakelijk is. Het doel van het onderzoek is om te
+achterhalen of de status ‘Pas toe of leg uit’ aan de nieuwe versie van Digikoppeling onder
+‘Uitstekend beheer’ zonder meer kan worden toegekend. Op de onderzoeksbijeenkomst van
+16 september 2025 zijn experts online bijeengekomen om de standaard in het algemeen en
+de geïdentificeerde aandachtspunten in het bijzonder te toetsen. Dit rapport geeft de
+uitkomst van de expertsessie weer.
+
+
+4 Samenstelling van de expertgroep
+Bij het samenstellen van de expertgroep moeten de belangen van verschillende partijen die
+worden geraakt door een eventuele opname vertegenwoordigd zijn in de expertgroep. Deze
+verschillende belangen worden op een evenwichtige manier meegenomen in de
+adviesrapportage van de expertgroep. De expertgroep heeft een onafhankelijk voorzitter die
+de onderzoeksbijeenkomst leidt.
+
+Aan de onderzoeksbijeenkomst hebben deelgenomen:
+
+    •   Haasnoot, Peter (Logius, indiener)
+    •   Mironov, Stas (Logius, indiener)
+    •   Dikmans, Lonneke (Stichting RINIS)
+    •   Gelderen, Edward van (ICTU)
+    •   Gacham, Moâad el (UWV)
+    •   Heymen, Nicolaij (PinkRoccade)
+    •   Koster, Ronald (VNG)
+    •   Krabbe, Tom (Belastingdienst)
+    •   Pauw, Elzo (UWV)
+    •   Sinnige, Hans (Stichting RINIS)
+
+                                               3
+   •    Terpstra, Frank (Geonovum)
+   •    Tulen, Marcel (SVB)
+   •    Velthuis, Alfred (RDW)
+   •    Vijlbrief, Tom (Kadaster)
+
+Claudia Vermeulen, Managing Partner en Cigdem de Jongh adviseur bij InnoValor Advies,
+hebben de procedure in opdracht van het Bureau Forum Standaardisatie begeleid. Joram
+Verspaget en Redouan Ahaloui van het Bureau Forum Standaardisatie waren als toehoorder
+bij de expertbijeenkomst aanwezig.
+
+
+5 Aanvullend onderzoek op inhoudelijke criteria
+Logius beschikt voor de standaard Digikoppeling over het predicaat ‘Uitstekend beheer’. Om
+te beoordelen of in het voortraject van de PGDI alle onderdelen van de reguliere
+toetsingsprocedure voor een nieuwe standaard zijn doorlopen, dan wel adequaat zijn geborgd
+via ‘Uitstekend beheer’, en of voldoende rekening is gehouden met de samenhang met
+andere standaarden, moet dit eerst worden vastgesteld door middel van een aanvullend
+onderzoek. Pas daarna kan de nieuwe versie van Digikoppeling met instemming van het
+Forum Standaardisatie worden opgenomen op de ‘Pas toe of leg uit’-lijst.
+
+De focus van dit aanvullend onderzoek ligt op de toetsing van FSC binnen het Digikoppeling
+REST API profiel op de volgende inhoudelijke criteria:
+
+   1. Heeft de standaard toegevoegde waarde?
+   2. Heeft het beheer van de (door)ontwikkeling van de standaard een open
+        standaardisatieproces?
+   3. Heeft de standaard voldoende draagvlak?
+
+Ieder van deze hoofdcriteria heeft deelcriteria die beschreven staan op de website van het
+Forum Standaardisatie. Dit hoofdstuk beschrijft per criterium het resultaat van de toetsing.
+
+5.1 Toegevoegde waarde
+Met dit criterium wordt bepaald of het toepassingsgebied van de standaard duidelijk is, of
+deze zich goed verhoudt tot andere standaarden die al dan niet op de lijst staan, of de
+standaard een duidelijke meerwaarde heeft en of deze opweegt tegen eventuele risico’s en
+nadelen.
+
+5.1.1      Waardering van het criterium criteria ‘Toegevoegde waarde’
+
+De experts komen tot de conclusie dat de standaard Digikoppeling met FSC wel voldoet aan
+het criterium ‘toegevoegde waarde’. Deze conclusie wordt in de volgende paragrafen
+toegelicht.
+
+
+
+
+                                              4
+5.1.2   Verhoudt de standaard zich goed tot andere standaarden?
+
+5.1.2.1 Kan de standaard naast of in combinatie met reeds opgenomen standaarden
+        worden toegepast?
+
+Ja, de standaard Digikoppeling met FSC op het REST API profiel is ontworpen conform de
+REST-API Design Rules (ADR). Ook maakt Digikoppeling met FSC gebruik van standaarden
+als OAuth 2.0 en User Managed Access (UMA). Experts benadrukken hierbij dat de toepassing
+van enkel OAuth 2.0 ook nog steeds een optie is voor organisaties. Het is niet noodzakelijk
+voor organisaties om op alle beveiligde API-verbindingen FSC toe te passen, door de
+toevoeging van FSC aan Digikoppeling. In situaties waarin bij de toepassing van
+Digikoppeling met FSC en andere bestaande standaarden mogelijk ruis kan ontstaan, kunnen
+het TO Digikoppeling en het TO OAuth profiel bijdragen aan verduidelijking en eventuele
+verbeteringen. Denk hierbij ook aan het gebruik van Diginetwerk voor gesloten diensten.
+
+5.1.3   Wegen de voordelen van de standaard op tegen de nadelen?
+
+5.1.3.1 Zijn de kosten van implementatie acceptabel en zijn deze kosten bekend en
+        inzichtelijk?
+
+Nee, de kosten van de implementatie zijn op dit moment niet bekend of inzichtelijk gemaakt.
+Het verplichten van Digikoppeling met FSC in het REST-API profiel zal een eenmalige
+investering vragen van organisaties. Daarnaast zijn er kosten voor het beheer van de
+standaard en de daarbij behorende open source softwarecomponenten. Het is onbekend wat
+de kosten hiervan zijn en of deze acceptabel zijn. Stichting RINIS biedt een schema met
+stappen voor de implementatie van de standaard.
+
+5.1.3.2 Is de meerwaarde van de standaard goed inzichtelijk te maken?
+
+Ja, Digikoppeling met FSC uniformeert de wijze waarop koppelingen worden gerealiseerd. Dit
+betekent dat nieuwe koppelingen snel en eenvoudig kunnen worden gerealiseerd omdat de
+manier van koppelen is vastgelegd in deze standaard. Digikoppeling met FSC waarborgt de
+veiligheid van deze koppelingen met encryptie, authenticatie, autorisatie en transparantie.
+
+5.1.3.3 Zijn de beveiligingsrisico’s aan overheidsbrede adoptie van de standaard
+        acceptabel?
+
+Niet van toepassing. De experts hebben geen kennis van veiligheidsrisico’s die het gebruik
+van deze standaard met zich mee kunnen brengen. Digikoppeling met FSC zorgt juist voor
+verbeterde beveiliging. De standaard legt uit hoe een autorisatie om te mogen koppelen met
+een API wordt gegeven, geweigerd of ontnomen. Ook beschrijft de standaard hoe een
+verbinding naar een API veilig kan worden opgezet.
+
+
+
+
+                                              5
+5.1.3.4 Zijn de privacyrisico’s aan overheidsbrede adoptie van de standaard
+          acceptabel?
+
+Niet van toepassing. De experts hebben geen kennis van privacyrisico’s die het gebruik van
+deze standaard met zich mee kunnen brengen. Digikoppeling met FSC waarborgt privacy
+door uit te leggen hoe de identiteit van een organisatie wordt bepaald en vertrouwd en hoe
+een verbinding naar een API veilig kan worden opgezet.
+
+5.2 Open standaardisatieproces
+Met dit criterium wordt bepaald of het beheer en de (door)ontwikkeling van de standaard op
+een open, toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze zijn ingericht.
+
+5.2.1     Waardering van het criterium criteria ‘Open standaardisatieproces’
+
+De experts komen tot de conclusie dat de standaard Digikoppeling met FSC voldoet aan het
+criterium ‘Open standaardisatieproces’. Deze conclusie wordt in de volgende paragrafen
+toegelicht.
+
+5.2.2     Is de inspraak van eenieder in voldoende mate geborgd?
+
+5.2.2.1 Is het besluitvormingsproces toegankelijk voor alle belanghebbenden?
+
+Ja, het besluitvormingsproces is toegankelijk voor alle belanghebbenden. Het beheer van de
+Digikoppeling standaard is open. Dat wil zeggen dat alle documentatie van de standaard en
+de wijzigingen open beschikbaar is. Wijzigingsvoorstellen kunnen door iedereen worden
+ingediend. Omdat iedere belangstellende vragen of voorstellen tot wijziging kan indienen, is
+het niet nodig lid te worden van de community om een bijdrage te leveren. Iedereen die
+bijdraagt aan de standaard is daarmee lid van de community. Nadere details over de
+governance van het besluitvormingsproces zijn te lezen in paragraaf 2.2.2 van het
+beheerdocument van Logius en is vrij toegankelijk voor alle belanghebbende.
+
+5.2.2.2 Vindt besluitvorming plaats op een wijze die zoveel mogelijk recht doet aan
+          de verschillende belangen?
+
+Ja, besluitvorming vindt plaats op basis van consensus. Mocht consensus niet mogelijk zijn,
+dan gaat het vraagstuk met een weergave van de verschillende standpunten door naar het
+eerstvolgende hoger gelegen gremium zoals beschreven in paragraaf 2.2 van het
+beheerdocument (Governance).
+
+5.2.2.3 Kan een belanghebbende formeel bezwaar aantekenen tegen de gevolgde
+          procedure?
+
+Ja, dit is mogelijk. Het inbrengen van formeel bezwaar is mogelijk bij de beheerorganisatie.
+Klachten over de opzet of uitvoering van het beheerproces kunnen worden ingediend bij
+Logius.
+
+                                               6
+5.2.2.4 Organiseert de standaardisatieorganisatie regelmatig overleggen met
+         belanghebbenden over doorontwikkeling en beheer van de standaard?
+
+Ja, Logius organiseert één keer per kwartaal overleggen met belanghebbende over de
+(door)ontwikkeling en het beheer van de standaard. Deelname aan het Technisch Overleg
+(TO) is vrij en voor eenieder die een belang heeft bij de standaard. De documentatie van de
+overleggen is online vrij beschikbaar. Ook bestaat er voor FSC een sub werkgroep
+georganiseerd door Logius. De documentatie van de overleggen is online vrij beschikbaar.
+
+5.2.2.5 Organiseert de standaardisatieorganisatie een openbare consultatie voordat
+         (een nieuwe versie van) de standaard wordt vastgesteld?
+
+Ja, dit is onderdeel van het beheerproces van Logius. Uitbreidingen en aanpassingen komen
+tot stand door participatie van verschillende belanghebbenden. De community bestaat uit
+eenieder die belanghebbende of belangstellende is met betrekking tot de standaard.
+Deelname aan de community kent geen drempels of restricties. Leden van de community
+kunnen vrij reageren op de technische openbare consultaties. Ter illustratie staat in paragraaf
+5.3.3.1 de openbare consultatie voor Digikoppeling met FSC nader toegelicht.
+
+5.2.3    Is er adoptieondersteuning voor de standaard?
+
+5.2.3.1 Is er een toegankelijk aanspreekpunt of organisatie waar meer informatie
+         over de standaard is te vinden en op te vragen is?
+
+Ja, Logius is het aanspreekpunt voor meer informatie. Logius biedt ondersteuning en advies
+via verschillende kanalen: Online via de website en via de Github issues en per mail via
+digikoppeling@logius.nl
+
+5.2.3.2 Wordt er ondersteuning gegeven in de adoptie en de implementatie van de
+         standaard?
+
+Ja, Logius, Stichting RINIS en Geonovum bieden ondersteuning voor de implementatie van de
+standaard. Stichting RINIS host de Directory van de Digikoppeling Groep en ondersteunt bij
+de adoptie van FSC. Geonovum in samenwerking met het Ministerie van Binnenlands zaken
+en Koninkrijksrelaties (BZK) biedt inzichten, ervaringen en best practices via
+developer.overheid.
+
+5.3 Draagvlak
+
+5.3.1    Waardering van het criterium criteria ‘Draagvlak’
+
+De experts komen tot de conclusie dat de standaard Digikoppeling met FSC wel voldoet aan
+het criterium ‘Draagvlak’. Deze conclusie wordt in de volgende paragrafen toegelicht.
+
+
+
+
+                                               7
+5.3.2    Bestaat er voldoende marktondersteuning voor de standaard?
+
+5.3.2.1 Bieden meerdere leveranciers ondersteuning voor de standaard?
+
+Nee, er is momenteel één partij die de ondersteuning voor de standaard aanbiedt. Momenteel
+zijn er geen marktpartijen die SLA-afspraken maken over de implementatie en ondersteuning
+van Digikoppeling met FSC. Dit marktaanbod is volgens experts vooralsnog voldoende in
+balans met de huidige vraag en implementatie vanuit de overheid. Zie paragraaf 5.3.3.3 voor
+details over implementatie en pilots die nu lopen. Experts verwachten dat zodra er vanuit de
+overheid een verplichting op de standaard komt dit de vraag door overheden doet toenemen.
+Als gevolg daarvan is de verwachting dat het ondersteuningsaanbod door leveranciers parallel
+zal toenemen. Experts geven aan daarom vooralsnog geen significant risico te zien in het
+huidige beperkte marktaanbod.
+
+5.3.2.2 Kan een gebruiker de conformiteit van de implementatie van de standaard
+         (laten) toetsen?
+
+Ja, er is een testsuite in beheer bij Logius. VNG biedt tooling aan op de testsuite uit te voeren
+op de implementatie. Ook is er compliance tester software, belegd bij stichting RINIS vanaf
+2026, net als de OpenFSC referentie software.
+
+5.3.2.3 Draagt de standaard voldoende bij aan interoperabiliteit zonder dat
+         aanvullende standaardisatieafspraken (zoals lokale profielen) noodzakelijk
+         zijn om de standaard te implementeren of te gebruiken?
+
+Ja, de standaard Digikoppeling met FSC in het REST API profiel draagt bij aan
+interoperabiliteit zonder aanvullende standaardisatieafspraken.
+
+5.3.2.4 Zijn er profielen of voorbeeldimplementaties van de standaard aanwezig en
+         zijn deze vrij te gebruiken?
+
+Ja, de aanwezige voorbeelden zijn vrij te gebruiken via developer.overheid.nl
+
+5.3.3    Kan de standaard rekenen op voldoende draagvlak?
+
+5.3.3.1 Staan de belangrijkste stakeholders vanuit de overheid voor deze standaard
+         achter de adoptie van de standaard?
+
+Ja, de standaard is (door)ontwikkeld op initiatief van VNG-Realisatie en Stichting RINIS. Ook
+spreekt de GDI-architectuurwerkgroep Gegevensuitwisseling een positief advies uit over de
+standaard alsook de Programmeringsraad GDI. Deze partijen en gremia vertegenwoordigen
+een significant deel van de belangrijkste stakeholders.
+
+Voorafgaand aan de melding van de nieuwe versie van de Digikoppeling standaard bij het
+Bureau Forum Standaardisatie, is deze versie vastgesteld door de GDI Architectuurwerkgroep
+Gegevensuitwisseling, de Programmeringstafel Gegevensuitwisseling en de
+Programmaringsraad GDI. Dit proces verliep als volgt:
+
+                                                8
+•   Het FSC Ontwikkelteam van VNG-Realisatie heeft een wijzigingsvoorstel ingebracht om
+    FSC toe te voegen aan het Digikoppeling REST API- profiel. Dit wijzigingsvoorstel is door
+    Logius afdeling Standaarden als beheerder van de Digikoppeling Standaard in
+    overeenstemming met de vastgestelde governance van de Digikoppeling Standaard in
+    behandeling genomen:
+•   Voor besluitvorming in het Technisch Overleg Digikoppeling op 29 mei 2024 ten behoeve
+    van FSC is gekozen voor een digitale stemtool. Uit de resultaten is gebleken dat een
+    meerderheid van de deelnemers (76%) onder wie Geonovum, VNG Realisatie,
+    Belastingdienst, Stichting Netwerk Gerechtsdeurwaarders (SNG), Stichting RINIS, TNO,
+    Dienst ICT Uitvoering (DICTU), Ministerie van Justitie en Veiligheid (JenV), Dienst
+    Uitvoering Onderwijs (DUO), Enable U, Uitvoeringsinsituut Werknemersverzekering
+    (UWV), Rijksdienst voor het Werkverkeer (RDW) en JustID het wenselijk vond FSC, gezien
+    de werking en functionaliteit, toe te voegen aan Digikoppeling. Waarvan 88% akkoord
+    heeft gegeven voor het opnemen van de standaard als ‘optioneel’ niet ‘verplicht’. 12%
+    heeft voor het verplichten van de standaard gestemd: Geonovum, RDW, UWV, DUO,
+    Kadaster, en de Raad Veiligheid en Inlichtingen (RVI).
+•   Op 19 juni 2024 Digikoppeling met FSC als ‘aanbevolen’ publiek geconsulteerd. De publiek
+    consultatie gaf één reactie van één leverancier. De reactie van de leverancier was dat het
+    optioneel opnemen van FSC wordt afgeraden, deze zou juist verplicht moeten worden.
+•   Op 20 november 2024 heeft de Programmeringstafel Gegevensuitwisseling ingestemd met
+    doorgeleiding naar de Programmeringsraad GDI (PGDI), met het advies om de standaard
+    niet aan te bevelen, maar te verplichten en hierbij het ‘Pas toe of leg uit’ principe te
+    hanteren.
+•   Op 13 november 2024 is de GDI Architectuurwerkgroep Gegevensuitwisseling gevraagd
+    om de Programmeringstafel te adviseren om FSC op te nemen als aanbevolen onderdeel
+    van het REST API profiel van Digikoppeling. Uit het advies is gebleken dat de
+    Architectuurwerkgroep Gegevensuitwisseling heeft ingestemd met het verplicht stellen van
+    de Digikoppeling-standaard met FSC, conform het principe ‘Pas toe of leg uit’. De
+    werkgroep erkende het belang van FSC, vooral omdat er een groeiende behoefte bestaat
+    aan veiligheid, schaalbaarheid, transparantie en beheersbare gegevensuitwisseling.
+
+Tijdens het overleg kwam de Architectuurwerkgroep Gegevensuitwisseling tot de conclusie
+dat de standaard niet slechts aanbevolen, maar daadwerkelijk moet worden verplicht.
+Wanneer de standaard slechts aanbevolen zou zijn, bestaat namelijk het risico dat
+organisaties ervoor kiezen deze níet te gebruiken. Dit kan leiden tot ongewenste situaties,
+zoals:
+
+    •    aanbieders van API’s die er niet op kunnen vertrouwen dat afnemers de standaard
+         ondersteunen;
+
+    •    fragmentatie in de manier waarop gegevens worden uitgewisseld, wat de veiligheid en
+         betrouwbaarheid onder druk zet.
+                                                 9
+Daarnaast benadrukte de Architectuurraad dat FSC een strategische standaard is waarop
+Nederland als geheel zou moeten inzetten. Tot slot was het de wens dat de nieuwe versie van
+Digikoppeling (inclusief FSC) de ‘Pas toe of leg uit’-status automatisch moest krijgen vanwege
+‘Uitstekend beheer’ van Logius voor Digikoppeling. Als één onderdeel daarvan een
+afwijkende status zou krijgen, zou dat juist verwarring veroorzaken.
+
+Vervolgens heeft op 12 december 2024 de Programmeringsraad GDI ingestemd met de
+aanmelding van FSC voor de ‘Pas toe of let uit’-lijst in de nieuwe versie van het Digikoppeling
+REST-API. Met de bedoeling dat deze vastgestelde nieuwe versie – onder het predicaat
+‘Uitstekend beheer’ – gaat vallen onder het ‘Pas toe of leg uit’ beleid van het Forum
+Standaardisatie geldend voor Digikoppeling.￼
+
+
+5.3.3.2 Staan de overheidsorganisaties die worden geraakt door een verplichting
+           van de standaard achter het verplichte gebruik van de standaard?
+
+Ja, hoewel er tijdens het Technisch Overleg Digikoppeling oorspronkelijk geen consensus was
+over het verplichten van Digikoppeling met FSC, is er uiteindelijk hoger in de GDI-governance
+wel ingestemd met de verplichting, door achtereenvolgens de GDI Architectuurwerkgroep
+Gegevensuitwisseling, Programmeringstafel Gegevensuitwisseling en de PGDI. Daarin zijn de
+volgende partijen vertegenwoordigd:
+
+•   Belastingdienst,
+•   Directie Digitale Overheid
+•   DUO,
+•   Kadaster,
+•   Kamer van Koophandel (KVK),
+•   KOOP
+•   Logius,
+•   Stichting RINIS,
+•   Unie van Waterschappen,
+•   Rijksdienst voor Identiteitsgegevens (RvIG),
+•   Rijksdienst voor Ondernemend Nederland (RvO)
+•   UWV,
+•   VNG en
+•   Verschillende Ministeries (Justitie en Veiligheid, Binnenlandse Zaken en
+    Koninkrijksrelaties).
+
+5.3.3.3 Wordt de aangemelde versie van de standaard binnen het organisatorische
+           werkingsgebied door meerdere Nederlandse overheidsorganisaties
+           gebruikt?
+
+Onbekend bij de experts.
+
+
+                                               10
+5.3.3.4 Wordt een vorige versie van de standaard binnen het organisatorische
+         werkingsgebied door meerdere Nederlandse overheidsorganisaties
+         gebruikt?
+
+Niet van toepassing, er is geen sprake van een vorige versie van Digikoppeling met FSC.
+Digikoppeling in het REST API profiel (zonder FSC) wordt echter al jaren door veel
+overheidsorganisaties gebruikt.
+
+5.3.3.5 Is de aangemelde versie backwards compatible met eerdere versies van de
+         standaard?
+
+Niet van toepassing, er is geen sprake van een vorige versie.
+
+5.3.3.6 Zijn er voldoende positieve signalen over toekomstige gebruik van de
+         standaard door (semi-)overheidsorganisaties, het bedrijfsleven en burgers?
+
+Ja, er zijn positieve signalen over het toekomstig gebruik van de standaard. Het
+wijzigingsvoorstel is eerder besproken in het Technisch Overleg (TO) van Logius. Een
+meerderheid vond het wenselijk om FSC toe te voegen aan Digikoppeling, gezien de werking
+en functionaliteit. Ook geeft de PGDI een positief advies over Digikoppeling met FSC. Binnen
+de PGDI zijn belanghebbende stakeholders voldoende vertegenwoordigd.
+
+
+6 Adviezen bij opname van de standaard
+De experts geven het Forum Standaardisatie de volgende adviezen bij versiewijziging van
+Digikoppeling met FSC op de ‘Pas toe of leg uit’-lijst.
+
+   •   De experts adviseren de PGDI om de implementatie van de standaard actief te (laten)
+       ondersteunen. Dit advies is al in werking als opdracht aan Stichting RINIS en
+       Geonovum welke implementatie ondersteunen door middel van een
+       implementatieproject op verzoek van Ministerie van Binnenlandse Zaken en
+       Koninkrijksrelaties.
+   •   De experts adviseren in consensus de organisaties in de PGDI om als opdrachtgever rol
+       te nemen om de implementatie van de standaard te stimuleren zodat er meer
+       aanbodmarkt ontstaat.
+   •   De experts adviseren Logius life cycle management op de standaard toe te passen
+       zodat actief oude versies van Digikoppeling kunnen worden uitgefaseerd om de
+       complexiteit en druk op organisaties te verminderen.
+
+
+
+
+                                               11
+

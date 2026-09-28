@@ -1,0 +1,355 @@
+
+
+"Strategic Business Requirements for Master Data Management Systems" by Boris Otto and Martin H. Ofner
+
+  
+
+  
+
+      
+Home
+
+ Search
+
+Browse All Content
+
+My Account
+
+About
+
+ Digital Commons Network™
+
+  
+
+	
+
+		Skip to main content
+
+					
+
+				
+
+					
+
+					
+
+						
+
+			
+
+			
+
+				
+
+eLibrary Home
+AIS Home
+eLibrary Login
+Join AIS
+
+			
+
+		
+
+			
+
+				
+
+  
+
+                
+
+< Previous
+
+        
+
+                
+
+Next >
+
+        
+
+ 
+
+    
+
+	
+
+		Home
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	 > 
+
+		AMCIS2011_SUBMISSIONS
+
+	
+
+	
+
+	
+	 > 
+
+		108
+
+	
+
+	
+
+	
+
+	
+
+    
+
+	
+
+		
+
+	
+
+	
+
+	
+
+ 
+
+AMCIS 2011 Proceedings - All Submissions
+
+ 
+
+Strategic Business Requirements for Master Data Management Systems
+
+Authors
+
+Boris Otto, University of St. GallenFollow
+
+Martin H. Ofner, University of St. GallenFollow
+
+Track
+
+Enterprise Systems and Organizational Issues in IS
+
+Abstract
+
+Master Data Management (MDM) is of increasing importance because it is seen as a promising approach in companies torespond to a number of strategic business requirements, such as complying with an increasing number of regulations,supporting internal and external business process integration, and establishing a “360-degree-view on the customer”. As aresult, software vendors such as IBM, Oracle, SAP, and TIBCO are offering MDM application systems. However, the usercommunity feels a significant mismatch between their own strategic requirements and the functionality currently offered bythe software products. As the Information Systems (IS) research community has remained silent so far regarding this researchproblem, the research presented in this paper makes intensive use of knowledge from the practitioners’ community in order todesign a framework for strategic business requirements to be met by MDM systems. As an outcome of a design-orientedresearch process, the framework is an artifact which advances the scientific body of knowledge while at the same timeproviding benefit for practitioners. The framework includes seven design principles which are translated into 23requirements. The requirements form a baseline for internal and external communication in companies and for the design ofconcrete MDM systems.
+
+Recommended Citation
+
+    Otto, Boris and Ofner, Martin H., "Strategic Business Requirements for Master Data Management Systems" (2011). AMCIS 2011 Proceedings - All Submissions.  108.
+
+    
+
+        https://aisel.aisnet.org/amcis2011_submissions/108
+
+    
+
+	
+
+	
+
+    
+
+	
+
+		
+
+	
+
+	
+
+	
+
+	
+
+       
+
+        Download
+
+	
+
+    
+ DOWNLOADS
+
+Since June 24, 2011
+
+    
+
+        
+
+	
+
+	
+
+	
+
+Share
+
+	
+
+    	
+
+		
+
+    	
+
+	
+
+	
+
+COinS
+
+ 
+
+	
+ 
+
+ 
+
+	
+
+	
+
+	
+
+Search
+
+	
+
+	
+		Enter search terms:
+
+		
+
+			
+
+			 
+
+		
+
+		Select context to search:
+
+		
+
+			
+
+					
+
+						in this series
+
+					
+
+					in this repository
+					across all repositories
+
+			
+
+	
+
+		
+			Advanced Search
+
+	
+
+	
+
+			
+				Notify me via email or RSS
+
+		
+
+	
+
+	
+
+Links
+
+			
+
+				Join AIS
+
+			
+
+			
+
+			AMCIS 2011 Proceedings - All Submissions Website
+
+		
+
+Browse
+
+All Content
+
+Authors
+
+JAIS
+
+CAIS
+
+TRR
+
+THCI
+
+MISQE
+
+PAJAIS
+
+ITD
+
+Author Corner
+
+	
+
+			
+				eLibrary FAQ
+
+		
+
+		
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		
+
+	
+ 
+
+	
+
+	
+
+	Elsevier - Digital Commons
+
+	
+
+		Home | 
+		About | 
+		FAQ | 
+		My Account | 
+		Accessibility Statement
+
+	
+
+	
+
+		Privacy
+
+		Copyright	
+
+	
+

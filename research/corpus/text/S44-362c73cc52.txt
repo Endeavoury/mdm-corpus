@@ -1,0 +1,3440 @@
+ 
+
+    
+
+    
+    Core Person Vocabulary
+
+    
+
+     
+
+        Copyright © 2024
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+Abstract
+The Core Person Vocabulary is a simplified, reusable and extensible data model that captures the fundamental characteristics of a Person.
+
+    
+
+        Introduction
+
+    
+
+	The Core Person Vocabulary provides a minimum set of classes and properties for
+    describing a natural person, i.e. the individual as opposed to any role they may play in 
+    society or the relationships they have to other people, organisations and property; 
+    all of which contribute significantly to the broader concept of identity.
+
+    
+Status
+
+            This Core Vocabulary has the status SEMIC Recommendation published at 2024-05-06.
+
+        
+
+            Information about the process and the decisions involved in the creation of this specification are consultable at the Changelog.
+
+    
+
+        License
+
+    
+
+	
+             Copyright © 2024 European Union. All material in this repository is published under the license CC-BY 4.0, unless explicitly otherwise mentioned.
+
+    
+
+    
+
+        Terminology
+
+        
+
+            A Core Vocabulary (CV) is a basic, reusable and extensible data specification that captures the fundamental characteristics of an entity in a context-neutral fashion. Its main objective is to provide terms to be reused in the broadest possible context.
+            More information can be found on the SEMIC Style Guide.
+
+        
+This specification uses the following prefixes to shorten the URIs for readibility.
+
+        
+
+PrefixNamespace IRI
+
+            
+admshttp://www.w3.org/ns/adms#
+
+cvhttp://data.europa.eu/m8g/           
+
+dcthttp://purl.org/dc/terms/
+
+foafhttp://xmlns.com/foaf/0.1/
+
+locnhttp://www.w3.org/ns/locn#
+
+personhttp://www.w3.org/ns/person#
+
+rdfhttp://www.w3.org/1999/02/22-rdf-syntax-ns#
+
+rdfshttp://www.w3.org/2000/01/rdf-schema#
+
+skoshttp://www.w3.org/2004/02/skos/core#
+
+xsdhttp://www.w3.org/2001/XMLSchema#
+
+            
+
+    
+Overview
+
+    
+
+                
+
+                            This document describes the usage of the following main entities for a correct usage of the Core Vocabulary:
+
+                            |
+			      Address |
+			      Contact Point |
+			      Identifier |
+			      Location |
+			      Person |
+
+                        
+
+                            The main entities are supported by:
+
+                            |
+			      Agent |
+			      Document |
+			      Jurisdiction |
+
+                
+
+                        
+
+                            And supported by these datatypes:
+
+                            | Code | Date | Generic date | Literal | Text | URI |
+
+                
+
+    
+
+        
+
+        
+
+    
+
+   Main Entities
+
+The main entities are those that form the core of the Core Vocabulary.
+
+   
+
+            
+
+                Address
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A spatial object that in a human-readable way identifies a fixed location.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        An "address representation" as conceptually defined by the INSPIRE Address Representation data type: "Representation of an address spatial object for use in external application schemas that need to include the basic, address information in a readable way.".
+
+The representation of Addresses varies widely from one country's postal system to another. Even within countries, there are almost always examples of Addresses that do not conform to the stated national standard. However, ISO 19160-1 provides a method through which different Addresses can be converted from one conceptual model to another.
+
+This specification was heavily based on the INSPIRE Address Representation data type. It is noteworthy that if an Address is provided using the detailed breakdown suggested by the properties for this class, then it will be INSPIRE-conformant. To this very granular set of properties, we add two further properties:
+
+- full address (the complete address as a formatted string)
+
+- addressID (a unique identifier for the address).
+
+The first of these allows publishers to simply provide the complete Address as one string, with or without formatting. This is analogous to vCard's label property.
+
+The addressID is part of the INSPIRE guidelines and provides a hook that can be used to link the Address to an alternative representation, such as vCard or OASIS xAL.
+
+This class belongs to Core Location Vocabulary
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: address area
+                            , address ID
+                            , administrative unit level 1
+                            , administrative unit level 2
+                            , full address
+                            , locator designator
+                            , locator name
+                            , post code
+                            , post name
+                            , post office box
+                            , thoroughfare
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        address area
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a geographic area that groups Addresses.
+
+                                
+                                    This would typically be part of a city, a neighbourhood or village, e.g. Montmartre. Address area is not an administrative unit.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        address ID
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A globally unique identifier for each instance of an Address.
+
+                                
+                                    The concept of adding a globally unique identifier for each instance of an address is a crucial part of the INSPIRE data spec. A number of EU countries have already implemented an ID (a UUID) in their Address Register/gazetteer, among them Denmark. OASIS xAL also includes an address identifier. It is the address Identifier that allows an address to be represented in a format other than INSPIRE whilst remaining conformant to the Core Vocabulary.
+
+The INSPIRE method of representing addresses is very detailed, designed primarily for use in databases of addresses. Whilst data that is published in full conformance with the INSPIRE data structure can be made available using theCore Location Vocabulary the reverse is not true since the Core Vocabulary allows much greater flexibility.
+
+Many datasets that include address data as one piece of information about something else are likely to have that data in simpler formats. These might be tailored to the specific need of the dataset, follow a national norm, or make use of a standard like vCard.
+
+To provide maximum flexibility in the Core Vocabulary, whilst remaining interoperable with INSPIRE Address Guidelines (which EU Member States are obliged to use), the  Core Location Vocabulary provides the extra property of full address and makes use of INSPIRE's addressID.
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        administrative unit level 1
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of the uppermost level of the address, almost always a country.
+
+                                
+                                    Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'France' or 'FRA' consistently throughout the dataset and avoid mixing the two. The Country controlled vocabulary from the Publications Office can be reused for this.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        administrative unit level 2
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities.
+
+                                
+                                    Values could be a region or province, more granular than level 1.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        full address
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The complete address written as a string.
+
+                                
+                                    Use of this property is recommended as it will not suffer any misunderstandings that might arise through the breaking up of an address into its component parts. This property is analogous to vCard's label property but with two important differences: (1) formatting is not assumed so that, unlike vCard label, it may not be suitable to print this on an address label, (2) vCard's label property has a domain of vCard Address; the fullAddress property has no such restriction. An example of a full address is "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        locator designator
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A number or sequence of characters that uniquely identifies the locator within the relevant scope.
+
+                                
+                                    In simpler terms, this is the building number, apartment number, etc. For an address such as "Flat 3, 17 Bridge Street", the locator is "flat 3, 17".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        locator name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building.
+
+                                
+                                    The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building.
+
+The key difference between a locator designator and a locator name is that the latter is a proper name and is unlikely to include digits. For example, "Shumann, Berlaymont" is a meeting room within the European Commission headquarters for which locator name is more appropriate than locator.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post code
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.
+
+                                
+                                    Post codes are common elements in many countries' postal address systems. One of the many post codes of Paris is for example "75000".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.
+
+                                
+                                    Usually a city, for example "Paris".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        post office box
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A location designator for a postal delivery point at a post office, usually a number.
+
+                                
+                                    INSPIRE's name for this is "postalDeliveryIdentifier" for which it uses the locator designator property with a type attribute of that name. This vocabulary separates out the Post Office Box for greater independence of technology. An example post office box number is "9383".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        thoroughfare
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of a passage or way through from one location to another.
+
+                                
+                                    A thoroughfare is usually a street, but it might be a waterway or some other feature. For example, "Avenue des Champs-Élysées".
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+   
+
+            
+
+                Contact Point
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    Information (e.g. e-mail address, telephone number) of a person or department through which the user can get in touch with.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The Core Public Organization Vocabulary defines properties for telephone number, e-mail address and opening hours although it is noteworthy that the class is based on schema.org's  ContactPoint  class  that has additional properties that some implementations may find useful.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: contact page
+                            , has email
+                            , has telephone
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        contact page
+
+                                
+
+                                        
+                                            Document
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A web page that could be used to reach out the Contact Point.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has email
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    An electronic address through which the Contact Point can be contacted.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        has telephone
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A telephone number through which the Contact Point can be contacted.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Identifier
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A structured reference that identifies an entity.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The Identifier class is based on the UN/CEFACT class of the same name and is defined under the ADMS namespace.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: date of issue
+                            , identifies
+                            , issuing authority URI
+                            , notation
+                            , schema agency
+                            , scheme name
+                            , scheme URI
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        date of issue
+
+                                
+
+                                        
+                                            Date
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The date on which the Identifier was assigned.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        identifies
+
+                                
+
+                                        
+                                            Person
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The entity that is referenced by the Identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        issuing authority URI
+
+                                
+
+                                        
+                                            Agent
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The reference in the form of a Uniform Resource Identifier to the issuing authority.
+
+                                
+                                    Example: "https://belgium.be/id/organizations/1233".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        notation
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A string of characters to uniquely identify a concept.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        schema agency
+
+                                
+
+                                        
+                                            Literal
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name of the agency that issued the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        scheme name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Name of the scheme used to construct the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        scheme URI
+
+                                
+
+                                        
+                                            URI
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    URI of the scheme used to construct the identifier.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Location
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    An identifiable geographic place or named place.
+
+                
+
+                
+
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: geographic identifier
+                            , geographic name
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        geographic identifier
+
+                                
+
+                                        
+                                            URI
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A reference in the form of a Uniform Resource Identifier to the Location.
+
+                                
+                                    GeoNames.org provides stable, widely recognised identifiers for more than 10 million geographical names that can be used as links to further information. For example, http://sws.geonames.org/593116/ identifies the Lithuanian capital Vilnius. Unfortunately these URIs cannot easily be automatically deduced since the URI scheme uses simple numeric codes. Finding a GeoNames identifier for a Location is almost always a manual process. Where such identifiers are known or can be found, however, it is recommended that they be used.
+Where the Location Class is used to identify a country, if the geonames URI is not known, the recommendation is to use DBpedia URIs of the form http://dbpedia.org/resource/ISO\_3166-1:XX where XX is the ISO 3166 two character code for the country.
+
+The EU's Publication Office diverges from ISO 3166-1 and uses EL and UK for Greece and the United Kingdom respectively. DBpedia sticks to the ISO codes and so the correct URIs for these countries are:
+- http://dbpedia.org/resource/ISO\_3166-1:GR
+- http://dbpedia.org/resource/ISO\_3166-1:GB
+even when the geographic name is given as EL or UK.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        geographic name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A textual description for a Location.
+
+                                
+                                    The INSPIRE Data Specification on Geographical Names provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts. INSPIRE's definition is the following: Names of areas, regions, localities, cities, suburbs, towns or settlements, or any geographical or topographical feature of public or historical interest. This is beyond what is necessary for the Core Location Vocabulary but, importantly, the concept of a geographic name used here is consistent.
+
+A geographic name is a proper noun applied to a spatial object. Taking the example used in the INSPIRE document (page 18), the following are all valid geographic names for the Greek capital:
+- "Aθnνa"@gr-Grek (the Greek endonym written in the Greek script)
+- "Athína"@gr-Latn (the standard Romanisation of the endonym)
+- "Athens"@en (the English language exonym)
+INSPIRE has a detailed (XML-based) method of providing metadata about a geographic name and in XML-data sets that may be the most appropriate method to follow. When using the Core Location Vocabulary in data sets that are not focussed on environmental/geographical data (the use case for INSPIRE), the Code datatype or a simple language identifier may be used to provide such metadata.
+
+The country codes defined in ISO 3166 may be used as geographic names and these are generally preferred over either the long form or short form of a country's name (as they are less error prone). The Publications Office of the European Union recommends the use of ISO 3166-1 codes for countries in all cases except two:
+- use 'UK' in preference to the ISO 3166 code GB for the United Kingdom;
+- use 'EL' in preference to the ISO 3166 code GR for Greece.
+Where a country has changed its name or no longer exists (such as Czechoslovakia, Yugoslavia etc.) use the ISO 3166-3 code.
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+   
+
+            
+
+                Person
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A individual human being who may be dead or alive, but not imaginary.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The fact that a person in the context of Core Person Vocabulary cannot be imaginary makes person:Person a subclass of foaf:Person which cover imaginary characters as well as real people. The Person Class is a subclass of the more general 'Agent' class.
+
+                
+
+                    
+                        Subclass of
+
+                             Person
+
+                        
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: alternative name
+                            , birth name
+                            , citizenship
+                            , contact point
+                            , country of birth
+                            , country of death
+                            , date of birth
+                            , date of death
+                            , domicile
+                            , family name
+                            , full name
+                            , gender
+                            , given name
+                            , identifier
+                            , matronymic name
+                            , patronymic name
+                            , place of birth
+                            , place of death
+                            , residency
+                            , sex
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        alternative name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Any name by which a Person is known, other than their full name.
+
+                                
+                                    Many individuals use a short form of their name, a 'middle' name as a 'first' name or a professional name. For example, the British politician and former UN High Representative for Bosnia and Herzegovina, Jeremy John Durham Ashdown, Baron Ashdown of Norton-sub-Hamdon, is usually referred to simply as 'Paddy Ashdown' or 'Lord Ashdown.' It is not the role of the alternative name property to record nick names, pet names or other 'familiar names' that will be of no consequence in public sector data exchange. Furthermore, some individuals have more than one legal name in which case the full name property should be used multiple times. Alternative name gives a means of recording names by which an individual is generally known, or professionally known, even though such names are no more than secondary from a legal point of view.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        birth name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Full name of the Person given upon their birth.
+
+                                
+                                    The birth name may apply to the surname, the given name, or the entire name. Where births are required to be officially registered, the entire name entered onto a births register or birth certificate may by that fact alone become the person's legal name. See  Wikipedia Birth name page.
+
+All data associated with an individual are subject to change. Names can change for a variety of reasons, either formally or informally, and new information may come to light that means that a correction or clarification can be made to an existing record. Birth names tend to be persistent however and for this reason they are recorded by some public sector information systems. There is no granularity for birth name - the full name should be recorded in a single field.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        citizenship
+
+                                
+
+                                        
+                                            Jurisdiction
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The Jurisdiction that has conferred citizenship rights on the Person such as the right to vote, to receive certain protection from the community or the issuance of a passport.
+
+                                
+                                    Citizenship is a relationship between an individual and a state to which the individual owes allegiance and in turn is entitled to its protection.
+
+Citizenship is information needed by many cross-border use cases and is a legal status as opposed to the more culturally-focussed and less well-defined term "nationality". A Person has one, multiple or even no citizenship status. Multiple citizenships are recorded as multiple instances of the citizenship relationship.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        contact point
+
+                                
+
+                                        
+                                            Contact Point
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The main contact information of the resource.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        country of birth
+
+                                
+
+                                        
+                                            Location
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The country in which the Person was born.
+
+                                
+                                    The Location Class has two properties: a Geographic Name and a Geographic Identifier. Plain codes like "DE" should be provided as values for Geographical Names whereas URIs should be provided as value of the Geographical Identifier. Ideally, provide both. Providing a simple country name is problematic and should be avoided whereas using a standardised system that allows the use of a code list for country names has a lot of potential for increasing semantic interoperability. Known diversity that one has to deal with when exchanging country names between different communication partners without relying on an agreed code list are: (a) long form vs. short form of a country name (e.g. Federal Republic of Germany vs. Germany), (b) different languages (Italy vs. Italia), (c) historic name vs. current name (Burma vs. Myanmar), (d) ambiguity of similar sounding countries (Republic of the Congo vs. Democratic Republic of the Congo). The Publications Office of the European Union recommends and uses ISO 3166-1 codes for countries in all cases except two: use 'UK' in preference to the ISO 3166 code GB for the United Kingdom; use 'EL' in preference to the ISO 3166 code GR for Greece. See  Publications Office list of countries for details of the OPOCE's full list of countries, codes, currencies and more. Where a country has changed its name or no longer exists (such as Czechoslovakia, Yugoslavia etc.) use theISO 3166-3 code.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        country of death
+
+                                
+
+                                        
+                                            Location
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The country in which the Person died.
+
+                                
+                                    The Location Class has two properties: a Geographic Name and a Geographic Identifier. Plain codes like "DE" should be provided as values for Geographical Names whereas URIs should be provided as value of the Geographical Identifier. Ideally, provide both. Providing a simple country name is problematic and should be avoided whereas using a standardised system that allows the use of a code list for country names has a lot of potential for increasing semantic interoperability. Known diversity that one has to deal with when exchanging country names between different communication partners without relying on an agreed code list are: (a) long form vs. short form of a country name (e.g. Federal Republic of Germany vs. Germany), (b) different languages (Italy vs. Italia), (c) historic name vs. current name (Burma vs. Myanmar), (d) ambiguity of similar sounding countries (Republic of the Congo vs. Democratic Republic of the Congo). The Publications Office of the European Union recommends and uses ISO 3166-1 codes for countries in all cases except two: use 'UK' in preference to the ISO 3166 code GB for the United Kingdom; use 'EL' in preference to the ISO 3166 code GR for Greece. See  Publications Office list of countries for details of the OPOCE's full list of countries, codes, currencies and more. Where a country has changed its name or no longer exists (such as Czechoslovakia, Yugoslavia etc.) use theISO 3166-3 code.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        date of birth
+
+                                
+
+                                        
+                                            Generic date
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The point in time on which the Person was born.
+
+                                
+                                    The date of birth could be expressed as date, gYearMonth or gYear, example:
+
+- 1980-09-16^^xs:date
+
+- 1980-09^^xs:gYearMonth
+
+- 1980^^xs:gYear
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        date of death
+
+                                
+
+                                        
+                                            Generic date
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The point in time on which the Person died.
+
+                                
+                                    The date of birth could be expressed as date, gYearMonth or gYear, example:
+
+- 1980-09-16^^xs:date
+
+- 1980-09^^xs:gYearMonth
+
+- 1980^^xs:gYear
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        domicile
+
+                                
+
+                                        
+                                            Address
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The place that the Person treats as permanent home.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        family name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The hereditary surname of a family.
+
+                                
+                                    Usually referring to a group of people related by blood, marriage or adoption. This attribute also carries prefixes or suffixes which are part of the family name, e.g. "de Boer", "van de Putte", "von und zu Orlow". Multiple family names, such as are commonly found in Hispanic countries, are recorded in the single family name property so that, for example, Miguel de Cervantes Saavedra's family name would be recorded as "de Cervantes Saavedra".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        full name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The complete name of the Person as one string.
+
+                                
+                                    It can be equal to or different from a Person's birth name. The birth name is used as a legal term, whereas the full name just gives a representation of the complete name of a Person.
+
+In addition to the content of given name, family name and, in some systems, patronymic name, this can carry additional parts of a person's name such as titles, middle names or suffixes like "the third" or names which are neither a given nor a family name. The full name is the most reliable label for an individual and as such its use is strongly encouraged, irrespective of whether that name is broken down using the more granular elements.
+
+It is anticipated that some systems will only provide or process the full name of a person. Where an individual has more than one full legal name (a relatively rare but not unknown phenomenon), the full name property can be used more than once. In this case, however, the granular name elements should not be used since the intention is that these provide a breakdown of the full name and it will not be clear of which full name this is true. Note that the vocabulary provides an alternative name property. This allows name(s) to be recorded that have no legal status but that nevertheless are the names by which an individual is generally known.
+
+A name usually sticks with a person for a long time period. In some European countries a name may only be changed according to certain laws and life events, e.g. marriage. The name denominates a natural person even if he/she changes their address. Documents like birth certificate or diploma usually don't carry an address but always the name. Thus the name is one of the core attributes. However it is not sufficient to identify a person since there are combinations of very common names like Smith in the UK, Meier in Germany, or Li in China.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        gender
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The identities, expressions and societal roles of the Person.
+
+                                
+                                    The gender of an individual should be recorded using a controlled vocabulary that is appropriate for the specific context. In some cases, the chromosomal or physical state of an individual will be more important than the gender that they express, in others the reverse will be true. What is always important is that the controlled vocabulary used to describe an individual's gender is stated explicitly.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        given name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The name(s) that identify the Person within a family with a common surname.
+
+                                
+                                    Usually a first name or forename. Given to a person by his or her parents at birth or legally recognised as 'given names' through a formal process. All given names are ordered in one property so that, for example, the given name for Johann Sebastian Bach is "Johann Sebastian".
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        identifier
+
+                                
+
+                                        
+                                            Identifier
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The unambiguous structured reference to the Person.
+
+                                
+                                    Examples include a national identification number, a student ID, national fiscal number, etc. We also refer to the eIDAS regulation on "electronic identification and trust services" and its mapping to the Core Person Vocabulary.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        matronymic name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Name based on the given name of the Person's mother.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        patronymic name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Name based on the given name of the Person's father.
+
+                                
+                                    Patronymic names are important in some countries. Iceland does not have a concept of 'family name' in the way that many other European countries do, for example. Erik Magnusson and Erika Magnusdottir are siblings, both offspring of Magnus, irrespective of his patronymic name. In Bulgaria and Russia, patronymic names are in everyday usage, for example, the "Sergeyevich" in "Mikhail Sergeyevich Gorbachev". Note that patronymic names refer to a father's given name, not the family name inherited from the mother and father as is the case in countries such as Spain and Portugal. Again referring to the example of Miguel de Cervantes Saavedra's, the patronymic name element would be unused.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        place of birth
+
+                                
+
+                                        
+                                            Location
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The Location where the Person was born.
+
+                                
+                                    The Place of Birth and Place of Death are given using the Location class which is associated via the appropriate relationship. The Location Class has two properties: (1) the geographic name of the place, which is given as a string such as "Amsterdam" or "Valetta" and (2) an identifier, such as a geonames URI http://sws.geonames.org/2759794 (which identifies Amsterdam) or http://sws.geonames.org/2562305 (which identifies Valetta). The use of identifiers is preferred as these are unambiguous, however, public sector data typically uses simple names to record places and this is fully supported.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        place of death
+
+                                
+
+                                        
+                                            Location
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The Location where the Person died.
+
+                                
+                                    The Place of Birth and Place of Death are given using the Location class which is associated via the appropriate relationship. The Location Class has two properties: (1) the geographic name of the place, which is given as a string such as "Amsterdam" or "Valetta" and (2) an identifier, such as a geonames URI http://sws.geonames.org/2759794 (which identifies Amsterdam) or http://sws.geonames.org/2562305 (which identifies Valetta). The use of identifiers is preferred as these are unambiguous, however, public sector data typically uses simple names to record places and this is fully supported.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        residency
+
+                                
+
+                                        
+                                            Jurisdiction
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    Jurisdiction where the Person has their dwelling.
+
+                                
+                                    A Person's fixed, permanent, and principal home for legal purposes, the place (especially the house) in which a person officially lives or resides. A Person has one, multiple or even no residency status. Multiple residencies are recorded as multiple instances of the residency relationship.
+
+				
+
+                                    
+
+                            
+
+                            
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        sex
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The organism's biological sex.
+
+                                
+                                    The recommended controlled vocabulary for this property is the sex authority table of the Publications Office.
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+   Supportive Entities
+
+The supportive entities are supporting the main entities in the Core Vocabulary. 
+They are included in the Core Vocabulary because they form the range of properties.
+
+   
+
+            
+
+                Agent
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    Entity that is able to carry out action.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        In compliance with the description from FOAF, an Agent is considered as any entity that is able to carry out actions. The Agent class acts as a generic element which can be further specified by implementers for their usages, for example by defining the Person class from the Core Person Vocabulary or Organization from W3C's Organization Ontology as a subclasses of Agent. This Person or Organization can then issue a certain Requirement or be concerned by an Evidence provided.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: name
+                            , type
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    The noun given to the Agent.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        type
+
+                                
+
+                                        
+                                            Code
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A classification assigned to an Agent.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                
+
+        
+
+   
+
+            
+
+                Document
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    A self-contained collection of information in a readable format.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        In alignment with FOAF, there is no distinction between physical and electronic documents, or between copies of a work and the abstraction those copies embody.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                        This specification does not impose any additional requirements to properties for this entity.
+
+                
+
+        
+
+    
+
+   
+
+            
+
+                Jurisdiction
+
+            
+
+		
+
+                
+                    Definition
+
+                
+                    The limits or territory within which authority may be exercised.
+
+                
+
+                    
+                        Usage Note
+
+                    
+                        The extent or range of judicial, law enforcement, or other authority.
+
+                
+
+                    
+                        Properties
+
+                    
+
+                            For this entity the following properties are defined: id
+                            , name
+                            .
+
+                
+
+        
+
+            
+
+                
+
+                        
+
+                            
+
+                            
+                                Property
+
+                            
+                                Range
+
+                            
+                                Card
+
+                            
+                                Definition 
+
+                            
+                                Usage
+
+			    
+
+                    
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        id
+
+                                
+
+                                        
+                                            URI
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A reference in the form of a Uniform Resource Identifier to the Jurisdiction.
+
+                                
+
+                                
+
+                                
+
+                                
+
+                        
+
+                                
+
+					    
+
+                                    
+
+                                
+
+                                        name
+
+                                
+
+                                        
+                                            Text
+
+                                    
+
+                                
+                                    0..*
+
+                                
+                                    A string of characters that represents a Jurisdiction.
+
+                                
+                                    The name is simply a string that identifies the Jurisdiction, typically a country, with or without a language tag.
+
+				
+
+                                    
+
+                            
+
+                    
+
+            
+
+    
+
+    
+
+        
+
+            Datatypes
+
+	The following datatypes are used within this specification.
+
+	
+
+		
+
+		    
+
+		    
+			Class
+
+		    
+			Definition
+
+		
+
+	    
+
+		
+
+                   
+
+		   
+
+                
+
+                        Code
+
+                
+
+                    An idea or notion; a unit of thought.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Date
+
+                
+
+                    Date represents top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day, up to but not including the beginning moment of the next day).  For non-timezoned values, the top-open intervals disjointly cover the non-timezoned timeline, one per day.  For timezoned values, the intervals begin at every minute and therefore overlap.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Generic date
+
+                
+
+                    The date data type is the union of  xs:date, xs:gYearMonth and xs:gYear
+
+		
+
+                   
+
+		   
+
+                
+
+                        Literal
+
+                
+
+                    The class of literal values, eg. textual strings and integers.
+
+		
+
+                   
+
+		   
+
+                
+
+                        Text
+
+                
+
+                    The text data type is a combination of a string and a language identifier.
+
+		
+
+                   
+
+		   
+
+                
+
+                        URI
+
+                
+
+                    anyURI represents an Internationalized Resource Identifier Reference (IRI).  An anyURI value can be absolute or relative, and may have an optional fragment identifier (i.e., it may be an IRI Reference).
+
+            
+
+    
+ Examples 
+
+Example Person
+
+	
+Usage Guidelines
+
+  
+Support for implementation
+
+The following section provides support for implementing the Core Person Vocabulary.
+
+JSON-LD context file
+
+One common technical question is the format in which the data is being exchanged. 
+For conformance with the Core Person Vocabulary, it is not mandatory that this happens in a RDF serialisation, but the exhanged format SHOULD be unambiguously be transformable into RDF.
+For the format JSON, a popular format to exchange data between systems, SEMIC provides a JSON-LD context file. 
+JSON-LD is a W3C Recommendation [[[json-ld11]]] that provided a standard approach to interpret JSON structures as RDF.
+The provided JSON-LD context file can be used by implementers.
+This JSON-LD context is not normative, i.e. other JSON-LD contexts are allowed.
+
+The JSON-LD context file downloadable here.
+
+Validation
+
+To verify if the data is (technically) conformant to the Core Person Vocabulary, the exchanged data can be validated using the provided SHACL shapes. 
+SHACL is a W3C Recommendation to express constraints on a RDF knowledge graph. 
+
+To support the check whether or not a catalogue satisfies the expressed constraints in this Core Vocabulary, the constraints in this specification are expressed using SHACL [[shacl]].
+Each constraint in this specification that could be converted into a SHACL expression has been included.
+As such this collection of SHACL expressions that can be used to build a validation check for data. 
+
+It is up to the implementers to define the validation they expect.
+Each implementation happens within a context, and that context is beyond the SHACL expressions here.
+
+The shapes can be found here.
+
+RDF representation
+The RDF representation of the Core Person Vocabulary is available here.
+
+UML representation
+The UML representation from which the Core Person Vocabulary has been build is available here.
+
+    
+
+Governance
+
+Versioning governance
+All specifications produced in SEMIC will follow the versioning rule described by the SEMIC Style Guide rule 
+PC-R3.
+In case a SEMIC asset is deprecated the asset will remain available through its PURI.
+
+The serialisation will have:
+
+a dct:isReplacedBy referencing the new assets used instead and
+
+ an adms:status  indicating its deprecated status.
+
+Governance requirements for re-used assets
+In order to adhere to the SEMIC Style Guide rule GC-R2
+ a specification should have quality and governance standards for the assets that are being reused.
+
+In order for an asset to be considered for reuse within a SEMIC specification it can be requested by a community member or it requires to adhere to the following requirements:
+
+ The asset is part of a recommendation by a major standards body or an EU institution.
+
+ The asset is actively being maintained.
+
+After being taken into consideration the asset will be validated in three steps:
+
+ Syntax validation will be performed on the relevant artefacts.
+
+ Constraint validation will be performed on the relevant artefacts.
+
+ The PURI will be validated.
+
+Once considered and validated an asset can be adopted if it is approved by the community.
+
+Lexicalisation rules
+
+In order to adhere to the SEMIC Style Guide rule SC-R3 a specification requires formal lexicalisation rules.
+The Style Guide proposes two options either by using RDFS or SKOS lexicalisation.
+
+SEMIC uses and will use the RDFS lexicalisation for all of its specifications. More specifically:
+
+ rdfs:label is used to provide a human-readable version of a resource's name.
+
+ The usage of certain resource can be clarified in a skos:usageNote.
+
+    
+
+ 
+
+	
+Mappings
+    A mapping towards Schema.org can be found here
+
+ 
+
+Quick Reference of Classes and Properties
+
+This section provides a condensed tabular overview of the mentioned classes and properties in this specification.
+The properties are indicated as mandatory, recommended, optional and deprecated. These terms have the following meaning.
+
+Mandatory property: a receiver MUST be able to process the information for that property; a sender MUST provide the information for that property.
+
+Recommended property: a receiver MUST be able to process the information for that property; a sender SHOULD provide the information for that property if it is available.
+
+Optional property: a receiver MUST be able to process the information for that property; a sender MAY provide the information for that property but is not obliged to do so.
+
+Deprecated property: a receiver SHOULD be able to process information about instances of that property; a sender SHOULD NOT provide the information about instances of that property.
+
+	
+
+ClassClass IRIProperty TypePropertyProperty IRI
+
+	
+
+				
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								address area 
+
+http://www.w3.org/ns/locn#addressArea
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								address ID 
+
+http://www.w3.org/ns/locn#addressId
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								administrative unit level 1 
+
+http://www.w3.org/ns/locn#adminUnitL1
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								administrative unit level 2 
+
+http://www.w3.org/ns/locn#adminUnitL2
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								full address 
+
+http://www.w3.org/ns/locn#fullAddress
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								locator designator 
+
+http://www.w3.org/ns/locn#locatorDesignator
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								locator name 
+
+http://www.w3.org/ns/locn#locatorName
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post code 
+
+http://www.w3.org/ns/locn#postCode
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post name 
+
+http://www.w3.org/ns/locn#postName
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								post office box 
+
+http://www.w3.org/ns/locn#poBox
+
+						
+
+						
+
+								Address
+
+http://www.w3.org/ns/locn#Address
+
+								thoroughfare 
+
+http://www.w3.org/ns/locn#thoroughfare
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+						
+
+						
+
+					
+
+							
+
+								Agent
+
+http://xmlns.com/foaf/0.1/Agent
+
+								name 
+
+http://purl.org/dc/terms/title
+
+						
+
+						
+
+								Agent
+
+http://xmlns.com/foaf/0.1/Agent
+
+								type 
+
+http://purl.org/dc/terms/type
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								contact page 
+
+http://data.europa.eu/m8g/contactPage
+
+						
+
+						
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								has email 
+
+http://data.europa.eu/m8g/email
+
+						
+
+						
+
+								Contact Point
+
+http://data.europa.eu/m8g/ContactPoint
+
+								has telephone 
+
+http://data.europa.eu/m8g/telephone
+
+						
+
+				
+
+		
+
+					
+
+						Document
+
+http://xmlns.com/foaf/0.1/Document
+
+						
+
+					
+
+			
+
+				
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								date of issue 
+
+http://purl.org/dc/terms/issued
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								identifies 
+
+http://data.europa.eu/m8g/identifies
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								issuing authority URI 
+
+http://purl.org/dc/terms/creator
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								notation 
+
+http://www.w3.org/2004/02/skos/core#notation
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								schema agency 
+
+http://www.w3.org/ns/adms#schemaAgency
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								scheme name 
+
+http://www.w3.org/2000/01/rdf-schema#label
+
+						
+
+						
+
+								Identifier
+
+http://www.w3.org/ns/adms#Identifier
+
+								scheme URI 
+
+http://purl.org/dc/terms/conformsTo
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+						
+
+						
+
+					
+
+							
+
+								Jurisdiction
+
+http://purl.org/dc/terms/Jurisdiction
+
+								id 
+
+http://purl.org/dc/terms/identifier
+
+						
+
+						
+
+								Jurisdiction
+
+http://purl.org/dc/terms/Jurisdiction
+
+								name 
+
+http://www.w3.org/2000/01/rdf-schema#label
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+						
+
+						
+
+					
+
+							
+
+								Location
+
+http://purl.org/dc/terms/Location
+
+								geographic identifier 
+
+http://www.w3.org/2000/01/rdf-schema#seeAlso
+
+						
+
+						
+
+								Location
+
+http://purl.org/dc/terms/Location
+
+								geographic name 
+
+http://www.w3.org/ns/locn#geographicName
+
+						
+
+				
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+							
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								alternative name 
+
+http://purl.org/dc/terms/alternative
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								birth name 
+
+http://www.w3.org/ns/person#birthName
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								citizenship 
+
+http://www.w3.org/ns/person#citizenship
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								contact point 
+
+http://data.europa.eu/m8g/contactPoint
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								country of birth 
+
+http://www.w3.org/ns/person#countryOfBirth
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								country of death 
+
+http://www.w3.org/ns/person#countryOfDeath
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								date of birth 
+
+http://data.europa.eu/m8g/birthDate
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								date of death 
+
+http://data.europa.eu/m8g/deathDate
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								domicile 
+
+http://data.europa.eu/m8g/domicile
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								family name 
+
+http://xmlns.com/foaf/0.1/familyName
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								full name 
+
+http://xmlns.com/foaf/0.1/name
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								gender 
+
+http://data.europa.eu/m8g/gender
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								given name 
+
+http://xmlns.com/foaf/0.1/givenName
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								identifier 
+
+http://purl.org/dc/terms/identifier
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								matronymic name 
+
+http://data.europa.eu/m8g/matronymicName
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								patronymic name 
+
+http://www.w3.org/ns/person#patronymicName
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								place of birth 
+
+http://www.w3.org/ns/person#placeOfBirth
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								place of death 
+
+http://www.w3.org/ns/person#placeOfDeath
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								residency 
+
+http://www.w3.org/ns/person#residency
+
+						
+
+						
+
+								Person
+
+http://www.w3.org/ns/person#Person
+
+								sex 
+
+http://data.europa.eu/m8g/sex
+
+						
+
+				
+
+		
+
+   
+
+    
+
+        
+
+	 
+
+    
+
+    
+
+    
+
+    
+
+    
+
+	
+
+    	
+

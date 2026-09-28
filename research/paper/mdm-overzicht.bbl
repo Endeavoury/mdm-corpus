@@ -1,0 +1,2448 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{L07}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=AR}{%
+         family={Abraham},
+         familyi={A\bibinitperiod},
+         given={Rene},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=vBJ}{%
+         prefix={vom},
+         prefixi={v\bibinitperiod},
+         family={Brocke},
+         familyi={B\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AR+1}
+    \strng{fullhash}{ARSJBJv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.ijinfomgt.2019.07.008
+    \endverb
+    \field{howpublished}{Peer-reviewed tijdschriftartikel; International
+  Journal of Information Management}
+    \field{note}{Bron-ID L07. abstract; geen volledige artikelanalyse}
+    \field{title}{{Data governance: A conceptual framework, structured review,
+  and research agenda}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.ijinfomgt.2019.07.008
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{L12}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=BI}{%
+         family={Blohm},
+         familyi={B\bibinitperiod},
+         given={Ivo},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wortmann},
+         familyi={W\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Legner},
+         familyi={L\bibinitperiod},
+         given={Christine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KF}{%
+         family={K{\"{o}}bler},
+         familyi={K\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BI+1}
+    \strng{fullhash}{BIWFLCKF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1007/s12599-024-00876-5
+    \endverb
+    \field{howpublished}{Tijdschriftbijdrage type Catchword; Business \&
+  Information Systems Engineering}
+    \field{note}{Bron-ID L12. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Data products, data mesh, and data fabric: New paradigm(s)
+  for data and analytics?}}
+    \verb{url}
+    \verb https://doi.org/10.1007/s12599-024-00876-5
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{P01}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=BJB}{%
+         family={Bracht},
+         familyi={B\bibinitperiod},
+         given={Jan-Bernd},
+         giveni={J\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rehr},
+         familyi={R\bibinitperiod},
+         given={Joerg},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Siebert},
+         familyi={S\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Thimm},
+         familyi={T\bibinitperiod},
+         given={Rouven},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJB+1}
+    \strng{fullhash}{BJBRJSMTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{note}{Bron-ID P01. geselecteerde passage; geen integrale
+  bronvalidatie Leveranciersliteratuur.}
+    \field{title}{{Smarter Modeling of IBM InfoSphere Master Data Management
+  Solutions}}
+    \verb{url}
+    \verb https://www.redbooks.ibm.com/abstracts/sg247956.html
+    \endverb
+    \field{year}{2012}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{S26}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{BZK / Stelsel van Basisregistraties}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{Afspraken- en kwaliteitskader}
+    \field{note}{Bron-ID S26. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Stelselafspraken / baseline kwaliteitszorg}}
+    \verb{url}
+    \verb https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2021/07/Ba
+    \verb seline-kwaliteitszorg-stelsel-van-basisregistraties2.pdf
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{S49}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={{BZK; Kadaster; Geonovum}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B2}
+    \strng{fullhash}{B2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{Domeincatalogus / gegevensspecificatie}
+    \field{note}{Bron-ID S49. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Catalogus BAG 2018}}
+    \verb{url}
+    \verb https://www.geobasisregistraties.nl/documenten/2018/03/12/catalogus-2
+    \verb 018
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{P02}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=CWJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Whei-Jen},
+         giveni={W\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=EB}{%
+         family={Eshwar},
+         familyi={E\bibinitperiod},
+         given={Bhavani},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rajendiran},
+         familyi={R\bibinitperiod},
+         given={Ramya},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Srinivas},
+         familyi={S\bibinitperiod},
+         given={Shettigar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SMB}{%
+         family={Subramanian},
+         familyi={S\bibinitperiod},
+         given={Manjunath\bibnamedelima B},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=VB}{%
+         family={Venkatasubramanian},
+         familyi={V\bibinitperiod},
+         given={Bharathi},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CWJ+1}
+    \strng{fullhash}{CWJEBRRSSSMBVB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{note}{Bron-ID P02. geselecteerde passage; geen integrale
+  bronvalidatie Leveranciersliteratuur.}
+    \field{title}{{Master Data Management for SaaS Applications}}
+    \verb{url}
+    \verb https://www.redbooks.ibm.com/abstracts/sg248220.html
+    \endverb
+    \field{year}{2014}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{L29}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=CV}{%
+         family={Christophides},
+         familyi={C\bibinitperiod},
+         given={Vassilis},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=EV}{%
+         family={Efthymiou},
+         familyi={E\bibinitperiod},
+         given={Vasilis},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Palpanas},
+         familyi={P\bibinitperiod},
+         given={Themis},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Papadakis},
+         familyi={P\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Stefanidis},
+         familyi={S\bibinitperiod},
+         given={Kostas},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CV+1}
+    \strng{fullhash}{CVEVPTPGSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{note}{Bron-ID L29. geselecteerde passage; geen integrale
+  bronvalidatie Auteursversie 2020; eerste depot 2019; geen voorlopige DOI
+  overgenomen.}
+    \field{title}{{End-to-End Entity Resolution for Big Data: A Survey}}
+    \verb{url}
+    \verb https://arxiv.org/abs/1905.06397
+    \endverb
+    \field{year}{2020}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{S01}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{DAMA International}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{howpublished}{Body of knowledge / best practices}
+    \field{note}{Bron-ID S01. offici{\"{e}}le overzichts-/cataloguspagina;
+  beperkte inhoudelijke dekking}
+    \field{title}{{DAMA-DMBOK}}
+    \verb{url}
+    \verb https://dama.org/dama-dmbok-revision/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{S42}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Europees Parlement en Raad}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E1}
+    \strng{fullhash}{E1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{howpublished}{EU-verordening; geen technische standaard}
+    \field{note}{Bron-ID S42. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Interoperable Europe Act}}
+    \verb{url}
+    \verb https://eur-lex.europa.eu/eli/reg/2024/903
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{S43}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Europese Commissie}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E2}
+    \strng{fullhash}{E2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{howpublished}{Interoperabiliteitskader / aanbevelingen}
+    \field{note}{Bron-ID S43. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{European Interoperability Framework}}
+    \verb{url}
+    \verb https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{S44}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Europese Commissie / SEMIC}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E3}
+    \strng{fullhash}{E3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{howpublished}{Vocabulairefamilie / herbruikbare modellen}
+    \field{note}{Bron-ID S44. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{SEMIC Core Vocabularies}}
+    \verb{url}
+    \verb https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{S45}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={{Europese Commissie / SEMIC}},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E3}
+    \strng{fullhash}{E3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{z.d.}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{howpublished}{Applicatieprofiel}
+    \field{note}{Bron-ID S45. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{DCAT-AP}}
+    \verb{url}
+    \verb https://semiceu.github.io/DCAT-AP/releases/3.0.1/
+    \endverb
+    \field{year}{z.d.}
+  \endentry
+
+  \entry{F02}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{Forum Standaardisatie}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{note}{Bron-ID F02. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{MIM: offici{\"{e}}le standaardregistratie}}
+    \verb{url}
+    \verb https://www.forumstandaardisatie.nl/open-standaarden/mim
+    \endverb
+    \field{year}{2026}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{F01}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{Forum Standaardisatie}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{note}{Bron-ID F01. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Pas toe of leg uit-standaarden (verplicht)}}
+    \verb{url}
+    \verb https://www.forumstandaardisatie.nl/open-standaarden/verplicht
+    \endverb
+    \field{year}{2026}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{F03}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{Forum Standaardisatie}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{extradate}{3}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{note}{Bron-ID F03. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Standaarden in behandeling}}
+    \verb{url}
+    \verb https://www.forumstandaardisatie.nl/standaarden-in-behandeling
+    \endverb
+    \field{year}{2026}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{L31}{misc}{}
+    \name{author}{9}{}{%
+      {{hash=GB}{%
+         family={Ganesan},
+         familyi={G\bibinitperiod},
+         given={Balaji},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bhatia},
+         familyi={B\bibinitperiod},
+         given={Sumit},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Patel},
+         familyi={P\bibinitperiod},
+         given={Hima},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mehta},
+         familyi={M\bibinitperiod},
+         given={Sameep},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PMA}{%
+         family={Pasha},
+         familyi={P\bibinitperiod},
+         given={Matheen\bibnamedelima Ahmed},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Parkala},
+         familyi={P\bibinitperiod},
+         given={Srinivasa},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SNR}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Neeraj\bibnamedelima R},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mishra},
+         familyi={M\bibinitperiod},
+         given={Gayatri},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Naganna},
+         familyi={N\bibinitperiod},
+         given={Somashekhar},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GB+1}
+    \strng{fullhash}{GBBSPHMSPMAPSSNRMGNS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{Bron-ID L31. geselecteerde passage; geen integrale
+  bronvalidatie Depot 2024; document noemt tevens 2020 en 2022.}
+    \field{title}{{xLP: Explainable Link Prediction for Master Data
+  Management}}
+    \verb{url}
+    \verb https://arxiv.org/abs/2403.09806
+    \endverb
+    \field{year}{2024}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{S14}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{Geonovum}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{Standaard voor begripsbeschrijving}
+    \field{note}{Bron-ID S14. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{NL-SBB}}
+    \verb{url}
+    \verb https://docs.geostandaarden.nl/nl-sbb/def-st-nl-sbb-20241010/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{S16}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{Geonovum}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{Standaard / applicatieprofiel}
+    \field{note}{Bron-ID S16. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{DCAT-AP-NL}}
+    \verb{url}
+    \verb https://docs.geostandaarden.nl/dcat/def-st-dcat-ap-nl30-20250526/
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{S13}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{Geonovum; ontwikkeld met Kadaster en VNG}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G2}
+    \strng{fullhash}{G2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{Standaard / metamodel}
+    \field{note}{Bron-ID S13. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{MIM}}
+    \verb{url}
+    \verb https://docs.geostandaarden.nl/mim/def-st-mim-20240613/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{L21}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=GL}{%
+         family={Getoor},
+         familyi={G\bibinitperiod},
+         given={Lise},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Machanavajjhala},
+         familyi={M\bibinitperiod},
+         given={Ashwin},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GLMA1}
+    \strng{fullhash}{GLMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{Bron-ID L21. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Entity Resolution: Theory, Practice \& Open Challenges}}
+    \verb{url}
+    \verb https://vldb.org/pvldb/vol5/p2018_lisegetoor_vldb2012.pdf
+    \endverb
+    \field{year}{2012}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{L24}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=GA}{%
+         family={Gie{\ss}},
+         familyi={G\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hutterer},
+         familyi={H\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAHA1}
+    \strng{fullhash}{GAHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1007/s10257-025-00707-4
+    \endverb
+    \field{note}{Bron-ID L24. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{The Future of Data Management: A Delimitation of Data
+  Platforms, Data Spaces, Data Meshes, and Data Fabrics}}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10257-025-00707-4
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{L23}{misc}{}
+    \name{author}{7}{}{%
+      {{hash=GA}{%
+         family={Goedegebuure},
+         familyi={G\bibinitperiod},
+         given={Abel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KI}{%
+         family={Kumara},
+         familyi={K\bibinitperiod},
+         given={Indika},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Driessen},
+         familyi={D\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=vdHWJ}{%
+         prefix={van\bibnamedelima den},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Heuvel},
+         familyi={H\bibinitperiod},
+         given={Willem-Jan},
+         giveni={W\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Monsieur},
+         familyi={M\bibinitperiod},
+         given={Geert},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TDA}{%
+         family={Tamburri},
+         familyi={T\bibinitperiod},
+         given={Damian\bibnamedelima Andrew},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NDD}{%
+         family={Nucci},
+         familyi={N\bibinitperiod},
+         given={Dario\bibnamedelima Di},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GA+1}
+    \strng{fullhash}{GAKIDSHWJvdMGTDANDD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{Bron-ID L23. geselecteerde passage; geen integrale
+  bronvalidatie Auteursversie 2023; grijze-literatuurreview.}
+    \field{title}{{Data Mesh: a Systematic Gray Literature Review}}
+    \verb{url}
+    \verb https://arxiv.org/abs/2304.01062
+    \endverb
+    \field{year}{2023}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{L19}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=GF}{%
+         family={Gualo},
+         familyi={G\bibinitperiod},
+         given={Fernando},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CI}{%
+         family={Caballero},
+         familyi={C\bibinitperiod},
+         given={Ismael},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rodr{\'{i}}guez},
+         familyi={R\bibinitperiod},
+         given={Mois{\'{e}}s},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Piattini},
+         familyi={P\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GF+1}
+    \strng{fullhash}{GFCIRMPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.15388/23-INFOR534
+    \endverb
+    \field{howpublished}{Tijdschriftartikel; Informatica}
+    \field{note}{Bron-ID L19. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{A Data Quality Model for Master Data Repositories}}
+    \verb{url}
+    \verb https://doi.org/10.15388/23-INFOR534
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{L10}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=GN}{%
+         family={Guarino},
+         familyi={G\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Welty},
+         familyi={W\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GNWC1}
+    \strng{fullhash}{GNWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1145/503124.503150
+    \endverb
+    \field{howpublished}{Tijdschriftartikel; Communications of the ACM}
+    \field{note}{Bron-ID L10. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Evaluating ontological decisions with OntoClean}}
+    \verb{url}
+    \verb https://doi.org/10.1145/503124.503150
+    \endverb
+    \field{year}{2002}
+  \endentry
+
+  \entry{L27}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=GL}{%
+         family={Guerreiro},
+         familyi={G\bibinitperiod},
+         given={Leonardo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Martins},
+         familyi={M\bibinitperiod},
+         given={Jos{\'{e}}},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=dRBM}{%
+         prefix={do},
+         prefixi={d\bibinitperiod},
+         family={Ros{\'{a}}rio\bibnamedelima Bernardo},
+         familyi={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Mamede},
+         familyi={M\bibinitperiod},
+         given={Henrique},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Branco},
+         familyi={B\bibinitperiod},
+         given={Frederico},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GL+1}
+    \strng{fullhash}{GLMJRBMdMHBF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{Bron-ID L27. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Impact of a Master Data Management Framework to Trigger Data
+  Governance Maturity: A Systematic Literature Review}}
+    \verb{url}
+    \verb https://doi.org/10.1109/ACCESS.2025.3627855
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{L08}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GG}{%
+         family={Guizzardi},
+         familyi={G\bibinitperiod},
+         given={Giancarlo},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GG1}
+    \strng{fullhash}{GG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{Proefschrift; Universiteit Twente}
+    \field{note}{Bron-ID L08. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Ontological foundations for structural conceptual models}}
+    \verb{url}
+    \verb https://research.utwente.nl/en/publications/ontological-foundations-f
+    \verb or-structural-conceptual-models/
+    \endverb
+    \field{year}{2005}
+  \endentry
+
+  \entry{L13}{misc}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=HA}{%
+         family={Hogan},
+         familyi={H\bibinitperiod},
+         given={Aidan},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1145/3447772
+    \endverb
+    \field{howpublished}{Peer-reviewed survey; ACM Computing Surveys}
+    \field{note}{Bron-ID L13. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Knowledge Graphs}}
+    \verb{url}
+    \verb https://doi.org/10.1145/3447772
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{S38}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{IETF / RFC Editor}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Technische specificaties}
+    \field{note}{Bron-ID S38. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{URI / IRI-identificatie}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc3986/
+    \endverb
+    \field{year}{2005}
+  \endentry
+
+  \entry{S52}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I2}
+    \strng{fullhash}{I2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{note}{Bron-ID S52. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO 8601 — Date and time format}}
+    \verb{url}
+    \verb https://www.iso.org/iso-8601-date-and-time-format.html
+    \endverb
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{S07}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO/IEC JTC 1/SC 32}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I3}
+    \strng{fullhash}{I3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Internationale norm / metamodel}
+    \field{note}{Bron-ID S07. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO/IEC 11179-3}}
+    \verb{url}
+    \verb https://www.iso.org/standard/78915.html
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{S08}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO/IEC JTC 1/SC 32}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I3}
+    \strng{fullhash}{I3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Internationale norm / metamodel}
+    \field{note}{Bron-ID S08. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO/IEC 11179-31}}
+    \verb{url}
+    \verb https://www.iso.org/standard/78925.html
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{S09}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO/IEC JTC 1/SC 32}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I3}
+    \strng{fullhash}{I3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{3}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Internationale norm / metamodel}
+    \field{note}{Bron-ID S09. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO/IEC 11179-33}}
+    \verb{url}
+    \verb https://www.iso.org/standard/81725.html
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{S10}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO/IEC JTC 1/SC 32}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I3}
+    \strng{fullhash}{I3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{4}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Internationale norm}
+    \field{note}{Bron-ID S10. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO/IEC 11179-6}}
+    \verb{url}
+    \verb https://www.iso.org/standard/78916.html
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{S12}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO/IEC JTC 1/SC 7}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I4}
+    \strng{fullhash}{I4}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Internationale norm / kwaliteitsmodel}
+    \field{note}{Bron-ID S12. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO/IEC 25012}}
+    \verb{url}
+    \verb https://www.iso.org/standard/35736.html
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{S02}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO/TC 184/SC 4}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I5}
+    \strng{fullhash}{I5}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Internationale norm}
+    \field{note}{Bron-ID S02. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO 8000-100}}
+    \verb{url}
+    \verb https://www.iso.org/standard/62392.html
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{S03}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO/TC 184/SC 4}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I5}
+    \strng{fullhash}{I5}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Internationale norm}
+    \field{note}{Bron-ID S03. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO 8000-110}}
+    \verb{url}
+    \verb https://www.iso.org/standard/78501.html
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{S11}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{ISO/TC 37/SC 1}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I6}
+    \strng{fullhash}{I6}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{howpublished}{Internationale norm / terminologische methode}
+    \field{note}{Bron-ID S11. offici{\"{e}}le webcontrole; alleen scope}
+    \field{title}{{ISO 704}}
+    \verb{url}
+    \verb https://www.iso.org/standard/79077.html
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{L14}{misc}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=JCS}{%
+         family={Jensen},
+         familyi={J\bibinitperiod},
+         given={Christian\bibnamedelima S.},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JCS+1}
+    \strng{fullhash}{JCS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{howpublished}{Wetenschappelijke glossary; ACM SIGMOD Record}
+    \field{note}{Bron-ID L14. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{A Consensus Glossary of Temporal Database Concepts}}
+    \verb{url}
+    \verb https://www2.cs.arizona.edu/~rts/pubs/SIGMODRecordMarch94p52.pdf
+    \endverb
+    \field{year}{1994}
+  \endentry
+
+  \entry{S15}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=K}{%
+         family={{KOOP}},
+         familyi={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{K1}
+    \strng{fullhash}{K1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{howpublished}{Kennismodel: ontologie{\"{e}}n / thesauri / registers}
+    \field{note}{Bron-ID S15. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{TOOI}}
+    \verb{url}
+    \verb https://standaarden.overheid.nl/tooi/downloads
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{L16}{misc}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LP+1}
+    \strng{fullhash}{LP+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Peer-reviewed conferentiepaper; NeurIPS}
+    \field{note}{Bron-ID L16. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Retrieval-Augmented Generation for Knowledge-Intensive NLP
+  Tasks}}
+    \verb{url}
+    \verb https://proceedings.neurips.cc/paper_files/paper/2020/hash/6b49323020
+    \verb 5f780e1bc26945df7481e5-Abstract.html
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{S21}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={{Logius}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Technische specificatie}
+    \field{note}{Bron-ID S21. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Federated Service Connectivity (FSC)}}
+    \verb{url}
+    \verb https://gitdocumentatie.logius.nl/publicatie/fsc/core/2.0.0/
+    \endverb
+    \field{year}{2026}
+  \endentry
+
+  \entry{S22}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={{Logius}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Standaard / notificatieprofiel}
+    \field{note}{Bron-ID S22. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{NL GOV profile for CloudEvents}}
+    \verb{url}
+    \verb https://gitdocumentatie.logius.nl/publicatie/notificatieservices/clou
+    \verb devents-nl/1.1/
+    \endverb
+    \field{year}{2026}
+  \endentry
+
+  \entry{S23}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={{Logius}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{z.d.}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Governanceframework / best practices}
+    \field{note}{Bron-ID S23. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{BOMOS}}
+    \verb{url}
+    \verb https://gitdocumentatie.logius.nl/publicatie/bomos/fundament/3.0.2/
+    \endverb
+    \field{year}{z.d.}
+  \endentry
+
+  \entry{S20}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={{Logius}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{z.d.}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Standaardenfamilie / koppelvlakspecificaties}
+    \field{note}{Bron-ID S20. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Digikoppeling}}
+    \verb{url}
+    \verb https://gitdocumentatie.logius.nl/publicatie/dk/restapi/
+    \endverb
+    \field{year}{z.d.}
+  \endentry
+
+  \entry{S18}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={{Logius}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{z.d.}
+    \field{extradate}{3}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Standaard / API-specificatie}
+    \field{note}{Bron-ID S18. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{NLGov REST API Design Rules}}
+    \verb{url}
+    \verb https://gitdocumentatie.logius.nl/publicatie/api/adr/2.2.0/
+    \endverb
+    \field{year}{z.d.}
+  \endentry
+
+  \entry{B01}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LD}{%
+         family={Loshin},
+         familyi={L\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LD1}
+    \strng{fullhash}{LD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{note}{Bron-ID B01. geselecteerde passage; geen integrale
+  bronvalidatie Alleen hoofdstuk 1 geraadpleegd.}
+    \field{title}{{Master Data Management}}
+    \verb{url}
+    \verb https://shop.elsevier.com/books/master-data-management/loshin/978-0-1
+    \verb 2-374225-4
+    \endverb
+    \field{year}{2008}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{L22}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=MD}{%
+         family={Menestrina},
+         familyi={M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WSE}{%
+         family={Whang},
+         familyi={W\bibinitperiod},
+         given={Steven\bibnamedelima Euijong},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GMH}{%
+         family={Garcia-Molina},
+         familyi={G\bibinithyphendelim M\bibinitperiod},
+         given={Hector},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MD+1}
+    \strng{fullhash}{MDWSEGMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{Bron-ID L22. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Evaluating Entity Resolution Results}}
+    \verb{url}
+    \verb https://www.vldb.org/pvldb/vol3/R18.pdf
+    \endverb
+    \field{year}{2010}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{S24}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Nationaal Archief}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{z.d.}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{howpublished}{Norm / metagegevens- en uitwisselspecificatie}
+    \field{note}{Bron-ID S24. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{MDTO}}
+    \verb{url}
+    \verb https://www.nationaalarchief.nl/archiveren/mdto
+    \endverb
+    \field{year}{z.d.}
+  \endentry
+
+  \entry{S17}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{NEN; commissie 351240}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N2}
+    \strng{fullhash}{N2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{howpublished}{Nederlandse norm / basismodel}
+    \field{note}{Bron-ID S17. offici{\"{e}}le overzichts-/cataloguspagina;
+  beperkte inhoudelijke dekking}
+    \field{title}{{NEN 3610}}
+    \verb{url}
+    \verb https://www.nen.nl/nen-3610-2022-nl-296137
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{S51}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Object Management Group (OMG)}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{Ontologie / specificatie}
+    \field{note}{Bron-ID S51. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Data Product Ontology (DPROD)}}
+    \verb{url}
+    \verb https://www.omg.org/spec/DPROD/1.0/Beta1/PDF
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{S40}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{Onderzoeksgemeenschap rond Guizzardi en mede-auteurs}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O2}
+    \strng{fullhash}{O2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{z.d.}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{Foundational ontology}
+    \field{note}{Bron-ID S40. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{UFO}}
+    \verb{url}
+    \verb https://ontouml.org/ufo/
+    \endverb
+    \field{year}{z.d.}
+  \endentry
+
+  \entry{S41}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{OntoUML-onderzoeksgemeenschap}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O3}
+    \strng{fullhash}{O3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{z.d.}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{Modelleertaal / metamodel; ondersteund door methoden}
+    \field{note}{Bron-ID S41. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{OntoUML}}
+    \verb{url}
+    \verb https://ontouml.org/ufo/
+    \endverb
+    \field{year}{z.d.}
+  \endentry
+
+  \entry{S19}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={{OpenAPI Initiative / Linux Foundation}},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O4}
+    \strng{fullhash}{O4}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{z.d.}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{Interfacespecificatie}
+    \field{note}{Bron-ID S19. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{OpenAPI Specification}}
+    \verb{url}
+    \verb https://spec.openapis.org/oas/v3.1.1.html
+    \endverb
+    \field{year}{z.d.}
+  \endentry
+
+  \entry{L05}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=OB}{%
+         family={Otto},
+         familyi={O\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HKM}{%
+         family={H{\"{u}}ner},
+         familyi={H\bibinitperiod},
+         given={Kai\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=OH}{%
+         family={{\"{O}}sterle},
+         familyi={{\"{O}}\bibinitperiod},
+         given={Hubert},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OB+1}
+    \strng{fullhash}{OBHKMOH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \verb{doi}
+    \verb 10.1007/s10257-011-0178-0
+    \endverb
+    \field{howpublished}{Peer-reviewed tijdschriftartikel; Information Systems
+  and e-Business Management}
+    \field{note}{Bron-ID L05. abstract; geen volledige artikelanalyse}
+    \field{title}{{Toward a functional reference model for master data quality
+  management}}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10257-011-0178-0
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{L20}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=OB}{%
+         family={Otto},
+         familyi={O\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OMH}{%
+         family={Ofner},
+         familyi={O\bibinitperiod},
+         given={Martin\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OBOMH1}
+    \strng{fullhash}{OBOMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{note}{Bron-ID L20. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Strategic Business Requirements for Master Data Management
+  Systems}}
+    \verb{url}
+    \verb https://aisel.aisnet.org/amcis2011_submissions/108/
+    \endverb
+    \field{year}{2011}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{L30}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=PG}{%
+         family={Papadakis},
+         familyi={P\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Skoutas},
+         familyi={S\bibinitperiod},
+         given={Dimitrios},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TE}{%
+         family={Thanos},
+         familyi={T\bibinitperiod},
+         given={Emmanouil},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Palpanas},
+         familyi={P\bibinitperiod},
+         given={Themis},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PG+1}
+    \strng{fullhash}{PGSDTEPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{note}{Bron-ID L30. geselecteerde passage; geen integrale
+  bronvalidatie Auteursversie 2020; eerste depot 2019; geen voorlopige DOI
+  overgenomen.}
+    \field{title}{{A Survey of Blocking and Filtering Techniques for Entity
+  Resolution}}
+    \verb{url}
+    \verb https://arxiv.org/abs/1905.06167
+    \endverb
+    \field{year}{2020}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{S27}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Realisatie IBDS / betrokken overheden}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{howpublished}{Afsprakenstelsel / architectuurcontext}
+    \field{note}{Bron-ID S27. offici{\"{e}}le overzichts-/cataloguspagina;
+  beperkte inhoudelijke dekking}
+    \field{title}{{Federatief Datastelsel (FDS)}}
+    \verb{url}
+    \verb https://federatief.datastelsel.nl/afspraken/afwegingskader/v1/
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{M02}{misc}{}
+    \name{author}{8}{}{%
+      {{hash=RML}{%
+         family={Rethlefsen},
+         familyi={R\bibinitperiod},
+         given={Melissa\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kirtley},
+         familyi={K\bibinitperiod},
+         given={Shona},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Waffenschmidt},
+         familyi={W\bibinitperiod},
+         given={Siw},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AAP}{%
+         family={Ayala},
+         familyi={A\bibinitperiod},
+         given={Ana\bibnamedelima Patricia},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Moher},
+         familyi={M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PMJ}{%
+         family={Page},
+         familyi={P\bibinitperiod},
+         given={Matthew\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KJB}{%
+         family={Koffel},
+         familyi={K\bibinitperiod},
+         given={Jonathan\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=P}{%
+         family={{PRISMA-S Group}},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RML+1}
+    \strng{fullhash}{RMLKSWSAAPMDPMJKJBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.5195/jmla.2021.962
+    \endverb
+    \field{note}{Bron-ID M02. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{PRISMA-S: an extension to the PRISMA statement for reporting
+  literature searches in systematic reviews}}
+    \verb{url}
+    \verb https://doi.org/10.5195/jmla.2021.962
+    \endverb
+    \field{year}{2021}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{S25}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Rijksoverheid / BZK en betrokken ministers}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{howpublished}{Beleidskader; geen technische standaard}
+    \field{note}{Bron-ID S25. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Twaalf eisen basisregistraties}}
+    \verb{url}
+    \verb https://zoek.officielebekendmakingen.nl/kst-26387-18.html
+    \endverb
+    \field{year}{2003}
+  \endentry
+
+  \entry{M01}{misc}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{3}{}{%
+      {{hash=TAC}{%
+         family={Tricco},
+         familyi={T\bibinitperiod},
+         given={Andrea\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lillie},
+         familyi={L\bibinitperiod},
+         given={Erin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zarin},
+         familyi={Z\bibinitperiod},
+         given={Wasifa},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TAC+1}
+    \strng{fullhash}{TACLEZW+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{note}{Bron-ID M01. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist
+  and Explanation}}
+    \verb{url}
+    \verb https://doi.org/10.7326/M18-0850
+    \endverb
+    \field{year}{2018}
+    \field{urlday}{09}
+    \field{urlmonth}{09}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{S39}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Best practice / Interest Group Note}
+    \field{note}{Bron-ID S39. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{Cool URIs for the Semantic Web}}
+    \verb{url}
+    \verb https://www.w3.org/TR/cooluris/
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{S31}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / vocabulaire}
+    \field{note}{Bron-ID S31. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{SKOS}}
+    \verb{url}
+    \verb https://www.w3.org/TR/skos-reference/
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{S30}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / ontologietaal}
+    \field{note}{Bron-ID S30. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{OWL}}
+    \verb{url}
+    \verb https://www.w3.org/TR/owl2-overview/
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{S33}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / ontologie}
+    \field{note}{Bron-ID S33. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{PROV-O}}
+    \verb{url}
+    \verb https://www.w3.org/TR/prov-o/
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{S36}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaardenfamilie / querytaal}
+    \field{note}{Bron-ID S36. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{SPARQL}}
+    \verb{url}
+    \verb https://www.w3.org/TR/sparql11-overview/
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{S28}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / abstract datamodel}
+    \field{note}{Bron-ID S28. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{RDF}}
+    \verb{url}
+    \verb https://www.w3.org/TR/rdf11-concepts/
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{S29}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / vocabulaire}
+    \field{note}{Bron-ID S29. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{RDFS}}
+    \verb{url}
+    \verb https://www.w3.org/TR/rdf-schema/
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{S34}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Vocabulaire / Working Group Note}
+    \field{note}{Bron-ID S34. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{DQV}}
+    \verb{url}
+    \verb https://www.w3.org/TR/vocab-dqv/
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{S32}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / constrainttaal}
+    \field{note}{Bron-ID S32. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{SHACL}}
+    \verb{url}
+    \verb https://www.w3.org/TR/shacl/
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{S35}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / serialisatiespecificatie}
+    \field{note}{Bron-ID S35. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{JSON-LD}}
+    \verb{url}
+    \verb https://www.w3.org/TR/json-ld11/
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{S47}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / vocabulaire}
+    \field{note}{Bron-ID S47. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{DCAT}}
+    \verb{url}
+    \verb https://www.w3.org/TR/2024/REC-vocab-dcat-3-20240822/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{S37}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{W3C / OGC}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W2}
+    \strng{fullhash}{W2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Standaard / ontologie}
+    \field{note}{Bron-ID S37. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{OWL-Time}}
+    \verb{url}
+    \verb https://www.w3.org/TR/2017/REC-owl-time-20171019/
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{L15}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=WRY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Richard\bibnamedelima Y.},
+         giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=SDM}{%
+         family={Strong},
+         familyi={S\bibinitperiod},
+         given={Diane\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WRYSDM1}
+    \strng{fullhash}{WRYSDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Peer-reviewed tijdschriftartikel; JMIS}
+    \field{note}{Bron-ID L15. abstract; geen volledige artikelanalyse}
+    \field{title}{{Beyond Accuracy: What Data Quality Means to Data Consumers}}
+    \verb{url}
+    \verb https://www.jmis-web.org/articles/1002
+    \endverb
+    \field{year}{1996}
+  \endentry
+
+  \entry{L18}{misc}{}
+    \name{author}{8}{}{%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xiaoyuan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Xingzhi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Feng},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kanellos},
+         familyi={K\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZK}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Kang},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PY}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Yue},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WX+1}
+    \strng{fullhash}{WXSXCFMLKNZKPYYY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Conferentiedemonstratiepaper; Proceedings of the VLDB
+  Endowment}
+    \field{note}{Bron-ID L18. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{SMDM: Enhancing Enterprise-Wide Master Data Management Using
+  Semantic Web Technologies}}
+    \verb{url}
+    \verb https://www.vldb.org/pvldb/vol2/vldb09-1011.pdf
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{L11}{misc}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=WMD}{%
+         family={Wilkinson},
+         familyi={W\bibinitperiod},
+         given={Mark\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WMD+1}
+    \strng{fullhash}{WMD+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1038/sdata.2016.18
+    \endverb
+    \field{howpublished}{Peer-reviewed artikel; Scientific Data}
+    \field{note}{Bron-ID L11. geselecteerde passage; geen integrale
+  bronvalidatie}
+    \field{title}{{The FAIR Guiding Principles for scientific data management
+  and stewardship}}
+    \verb{url}
+    \verb https://doi.org/10.1038/sdata.2016.18
+    \endverb
+    \field{year}{2016}
+  \endentry
+\enddatalist
+\endinput

@@ -1,0 +1,291 @@
+EVALUATING ONTOLOGICAL
+                 DECISIONS with
+        ONTOCLEAN
+                  The process of building or                                 inappropriate and inconsistent model-
+                  engineering ontologies1 for use in                         ing choices.
+                  information systems remains an arcane                         The OntoClean methodology is
+                  art form, which must become a rigor-                       based on formal notions, which are gen-
+                  ous engineering discipline. One of the                     eral enough to be used in any ontology
+                  principal requirements for developing a                    effort, independently of a particular
+                  true ontology engineering practice                         domain. We use these notions to define
+                  is a general, domain-independent                           a set of metaproperties which, in turn,
+                  methodology that provides guid-                              are used to characterize relevant
+                  ance not only on what kinds of                                   aspects of the intended meaning of
+                  ontological decisions need to                                     the properties, classes, and rela-
+Explosing common be made, but on how these                                       tions that make up an ontology. In
+  misuses of the  decisions can be evaluated.                                  addition, the metaproperties impose
+                     The OntoClean methodology                                      several constraints on the taxo-
+   subsumption    has been under development for a few                             nomic structure of an ontology,
+ relationship and years, and seeks to provide this kind of                       which help in evaluating the choices
+                  guidance based on highly general onto-                     made.
+ the formal basis logical notions drawn from philosophi-
+                  cal ontology, especially what is now                                   Essence and Rigidity
+   for why they
+                  called “analytic metaphysics.” Among                                   The first formal notion we will discuss
+    are wrong.    other things, we use our methodology                                   is essence. A property of an entity is
+                  to validate taxonomies by exposing                                     essential to that entity if it must hold
+                                                                                         for it. This is a stronger notion than
+                      1                                                                  one of permanence, that is, a property
+                        The computer science use of the term “ontology” has under-
+                      gone some evolution since it was borrowed from philosophy by of an entity is not essential if it just
+                      John McCarthy in the late 1970s, and today—as a subject happens to be true of it, accidentally,
+                      area—it is normally taken as nearly synonymous with knowledge
+                      engineering in AI, conceptual modeling in databases, and for all time. For example, consider the
+                      domain modeling in OO design. We believe it is important, in property of being hard. We may say
+                      light of this shift in meaning, to maintain that “ontology” is not
+                      simply a new word for something computer scientists have been that it is an essential property of ham-
+                      doing for 20–30 years; ontology is hundreds, if not thousands,
+                      of years old, and there are many lessons learned in those cen-
+                                                                                         mers, but not of sponges. Some
+                      turies that we may borrow from philosophy along with the term. sponges (dry ones) are hard, and some
+
+
+
+
+                              Nicola Guarino and Christopher Welty
+
+                                                                     COMMUNICATIONS OF THE ACM February 2002/Vol. 45, No. 2     61
+particular sponge may be hard for its entire existence,          all the parts that form an individual entity.
+however this does not make being hard an essential                   What are identity criteria? They are difficult for even
+property of that sponge. The fact is that it could have          experienced conceptual modelers to appreciate because
+been soft at some time, it just happened that it never           they are typically not part of the implemented system
+was.                                                             and are overlooked. In point of fact, identity criteria are
+    A special form of essence is rigidity: a property is         conditions used to determine equality (sufficient con-
+rigid if it is essential to all its instances. For example,      ditions) and that are entailed by equality (necessary
+being a person is usually conceptualized as rigid, while         conditions).
+we have seen that being hard is not. Rigidity is a subtle            It is perhaps simplest to think of identity criteria over
+notion: every entity that can exhibit the property must          time. For example, how do we recognize a person we
+exhibit it. So, every entity that is a person must be a per-     know as the same person even though they may have
+son, and there are no entities that can be a person but          changed? It is also very informative, however, to think
+aren’t. Notice that these definitions are restricted to          of identity criteria at a single point in time. This may,
+meaningful properties (not necessarily true nor neces-           at first glance, seem bizarre. How can you ask, “are these
+sarily false), so trivial cases are excluded.                    two entities the same entity?” If they are the same then
+    Obviously there are also properties that are not essen-      there is one entity, it does not even make sense to ask
+tial to all their instances. Of these we distinguish prop-       the question.
+erties that are essential to some entities and not essential         The answer is not that difficult. One of the most
+to others (semi-rigid) from prop-                                                       common decisions that must be
+erties that are never essential (anti-                                                  made in ontological analysis con-
+rigid). For example, the property                                                       cerns identifying circumstances in
+being a student is typically anti-                                                      which something that is appar-
+rigid—every instance of student is                                                      ently seen as one entity is actually
+not essentially a student (may also                                                     two (or more). Consider the fol-
+be a non-student), whereas the                                                          lowing example, drawn from
+property being hard is semi-rigid,                                                      actual experience: a proposed class
+since there are instances (ham-                                                         time duration whose instances are
+mers) that must be hard and                                                             things like “one hour” and “two
+instances (sponges) that may be hard but also may not.           hours,” and a class time interval referring to specific
+    Rigidity is an important notion, every property in an        intervals of time, such as “1:00–2:00 next Tuesday” and
+ontology should be labeled as rigid, non-rigid, or anti-         “2:00–3:00 next Wednesday.” One proposal was to
+rigid. In addition to providing more information about           make time interval a kind of (subclass of) time duration,
+what a property is intended to mean, these metaprop-             since all time intervals were seen as time durations.
+erties impose constraints on the subsumption relation,           Seems to make intuitive sense, but how can we evalu-
+which can be used to check the ontological consistency           ate this decision?
+of taxonomic links. One of these constraints is that                 In this case, an analysis based on the notion of iden-
+anti-rigid properties cannot subsume rigid properties.           tity can be very informative. According to the identity
+For example, the class student cannot subsume the class          critera for time durations, two durations of the same
+person if the former is anti-rigid and the latter is rigid.      length are the same duration. In other words, all one-
+To see this, consider that every instance of student may         hour time durations are identical—they are the same
+cease being a student, while no instance of person can           duration and therefore there is only one “one hour”
+cease being a person. If all persons are necessarily stu-        time duration. On the other hand, according to the
+dents (the meaning of subsumption), this would create            identity criteria for time intervals, two intervals occur-
+an inconsistency.                                                ring at the same time are the same, but two intervals
+                                                                 occurring at different times, even if they are the same
+Identity and Unity                                               length, are different. Therefore, the two example inter-
+Although very subtle and difficult to explain without            vals given would be different intervals, but the same
+experience, identity and unity are the most important            duration. This creates a contradiction: if all instances of
+philosophical notions we use in our methodology.                 time interval are also instances of time duration (as
+They are different notions, although strictly related            implied by the subclass relationship), how can they be
+
+
+                                                                                                                                 CAREN ROSENBLATT
+and often confused with each other. In general, iden-            two instances under one class and a single instance
+tity refers to the problem of being able to recognize            under another?
+individual entities in the world as being the same (or               This is one of the common confusions of natural
+different), and unity refers to being able to recognize          language when used in describing the world. When we
+
+62      February 2002/Vol. 45, No. 2 COMMUNICATIONS OF THE ACM
+say “all time intervals are time durations” we really          omy consists of all the rigid properties in the ontology,
+mean “all time intervals have a time duration”; the            organized according to their subsumption relation-
+duration is a component of an interval, but it is not the      ships, and represents a view of the ontology showing all
+interval itself. Therefore, we cannot model the relation-      the most important properties—those that cover the
+ship as subclass. More examples of such confusions are         entire domain (or universe of discourse). This is
+provided later.                                                because we assume every entity must have identity cri-
+   A second notion extremely useful in ontological             teria and must have a rigid property that describes those
+analysis is unity. Unity refers to the problem of              criteria. The backbone taxonomy gives a jump start to
+describing the way the parts of an object are bound            the integration process, since every entity must instan-
+together, such that we know in general what is part            tiate at least one property in the backbone. Backbone
+of the object, what is not, and under what condi-              properties are the most important to analyze first—
+tions the object is a whole.                                   those that represent the invariant, essential aspects of
+   Unity can tell us a lot about the intended meaning          the domain. Moreover, if we have to integrate two dif-
+of properties or classes based on whether their instances      ferent ontologies, we can start comparing their rigid
+are wholes. For some classes, all their instances are          properties, trying to establish a common backbone that
+wholes, for others none of their instances are wholes.         will constitute a basic set of stable properties within the
+For example, the class “water,” found in some com-             merged domain.
+monsense ontologies, does not represent whole objects.            Another benefit of this analysis, and the subject of
+An instance of this class is an amount of water, but it is     the rest of this article, is the discovery of inconsistent
+not a whole, since it is not recognizable as an isolated       uses of subsumption in the taxonomy. Deciding
+entity. On the other hand, “ocean” may be a class that         whether one property should subsume another is one of
+does represent whole objects, since an instance of this        the most important ontological decisions a modeler
+class, such as “the Atlantic Ocean,” is recognizable as a      must make in building an ontology, and providing a
+single entity.                                                 formal foundation for evaluating these decisions has
+   This leads us again to interesting problems with sub-       proved an important milestone in the practice of con-
+sumption. It may make sense to say that “ocean” is a           ceptual modeling.
+subclass of “water,” since all oceans are water. However,
+if we claim that instances of the latter are not wholes,       Subsumption Misused
+and instances of the former always are, then we have a         The subsumption (or subclass, is-a, and so forth) rela-
+contradiction. Problems like this again stem from the          tion that is the basis of a taxonomy is an extremely
+ambiguity of natural language, oceans are not “kinds           useful tool for imparting structure on an ontology. It
+of” water, they are composed of water.                         is by far the most commonly used structuring prim-
+   In addition to specifying that a class represents           itve, and in many cases, such as thesauri and object-
+wholes, it is also useful to analyze the specific condi-       oriented languages, it is the only one. It is, however,
+tions that must hold among the parts of a certain entity       easily and often misused. Formally, we take it to mean
+in order to consider it a whole. We call these conditions      that all instances of the subclass are necessarily
+unity criteria, and distinguish with suitable metaprop-        instances of the superclass.
+erties the classes that carry a common unity criterion            The OntoClean methodology provides a formal,
+for all their instances (such as “ocean”) from those that      consistent and straightforward way to explain some of
+do not (like “water”).                                         the most common misunderstandings in conceptual
+                                                               modeling regarding the taxonomic or subsumption
+The Benefits of Ontological Analysis                           relation.
+While the OntoClean methodology is still under
+development, the core is quite stable and is being used        Instantiation
+in several industrial and academic settings to validate        Perhaps the most confusing of all distinctions is
+taxonomies. The OntoClean core is based on attach-             between the two relations subsumption and instantia-
+ing to each property (class) in an ontology suitable           tion. We have often found the subsumption relation-
+metaproperties that describe its behavior with respect         ship misused when instantiation was actually
+to the ontological notions previously described. After         intended. The canonical example of this is
+analyzing each property, the modeler gains a number            species/animal. While most introductory courses
+of important insights into the structure of the ontol-         teach the difference between classes, such as Mammal
+ogy and the nature of what is being represented.               or Human, and instances, such as Chris, they stop
+   One of the first benefits of this analysis is the identi-   short of explaining how second-order classes, such as
+fication of a backbone taxonomy. The backbone taxon-           Species, would fit into the picture. Human is a subclass
+
+                                                                     COMMUNICATIONS OF THE ACM February 2002/Vol. 45, No. 2   63
+of Mammal, and Chris is a Human and therefore a                 part-of relation is often what ontological analysis is all
+Mammal. Is Human also a subclass of Species?                    about.
+    When we perform the analysis described on all these            However, even people who understand the distinc-
+classes, we find that the identity criteria of Species are      tion, often misuse subsumption to represent part-of;
+quite different from that of Human. Intuitively, species        they are both partial ordering relations after all, and
+seem to be identified by their position in a biological         when we draw diagrams showing subclass relation-
+taxonomy (for example, genus and differentia). On the           ships we get a picture that looks the same as a diagram
+other hand, we can assume that instances of Human are           representing the decomposition of something.
+identified, in the simplest case, through the location in          To understand these problems, again we can apply
+space/time of their bodies; two humans are different if         our analysis. Take two classes like Car and Engine: is
+they are at different places at the same time.                  Engine a subclass of Car? We can approach this one in
+    If Human was a subclass of Species, it would inherit        many ways since it is so obviously wrong; a useful
+its identity criteria. This can’t be the case, since genus      strategy is to focus on the essential properties involved:
+and differentia do not help in distinguishing one               among the essential properties of a car there are some
+human from another. Therefore, Species cannot sub-              functional properties, like being able to accommodate
+sume Human. In fact, Human turns out to be an                   people. An engine has also certain functional properties
+instance of Species, and subsumption is not instantiation.      as essential properties, like being able to crank and gen-
+                                                                erate a rotational force. Since, however, the essential
+Meta is Betta                                                   properties of cars do not apply to engines, one cannot
+The prefix “meta” acutally means “after.” As with the           subsume the other. The proper relationship here is
+term “ontology,” its meaning in computer science is             part and subsumption is not part.
+not quite correct and fairly vague. Meta seems to
+have something to do with levels of representation, as          Disjunction/Type Restriction
+in a metalanguage, which is typically understood to             An often-used “work-around” to the problem in the
+be a language in which languages are specified. When            example here with car parts is creating artificial classes
+we refer to a notion like “rigidity,” we consider it a          representing different levels of decomposition. For
+metaproperty in that rigidity is a property of proper-          example, rather than claiming that engines are a subclass
+ties, and not a property of objects in the world. In            of cars, we have frequently found a class like car part
+this sense, the notion of meta is very similar to the           subsuming engine, and a restriction or axiom requiring
+notion of instantiation, refering to a level of predica-        that all the parts of cars be car parts. This brings us to
+tion beyond the ground instances in a model.                    another common misuse of subsumption to represent a
+    We often find subsumption misused to represent              disjunction of classes for a type restriction.
+metalevel relationships of this kind. For example, it              To see how this is incorrect, rigidity analysis can be
+may be tempting to create a class called “rigid class” and      most useful. No instance of a car part is necessarily a car
+have it subsume all classes that are rigid, such as             part (we could take an engine from a car and put it in
+Human.                                                          a boat, making it no longer a car part but a boat part),
+    As with the Species example, a quick look at identity       so we have to make that class anti-rigid. The class
+criteria reveals that this relationship cannot be.              engine itself is rigid, however, since we can’t imagine an
+Instances of “rigid class” are classes, which can be iden-      entity that is an engine becoming a non-engine. Being
+tified in various ways (intensionally, in terms of the          an engine is essential to it. An anti-rigid class, such as
+properties that define the class, or extensionally, in          car part, can not subsume a rigid one, and so we have
+terms of their members). In any case, these identity            a conflict.
+criteria cannot be applied to the instances of Human,              This type of mistake is particularly common in
+so being rigid is a metaproperty of the class Human             object-oriented and frame-based models, where value
+and subsumption is not meta.                                    restrictions are an important part of modeling. These
+                                                                anti-rigid classes are created to satisfy a modeling need
+Part/Whole                                                      to represent disjunction, for instance, “any car part is
+It is often difficult for beginners in ontological analy-       either an engine, or a wheel, or a seat, …” It should be
+sis to distinguish between the part-of and the subclass         clear that this is different from saying “all engines are
+relation. This is due to the fact that subclass is analo-       car parts,” since, in fact, they are not. Of course, most
+gous to subset, and a subset of a set is a part of it. This     modeling systems do not provide for disjunction, so
+confusion can be overcome when we realize the differ-           modelers believe they are justified using these tricks,
+ence between the parts of a set and the parts of its            but if the intention is to make meaning as clear as pos-
+members. Understanding the proper meaning of the                sible then subsumption is not disjunction.
+
+64     February 2002/Vol. 45, No. 2 COMMUNICATIONS OF THE ACM
+Polysemy                                                      ing and reusing knowledge assets in corporate docu-
+The most common misuse of subsumption in linguis-             ments such as contracts and proposals. At IBM
+tics is to represent the multiple meanings (polysemy)         Research, the methodology core was used in the
+of a term. For example, “book” is a polysemous term           SOALAR project to build ontologies of business
+with at least two meanings: a bound volume with a             engagements. At the Technical University of Madrid,
+size, weight, position, and so forth; an abstract entity      OntoClean is being integrated with Methontology, a
+with an author, title, and possibly many manifesta-           methodology for building ontologies based on soft-
+tions. When we say, “this book is heavy” we typically         ware engineering principles. At the Italian National
+refer to the bound volume, whereas when we say, “I            Research Council Laboratories (LADSEB-CNR and
+read this book” we are typically not talking about a          ITBM-CNR), in Pradova and Rome, OntoClean is in
+particular bound volume, but about the abstract               use in several projects including the development of
+entity that the bound volume is a manifestation of.           an upper-level ontology based on a restructuring of
+    In some linguistic ontologies, such as Mikrokosmos        WordNet, and the development of a core ontology for
+[7], we often find subsumption misused to represent           financial knowledge interchange. c
+this polysemy; the polysemous class is placed below all
+                                                              This work was partly supported by the Eureka Project IKF (E!2235, Information and
+its possible meanings in a taxonomy. This may have            Knowledge Fusion), the Italian National project TICCA (Tecnologie Cognitive per l’In-
+some linguistic motivations, but is incorrect from the        terazione e la Cooperazione con Agenti Artificiali), and a Research Committee grant
+                                                              from Vassar College.
+ontological point of view.
+    To see how this is incorrect, we can usefully employ
+identity or unity analysis. Bound volumes are identi-         References
+fied, simply, by their location in space/time, so that two     1. Guarino, N. and Welty, C. Identity and subsumption. In, R., Green, Ed.
+                                                                  Semantic Relations. Kluwer, 2001.
+bound volumes cannot occupy the same space at the              2. Guarino, N. and Welty, C. Identity, unity, and individuality: Towards
+same time. The abstract notion of book is independent             a formal toolkit for ontological analysis. In Proceedings of ECAI-2000: The
+of space and time, being identified by author, title, date,       European Conference on Artificial Intelligence. IOS Press, Berlin, Germany,
+                                                                  2000.
+and other criteria. Clearly no instance can meet both of       3. Guarino, N. and Welty, C. A formal ontology of properties. In R. Dieng,
+these identity criteria; they belong to two different             Ed., Proceedings of 12th Int. Conf. on Knowledge Engineering and Knowl-
+                                                                  edge Management, Springer Verlag, 2000.
+classes of entity, though there is a close relationship        4. Hayes, P.J. Naive physics I: Ontology for liquids. In J.R. Hobbs and R.
+between them. No book is both a bound volume and                  C. Moore, Eds. Formal Theories of the Commonsense World. Ablex, Nor-
+an abstract entity; subsumption is not polysemy.                  wood, New Jersey, 1985, pp. 71–108).
+                                                               5. Miller, G.A. WordNet: A lexical database for English. Commun. ACM,
+                                                                  38, 11 (Nov. 1995), 39–41.
+Constitution                                                   6. McCarthy, J. Circumscription—A form of non-monotonic reasoning.
+The final common misuse of subsumption is to rep-                 Art. Int. 5, 13 (1980), 27–39.
+                                                               7. Nirenburg, S., Carbonell, J., Tomita, M., and Goodman, K. Machine
+resent the fact that one thing is constituted of another.         Translation: A Knowledge-Based Approach. Morgan Kaufmann Publishers,
+In the example given during the discussion of unity,              Sant Mateo, NJ, 1992.
+                                                               8. Quine, W.V.O. Ontological Relativity and Other Essays. Columbia Uni-
+we talked about ocean being subsumed or not by                    versity Press, New York, London, 1969.
+water. We examined the unity conditions and found              9. Smith, B. and Welty, C. Formal Ontology and Information Systems. ACM
+that instances of the class water are not wholes,                 Press, 2001.
+                                                              10. Simons, P. Parts: A Study in Ontology. Clarendon Press, Oxford,1987.
+whereas instances of the class ocean are. Examples of         11. Sowa, J.F. Conceptual Structures. Information Processing in Mind and
+this abound, as between the class human and living-               Machine, Reading. Addison-Wesley, MA, 1984.
+                                                              12. Storey, V.C. Understanding semantic relationships. Very Large Databases
+matter, or between company and group-of-people. In                J. 2 (1993), 455–488.
+each case, one class of entities is constituted of entities
+in the other class, but not subsumed by it; subsump-
+                                                              Nicloa Guarino (guarino@ladseb..pd.cnr.it) is a senior research
+tion is not constitution.                                     scientist at the Institute for System Theory and Biomedical Engineering
+                                                              of the Italian National Research Council (LADSEB-CNR) in Padova,
+Conclusion                                                    Italy.
+The OntoClean methodology is in use in several                Christopher Welty (welty@cs.vassar.edu) is an assistant professor
+                                                              of computer science at Vassar College in Poughkeepie, NY.
+places. OntologyWorks (www.ontologyworks.com)
+has designed a system that automates checking con-
+                                                              Permission to make digital or hard copies of all or part of this work for personal or class-
+sistency of ontologies once their formal metaproper-          room use is granted without fee provided that copies are not made or distributed for
+ties have been expressed. They use the OntoClean              profit or commercial advantage and that copies bear this notice and the full citation on
+                                                              the first page. To copy otherwise, to republish, to post on servers or to redistribute to
+methodology to perform a variety of commercial                lists, requires prior specific permission and/or a fee.
+database integration tasks. Document Development
+Corporation (www.docdev.com) uses OntoClean as
+part of the knowledge engineering process for captur-         © 2002 ACM 0002-0782/02/0200 $5.00
+
+
+
+                                                                        COMMUNICATIONS OF THE ACM February 2002/Vol. 45, No. 2                      65
+

@@ -1,0 +1,835 @@
+
+
+  
+
+    NL GOV profile for CloudEvents | Forum Standaardisatie
+
+    
+
+  
+
+    
+      Skip links
+      Overslaan en naar de inhoud gaan
+      Overslaan en naar de hoofdnavigatie gaan
+
+    
+
+    
+
+        
+
+    
+
+        
+
+    
+
+                    
+
+        
+
+                
+
+                    
+
+                            Home
+
+                        
+
+                            
+                                Menu
+
+                        
+
+                    
+
+                        
+
+                            
+
+                                    
+
+        
+
+      
+Hoofdnavigatie
+
+          
+
+                    
+
+                          Introductie
+
+                    
+
+                          Wat zijn standaarden?
+
+                
+
+                          Wat zijn de verplichtingskaders?
+
+                
+
+                          Wat moet ik doen?
+
+                
+
+                          Publicaties
+
+        
+
+              
+
+                          Lijst open standaarden
+
+                    
+
+                          'Pas toe of leg uit'-standaarden
+
+                
+
+                          Aanbevolen standaarden
+
+                
+
+                          Beslisboom 'Pas toe of leg uit'-lijst
+
+                
+
+                          Standaarden aanmelden
+
+        
+
+              
+
+                          Onderwerpen
+
+                    
+
+                          Bestuur en recht
+
+                
+
+                          Bouwen en wonen
+
+                
+
+                          Internationale standaardisatie
+
+                
+
+                          Openbaar en toegankelijk
+
+                
+
+                          Schoon water en beschermde bodem
+
+                
+
+                          Uitwisselingsfundament
+
+                
+
+                          Veilig internet
+
+        
+
+              
+
+                          Metingen
+
+                    
+
+                          Monitor Open Standaarden
+
+                
+
+                          Informatieveiligheidstandaarden
+
+                
+
+                          Zelf meten
+
+        
+
+              
+
+                          Over ons
+
+                    
+
+                          Forumleden
+
+                
+
+                          Medewerkers
+
+                
+
+                          Vergaderingen en stukken
+
+                
+
+                          Contactgegevens
+
+        
+
+              
+
+  
+
+  
+
+                            
+
+                        
+                            Sluit
+
+                    
+
+                    
+
+                        
+
+                                Voer uw zoekterm in
+
+                            
+
+                                Zoeken
+
+                        
+
+                
+
+        
+
+                    
+
+      
+
+          
+
+  
+
+  
+
+  
+
+    
+
+  
+
+  
+
+          
+
+        
+
+    
+
+    
+
+            
+            Kruimelpad
+
+                
+
+                    
+
+                                
+
+      
+
+            
+
+                        Forum Standaardisatie
+
+      
+
+                        Lijst open standaarden
+
+      
+
+              NL GOV profile for CloudEvents
+
+  
+
+          
+
+                    
+
+            
+
+    
+
+    
+
+        
+
+                      
+
+    
+
+      
+
+          
+
+    
+Forum Standaardisatie werkt met de beheerder van het Kennismodel Forum Standaardisatie (FSKM) op de NORA-wiki aan de automatische import van de metagegevens van de registraties die daar zijn gepubliceerd (source of truth) naar de website van Forum Standaardisatie. Voor nu is de volledige registratie terug te vinden op NL GOV profile for CloudEvents - NORA Online.
+
+          
+
+    
+
+    
+
+            
+
+NL GOV profile for CloudEvents
+
+        
+
+    
+
+      
+
+          
+
+  
+
+          
+
+            
+
+    
+
+      
+
+Inhoudsopgave
+
+          
+
+            
+
+    
+
+      
+
+          
+
+    
+
+Content
+
+    
+
+      
+
+    
+
+    
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Status
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Lijst status
+
+                    
+
+    
+
+        Meer informatie over 
+
+Status
+
+    
+
+    
+
+                    
+
+‘Verplicht ('Pas toe of leg uit’)' betekent dat de standaard verplicht moet worden uitgevraagd en toegepast volgens de Instructie rijksdienst bij aanschaf ICT-diensten of ICT-producten.
+
+‘Aanbevolen’ betekent dat dit een gangbare of opkomende standaard is waarvan het Forum Standaardisatie het gebruik aanbeveelt.
+
+‘In behandeling’ betekent dat de standaard wordt getoetst voor opname op een van de lijsten.
+
+‘Archief’ betekent dat de standaard in het verleden op de lijst heeft gestaan of in behandeling is geweest en nu niet (meer) verplicht of aanbevolen wordt.
+
+            
+
+            
+
+    
+
+                                    
+
+Verplicht ('Pas toe leg uit')
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Detailinformatie
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Volledige naam
+
+  
+
+    
+
+                                    
+
+NL GOV profile for CloudEvents
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Versie
+
+  
+
+    
+
+                                    
+
+1.1
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Specificatiedocument
+
+  
+
+    
+
+                                    
+
+NL GOV profile for CloudEvents 1.0
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Beheerorganisatie
+
+  
+
+    
+
+                                    
+
+Logius
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+Toetsingsinformatie
+
+  
+
+    
+
+                                    
+
+          
+
+    
+
+    
+
+Datum van aanmelding
+
+  
+
+    
+
+                                    
+
+22-08-2024
+
+                                
+
+  
+
+      
+
+                                        
+
+          
+
+    
+
+    
+
+                    Intakeadvies
+
+  
+
+    
+
+    20241204-intakeadvies-NL-GOV-profile-for-CloudEvents.pdf
+
+            PDF Document | 185.03 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    expertadvies
+
+  
+
+    
+
+    20250619-Expertadvies-NL-GOV-profile-for-CloudEvents.pdf
+
+            PDF Document | 315.28 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Consultatie
+
+  
+
+    
+
+    20250815-verslag-reacties-consultatie-NL-GOV-profile-for-CloudEvents.pdf
+
+            PDF Document | 153.56 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Forumadvies
+
+  
+
+    
+
+    20250924-Forumadvies-NLGov-profile-for-CloudEvents-def.pdf
+
+            PDF Document | 209.53 KB
+
+            
+
+  
+
+                                        
+
+          
+
+    
+
+    
+
+                    Versiewijziging
+
+  
+
+    
+
+    20260323-Versiewijziging-NL-GOV-CloudEvents-naar-versie-1.1-uitstekend-beheer.pdf
+
+            PDF Document | 66.51 KB
+
+            
+
+  
+
+                                
+
+  
+
+      
+
+                                
+
+  
+
+  
+
+  
+
+          
+
+        
+
+    
+
+    
+
+            
+
+                        
+
+      
+
+          
+
+                                    
+Naar boven
+
+Print
+
+Mastodon
+
+Codeplatform
+
+LinkedIn
+
+            
+
+            
+
+    
+
+    
+
+            
+                Standaard Samenwerken
+
+        
+
+    
+
+        
+
+                
+
+        
+
+      
+Voet
+
+          
+
+                          
+
+                        
+Standaarden
+
+                    
+
+                        Lijst open standaarden
+
+                
+
+                        Veelgestelde vragen
+
+        
+
+              
+
+                        
+Organisatie
+
+                    
+
+                        Forum Standaardisatie
+
+                
+
+                        Publicaties  
+
+                
+
+                        Vergaderingen en -stukken
+
+                
+
+                        Contact
+
+        
+
+              
+
+                        
+Over deze site
+
+                    
+
+                        Toegankelijkheid
+
+                
+
+                        Kwetsbaarheid melden
+
+                
+
+                        Cookies
+
+                
+
+                        Copyright
+
+                
+
+                        Open data
+
+                
+
+                        Archief website
+
+        
+
+              
+
+                        
+International
+
+                    
+
+                        Standardisation Forum (English)
+
+                
+
+                        Contact (English)
+
+        
+
+              
+
+  
+
+  
+
+        
+
+  
+
+    
+
+  
+

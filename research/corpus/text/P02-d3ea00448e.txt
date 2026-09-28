@@ -1,0 +1,165 @@
+Master Data Management for SaaS Applications
+
+Skip to main content
+IBM Redbooks 
+
+Browse by Domain
+
+Training
+
+About Redbooks
+focus trapping button
+focus trapping button
+Back
+Browse by Domain
+
+IT Infrastructure
+
+Hybrid Cloud
+
+Storage
+focus trapping button
+focus trapping button
+Back
+Training
+Would you like to join a team writing IBM Redbooks?
+Be an Author
+Digital Badges
+Systems Technical Eventsfocus trapping button
+focus trapping button
+Back
+About Redbooks
+What we do
+Copyright information
+Newsletter
+Contact usfocus trapping button
+focus trapping button
+Back
+IT Infrastructure
+IBM Z
+IBM Z software
+LinuxONE
+Power
+Red Hat
+Spectrum Computingfocus trapping button
+focus trapping button
+Back
+Hybrid Cloud
+Cloud
+Cloud Storage
+Data and AI
+IBM Cloud Paks
+Securityfocus trapping button
+focus trapping button
+Back
+Storage
+Storage hardware
+Storage software
+Storage solutionsfocus trapping button
+focus trapping button
+Back
+Be an Author
+focus trapping button
+focus trapping button
+Back
+Digital Badges
+focus trapping button
+focus trapping button
+Back
+Systems Technical Events
+focus trapping button
+focus trapping button
+Back
+What we do
+focus trapping button
+focus trapping button
+Back
+Copyright information
+focus trapping button
+focus trapping button
+Back
+Newsletter
+focus trapping button
+focus trapping button
+Back
+Contact us
+focus trapping button
+
+IBM Redbooks 
+
+Browse by Domain
+
+IT InfrastructureIBM ZIBM Z softwareLinuxONEPowerRed HatSpectrum Computing
+
+Hybrid CloudCloudCloud StorageData and AIIBM Cloud PaksSecurity
+
+StorageStorage hardwareStorage softwareStorage solutions
+Training
+Be an Author
+Digital Badges
+Systems Technical Events
+About Redbooks
+What we do
+Copyright information
+Newsletter
+Contact us
+
+Open IBM search field
+Clear input
+
+IBM Redbooks
+Master Data Management for SaaS Applications
+An IBM  Redbooks publication
+
+ 
+
+Published on 20 October 2014
+.EPUB (2.6 MB)
+.PDF (3.3 MB)Read in Google Books Order hardcopyShare this page: 
+ 
+
+ 
+
+ISBN-10: 0738440043
+ISBN-13: 9780738440040
+IBM Form #: SG24-8220-00
+Authors:  Whei-Jen Chen, Bhavani Eshwar, Ramya Rajendiran, Shettigar Srinivas, Manjunath B Subramanian and Bharathi Venkatasubramanian
+
+undefined ...menu icon
+
+Abstract
+
+Enterprises today understand the value of employing a master data management (MDM) solution for managing and governing mission critical information assets. chief data officers and chief information officers drive MDM initiatives with IBM® InfoSphere® Master Data Management to improve business results and operational efficiencies, which can help to lower costs and to reduce the risk of using untrusted master information in business process. Cloud computing introduces new considerations where enterprise IT architectures are extended beyond the corporate networks into the cloud.
+
+Many enterprises are now adopting turnkey business applications offered as software as a service (SaaS) solutions, such as customer relationship management (CRM), payroll processing, human resource management, and many more. However, in the context of MDM solutions, many organizations perceive risks in having these solutions deployed on the cloud. In some cases, organization are concerned with the legal restrictions of deploying solutions on the cloud, whereas in other cases organizations have policies and strategies in force that limit solution deployment on the cloud.
+
+Immaterial of what all the cases might be, industry trends point to a prediction that many "extended enterprises" will keep MDM solutions on premises and will want its integrations with SaaS applications, specifically customer and asset domains. This trend puts a key focus on an important component in the solution construct, that is, the cloud integration middleware and how it fits with hybrid cloud architectures that span on premises and cloud services. As this trend pans out, the on-premises MDM solution integration with SaaS applications will be the key pain point for the "extended enterprise."
+
+This IBM Redbooks® publication provides guidance to chief data officers, chief information officers, MDM practitioners, integration architects, and others who are interested in the integration of IBM InfoSphere Master Data Management with SaaS applications. This book lays the background on how mastering and governance needs for SaaS applications is quite similar to what on-premises business applications would need. It draws the perspective for serving the on-premises application and the SaaS application with the same MDM hub. This book describes how IBM WebSphere® Cast Iron® Cloud Integration can serve as the "de-facto" cloud integration middleware to integrate the on-premises InfoSphere Master Data Management systems with any SaaS application by using Saleforce.com integration as an example. This book also covers aspects of handling bulk operations with IBM InfoSphere Information Server.
+
+After reading this book, you will have a good understanding about the considerations for on-premises InfoSphere Master Data Management integration with SaaS applications in general and Salesforce.com in particular.
+
+The MDM practitioners and integration architects will understand the deployable integrations patterns and, in general, will be able to effectively contribute to delivering strategies that involve building solutions in this area. Additionally, SaaS vendors and customers looking to build or implement SaaS solutions that might require trusted master information will be able to use this compilation to ensure that the right architecture is put together and adhered to as a set of standard integrations patterns with all the core building blocks is essential for the longevity of a solution in this space.
+Table of Contents
+
+Chapter 1. Introduction
+
+Chapter 2. MDM solution readiness to participate in integrations with SaaS applications
+
+Chapter 3. Middleware considerations for integration
+
+Chapter 4. Solution architecture
+
+Chapter 5. A sample InfoSphere MDM and SaaS application integration scenario
+
+Chapter 6. Putting it all together
+
+Chapter 7. Handling integrations with other SaaS applications 
+Related publications
+
+IBM InfoSphere Master Data Management Integration with SaaS Applications using WebSphere Cast Iron Cloud
+
+Broker Software and Cloud Services with IBM Cloud Brokerage
+
+IBM Storage Protect for Cloud: Safeguarding Critical SaaS Environments
+

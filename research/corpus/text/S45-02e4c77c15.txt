@@ -1,0 +1,698 @@
+                     04
+                      FEBRUARY
+                      2025
+
+
+
+
+Webinar on DCAT-AP
+         01   We l c o m e
+
+
+         02   S t a t u s D C AT - A P
+
+
+
+         03   E x p e c te d u s e o f c o n t ro l l e d v o c a b u l a r i e s
+Agenda
+         04   A l i g n m e n t i s s u e s w i t h G e o D C AT - A P
+
+
+
+         05   Open issues
+
+
+
+         06   H a n d l i n g c h a n ge s i n e x te r n a l v o c a b u l a r i e s
+
+
+
+         07   Wra p u p a n d n e x t ste p s
+                        Audio
+
+
+
+
+Workshop
+practicalities   Chat
+
+
+
+
+                 Recording
+Context of the SEMIC
+assets
+Introduction to SEMIC
+
+The objectives of the SEMIC action is to promote Semantic Interoperability amongst the EU
+Member States by:
+
+        Promoting, share and reuse of semantic assets, experience and tools and facilitating
+        agreements in key areas.
+
+        Identifying opportunities for alignment on semantic definitions, metadata and reference
+        data sources with special focus on identification and definitions of Core Concepts /
+        Vocabularies.
+
+        Raising awareness on the importance of data and metadata management.
+SEMIC specifications
+
+
+
+
+   A person’s name(s),        The legal name,         The different ways of    The requirements       The administrative        A public event, its
+     date and place of       address, identifier,     describing a location,   and evidence of a   information, hierarchy,       time, audience,
+  birth/death, identifier,   company type, and        e.g. via an address, a     procedure or       identifiers, events and       location, etc.
+  addresses, citizenship,    activities of a legal   geographic name, or a      formal process.    classification of a public
+           etc.                     entity.          geometry, in alignment                              organisation.
+                                                          with INSPIRE.
+Vocabularies
+
+Application Profiles
+Objective of the webinar
+
+     •   Address several key topics related to DCAT-AP
+          • Address the status of DCAT-AP: Overview of the outstanding issues and their
+             resolution.
+          • Specify the expected use of controlled vocabularies.
+          • Discuss open issues related to the alignment with GeoDCAT-AP.
+          • Introduce open issues for which community feedback is requested.
+          • Handle changes in external vocabularies.
+Status of GitHub issues
+Description
+
+
+
+GitHub issue breakdown
+
+• 43 Open issues
+Of which:
+• 6 bugs
+• 10 generic questions for information
+• 7 feedback requested (8)
+
+
+
+
+              Draft release: https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/3.0.1-draft/
+Release Plan
+Goal of the next releases
+
+
+
+
+                               Bugfix release             Minor release
+       3.0.0                        3.0.1                      3.1.0
+
+                                  Q2 2025                    Q4 2025
+
+
+ Most of the issues can be resolved within bugfix release.
+ Some choices may require a minor release
+
+
+
+
+               Draft release: https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/3.0.1-draft/
+Codelists
+Motivation
+
+
+Slides have been presented during GeoDCAT-AP webinar 14th May 2024.
+• (Geo)DCAT-AP community agreed with the general proposal
+• Missing a concrete proposal for the qualifications for DCAT-AP codelists
+
+Objective today:
+• Re-establish the understanding of the different qualifications
+• Agree on a concrete proposal for DCAT-AP
+Codelist Qualifier
+Problem statement
+
+
+Establishing a common interpretation for the sentence:
+
+     “The property MUST use as range values codes from {codelist} which are transferred
+     from one specification to another.”
+
+
+
+
+ Other qualifiers (MUST, IS RECOMMENDED, MAY) and cardinalities (0..N, 1..N, 0..1, 1..1)
+Codelist Qualifier
+Problem statement
+
+
+Qualifications have impact on:
+• Profiling
+• validation
+                                              subprofile   GeoDCAT
+                                 DCAT-AP
+                                                             -AP
+
+
+
+
+                                 validation
+Codelist Example
+Example
+
+
+ns:codelist1 a skos:ConceptScheme.
+ns:codelist1 skos:prefLabel “Example Codelist1”@en.
+
+
+
+
+codelist1:x2 a skos:Concept.
+codelist1:x2 skos:prefLabel “Code x2”@en.
+codelist1:x2 skos:inScheme ns:codelist1.
+codelist1:x2 skos:topConceptOf ns:codelist1.
+Codelist Qualifier
+Example
+
+
+The property MUST use as range values codes from EU vocabularies Data theme.
+
+
+ Example 1                           Example 2                          Example 3
+ _:d dcat:theme nal:AGRI.                                               _:d dcat:theme nal:AGRI.
+                                     _:d dcat:theme inspire:au.         _:d dcat:theme inspire:au.
+Codelist Qualifier
+Example
+
+
+The property MAY use as range values codes from EU vocabularies Data theme.
+
+
+ Example 1                           Example 2                          Example 3
+ _:d dcat:theme nal:AGRI.                                               _:d dcat:theme nal:AGRI.
+                                     _:d dcat:theme inspire:au.         _:d dcat:theme inspire:au.
+Codelist Qualifier: possible outcome
+Example
+
+
+The property MUST use as range values codes from EU vocabularies Data theme.
+
+
+ Example 1                           Example 2                          Example 3
+ _:d dcat:theme nal:AGRI.                                               _:d dcat:theme nal:AGRI.
+                                     _:d dcat:theme inspire:au.         _:d dcat:theme inspire:au.
+Codelist Qualifier: possible outcome
+Example
+
+
+The property MAY use as range values codes from EU vocabularies Data theme.
+
+
+ Example 1                           Example 2                          Example 3
+ _:d dcat:theme nal:AGRI.                                               _:d dcat:theme nal:AGRI.
+                                     _:d dcat:theme inspire:au.         _:d dcat:theme inspire:au.
+Current SHACL shapes used by DCAT-AP
+
+
+:Codelist1Restriction                       :PropertyShape
+   a sh:NodeShape ;                              a sh:NodeShape ;
+   rdfs:comment “Codelist1 restriction" ;        sh:property [
+   sh:property [                                       sh:node :CodelistRestriction ;
+         sh:hasValue ns:codelist1;                     sh:nodeKind sh:IRI ;
+         sh:minCount 1 ;                               sh:path dct:subject ;
+         sh:nodeKind sh:IRI ;                          sh:severity sh:Violation
+         sh:path skos:inScheme                   ] ;
+   ] .                                           sh:targetClass dcat:Dataset.
+
+
+
+                                            In case of MANDATORY the severity is a ‘Violation’,
+                                            in all other cases the severity is a ‘Warning’.
+Multiple systems
+                                                    Specification 1
+
+
+
+                   Harvesting   Valid?   Portal A
+
+ Combined
+guidelines for
+ publishers
+
+
+
+
+                   Harvesting   Valid?   Portal B
+
+                                                    Specification 2
+Example scenario
+
+• Publisher publishes successfully for System 1.
+
+• Publisher gets request to publish on System 2.
+Multiple systems
+                                                            Specification 1
+
+
+
+                           Harvesting   Valid?   Portal A
+
+ Combined
+guidelines for
+ publishers
+
+
+
+
+Starting situation         Harvesting   Valid?   Portal B
+_:d dcat:theme nal:AGRI.
+                                                            Specification 2
+Multiple systems
+                                                              Specification 1
+
+
+
+                             Harvesting   Valid?   Portal A
+
+ Combined
+guidelines for
+ publishers
+
+
+
+
+Try replacement with value   Harvesting   Valid?   Portal B
+from other codelist
+_:d dcat:theme inspire:au.                                    Specification 2
+Multiple systems
+                                                              Specification 1
+
+
+
+                             Harvesting   Valid?   Portal A
+
+ Combined
+guidelines for
+ publishers
+
+
+
+
+Provide both values          Harvesting   Valid?   Portal B
+_:d dcat:theme nal:AGRI.
+_:d dcat:theme inspire:au.                                    Specification 2
+Typical scenario
+
+• Publisher publishes successfully for System 1.
+
+• Publisher gets request to publish on System 2.
+
+• Publisher tries with existing data on System 2 but fails.
+
+• Publisher add extra value to satisfy System 2 but the publishing on both
+  Systems fails.
+
+
+→ The codelist restriction is not additive.
+Two interpretations for mandatory codelist
+
+Interpretation 1: The value space is closed under the codelist.
+Interpretation 2: At least 1 value from the codelist.
+
+Interpretation 1
+    • Cardinality and value space constraints are independent.
+    • Restricts the freedom of compatible (sub)profiles to reenforcing the
+      cardinalities or further restricting the possible codelist values (e.g. to a single
+      value).
+
+Interpretation 2
+    • Cardinality and value space constraint are made dependent.
+    • Compatible (sub)profiles may freely add other codelist constraints.
+    • Cannot be used in case the property is optional (cardinality 0 means optional).
+Application assessment
+
+• Interpretation 1:
+    • Conformant to the way literal value spaces are expressed.
+    • Most naturally for programming languages and most software systems.
+
+• Interpretation 2:
+    • Of interest in cases where there is a need for aggregation (at the level of
+      properties) in the specification.
+Validation assessment
+
+• Interpretation 1:
+    • Existing SHACL shapes can be used as-is:
+       • Validation is simple and direct.
+   • As it is closing the value space, violations drive the feedback.
+
+• Interpretation 2:
+    • Existing SHACL shapes cannot be used as-is:
+       • requires to define a filtering process as inherent part of the processing and conformance
+         building Such filtering process is non-trivial to standardise and imposed in all
+         implementations.
+   • As it is not closing the value space, poor usages will be harder to detect.
+   • Matching SHACL shapes can be designed.
+Cross-profile assessment
+
+• Interpretation 1 is more strict than Interpretation 2.
+   o e.g.: When profiles DCAT-AP use Interpretation 2 and GeoDCAT-AP uses Interpretation 1
+     then the usage in DCAT)AP is also Interpretation 1.
+
+
+• As datasets are subject to multiple profiles, profiles influence each other.
+   o e.g.: mobilityDCAT-AP and healthDCAT-AP are siblings, but may influence eachother because
+     there are datasets that are expressed under both profiles.
+
+
+• note that this kind of influence is not limited to codelist constraints but also for
+  other constraints such as max-cardinality constraints
+
+• Conclusion: coordination is required.
+Proposal: make the interpretation explicit
+   A) The property MUST use as range values codes from {codelist}
+     = interpretation 1: The value space is closed under the codelist (validation results: violations)
+      All (sub)profiles must avoid conflicts by creating subproperties.
+
+
+   B) The property MUST have at least one value from {codelist}
+     = interpretation 2: The value space is minimally constrained (validation results: warnings)
+       All (sub)profiles must adopt this interpretation in case they want to restrict the value space.
+
+
+   C) The property IS RECOMMENDED to use as range values codes from {codelist}
+     = interpretation 1: The value space is closed under the codelist, but other values are tolerated (validation
+   results: warnings)
+
+
+   D) The property MAY use as range values codes from {codelist}
+    = interpretation 1: The value space is closed under the codelist, but other values are accepted (no
+   validation required)
+Application to DCAT-AP ( issues #316, #314)
+Application to DCAT-AP ( issues #316, #314)
+Proposition
+
+
+     MUST                      AT LEAST 1   RECOMMENDED   MAY
+     dcat:mediatype                                       dct:publisher
+     dcat:theme                                           dct:spatial
+     dct:accrualPeriodicity
+     dct:format
+     dct:language
+     Adms:status
+     dct:type (Agent Type)
+     dct:type (licence type)
+     dcatap:availability
+     spdx:algorithm
+     dct:accessRights
+                                                                     Feedback requested
+Application to DCAT-AP ( issues #407 )
+Proposition: Agreement for the green ones?
+
+
+     MUST                      AT LEAST 1    RECOMMENDED   MAY
+     dcat:mediatype                                        dct:publisher
+     dcat:theme                                            dct:spatial
+     dct:accrualPeriodicity
+     dct:format
+     dct:language
+     Adms:status
+     dct:type (Agent Type)
+     dct:type (licence type)
+     dcatap:availability
+     spdx:algorithm
+     dct:accessRights
+
+                                                                                  3.0.1
+                                                                                                         Feedback requested
+Application to DCAT-AP ( issues #408)
+Proposition: relaxation of codelists for types?
+
+
+     MUST                         AT LEAST 1                     RECOMMENDED                   MAY
+     dcat:mediatype                                              dct:type (Agent Type)         dct:publisher
+     dcat:theme                                                  dct:type (licence type)       dct:spatial
+     dct:accrualPeriodicity
+     dct:format
+     dct:language
+     Adms:status
+     dct:type (Agent Type)
+     dct:type (licence type)
+     dcatap:availability
+     spdx:algorithm                               Motivation: codelist subject to local data portal interpretation
+     dct:accessRights
+
+                                                                                                                      3.0.1
+Application to DCAT-AP ( issues #409 )
+Proposition
+
+
+     MUST                      AT LEAST 1   RECOMMENDED   MAY
+     dcat:mediatype            dcat:theme                 dct:publisher
+     dcat:theme                                           dct:spatial
+     dct:accrualPeriodicity
+     dct:format
+     dct:language
+     Adms:status
+     dct:type (Agent Type)
+     dct:type (licence type)
+     dcatap:availability
+     spdx:algorithm
+     dct:accessRights
+MUST or AT LEAST 1 for dataset theme #316
+Description
+• In the individual usage notes for dataset theme, the at least 1 formulation is used.
+• In the codelist section the must formulation is used.
+
+
+• In the practice many data portals have aligned with the EU NAL dataset theme vocabulary
+    o By extending it
+    o By mapping to it (e.g. INSPIRE)
+                                                                                                                     Feedback requested
+MUST or AT LEAST 1 for dataset theme #316
+Proposition A - MUST
+All other DCAT-AP profiles that would like to share their theme must introduce a subproperty of dcat:theme.
+dcat:theme stays paired exclusively with the EU NAL Dataset theme Vocabulary.
+Conflict stays with profiles beyond EU boundaries.
+Bug fix release of the specification
+
+Proposition B - AT LEAST 1
+All data Catalogues must adapt their uniqueness expectation in the theme property and implement a filter based on
+the theme they like to show in the UI.
+The used codelists MUST be published as proper Linked Data in the public space. To facilitate every portal to make
+easy decisions.
+Bug fix release of the specification
+
+Proposition C - Conflict free resolution
+Replace the use of dcat:theme in DCAT-AP with a subproperty of dcat:theme.
+The new property r5r:theme stays paired exclusively with the EU NAL Dataset theme Vocabulary.
+Minor release of the specification.
+
+
+                                                                                                                                  3.0.1
+Issues with
+GeoDCAT-AP alignment
+
+
+
+
+                       Not applied to the draft
+Relaxation cardinality property dct:rights
+(#370 derived from #82 GeoDCAT-AP) + #380
+Description
+In DCAT-AP dct:rights is used for Catalogue and Distribution, with cardinality 0..1.
+In GeoDCAT-AP, the cardinality was relaxed to 0..*.
+In DCAT-AP HVD, dct:rights with cardinality 0..* is uses also for Data Services.
+Motivation
+• Relaxation to 0..* was done for GeoDCAT-AP, to function as a fallback mechanism where multiple
+  statements are present, but concatenating them into one value is not desirable.
+
+
+
+Proposition
+
+Relax cardinality for dct:rights to 0..*
+everywhere in DCAT-AP.
+
+
+
+
+                                                                                                   3.0.1
+Conflicting cardinality of the spatial resolution with GeoDCAT-AP #384
+Description
+Resolution of GeoDCAT-AP revision conflicting with
+DCAT-AP 3.0
+
+Motivation
+In GeoDCAT-AP, the community agreed on
+• For Distribution, spatial resolution [0..1] represents the spatial resolution of the described file.
+• For Data Service – spatial resolution [0..*] describes the capabilities of the data service, i.e. in
+  which spatial resolutions it can serve data.
+• For Dataset – spatial resolution [0..*] describes the spatial resolution of the original data in the
+  dataset, i.e. regardless of how it is distributed using distributions.
+
+
+Proposition
+Relax the DCAT-AP 3.0 cardinality of spatial resolution for Dataset to 0..*.
+
+
+                                                                                                         3.0.1
+SHACL: Constraints on locn:geometry, dcat:bbox, and
+dcat:centroid #175, #265 GeoDCAT-AP #68
+Description                                     [] dct:spatial [ a dct:Location ;
+Current SHACL constraints allow only one          dcat:bbox """
+                                                      POLYGON((-10.58 70.09,34.59 70.09,34.59 34.56,-10.58 34.56,-10.58 70.09))
+instance of locn:geometry, dcat:bbox,               """^^gsp:wktLiteral ;
+and dcat:centroid.                                dcat:bbox """
+                                                      <gml:Envelope srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84">
+However, GeoDCAT-AP permits multiple                    <gml:lowerCorner>34.56 -10.58</gml:lowerCorner>
+                                                        <gml:upperCorner>70.09 34.59</gml:upperCorner>
+instances, representing one entity, described         </gml:Envelope>
+using different geometry encodings, e.g. WKT,       """^^gsp:gmlLiteral ;
+GML and GeoJSON, leading to SHACL                 dcat:bbox """
+                                                      {
+validation errors.                                      "type":"Polygon",
+                                                        "coordinates":[[
+                                                          [-10.58,70.09],[34.59,70.09],[34.59,34.56],
+                                                          [-10.58,34.56],[-10.58,70.09]
+                                                        ]]
+                                                      }
+                                                    """^^<gsp:geoJSONLiteral> ] ;
+Proposition
+
+ Multiple representations are allowed. Lift cardinalities to 0..* and adapt SHACL shapes.
+ Cfr. Multilingual texts
+
+                                                                                                                         3.0.1
+Issues with a feedback
+request
+New property for the typisation of data services, using an existing
+authority table #405
+Description
+DCAT-AP provides no option for Data Service
+providers to classify the type of the Data
+service.
+Motivation
+• Active community input required, now
+  and on GitHub
+• Decision to be taken in autumn 2025
+  Webinar
+Proposition
+
+Create subproperty dcatap:dataServiceType of dct:type to denote "types" of Data Services using a
+common codelist.
+This proposition is similar to the geodcatap:serviceType property introduced in GeoDCAT-AP with a codelist
+maintained by INSPIRE.
+Inclusion of dcat:DatasetSeries into dcat:Catalog #348
+Description
+How to include a dcat:DatasetSeries directly into a dcat:Catalog? In DCAT-AP 3.0.0,
+dcat:DatasetSeries is not a subclass of dcat:Dataset but of dcat:Resource, creating
+ambiguity in how to properly include it in a catalog.
+Motivation
+• An open issue on the topic exist at W3C on DCAT3
+• Decision to be taken in autumn 2025 Webinar
+Proposition
+1. No support, wait for W3C (no release)
+2. Introduce a separate r5r:datasetSeries property (equivalent to dcat:dataset or
+   dcat:service) (minor release)
+3. Replace the use of dcat:dataset and dcat:service with dcat:resource and then it is up to
+   the system to adress the expectations. (minor release)
+Changes in Checksum class in SPDX 3.0 #402
+Description
+SPDX 3.0 has been released. DCAT-AP relies on SPDX 2.0. SPDX 3.0 replaces the Checksum class with the Hash class.
+
+
+
+Motivation
+
+Specific SPDX problems:
+a) the (versionless) URIs refer to the version 2.3 version
+b) the SPDX community does not consider RDF representation as cross specification relevant.
+c) version 2.3 is not made obsolete
+
+Specific DCAT-AP problem:
+Change from version 2.3 to version 3.0 impacts DCAT-AP users without additional benefit.
+Generic problem:
+DCAT-AP relies on external vocabulary and this vocabulary deprecates the use of the terms used by
+DCAT-AP.
+Changes in Checksum class in SPDX 3.0 #402
+Description
+SPDX 3.0 has been released. DCAT-AP relies on SPDX 2.0. SPDX 3.0 replaces the Checksum class with the Hash class.
+
+Motivation
+• Active community input required, now and on GitHub
+• Decision to be taken in autumn 2025 Webinar
+
+
+Proposition
+• Option A: replace SPDX 2.3 with SPDX 3.0 (minor release)
+• Option B: do not replace SPDX 2.3 but add usage note (bug fix release)
+
+
+Agree on principle: to avoid too much impact from such dependencies apply by preference by reference with
+minimal additional requirements integration.
+Lifting the max cardinality for publisher for catalogues #386
+Description
+At most one publisher for a Catalogue is allowed. Issuer requests to lift the max cardinality.
+
+
+Motivation
+• The Pangea catalogue is jointly operated by awi.de and marum.de.
+• This limitation is problematic for catalogues maintained by multiple organizations
+
+
+
+Proposition
+Usage of foaf:Group instead if foaf:Agent for the range to bundle all members of the
+publisher group
+Earmark datasets for specific target audiences #404
+Description
+DCAT-AP provides no option for data providers to make annotations regarding the intended
+target audience of a dataset.
+
+Motivation
+Support sharing the target interest group for datasets.
+
+
+
+
+Proposition
+Target audience is a vague concept. Objective is very portal usage dependent. Therefore
+sharing it might be not informative.
+Proposal not to adopt this.
+ Property change type of Catalogue Record (issue #295)
+Description
+The label of the property change type seems not to match the definition and the mapping on
+the URI adms:status.
+
+
+Motivation
+The property indicates a change in the context of the editorial flow: the metadata of the Catalogued
+Resource has been created/updated/removed.
+History:
+• property was present since DCAT-AP 1
+• DCAT 2 provided a generic definition and in DCAT-AP 2, both have been aligned.
+Suggestions were requested:
+• Be backwards compatible
+• Proposed change in the issue is to adapt the human-readable label to status
+Proposition
+
+Since no feedback has been provided, proposal is to close the issue without consequence
+Next steps
+Next steps
+
+
+        For minor-changes intermediate release will take place in March 2025
+        For major changes release will take place in autumn 2025
+
+        DCAT-AP webinar on remaining open issues in autumn 2025
+        We will monitor the GitHub issues & ongoing GeoDCAT-AP pilot
+
+        Feedback on the open issues is requested by April 2025
+
+
+                         Please provide your additional feedback on GitHub.
+Thank you
+          (@InteroperableEU) / Twitter
+          Interoperable Europe - YouTube
+          Interoperable Europe | LinkedIn
+          DIGIT-INTEROPERABILITY@ec.europa.eu
+Stay in   https://joinup.ec.europa.eu/collection/interoperable-
+          europe/interoperable-europe
+touch
+

@@ -1,0 +1,377 @@
+notitie
+FORUM STANDAARDISATIE 6 mei 2020
+Agendapunt 3A - Forumadvies REST API Design Rules
+Nummer: FS-20200506.3A
+
+Aan:        Forum Standaardisatie
+
+Van:        Stuurgroep Open Standaarden
+
+Datum:      1 april 2020
+
+Versie:     1.0
+
+Bijlagen:   Expertadvies REST API Design Rules
+            Commentaar op de openbare consultatie REST API Design Rules
+
+1. Aanleiding en achtergrond
+Eind 2019 heeft Geonovum de standaard ´REST API Design Rules´ aangemeld voor opname op de
+‘pas toe of leg uit’-lijst door Geonovum. Deze standaard geeft een verzameling regels voor
+naamgeving en het gebruik van parameters in REST API’s. Representational state transfer (REST)
+is een ontwerpprincipe dat wereldwijd steeds meer gebruikt wordt voor het bouwen van
+programmeerinterfaces over het web (APIs). Ook de Nederlandse overheden zet steeds vaker
+REST APIs in voor het ontsluiten van data en applicaties.
+
+REST is geen standaard maar een ontwerpprincipe en laat nog veel vrijheid in het structureren van
+APIs. De REST API design rules hebben als doel om meer uniformiteit te brengen in de APIs die de
+overheid aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties
+met deze APIs te ontwikkelen.
+
+Dit document is het forumadvies voor de standaard REST API Design Rules gericht aan het OBDO
+en Forum Standaardisatie. Het beschrijft het gevolgde toetsingsproces, de conclusies van het
+expertonderzoek, de reacties ontvangen in de openbare consultatie en het resulterende advies.
+
+2. Betrokkenen en proces
+REST API Design Rules is eind oktober 2019 aangemeld voor opname op de ‘pas toe of leg uit’-lijst
+door Geonovum namens het Kennisplatform APIs. Na een kort intake onderzoek besloot het Forum
+Standaardisatie op 11 december 2019 om REST API Design Rules in behandeling te nemen.
+
+REST API Design Rules heeft een volledige toetsingsprocedure doorlopen die in paragraaf 5.2 in
+detail wordt beschreven. Bij de expertbijeenkomst waren 20 experts aanwezig van Geonovum,
+JustID, VNG, VNG/R, Kamer van Koophandel, Gemeente Delft, Gemeente Haarlem, Gemeente Den
+Haag, CBS, BKWI, Nictiz, Logius, KOOP, Open State Foundation, Kennisnet, RvIG, Pink Roccade en
+Centric. Daarnaast gaven NLnet Labs en Enable-U schriftelijk input.
+
+Op basis van de expertbijeenkomst heeft de procedurebegeleider een expertadvies opgesteld dat
+van 21 februari 2020 tot en met 20 maart 2020 ter openbare consultatie is aangeboden op de
+online consultatie website van de overheid, internetconsultatie.nl.
+
+Dit Forumadvies is samengesteld op basis van het expertadvies en de reacties ontvangen uit de
+openbare consultatie.
+
+
+
+
+                                                1
+3. Consequenties en vervolgstappen
+Het Forum Standaardisatie brengt op basis van dit Forumadvies een advies uit aan het
+Overheidsbreed Beleidsoverleg Digitale Overheid. Het Overheidsbreed Beleidsoverleg Digitale
+Overheid bepaalt uiteindelijk op basis van het advies of REST API Design Rules op de lijst met
+open standaarden wordt opgenomen met als status ‘pas toe of leg uit’.
+
+De REST API Design Rules hoeven alleen gebruikt te worden als een organisatie ervoor kiest om
+APIs te bouwen volgens het REST principe. Het op de ‘pas toe of leg uit’-lijst plaatsen van REST
+API Design Rules maakt het gebruik van REST APIs als zodanig niet verplicht.
+
+4. Gevraagd besluit
+Het Forum Standaardisatie wordt gevraagd om in te stemmen met onderstaand advies.
+
+Het Forum Standaardisatie adviseert het Overheidsbreed Beleidsoverleg Digitale Overheid (OBDO)
+om:
+1. REST API Design Rules op te nemen op de ‘pas toe of leg uit’-lijst.
+2. Het functioneel toepassingsgebied voor REST API Design Rules als volgt vast te stellen:
+   “REST API Design Rules moet worden toegepast bij het aanbieden van REST API’s ten behoeve
+   van het ontsluiten van overheidsinformatie en/of functionaliteit.”
+3. Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de
+   (semi-) publieke sector vast te stellen als organisatorisch werkingsgebied voor REST API Design
+   Rules.
+4. Ten aanzien van de adoptie van REST API Design Rules de oproepen te doen die beschreven
+   staan in paragraaf 5.5 hieronder.
+
+5. Toelichting
+5.1 Over de standaard
+De standaard REST API Design Rules schrijft een set van regels op het gebied van naamgeving en
+het gebruik van parameters voor waarmee de hele overheid op eenduidige manier REST API’s
+aanbiedt. Hiermee wordt bereikt dat de overheid op dit vlak voorspelbaar is, en ontwikkelaars
+makkelijk aan de slag kunnen en API’s kunnen consumeren en combineren, en niet geconfronteerd
+worden met verschillende, en dus niet samenhangende, manieren waarop API’s door de overheid
+aangeboden worden. Overheden die API’s aanbieden worden ontzorgd voor het generieke aspect
+van API’s aanbieden. Ze kunnen zich richten op de aspecten van API ontwerp waar hun data,
+informatie en functionaliteiten toegevoegde waarde bieden.
+
+Een application programming interface (API) is een gestructureerd en gedocumenteerd koppelvlak
+voor communicatie tussen applicaties. Je kan een API zien als een digitale stekkerdoos die
+applicaties met elkaar verbindt. Zo lang er computers zijn, bestaan er al API’s en worden er
+verschillende API technologieën gebruikt.
+
+In de laatste 10 jaar heeft Representational state transfer (REST) zich ontwikkeld tot een bepalend
+principe voor het realiseren van API’s. Zogenaamde ‘REST-API’s’ doen voor applicaties wat
+websites voor mensen doen. Websites presenteren informatie aan mensen, REST-API’s maken
+applicaties en gegevens over het Internet beschikbaar voor andere applicaties. De technologie
+achter websites en REST-API’s heeft daarom veel gemeen.
+
+Bedrijven ontsluiten gegevens en applicaties tegenwoordig meestal online via REST API’s.
+Ontwikkelaars kunnen API’s bevragen vanuit alle veel gebruikte programmeertalen en frameworks,
+zoals Python, Java, Microsoft C#, PHP. Ook Nederlandse overheden passen REST API’s toe.
+
+API’s worden gebruikt voor diverse koppelingen tussen overheden onderling, overheden en
+bedrijven en indirect tussen overheden en burgers, bijvoorbeeld via mobiele apps en webapps die
+aangeboden worden door bedrijven of overheden zelf. De aangeboden standaard heeft daarmee
+een generiek toepassingsgebied.
+
+5.2 Hoe is het proces verlopen?
+REST API Design Rules is eind oktober 2019 aangemeld voor opname op de ‘pas toe of leg uit’-lijst
+door Frank Terpstra van Geonovum namens het Kennisplatform APIs.
+
+
+                                                 2
+Voor het opstellen van het Forumadvies is de volgende procedure doorlopen:
+
+1. De procesbegeleiders en vertegenwoordiger Bureau Forum Standaardisatie hebben op 6
+   november 2019 een intakegesprek gevoerd met de indiener. Tijdens de intake is de standaard
+   getoetst op criteria voor inbehandelname en is een eerste inschatting gemaakt van de
+   kansrijkheid van de procedure. Op basis hiervan is een intakeadvies REST API Design Rules
+   samengesteld.
+2. Op basis van de intake heeft het Forum Standaardisatie op 11 december 2019 besloten de
+   aanmelding in procedure te nemen. Hierop volgend is een expertgroep samengesteld en een
+   voorzitter aangesteld.
+3. De leden van de expertgroep hebben een voorbereidingsdossier gekregen dat is samengesteld
+   met informatie uit de aanmelding en het intake onderzoek. Voorafgaand aan de
+   expertbijeenkomst heeft de expertgroep dit voorbereidingsdossier doorgenomen en
+   aandachtspunten geïdentificeerd.
+4. De expertgroep is op 30 januari 2020 bijeengekomen om de bevindingen in het algemeen en
+   de geïdentificeerde aandachtspunten in het bijzonder te bespreken. Tijdens deze bijeenkomst
+   zijn ook het toepassings- en werkingsgebied vastgesteld. Drie experts hebben schriftelijk hun
+   reactie gegeven voorafgaand aan de expertbijeenkomst.
+
+De volgende experts waren daarbij aanwezig:
+-   Antoon Bijen (JustID)
+-   Johan Boer (Vereniging van Nederlandse Gemeenten)
+-   Marcel van den Brink (Kamer van Koophandel)
+-   Benjamin Broersma (Open State Foundation)
+-   Edwin Coster (Gemeente Delft)
+-   Shinta Hadiutomo (BKWI)
+-   Alexander Henket (Nictiz)
+-   Pieter Hering (Logius)
+-   Eelco Hotting (Gemeente Haarlem)
+-   Gert Jan van der Kooij (Pink Roccade Local Government)
+-   Henri Korver (VNG Realisatie)
+-   Peter Leijnse (Logius)
+-   Rene Martinot (Centric)
+-   Bob Moget (KOOP)
+-   Arjen Monster (Gemeente Den Haag)
+-   Ronald Ossendrijver (Centraal Bureau voor Statistiek)
+-   Erwin Reinhoud (Kennisnet)
+-   Frank Terpstra (Geonovum, indiener)
+-   Egbert Verweij (RvIG)
+-   Tonkie Zwaan (BKWI)
+
+Schriftelijk hebben voorafgaand aan de bijeenkomst een reactie gegeven:
+
+-   Jascha Gregorowitsch (Enable U)
+-   Benno Overeinder (NLnet Labs)
+-   Timen Olthof (VNG)
+
+Als onafhankelijk voorzitter is opgetreden Bas van Luxemburg, hoofd Research en Development bij
+Lost Lemon. Jasper Muskiet consultant en Arjen Brienen senior consultant, hebben de procedure in
+opdracht van het Bureau Forum Standaardisatie begeleid. Redouan Ahaloui en Han Zuidweg van
+het Bureau Forum Standaardisatie waren als toehoorders bij de expertbijeenkomst aanwezig.
+
+Op basis van de expertbijeenkomst heeft de procedurebegeleider een expertadvies opgesteld dat
+van 21 februari 2020 tot en met 20 maart 2020 ter openbare consultatie is aangeboden op de
+online consultatie website van de overheid, internetconsultatie.nl.
+
+5.3 Hoe scoort de standaard op de toetsingscriteria?
+Deze paragraaf de conclusies van de experts samen over de mate waarin REST API Design Rules
+voldoen aan criteria voor opname op de ‘pas toe of leg uit’-lijst. Meer details over het
+expertonderzoek zijn te vinden in het expertadvies REST API Design Rules.
+
+
+
+
+                                               3
+Open standaardisatieproces
+De ontwikkeling en het beheer van REST API Design Rules is op een open, onafhankelijke,
+toegankelijke, inzichtelijke, zorgvuldige en duurzame wijze ingericht. Het beheer ligt nu nog bij het
+Kennisplatform API’s. Logius heeft toegezegd het beheer over te nemen wanneer de standaard op
+de ‘pas toe of leg uit’-lijst wordt opgenomen. Logius heeft voor een vergelijkbare standaard
+(Digikoppeling) het predicaat ‘uitstekend beheer’. De expertgroep vraagt extra aandacht voor een
+soepele overgang van beheer.
+
+Toegevoegde waarde
+Uit de expertbijeenkomst blijkt dat REST API Design Rules voldoende toegevoegde waarde heeft
+als standaard. De standaard heeft een aantal raakvlakken met andere standaarden (OAS, OAuth,
+Digikoppeling en ODATA). De experts hebben daarom geadviseerd aan het Forum Standaardisatie
+om duidelijkheid te geven over de samenhang tussen verschillende standaarden rond API’s,
+eventueel middels een beslisboom.
+
+Draagvlak
+De expertbijeenkomst laat voldoende draagvlak voor REST API Design Rules zien. De expertgroep
+adviseert de Werkgroep API Design Rules om te werken aan verdere inhoudelijke ontwikkeling van
+de standaard om deze volwassener te maken en openstaande technische ‘issues’ weg te werken.
+
+Opname bevordert de adoptie
+Een overtuigende meerderheid (17 van de 20) van de experts stemt ermee in dat opname op de
+lijst nodig is om verder gebruik te stimuleren. De experts vragen daarbij wel aandacht voor de
+volwassenheid van de standaard, maar zijn het eens dat REST API Design Rules nu verplicht moet
+worden om wildgroei van REST API’s te voorkomen op een moment dat deze sterk in opkomst zijn.
+
+Een drietal experts van JustID, NICTIZ en KOOP gaven argumenten om REST API Design Rules
+niet op de ‘pas toe of leg uit’-lijst maar op de lijst aanbevolen standaarden te plaatsen. Deze
+argumenten hadden te maken met de technische volwassenheid van de standaard, de sterke JSON
+oriëntatie en het feit REST API Design Rules niet compatibel is met internationale API’s die in de
+zorgsector gebruikt worden.
+
+De experts hebben uitgebreid gesproken over de vraag of de REST API Design Rules daadwerkelijk
+een standaard is, of meer gezien moet worden als een verzameling beste practices. De experts
+waren het erover eens dat:
+
+    1. REST API Design Rules de interoperabiliteit van de digitale overheid bevorderen,
+    2. REST API Design Rules eenduidig geïmplementeerd en uitgevraagd kunnen worden,
+    3. de toepassing van REST API Design Rules kwantificeerbaar is.
+
+Als zodanig concludeerden de experts REST API Design Rules te kwalificeren als standaard.
+
+5.4 Wat is de conclusie van de expertgroep en de consultatie?
+Conclusie van het expertonderzoek
+De experts adviseren om de standaard REST API Design Rules op te nemen op de ‘pas toe of leg
+uit’-lijst.
+
+Analyse van reacties uit de openbare consultatie
+Tijdens de openbare consultatie zijn in totaal elf reacties binnen gekomen. Zeven reacties kwamen
+vanuit (semi) overheidspartijen, een reactie van een leverancier en drie reacties van particulieren.
+en drie reacties van particulieren. Bij de kritischer reacties hebben wij aantekeningen toegevoegd
+om de reactie nader te duiden.
+
+    -   De VNG Adviescommissie Archieven benadrukt nogmaals haar steun voor deze
+        standaard.
+
+    -   De Unie van Waterschappen deelt mee geen bezwaar te hebben tegen opname op de
+        ‘pas toe of leg uit’-lijst van REST API Design Rules.
+
+    -   De Kamer van Koophandel geeft aan het eens te zijn met de REST API Design Rules.
+
+
+
+                                                 4
+-   PinkRoccade Local Government voegt graag nog twee adviezen toe
+
+       o   Aan het Forum Standaardisatie om duidelijkheid te geven over eventuele
+           consequenties voor bestaande standaarden als gevolg van het gebruik van REST
+           API's. Met name de eventuele consequenties voor Digikoppeling. Aantekening: de
+           consequenties voor Digikoppeling staan beschreven in paragraaf 5.1.2.2 van het
+           expertadvies. In 2018 is voor de standaard Digikoppeling al geadviseerd om de
+           ontwikkeling rond API’s te monitoren. We nemen als additioneel advies op om de
+           samenhang tussen Digikoppeling en REST API Design Rules duidelijk te maken,
+           aanvullend op het advies om de samenhang van alle standaarden rondom API’s te
+           verduidelijken.
+
+       o   Aan het Forum Standaardisatie om in samenwerking met Kennisplatform API’s
+           Geonovum en Logius om een geautomatiseerde controle van gespecificeerde API’s
+           tegen de REST API Design Rules mogelijk te maken. Aantekening: we hebben de
+           indiener gevraagd hierop te reageren en SMART te maken wanneer deze
+           geautomatiseerde controle in gebruik kan worden genomen. Ook is VNG realisatie
+           aan het kijken wat ze op basis van hun API testplatform kunnen doen.
+
+-   De Rijksdienst voor het wegverkeer (RDW) deelt het advies voor opname niet.
+
+       o   De RDW heeft veel te maken met buitenlandse partijen waarbij de API
+           implementaties kunnen conflicteren met deze standaard. Aantekening: de REST
+           API Design Rules zijn gebaseerd op internationaal gangbare standaarden (5.1.2.4).
+           Mocht dit toch conflicteren in de toepassing richting buitenlandse partijen, is dat
+           een valide reden (‘leg uit’) om deze standaard niet toe te passen.
+
+       o   De RDW benadrukt dat duidelijk moet zijn wanneer welke standaard van
+           toepassing is en REST API Design Rules de standaard Digikoppeling niet moet
+           vervangen. Aantekening: het is van belang om duidelijkheid te verschaffen dat
+           REST API Design Rules alleen moeten worden toegepast als een organisatie ervoor
+           kiest om REST APIs te gebruiken. Plaatsing van REST API Design Rules op de ‘pas
+           toe of leg uit’-lijst verplicht niet het gebruik van REST APIs.
+
+-   Vanuit het Ministerie van Infrastructuur en Waterstaat geven de onderdelen ILT, DCI
+    en RWS aan blij te zijn met deze standaard.
+
+-   Vanuit DCI (onderdeel ministerie IenW) wordt gevraagd waarom provincies niet deel
+    hebben genomen. Aantekening: de procedurebegeleider heeft provincies uitgenodigd voor
+    de expertbijeenkomst, maar deze kozen ervoor om niet deel te nemen.
+
+-   Rijkswaterstaat (RWS) vraagt verheldering over de huidige API’s die bestaan.
+    Aantekening: De ‘pas toe of leg uit’-verplichting is gekoppeld aan het moment van
+    aankoop of nieuwe investering. API Design Rules hoeven dus niet worden toegepast op
+    bestaande REST APIs.
+
+-   RWS wijst op mogelijke conflicten met de DSO REST API standaard. Aantekening: deze
+    zijn besproken in de expertgroep en er bestaat geen conflict met de REST API Design
+    Rules.
+
+-   RWS geeft tot slot een aantal punten ter overweging mee. Deze zijn meegegeven aan de
+    indiener van de standaard:
+
+       o   de Engelse taal als uitgangspunt te nemen zodat ook niet-Nederlandse
+           medewerkers gebruik kunnen maken van de standaard. Aantekening: de API
+           Strategie is opgenomen dat bij de specificatie Nederlandse woorden gebruikt
+           worden, tenzij er een officiële Engelse woordenlijst is. De reden hiervoor is dat bij
+           APIs van de overheid de achterliggende informatie modellen vaak in het
+           Nederlands opgesteld zijn. De stelregel is dat aanbieden in het Engels mag als er
+           een duidelijke vertaling van de belangrijke begrippen is.
+
+       o   De API Strategie waar deze standaard onderdeel van is bij RWS voorligt om te
+           adopteren.
+
+       o   De standaard ook goed gebruikt kan worden in combinatie met OAuth en JSON
+           web tokens. Aantekening: het in kaart brengen van samenhang en raakvlakken
+           tussen de standaarden is als advies meegegeven aan het Forum Standaardisatie
+
+
+                                             5
+           o   REST API Design Rules gaan voor op OAS3. Wij zien de standaarden als
+               complementair aan elkaar. Aantekening: REST API Design Rules vereisen het
+               gebruik van OAS als format waarin je documentatie vastlegt. De standaarden
+               vullen elkaar aan en een keuze tussen de een of de ander is niet aan de orde.
+
+Drie personen hebben op persoonlijke titel reacties ingediend:
+
+Twee personen geven aan de opname op de lijst te onderschrijven. Wel geeft één persoon aan het
+functioneel toepassingsgebied aan te willen passen om te voorkomen dat REST API’s verplicht
+worden. Aantekening: het functioneel toepassingsgebied stelt dat een organisatie REST API Design
+Rules alleen moet toepassen als ervoor wordt gekozen om REST APIs te gebruiken. De REST API
+Design Rules verplichten niet het gebruik van REST APIs. Opname van REST API Design Rules op
+de ‘pas toe of leg uit’-lijst leidt niet tot verplichting van REST APIs.
+
+Eén persoon vraagt aandacht voor de samenhang met REST JSON. Ook geeft hij aan dat voor de
+toekomst ook nagedacht kan worden om te adviseren GraphQL daar bovenop te gebruiken en
+doorgifte in XML optioneel te maken. Aantekening: de indiener ziet JSON in relatie tot REST als
+één van de beoogde extensies. Ook is GRAPHQL verkennen en expliciet maken één van de doelen
+van het Kennisplatform APIs voor 2020. Verder wordt aan het Forum geadviseerd om duidelijkheid
+te geven over de samenhang van verschillende al geplaatste standaarden die over API’s gaan.
+
+Tot slot vroeg een particulier om begrijpelijker taalgebruik in het expertadvies. We nemen dit
+advies mee.
+
+5.5 Welke additionele adviezen zijn er ten aanzien van de adoptie
+van de standaard?
+De expertgroep adviseert het Forum Standaardisatie en OBDO om bij de opname op de ‘pas toe of
+leg uit’-lijst de volgende oproepen ten aanzien van de adoptie van REST API Design Rules te doen:
+   •   Aan de indiener om de naam van de standaard van ‘API Design Rules’ te veranderen in
+       ‘REST API Design Rules’. De stuurgroep van het Kennisplatform API’s is hiermee akkoord
+       en deze wijziging is inmiddels doorgevoerd.
+
+   •   Aan Forum Standaardisatie om duidelijkheid te geven over de samenhang tussen
+       verschillende standaarden –met name de samenhang tussen StUF en standaarden
+       gerelateerd aan API’s– eventueel door het publiceren van een beslisboom.
+
+   •   Aan Logius (beheerder Digikoppeling) om expliciet aandacht te geven aan de samenhang
+       en transitie van Digikoppeling en REST API Design Rules.
+
+   •   Aan Logius als toekomstig beheerorganisatie om te waken voor een evenredige
+       vertegenwoordiging van verschillende disciplines (zoals ontwikkelaars, ontwerpers,
+       architecten en beleidsmakers) in de werkgroep bij het ontwikkel- en beheerproces van de
+       standaard.
+
+   •   Aan de Werkgroep API Design Rules van het Kennisplatform APIs om te werken aan
+       verdere inhoudelijke ontwikkeling van de standaard om deze volwassener te maken en
+       openstaande technische ‘issues’ weg te werken. Het Kennisplatform APIs heeft toegezegd
+       hier zo snel mogelijk mee aan de slag te gaan.
+
+6. Referenties
+   [1] Intakeadvies REST API Design Rules
+
+   [2] Expertadvies REST API Design Rules
+
+   [3] Reacties uit de consultatieronde
+
+
+
+
+                                                 6
+

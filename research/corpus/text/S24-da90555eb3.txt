@@ -1,0 +1,839 @@
+Forumadvies MDTO
+
+ Vergadering:               Forum Standaardisatie woensdag 10 december 2025
+
+ Agendapunt:                3A
+
+ Documentnummer:            3A
+
+ Aan:                       Forum Standaardisatie
+
+ Van:                       Stuurgroep Open Standaarden
+
+ Datum:                     28 november 2025
+
+ Bijlagen:                  Intakadvies MDTO
+                            Expertadvies MDTO
+                            Verslag reactie(s) internetconsultatie MDTO
+
+ Rechten                    CC0 publieke domein verklaring
+
+
+
+1 Advies
+Het Forum Standaardisatie adviseert om MDTO te verplichten (‘Pas toe of leg uit’-
+verplichting) via plaatsing op de ‘Pas toe of leg uit’-lijst van het Forum Standaardisatie.
+
+Het voorgestelde functioneel toepassingsgebied voor MDTO is:
+
+        MDTO moet worden toegepast bij de metadatering van overheidsinformatie
+        ten behoeve van duurzame toegankelijkheid. Dit betreft metagegevens over
+        informatieobjecten en hun representaties, die nodig zijn om de daarin
+        vervatte overheidsinformatie vindbaar, beschikbaar, leesbaar, betrouwbaar,
+        interpreteerbaar en toekomstbestendig te houden, binnen de context van
+        informatiebeheerprocessen registreren, vernietigen, bewaren, beschikbaar
+        stellen en migreren.
+
+Metagegevens voor duurzaam toegankelijke overheidsinformatie (MDTO) is een standaard
+voor het eenduidig vastleggen en uitwisselen van metagegevens om de duurzame
+toegankelijkheid van overheidsinformatie mogelijk te maken. Voor de volledigheid, met
+‘duurzaam’ wordt in dit expertadvies bedoeld: ‘lange termijn’ (informatie vindbaar,
+beschikbaar, leesbaar, betrouwbaar, interpreteerbaar en toekomstbestendig houden), en
+niet: ‘ecologische duurzaamheid’ (o.a. green IT-beweging).
+In de rest van dit document wordt dit advies nader onderbouwd. Hoofdstuk 2 geeft een korte
+uitleg van het nut en belang van de standaard. Hoofdstuk 3 beschrijft het proces waarmee dit
+advies tot stand kwam, alsmede de vervolgstappen. Hoofdstuk 4 beschrijft de resultaten van
+de toetsing van de standaard op de inhoudelijke hoofdcriteria. Tot slot geeft hoofdstuk 5
+aanvullende adviezen om de adoptie van de standaard te stimuleren. Het Forum
+Standaardisatie is voornemens om een jaar na plaatsing van MDTO de opvolging van deze
+adviezen te evalueren.
+
+
+2 Korte beschrijving van de standaard
+2.1 Over de standaard
+Metagegevens voor duurzaam toegankelijke overheidsinformatie (MDTO) is een standaard
+voor het eenduidig vastleggen en uitwisselen van metagegevens tussen organisaties om de
+duurzame toegankelijkheid van overheidsinformatie mogelijk te maken. Het Nationaal Archief
+(NA) gebruikt zelf het begrip 'norm' voor MDTO waar het Forum Standaardisatie (en andere
+partijen) het begrip 'standaard' hanteert. Het NA geeft op de website een uitleg aan de eigen
+toepassing van het begrip 'norm'.
+
+MDTO gaat over een specifieke set van metadata voor overheidsinformatie, die vaak (hoewel
+niet altijd) al beschreven is met bestaande informatie- en gegevensmodellen, die voldoen aan
+bestaande standaarden voor informatie- en gegevensmodellering. MDTO voegt hier een
+specifieke set van metadata aan toe, ten behoeve van duurzame toegankelijkheid. MDTO is
+hiermee nadrukkelijk niet bedoeld als vervanger voor de andere metagegevensstandaarden.
+Elke standaard heeft zijn eigen toepassingsgebied en doel en is als zodanig onmisbaar naast
+MDTO. Veel van deze metagegevens dragen ook bij aan de vindbaarheid en
+interpreteerbaarheid van informatie. Een belangrijk hulpmiddel hierbij is het zogenoemde
+koppelvlak. Dit is een technische voorziening die ervoor zorgt dat verschillende
+informatiesystemen gegevens met elkaar kunnen uitwisselen. Daarnaast kan het gebruikers
+toegang bieden tot informatie uit die systemen, bijvoorbeeld via een website.
+
+MDTO bestaat uit de modules die samen de standaard MDTO vormen. Daarnaast heeft MDTO
+ondersteunende modules (ook wel handreikingen) en ondersteunende bijlages. De
+ondersteunende modules en bijlages zijn te vinden in het specificatiedocument. Het Nationaal
+Archief meldt de volgende modules van MDTO aan om te verplichten (‘Pas toe of leg uit’) aan
+de overheid, als de standaard MDTO:
+
+   •   Metagegevensschema: Beschrijving van de structuur, de relaties en betekenis van de
+       metagegevens, en de waarden die zijn toegestaan.
+   •   Begrippenlijsten: Specificatie van de begrippenlijsten die binnen het
+       metagegevensschema gebruikt worden om de mogelijke waarden van bepaalde
+       metagegevens aan te geven.
+   •   XML-schema: Beschrijving van de XML-syntax waarin de metagegevens conform het
+       metagegevensschema uitgewisseld worden. In de vorm van een XML Schema
+       Definition (XSD), als tekst en als HTML, met daarbij een toelichting en voorbeelden.
+                                           2 van 19
+   •   Specificatie Submission Information Package: beschrijving van de Submission
+       Information Package. Een Submission Information Package (SIP) is een verzameling
+       informatieobjecten met bijbehorende representaties en metagegevens. Een SIP is
+       bedoeld om informatieobjecten uit te wisselen tussen informatiesystemen.
+   •   Definitie van MDTO-conform: Uitleg wanneer een informatiesysteem aan MDTO
+       voldoet. Er zijn twee niveaus van MDTO-conform. Minimaal MDTO-conform betekent
+       dat de MDTO-metagegevens zijn vastgelegd en beschikbaar zijn. Maar het zegt niks
+       over de vorm waarin deze metagegevens beschikbaar zijn. Volledig MDTO-conform
+       voegt daar eisen aan toe over de vorm waarin de MDTO-metagegevens beschikbaar
+       zijn en uitgewisseld (zowel export en import) worden.
+
+2.2 Waarom is deze standaard belangrijk?
+MDTO draagt bij aan de duurzame toegankelijkheid van overheidsinformatie, zodat deze
+informatie vindbaar, beschikbaar, leesbaar, interpreteerbaar en betrouwbaar is – nu en in de
+toekomst. MDTO draagt bij aan de maatschappelijke opgave om overheidsinformatie blijvend
+toegankelijk te maken, zodat burgers, bedrijven, onderzoekers en journalisten ook in de
+toekomst kunnen rekenen op betrouwbare en vindbare informatie. Zonder duurzaam
+toegankelijke informatie is het onmogelijk om besluiten te reconstrueren, lessen te trekken
+uit het verleden of burgers inzicht te geven in de onderbouwing van beleid.
+
+MDTO zorgt voor een eenduidige vastlegging en uitwisseling van metagegevens, zodat er bij
+het vastleggen geen waardevolle metagegevens worden vergeten en bij het uitwisselen geen
+foutgevoelige en bewerkelijke vertalingen nodig zijn. Daarmee verbetert MDTO de kwaliteit
+van metagegevens en verlaagt het de kosten voor uitwisseling.
+
+MDTO draagt bij aan de drie publieke waarden uit de waardedriehoek van het Raamwerk
+Duurzaam Toegankelijke Overheidsinformatie (DUTO-raamwerk). Het DUTO-raamwerk
+beschrijft de eisen die aan overheidsinformatie en informatiesystemen worden gesteld om
+ervoor te zorgen dat informatie gedurende de hele levenscyclus vindbaar, beschikbaar,
+leesbaar, interpreteerbaar en betrouwbaar blijft. Het raamwerk vormt daarmee een belangrijk
+referentiekader voor de inrichting van informatiesystemen en processen binnen de overheid,
+en is een fundament waarop standaarden als MDTO voortbouwen.
+
+
+
+
+                                          3 van 19
+                           Waardedriehoek van het DUTO-raamwerk
+
+
+
+
+Bron: Nationaal Archief, Module 1 - De waarde van duurzame toegankelijkheid
+
+Bovendien helpt MDTO overheidsorganisaties te voldoen aan de huidige en aankomende,
+nieuwe Archiefregeling, doordat het een gestructureerd instrument biedt om de verplichte
+metagegevens bij blijvend te bewaren informatieobjecten vast te leggen. De nieuwe
+Archiefregeling gaat voortkomen uit het wetsvoorstel nieuwe Archiefwet waarmee de Tweede
+Kamer op 18 februari 2025 heeft ingestemd.
+
+
+3 Betrokkenen en proces
+3.1 Gevolgde procedure
+Nationaal Archief heeft MDTO op 29 februari 2024 aangemeld om te verplichten aan de
+overheid (‘Pas toe of leg uit’-verplichting). De aanmelding van MDTO door Nationaal Archief
+bij het Forum Standaardisatie vond gelijktijdig plaats met de aanmelding van TOOI door
+KOOP op verzoek van Bureau Forum Standaardisatie (BFS). Dit omdat beide standaarden
+gelieerd zijn en om mogelijke overlap van MDTO en TOOI in het functioneel
+toepassingsgebied zo vroeg mogelijk gedurende de vervolgprocedure inzichtelijk te krijgen.
+Nationaal Archief en KOOP hebben daarop bij BFS aangegeven de procedures van
+respectievelijk MDTO en TOOI parallel (maar niet gezamenlijk) te willen laten plaatsvinden.
+
+De procedurebegeleider InnoValor Advies heeft op 2 mei 2024 een intakegesprek gevoerd
+met de indiener, in aanwezigheid van Bureau Forum Standaardisatie. In dit gesprek is
+onderzocht of MDTO voldoet aan de criteria om in procedure te worden genomen. De
+resultaten van het onderzoek zijn vastgelegd in het intakeadvies.
+
+
+
+                                                 4 van 19
+Op basis van het intakeadvies heeft het Forum Standaardisatie op 2 oktober 2024 besloten
+de standaard in procedure te nemen. Vervolgens heeft de procedurebegeleider in overleg met
+de indiener en Bureau Forum Standaardisatie een expertgroep samengesteld en een
+voorzitter aangesteld om de standaard te toetsen.
+
+De leden van de expertgroep zijn op 17 maart 2025 bijeengekomen om de standaard te
+toetsen aan de criteria en geïdentificeerde aandachtspunten te bespreken. Tijdens deze
+bijeenkomst zijn ook het functioneel toepassingsgebied en organisatorisch werkingsgebied
+opgesteld. Tijdens de bijeenkomst kwamen de experts tot de conclusie dat het functioneel
+toepassingsgebied moest worden aangescherpt. Daarom is besloten tot het organiseren van
+een vervolgbijeenkomst met een kleinere groep experts om het functioneel toepassingsgebied
+nader te bespreken en op te stellen. Deze vervolgbijeenkomst heeft plaatsgevonden op 10
+juni 2025. De uitkomst van het expertonderzoek is vastgelegd in het expertadvies. De
+uiteindelijke formulering van het functioneel toepassingsgebied is tot stand gekomen op basis
+van de uitkomsten van de expertsessies en de openbare consultatie.
+
+Het Bureau Forum Standaardisatie publiceerde het expertadvies ter openbare consultatie via
+de website van Internetconsultatie van 5 september 2025 tot 6 oktober 2025. In de openbare
+consultatie zijn zeven openbare en vier niet-openbare reacties ontvangen. De reacties zijn
+aansluitend voorgelegd aan de indiener van de standaard.
+
+Dit Forumadvies is opgesteld op basis van het expertadvies, reacties uit de openbare
+consultatie en inzichten van de leden van het Forum Standaardisatie. Indien het Forum
+Standaardisatie instemt met dit advies, wordt het aan het Overheidsbrede Beleidsoverleg
+Digitale Overheid (OBDO) ter besluitvorming voorgelegd.
+
+3.2 Resultaat van het expertonderzoek
+De geconsulteerde experts adviseren om MDTO te verplichten aan de overheid (‘Pas toe of
+leg uit’) via plaatsing op de 'Pas toe of leg uit'-lijst van het Forum Standaardisatie voor de
+metadatering van overheidsinformatie ten behoeve van duurzame toegankelijkheid. Dit
+betreft metagegevens over informatieobjecten en hun representaties, die nodig zijn om de
+daarin vervatte overheidsinformatie vindbaar, beschikbaar, leesbaar, betrouwbaar,
+interpreteerbaar en toekomstbestendig te houden, binnen de context van
+informatiebeheerprocessen registreren, vernietigen, bewaren, beschikbaar stellen en
+migreren. Experts gaven aan dat MDTO meerwaarde biedt ten opzichte van andere
+standaarden op de lijst open standaarden en dat het open standaardisatieproces van
+Nationaal Archief op onderdelen nog aandachtspunten kent.
+
+Daarnaast geven de experts een aantal aanvullende adviezen. Deze adviezen worden in meer
+detail beschreven in hoofdstuk ‘5 Adviezen bij opname van de standaard’.
+
+3.3 Resultaat van de openbare consultatie
+In de openbare consultatie zijn zeven openbare en vier niet-openbare reacties ontvangen.
+Van de niet-openbare reacties mochten de namen van Rijkswaterstaat en de Gemeente
+
+                                            5 van 19
+Maashorst worden vermeld. De overige twee niet-openbare reacties zijn geaggregeerd
+opgenomen. De volledige reactie(s) (minus de niet-openbare reactie(s)) zijn in het
+consultatieverslag bijgevoegd. Hieronder volgt een samenvatting van de openbare reacties en
+niet-openbare) uit de openbare consultatie.
+
+3.3.1     Reactie van Anoniem
+
+De respondent benadrukt dat het verplichten van MDTO wenselijk is, zodat alle ministeries
+gelijktijdig en op uniforme wijze kunnen implementeren. Dit zou de uitvoering versnellen en
+de onderlinge afstemming bevorderen. De respondent geeft aan dat het moment rijp is om
+het advies van het expertteam over te nemen en tot implementatie over te gaan, met
+nadrukkelijke aandacht voor de bijbehorende aanbevelingen als integraal onderdeel van het
+advies.
+
+3.3.2     Reactie van indiener Nationaal Archief op Anoniem
+
+Indiener Nationaal Archief merkt op dat met plaatsing op de ‘Pas toe of leg uit’-lijst wordt
+beoogd dat MDTO breder wordt geadopteerd door overheidsorganisaties. Daarnaast
+analyseren zij de aanbevelingen en nemen deze waar mogelijk over.
+
+3.3.3     Reactie van H.R. Nooitgedagt (Wij Participeren)
+
+De respondent geeft aan weinig kennis van MDTO te hebben, maar benadrukt dat burgers
+onvoldoende vertrouwen hebben in overheidscommunicatie.
+
+3.3.4     Reactie van indiener Nationaal Archief op H.R. Nooitgedagt (Wij
+          Participeren)
+
+Indiener Nationaal Archief benadrukt dat MDTO bijdraagt aan de duurzame toegankelijkheid
+van informatie. Het Nationaal Archief stelt dat het belang van duurzaam toegankelijke
+overheidsinformatie en de rol van MDTO hierin beschreven staan in paragraaf 2.2 van het
+expertadvies. Tot slot benadrukt de indiener dat een transparante en efficiënte overheid
+bijdraagt aan het vertrouwen.
+
+3.3.5     Reactie van Gemeente Maashorst
+
+De respondent merkt op dat in de beschrijving van het functioneel toepassingsgebied de
+verwijzing naar 'deze informatie' onduidelijk is. Volgens de respondent verwijst dit naar
+informatieobjecten en hun representaties, terwijl bedoeld lijkt te zijn de informatie die in deze
+objecten en representaties is vervat. De respondent licht toe dat informatieobjecten en hun
+representaties dragers van informatie zijn, niet de informatie zelf, zoals de huidige
+formulering impliceert. De respondent stelt voor de zin te wijzigen in: “Dit betreft
+metagegevens over informatieobjecten en hun representaties, die nodig zijn om de vervatte
+informatie vindbaar, ...”
+
+
+
+
+                                            6 van 19
+3.3.6   Reactie van indiener Nationaal Archief op Gemeente Maashorst
+
+Indiener Nationaal Archief geeft aan geen bezwaar te hebben tegen de voorgestelde
+aanpassing. Het onderschrijft de voorgestelde formulering: “Dit betreft metagegevens over
+informatieobjecten en hun representaties, die nodig zijn om de daarin vervatte informatie
+vindbaar, …”.
+
+3.3.7   Reactie van Anoniem
+
+De respondent ondersteunt de verplichting van MDTO voor de overheid via de ‘Pas toe of leg
+uit’-lijst. De respondent onderschrijft het nut van en het geformuleerde toepassingsgebied
+voor MDTO zoals beschreven in het expertadvies, vindt de geboden ondersteuning voldoende
+en zet zich in binnen de eigen gemeente voor draagvlak en begrip. Leveranciers zijn nog
+bezig met praktische invulling, maar de verwachting is dat werken met MDTO straks
+eenvoudiger wordt.
+
+Tot slot wordt aangegeven dat binnen de gemeente van de respondent al wordt gewerkt aan
+de implementatie van MDTO en dat het positief is om te zien dat veel organisaties zich
+voorbereiden of al bezig zijn met de implementatie van de standaard.
+
+3.3.8   Reactie van indiener Nationaal Archief op Anoniem
+
+Indiener Nationaal Archief sluit zich hierbij aan. Het erkent dat organisaties MDTO soms
+indirect toepassen via andere standaarden die een mate van overlap kunnen hebben, zoals
+DCAT, en benadrukt dat dit goed moet worden uitgelegd. Daarnaast ondersteunt indiener
+Nationaal Archief organisaties actief bij het toepassen van MDTO. Dit geldt ook voor
+leveranciers, die tijdens een in samenwerking met de VNG georganiseerde bijeenkomst
+kennis kunnen opdoen over MDTO en de toepassing ervan.
+
+3.3.9   Reactie van Rijkswaterstaat
+
+De respondent beschouwt het advies om MDTO te verplichten als een logische en wenselijke
+stap richting verdere uniformering van het overheidsbreed informatiebeheer. Een verplichte
+toepassing kan volgens de respondent bijdragen aan meer consistentie, betere
+uitwisselbaarheid van gegevens en versterking van de duurzame toegankelijkheid van
+overheidsinformatie. Tegelijkertijd benadrukt de respondent dat een dergelijke verplichting
+alleen meerwaarde heeft wanneer cruciale randvoorwaarden worden geborgd. De respondent
+wijst in dat kader op het belang van duidelijke samenhang en afstemming tussen MDTO en
+andere relevante standaarden, zoals TOOI, DCAT en ISO 19115. Ook noemt de respondent
+stabiel en transparant versiebeheer, goed toegankelijke en actuele documentatie, en de
+beschikbaarheid van voldoende kennis, begeleiding en ondersteunende middelen binnen
+overheidsorganisaties als noodzakelijke voorwaarden voor succesvolle implementatie.
+Daarnaast merkt de respondent op dat er momenteel een gebrek is aan toetsbare
+conformiteitseisen en aan praktische implementatieondersteuning. Dit bemoeilijkt volgens de
+respondent een consistente toepassing in de praktijk en vergroot het risico dat organisaties
+formeel aan de standaard voldoen zonder daadwerkelijk de beoogde kwaliteit te realiseren.
+
+                                          7 van 19
+MDTO wordt gezien als een belangrijke, maar niet afdoende voorwaarde voor duurzaam
+toegankelijke informatie. Ook aanvullende metadata, organisatorische processen en
+technische voorzieningen blijven nodig om dit doel volledig te bereiken. Verder vraagt de
+respondent expliciet aandacht voor transparantie in het ontwikkelproces van MDTO, brede
+vertegenwoordiging van belanghebbenden in expertgroepen, en het ontwikkelen van
+instrumenten zoals validatietesten, implementatieprofielen en opleidingsmateriaal. Zonder
+deze borging bestaat volgens de respondent het risico dat de verplichtstelling leidt tot
+“papieren conformiteit” in plaats van daadwerkelijke verbetering van het informatiebeheer.
+
+3.3.10 Reactie van indiener Nationaal Archief op Rijkswaterstaat
+
+Indiener Nationaal Archief erkent de door de respondent benoemde aandachtspunten en
+onderstreept het belang van zorgvuldige afstemming en doorontwikkeling van MDTO binnen
+het bredere stelsel van metadatastandaarden. De samenhang met andere relevante
+standaarden, zoals TOOI, DCAT en ISO 19115, wordt actief meegenomen in lopende en
+toekomstige trajecten gericht op harmonisatie en interoperabiliteit. Het Nationaal Archief
+geeft aan dat MDTO nadrukkelijk is bedoeld om binnen dit stelsel een verbindende rol te
+vervullen, waarbij consistente toepassing tussen verschillende domeinen wordt bevorderd
+zonder de nodige flexibiliteit te verliezen.
+
+Daarnaast onderzoekt het Nationaal Archief de mogelijkheden voor verbeterd versiebeheer en
+een transparanter publicatieproces rondom toekomstige versies van MDTO. Het doel is om
+gebruikers tijdig inzicht te geven in geplande wijzigingen en de impact daarvan op
+implementaties, zodat organisaties zich adequaat kunnen voorbereiden. Voor de technische
+validatie is reeds een XSD-schema beschikbaar, waarmee organisaties de conformiteit van
+hun metadata met MDTO kunnen toetsen. Aanvullende hulpmiddelen, zoals validatie- en
+implementatieprofielen, kunnen volgens het Nationaal Archief per organisatie of domein
+verder worden ingevuld met ondersteuning van het DUTO-raamwerk. Ter bevordering van
+kennisdeling en praktische implementatie verwijst het Nationaal Archief naar bestaande
+documentatie, trainingen en ondersteunende materialen die via de Kenniscommunity
+Informatie en Archief (KIA) en aanverwante kanalen beschikbaar zijn. Daarnaast worden
+nieuwe bijeenkomsten en kennissessies georganiseerd om overheden, leveranciers en andere
+betrokken partijen te ondersteunen bij het toepassen van MDTO in de praktijk. Het Nationaal
+Archief benadrukt dat MDTO niet wordt gepositioneerd als een totaaloplossing voor duurzaam
+toegankelijke informatie, maar als een essentiële bouwsteen binnen een breder geheel van
+standaarden, processen en voorzieningen. Duurzame toegankelijkheid vraagt volgens de
+indiener om een integrale aanpak waarin techniek, organisatie en beleid samenkomen. Tot
+slot geeft het Nationaal Archief aan te streven naar intensievere samenwerking met andere
+standaardbeheerders, verdere uitbreiding van praktijkvoorbeelden en een betere aansluiting
+op TOOI-waardelijsten en andere waardelijsten binnen de overheid. Hiermee wil het bijdragen
+aan een samenhangend en toekomstbestendig stelsel van metagegevensstandaarden dat de
+uitvoering van duurzaam informatiebeheer structureel ondersteunt.
+
+
+
+
+                                               8 van 19
+3.3.11 Reactie van R.J. Wever (Regionaal Archief Rivierenland)
+
+De respondent onderschrijft de verplichte toepassing van MDTO via de ‘Pas toe of leg uit’-
+lijst. Voor archieven vereenvoudigt dit migraties en bespaart het kosten, omdat conversies
+naar duurzame formaten nu veel werk vragen. De respondent is het eens met het
+voorgestelde functioneel toepassingsgebied van MDTO, maar vraagt zich af of ieder woord in
+“vindbaar, beschikbaar, leesbaar, betrouwbaar, interpreteerbaar en toekomstbestendig”
+nodig is, vooral het verschil tussen leesbaar en interpreteerbaar en de betekenis van
+toekomstbestendig. De respondent benadrukt dat het belangrijk is te benoemen dat niet alle
+metagegevens in MDTO horen. Hij merkt op dat in hoofdstuk 2 herhaaldelijk over data-
+uitwisseling wordt gesproken, terwijl ook XML wordt genoemd en wijst erop dat XML de
+afgelopen twintig jaar veel kritiek heeft gekregen als uitwisselformaat. De respondent stelt
+dat MDTO minimalistisch is, wat de kracht vormt voor duurzame toegankelijkheid en
+toepasbaarheid binnen alle overheden. De respondent adviseert meer transparantie via
+GitHub/GitLab en betere documentatie. Meerdere leveranciers bieden ondersteuning, en
+belangrijke stakeholders staan achter de adoptie. Tot slot sluit de respondent zich aan bij het
+tweede advies en benadrukt het belang van duidelijk en toegankelijk taalgebruik voor een
+internetpubliek, en vraagt om meer helderheid over de betekenis van aanvullende
+validatietesten bovenop de XSD.
+
+3.3.12 Reactie van indiener Nationaal Archief op R.J. Wever (Regionaal
+         Archief Rivierenland)
+
+Indiener Nationaal Archief verwijst naar de DUTO-kenmerken uit het DUTO-raamwerk. In
+MDTO is ieder attribuut gekoppeld aan of meerdere van deze kenmerken. Het Nationaal
+Archief benadrukt dat bij leesbaar zowel mens als machine de informatie moet kunnen lezen.
+Het kan voorkomen dat een gebruikt bestandsformaat is verouderd en er geen geschikte
+software beschikbaar is om bestanden te openen, terwijl uit de metagegevens de context van
+het informatieobject kan worden opgemaakt. Bij 'toekomstbestendig' gaat het erom dat
+informatie nu en in de toekomst toegankelijk blijft voor iedereen die daar belang bij heeft.
+Veranderingen in techniek of organisatie mogen de duurzame toegankelijkheid niet negatief
+beïnvloeden.
+
+Het Nationaal Archief adviseert tijdig te anticiperen op verouderde bestandsformaten,
+bijvoorbeeld door technische informatie in metagegevens vast te leggen. Het Nationaal
+Archief zal de SIP-specificatie bij verdere doorontwikkeling bekijken en staat open voor
+concrete voorstellen. Daarnaast zet het Nationaal Archief zich in om de relatie tussen TOOI en
+MDTO beter zichtbaar te maken. Het Nationaal Archief onderschrijft dat XML is verouderd en
+onderzoekt een JSON-versie van MDTO. Het Nationaal Archief merkt op dat er geen
+consensus is over een uitgebreide lijst van beperkingen zoals op KIA. Organisaties mogen
+deze lijst gebruiken, maar deze wordt niet beheerd. Metagegevens hebben betrekking op
+informatieobjecten, niet op metadata zelf. Het Nationaal Archief stelt dat organisaties
+beheerregels kunnen opstellen om bepaalde attribuut-waardenparen, zoals het attribuut
+
+
+
+                                           9 van 19
+Betrokkene, af te schermen. Mogelijk kan Privacy Enhancing Technology (PET) hierbij een
+oplossing bieden.
+
+Het Nationaal Archief erkent de terechte punten over de documentatie en wil deze
+verbeteren, waarbij wordt gekeken naar hoe dit bij andere standaarden is ingeregeld, zoals
+Geonovum en de Open Raadsinformatie Archiefstandaard (ORI-A). Het werkt aan een aparte
+documentatie waarin het volledige metagegevensschema op één pagina wordt gepresenteerd
+en met respec-styling wordt gepubliceerd. Daarnaast wil het Nationaal Archief meer
+voorbeelden opnemen, zoals het toepassen van beperkingGebruik(Type) bij
+informatieobjecten van gemeenten, om gebruikers beter te ondersteunen met best practices
+en voorbeeldbestanden. Tot slot onderschrijft indiener Nationaal Archief dat het advies over
+validatietests verduidelijking behoeft. De conformiteit die MDTO beschrijft betreft deels
+bepaalde functies die aanwezig moeten zijn, maar niet hoe deze eruit moeten zien. Het
+DUTO-raamwerk kan organisaties helpen bij de invulling hiervan.
+
+3.3.13 Reactie van L. Masselink (Regionaal Archief Rivierenland)
+
+De respondent ondersteunt het advies om MDTO verplicht te stellen via de ‘Pas toe of leg uit’-
+lijst. Volgens de respondent is duidelijkheid nodig over wat precies verplicht wordt gesteld en
+voor wie, aangezien MDTO bestaat uit een metagegevensschema, een SIP-specificatie en een
+XML-schema. MDTO is vooral waardevol als blauwdruk voor het vastleggen van
+metagegevens in systemen, zodat migratie naar een e-depot eenvoudiger verloopt. Wel zou
+de documentatie meer aandacht moeten geven aan toepassing in informatiesystemen en het
+delen van best practices.
+
+Ten aanzien van het toepassingsgebied merkt de respondent op dat de gelijkstelling van
+‘overheidsinformatie’ en ‘informatieobjecten en hun representaties’ verwarrend is. Dit schept
+de verwachting dat MDTO alles dekt, terwijl de beperkte afbakening de standaard juist
+beheersbaar maakt en ruimte biedt voor aansluiting bij andere standaarden.
+
+De respondent ziet kansen in de combinatie met TOOI en vraagt om meer symbiose tussen
+beide initiatieven. Ook onderschrijft de respondent dat MDTO goed bruikbaar is naast
+standaarden als Open Raadsinformatie Archiefstandaard (ORI-A), maar vraagt of de relatie
+met Informatiemodel ZaakTypeCatalogus (ImZTC) en Referentiemodel Gemeentelijke
+Basisgegevens Zaken (RGBZ) is onderzocht.
+
+Verder pleit de respondent voor meer transparantie in het besluitvormingsproces,
+bijvoorbeeld via GitHub, en voor een permanentere rol van inhoudelijk betrokken experts in
+het beheer. Voor adoptie en implementatie adviseert de respondent om de MDTO-website
+gebruiksvriendelijker te maken, met een duidelijke indeling naar verschillende
+gebruikersgroepen. Daarnaast pleit de respondent voor beschikbaarstelling van MDTO in
+JSON, zodat implementatie in meer IT-omgevingen, zoals Woo-indexen en web-API’s,
+eenvoudiger wordt.
+
+Tot slot onderschrijft de respondent de adoptieadviezen, maar voegt enkele aanvullingen toe.
+Bij het eerste advies vraagt de respondent om een duidelijk overzicht van hoe MDTO zich
+
+                                           10 van 19
+verhoudt tot andere (meta)gegevensstandaarden. Bij het tweede advies stelt de respondent
+dat het mooiste zou zijn als MDTO geen eigen begrippenlijsten meer beheert, maar deze bij
+TOOI onderbrengt. Dat zorgt voor functiescheiding en interoperabiliteit, maar vraagt wel om
+een goede overlegstructuur. Bij het derde advies merkt de respondent op om verschillende
+gebruikersgroepen te identificeren en afzonderlijk te bedienen.
+
+3.3.14 Reactie van indiener Nationaal Archief op L. Masselink (Regionaal
+         Archief Rivierenland)
+
+Indiener Nationaal Archief verwijst naar hoofdstuk 2.1 van het expertadvies, waarin wordt
+vermeld welke onderdelen van MDTO worden aangemeld om te verplichten. Op de website
+van het Nationaal Archief staat aangegeven welke onderdelen normerend zijn en welke niet.
+Het zwaartepunt ligt op het metagegevensschema niet op het XML-schema. Het vastleggen
+van metagegevens is nodig om duurzame toegankelijkheid van informatie mogelijk te maken.
+Deze metagegevens zijn ook noodzakelijk om het uitvoeren en achteraf verantwoorden van
+DUTO processen mogelijk te maken. Best practices zijn beschikbaar op KIA. Ook is er een
+stappenplan voor toepassing van MDTO en worden trainingen door derden aangeboden.
+
+Het Nationaal Archief acht een voorstel tot verduidelijking waardevol en ondersteunt opname
+daarvan. Ook ziet het ziet mogelijkheden om meer voorbeelden toe te voegen in het
+metagegevensschema van MDTO, waarin zichtbaar wordt hoe waarden bij MDTO-attributen
+kunnen worden vastgelegd met behulp van waardenlijsten uit TOOI. De aanbevelingen over
+de relatie tussen MDTO en TOOI pakt het Nationaal Archief op.
+
+Het Nationaal Archief erkent dat besluiten over MDTO van buitenaf moeilijk zichtbaar zijn en
+onderneemt stappen om GitHub en/of RESPEC te gebruiken, zodat inzicht in wijzigingen
+wordt geboden. Ook wordt er gewerkt met beheergroepen en externe experts die adviseren
+bij inhoudelijke vraagstukken en wijzigingsvoorstellen. Daarnaast werkt het aan
+verbeteringen in documentatie, geïnspireerd door standaarden als bij Geonovum en ORI-A,
+en onderzoekt het de mogelijkheid van een JSON-versie van MDTO. Ook benoemt indiener
+Nationaal Archief dat er wordt gewerkt met beheergroepen en externe experts die adviseren
+bij inhoudelijke vraagstukken en wijzigingsvoorstellen.
+
+Het Nationaal Archief merkt op dat binnen het stelsel van metadatastandaarden vaak wordt
+gerefereerd aan het overzicht van standaarden op NORA. Omdat dit soms appels met peren
+vergelijken is, moeten binnen het stelsel de te beschrijven relaties worden besproken. Tot
+slot benoemt het Nationaal Archief dat het overdragen van begrippenlijsten naar TOOI een
+interessante gedachte is, maar dat hieraan voor- en nadelen kleven, zoals afhankelijkheid
+van KOOP. Dit kan een onderwerp zijn om met KOOP als beheerder van TOOI te bespreken.
+
+3.3.15 Reactie van Anoniem
+
+De respondent geeft aan dat de opname van MDTO als standaard waardevol wordt geacht:
+het standaardiseert metadata, ondersteunt bredere toepassingen dan alleen archivering (ook
+bijvoorbeeld vernietiging en Woo) en vergemakkelijkt migratie of overbrenging van gegevens
+naar archieven. Tegelijkertijd worden enkele praktische aandachtspunten genoemd: het
+
+                                          11 van 19
+terugwerkend verplicht stellen van MDTO brengt kosten en risico’s mee, met name bij al
+gevormde archieven en informatiesystemen die niet zijn ingericht op de attributen van MDTO.
+
+De beschrijving van het functioneel toepassingsgebied vraagt om verduidelijking van
+kernbegrippen zoals ‘informatieobject’ en ‘attribuut’. Voor wat betreft adoptie en
+implementatie wordt opgemerkt dat er wel veel informatie beschikbaar is, maar extra
+ondersteuning gewenst is. Concrete voorbeelden, casussen en sessies met verschillende
+disciplines zouden de implementatie bevorderen. Ten slotte is geconstateerd dat hoewel
+enkele leveranciers ondersteuning bieden voor MDTO, deze ondersteuning niet generiek is in
+alle applicaties, wat een belemmering kan vormen voor de uitrol van de standaard.
+
+3.3.16 Reactie van indiener Nationaal Archief op Anoniem
+
+Indiener Nationaal Archief wijst erop dat de website een stappenplan voor de toepassing van
+MDTO beschikbaar is. Een onderdeel richt zich op het gebruik van MDTO om te beoordelen of
+bestaande of legacy systemen voldoen aan de gestelde eisen. Hierbij kan een fit/gap analyse
+worden uitgevoerd, waarbij bij de ‘gaps’ wordt bekeken welke risico’s aanwezig zijn en of
+daar iets mee moet of kan worden gedaan, mede bezien vanuit kostenperspectief. Dit kan
+leiden tot doorontwikkeling van systemen of tot de aanschaf van een nieuw systeem als niets
+doen geen optie is.
+
+Het Nationaal archief meldt dat het genoemde voorstel binnen de expertgroep MDTO is
+besproken, maar dat er geen consensus is bereikt over het opnemen van (delen van) de
+begrippenlijst in MDTO. Momenteel kan de lijst als externe begrippenlijst orden gebruikt, met
+de kanttekening dat deze niet beheerd wordt. Het Nationaal Archief biedt ondersteuning bij
+de toepassing van MDTO en blijft dit doen, bijvoorbeeld via presentaties of webinars.
+Daarnaast worden trainingen door derden aangeboden, met veel aandacht voor praktische
+toepassing. Best practices worden gedeeld via het KIA-platform; meer voorbeelden zijn altijd
+welkom. MDTO is geen raamwerk, zoals het DUTO-raamwerk dat wel is. Het Nationaal Archief
+organiseert samen met de VNG een bijeenkomst voor leveranciers, inclusief leveranciers van
+vakapplicaties. Doel is uit te leggen wat MDTO is, hoe het kan worden toegepast en welke
+ondersteuning geboden wordt. Leveranciers van vakapplicaties stellen momenteel slechts
+beperkt vragen over MDTO.
+
+Tot slot merkt het Nationaal Archief op dat MDTO goed aansluit bij de specificaties over
+metagegevens in de Archiefregeling. Een vergelijking tussen de huidige Archiefregeling en
+MDTO is beschikbaar op KIA. Voor de nieuwe Archiefregeling zal deze analyse opnieuw
+worden uitgevoerd zodra de teksten definitief zijn. Een analyse van een concept voor de
+internetconsultatie lijkt eveneens een goede match te geven.
+
+3.3.17 Reactie van N. Hoffmann (Geonovum)
+
+De respondent geeft aan dat het voorgestelde functioneel toepassingsgebied van MDTO erg
+breed is geformuleerd, waardoor er een aanzienlijke overlap ontstaat met aanpalende
+standaarden zoals DCAT / DCAT-AP-NL en de Nederlandse profielen op ISO 19115 en ISO
+19119. Dit leidt volgens de respondent tot onduidelijkheid bij organisaties die zowel aan ISO
+
+                                          12 van 19
+19115/DCAT-AP-NL als aan MDTO moeten voldoen. De respondent betreurt het dat er tijdens
+het traject geen memo is opgesteld over de relatie tussen MDTO en DCAT/DCAT-AP-NL,
+terwijl tijdens de intake van MDTO al bekend was dat DCAT-AP-NL eveneens zou worden
+aangemeld bij het Forum Standaardisatie.
+
+De respondent verzoekt, net als bij TOOI, een duidelijke beschrijving van de onderlinge
+verhouding tussen deze standaarden en om vanuit MDTO expliciet te maken dat ze naast
+elkaar kunnen worden gebruikt.
+
+De respondent merkt op dat wordt gesuggereerd dat DCAT en ISO 19115 alleen op (geo-
+)datasets van toepassing zijn en dat dit voldoende onderbouwing biedt voor het aanvullende
+karakter. Volgens de respondent is de definitie van ‘informatieobject’ in MDTO echter zo
+generiek dat er juist sprake is van een grote overlap, zonder dat duidelijk wordt gemaakt hoe
+de verhouding precies ligt.
+
+Tot slot merkt de respondent op dat het draagvlak vooral afkomstig lijkt uit
+organisatieonderdelen binnen de documentaire informatievoorziening en archivering. De
+standaard heeft echter ook grote impact op onderdelen binnen het data- en
+informatiedomein. De respondent vraagt zich af of de belangen van deze domeinen
+voldoende zijn meegenomen in de consultatie.
+
+3.3.18 Reactie van indiener Nationaal Archief op N. Hoffmann (Geonovum)
+
+Indiener Nationaal Archief merkt op dat op de website van Geonovum staat dat DCAT-AP-NL
+bestaat naast domeinspecifieke standaarden ISO 19115 en 19119 (het domein is het
+ruimtelijk domein). MDTO is van toepassing op overheidsinformatie in brede zin en kan dus
+ook informatie uit het ruimtelijk domein betreffen. Uitgaande van het doel van DCAT, zoals
+beschreven bij de versie van DCAT die op de lijst met aanbevolen standaarden staat, het
+bijdragen aan vindbaarheid en beschikbaarheid van datasets, zijn daar ook relaties te leggen
+met kenmerken van duurzame toegankelijkheid waarop MDTO zich richt, met name Vindbaar
+en Beschikbaar. Het expertadvies erkent dat er overlap bestaat en, zoals bij het antwoord op
+vraag 4 uit de openbare consultatie te lezen is, is er bereidheid om gezamenlijk te verkennen
+hoe de verhoudingen precies liggen.
+
+Het Nationaal Archief meldt dat het zich tijdens de intakefase niet bewust was van dat DCAT-
+AP-NL zou worden aangemeld bij Forum Standaardisatie. Ten tijde van de intake van MDTO
+en TOOI was DCAT-AP-NL 3.0 nog niet vastgesteld en er zat ongeveer een jaar verschil
+tussen beide intakeadviezen. Geonovum had tijdens de intake voor DCAT-AP-NL contact
+kunnen opnemen met het Nationaal Archief om de behoefte te uiten, waarna het Nationaal
+Archief bereid was geweest om samen een memo op te stellen. De expertgroep
+gegevensmanagement van NORA heeft een eerste aanzet gedaan om inzicht te krijgen in de
+relaties tussen enkele semantische standaarden, maar dit vraagt opvolging. Het Nationaal
+Archief wil bijdragen aan het vergroten van dit inzicht, mits dit in samenwerking gebeurt. Als
+Geonovum samen met het Nationaal Archief de relatie tussen beide standaarden wil
+beschrijven, werkt het Nationaal hier graag aan mee. Tot slot benadrukt het Nationaal Archief
+dat er is gestreefd naar een evenredige vertegenwoordiging van experts uit diverse
+                                          13 van 19
+overheidslagen, archiefinstellingen en leveranciers. Volgens het Nationaal Archief waren
+uitvoeringsorganisaties met complexe informatielandschappen vertegenwoordigd (via de
+Belastingdienst en het Kadaster). Daarnaast heeft een sessie plaatsgevonden tussen
+Geonovum en BFS om de input van Geonovum mee te nemen in de extra expertbijeenkomst.
+
+3.3.19 Samenvatting niet-openbare reacties
+
+De eerste respondent geeft aan geen voorstander te zijn van het verplichten van MDTO als
+uitwisselingsstandaard. Volgens de respondent is MDTO veel uitgebreider dan noodzakelijk
+voor duurzaam toegankelijk informatiebeheer. De bestaande wetgeving bepaalt al welke
+metagegevens verplicht zijn, en dat is volgens de respondent voldoende. Ook het verplicht
+stellen van begrippenlijsten gaat te ver. De respondent pleit voor een uitgeklede standaard
+die het absolute minimum bevat en optioneel kan worden uitgebreid. Daarnaast verzet de
+respondent zich tegen het verplichten van MDTO als standaard voor vastlegging, omdat lang
+niet alle attributen en begrippenlijsten noodzakelijk zijn. De respondent benadrukt dat
+informatiebeheer al complex genoeg is en pleit voor een haalbare, begrijpelijke standaard die
+is gebaseerd op wet- en regelgeving en toepasbaar is voor zowel overheden als ICT-
+leveranciers.
+
+De tweede respondent stelt dat het in theorie een goede idee is om MDTO verplicht te stellen.
+Het vastleggen van een metadataschema als ‘gewenst en gangbaar’ wordt gezien als
+noodzakelijk om samenwerking tussen organisaties te verbeteren. Volgens de respondent
+wordt echter binnen organisaties nog te vaak opnieuw het wiel uitgevonden door verschillen
+in processen en applicaties. MDTO wordt beschouwd als een geschikt instrument dat breed
+wordt gedragen door informatieprofessionals binnen de overheid, vooral voor toepassing van
+archiving by design. Tegelijkertijd vreest de respondent dat de verplichtstelling in de praktijk
+weinig effect zal hebben op de implementatie, aangezien bestaande knelpunten in
+informatiemanagement daarmee niet worden opgelost. De respondent stelt dat een
+verplichting alleen effectief zal zijn als ook de onderliggende problemen in organisatiebreed
+informatiebeheer worden aangepakt, en benadrukt dat een eventuele verplichting niet op
+zichzelf mag staan.
+
+3.3.20 Reactie van Nationaal Archief op niet-openbare reacties
+
+In reactie op de opmerkingen van de eerste respondent geeft de indiener Nationaal Archief
+aan dat MDTO goed aansluit bij de specificaties in de Archiefregeling over metagegevens. Er
+is een vergelijking beschikbaar op de Kenniscommunity Informatie en Archief (KIA). MDTO
+schrijft voor dat bij bepaalde attributen begrippen uit een lijst worden gebruikt, wat bijdraagt
+aan consistentie en kwaliteit van waarden. In de meeste gevallen voorziet MDTO zelf in deze
+begrippenlijsten, waarbij organisaties de ruimte behouden om eigen of externe lijsten te
+gebruiken, zoals TOOI. Daarnaast biedt MDTO een mechanisme om aanvullende
+metagegevens toe te voegen via het attribuut aanvullendeMetagegevens. Indiener Nationaal
+Archief volgt de reactie van de respondent daarom niet.
+
+In reactie op de opmerkingen van de tweede respondent geeft de indiener Nationaal Archief
+geeft aan dat MDTO niet bedoeld is als totaaloplossing voor duurzame toegankelijkheid van
+                                          14 van 19
+informatie, maar hier wel een belangrijke bijdrage aan levert. Daarbij wordt gewezen op de
+koppeling met het DUTO-raamwerk, dat als referentiekader dient voor duurzaam
+informatiebeheer. Dit raamwerk helpt organisaties het belang van duurzaam toegankelijke
+informatie inzichtelijk te maken. Volgens het Nationaal Archief kan het stappenplan op de
+website organisaties ondersteunen bij het toepassen van MDTO op bestaande
+informatiesystemen, wat kan leiden tot doorontwikkeling of vervanging van verouderde
+systemen. Zo kan bij nieuwe aanschaf of ontwikkeling van systemen vooraf rekening worden
+gehouden met het archiveren by design-principe.
+
+
+4 Toetsing op inhoudelijke criteria
+Het Forum Standaardisatie hanteert vier inhoudelijke hoofdcriteria om te toetsen of een
+standaard in aanmerking komt voor verplichten (‘Pas toe of leg uit’) of aanbevelen aan de
+overheid.
+
+   1. Heeft de standaard toegevoegde waarde?
+   2. Zijn de standaard en het standaardisatieproces voldoende open?
+   3. Heeft de standaard voldoende draagvlak?
+   4. Is opname op de lijst een passend middel om de adoptie te bevorderen?
+
+Ieder van deze hoofdcriteria heeft deelcriteria die staan beschreven op de website van het
+Forum Standaardisatie. Dit hoofdstuk beschrijft per criterium het resultaat van de toetsing.
+
+4.1 Toegevoegde waarde
+De toetsingsprocedure wijst uit dat MDTO voldoet aan het criterium ‘Toegevoegde waarde’.
+
+Door het gebruik van MDTO wordt informatie gestructureerd vastgelegd en eenduidig
+ontsloten. Dit verhoogt de vindbaarheid en herbruikbaarheid van gegevens. Hierdoor neemt
+de efficiëntie toe (minder zoektijd, minder dubbel werk) en verbetert de effectiviteit (betere
+onderbouwing van besluiten en consistente dienstverlening).
+
+Een aantal reeds opgenomen standaarden op de lijst open standaarden met een ander
+toepassingsgebied, zoals DCAT (metadatastandaard voor het beschrijven van datasets) en de
+Nederlands metadataprofiel op ISO 19115 geografie (standaard voor metadata voor geo
+datasets; onderdeel van de Geo-standaarden), specificeert ook metagegevens, waarbij er
+sprake kan zijn van een bepaalde mate van overlap met hetgeen in MDTO is gespecificeerd.
+Het vastleggen van metagegevens aan de hand van een standaard als DCAT kan in die
+gevallen ook betekenen dat ook voor MDTO essentiële of relevante metagegevens worden
+vastgelegd. Zodoende is er overlap tussen deze standaarden en MDTO, maar kunnen ze
+elkaar ook versterken. Deze standaarden hebben echter andere toepassingsgebieden,
+specifiek voor (geo-)datasets. Ze raken elkaar maar hebben wel hun eigen doeleinde en
+toepassing, waardoor ze naast elkaar kunnen bestaan. MDTO biedt daarnaast meerwaarde
+ten opzichte van de Nederlandse Standaard voor het Beschrijven van Begrippen (NL-SBB),
+ook al bestaan er inhoudelijke raakvlakken. Het toepassingsgebied van MDTO is echter
+wezenlijk anders. Waar NL-SBB zich richt op het uniform modelleren van begrippen in
+                                           15 van 19
+conceptuele informatiemodellen en zo bijdraagt aan de ontwikkeling van een Federatief
+Datastelsel, richt MDTO zich specifiek op de duurzame toegankelijkheid van
+overheidsinformatie.
+
+MDTO is tegelijkertijd aangemeld met TOOI, een kennismodel voor officiële
+overheidsinformatie. MDTO en TOOI zijn geen concurrerende standaarden, maar zijn juist
+complementair aan elkaar. MDTO richt zich op het modelleren van domeinspecifieke
+informatie met nadruk op syntaxis en structuur, terwijl TOOI vooral gericht is op het beheren
+en gebruiken van waardenlijsten en identifiers voor overheidsorganisaties binnen
+informatiemodellen. Op de website van het Nationaal Archief gepubliceerde bijlage Relatie
+MDTO en TOOI wordt dit verder toegelicht.
+
+MDTO is geen internationale standaard, maar sluit wel aan bij de volgende internationale
+standaarden:
+
+   •   NEN-ISO 23081 Metagegevens voor het beheer van archiefstukken
+   •   NEN-ISO 15836 Dublin Core Dublin Core (DC)
+   •   Records in Contexts (RiC) RiC
+
+Omdat de context van iedere organisatie verschilt, is het niet mogelijk om in generieke zin
+iets te zeggen over de kosten van implementatie van MDTO. Dit hangt af van de mate waarin
+een organisatie al metagegevens vastlegt en/of standaarden gebruikt.
+
+Daarnaast is MDTO afgestemd op de eisen uit de Archiefwet, en helpt het organisaties om
+aan de Archiefregeling te voldoen, zonder dat zij zelf een metagegevensschema, XML-schema
+of SIP-specificatie hoeven te ontwikkelen. Relevant voor MDTO is dat in de nieuwe
+Archiefregeling het onderscheid tussen te bewaren en te vernietigen documenten verdwijnt.
+Hierdoor moeten ook aan te vernietigen documenten bepaalde metagegevens worden
+gekoppeld. MDTO maakt dit onderscheid al niet en sluit daarmee goed aan bij de nieuwe
+regeling. MDTO ondersteunt daarmee overheidsorganisaties bij het duurzaam toegankelijk
+houden van zowel blijvend te bewaren informatie, als volgens de nieuwe Archiefregeling, te
+vernietigen informatie.
+
+Ook ondersteunt MDTO de Woo, maar indirect. MDTO verbetert het vastleggen en uitwisselen
+van informatie, wat de naleving van de Woo vergemakkelijkt doordat informatie beter
+vindbaar, duurzaam toegankelijk en begrijpelijk wordt gemaakt. Woo-verzoeken kunnen
+hierdoor efficiënter worden afgehandeld, omdat een duidelijke structuur voor beperkingen en
+de bijbehorende metadata de basis vormt voor het naleven van informatiebeheerregels.
+
+4.2 Open standaardisatieproces
+De toetsingsprocedure wijst uit dat het beheer van MDTO niet volledig voldoet aan het
+criterium ‘Open standaardisatieproces’.
+
+Het specificatiedocument voor MDTO is publiek en kosteloos beschikbaar. De documentatie
+over het ontwikkel- en beheerproces is kosteloos beschikbaar op de website van het
+Nationaal Archief en op het Kennisnetwerk Informatie en Archief (KIA). Op de website van
+
+                                          16 van 19
+het Nationaal Archief is algemene informatie over de ontwikkeling en het beheer van
+kennisproducten te vinden.
+
+Besluitvorming omtrent ontwikkeling, beheer en herziening van de standaard gebeurt in
+consensus door de Standaardisatieraad van het Nationaal Archief. Het besluitvormingsproces
+is in principe toegankelijk voor alle belanghebbenden. De werkwijze is beschreven in het
+beheerdocument. Wel signaleert het Forum Standaardisatie dat de transparantie in de
+praktijk beperkt is: vaak is alleen inzage mogelijk in vergaderdata en -stukken, terwijl de
+lange-termijnagenda pas achteraf beschikbaar wordt gesteld. Ook is de exacte
+besluitvormingsprocedure voor sommige belanghebbenden niet altijd duidelijk of gemakkelijk
+vindbaar. Nationaal Archief heeft als beheerorganisatie het beheerproces op basis van
+BOMOS ingericht.
+
+De huidige manier waarop de afzonderlijke modules van MDTO zijn ontsloten – namelijk door
+de afzonderlijke specificatiedocumenten samen te voegen op de webpagina van MDTO versie
+1.0 zoals aangemeld bij Forum Standaardisatie – is niet de meest transparante of
+gebruiksvriendelijke wijze van communiceren. Forum Standaardisatie is van mening dat het
+op dit moment onduidelijk is welk versiebeleid precies geldt voor de verschillende onderdelen
+van MDTO. Het Nationaal Archief werkt aan de verbetering van de versionering, zodat zowel
+het beheer als de communicatie over versies eenduidiger en consistenter wordt. Daarnaast is
+de ontsluiting van de modules niet optimaal; de huidige wijze van samenvoegen van
+documentatie maakt het moeilijk inzichtelijk welk onderdeel tot welke versie behoort.
+
+Forum Standaardisatie geeft aan dat er behoefte is aan meer ondersteuning, zoals een
+handreiking, meer voorbeelden, en uitgebreidere documentatie.
+
+4.3 Draagvlak
+De toetsingsprocedure wijst uit dat MDTO voldoet aan het criterium ‘Draagvlak’.
+
+De aanmelding van MDTO bij het Forum Standaardisatie is een actiepunt van BZK/OCW en de
+medeoverheden zoals genoemd in de Werkagenda Waardengedreven Digitaliseren van de
+staatssecretaris Koninkrijksrelaties en Digitalisering (kabinet Rutte IV). De aanmelding wordt
+ondersteund door programma Open Overheid en de koepelorganisaties van decentrale
+overheden (o.a. VNG, IPO en UvW). De aanmelding wordt ondersteund door programma
+Open Overheid en de koepelorganisaties van decentrale overheden (o.a. VNG, IPO en UvW).
+
+Bij de ontwikkeling van MDTO zijn meerdere leveranciers betrokken geweest, bijvoorbeeld in
+de redactiegroep. Een relatief kleine groep van leveranciers ondersteunt het gebruik van
+MDTO. Dit wordt door de Forum Standaardisatie niet als een blokkade gezien voor draagvlak.
+
+Op het platform KIA is een Kennisindex MDTO beschikbaar, hier staat ook een aantal
+voorbeelden van organisaties die MDTO toepassen of hebben toegepast waarvan sommige
+voorbeelden al weer een aantal jaar oud zijn, waaronder ministerie van Defensie, de
+gemeenten Achtkarspelen en Tytsjerksteradiel, gemeente Den Haag, gemeente Heusden,
+gemeente Utrecht en het Regionaal Archief Rivierenland.
+
+                                          17 van 19
+In de monitor 2021-2022 van de Inspectie Overheidsinformatie en Erfgoed (OE) blijkt dat van
+de 150 organisaties met een metagegevensschema, bij 67 daarvan MDTO (deels) als basis
+dient. Aangezien MDTO in 2021 is vastgesteld, wordt verwacht dat dit aantal sindsdien is
+toegenomen. Daarnaast zullen nieuwe landelijke en rijksbrede voorzieningen gebruik maken
+van MDTO of gebruik van MDTO ondersteunen. Een voorbeeld is het rijksbrede lakprofiel
+(onderdeel van Woo-Doeth), waarbij lakregels en presentatie naar de aanvrager eenduidig
+wordt. Een metadataschema is hier onderdeel van en hiervoor wordt naar MDTO gekeken als
+basis.
+
+4.4 Opname op de lijst bevordert adoptie
+De toetsingsprocedure wijst uit dat MDTO voldoet aan het criterium ‘Opname op de lijst
+bevordert adoptie’.
+
+Het verplichten (‘Pas toe of leg uit’) van MDTO kan zorgen voor meer bekendheid van de
+standaard. Overheidsorganisaties moeten de standaard gaan uitvragen bij aanschaf van
+desbetreffende ICT-diensten en -producten of weloverwogen toelichten waarom ze dit niet
+doen. MDTO is een nieuwe standaard en de huidige adoptie binnen bepaalde overheidslagen
+is nog beperkt, maar geniet wel draagvlak. Door opname op de ‘Pas toe of leg uit’-lijst zal de
+aanmelder de adoptieondersteuning kunnen intensiveren omdat de standaard dan
+momentum zal krijgen. In 2025 intensiveert het Nationaal Archief sowieso de ondersteuning
+voor de implementatie van MDTO. Het Nationaal Archief heeft in samenwerking met de VNG,
+meerdere leveranciersbijeenkomsten georganiseerd over het DUTO-raamwerk en is
+voornemens leveranciersbijeenkomsten te organiseren over het DUTO-raamwerk en MDTO.
+
+Er wordt met het Leerhuis Informatiehuishouding gesproken over de organisatie van een
+webinar. Daarnaast vindt een digitaal spreekuur over MDTO plaats. Verder verzorgt het
+Nationaal Archief presentaties aan individuele organisaties, zoals bij de Rijkscultuurfondsen.
+Deze worden gegeven op aanvraag. Voor het ophalen van gebruiksgegevens MDTO voor de
+Monitor Open Standaarden zou gebruik kunnen worden gemaakt van bestaande monitoring
+door inspecties en koepelorganisaties van decentrale overheden.
+
+
+5 Adviezen bij opname van de standaard
+Het Forum Standaardisatie geeft de volgende adviezen bij plaatsing van MDTO op de ‘Pas toe
+of leg uit’-lijst:
+
+   1. Aan minBZK om binnen een jaar de onderlinge relaties tussen verschillende
+         metadatastandaarden in kaart te brengen (bij voorkeur via een vaststellingsprocedure)
+         en te presenteren op een duidelijke, bij voorkeur visuele wijze.
+   2. Aan het Nationaal Archief om binnen een jaar te voorzien in een goede koppeling met
+         bestaande begrippen, informatie- en gegevensmodellen en getypeerde onderwerpen.
+         MDTO heeft een grote kans om relevantie te vergroten door duidelijk te maken hoe te
+         verwijzen naar gepubliceerde begrippen in de begrippencatalogus- en typeringen.
+
+
+
+                                             18 van 19
+3. Aan het Nationaal Archief om binnen een jaar materialen te (her)ontwikkelen en
+   beschikbaar te stellen ter ondersteuning om MDTO laagdrempeliger toegankelijk te
+   maken voor verschillende gebruikersgroepen om zo de kans op adoptie van MDTO te
+   verhogen. Het betreft materialen:
+      a. specificatiedocument in eenvoudiger verwoording
+      b. meer materialen ter ondersteuning bij de implementatie van MDTO, zoals
+         handreikingen, meer voorbeelden en uitgebreidere documentatie
+      c. validatietest om de conformiteit van de implementatie van MDTO te (laten)
+         toetsen
+4. Aan het Nationaal Archief om binnen een jaar de exacte besluitvormingsprocedure voor
+   belanghebbenden duidelijker en makkelijk vindbaar te maken.
+5. Aan het Nationaal om binnen een jaar het versioneringsbeleid en het beheer ervan
+   eenduidig en coherent te maken en te publiceren.
+
+
+
+
+                                       19 van 19
+

@@ -1,0 +1,470 @@
+                                                                                                NeurIPS 2020 Competition and Demonstration Track
+
+
+
+
+                                                                 xLP: Explainable Link Prediction
+                                                                  for Master Data Management
+
+                                         Balaji Ganesan                                                               bganesa1@in.ibm.com
+                                         Sumit Bhatia                                                              sumitbhatia@in.ibm.com
+                                         Hima Patel                                                                  himapatel@in.ibm.com
+                                         Sameep Mehta                                                             sameepmehta@in.ibm.com
+                                         IBM Research, India
+
+
+
+
+arXiv:2403.09806v1 [cs.AI] 14 Mar 2024
+                                         Matheen Ahmed Pasha                                                         matpasha@in.ibm.com
+                                         Srinivasa Parkala                                                            shsriniv@in.ibm.com
+                                         Neeraj R Singh                                                               sneeraj@in.ibm.com
+                                         Gayatri Mishra                                                              gayamish@in.ibm.com
+                                         Somashekhar Naganna                                                      soma.shekar@in.ibm.com
+                                         IBM Data and AI, India
+
+
+                                                                                      Abstract
+                                              Explaining neural model predictions to users requires creativity. Especially in enterprise
+                                              applications, where there are costs associated with users’ time, and their trust in the model
+                                              predictions is critical for adoption. For link prediction in master data management, we
+                                              have built a number of explainability solutions drawing from research in interpretability,
+                                              fact verification, path ranking, neuro-symbolic reasoning and self-explaining AI. In this
+                                              demo, we present explanations for link prediction in a creative way, to allow users to
+                                              choose explanations they are more comfortable with.
+                                              Keywords: Link Prediction, Graph Neural Networks, Explainability
+
+
+                                         1 Introduction
+                                         Link prediction using Graph Neural Networks (GNN) is a well researched problem. How-
+                                         ever, there remain a number of challenges in using GNN models in enterprise applications.
+                                         Especially when the nodes of the graphs are people or organizations who are customers of
+                                         an enterprise, the links are real world relationships, and the applications are sensitive like
+                                         customer due diligence, anti-money laundering, and law enforcement. In Ganesan et al.
+                                         (2020), we discussed ethical considerations and practical insights from developing a link
+                                         prediction solution for IBM’s Infosphere Master Data Management (MDM) product.
+                                             MDM users include data engineers who work on ETL, data stewards who help cus-
+                                         tomers with managing Master Data, and data scientists who use MDM for analytics. Their
+                                         expectations from a explainability solution are different. While some might be interested in
+                                         model interpretability, others might want a quick and easy to understand solution, to get
+                                         the job done. In this demo, we compare three explainability techniques for Link Prediction.
+
+                                             • Interpretable models that approximate neural model predictions.
+
+                                             • Link verification where external information corroborates the predictions.
+
+                                             • Path ranking algorithms that were earlier used for error detection.
+
+                                         ©2022 Balaji Ganesan et al.
+         xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+    While evaluating the explanations, the hypothesis is that users who have seen neural
+model predictions and explanations, should later be able to guess what the neural model
+will predict on unseen data.
+    One approach to selecting an explanation from the above choices, involves pre-selecting
+some explanations suitable for the audience. Few such demos, where we tailored the expla-
+nations to the users, led us to design a case-study using an interactive user interface. Our
+goal here is to understand user preferences towards different types of explanations, their
+ability to understand the models, and also validate what constitutes an human understand-
+able explanation.
+
+
+
+
+Figure 1: Predicting links to watch-list nodes. A list of COVID19 persons can be uploaded
+          as watch-list and their links to people in a master data could be predicted.
+
+
+    Master Data Management includes tasks like entity matching, link prediction, non-
+obvious relation extraction among other things. Typically the entities in master data are
+people, organizations and location. Though products, events and other entities can be
+stored too. While this master data is predominantly stored as relational data, graph stores
+are widely used for visualization and analytics. In this work, we focus on link prediction.
+Graphs in MDM could be considered as property graphs which differ from knowledge graphs
+and social networks. In particular, MDM graphs often are homogenous attributed graphs
+where one of people, organization, or location constitute nodes in the graph. Other entities
+like numerical ids, demographic information, business terms constitute the attributes of
+the nodes. Links between people or organizations in the real world constitute the edges
+of the graph. The type of people to people relations form the link type and details of the
+relationship like duration constitute the edge properties.
+    Link Prediction on people graphs presents a unique set of challenges in terms of model
+performance, data availability, fairness, privacy, and data protection. Further, Link Pre-
+diction among people has a number of societal implications irrespective of the use-cases.
+While link prediction of financial fraud detection, law enforcement, and advertisement go
+through ethical scrutiny, the recent use of social networks for political targeting and job
+opportunities also require ethical awareness on the part of the model developers and system
+designers.
+
+                                             2
+          xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+    Watchlist is a use-case typical in Master Data Management. Given a set of nodes in
+a graph, the task is to find links to Watchlist nodes from other nodes of the graph. For
+example, we can assume people who have tested positive for COVID19 as people on a
+Watchlist. We may want to find people who may have potentially come in contact with
+them, commonly known as contact tracing. This can however be a time consuming and
+potentially controversial process that impacts privacy. We need informed consent of people
+for this contact tracing. In this work we discuss link prediction on property graphs involving
+people, their specific dataset requirements, ethical considerations, and practical insights in
+designing the infrastructure for industrial scale deployment.
+
+2 Related Work
+Schlichtkrull et al. (2018) showed that a Relational Graph Convolutional Network can out-
+perform direct optimization of the factorization (ex: DistMult). They used an autoencoder
+model consisting of an encoder – an R-GCN producing latent feature representations of
+entities and a decoder – a tensor factorization model exploiting these representations to
+predict labeled edges.
+     Hamilton et al. (2017) introduced GraphSAGE (SAmple and AggreGatE) an inductive
+framework that leverages node feature information (ex: text attributes, node degrees) to
+efficiently generate node embeddings for previously unseen data or entirely new (sub)graphs.
+In this inductive framework, we learn a function that generates embeddings by sampling
+and aggregating features from a node’s local neighborhood. You et al. (2019) proposed a
+Position Aware Graph Neural Network that significantly improves performance on the Link
+Prediction task over the Graph Convolutional Networks.
+     Guan et al. (2019) introduced the WikiPeople dataset based on Wikidata. However,
+Wikidata does not have contact details and can be incomplete like the DBPedia (UDBMS)
+dataset. Dasgupta et al. (2018) also introduced a dataset based on Wikidata. Again, for
+afore mentioned reasons, it’s not different from DBPedia dataset. Zitnik and Leskovec
+(2017) introduced the Protein-Protein Interaction dataset which has been used in a number
+of recent works in graph neural networks. Kipf and Welling (2017) presented Graph Con-
+volutional networks. Hamilton et al. (2017) introduced the idea of inductive representation
+of nodes in a graph. You et al. (2019) added anchor nodes to improve the representation of
+nodes in the graph.
+     Oberhofer et al. (2014) introduced many aspects of entity resolution using a probabilistic
+matching engine. DeepMatcher Mudgal et al. (2018) presents a neural model for Entity
+Matching. Konda et al. (2019) presented an end-to-end use case for Entity Matching.
+Müller et al. (2020) described an integrated neural model to find non-obvious relations.
+The Protein-Protein Interaction (PPI) dataset introduced by Zitnik and Leskovec (2017)
+consists of 24 human tissues and hence has 24 subgraphs of roughly 2400 nodes each and
+their edges. Having similar subgraphs helps to average the performance of the model across
+subgraphs. Open Graph Benchmark Lu et al. (2019) initiative by SNAP Group at Stanford
+is trying to come up with large benchmark datasets for research in Graph Neural Models.
+     Much of the recent work on explanations are based on post-hoc models that try to
+approximate the prediction of complex models using interpretable models. Vannur et al.
+(2020) present post-hoc explanations of the links predicted by a Graph Neural Network by
+
+                                              3
+          xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+treating it as a classification problem. They present explanations using LIME Ribeiro et al.
+(2016) and SHAP Lundberg and Lee (2017).
+    Over the years, Attention has been understood to provide an important way to explain
+the workings of neural models, particularly in the field of NLP. Jain and Wallace (2019)
+challenged this understanding by showing that the assumptions for accepting Attention
+as explanation do not hold. Wiegreffe and Pinter (2019) however argued that Attention
+also contributes to explainability. More recently, Agarwal et al. (2021) introduced Neural
+Additive Models which learn a model for each feature to increase the interpretability. In this
+work, we focus on solutions that are more suited to Graph Neural Models and in particular,
+explaining Link Prediction models.
+
+
+3 Link Prediction
+
+We begin by explaining our experimental setup. We use the framework provided by You
+et al. (2019), which in turn uses pytorch Paszke et al. (2019) and more specifically pytorch
+geometric Fey and Lenssen (2019). One of the pre-processing steps we do is finding the all
+pairs shortest paths calculation using appropriate approximations. As we’ll see in Section
+3.1, this pre-processing step comes in handy to explain the links as well.
+   We train models using GCN and PGNN on the UDBMS Dataset and the MDM Boot-
+camp Dataset that is based on the wikipedia. Following the procedure in You et al. (2019),
+we choose only connected components with atleast 10 nodes for our experiments. A positive
+sample is created by randomly choosing 10% of the links. For the negative sample, we use
+one of the nodes involved in the positive samples and pick a random unconnected node as
+the other node. The number of negative samples is same as that of the positive samples.
+We discuss hard negative samples in our future work section. Our batch size is typically 8
+subgraphs and for PGNN, we use 64 anchor nodes.
+
+
+                     Dataset          Model       ROC AUC       Std. Dev.
+
+                     UDBMS            GCN           0.4689         0.0280
+                                     P-GNN          0.6456         0.0185
+                 MDM Dataset          GCN           0.4047        0.09184
+                                     P-GNN          0.6473        0.02116
+
+    Table 1: Comparison of Link Prediction performance on different People Datasets
+
+
+
+    As can be seen in Table 1, P-GNN outperforms GCN in both our datasets. The perfor-
+mance obtained by the better model is also less than what we desire. There are a number
+of options available to try and improve the performance of the models. However, in this
+work, we want to focus on how such a system can be deployed in production under the
+professional oversight of Data Stewards.
+
+                                              4
+          xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+Figure 2: xLP: Explainable Link Prediction. The above image shows a subgraph with links
+          predicted. On the right we see verification text for the predicted link and a
+          comparison of the nodes involved in the link.
+
+
+
+3.1 Explainability
+In typical enterprise deployments, it is desired that the models provide explanations so
+that the Data Stewards can understand why the model is predicting a link. While Data
+Stewards can also use the system to detect errors, we want the Data Stewards to draw
+valuable insights into the model’s learning process and also understand it’s limitations. In
+this section, we discuss several explainability techniques that could be used for explaining
+the links predicted by the Graph Neural Network models in Section 3. While a number
+of above such solutions for explaining neural models exist, our focus is been on human
+understandable explanations for graph neural networks. We explored different techniques
+in this area and categorized them into three.
+
+Verification
+Verification is the proof for the predicted link. This can be used to understand links already
+present in the graph and also try to validate new links predicted by our models. Some of
+the earlier error detection work involved external information to verify the predicted link.
+Thorne et al. (2018) describes the FEVER shared task for facts extraction and verification.
+
+Interpretation
+Ribeiro et al. (2018) introduced the idea of Anchors as Explanations, which builds upon
+their earlier LIME solution Ribeiro et al. (2016). The key idea here is to show only few
+
+                                              5
+          xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+important features (anchors) rather than showing the pros and cons of several or all features.
+Huang et al. (2020) introduced GraphLIME, which as the name indicates is a version of
+LIME for Graph Neural Networks. They compared their solution GNN Explainer Ying
+et al. (2019) which follows a subgraph approach to explain predicted links.
+
+Explanation
+Elton (2020) presents the Self-Explainable AI idea where a single model is used to both
+predict and provide parameters that can be used to explain the prediction. This is similar
+to a multi-task learning setting. Mutual Information is used to measure the faithfulness
+of the explanation model to the diagnostic model. Sun et al. (2019) also uses Mutual
+Information to measure the closeness of supervised and unsupervised models.
+
+4 Implementation
+We used GNN Explainer Ying et al. (2019) as the baseline explanation which we want to
+make more human understandable using the 3 techniques discussed in this work.
+
+
+
+
+Figure 3: Path Ranking based explanation for Link Prediction. Data Stewards can explore
+          the already existing paths (if any) and understand the predicted link. They can
+          also provide feedback.
+
+
+
+4.1 Link Verification with External Information
+One of the desirable properties of the dataset that we set out to create is the ability to
+verify the links present in the dataset. Thorne et al. (2018) introduced the FEVER dataset
+for fact verification. We follow a similar method in our work to generate verifiable text that
+a human annotator can use to decide if the predicted link is valid or otherwise.
+
+                                              6
+          xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+    While in this dataset, we use text from unstructured pages, we can also include links
+from other sources namely organization charts, logs, emails and other enterprise documents
+to generate such verification text. The verifiable text for our example is shown in Figure 2.
+For links that are present in training data, it’ll be easy to fetch the verifying text. During
+inference on unseen data, we could using an information retrieval system, typically a search
+index to query for text and other details that mention the entities that are predicted to be
+linked by the Graph Neural Network.
+
+
+
+
+                              Figure 4: Anchors Explanation
+
+
+4.2 Anchors for Link Explanation
+We train a simple classifier to predict if a source and target nodes are linked or otherwise.
+This classifier is trained based on the output of the GNN model described in Section 3.
+Compared to the GNN model, this post hoc classification model is considered to be more
+interpretable.
+    In the above explanation, the classifier model is predicting a link between Ellen De-
+Generes and Heidi Montag just like the original GNN model. Anchors model then explains
+that these two nodes will have a link 52.3% of the time, if the conditions shown in Figure 4
+hold. This result suffers from loss of information between the GNN model and the post-hoc
+interpretable model. Our classifier above is rudimentary and with more feature engineering,
+we could make the classifier model closer to the GNN model. However, even with reduced
+accuracy, providing a summary of the conditions under which a model predicts a link is
+more intuitive than the more complex graph explainability solutions.
+
+4.3 Path Ranking based Link Explanation
+Our next explainability solution is inspired by ideas in Error detection in Knowledge Graphs.
+In particular, we use the PaTyBRED approach described in Melo and Paulheim (2020).
+Path Ranking Algorithm (PRA) introduced by Lao et al. (2011) was based on the probability
+of ending up at an Object o, if we perform random walks on a graph starting at Subject
+s and Relation r. Gardner and Mitchell (2015) replaced the path probability with binary
+
+                                              7
+          xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+values. PaTyBRED further simplified the process by using a Random Forest instead of
+logistic regression and introducing a k-selection method.
+    As shown in Figure 3, we use the ranking function in the PaTyBRED algorithm to find
+a path among multiple already existing paths between two nodes. The idea here is that
+the information contained in that path is more useful than other paths to understand the
+predicted link. This idea is somewhat similar to the GNN Explainer idea of exploring the
+subgraph around the predicted link, except that we prefer to use an independent algorithm
+to rank all the paths rather than subgraph around the two nodes.
+
+4.4 Evaluation
+
+We then evaluated each of these explainability techniques in the form of a case study. We
+presented 100 samples of predicted links, the ground truth, and each of the 3 explanations
+along with GNN explainer output. We measured how often human annotators agree that
+the explanation is accurate for the predicted link. We did not evaluate based on which
+explanation is better since we generally got subjective answers in the initial part of the case
+study. Annotators preferred having multiple explainability solutions, each of which might
+be performing better in certain aspects. So we asked the annotators how often they agreed
+with each of the methods. The results from this case study are as shown in Table 2.
+
+
+                   Explainability Technique                   Agreement
+
+                   Link Verification                                    81
+                   Anchors based Explanation                            56
+                   Path Ranking based Explanation                       63
+
+              Table 2: Comparison of annotator agreement with explanations
+
+
+
+
+5 Conclusion
+
+In this demo, we presented a solution for the Link Prediction task on property graphs for
+Master Data Management. We presented a number of motivating experiments and use-
+cases, and describe the special care we take to address fairness, data protection, privacy
+and AI ethics. We then presented three human understandable solutions to explain the
+links predicted by Graph Neural Networks, namely search based retrieval of verification
+text, anchors based, and path ranking based explanations.
+
+
+Acknowledgments and Disclosure of Funding
+
+We thank Scott Schumacher, Marcus Boon, Berthold Reinwald, Xiao Qin, Jim O’Neil,
+Martin Oberhofer, Lars Bremmer, Manfred Overs, and Philip Mueller.
+
+                                              8
+          xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+References
+Rishabh Agarwal, Levi Melnick, Nicholas Frosst, Xuezhou Zhang, Ben Lengerich, Rich
+  Caruana, and Geoffrey E Hinton. Neural additive models: Interpretable machine learning
+  with neural nets. Advances in neural information processing systems, 34:4699–4711, 2021.
+
+Shib Sankar Dasgupta, Swayambhu Nath Ray, and Partha Talukdar. Hyte: Hyperplane-
+  based temporally aware knowledge graph embedding. In Proceedings of the 2018 Confer-
+  ence on Empirical Methods in Natural Language Processing, pages 2001–2011, 2018.
+
+Daniel C Elton. Self-explaining ai as an alternative to interpretable ai, 2020.
+
+Matthias Fey and Jan Eric Lenssen. Fast graph representation learning with pytorch geo-
+ metric. arXiv preprint, abs/1903.02428:1–9, 2019.
+
+Balaji Ganesan, Srinivas Parkala, Neeraj R Singh, Sumit Bhatia, Gayatri Mishra, Math-
+  een Ahmed Pasha, Hima Patel, and Somashekar Naganna. Link prediction using graph
+  neural networks for master data management, 2020.
+
+Matt Gardner and Tom Mitchell. Efficient and expressive knowledge base completion using
+ subgraph feature extraction. In Proceedings of the 2015 Conference on Empirical Methods
+ in Natural Language Processing, pages 1488–1498, 2015.
+
+Saiping Guan, Xiaolong Jin, Yuanzhuo Wang, and Xueqi Cheng. Link prediction on n-ary
+  relational data. In The World Wide Web Conference, pages 583–593, 2019.
+
+Will Hamilton, Zhitao Ying, and Jure Leskovec. Inductive representation learning on large
+ graphs. In Advances in neural information processing systems, pages 1024–1034, 2017.
+
+Qiang Huang, Makoto Yamada, Yuan Tian, Dinesh Singh, Dawei Yin, and Yi Chang.
+  Graphlime: Local interpretable model explanations for graph neural networks. arXiv
+  preprint arXiv:2001.06216, 2020.
+
+Sarthak Jain and Byron C Wallace. Attention is not explanation. In Proceedings of the
+  2019 Conference of the North American Chapter of the Association for Computational
+  Linguistics: Human Language Technologies, volume 1, pages 3543–3556, 2019.
+
+Thomas N. Kipf and Max Welling. Semi-supervised classification with graph convolutional
+ networks, 2017.
+
+Pradap Konda, Sanjay Subramanian Seshadri, Elan Segarra, Brent Hueth, and AnHai Doan.
+  Executing entity matching end to end: A case study. In EDBT, pages 489–500, 2019.
+
+Ni Lao, Tom Mitchell, and William Cohen. Random walk inference and learning in a large
+  scale knowledge base. In Proceedings of the 2011 conference on empirical methods in
+  natural language processing, pages 529–539, 2011.
+
+Jiaheng Lu, Jun Chen, and Chao Zhang. Open graph benchmark, 2019.
+
+Scott M Lundberg and Su-In Lee. A unified approach to interpreting model predictions. In
+  Advances in neural information processing systems, pages 4765–4774, 2017.
+
+                                              9
+         xLP: Explainable Link Prediction for Master Data Management
+
+
+
+
+André Melo Melo and Heiko Paulheim. Automatic detection of relation assertion errors and
+ induction of relation constraints. Semantic Web, 11:801–830, 2020.
+Sidharth Mudgal, Han Li, Theodoros Rekatsinas, AnHai Doan, et al. Deep learning for
+  entity matching: A design space exploration. In Proceedings of the 2018 International
+  Conference on Management of Data, pages 19–34, 2018.
+Phillipp Müller, Xiao Qin, Balaji Ganesan, Nasrullah Sheikh, and Berthold Reinwald.
+  An integrated graph neural network for supervised non-obvious relationship detection
+  in knowledge graphs. In EDBT, pages 379–382, 2020.
+Martin Oberhofer, Eberhard Hechler, Ivan Milman, Scott Schumacher, and Dan Wolfson.
+ Beyond big data: Using social MDM to drive deep customer insight. IBM Press, 2014.
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, et al. Pytorch:
+ An imperative style, high-performance deep learning library. In Advances in neural in-
+ formation processing systems, pages 8026–8037, 2019.
+Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. ” why should i trust you?”
+ explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD
+ international conference on knowledge discovery and data mining, pages 1135–1144, 2016.
+Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. Anchors: High-precision model-
+ agnostic explanations. In AAAI, volume 18, pages 1527–1535, 2018.
+Michael Schlichtkrull, Thomas N Kipf, Peter Bloem, Rianne Van Den Berg, Ivan Titov, and
+ Max Welling. Modeling relational data with graph convolutional networks. In European
+ Semantic Web Conference, volume 11136, pages 593–607, 2018.
+Fan-Yun Sun, Jordan Hoffmann, and Jian Tang. Infograph: Unsupervised and semi-
+  supervised graph-level representation learning via mutual information maximization.
+  arXiv preprint arXiv:1908.01000, 2019.
+James Thorne, Andreas Vlachos, Christos Christodoulopoulos, and Arpit Mittal. Fever: a
+  large-scale dataset for fact extraction and verification. arXiv:1803.05355, 2018.
+Lingraj S Vannur, Balaji Ganesan, Lokesh Nagalapatti, Hima Patel, and MN Thippeswamy.
+  Data augmentation for personal knowledge base population, 2020.
+Sarah Wiegreffe and Yuval Pinter.    Attention is not not explanation.    arXiv preprint
+  arXiv:1908.04626, 2019.
+Zhitao Ying, Dylan Bourgeois, Jiaxuan You, Marinka Zitnik, and Jure Leskovec. Gn-
+  nexplainer: Generating explanations for graph neural networks. In Advances in neural
+  information processing systems, pages 9244–9255, 2019.
+Jiaxuan You, Rex Ying, and Jure Leskovec. Position-aware graph neural networks. In
+  Proceedings of Machine Learning Research, volume 97. PMLR Press, 2019.
+Marinka Zitnik and Jure Leskovec. Predicting multicellular function through multi-layer
+ tissue networks. Bioinformatics, 33(14):190–198, 2017.
+
+                                           10
+

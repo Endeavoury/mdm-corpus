@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=26mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella-regular.otf}[BoldFont=texgyrepagella-bold.otf,ItalicFont=texgyrepagella-italic.otf,BoldItalicFont=texgyrepagella-bolditalic.otf]
+\setsansfont{texgyreheros-regular.otf}[BoldFont=texgyreheros-bold.otf,ItalicFont=texgyreheros-italic.otf,BoldItalicFont=texgyreheros-bolditalic.otf]
+\usepackage[dutch]{babel}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,tabularx}
+\usepackage{graphicx,tikz,ragged2e}
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=4pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\LTpre}{8pt}
+\setlength{\LTpost}{8pt}
+\renewcommand{\arraystretch}{1.18}
+\newcommand{\status}[1]{\textit{#1}}
+\newcommand{\component}[2]{\textbf{#1: #2}}
+\title{Een Semantic Master Data Product voor de Nederlandse overheid\\\large Een pre-evaluation design proposal over contextbinding en toetsbare meerwaarde}
+\author{Onderzoeksmanuscript}
+\date{7 september 2026\\\small Ontwerpvoorstel; empirische evaluatie nog uit te voeren}
+\begin{document}
+\maketitle
+\begin{abstract}
+Het Nederlandse Stelsel van Basisregistraties vormt de primaire context voor het ontwerpen van een Semantic Master Data Product (SMDP): een beheerde publicatie-eenheid die master- en referentiegegevens verbindt met expliciete betekenis, gezagsgrond, identiteit, historie, provenance, kwaliteitsregels en gebruiksmetadata. Deze paper synthetiseert het bestaande repositorydossier met 51 standaard- en kadervermeldingen en 19 literatuurvermeldingen, inclusief drie tijdens de kritische review toegevoegde antecedenten. Het betreft een afgebakende, ontwerpgerichte synthese; het corpus is geen volledige systematische review en bevat bronnen die slechts op abstract- of catalogusniveau zijn onderzocht. Vanuit Design Science Research worden 23 requirements, negen ontwerpprincipes, een reference architecture met vijftien functionele analyseviews en een getypeerd conceptueel metamodel voorgesteld. De kandidaatbijdrage is een toetsbaar contextbindingsprofiel voor uitspraken over identiteit, tijd en gezag, met een conventioneel contextregister als concurrerende verklaring. Semantische masterdata en productontologieën zijn reeds bestaand werk. Daarbij worden onder meer conceptuele equivalentie, objectidentiteit en gelijkheid van representaties onderscheiden. Een BAG-fragment begrenst de casus; koppelingen met andere basisregistraties vereisen aanvullende brononderbouwing. Het reeds bestaande prototype wordt uitsluitend als onderzoeksartefact gepositioneerd. Een toekomstige evaluatie zal semantische volledigheid, traceerbaarheid, temporele reconstructie, mappingkwaliteit en machine-interpretatie primair vergelijken met een conventioneel contextregister met dezelfde informatie. De veronderstelde voordelen, waaronder betere interpretatie door AI, zijn hypothesen en worden in deze paper niet empirisch vastgesteld.
+\end{abstract}
+\noindent\textbf{Trefwoorden:} semantische interoperabiliteit; master data; basisregistraties; ontologie; metadata; Design Science Research.
+\tableofcontents
+\newpage
+\input{sections/introduction}
+\input{sections/theory}
+\input{sections/context-analysis}
+\input{sections/architecture}
+\input{sections/principles}
+\input{sections/case-evaluation}
+\input{sections/discussion}
+\input{sections/pre-evaluation}
+\appendix
+\section{Traceability van onderzoeksvragen naar evaluatie}
+\label{sec:trace}
+Tabel~\ref{tab:trace} maakt de redeneringsketen zichtbaar. Een verwijzing naar literatuur of een standaard ondersteunt de rationale; zij betekent niet dat de volledige requirement letterlijk uit die bron volgt. De operationaliseringen zijn eigen voorstellen. De machineleesbare versie staat in \texttt{traceability-matrix.csv}; het register onderscheidt bronclaims, ontwerpafleidingen en hypothesen. De documentaudit controleert verwijzingen en dekking, niet de werking van het prototype.
+\begingroup\small
+\input{sections/traceability-table}
+\input{sections/derivation-table}
+\endgroup
+\section{Corpus, bronstatus en reproduceerbaarheid}
+\label{sec:corpus}
+De bron-ID’s S01--S51 en L01--L19 blijven gelijk aan die in de repository. Meerdere vermeldingen kunnen dezelfde publicatie betreffen: FAIR (S46/L11) en OntoClean (S50/L10) zijn geen onafhankelijk bewijs. De volledige matrices bevatten versies, eigenaar, documenttype, bronlocatie en bewijsbeperkingen. L06 is uitsluitend bibliografisch geverifieerd en draagt geen inhoudelijke conclusie van deze paper. De referentielijst bevat alleen daadwerkelijk aangehaalde werken; \texttt{references.bib} bewaart ook overige corpusvermeldingen voor traceerbaarheid. Jaartallen, auteurs en titels zijn overgenomen uit het dossier; niet daarin vastgestelde volumes, paginanummers en DOI’s zijn niet aangevuld. Niet vastgestelde publicatiejaren worden aangeduid met ``z.d.''; een onderzoekspeildatum wordt niet als publicatiejaar gebruikt. Bij in het dossier verkorte auteurslijsten blijft ``et al.'' gehandhaafd.
+
+De peildatum is 7 september 2026. Het oorspronkelijke dossier is tijdens een gerichte kritische review aangevuld met S51, L18 en L19. De broncontrole onderscheidt opnieuw gelezen passages, bibliografische bevestiging en onvolledige toegang. De nieuwe controle staat in \texttt{source-audit.csv}; het manuscript is geen volledige actualiteitsmonitor. Voor normconformiteit moeten de volledige toepasselijke normteksten en versies later beschikbaar zijn. Vooral DAMA-DMBOK, ISO en NEN zijn hier voor hun vastgestelde toepassingsgebied gebruikt; er worden geen ongelezen clausules gereconstrueerd.
+
+\texttt{scripts/prepare\_paper.py} genereert de bibliografie en traceability-tabellen uit de matrices en geregistreerde ontwerpafleidingen. \texttt{scripts/audit\_paper.py} controleert interne verwijzingen. Compilatie met Tectonic is beschreven in \texttt{BUILD.md}. De documentcontrole en PDF-compilatie zijn uitsluitend redactionele verificatie.
+\section{Uitgebreide standaardvergelijking}
+\label{sec:full-standards}
+\input{sections/cross-standard-table}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}

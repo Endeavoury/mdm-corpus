@@ -1,0 +1,304 @@
+               SMDM: Enhancing Enterprise-Wide Master Data
+               Management Using Semantic Web Technologies
+
+ Xiaoyuan Wang1 Xingzhi Sun1 Feng Cao1 Li Ma1 Nick Kanellos2 Kang Zhang3 Yue Pan1 Yong Yu3
+                       1
+                           IBM China Research Lab, China {wangxyxy, sunxingz, caofeng, malli, panyue}@cn.ibm.com
+                                             2
+                                               IBM Software Group, Canada kanellos@ca.ibm.com
+                              3
+                                Shanghai Jiao Tong University, China jobo@apex.sjtu.edu.cn yyu@cs.sjtu.edu.cn
+
+
+
+ABSTRACT                                                                                                                                               Domain ontology
+                                                                                                                                                                 Open Data
+
+Motivated by evolving business requirements and novel en-
+terprise applications, we propose and implement the Se-                                                                        RDF View of
+mantic Master Data Management (SMDM), a semantics-                                     Thing
+                                                                                                                               Master Data
+level enhancement to the existing MDM solutions. The                                          Contact
+SMDM system publishes relational-based master data as vir-                                              Organization
+tual RDF store, and injects instantaneous reasoning capabil-                         Core MDM
+                                                                                     Ontology          Person
+ities into semantic queries. Two kinds of ontologies are intro-                     derived from MDM
+                                                                                      logical model
+                                                                                                                            SMDM Engine                      Ontology extension
+duced to the system, the core MDM ontology and the exter-                                                                                                    User-defined rules
+nal imported domain ontology. SMDM enables data linking                                                          Ontology
+                                                                                                                  to RDB
+among multi-domains, implicit relationship discovery, and                                                        Mapping
+declarative definition and extension of business policies and
+entities. Based on these functions, modern companies can                                                                                                       Operational
+                                                                                                                                                              Operational
+                                                                                                                                                                  Operational
+                                                                                                                                                   Pub/Sub      Data stores
+customize their applications and services on demand within                                                                  MDM Hub Ontology
+                                                                                                                                       Rules
+                                                                                                                                             and              Data stores
+                                                                                                                                                              Operational
+                                                                                                                                                                  Data stores
+                                                                                                                                                              Data stores
+
+the MDM hub. In the demonstration, we build the system
+environment based on IBM’s MDM solution, and run the
+                                                                                                       Figure 1: An overview of SMDM
+use cases on the master data of an insurance company.
+
+1.    INTRODUCTION                                                                ganization, and valuable but implicit knowledge discovery in
+  With increasing market competition and complex busi-                            rich relationships. All of these pose great challenges to mas-
+ness performance management, it is critically important for                       ter data management. Motivated by this, we propose and
+modern companies to maintain a single group of core entities                      develop the Semantic Master Data Management (SMDM),
+across many systems within an enterprise to improve busi-                         a semantics-level enhancement to the existing MDM solu-
+ness efficiency and customer satisfaction. There arises high                      tions. To fully utilize the formal expressivity capability, we
+demand for master data [16], which refers to core business                        apply Semantic Web [9] technologies to the implementation
+entities a company uses repeatedly across many business                           of SMDM. The value of Semantic Web technologies has been
+processes and systems, such as lists or hierarchies of cus-                       witnessed by the emergence of open data applications, such
+tomers, suppliers, accounts, or organizational units. In re-                      as Wikipedia, DBpedia [2], and Freebase [12].
+cent years, well-known data management solution providers,                           Figure 1. illustrates the overview of SMDM. The SMDM
+such as IBM, Oracle and SAP, have released their master                           engine publishes the underlying relational MDM database
+data management (MDM) solutions [4, 6, 8], especially on                          as virtual RDF store, which can link open data with master
+customer data integration (CDI) and product information                           data to support effective collaboration. Two types of ontolo-
+management (PIM).                                                                 gies are introduced to the whole environment, the core MDM
+  Driven by evolving business requirements and novel appli-                       ontology and the external domain ontology. The former is
+cations, the simple management of master data is far from                         derived from the MDM logical model containing core busi-
+satisfactory. A majority of modern companies need the se-                         ness entities and relationships, and the latter corresponds to
+mantic analysis and extension for core business entities and                      external domains to be linked. To support SPARQL [11] (a
+relationships, multi-domain collaboration and product reor-                       query language for RDF data recommended by W3C), the
+                                                                                  SMDM engine translates a SPARQL query into a SQL state-
+                                                                                  ment, which will further be executed by the MDM relational
+Permission to copy without fee all or part of this material is granted provided   database engine.
+that the copies are not made or distributed for direct commercial advantage,         The technical challenges are how to effectively support
+the VLDB copyright notice and the title of the publication and its date appear,   query and analysis, and how to generate efficient SQLs for
+and notice is given that copying is by permission of the Very Large Data          the underlying MDM database. Some previous work on ex-
+Base Endowment. To copy otherwise, or to republish, to post on servers            posing relational data as RDF data, such as D2RQ [1] and
+or to redistribute to lists, requires a fee and/or special permission from the    Virtuoso [5], lack the capability of reasoning for analysis,
+publisher, ACM.
+VLDB ‘09, August 24-28, 2009, Lyon, France                                        and pay little attention to the ”quality” of the generated
+Copyright 2009 VLDB Endowment, ACM 000-0-00000-000-0/00/00.                       SQLs. Two aspects of technical highlights in SMDM should
+be mentioned. First, instantaneous rule reasoning is injected                         Extended SPARQL Query
+into query evaluation. With it, SMDM enables the capabil-
+ity of hidden relationship discovery and enriches semantic                                       Parser
+queries through the rule-based extension of SPARQL. Sec-
+ond, SMDM embeds a novel SPARQL-to-SQL translator,                                      SPARQL Pattern Tree
+                                                                                                                          Expand and Update
+which generates one single SQL statement rather than mul-
+tiple SQLs from a SPARQL query, and thus fully utilizes                                   SPARQL-to-SQL
+                                                                    D2RQ Mapping                                          Datalog Rule Engine
+well-developed SQL execution engines. From the perfor-                                    Translator
+mance results we observe that the translator of the SMDM
+system greatly outperforms that of D2R server [1] in terms                            Translated SQL Statement
+                                                                                                                           Ontology and Rule
+                                                                                                                           Manager
+of execution time of the generated SQLs.
+   In this demonstration, with the IBM MDM model, we will                             Database
+highlight three main features in the SMDM system.
+   1. Cross-domain data linking. Data linking can be                               Master Data     Ontology
+                                                                                                   rules
+                                                                                                              Temporary
+                                                                                                              Tables
+realized by 1) publishing various datasets as RDF data and
+2) setting the links between the published data. Thus, by
+exposing master data as virtual RDF data, SMDM can link               Figure 2: Architecture of the SMDM system
+it with open data within an enterprise, and enables a unified
+customer view and product reorganization under different
+business domains.
+                                                                      Considering the large size of master data and its update
+   2. Dynamic concept extension. The rich expressivity
+                                                                   problem, it is not practical to materialize all the inferred re-
+and formal semantics of the SMDM ontology model provide
+                                                                   sults. We apply a runtime reasoning mechanism and follow
+an explicit specification of conceptualization on business en-
+                                                                   the semi-naive evaluation approach with Magic Sets opti-
+tities. According to personalized applications, customers
+                                                                   mization [13] in the datalog evaluator.
+can dynamically extend core concepts in master data by
+                                                                      One characteristic in the SMDM system is that instanta-
+user-defined rules or OWL expressions [7] and apply them
+                                                                   neous rule reasoning is injected into query evaluation. The
+to business transactions.
+                                                                   high-level idea behind it is to expand the SPARQL pattern
+   3. Semantic query and implicit relationship dis-
+                                                                   tree by the rule engine and update it if necessary. The rule
+covery. With embedding reasoning into query evaluation,
+                                                                   engine first receives the parsed pattern tree, checks whether
+SMDM can discover hidden relationships between individu-
+                                                                   there are rule heads in pattern nodes and expands them by
+als in MDM. Semantic query integrates core MDM ontology,
+                                                                   rule conditions accordingly. If there is a recursive loop when
+customer extensions, imported domain ontology, and busi-
+                                                                   expanding a rule head, the datalog evaluator will evaluate
+ness rules to derive new information from existing data.
+                                                                   the corresponding pattern node and generate a temporary
+   In actual scenarios, it is usually easy for clients of SMDM
+                                                                   table to store the inferred results. The rule engine then at-
+without knowledge of implementation details to issue se-
+                                                                   taches the temporary table to the corresponding node and
+mantic queries and make declarative business definitions and
+                                                                   updates the pattern tree. The modified pattern tree will
+policies by user-defined rules.
+                                                                   finally be translated into a SQL statement. The tempo-
+                                                                   rary tables, together with the underlying data tables, are
+2.   A TOUR OF THE SMDM SYSTEM                                     involved in the final SQL execution.
+   Figure 2. illustrates the architecture of the SMDM sys-            We propose a TreeExpansion algorithm in this process. It
+tem. The extended SPARQL query is passed to the system             constructs a dependency graph based on all the rules. In
+from frontend users, and the SPARQL pattern tree is the            the pattern tree, if a node corresponds to recursive rules,
+key structure maintained by the SPARQL-to-SQL transla-             it computes the strong connected subgraph it belongs to in
+tor. We describe the details of four major components and          the dependency graph. Then the datalog evaluator is trig-
+our technical contribution.                                        gered to compute fixpoints for all related rules in the strong
+   Mapping component. Given the core MDM ontology,                 connected subgraph. Otherwise (rules are not recursive), it
+the system needs to build a RDB-to-ontology mapping over           simply expands the node as a subtree and recursively calls
+the master data hub so that a SPARQL query can be seam-            the TreeExpansion procedure on it.
+lessly translated into an executable SQL. Here we leverage            SPARQL-to-SQL translator. We use our previous
+the well-known D2RQ mapping language, a declarative map-           work [14] to express a SPARQL graph pattern as a node
+ping language for describing the relationship between an on-       pattern tree, which contains five types of nodes, AND node,
+tology model and a relational data model. With the D2RQ            OR node, TRIPLE node, FILTER node, and N-ARY node.
+mapping tool and captured specific characteristics of the             Compared with the existing methods that translate a SPARQL
+MDM relational model, we adopt a semi-automatic method             query into a SQL, such as D2RQ and Virtuoso, the SMDM
+to generate the mapping file.                                      translator has the following highlights.
+   Datalog rule engine. The datalog rule engine embraces              First, our method generates a single SQL statement rather
+its reasoning of two types: ontology reasoning and user-           than multi-stage SQLs so that well-developed SQL optimiz-
+defined rule reasoning. Ontology reasoning is performed for        ers can be fully utilized. Besides standalone execution, the
+finding implicit RDF triples within the ontology model. It         generated single SQL can also be directly embedded into
+is fulfilled based on Description Logic Programmes (DLP)           other MDM SQL executor as a sub-query, which provides an
+[13], referring to a set of Datalog rules. For user-defined rule   easy way to seamlessly integrate normal MDM queries with
+reasoning, users can define a set of business rules on top of      semantic queries. The single-SQL generation relies on our
+ontology to enrich the semantics.                                  Semi-SQL structure, which fills the gap between columns in
+SQL and variables in SPARQL. Each pattern node is first
+translated into a Semi-SQL structure. Then all the Semi-
+SQL structures are flattened to reduce unnecessary joins and
+further translated into one SQL statement as a whole.
+   Second, the translator supports both the horizontal schema
+and the vertical schema1 , and makes optimizations on them
+respectively. A hybrid physical schema, including horizontal
+one and vertical one, appears common in many applications.
+To handle this, two additional components are added into
+the translator. One is the SPARQL Dispatcher, which de-
+composes the incoming query pattern into the horizontal
+part and vertical part according to extracted mapping in-
+formation. The other is the SQL Coordinator, which com-
+bines generated intermediate SQLs from the horizontal part
+and vertical part into a final statement. We present a two-
+binding implementation in vertical translation, which uti-
+lizes the pattern-level ID binding rather than the in-pattern           Figure 3: A snapshot of the SMDM GUI
+URI binding to greatly reduce join cost.
+   To examine the efficiency of the translator in the SMDM
+system, we build a set of benchmark queries in the testbed,       dard in an external financial domain, which is different from
+which contain two kinds of queries, simple patterns and com-      its own product line domain. (Cross-domain data linking)
+plex patterns. The former includes different combinations            2. To improve the quality of personalized services, the
+of variable/constant options on subject, predicate and ob-        company wants to introduce the concept of VIP customer,
+ject position in a triple pattern. The latter indicates the       construct its explicit or implicit relationship with entities in
+complex AND/OR patterns, which contain a number of dif-           the system, and finally identify a group of existing customers
+ferent triple patterns. We conduct comparison on the re-          as VIP customers based on their personal and historical in-
+trieval time between the SPARQL-to-SQL translator of the          formation. (Dynamic concept extension)
+SMDM system and that of D2R server. From the results,                3. For preserving these VIP customers, the company will
+we observe that for simple patterns both of them have the         regularly provide them with special offers on its insurance
+similar retrieval time, while for complex patterns the former     products. The eligibility of the special offer is determined
+outperforms the latter with the retrieval time three to five      by sale promotion policies, which might involve some hidden
+times faster.                                                     relationships and should be flexible and subject to change.
+   Ontology and rule manager. We apply the persistent             (Semantic query and implicit relationship discovery)
+mechanism to ontology and rule management. Two types of              From the perspective of master data, the SMDM system
+ontologies, including the core ontology and imported domain       captures the semantics-level association and provides a nat-
+ontology, are stored in the SOR system we implemented [15],       ural solution to satisfy these requirements, which correspond
+and a separate set of tables are used for storing rules. In ex-   to the main features mentioned in Section 1.
+ecution, the translator and rule engine obtain the ontologies        Let’s see what will happen when the insurance company
+and rules they need from the manager.                             follows the SMDM system. Firstly it imports an external
+                                                                  financial domain (a hierarchy of classes), which is called
+3.    DEMONSTRATION                                               the external domain ontology, to the system. With it the
+                                                                  company can establish the RDF links between the product
+3.1    Demo Scenario and Use Cases                                instances (in the form of RDF) and the imported domain
+  To build the MDM database, we use the relational schema         classes, to reorganize the products in another customized
+of Websphere Customer Center (WCC) [4], one of IBM’s              line. We provide two ways to realize this from the user per-
+MDM products, and run the use cases on the data set of            spective. One is to select the instances by navigating to
+an insurance company. A pre-built WCC ontology, which is          them and manually insert them into the target class. The
+called the core MDM ontology, is loaded into the system be-       other is to apply user-defined rules to virtually map a batch
+forehand and corresponds to key entities and relationships in     of products to a class in the imported domain hierarchy.
+the WCC model. The main entities in the data set contain             Secondly, by the company strategy, the VIP customer is
+1.9M Contract, 1.0M Claim, 2.0M Contact including Per-            defined as the one who either has the clientImportance label
+son and Organization, and 3.2M Location Group. It also            set to highest or is recommended by another VIP customer.
+contains 1.9M Contact-to-Contract relationships.                  We can see that this is a recursive definition and the data-
+  Motivated by actual market requirements, the insurance          log rule engine will be invoked to retrieve results. According
+company tries to realize the following business points based      to the existing core MDM ontology, business users without
+on its existing capability.                                       knowledge of implementation details can easily define such
+  1. The company wants to classify or reorganize their in-        a concept VIP Customer using rules, as is shown below.
+surance products and services according to a formal stan-           VIP Customer(?x):- wcc:hasClientImportance(?x, ’highest’).
+1
+ Conceptually, the vertical schema involves a table with            VIP Customer(?x):- VIP Customer(?y), wcc:providedBy(?x, ?y).
+three columns (S, P, O), storing the values of subject, prop-
+erty and object in one row, while the horizontal schema is a        Note that a concept can also be defined using OWL ex-
+general physical schema where a property corresponds to a         pressions by advanced users, which will further be translated
+column name.                                                      to datalog rules for evaluation.
+   Thirdly, the company defines the sale promotion policy as      4. POTENTIAL APPLICATIONS
+follows: a VIP customer who purchased an insurance prod-             Recently we successfully applied the SMDM technology
+uct of class C and made less than 2 claims in previous years      to the healthcare domain. We have built a platform that al-
+can get 20% discount for purchasing any C -typed products         lows physicians to access clinical data through virtual RDF
+for the next year. Note that the policy implies a number          store and supports semantic queries and analysis based on
+of transitive subClassOf relationships, which take C as the       the healthcare ontologies. The schema of clinical data is de-
+root class and flow in the whole class hierarchy.                 rived from the standard HL7 RIM [3] model and we build
+   Users can construct rules to refine business concepts in a     a general repository using IBM Clinical Genomics (CG) to
+bottom-up way, and build semantic queries based on SPARQL         store clinical data in a relational database. HL7 RIM ontol-
+extension. Take the imported class Automobile as an exam-         ogy, considered as counterpart of the core MDM ontology in
+ple. Given a customer <personX> and an Automobile in-             SMDM, covers all the aspects of clinical data, including clin-
+surance product purchased, the goal is to check whether the       ical entities and rich relationships. By building the mapping
+customer is eligible for the special offer. The corresponding     between the relational schema in CG and the RIM ontology,
+rule-based extended SPARQL is descried as follows.                we can expose the relational clinical data as virtual RDF
+                                                                  data. We also introduce SNOMED CT ontology [10], which
+  SELECT ?customer ?numOfClaims
+  WHERE {Contract Owner(?customer, ?contract).                    defines the formal semantics of clinical concepts and plays
+          Contract Product Relationship(?contract, ?product).     the similar role as what the imported domain ontology does
+          ?product rdf:type import:Automobile. }                  in SMDM. By linking the clinical data (modeled by RIM)
+  OPTIONAL {Contract NumOfClaims(?contract, ?numOfClaims).}
+  FILTER {(?customer = <personX>)}                                with the clinical concepts (modeled by SNOMED CT), we
+                                                                  enrich the formal semantics of clinical data, and enable se-
+   Contract Owner, Contract Product Relationship and Con-         mantic queries and user-defined rules on it. As a result,
+tract NumOfClaims are three extended concepts by rules,           implicit clinical information can be inferred and delivered
+which define the contract owner relationship between a con-       to end users.
+tact and a contract, the relationship between a contract and         In future work, we would like to improve the consumption
+a product, and how to find a contract with the number of          of the SMDM technologies, and integrate the SMDM system
+claims made from it. We omit their details due to space           into the existing MDM solutions, to enrich more enterprise-
+limitation.                                                       wide applications.
+   Whether a customer is eligible for the special offer is ex-
+amined in SMDM transactions. The special offer will go into       5. REFERENCES
+effect automatically when the SMDM system detects that a
+                                                                   [1] D2RQ. http://www4.wiwiss.fu-berlin.de/bizer/d2rq/.
+VIP customer is eligible for it. In this example, if the result
+                                                                   [2] DBpedia. http://dbpedia.org/About.
+set is not empty and the returned numOfClaims is less than
+2, <personX> can have 20% discount on the Automobile               [3] HL7 RIM. http://www.hl7.org/Library/data-model/
+insurance product.                                                     RIM/modelpage mem.htm.
+   It should be mentioned that reasoning will be triggered         [4] IBM Websphere Customer Center. http://www-
+several times in this process, because 1) the subClassOf re-           01.ibm.com/software/data/masterdata/customer/.
+lationship, implied in the policy, appears common in a class       [5] Mapping relational data to rdf in virtuoso.
+hierarchy. If class Personal Automobile is a subclass of Au-           http://virtuoso.openlinksw.com/wiki/main/main/vossqlrdf.
+tomobile, a direct instance of Personal Automobile also be-        [6] Oracle Master Data Management Suite.
+longs to the type of Automobile and will be involved in any            http://www.oracle.com/master-data-management.
+Automobile-related inference and evaluation through reason-        [7] OWL. http://www.w3.org/2004/OWL/.
+ing; 2) many extended concepts and relationships have to           [8] SAP NetWeaver Master Data Management.
+be expressed by recursive definitions. In the above exam-              http://www.sap.com/platform/netweaver/components/mdm.
+ple, Contract NumOfClaims depends on the Sub Contract              [9] Semantic Web. http://www.w3.org/2001/sw/.
+relationship, which is a recursive definition and involved in     [10] SNOMED CT. http://www.nlm.nih.gov/research/
+runtime datalog evaluation.                                            umls/Snomed/snomed main.html.
+                                                                  [11] SPARQL Query Language for RDF.
+3.2    User Interface Overview                                         http://www.w3.org/TR/rdf-sparql-query/.
+  We implement the SMDM graphical user interface using            [12] K. Bollacker, C. Evans, P. Paritosh, and T. Sturge.
+Adobe Flex and Java Servlet, and run the SMDM system                   Freebase: a collaboratively created graph database for
+on Apache Tomcat as a web service. As is illustrated in                structuring human knowledge. In SIGMOD, 2008.
+Figure 3, it is divided into four parts: Ontology Explorer,
+                                                                  [13] S. Ceri, G. Gottlob, and L. Tanca. Logic programming
+Semantic Query, Rule Management, and Mapping Manage-
+                                                                       and databases. Springer-Verlag, 1990.
+ment. By clicking an instance under a certain ontology class
+                                                                  [14] J. Lu, F. Cao, L. Ma, Y. Yu, and Y. Pan. An effective
+with tree-structured multi-level nagivation, users can contin-
+                                                                       sparql support over relational databases. In VLDB
+uously view all the linked data that is related to the instance
+                                                                       Joint ODBIS-SWDB workshop, 2007.
+under the star-style graph view mode. Users can also per-
+form a series of flexible operations in the interface, such       [15] J. Lu, L. Ma, L. Zhang, J. Brunner, C. Wang, Y. Pan,
+as defining rules to map business instances to external do-            and Y. Yu. Sor: A practical system for ontology
+main concepts, loading semantic queries from pre-defined               storage, reasoning and search. In VLDB, 2007.
+templates and so on. Combined with the user interface, the        [16] H. Morris and D. Vesset. Managing master data for
+demonstration will tell a whole story based on the above               business performance management: the issues and
+scenario and use cases in a straightforward way.                       hyperion’s solution. IDC white paper, 2005.
+

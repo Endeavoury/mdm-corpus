@@ -1,0 +1,1169 @@
+
+
+  
+
+Afwegingskader FDS v1 | Federatief Datastelsel
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+
+  Federatief Datastelsel
+
+    
+
+    
+
+        Werkbank
+
+      
+
+        Deelnemers
+
+      
+
+        Afspraken
+
+      
+
+        
+
+  
+
+  
+
+    
+
+  
+
+    
+
+  
+
+  
+
+  
+
+  
+
+    
+
+      Light
+
+    
+
+  
+
+    
+
+      Dark
+
+    
+
+  
+
+    
+
+      Auto
+
+    
+
+      
+
+    
+
+  
+
+    
+
+  
+
+  
+
+  
+
+    
+
+      
+
+        
+
+          
+
+  
+
+  
+
+  
+
+    
+
+  
+
+    
+
+    Afspraken
+
+      
+
+    Afwegingskader FDS v1
+
+    
+
+    
+
+          
+
+            
+
+Bekijk paginabron in Gitlab
+   Bewerk met CMS of Gitlab
+   Maak hier een issue of stel een vraag
+
+ Print volledige sectie
+
+            
+
+            
+
+          
+
+            
+
+  
+
+    Afspraken
+
+    Afwegingskader FDS v1
+
+            
+
+	
+Afwegingskader FDS v1
+
+Het afwegingskader voor toelating van aanbod tot FDS versie 1.
+
+		
+
+		
+
+	
+
+		
+		Thursday, December 18, 2025
+
+	
+
+  
+
+    
+
+    
+
+    
+
+    
+
+            
+
+                Nr
+                Definitie
+                Type binding
+                Toelichting
+
+        
+
+        
+
+    
+
+        Regie
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            RE007‑A
+
+        
+            Alleen (overheids)organisaties met een publiekrechtelijke taak kunnen de rol van FDS-data-aanbieder vervullen.
+
+            Bron: RE007: Eisen aan de data-aanbieder
+
+        Verplicht
+
+            Geef een link (of links) naar het Basis Wetten Bestand (BWB, https://wetten.overheid.nl/) waaruit blijkt dat de aanbieder een publiekrechtelijke taak heeft. Geef een toelichting indien de taak niet direct uit de tekst van de wet- of regelgeving blijkt.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            RE008‑A
+
+        
+            De dataset wordt bijgehouden op grond van een taak voortvloeiend uit wet- en regelgeving of een continu voortdurende publieke taak.
+
+            Bron: RE008: Eisen aan de dataset
+
+        Verplicht
+
+            Geef een link (of links) naar het Basis Wetten Bestand (BWB, https://wetten.overheid.nl/) waaruit de taak blijkt op grond waarvan de dataset wordt bijgehouden. Geef een toelichting indien de taak of het verband met de dataset niet direct uit de tekst van de wet- of regelgeving blijkt.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            RE008‑B
+
+        
+            Het is duidelijk wie het bevoegde gezag is dat de continuïteit en kwaliteit van de bijhouding en verstrekking van de dataset borgt.
+
+            Bron: RE008: Eisen aan de dataset
+
+        Verplicht
+
+            Geef een link (of links) naar de organisatie(s) in het register van overheidsorganisaties (https://organisaties.overheid.nl/) die de continuiteit en kwaliteit van de bijhouding en verstrekking borgt (of borgen). Licht eventueel toe hoe deze borging is verdeeld indien dit meer dan één organisatie betreft. Benoem bij lokale overheden de groep in de toelichting en neem hier geen links voor op.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            RE008‑C
+
+        
+            Er is een grondslag aanwezig, of te realiseren, om de data te mogen aanbieden buiten het proces/domein waar deze wordt ingewonnen (er is een formele basis voor eenmalig inwinnen, meervoudig gebruiken). Zonder grondslag wordt data niet gedeeld (indien nodig voor deze data).
+
+            Bron: RE008: Eisen aan de dataset
+
+        Verplicht
+
+            Geef een link (of links) naar het Basis Wetten Bestand (BWB, https://wetten.overheid.nl/) waaruit de grondslag blijkt op grond waarvan de data aangeboden mag worden.  Geef een toelichting indien de grondslag niet direct uit de tekst van de wet- of regelgeving blijkt. Geef in de toelichting aan hoe de grondslag gecreerd kan worden indien deze nog niet aanwezig is.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            RE008‑D
+
+        
+            De dataset is een thema- en/of landsdekkende gezaghebbende bron (data-afnemers hoeven geen andere databronnen te raadplegen om een compleet beeld te krijgen
+
+            Bron: RE008: Eisen aan de dataset
+
+        Verplicht
+
+            Geef in de toelichting aan of de dataset landsdekkend is. Geef, indien van toepassing, in de toelichting op voor welk thema de dataset themadekkend is.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            RE008‑E
+
+        
+            De kwaliteitseisen van de dataset zijn met de gebruikers afgestemd.
+
+            Bron: RE008: Eisen aan de dataset
+
+        Verplicht
+
+            Geef in de toelichting aan op welke wijze kwaliteitseisen met gebruikers zijn afgestemd.
+
+    
+
+  
+
+  
+
+    
+
+        Modellen
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            MO001
+
+        
+            De standaard sleutelwaarden worden in de dataset ter beschikking gesteld daar waar verwijzingen zijn opgenomen naar de in de informatiekundige kern benoemde objecten (persoon, organisatie, locatie).
+
+            Bron: MO001: Standaard sleutelwaarden
+
+        Verplicht
+
+            Geef in de toelichting aan naar welke van de in de informatiekundige kern benoemde objecten (persoon, organisatie, locatie) de dataset verwijst.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            MO001‑A
+
+        
+            De volgende standaard sleutelwaarden worden onderkend: Voor het object persoon: burgerservicenummer. Voor het object organisatie: kvk-nummer en rsin. Voor het object locatie: adresseerbaar-object id (BAG) en RD-coördinaat.
+
+            Bron: MO001: Standaard sleutelwaarden
+
+        Nvt
+
+            Geef in een toelichting aan welke standaarden sleutelwaarden zijn opgenomen bij de verwijzingen naar personen, organisaties en/of locaties.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            MO001‑B
+
+        
+            Als het juridisch niet mogelijk is om de standaard sleutelwaarde op te nemen, kan één van de onderkende alternatieve sleutels worden toegepast.
+
+            Bron: MO001: Standaard sleutelwaarden
+
+        Nvt
+
+            Geef, indien van toepassing, in de toelichting (kort) aan waarom de datasets alternatieve sleutels bevat voor personen, organisaties of locaties.
+
+    
+
+  
+
+  
+
+    
+
+        Datadiensten
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            DA001
+
+        
+            De dataset is extern toegankelijk via REST-API’s.
+
+            Bron: DA001: Bevraging
+
+        Verplicht
+
+            Geef de link of links naar de REST-API(’s) die de dataset ontsluiten.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            DA001‑A
+
+        
+            Toegang wordt geboden via REST-API volgens de REST-API design rules.
+
+            Bron: DA001: Bevraging
+
+        Verplicht
+
+            Geef eventueel een toelichting op bevindingen vanuit de toetsing van de REST-API(’s) op de REST-API design rules.
+
+    
+
+  
+
+  
+
+    
+
+        Metadata
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            ME002‑A
+
+        
+            De data-aanbieder verstrekt minimaal de volgende informatie als metadata: Beschrijvende kenmerken van de als aanbod in het FDS ingebrachte dataset(s).
+
+            Bron: ME002: Metadata over aanbod
+
+        Verplicht
+
+            Geef de link naar de metadatabeschrijving van de dataset.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            ME002‑B
+
+        
+            De data-aanbieder verstrekt minimaal de volgende informatie als metadata: Beschrijvende kenmerken van de datadienst(en) die toegang geven tot de betreffende dataset(s).
+
+            Bron: ME002: Metadata over aanbod
+
+        Verplicht
+
+            Geef de link of links naar de metadatabeschrijving(en) van de dataservice(s) die de dataset ontsluiten.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            ME002‑C
+
+        
+            De metadata met beschrijvende kenmerken van datasets en datadiensten (dataservices) is opgebouwd volgens een versie van de DCAT-standaard.
+
+            Bron: ME002: Metadata over aanbod
+
+        Verplicht
+
+            Neem onder ME002-A en ME002-B Linked Data URL’s naar DCAT resources op indien deze als zodanig zijn ontsloten. Neem in andere gevallen in de toelichting op hoe de metadatabeschrijvingen conform DCAT zijn ontsloten.
+
+    
+
+  
+
+  
+
+    
+
+        Kwaliteit
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW001
+
+        
+            Data-aanbieders beschrijven datakwaliteit in externe communicatie conform de terminologie van het NORA-kwaliteitsraamwerk voor zover relevant voor de dataset.
+
+            Bron: KW001: Kwaliteit van data
+
+        Aanbevolen
+
+            Geef een link naar een beschrijving van de datakwaliteit in externe communicatie.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW001‑A
+
+        
+            De zinsjablonen worden voor zover relevant en toepasbaar op de dataset toegepast.
+
+            Bron: KW001: Kwaliteit van data
+
+        Aanbevolen
+
+            Geef, indien van toepassing, een toelichting waarom zinsjablonen niet relevant of toepasbaar zijn geacht.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW001‑B
+
+        
+            De kwaliteitsdimensies compleetheid, juistheid en actualiteit worden per dataset minimaal uitgewerkt.
+
+            Bron: KW001: Kwaliteit van data
+
+        Aanbevolen
+
+            Geef eventueel een toelichting.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW001‑C
+
+        
+            Waar relevant en mogelijk worden ook de andere (voorgeschreven) dimensies en/of attributen binnen de dimensies beschreven.
+
+            Bron: KW001: Kwaliteit van data
+
+        Aanbevolen
+
+            Som in de toelichting de gehanteerde kwaliteitsdimensies en attributen op.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW001‑D
+
+        
+            Zowel de gerealiseerde kwaliteit als de streefnorm worden beschreven.
+
+            Bron: KW001: Kwaliteit van data
+
+        Aanbevolen
+
+            Geef eventueel een toelichting.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW002‑A
+
+        
+            Data-aanbieders die met een nieuwe dataset deelnemen in het Federatief Datastelsel geven bij toetreding inzicht in de datakwaliteit van de dataset met nadruk op de koppeling met identificerende gegevens van personen, organisaties en locaties.
+
+            Bron: KW002: Transparantie
+
+        Verplicht
+
+            Geef een link naar de beschrijving van de datakwaliteit of voeg deze als bijlage toe.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW002‑B
+
+        
+            De data-aanbieder bundelt de inzichten in de kwaliteit van verschillende bronhouders tot inzicht op datasetniveau en publiceert deze.
+
+            Bron: KW002: Transparantie
+
+        Verplicht
+
+            Geef in een toelichting aan hoe bundeling plaatsvindt indien de data-aanbieder niet zelf de bronhouder is.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW002‑D
+
+        
+            Voor het rapporteren over datakwaliteit gelden de volgende frequenties: Over identificerende gegevens in het stelsel met betrekking tot personen, organisaties en locaties wordt jaarlijks gerapporteerd. Dit sluit aan op de frequentie zoals deze in het Stelsel van Basisregistraties in gebruik is.
+
+            Bron: KW002: Transparantie
+
+        Verplicht
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW002‑E
+
+        
+            Voor het rapporteren over datakwaliteit gelden de volgende frequenties: Voor gegevens met een koppeling met identificerende gegevens over personen, organisaties en locaties wordt de kwaliteit jaarlijks gerapporteerd. Wanneer de gerealiseerde kwaliteit structureel meerdere jaren zeer hoog is mag volstaan worden met elke 3 jaar.
+
+            Bron: KW002: Transparantie
+
+        Verplicht
+
+            Geef in een toelichting aan wat de huidige frequentie is.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW002‑F
+
+        
+            Als uit de rapportage blijkt dat de kwaliteit verslechtert én onder de norm ligt dan signaleert de data-aanbieder dit bij de betrokken partijen zodat er maatregelen genomen kunnen worden om de kwaliteit te verbeteren.
+
+            Bron: KW002: Transparantie
+
+        Verplicht
+
+            Geef in de toelichting aan of genoemde signalering in de afgelopen vijf jaar van toepassing was en in dat geval ook heeft plaatsgevonden.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW003
+
+        
+            Data-aanbieders bieden de (technische) mogelijkheid aan data-afnemers om terugmeldingen te doen.
+
+            Bron: KW003: Terugmelden
+
+        Verplicht
+
+            Geef een link naar een beschrijving hoe data-afnemers terugmeldingen kunnen doen of geef in een toelichting aan hoe data-afnemers terugmeldingen kunnen doen. Geef eventueel in de toelichting aan hoe anderzins invulling wordt gegeven aan deze afspraak.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW003‑B
+
+        
+            De data-aanbieder draagt daar waar nodig zorg voor doorlevering aan de bronhouder.
+
+            Bron: KW003: Terugmelden
+
+        Verplicht
+
+            Geef in de toelichting aan hoe doorlevering plaatsvindt indien de data-aanbieder niet zelf de bronhouder is.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW003‑C
+
+        
+            De data-aanbieder rapporteert over het aantal ontvangen terugmeldingen en de afhandeltermijnen. De data-aanbieder baseert de rapportage op door bronhouders te verstrekken informatie.
+
+            Bron: KW003: Terugmelden
+
+        Verplicht
+
+            Geef een link naar de laatste rapportage of voeg deze als bijlage toe.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW005
+
+        
+            Van elke datadienst is het geboden dienstenniveau (servicelevel) beschreven.
+
+            Bron: KW005: Kwaliteit datadiensten
+
+        Verplicht
+
+            Geef een link naar de beschrijving van het geboden dienstenniveau of voeg deze als bijlage toe.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW005‑A
+
+        
+            De beschrijving is openbaar.
+
+            Bron: KW005: Kwaliteit datadiensten
+
+        Verplicht
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW005‑B
+
+        
+            De beschrijving is online toegankelijk.
+
+            Bron: KW005: Kwaliteit datadiensten
+
+        Verplicht
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW005‑C
+
+        
+            De beschrijving is vindbaar voor mensen en machines.
+
+            Bron: KW005: Kwaliteit datadiensten
+
+        Verplicht
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW005‑D
+
+        
+            Verplichtingen tot publicatie gelden logischerwijs niet voor die onderdelen waarbij er belangen zijn die zich hier tegen verzetten, bijvoorbeeld in het kader van nationale veiligheid of defensie.
+
+            Bron: KW005: Kwaliteit datadiensten
+
+        Nvt
+
+            Geef, indien van toepassing, in de toelichting aan op grond van welke belangen is afgezien van het publiceren van het geboden dienstenniveau.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW006
+
+        
+            Voor elke datadienst wordt volgens een vaste frequentie inzichtelijk gemaakt welk dienstenniveau daadwerkelijk is geleverd en in welke mate dit afwijkt van het beschreven dienstenniveau (dienstenniveau rapportage).
+
+            Bron: KW006: Transparantie en rapportage
+
+        Verplicht
+
+            Geef een link naar een beschrijving van het geleverde dienstenniveau of voeg deze als bijlage toe.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW006‑A
+
+        
+            Frequentie is minimaal eens per kwartaal.
+
+            Bron: KW006: Transparantie en rapportage
+
+        Verplicht
+
+            Geef in de toelichting de frequentie waarin wordt gerapporteerd.
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+            KW006‑B
+
+        
+            De dienstenniveaurapportage is in elk geval beschikbaar voor de data-afnemers van de datadienst.
+
+            Bron: KW006: Transparantie en rapportage
+
+        Verplicht
+
+            Geef in de toelichting aan hoe de rapportage ter beschikking wordt gesteld aan afnemers.
+
+    
+
+  
+
+        
+
+Deze pagina bevat linked data in RDFa formaat, ook beschikbaar in Turtle en JSONLD. De linked data is opgezet volgens de DQV ontologie.
+
+  
+
+    
+
+    
+
+  Laatst gewijzigd August 24, 2026: Normalize newlines (c200428)
+
+          
+
+      
+
+  
+
+    
+
+      
+
+        
+
+  
+
+    
+
+    
+
+  
+
+    
+
+    
+
+  
+
+      
+
+        
+
+  
+
+    
+
+    
+
+  
+
+    
+
+    
+
+  
+
+    
+
+    
+
+  
+
+      
+
+        ©
+    2026
+    IBDS/FDS|  Gepubliceerd onder CC0Privacy Policy
+
+    
+
+    
+
+  

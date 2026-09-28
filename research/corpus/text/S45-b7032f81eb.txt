@@ -1,0 +1,657 @@
+Meeting Minutes: Webinar on DCAT-AP (SEMIC
+- 04.02)
+Project:          SEMIC                          Date and Time:   04/02/2025
+                                                                  10:00 - 12:00
+
+Meeting Type:     Webinar                        Location:        Virtual
+
+
+Coordinators:     Pavlina Fragkou                Issue Date:      05/03/2025
+                  Emiel Dhondt
+
+
+                                     Agenda of the webinar
+
+13:00 - 13:05   Introduction                                   Slides 2-9
+
+
+13:05 - 13:10   Codelists                                      Slides 10 - 37
+
+
+13:10 - 13:30   Issues with                                    Slides 38 - 42
+                GeoDCAT-AP alignment
+
+13:30 - 13:50   Issues with a feedback request                 Slides 43 - 51
+
+
+13:50 - 14:00   Next steps                                     Slides 53
+
+
+
+                                          Meeting Slides
+
+                                              LINK
+
+
+
+                                           Participants
+
+
+Name                           Initials   Organisation
+
+
+Ahmed Abid                     AA         NTT Data
+
+Alex Akkila Forsberg           AAK        Not Shared
+                                      Participants
+
+
+Name                      Initials   Organisation
+
+
+Ana Velasco               AV         IGN Spain
+
+Anastasia Sofou           AS         SEMIC Team
+
+Andras                    A          Not Shared
+
+Andreas Fogelberg         AF         Not Shared
+
+Anja Loddenkemper         AL         GDI-NI
+
+Anna Miglio               AM         Royal Observatory of Belgium
+
+Annie Royen               AR         Not Shared
+
+António Soares            AS         AMA, Portugal
+
+Bart Hanssens             BH         BOSA, Belgium
+
+Bert Van Nuffelen         BVN        SEMIC Team
+
+Berta                     B          CR
+
+Eva Christina Andersson   ECA        Not Shared
+
+Casper le Gras            CLG        Not Shared
+
+Christian Wittig          CW         SK Hamburg
+
+Costas Simatos            CS         Not Shared
+
+Daniela Witter            DW         Not Shared
+
+Darko                     D          Not Shared
+
+Emidio Stani              ES         SEMIC Team
+
+Emiel Dhondt              ED         SEMIC Team
+                                      Participants
+
+
+Name                      Initials   Organisation
+
+
+Enric Staromiejski        ES         NTT Data
+
+Eva Thelisson             ET         Not Shared
+
+Faruk Karabulut           FK         SEMIC Team
+
+Flojere Thaqi Blakaj      FTB        Not Shared
+
+Floor Van Damme           FVD        Not Shared
+
+George Mourkousis         GM         HSE
+
+Gérald                    G          Not Shared
+
+Haluk Inanmis             HI         Inted Ltd
+
+Ine Weyts                 IW         SEMIC Team
+
+Israel Romero             IR         Not Shared
+
+Jakub Klimek              JK         SEMIC Team
+
+Jan Meijer                JM         Not Shared
+
+Jan R.                    JR         Not Shared
+
+Jean-Christophe Haffner   JCH        SEMIC Team
+
+Jens Kuscherka            JK         Not Shared
+
+Jim Yang                  JY         NO
+
+Jan Hjelamger             JH         DNK
+
+Joachim Nielandt          JN         BE
+
+Jordi Escriu              JE         EC-JRC
+                                 Participants
+
+
+Name                 Initials   Organisation
+
+
+José Pedro           JP         Not Shared
+
+Juliette Legrand     JL         Not Shared
+
+Kees Trautwein       KT         Architect GU
+
+Kuldar Aas           KA         EE
+
+Lars                 L          DK
+
+Lars-Inge Arnevik    LIA        NO
+
+Laura                L          Not Shared
+
+Peter Lubrich        PL         BASt
+
+Ludger Rinsche       LR         Not Shared
+
+Agata Majchrowska    AM         Not Shared
+
+Manuel Jañez         MJ         ES-datos.gob.es
+
+Mariela Rodriguez    MR         Not Shared
+
+M.Adam               MA         Not Shared
+
+Martin Alvarez       MA         Not Shared
+
+Matthias Grönewald   MG         FITKO
+
+Matthias Palmer      MP         Not Shared
+
+Miguel Cea           MC         Not Shared
+
+Josema Alonso        JA         SEMIC Team
+
+Szilvia Mészáros     SM         Not Shared
+                                    Participants
+
+
+Name                    Initials   Organisation
+
+
+Michal Kuban            MK         CNECT
+
+Mohamed Chouaiech       MC         DG SANTE
+
+Niels Hoffmann          NH         NL / Geonovum
+
+Natalia Zylinska Puta   NZP        DG SANTE
+
+Nataliia                N          Not Shared
+
+De Ville                DV         RBINS
+
+Oceane Abrard           OA         Not Shared
+
+Øystein Åsnes           ØÅ         NO
+
+Pablo Diez              PD         Spanish Ministry of Digital Transformation
+
+Paloma Abad             PA         Not Shared
+
+Pavlina Fragkou         PF         DIGIT
+
+Peter Bruhn Andersen    PBA        Danish Agency for Digital Goverment
+
+Pedro Polonia           PP         EDA
+
+Pierre Billot           PB         Not Shared
+
+Priyanka                P          Not Shared
+
+RMIS                    R          Not Shared
+
+Antonio Rotundo         AR         IT
+
+Sander Van Dooren       SVD        DIGIT
+
+Simon Dutkowski         SD         FOKUS
+                                      Participants
+
+
+Name                      Initials   Organisation
+
+
+Stijn Tallir              ST         Not Shared
+
+Svetlogor Kirov           SK         Not Shared
+
+Terje Sylvarnes           TS         The Norwegian Digitalisation Agency
+
+Thomas Tursics            TT         DE, GovData
+
+Uwe Voges                 UW         Not Shared
+
+Elizabeth                 E          Not Shared
+
+Sebastian Sklarß          SS         Not Shared
+
+
+
+
+Points discussed and decisions taken
+
+Topics discussed                     Outcome
+
+Codelists
+
+Issue #407                           Approved
+
+Issue #408                           Approved
+
+Issue #409                           Issue raised to GitHub
+
+GeoDCAT-AP alignment
+
+Issue (#370 derived from #82         Relaxation approved
+GeoDCAT-AP) & #380
+
+Issue #384                           Relaxation approved
+
+Issue #175 & #265; GeoDCAT-AP        Issue raised to GitHub
+#68
+Feedback requests
+
+Issue #405                          Issue raised to GitHub
+
+Issue #348                          Issue raised to GitHub
+
+Issue #402                          Issue raised to GitHub
+
+Issue #386                          Approved
+
+Issue #404                          Approved
+
+Issue #295                          Approved
+
+
+
+
+Full Meeting Minutes
+Welcome &           PF welcomes the participants and goes over the webinar practicalities,
+Introduction        followed by brief overview of SEMIC specifications including the Core
+                    Vocabularies and Application Profiles.
+Slides 1 - 7
+                    Next PF introduces the objective of today’s webinar.
+Speaker: Pavlina    Address several key topics related to DCAT-AP:
+Fragkou, Bert Van      ● Address the status of DCAT-AP: Overview of the outstanding
+Nuffelen                  issues and their resolution.
+                       ● Specify the expected use of controlled vocabularies.
+                       ● Discuss open issues related to the alignment with GeoDCAT-
+                          AP.
+                       ● Introduce open issues for which community feedback is
+                          requested.
+                       ● Handle changes in external vocabularies.
+
+                    BVN highlights the current status of DCAT-AP:
+                      • Total open issues: 43
+                              o Bugs: 6
+                              o Generic questions for information: 10
+                              o Feedback requested: 7
+                      • Potential releases for this year:
+                              o Bugfix release (Q2 2025): For issues that can be
+                                  immediately fixed.
+                              o Minor release (Q4 2025): For issues that require further
+                                  elaboration and have a significant impact on the
+                                  community.
+Codelits            BVN mentions that the topic related to codelists was presented and
+                    subsequently discussed during the last GeoDCAT-AP webinar on 14th
+Slides 10 - 37      May 2024. However, it has not yet been addressed within the broader
+                    DCAT-AP community. The objective is to reach a consensus on a
+Speaker: Bert Van   concrete proposal.
+Nuffelen
+                    The primary issue discussed in this section is the necessity to establish
+                    a common interpretation for the use of codelists in DCAT-AP.
+                    Specifically, the webinar addressed the interpretation of qualifications
+                    such as 'must,' 'is recommended,' and 'may' for codelists. The objective
+                    is to provide clear semantics for these qualifiers to ensure consistent
+                    implementation and validation across different profiles.
+
+                    Multiple systems scenario
+                    A scenario was presented to illustrate the challenges of using codelists
+                    across multiple systems:
+
+                       •   Scenario: A publisher publishes successfully for System 1 but
+                           fails for System 2 due to different codelist requirements.
+                       •   Solution: The webinar proposed the need for combined
+                           guidelines for publishers to ensure consistent validation across
+                           different systems
+
+                    Multiple systems scenario issue arises due to two interpretations for the
+                    mandatory codelist. BVN explained the two interpretations for
+                    mandatory codelists:
+                       • Interpretation 1: The value space is closed under the codelist,
+                            meaning only values from the codelist are allowed.
+                                o Strict validation: If a property has a value outside the
+                                   codelist, it results in a validation violation.
+                                o Application: Conformant to the way literal value spaces
+                                   are expressed, making it suitable for programming
+                                   languages and most software systems.
+                                o Validation: Existing SHACL shapes can be used as-is,
+                                   making validation simple and direct. Violations drive the
+                                   feedback, ensuring strict adherence to the codelist.
+                       • Interpretation 2: At least one value from the codelist is required,
+                            allowing for additional values from other codelists
+                                o Application: where there is a need for aggregation at the
+                                   level of properties, allowing for more flexibility.
+                                o Validation: Existing SHACL shapes cannot be used as-is
+                                   and require a filtering process as part of the processing
+                                   and conformance building. This filtering process is non-
+                                   trivial to standardise and implement, making poor
+                                   usages harder to detect.
+                                        ▪ Matching SHACL shapes can be designed
+The choice between these two interpretations depends on the desired
+level of strictness and flexibility in the implementation of codelists.
+Cross-profile assessment:
+    • Interpretation 1: More strict, requiring coordination among
+        profiles to avoid conflicts. For example, if DCAT-AP uses
+        Interpretation 2 and GeoDCAT-AP uses Interpretation 1, the
+        usage in DCAT-AP would also need to adhere to Interpretation
+        1.
+    • Interpretation 2: Allows for more flexibility but still requires
+        coordination to ensure consistent implementation across
+        profiles.
+
+Many participants believe that Interpretation 1 is harmful to
+interoperability and violates the open world assumption due to its
+limitation of a property to just one codelist. This view is widely
+supported, with many participants preferring Interpretation 2, as
+reflected in the general sentiment of the chat.
+
+Issue #407:
+Necessity to confirm the current qualification of codelists use in DCAT-
+AP for various codelists.
+SEMIC Proposition
+Proposed usage for the codelists provided by SEMIC to be agreed on.
+
+
+
+
+Resolution
+MP recommends usage of “may” for dct:accessRights instead of
+“must”. LR mentions usage of “recommended” for dct:accessRights
+given that they work on an application profile where they would like to
+use access right without a controlled vocabulary, LR also agrees for the
+other green propositions.
+
+Additional question:
+MC asked regarding the IANA codelist values are currently available
+only in XML format and not in RDF, in Controlled Vocabularies SHACL
+file stated that values can not be expressed in SHACL unless RDF
+format for IANA codelist is created. BVN suggests that, to align with
+current RDF structural practices, the URLs of the IANA media type
+URIs should be tweaked and trusted to point to the correct concepts,
+even though they are not published as cost concepts. JK suggested
+moving this discussion to GitHub for further exploration and input for
+the best way to use IANA media types, keeping the issue open for now.
+
+
+Issue #408:
+The codelists “dct:type (Agent Type)” and “dct:type (licence type)” are
+currently interpreted as a ‘must” in the qualification table. BVN raised
+concerns that the existing code lists for agents and licenses may not be
+comprehensive enough, or sufficiently centralised and harmonised to
+cover all necessary cases.
+SEMIC proposition:
+Change the qualification of the codelists “dct:type (Agent Type)” and
+“dct:type (licence type)” from "must" to "recommended". It is still
+suggested to use these code lists, but not on a mandatory basis,
+allowing for more flexibility in their application.
+
+
+
+
+Resolution:
+LR agreed on this proposal, as he raised the issue himself earlier.
+There were no objections from the participants. BVN emphasised that
+any comments should be directed to the relevant GitHub issue.
+
+Issue #409:
+BVN highlights the driving issue regarding the use of codelists
+“dcat:theme”. There are two formulations for the codelist “dcat:theme”:
+the individual usage note formulates the usage of "at least one" and the
+codelist section formulates the usage of "must," which corresponds to a
+stricter interpretation.
+The conflict affects the consistency and interoperability of “dcat:theme”
+and its associated codelists across different profiles. In practice many
+data portals have aligned with the EU NAL dataset theme vocabulary
+by extending it or mapping to it (e.g. INSPIRE)
+SEMIC proposition:
+The goal is to resolve this conflict and provide clear guidance on which
+interpretation to use. Three proposals are presented by BVN:
+
+   •   Proposition A - MUST:
+       All other DCAT-AP profiles that would like to share their theme
+       must introduce a subproperty of dcat:theme. dcat:theme
+       stays paired exclusively with the EU NAL Dataset theme
+       Vocabulary. Conflict stays with profiles beyond EU boundaries.
+       Bug fix release of the specification
+
+   •   Proposition B – AT LEAST 1:
+       All data Catalogues must adapt their uniqueness expectation in
+       the theme property and implement a filter based on the theme
+       they like to show in the UI. The used codelists MUST be
+       published as proper Linked Data in the public space. To
+       facilitate every portal to make easy decisions.
+       Bug fix release of the specification.
+
+   •   Proposition C – Conflict free resolution:
+       Replace the use of dcat:theme in DCAT-AP with a subproperty
+       of dcat:theme. The new property r5r:theme stays paired
+       exclusively with the EU NAL Dataset theme Vocabulary.
+       Minor release of the specification.
+
+Resolution:
+Priyanka mentioned that Proposition A is preferred because it allows for
+easier combination with other domains. She stated "A is preferred,
+otherwise you can't combine with other domains". When asked to
+elaborate, she explained that from a harvester's point of view, having a
+controlled vocabulary makes it easier to filter on certain domains.
+Without a controlled vocabulary, one would first have to figure out what
+all keywords relate to a specific domain, such as health. MP responded
+by sharing their experience with the Swedish data portal. They
+confirmed that this is a real problem and explained that they typically
+use faceting based on themes.
+
+SVD addresses the concern that if the controlled vocabulary is limited
+to just one, it will hinder the adoption of other taxonomies. SVD agrees
+with MP's earlier point about using controlled vocabularies. SVD
+highlights the flexibility in expressing domain vocabularies and
+performing faceting and drill-down operations without being explicit, but
+notes that this introduces a runtime dependency. This flexibility allows
+for extending the system without writing new code and supporting
+multiple ways of faceting in a catalogue. SVD also mentions that fixing
+the system to one controlled vocabulary and requiring something not in
+DCAT seems counterintuitive. They suggest that it might be better to
+use the construct present in DCAT as intended and create a sub-
+property if something specific is needed, while expressing his
+preference for proposition B.
+BVN remarks regarding proposition B it's crucial to publish and use
+code lists according to linked data principles. Failing to do so could lead
+to potential chaos. JK summarises from the chat that votes for B are
+slightly more favoured than for A. Therefore, further discussion on this
+issue will be moved to the GitHub.
+Issues with         Issue (#370 derived from #82 GeoDCAT-AP) & #380:
+GeoDCAT-AP          The relaxation is regarding the cardinality of the property dct:rights.
+alignment           BVN explains that historically rights were limited to one document
+                    listing all rights. However, in GeoDCAT-AP, metadata often comes from
+Slides 38 - 42      translation of ISO to DCAT-AP, resulting in individual statements split
+                    into multiple lines and descriptions. This means there are multiple rights
+Speaker: Bert Van   documents instead of just one. In DCAT-AP dct:rights is used for
+Nuffelen            Catalogue and Distribution, with the current cardinality 0..1, in
+                    GeoDCAT-AP, the cardinality was relaxed to 0..*. In DCAT-AP HVD,
+                    dct:rights with cardinality 0..* is used also for Data Services.
+                    SEMIC Proposition:
+                    Given this history, it was proposed to increase cardinality. Relax
+                    cardinality for dct:rights to 0..* everywhere in DCAT-AP.
+                    Resolution
+                    There were no objections, and the relaxation is accepted.
+
+                    Issue #384:
+                    BVN explained the conflicting cardinality of the spatial resolution with
+                    GeoDCAT-AP. There was a limitation in DCAT-AP where only one
+                    spatial resolution was available at the data set level. The community
+                    pointed out that spatial resolution for data sets should describe the
+                    resolutions in the original data, which might be captured in different
+                    resolutions.
+                    SEMIC proposition:
+                    Relax the DCAT-AP 3.0 cardinality of spatial resolution for Dataset to
+                    0..*.
+                    Resolution:
+                    There were no objections, and the relaxation has been accepted.
+
+                    Issue #175 & #265; GeoDCAT-AP #68:
+                    BVN emphasised the need for multiple representations of location
+                    information (WKT, GML, GeoJSON) due to varying formats.
+                    Current SHACL constraints allow only one instance of locn:geometry,
+                    dcat:bbox, and dcat:centroid. However, GeoDCAT-AP permits multiple
+                    instances, representing one entity, described using different geometry
+                    encodings, e.g. WKT, GML and GeoJSON, leading to SHACL
+                    validation errors.
+                    SEMIC proposition:
+                    The current bounding box cardinality is 1, but multiple representations
+                    are needed, similar to multilingual texts, by lifting the cardinalities to
+                    0..*.
+                    Resolution:
+                    MP suggested choosing a single format (WKT or GML) since GeoJSON
+                    has only one coordinate reference system. The issue of duplicate
+                    metadata was raised, and it was proposed that the community should
+                    harmonise on one format. JK highlighted that there was no consensus
+                    observed during the GeoDCAT-AP discussions on WKT or GML due to
+                    their different expressive powers. BVN agreed to take a note, as no
+                    immediate decision could be made, and community alignment was
+                    needed. JE agreed with MP's comment and additionally noted that in
+                    the final GeoDCAT-AP document, the metadata should be presented in
+                    a single, selected format.
+
+Issues with a       Issue #405:
+feedback request    BVN highlighted the need for a new property to provide more insight
+                    into the type of data service available. DCAT-AP provides no option for
+Slides 43 - 51      Data Service providers to classify the type of the Data Service.
+                    SEMIC proposition:
+Speaker: Bert Van   Create subproperty dcatap:dataServiceType of dct:type to denote
+Nuffelen            "types" of Data Services using a common codelist.
+                    Similar to the geodcatap:serviceType property introduced in GeoDCAT-
+                    AP with a codelist maintained by INSPIRE.
+                    Resolution:
+                    BVN suggested that the existing GeoDCAT-AP service type,
+                    maintained by the community, is very close to what is needed.
+                    SS mentioned that they had raised this issue and agreed that the
+                    proposition is a good idea, given that it is currently missing. MP
+                    debated whether a new property was necessary, suggesting that the
+                    existing DCT type could be used instead. The ambiguity remained and
+                    was further raised to GitHub.
+
+                    Issue #348:
+                    BVN mentioned the issue regarding identifying data set series in the
+                    catalog, as there is no direct property in DCAT for this purpose. How to
+                    include a dcat:DatasetSeries directly into a dcat:Catalog? In DCAT-AP
+                    3.0.0, dcat:DatasetSeries is not a subclass of dcat:Dataset but of
+                    dcat:Resource, creating ambiguity in how to properly include it in a
+                    catalog.
+                    SEMIC proposition:
+                        • No support, wait for W3C (no release)
+                        • Introduce a separate r5r:datasetSeries property (equivalent to
+                            dcat:Dataset or dcat:DataService) (minor release)
+                        • Replace the use of dcat:Dataset and dcat:DataService with
+                            dcat:Resource and then it is up to the system to address the
+                            expectations. (minor release)
+                    Resolution:
+                    MP questioned the necessity of distinguishing between data sets and
+                    data set series, suggesting that the type property might complicate
+                    matters, MP proposed the usage of dcat:Dataset. The community
+                    needs to decide on the best approach to address this issue, with a call
+                    for participation on the GitHub issue to gather more viewpoints and
+                    collaboratively come to a concrete proposition for the autumn 2025
+                    webinar.
+
+                    Issue #402:
+                    BVN highlighted the DCAT-AP use of SPDX for checksums to
+                    determine the status and quality of distributions. The release of SPDX
+                    3.0 introduced significant changes from SPDX 2.0, including new URIs
+                    and a different structure. This change impacts DCAT-AP users who rely
+on SPDX 2.0 for checksum representation, as they would need to
+adapt to the new version without gaining additional benefits.
+SEMIC proposition:
+    • Option A: replace SPDX 2.3 with SPDX 3.0 (minor release)
+    • Option B: do not replace SPDX 2.3 but add usage note (bug fix
+        release)
+Resolution:
+MC suggested to support both versions, allowing users to choose
+based on their system dependencies. However, this approach might
+complicate implementation for portal users. MP emphasised the need
+for a principle to handle dependencies on external vocabularies and the
+potential impact of such changes on the community. MP also
+mentioned the possible usage of proxy vocabularies in case there isn’t
+commitment from the external vocabulary. The community needs to
+decide on the best approach to address this issue, with a call for
+participation on the GitHub issue.
+
+Issue #386:
+The current limitation in DCAT-AP, which allows only one publisher for
+a catalogue. Limitation problematic for catalogues maintained by
+multiple organisations
+SEMIC proposition:
+The proposal is the usage of foaf:Group instead if foaf:Agent for the
+range to bundle all members of the publisher group, without changing
+the cardinality
+Resolution:
+There were no comments provided by the participants.
+
+Issue #404:
+BVN highlighted the issue that DCAT-AP provides no option for data
+providers to make annotations regarding the intended target audience
+of a dataset.
+SEMIC proposition:
+Target audience is a vague concept. Objective is very portal usage
+dependent. Therefore, sharing it might be not informative.
+Proposal not to adopt this.
+Resolution:
+SS raised this issue because it relevance for more specific variants of
+DCAT-AP, such as in the health sector, where it might be important to
+distinguish between datasets for scientists and politicians. However, it
+was suggested that this should be handled in sector-specific DCAT-AP
+variants rather than in the central DCAT-AP. MG commented that it is
+not a good property to include in DCAT-AP due to the higher risk of
+misinterpretation. The general consensus was to not adopt the
+proposal.
+
+Issue #295:
+BVN raised an old issue again regarding the label of the property
+                    change type seems not to match the definition and the mapping on
+                    the URI adms:status, before closing it due to the lack of comments.
+                    There were requests to provide a better definition or to rely on the
+                    community for feedback. However, no substantial feedback was
+                    received except for a recent mention to change the word "status" to
+                    "change type" in the definition. This suggestion was avoided to prevent
+                    a circular definition.
+                    SEMIC proposition:
+                    Since no feedback has been provided, proposal is to close the issue
+                    without consequence
+                    Resolution:
+                    There were no comments provided by the participants, agreement on
+                    the closing of this issue.
+
+Next steps          BVN wrapped up the session by summarising that small changes and
+                    relaxations will be included in a bug fix release, while bigger topics may
+Slides 53           require further proposals and discussions later in the year. A webinar
+                    will be held before the release to gather feedback and address smaller
+Speaker: Bert Van   issues promptly. Participants are encouraged to provide additional
+Nuffelen, Pavlina   feedback on open issues before April.
+Fragkou             BVN thanked everyone for their participation and interaction.
+
+                    PF expressed gratitude to the participants for their feedback, which are
+                    essential for making progress on the issues. PF also announced their
+                    departure from the role at SEMIC and mentioned that this was her last
+                    webinar. Additionally, PF extended special thanks to the team
+                    supporting the DCAT-AP, acknowledging their efforts.
+
