@@ -1074,37 +1074,37 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Underfull \hbox (badness 1642) in paragraph at lines 23--24
+Underfull \hbox (badness 1642) in paragraph at lines 25--26
 []\TU/texgyrepagella-regular.otf(0)/m/n/10 Master Data Management (MDM) wordt b
 esproken als technische integratievoor-
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 23--24
+Underfull \hbox (badness 2903) in paragraph at lines 25--26
 \TU/texgyrepagella-regular.otf(0)/m/n/10 paper onderzoekt hoe de belangrijkste 
 concepten, capabilities, architectuurpatronen,
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 23--24
+Underfull \hbox (badness 1173) in paragraph at lines 25--26
 \TU/texgyrepagella-regular.otf(0)/m/n/10 een verkennende literatuurreview, anal
 yse van officiële standaarddocumenten en con-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 23--24
+Underfull \hbox (badness 2285) in paragraph at lines 25--26
 \TU/texgyrepagella-regular.otf(0)/m/n/10 De synthese onderscheidt entiteit, rec
 ord, selectie van voorkeurswaarden, metadata,
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 23--24
+Underfull \hbox (badness 1097) in paragraph at lines 25--26
 \TU/texgyrepagella-regular.otf(0)/m/n/10 Vroege MDM-bronnen behandelen reeds be
 drijfssemantiek, context en masterdata als
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 23--24
+Underfull \hbox (badness 6910) in paragraph at lines 25--26
 \TU/texgyrepagella-regular.otf(0)/m/n/10 van capability-taxonomieën, de voorwaa
 rden waaronder semantische formalisering
  []
@@ -1199,20 +1199,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1571) in paragraph at lines 41--42
+Underfull \hbox (badness 1571) in paragraph at lines 43--44
 \TU/texgyrepagella-regular.otf(0)/m/n/10.95 standaardenmatrix, conceptanalyse, 
 het claims-register en het hiatenregister staan onder
  []
 
 [28] [29] [30] [31]
-Underfull \hbox (badness 2050) in paragraph at lines 44--44
+Underfull \hbox (badness 2050) in paragraph at lines 46--46
 [][]\TU/texgyrepagella-regular.otf(0)/m/n/10.95 OntoUML-onderzoeksgemeenschap (
 z.d.). \TU/texgyrepagella-regular.otf(0)/m/it/10.95 OntoUML\TU/texgyrepagella-r
 egular.otf(0)/m/n/10.95 . Modelleertaal / metamodel; onder-
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 44--44
+Underfull \hbox (badness 4608) in paragraph at lines 46--46
 \TU/texgyrepagella-regular.otf(0)/m/it/10.95 master data quality management\TU/
 texgyrepagella-regular.otf(0)/m/n/10.95 . Peer-reviewed tijdschriftartikel; Inf
 ormation Systems
@@ -1225,4 +1225,4 @@ Package logreq Info: Writing requests to 'mdm-overzicht.run.xml'.
 \openout1 = `mdm-overzicht.run.xml'.
 
  )
-Output written on mdm-overzicht.xdv (33 pages, 1133648 bytes).
+Output written on mdm-overzicht.xdv (33 pages, 1134440 bytes).

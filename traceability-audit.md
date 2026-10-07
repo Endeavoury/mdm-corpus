@@ -29,6 +29,6 @@ Alle prototype-eigenschappen blijven niet beoordeeld. BAG vormt slechts een begr
 
 Tectonic 0.17.0 met BibTeX/`plainnat`. Reproduceren: `make TECTONIC=/pad/naar/tectonic`.
 
-PDF SHA-256: `64c39e67004d10e0c03ab53fc1d45aeea84203a998b2db04519bcd27a7de1e94`.
+PDF SHA-256: `808c2760bebe8a8a5f6d9327365706fd7649ee9c05805f0a7c63af8cf3472f9e`.
 
 Het slothoofdstuk en `pre-evaluation-research-state.md` specificeren propositions, principes, prototypevragen, onafhankelijke/afhankelijke variabelen en ondersteuning-/weerleggingscondities.
